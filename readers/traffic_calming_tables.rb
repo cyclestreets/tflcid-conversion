@@ -39,7 +39,7 @@
 			puts "Couldn't identify #{attrs['FEATURE_ID']}"
 			debug_ways(ways,lat,lon)
 			if !ways.empty? && ways[0][:dist]<10
-				lat, lon = snap(lat, lon, ways[0][:id])
+				lat, lon, prop = snap(lat, lon, ways[0][:id])
 				puts "(snapped)".red
 			end
 			output[:to_check] << { type: "Feature", properties: osm_tags, geometry: { type: "Point", coordinates: [lon,lat] } }

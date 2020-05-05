@@ -17,7 +17,7 @@
 	data = JSON.parse(File.read("#{__dir__}/../tfl_data/traffic_calming.json"))
 	$conn = PG::Connection.new(dbname: "osm_london")
 	output = { road: [], cycleway: [], to_check: [] }
-	next_negative = -1
+	nodes_created = 0
 	new_features = 0
 
 	data['features'].each do |f|
@@ -84,23 +84,24 @@
 				if w[:dist]<20 && w[:tags]['highway']==ways[0][:tags]['highway'] then way_candidates << w[:id] end
 			end
 			nearby = nearest_nodes(lat,lon,way_candidates)
-			if nearby[0][:dist]<10
-				puts "Use existing node #{nearby[0][:id]}"
-				highway = ways.find { |w| w[:id]==nearby[0][:way_id] }[:tags]['highway']
-				# ***** Merge existing node tags
+			n = nearby[0]
+			if n[:dist]<10
+				puts "Use existing node #{n[:id]}"
+				highway = ways.find { |w| w[:id]==n[:way_id] }[:tags]['highway']
 				feature = { type: "Feature", 
-					properties: osm_tags.merge(osm_id: nearby[0][:id]),
-					geometry: { type: "Point", coordinates: [nearby[0][:lon],nearby[0][:lat]] } }
+					properties: node_tags(n[:id]).merge(osm_tags).merge(osm_id: n[:id]),
+					geometry: { type: "Point", coordinates: [n[:lon],n[:lat]] } }
 
 			else
 				puts "Create new node"
 				highway = ways[0][:tags]['highway']
-				new_lat, new_lon = snap(lat,lon,ways[0][:id])
+				new_lat, new_lon, prop = snap(lat,lon,ways[0][:id])
 				puts "Snapping to #{new_lat},#{new_lon}"
+				new_index = way_subscript(new_lat,new_lon,ways[0][:id],prop)
 				feature = { type: "Feature", 
-					properties: osm_tags.merge(osm_id: next_negative),
+					properties: osm_tags.merge(osm_way_id: ways[0][:id], osm_insert_after: new_index),
 					geometry: { type: "Point", coordinates: [new_lon,new_lat] } }
-				next_negative -= 1
+				nodes_created += 1
 			end
 			if highway=='cycleway' then
 				puts "On cycleway".green
@@ -120,7 +121,7 @@
 	end
 
 	puts "Totals: #{output[:road].count} on roads, #{output[:cycleway].count} on cycleways, #{output[:to_check].count} to check"
-	puts "New: any features #{new_features}, OSM nodes #{-next_negative}"
+	puts "New: any features #{new_features}, OSM nodes #{nodes_created}"
 	File.write("#{__dir__}/../output/bumps_road.geojson",     { type: "FeatureCollection", features: output[:road    ] }.to_json)
 	File.write("#{__dir__}/../output/bumps_cycleway.geojson", { type: "FeatureCollection", features: output[:cycleway] }.to_json)
 	File.write("#{__dir__}/../output/bumps_to_check.geojson", { type: "FeatureCollection", features: output[:to_check] }.to_json)

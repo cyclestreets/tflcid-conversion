@@ -72,7 +72,7 @@ data['features'].each do |f|
 	if ways.any? { |w| (w[:tags]['highway']=='cycleway' && w[:dist]<10) || (["path","pedestrian","footway"].include?(w[:tags]['highway']) && w[:dist]<5) }
 		puts "Existing cycleway".blue
 		nearest = ways.find { |w| ["cycleway","path","pedestrian","footway"].include?(w[:tags]['highway']) }
-		lat,lon = snap(lat,lon,nearest[:id])
+		lat,lon,prop = snap(lat,lon,nearest[:id])
 		output[:cycleways] << { type: "Feature", properties: osm_tags, geometry: { type: "Point", coordinates: [lon,lat] } }
 		next
 	end
@@ -99,8 +99,11 @@ BEGIN {
 		junctions = find_junctions(lat,lon,ways.collect { |w| w[:id] })
 		# reject any nodes which are at a junction
 		nodes.reject! { |n| junctions.any? { |j| j[:id]==n[:id] } }
-		# if there's a node, use it; otherwise create new one
+		# if there's a node within 3m, use it; otherwise create new one
+		# (but if we're beyond the start/end, we can't create a new one, so we snap to start/end)
 		n = nodes.find { |n| n[:dist]<3 }
+		new_lat,new_lon,prop = snap(lat,lon,selected_way_ids[0])
+		if !n && (prop==0 || prop==1) then n=nodes[0] end
 		if n
 			puts "Reuse node".blue
 			output[:new] << { type: "Feature",
@@ -108,8 +111,10 @@ BEGIN {
 				geometry: { type: "Point", coordinates: [lon,lat] } }
 		else
 			puts "Create new node".blue
-			lat,lon = snap(lat,lon,selected_way_ids[0])
-			output[:new] << { type: "Feature", properties: osm_tags, geometry: { type: "Point", coordinates: [lon,lat] } }
+			new_index = way_subscript(new_lat,new_lon,selected_way_ids[0],prop)
+			output[:new] << { type: "Feature", 
+				properties: osm_tags.merge(osm_way_id: selected_way_ids[0], osm_insert_after: new_index), 
+				geometry: { type: "Point", coordinates: [new_lon,new_lat] } }
 		end
 	end
 

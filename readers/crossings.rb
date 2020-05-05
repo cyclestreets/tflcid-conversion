@@ -23,7 +23,7 @@ require_relative './tfl_common.rb'
 
 data = JSON.parse(File.read("#{__dir__}/../tfl_data/crossing.json"))
 $conn = PG::Connection.new(dbname: "osm_london")
-output = { new: [], to_check: [], railways: [], tags_changed: [] }
+output = { to_check: [], railways: [], junctions: [], tags_changed: [] }
 skipped = 0
 
 data['features'].each do |f|
@@ -37,7 +37,11 @@ data['features'].each do |f|
 		next
 	end
 
+	# -------------------------------
+	# Get OSM data points to consider
+
 	# Find road intersections
+	# intersections is an array of {:lat,:lon,:highway,:tags,:id} for all crossing roads
 	geom = f['geometry'].to_json # suitable for ST_GeomFromGeoJSON
 	sql = <<-SQL
 	SELECT osm_id,highway,hstore_to_json(tags) AS tags,
@@ -51,17 +55,30 @@ data['features'].each do |f|
 		{ id: res['osm_id'].to_i, highway: res['highway'], tags: JSON.parse(res['tags']), lon: lon, lat: lat }
 	end
 
-	# Find existing crossings
+	# Find existing crossing nodes nearby
+	# existing_crossings is an array of {:lat,:lon,:dist,:tags,:id} for all crossing nodes within 20m
 	fc = f['geometry']['coordinates'].flatten
 	lon = (fc[0]+fc[-2])/2
 	lat = (fc[1]+fc[-1])/2
 	existing_crossings = collect_crossings(lat,lon,20)
 
+	# Find all existing junctions
+	# junctions is an array of {:lat,:lon,:dist,:highways,:id } for all junctions within 20m
+	ways = collect_ways(lat,lon,20,true)
+	junctions = find_junctions(lat,lon,ways.collect {|w| w[:id]}).select { |j|
+		j[:dist]<20 && 
+		( PATHS.any? { |r| j[:highways].include?(r) } ) &&
+		( ROADS.any? { |r| j[:highways].include?(r) } )
+	}
+
+	# -------------------------------
+	# Examine all OSM roads that the TfL line crosses
+
 	if !intersections.empty?
-		# Use any/all intersections
-		# (if any tally with an existing crossing, even better)
 		intersections.each do |inter|
 			nearest_existing = existing_crossings.min_by { |c| FasterHaversine.distance(c[:lon],c[:lat],inter[:lon],inter[:lat]) }
+
+			# --> Existing crossing, so use that
 			if nearest_existing
 				if tags_clash(osm_tags, nearest_existing[:tags])
 					puts "Tag clash".red
@@ -82,11 +99,31 @@ data['features'].each do |f|
 				else
 					skipped +=1
 				end
+
+			# --> No existing crossing, but there's a cycleway junction we can use
+			elsif junctions.any? { |j| j[:way_ids].include?(inter[:id]) }
+				n = junctions.find { |j| j[:way_ids].include?(inter[:id]) }
+				puts "Use cycleway junction #{n[:id]}: https://osm.org/node/#{n[:id]}".green
+				output[:junctions] << { type: "Feature", 
+					properties: node_tags(n[:id]).merge(osm_tags).merge(osm_id: n[:id]), 
+					geometry: { type: "Point", coordinates: [n[:lon],n[:lat]] } }
+
+			# --> No obvious candidate, so create a new crossing, using an existing node if we can
 			else
-				# Create a new crossing
-				output[:new] << { type: "Feature", 
-					properties: node_tags(inter[:id]).merge(osm_tags).merge(osm_id: inter[:id]), 
-					geometry: { type: "Point", coordinates: [inter[:lon],inter[:lat]] } }
+				nearby = nearest_nodes(lat,lon,[inter[:id]])
+				n = nearby[0]
+				if n[:dist]<10
+					puts "Use existing node #{n[:id]}: https://osm.org/node/#{n[:id]}".blue
+					output[:to_check] << { type: "Feature", 
+						properties: node_tags(n[:id]).merge(osm_tags).merge(osm_id: n[:id]),
+						geometry: { type: "Point", coordinates: [n[:lon],n[:lat]] } }
+				else
+					puts "New node".blue
+					new_index = way_subscript(inter[:lat],inter[:lon],inter[:id])
+					output[:to_check] << { type: "Feature", 
+						properties: osm_tags.merge(osm_way_id: inter[:id], osm_insert_after: new_index), 
+						geometry: { type: "Point", coordinates: [inter[:lon],inter[:lat]] } }
+				end
 			end
 		end
 
@@ -116,19 +153,13 @@ data['features'].each do |f|
 
 	else
 		# Can't find any intersecting or existing crossings, so look for a cycleway crossing a road
-		ways = collect_ways(lat,lon,20)
-		junctions = find_junctions(lat,lon,ways.collect {|w| w[:id]}).select { |j|
-			j[:dist]<20 && 
-			j[:highways].include?('cycleway') &&
-			( ROADS.any? { |r| j[:highways].include?(r) } )
-		}
 		if junctions.empty?
 			# Not found, so put in 'to_check'
 			output[:to_check] << { type: "Feature", properties: osm_tags, geometry: { type: "Point", coordinates: [lon,lat] } }
 		else
 			# Recommend a new one at junctions
 			junctions.each do |j|
-				output[:new] << { type: "Feature", 
+				output[:junctions] << { type: "Feature", 
 					properties: node_tags(j[:id]).merge(osm_tags).merge(osm_id: j[:id]), 
 					geometry: { type: "Point", coordinates: [j[:lon],j[:lat]] } }
 			end
@@ -137,10 +168,10 @@ data['features'].each do |f|
 	end
 end
 
-puts "Total: #{output[:new].length} new, #{output[:tags_changed].length} tags changed, #{output[:railways].length} railway crossings, #{output[:to_check].length} to check"
+puts "Total: #{output[:junctions].length} at existing junctions, #{output[:tags_changed].length} tags changed, #{output[:railways].length} railway crossings, #{output[:to_check].length} to check"
 puts "#{skipped} skipped (existing crossings with no tag conflict/change)"
 
-File.write("#{__dir__}/../output/crossings_new.geojson",          { type: "FeatureCollection", features: output[:new         ] }.to_json)
+File.write("#{__dir__}/../output/crossings_junctions.geojson",    { type: "FeatureCollection", features: output[:junctions   ] }.to_json)
 File.write("#{__dir__}/../output/crossings_rail.geojson",         { type: "FeatureCollection", features: output[:railways    ] }.to_json)
 File.write("#{__dir__}/../output/crossings_to_check.geojson",     { type: "FeatureCollection", features: output[:to_check    ] }.to_json)
 File.write("#{__dir__}/../output/crossings_tags_changed.geojson", { type: "FeatureCollection", features: output[:tags_changed] }.to_json)

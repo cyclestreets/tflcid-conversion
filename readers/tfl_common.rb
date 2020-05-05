@@ -7,6 +7,7 @@
 		'unclassified','residential','service','living_street','pedestrian']
 	MINOR_ROADS = ['tertiary','unclassified','residential','service','living_street','pedestrian']
 	VMINOR_ROADS= ['unclassified','residential','service','living_street','track']
+	PATHS = ['cycleway','footway','path']
 
 	# ==============================================================================================================
 	# Fetch geometries from database
@@ -70,7 +71,7 @@
 	
 	def collect_crossings(lat,lon,radius)
 		sql = <<-SQL
-		SELECT ST_Distance( way, ST_Transform(ST_SetSRID(ST_MakePoint($1,$2),4326),3857) ) AS dist, barrier, hstore_to_json(tags) AS tags, osm_id,
+		SELECT ST_Distance( way, ST_Transform(ST_SetSRID(ST_MakePoint($1,$2),4326),3857) ) AS dist, hstore_to_json(tags) AS tags, osm_id,
 			   ST_X(ST_Transform(way,4326)) AS lon,
 			   ST_Y(ST_Transform(way,4326)) AS lat
 		  FROM planet_osm_point
@@ -96,11 +97,40 @@
 	def snap(lat,lon,way_id)
 		sql = <<-SQL
 		SELECT ST_X(ST_ClosestPoint(ST_Transform(way,4326),ST_SetSRID(ST_MakePoint($1,$2),4326))) AS lon,
-		       ST_Y(ST_ClosestPoint(ST_Transform(way,4326),ST_SetSRID(ST_MakePoint($1,$2),4326))) AS lat
+		       ST_Y(ST_ClosestPoint(ST_Transform(way,4326),ST_SetSRID(ST_MakePoint($1,$2),4326))) AS lat,
+			   ST_LineLocatePoint(ST_Transform(way,4326),ST_SetSRID(ST_MakePoint($1,$2),4326)) AS prop
 	    FROM planet_osm_line WHERE osm_id=$3
 		SQL
 		res = $conn.exec_params(sql,[lon,lat,way_id])[0]
-		[res['lat'].to_f, res['lon'].to_f]
+		[res['lat'].to_f, res['lon'].to_f, res['prop'].to_f]
+	end
+	
+	# Find subscript for a new node in a given way
+	
+	def way_subscript(lat,lon,way_id,prop=-1)
+		# First, calculate the 0-1 proportion along the way if we don't already have it
+		pr = prop
+		if pr==-1 then _,_,pr=snap(lat,lon,way_id) end
+		if pr==0 || pr==1 then raise "Found proportion of #{pr} in way #{way_id}, at #{lat},#{lon}" end
+
+		# Then find this for each node
+		sql = <<-SQL
+		SELECT n.id,n.lat,n.lon,
+		       ST_LineLocatePoint(ST_Transform(l.way,4326),ST_SetSRID(ST_MakePoint(n.lon/10000000.0,n.lat/10000000.0),4326)) AS prop
+		  FROM planet_osm_nodes n 
+		  JOIN planet_osm_ways w ON n.id=any(w.nodes) AND w.id=#{way_id}
+		  JOIN planet_osm_line l ON l.osm_id=w.id
+	  ORDER BY array_position(w.nodes,n.id);
+		SQL
+		results = $conn.exec(sql).to_a
+
+		# Finally, return the index after which we insert the new node
+		# note edge case for self-intersecting ways like 578030062 (because array_position finds the first one)
+		results.each_with_index do |res,i|
+			return i if i==results.length-1
+			return i if pr>=res['prop'].to_f && pr<=results[i+1]['prop'].to_f
+		end
+		raise "Couldn't find index for node in way"
 	end
 
 	# Find junctions between a set of ways
@@ -109,7 +139,8 @@
 		return [] if way_ids.empty?
 		node_count    = {}
 		node_highways = {}
-		sql = "SELECT nodes,tags FROM planet_osm_ways WHERE id IN (#{way_ids.join(',')})"
+		node_ways     = {}
+		sql = "SELECT id,nodes,tags FROM planet_osm_ways WHERE id IN (#{way_ids.join(',')})"
 		$conn.exec(sql).each do |res|
 			tag_list = parse_pg_array(res['tags'] || '{}')
 			highway  = Hash[*tag_list]['highway']
@@ -120,6 +151,8 @@
 				node_count[nid] = (node_count[nid] || 0) + (end_point ? 1 : 2)
 				node_highways[nid] = {} unless node_highways[nid]
 				node_highways[nid][highway] = true
+				node_ways[nid] = {} unless node_ways[nid]
+				node_ways[nid][res['id'].to_i] = true
 			end
 		end
 		junction_nids = node_count.keys.select { |nid| node_count[nid]>2 }
@@ -131,6 +164,7 @@
 			id  = res['id'].to_i
 			{ id: id, lat: nlat, lon: nlon,
 			  highways: node_highways[id].keys,
+			  way_ids: node_ways[id].keys,
 			  dist: FasterHaversine.distance(lat,lon,nlat,nlon)*1000
 			}
 		}.sort_by { |n| n[:dist] }

@@ -89,8 +89,15 @@ data['features'].each do |f|
 		end
 		if ct==0
 			# Create a new snapped node
-			new_lat, new_lon = snap(lat,lon,minor[0][:id])
-			output[:new] << { type: "Feature",  properties: osm_tags, geometry: { type: "Point", coordinates: [new_lon,new_lat] } }
+			new_lat, new_lon, prop = snap(lat,lon,minor[0][:id])
+			if prop==0 || prop==1
+				output[:to_check] << { type: "Feature", properties: osm_tags, geometry: { type: "Point", coordinates: [lon,lat] } }
+			else
+				new_index = way_subscript(new_lat,new_lon,minor[0][:id],prop)
+				output[:new] << { type: "Feature",  
+					properties: osm_tags.merge(osm_way_id: minor[0][:id], osm_insert_after: new_index), 
+					geometry: { type: "Point", coordinates: [new_lon,new_lat] } }
+			end
 		end
 	end
 	

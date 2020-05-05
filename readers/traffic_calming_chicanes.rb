@@ -48,22 +48,25 @@ data['features'].each do |f|
 	unless ways.empty?
 		roads = ways.select { |w| ROADS.include?(w[:tags]['highway']) }
 		nearby = nearest_nodes(lat,lon,roads.collect { |r| r[:id] })
-		if nearby[0][:dist]<5
-			puts "Use existing node #{nearby[0][:id]}".green
-			# ***** Merge existing node tags
+		n = nearby[0]
+		if n[:dist]<5
+			puts "Use existing node #{n[:id]}".green
 			output[:new] << { type: "Feature", 
-				properties: osm_tags.merge(osm_id: nearby[0][:id]),
-				geometry: { type: "Point", coordinates: [nearby[0][:lon],nearby[0][:lat]] } }
+				properties: node_tags(n[:id]).merge(osm_tags).merge(osm_id: n[:id]),
+				geometry: { type: "Point", coordinates: [n[:lon],n[:lat]] } }
 		else
 			puts "New #{osm_tags['tfl_id']}".green
-			new_lat, new_lon = snap(lat,lon,roads[0][:id])
-			output[:new] << { type: "Feature", properties: osm_tags, geometry: { type: "Point", coordinates: [new_lon,new_lat] } }
+			new_lat, new_lon, prop = snap(lat,lon,roads[0][:id])
+			new_index = way_subscript(new_lat,new_lon,roads[0][:id],prop)
+			output[:new] << { type: "Feature", 
+				properties: osm_tags.merge(osm_way_id: roads[0][:id], osm_insert_after: new_index), 
+				geometry: { type: "Point", coordinates: [new_lon,new_lat] } }
 		end
 		
 	# No nearby ways
 	else
 		puts "No ways".red
-		output[:new] << { type: "Feature", properties: osm_tags, geometry: { type: "Point", coordinates: [lon,lat] } }
+		output[:to_check] << { type: "Feature", properties: osm_tags, geometry: { type: "Point", coordinates: [lon,lat] } }
 	end
 
 end
