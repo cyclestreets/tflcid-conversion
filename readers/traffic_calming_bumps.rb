@@ -45,25 +45,26 @@
 
 		if !calming.empty? && calming[0][:dist]<10
 			# Existing traffic calming
-			puts "Calming within 10m; #{calming[0]}".blue
-			if ["bump","hump","table","cushion"].include?(calming[0][:tags]['traffic_calming'])
+			c = calming[0]
+			puts "Calming within 10m; #{c}".blue
+			if ["bump","hump","table","cushion"].include?(c[:tags]['traffic_calming'])
 				# if it's bump/hump/table/cushion, we're fine
 				# (could consider adding sinusoidal tag but really not significant!)
 				puts "Already mapped"
 				output[:road] << { type: "Feature", 
-					properties: calming[0][:tags].merge(osm_id: calming[0][:id], tfl_id: attrs['FEATURE_ID']),
-					geometry: { type: "Point", coordinates: [calming[0][:lon],calming[0][:lat]] } }
-			elsif calming[0][:tags]['traffic_calming']=='yes'
+					properties: c[:tags].merge(osm_id: c[:id], tfl_id: attrs['FEATURE_ID']),
+					geometry: { type: "Point", coordinates: [c[:lon],c[:lat]] } }
+			elsif c[:tags]['traffic_calming']=='yes'
 				# if it's "yes", promote to correct type
 				puts "Currently tc=yes, set type"
 				output[:road] << { type: "Feature", 
-					properties: calming[0][:tags].merge(osm_tags).merge(osm_id: calming[0][:id]),
-					geometry: { type: "Point", coordinates: [calming[0][:lon],calming[0][:lat]] } }
+					properties: c[:tags].merge(osm_tags).merge(osm_id: c[:id]),
+					geometry: { type: "Point", coordinates: [c[:lon],c[:lat]] } }
 			else
 				# if it's anything else, output to manual review file
-				puts "Potentially clashing tag (#{calming[0][:tags]['traffic_calming']}), review"
+				puts "Potentially clashing tag (#{c[:tags]['traffic_calming']}), review"
 				output[:to_check] << { type: "Feature", 
-					properties: osm_tags.merge(osm_id: calming[0][:id], osm_current: calming[0][:tags][:traffic_calming]),
+					properties: c[:tags].merge(osm_tags).merge(osm_id: c[:id], osm_current: c[:tags][:traffic_calming]),
 					geometry: { type: "Point", coordinates: [lon,lat] } }
 			end
 
@@ -122,6 +123,7 @@
 
 	puts "Totals: #{output[:road].count} on roads, #{output[:cycleway].count} on cycleways, #{output[:to_check].count} to check"
 	puts "New: any features #{new_features}, OSM nodes #{nodes_created}"
-	File.write("#{__dir__}/../output/bumps_road.geojson",     { type: "FeatureCollection", features: output[:road    ] }.to_json)
-	File.write("#{__dir__}/../output/bumps_cycleway.geojson", { type: "FeatureCollection", features: output[:cycleway] }.to_json)
-	File.write("#{__dir__}/../output/bumps_to_check.geojson", { type: "FeatureCollection", features: output[:to_check] }.to_json)
+	write_output(output,
+		road: "bumps_road.geojson",
+		cycleway: "bumps_cycleway.geojson",
+		to_check: "bumps_to_check.geojson" )

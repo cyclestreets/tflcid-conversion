@@ -83,6 +83,7 @@ data['features'].each_with_index do |f,id|
 	osm = 0; tfl = 0; geoms = []
 	$conn.exec_params(sql, [id]).each do |res|
 		next if res['overlap'].to_f<20
+		# ***** add existing tags
 		output[:cycleways] << { type: "Feature",
 			properties: { tfl_id: f['properties']['FEATURE_ID'], osm_id: res['osm_id'].to_i },
 			geometry: JSON.parse(res['geo']) }
@@ -92,5 +93,4 @@ end
 puts "Totals: #{output[:new].count} new objects, #{output[:cycleways].count} cycleways to revise"
 puts "(#{skipped} were matched with OSM)"
 
-File.write("#{__dir__}/../output/restricted_routes_new.geojson"      , { type: "FeatureCollection", features: output[:new      ] }.to_json)
-File.write("#{__dir__}/../output/restricted_routes_cycleways.geojson", { type: "FeatureCollection", features: output[:cycleways] }.to_json)
+write_output(output, new: "restricted_routes_new.geojson", cycleways: "restricted_routes_cycleways.geojson")

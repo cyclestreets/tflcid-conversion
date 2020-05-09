@@ -312,3 +312,23 @@
 		end
 		len
 	end
+
+	# Write output files, converting MultiLineStrings to separate LineString records
+	
+	def write_output(output, targets)
+		# Write to file
+		targets.each do |k,v|
+			puts "#{k}: #{output[k].count} features"
+			data = []
+			output[k].each do |feature|
+				if feature[:geometry]['type']=='MultiLineString'
+					feature[:geometry]['coordinates'].each do |linestring|
+						data.push({ properties: feature[:properties], geometry: { 'type'=>'LineString', 'coordinates'=>linestring } }) 
+					end
+				else
+					data.push(feature)
+				end
+			end
+			File.write("#{__dir__}/../output/#{v}", { type: "FeatureCollection", features: data }.to_json)
+		end
+	end

@@ -85,9 +85,7 @@ end
 puts "Totals: #{output[:new].count} new objects, #{output[:cycleways].count} with cycleways nearby, #{output[:to_check].count} to check"
 puts "(Matched with #{existing_count} existing OSM nodes)"
 
-File.write("#{__dir__}/../output/barriers_new.geojson",      { type: "FeatureCollection", features: output[:new      ] }.to_json)
-File.write("#{__dir__}/../output/barriers_cycleways.geojson",{ type: "FeatureCollection", features: output[:cycleways] }.to_json)
-File.write("#{__dir__}/../output/barriers_to_check.geojson", { type: "FeatureCollection", features: output[:to_check ] }.to_json)
+write_output(output, new: "barriers_new.geojson", cycleways: "barriers_cycleways.geojson", to_check: "barriers_to_check.geojson")
 
 BEGIN {
 

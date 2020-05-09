@@ -64,5 +64,4 @@
 	end
 
 	puts "Totals: #{output[:full].count} full changes, #{output[:partial].count} partial changes"
-	File.write("#{__dir__}/../output/clt_footways_full.geojson",    { type: "FeatureCollection", features: output[:full   ] }.to_json)
-	File.write("#{__dir__}/../output/clt_footways_partial.geojson", { type: "FeatureCollection", features: output[:partial] }.to_json)
+	write_output(output, full: "clt_footways_full.geojson", partial: "clt_footways_partial.geojson")

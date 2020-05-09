@@ -171,7 +171,8 @@ end
 puts "Total: #{output[:junctions].length} at existing junctions, #{output[:tags_changed].length} tags changed, #{output[:railways].length} railway crossings, #{output[:to_check].length} to check"
 puts "#{skipped} skipped (existing crossings with no tag conflict/change)"
 
-File.write("#{__dir__}/../output/crossings_junctions.geojson",    { type: "FeatureCollection", features: output[:junctions   ] }.to_json)
-File.write("#{__dir__}/../output/crossings_rail.geojson",         { type: "FeatureCollection", features: output[:railways    ] }.to_json)
-File.write("#{__dir__}/../output/crossings_to_check.geojson",     { type: "FeatureCollection", features: output[:to_check    ] }.to_json)
-File.write("#{__dir__}/../output/crossings_tags_changed.geojson", { type: "FeatureCollection", features: output[:tags_changed] }.to_json)
+write_output(output,
+	junctions:    "crossings_junctions.geojson",  
+	railways:     "crossings_rail.geojson",       
+	to_check:     "crossings_to_check.geojson",   
+	tags_changed: "crossings_tags_changed.geojson")

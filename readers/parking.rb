@@ -5,7 +5,8 @@
 	require 'json'
 	require 'pg'
 	require 'faster_haversine'
-
+	require_relative './tfl_common.rb'
+	
     $conn = PG::Connection.new(dbname: "osm_london")
 	$output = { tfl_new: [], osm_unique: [], linked: [] }
 	
@@ -38,10 +39,6 @@
 		end
 	end
 	
-	puts "Matched #{osm_used.size} OSM"
-	File.write("#{__dir__}/../output/parking_remapped.geojson", { type: "FeatureCollection", features: $output[:linked ] }.to_json)
-	File.write("#{__dir__}/../output/parking_new.geojson",      { type: "FeatureCollection", features: $output[:tfl_new] }.to_json)
-	
 	$conn.exec("SELECT osm_id,hstore_to_json(tags),ST_X(ST_Transform(geom,4326)) AS lon,ST_Y(ST_Transform(geom,4326)) AS lat FROM osm_parking").each do |res|
 		next if osm_used[res['osm_id']]
 		$output[:osm_unique] << {
@@ -49,7 +46,12 @@
 			geometry: { type: "Point", coordinates: [res['lon'].to_f,res['lat'].to_f] }
 		}
 	end
-	File.write("#{__dir__}/../output/parking_osm_unique.geojson", { type: "FeatureCollection", features: $output[:osm_unique] }.to_json)
+
+	puts "Matched #{osm_used.size} OSM"
+	write_output($output,
+		linked:     "parking_remapped.geojson",
+		tfl_new:    "parking_new.geojson",
+		osm_unique: "parking_osm_unique.geojson")
 
 	# To get OSM only:
 	# - read everything from db

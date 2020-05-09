@@ -63,4 +63,4 @@
 
 	puts "Totals: #{output[:new].count} new objects"
 	puts "(#{skipped} were matched with OSM)"
-	File.write("#{__dir__}/../output/clt_tracks_new.geojson", { type: "FeatureCollection", features: output[:new] }.to_json)
+	write_output(output, new: "clt_tracks_new.geojson")

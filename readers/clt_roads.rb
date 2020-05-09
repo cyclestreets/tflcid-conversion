@@ -289,8 +289,9 @@ LANGUAGE 'plpgsql';
 	# ------
 	# Write to file
 
-	puts "Full     : #{output[:full    ].length}"; File.write("#{__dir__}/../output/clt_roads_full.geojson",     { type: "FeatureCollection", features: output[:full    ]  }.to_json)
-	puts "Partial  : #{output[:partial ].length}"; File.write("#{__dir__}/../output/clt_roads_partial.geojson",  { type: "FeatureCollection", features: output[:partial ]  }.to_json)
-	puts "Contra   : #{output[:contra  ].length}"; File.write("#{__dir__}/../output/clt_roads_contra.geojson",   { type: "FeatureCollection", features: output[:contra  ]  }.to_json)
-	puts "Separate : #{output[:separate].length}"; File.write("#{__dir__}/../output/clt_roads_separate.geojson", { type: "FeatureCollection", features: output[:separate]  }.to_json)
-	puts "Unmatched: #{output[:full    ].length}"; File.write("#{__dir__}/../output/clt_roads_unmatched.geojson",{ type: "FeatureCollection", features: output[:unmatched] }.to_json)
+	write_output(output,
+		full:      "clt_roads_full.geojson",    
+		partial:   "clt_roads_partial.geojson", 
+		contra:    "clt_roads_contra.geojson",  
+		separate:  "clt_roads_separate.geojson",
+		unmatched: "clt_roads_unmatched.geojson")

@@ -108,7 +108,8 @@ puts "  #{output[:at_junctions].count} at cycleway/footway junctions"
 puts "  #{output[:new].count} entirely new"
 puts "  #{output[:to_check].count} to check"
 
-File.write("#{__dir__}/../output/sideroads_existing.geojson",      { type: "FeatureCollection", features: output[:existing    ] }.to_json)
-File.write("#{__dir__}/../output/sideroads_at_junctions.geojson",  { type: "FeatureCollection", features: output[:at_junctions] }.to_json)
-File.write("#{__dir__}/../output/sideroads_new.geojson",           { type: "FeatureCollection", features: output[:new         ] }.to_json)
-File.write("#{__dir__}/../output/sideroads_to_check.geojson",      { type: "FeatureCollection", features: output[:to_check    ] }.to_json)
+write_output(output,
+	existing:     "sideroads_existing.geojson",
+	at_junctions: "sideroads_at_junctions.geojson",
+	new:          "sideroads_new.geojson",
+	to_check:     "sideroads_to_check.geojson" )

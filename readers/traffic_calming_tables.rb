@@ -57,6 +57,5 @@
 
 	puts "Totals: #{output[:table].count} at junctions, #{output[:to_check].count} to check"
 	puts "(Matched with #{existing_count} existing OSM nodes)"
+	write_output(output, table: "tables.geojson", to_check: "tables_to_check.geojson")
 
-	File.write("#{__dir__}/../output/tables.geojson",          { type: "FeatureCollection", features: output[:table   ] }.to_json)
-	File.write("#{__dir__}/../output/tables_to_check.geojson", { type: "FeatureCollection", features: output[:to_check] }.to_json)

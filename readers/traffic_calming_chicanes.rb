@@ -74,6 +74,7 @@ end
 puts "Totals: #{output[:new].count} new objects, #{output[:islands].count} islands, #{output[:to_check].count} to check"
 puts "(Matched with #{existing_count} existing OSM nodes)"
 
-File.write("#{__dir__}/../output/chicanes_new.geojson",      { type: "FeatureCollection", features: output[:new     ] }.to_json)
-File.write("#{__dir__}/../output/chicanes_islands.geojson",  { type: "FeatureCollection", features: output[:islands ] }.to_json)
-File.write("#{__dir__}/../output/chicanes_to_check.geojson", { type: "FeatureCollection", features: output[:to_check] }.to_json)
+write_output(output, 
+	new:      "chicanes_new.geojson",
+	islands:  "chicanes_islands.geojson",
+	to_check: "chicanes_to_check.geojson" )
