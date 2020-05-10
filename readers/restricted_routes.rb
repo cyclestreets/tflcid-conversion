@@ -56,7 +56,7 @@ data['features'].each_with_index do |f,id|
 	if res.nil? || res[0].nil? then skipped+=1; next end
 	geo = JSON.parse(res[0])
 	if geo['geometries']==[] then skipped+=1; next end
-	output[:new] << { type: "Feature", properties: { tfl_id: f['properties']['FEATURE_ID'] }, geometry: geo }
+	output[:new] << { type: "Feature", properties: { highway: 'footway', bicycle: 'dismount', tfl_id: f['properties']['FEATURE_ID'] }, geometry: geo }
 end
 
 # Look for existing paths currently tagged as cycle-accessible, where the tagging may need changing
@@ -74,7 +74,7 @@ data['features'].each_with_index do |f,id|
 	SELECT ST_Length(geom) AS tfl, ST_Length(way) AS osm,
 	       ST_Length(ST_Intersection(way,ST_Buffer(geom,#{EXISTING_TOLERANCE}))) AS overlap,
 		   ST_AsGeoJSON(ST_Transform(ST_Intersection(way,ST_Buffer(geom,#{EXISTING_TOLERANCE})),4326)) AS geo,
-		   highway,osm_id
+		   highway,osm_id,hstore_to_json(tags) AS tags
 	  FROM restricted_routes
 	  JOIN planet_osm_line
 	    ON ST_DWithin(geom,way,#{EXISTING_TOLERANCE})
@@ -83,9 +83,11 @@ data['features'].each_with_index do |f,id|
 	osm = 0; tfl = 0; geoms = []
 	$conn.exec_params(sql, [id]).each do |res|
 		next if res['overlap'].to_f<20
-		# ***** add existing tags
+		tags = JSON.parse(res['tags'])
+		if tags['highway']=='cycleway' then tags['highway']='footway' end
+		tags['bicycle']='dismount'
 		output[:cycleways] << { type: "Feature",
-			properties: { tfl_id: f['properties']['FEATURE_ID'], osm_id: res['osm_id'].to_i },
+			properties: tags.merge( tfl_id: f['properties']['FEATURE_ID'], osm_id: res['osm_id'].to_i ),
 			geometry: JSON.parse(res['geo']) }
 	end
 end
