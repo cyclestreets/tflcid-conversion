@@ -19,6 +19,9 @@
 	# CLT_ACCESS - access times
 	# CLT_COLOUR - colour of lane/track
 
+	require 'json'
+	require 'pg'
+
 	data = JSON.parse(File.read("#{__dir__}/../tfl_data/cycle_lane_track.json"))
 	$conn = PG::Connection.new(dbname: "osm_london")
 
