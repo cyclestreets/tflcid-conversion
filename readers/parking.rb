@@ -1,6 +1,7 @@
 
 	# Cycle parking matching
-	# requires database to have been prepopulated with 
+
+	# Run with --existing to additionally output matches to existing data
 
 	require 'json'
 	require 'pg'
@@ -15,6 +16,8 @@
 	
 	clustered = []; cluster_id = nil
 	osm_used = {}
+
+	output_existing = (!ARGV.empty? && ARGV[0]=='--existing')
 
 	$conn.exec("SELECT *,ST_X(ST_Transform(geom,4326)) AS lon,ST_Y(ST_Transform(geom,4326)) AS lat FROM tfl_parking ORDER BY cluster_id").each do |res|
 		attrs = res.to_h.dup
@@ -48,10 +51,12 @@
 	end
 
 	puts "Matched #{osm_used.size} OSM"
-	write_output($output,
-		linked:     "parking_remapped.geojson",
-		tfl_new:    "parking_new.geojson",
-		osm_unique: "parking_osm_unique.geojson")
+	write_output($output, tfl_new: "parking_new.geojson" )
+	if output_existing
+		write_output($output,
+			linked: "parking_remapped.geojson",
+			osm_unique: "parking_osm_unique.geojson")
+	end
 
 	# To get OSM only:
 	# - read everything from db
@@ -102,6 +107,7 @@ BEGIN {
 				   }
 			   }
 			else
+				tags['amenity'] = 'bicycle_parking'
 				$output[:tfl_new] << {
 					type: "Feature", properties: tags,
 					geometry: {
