@@ -14,7 +14,7 @@ Individual documentation files within readers/ explain in more depth the approac
 
 Download OSM data from Geofabrik at http://download.geofabrik.de/europe/great-britain/england/greater-london-latest.osm.pbf, then import it into a PostGIS database:
 
-    osm2pgsql -s --hstore-all -d osm_london greater-london-latest.osm.pbf
+    osm2pgsql --proj 3857 -s --hstore-all -d osm_london greater-london-latest.osm.pbf
 
 The data must be imported in slim mode (so we can inspect topology) and with full hstore (so we can inspect all tags).
 
