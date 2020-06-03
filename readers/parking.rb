@@ -66,7 +66,7 @@
 	# - for remapped, have lines from TfL to OSM
 	# - for TfL new, have points
 	# - for OSM only, have points
-	
+
 BEGIN {
 
 	# Rewrite all tags
@@ -80,8 +80,8 @@ BEGIN {
 			tags = {}
 			if tfl['carr']   then tags['on_carriageway']='yes' end
 			if tfl['cover']  then tags['covered']='yes' end
-			if tfl['secure'] then tags['bicycle_parking']='locked'; tags['note']='Shared lock' end
-			if tfl['locker'] then tags['bicycle_parking']='locked'; tags['note']='Own lock' end
+			if tfl['secure'] then tags['bicycle_parking']='lockers'; tags['note']='Shared lock' end
+			if tfl['locker'] then tags['bicycle_parking']='lockers'; tags['note']='Own lock' end
 			if tfl['sheff']  then tags['bicycle_parking']='stands' end
 			if tfl['mstand'] then tags['bicycle_parking']='stands' end
 			if tfl['pstand'] then tags['bicycle_parking']='stands' end
