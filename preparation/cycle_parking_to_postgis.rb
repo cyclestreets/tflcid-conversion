@@ -6,6 +6,7 @@
     conn = PG::Connection.new(dbname: "osm_london")
 
 	# Create table
+	conn.exec("DROP TABLE IF EXISTS tfl_parking")
 	sql = <<-SQL
 	 CREATE TABLE tfl_parking (feature_id VARCHAR(16), svdate VARCHAR(16),
 	 carr BOOLEAN, cover BOOLEAN, secure BOOLEAN, locker BOOLEAN, sheff BOOLEAN,
@@ -52,6 +53,7 @@
 	# Create OSM table and populate it with all the parking from the planet_osm_ tables
 	# Then cluster both TfL and OSM tables
 	statements = [
+		"DROP TABLE IF EXISTS osm_parking",
 		"CREATE TABLE osm_parking (osm_id BIGINT, is_node BOOLEAN DEFAULT TRUE, geom GEOMETRY(Point,3857), tags HSTORE)",
 		"CREATE INDEX osm_parking_geom_index on osm_parking USING GIST(geom)",
 		"INSERT INTO osm_parking (osm_id, is_node, geom, tags) SELECT osm_id, TRUE, way, tags FROM planet_osm_point WHERE amenity='bicycle_parking'",
