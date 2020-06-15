@@ -43,6 +43,7 @@
 				co = feature['geometry']['coordinates']
 				pr = feature['properties']
 				next if rejected[pr['tfl_id']]
+				feature['properties']['tiger:upload_uuid'] = pr['tfl_id']
 				tags = feature['properties'].reject { |k,v| ["osm_id","osm_way_id","osm_insert_after","osm_current","tfl_id"].include?(k) }
 			
 				if geom_type=='LineString' && pr['osm_id']
