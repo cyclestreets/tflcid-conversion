@@ -18,11 +18,11 @@
 
 	puts "Reading node versions"
 	node_versions= {}
-	CSV.read("#{__dir__}/node_versions.csv").each { |row| node_versions[row[0].to_i]=row[1].to_i }
+	CSV.read("node_versions.csv").each { |row| node_versions[row[0].to_i]=row[1].to_i }
 
 	puts "Reading way versions"
 	way_versions = {}
-	CSV.read("#{__dir__}/way_versions.csv").each { |row| way_versions[row[0].to_i]=row[1].to_i }
+	CSV.read("way_versions.csv").each { |row| way_versions[row[0].to_i]=row[1].to_i }
 
 	rejected = {}
 	ARGV.each do |fn|
