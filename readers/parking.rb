@@ -9,7 +9,7 @@
 	require_relative './tfl_common.rb'
 	
     $conn = PG::Connection.new(dbname: "osm_london")
-	$output = { tfl_new: [], osm_unique: [], linked: [] }
+	$output = { isolated: [], nearby: [], osm_unique: [], linked: [] }
 	
 	$tfl_debug = nil
 	$osm_debug = nil
@@ -51,7 +51,8 @@
 	end
 
 	puts "Matched #{osm_used.size} OSM"
-	write_output($output, tfl_new: "parking_new.geojson" )
+	puts "(nearby: #{$output[:nearby].count}, isolated: #{$output[:isolated].count})"
+	write_output($output, nearby: "parking_new_nearby.geojson", isolated: "parking_new_isolated.geojson" )
 	if output_existing
 		write_output($output,
 			linked: "parking_remapped.geojson",
@@ -72,7 +73,8 @@ BEGIN {
 	# Rewrite all tags
 	
 	def rewrite(cluster, osm_used)
-		resolve(cluster,osm_used).each do |tfl_id, osm|
+		matches = resolve(cluster,osm_used)
+		matches.each do |tfl_id, osm|
 			tfl = cluster.find { |c| c['feature_id']==tfl_id }
 			tfl['osm'] = osm
 		end
@@ -108,7 +110,8 @@ BEGIN {
 			   }
 			else
 				tags['amenity'] = 'bicycle_parking'
-				$output[:tfl_new] << {
+				target = matches.empty? ? :isolated : :nearby
+				$output[target] << {
 					type: "Feature", properties: tags,
 					geometry: {
 						type: "Point",

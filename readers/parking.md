@@ -2,7 +2,8 @@
 
 Output categories:
 
-* New: locations that are in the TfL CID but not in OSM
+* New, nearby: locations that are in the TfL CID, not in OSM, but have OSM parking nearby
+* New, isolated: locations that are in the TfL CID, not in OSM, and have no OSM parking nearby
 * Remapped (for information only): locations that have been matched between the CID and OSM
 * OSM unique (for information only): locations that are in OSM but not the CID
 
