@@ -1335,6 +1335,7 @@
   <node id="82749658" lat="51.4434979" lon="0.0297469" version="11" visible="true"/>
   <node id="371761575" lat="51.3612856" lon="-0.1862297" version="2" visible="true"/>
   <node id="300452748" lat="51.4862769" lon="-0.0006932" version="6" visible="true"/>
+  <node id="6787202861" lat="51.5725648" lon="-0.1330006" version="2" visible="true"/>
   <node id="104287941" lat="51.485714" lon="-0.0625915" version="4" visible="true"/>
   <node id="3017754452" lat="51.4915808" lon="-0.2925569" version="1" visible="true"/>
   <node id="152241" lat="51.5398855" lon="-0.1367428" version="8" visible="true"/>
@@ -9886,7 +9887,7 @@
     <nd ref="6071947573"/>
     <nd ref="18064483"/>
   </way>
-  <way id="8399712" visible="true" version="7">
+  <way id="8399712" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Ashmount Road"/>
     <tag k="highway" v="residential"/>
@@ -9898,6 +9899,7 @@
     <nd ref="620787591"/>
     <nd ref="26625328"/>
     <nd ref="5230657029"/>
+    <nd ref="6787202861"/>
     <nd ref="620787593"/>
     <nd ref="2065712024"/>
     <nd ref="620787719"/>
@@ -10525,9 +10527,10 @@
     <nd ref="4072083343"/>
     <nd ref="3385387607"/>
   </way>
-  <way id="504126057" visible="true" version="4">
+  <way id="504126057" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Malborough Road"/>
+    <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
@@ -10549,9 +10552,10 @@
     <nd ref="4943279481"/>
     <nd ref="4943279477"/>
   </way>
-  <way id="4471649" visible="true" version="8">
+  <way id="4471649" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Malborough Road"/>
+    <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
