@@ -36,6 +36,9 @@ data['features'].each do |f|
 		output[:railways] << { type: "Feature", properties: osm_tags, geometry: f['geometry'] }
 		next
 	end
+	if attrs['CRS_CYGAP'] && !attrs['CRS_SIGNAL'] && !attrs['CRS_PEDEST'] && !attrs['CRS_SEGREG']
+		next
+	end
 
 	# -------------------------------
 	# Get OSM data points to consider
