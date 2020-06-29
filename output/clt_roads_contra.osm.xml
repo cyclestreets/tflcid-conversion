@@ -689,7 +689,7 @@
   <node id="6414252449" lat="51.4988335" lon="-0.1092778" version="1" visible="true"/>
   <node id="6773398984" lat="51.5416032" lon="-0.1381786" version="1" visible="true"/>
   <node id="12689155" lat="51.5241207" lon="-0.1258415" version="6" visible="true"/>
-  <node id="6879037149" lat="51.4988894" lon="-0.2101872" version="2" visible="true"/>
+  <node id="6879037149" lat="51.4989167" lon="-0.2100706" version="3" visible="true"/>
   <node id="599572234" lat="51.5136043" lon="-0.1667932" version="4" visible="true"/>
   <node id="6414252446" lat="51.49851" lon="-0.1094731" version="1" visible="true"/>
   <node id="11863146" lat="51.5192307" lon="-0.1328971" version="9" visible="true"/>
@@ -1314,7 +1314,7 @@
   <node id="25499351" lat="51.4997837" lon="-0.1094003" version="5" visible="true"/>
   <node id="7078961157" lat="51.4685024" lon="-0.0399731" version="1" visible="true"/>
   <node id="7262637368" lat="51.5139941" lon="-0.2690239" version="1" visible="true"/>
-  <node id="25481622" lat="51.4988473" lon="-0.2102625" version="5" visible="true"/>
+  <node id="25481622" lat="51.4988206" lon="-0.2102537" version="6" visible="true"/>
   <node id="6090298494" lat="51.4129161" lon="-0.2961151" version="3" visible="true"/>
   <node id="4422675285" lat="51.5216212" lon="-0.0662845" version="1" visible="true"/>
   <node id="568114064" lat="51.5516219" lon="-0.0478908" version="2" visible="true"/>
@@ -2880,6 +2880,10 @@
   <node id="6085614904" lat="51.4992033" lon="-0.2095418" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+  </node>
+  <node id="7657271498" lat="51.4988404" lon="-0.2102181" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="224680" lat="51.501805" lon="-0.2158513" version="4" visible="true">
     <tag k="highway" v="mini_roundabout"/>
@@ -10897,7 +10901,7 @@
     <nd ref="255468072"/>
     <nd ref="7272369529"/>
   </way>
-  <way id="734533008" visible="true" version="2">
+  <way id="734533008" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Holland Gardens"/>
     <tag k="oneway" v="yes"/>
@@ -10905,6 +10909,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG152985"/>
     <nd ref="6879037149"/>
+    <nd ref="7657271498"/>
     <nd ref="25481622"/>
   </way>
   <way id="648168962" visible="true" version="2">
