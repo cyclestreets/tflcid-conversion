@@ -67,6 +67,7 @@
   <node id="6582045900" lat="51.5921085" lon="-0.1354987" version="1" visible="true"/>
   <node id="6582045885" lat="51.5924238" lon="-0.1347906" version="1" visible="true"/>
   <node id="6582016484" lat="51.5928319" lon="-0.1345744" version="1" visible="true"/>
+  <node id="6581893431" lat="51.5969252" lon="-0.1175549" version="1" visible="true"/>
   <node id="6561682307" lat="51.4971953" lon="-0.1689568" version="1" visible="true"/>
   <node id="6558946508" lat="51.3858378" lon="-0.0630354" version="1" visible="true"/>
   <node id="6474805734" lat="51.6063636" lon="-0.1859943" version="1" visible="true"/>
@@ -1067,6 +1068,14 @@
   <node id="321540232" lat="51.5560898" lon="-0.1500165" version="5" visible="true"/>
   <node id="321540097" lat="51.5566988" lon="-0.1504143" version="6" visible="true"/>
   <node id="321539146" lat="51.5570421" lon="-0.1572561" version="9" visible="true"/>
+  <node id="305590710" lat="51.5958196" lon="-0.1164067" version="2" visible="true"/>
+  <node id="305590709" lat="51.5958565" lon="-0.1165537" version="2" visible="true"/>
+  <node id="305590708" lat="51.5959532" lon="-0.1168031" version="2" visible="true"/>
+  <node id="305590706" lat="51.5961102" lon="-0.1171242" version="1" visible="true"/>
+  <node id="305590705" lat="51.5962808" lon="-0.1173302" version="1" visible="true"/>
+  <node id="305590704" lat="51.5964568" lon="-0.1174418" version="1" visible="true"/>
+  <node id="305590703" lat="51.5967074" lon="-0.1175534" version="1" visible="true"/>
+  <node id="305590687" lat="51.595797" lon="-0.1162437" version="5" visible="true"/>
   <node id="305148103" lat="51.5932039" lon="-0.1348865" version="2" visible="true"/>
   <node id="298256000" lat="51.5199861" lon="-0.1795032" version="3" visible="true"/>
   <node id="291899940" lat="51.3686145" lon="-0.0789437" version="3" visible="true"/>
@@ -2603,6 +2612,22 @@
     <nd ref="2471603495"/>
     <nd ref="5951999347"/>
     <nd ref="2471603488"/>
+  </way>
+  <way id="700862420" visible="true" version="3">
+    <tag k="rcn" v="proposed"/>
+    <tag k="foot" v="yes"/>
+    <tag k="bicycle" v="dismount"/>
+    <tag k="highway" v="footway"/>
+    <tag k="tiger:upload_uuid" v="RWG281027"/>
+    <nd ref="6581893431"/>
+    <nd ref="305590703"/>
+    <nd ref="305590704"/>
+    <nd ref="305590705"/>
+    <nd ref="305590706"/>
+    <nd ref="305590708"/>
+    <nd ref="305590709"/>
+    <nd ref="305590710"/>
+    <nd ref="305590687"/>
   </way>
   <way id="652018217" visible="true" version="1">
     <tag k="highway" v="service"/>
