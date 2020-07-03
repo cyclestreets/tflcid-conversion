@@ -488,7 +488,6 @@
     <tag k="name" v="Lower Marsh"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="5338220610" lat="51.5887141" lon="-0.1110687" version="3" visible="true"/>
   <node id="5336175087" lat="51.5371032" lon="-0.1344692" version="1" visible="true"/>
   <node id="5336143720" lat="51.5375079" lon="-0.1348049" version="2" visible="true"/>
   <node id="5336143717" lat="51.5372142" lon="-0.1345605" version="1" visible="true"/>
@@ -540,21 +539,6 @@
   <node id="5239924848" lat="51.5326919" lon="-0.1301588" version="1" visible="true"/>
   <node id="5207546667" lat="51.5048142" lon="-0.1030788" version="1" visible="true"/>
   <node id="5207546645" lat="51.5051206" lon="-0.1031153" version="2" visible="true"/>
-  <node id="5179897289" lat="51.5879568" lon="-0.1134394" version="3" visible="true">
-    <tag k="kerb" v="lowered"/>
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="tactile_paving" v="yes"/>
-  </node>
-  <node id="5179866186" lat="51.5881108" lon="-0.1128959" version="3" visible="true"/>
-  <node id="5179866180" lat="51.587973" lon="-0.1133106" version="3" visible="true"/>
-  <node id="5179866179" lat="51.5880832" lon="-0.1129756" version="3" visible="true"/>
-  <node id="5179866178" lat="51.5883139" lon="-0.1123089" version="3" visible="true"/>
-  <node id="5179866177" lat="51.5883748" lon="-0.1121221" version="3" visible="true"/>
-  <node id="5179866176" lat="51.5885678" lon="-0.1115827" version="3" visible="true"/>
-  <node id="5179866175" lat="51.5886628" lon="-0.1112652" version="3" visible="true"/>
-  <node id="5172901229" lat="51.588029" lon="-0.1130796" version="7" visible="true"/>
-  <node id="5172683294" lat="51.5879283" lon="-0.1136656" version="5" visible="true"/>
   <node id="5115338566" lat="51.455698" lon="-0.0840806" version="2" visible="true"/>
   <node id="5115338563" lat="51.4551316" lon="-0.0836711" version="3" visible="true">
     <tag k="highway" v="crossing"/>
@@ -712,12 +696,6 @@
   <node id="3982646550" lat="51.6360791" lon="-0.083065" version="4" visible="true"/>
   <node id="3982646549" lat="51.6358569" lon="-0.0849136" version="3" visible="true"/>
   <node id="3930766782" lat="51.3948046" lon="-0.3131964" version="2" visible="true"/>
-  <node id="3901898572" lat="51.5879132" lon="-0.1138674" version="6" visible="true">
-    <tag k="bus" v="yes"/>
-    <tag k="name" v="Tottenham Lane"/>
-    <tag k="local_ref" v="J"/>
-    <tag k="public_transport" v="stop_position"/>
-  </node>
   <node id="3858008795" lat="51.5110996" lon="-0.0556082" version="3" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Shadwell Station"/>
@@ -5362,66 +5340,6 @@
     <nd ref="30444876"/>
     <nd ref="30444878"/>
     <nd ref="27290288"/>
-  </way>
-  <way id="534004548" visible="true" version="5">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="High Street"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="paved"/>
-    <tag k="tiger:upload_uuid" v="RWG279102"/>
-    <nd ref="5172901229"/>
-    <nd ref="5179866180"/>
-    <nd ref="5179897289"/>
-    <nd ref="5172683294"/>
-    <nd ref="3901898572"/>
-  </way>
-  <way id="534004542" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Turnpike Lane"/>
-    <tag k="lanes" v="2"/>
-    <tag k="layer" v="1"/>
-    <tag k="bridge" v="yes"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="paved"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v="shared_lane"/>
-    <tag k="tiger:upload_uuid" v="RWG279102"/>
-    <nd ref="5179866186"/>
-    <nd ref="5179866179"/>
-    <nd ref="5172901229"/>
-  </way>
-  <way id="800353731" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Turnpike Lane"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="paved"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="maxheight" v="4.98"/>
-    <tag k="cycleway:left" v="shared_lane"/>
-    <tag k="tiger:upload_uuid" v="RWG279102"/>
-    <nd ref="5179866178"/>
-    <nd ref="5179866186"/>
-  </way>
-  <way id="552944453" visible="true" version="3">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Turnpike Lane"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="paved"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v="shared_lane"/>
-    <tag k="tiger:upload_uuid" v="RWG279102"/>
-    <nd ref="5338220610"/>
-    <nd ref="5179866175"/>
-    <nd ref="5179866176"/>
-    <nd ref="5179866177"/>
-    <nd ref="5179866178"/>
   </way>
   <way id="595141520" visible="true" version="4">
     <tag k="lit" v="yes"/>
