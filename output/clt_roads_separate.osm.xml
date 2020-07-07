@@ -1,5 +1,21 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7687961532" lat="51.5110329" lon="-0.061103" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+  </node>
+  <node id="7686428603" lat="51.5108194" lon="-0.0683622" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="7686428600" lat="51.5107915" lon="-0.0687796" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="7686428596" lat="51.5108002" lon="-0.0687039" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+  </node>
   <node id="7657224172" lat="51.5002317" lon="-0.2115686" version="1" visible="true">
     <tag k="traffic_calming" v="bump"/>
   </node>
@@ -1658,9 +1674,7 @@
   </node>
   <node id="525082" lat="51.6352123" lon="-0.0928654" version="5" visible="true"/>
   <node id="525081" lat="51.6344701" lon="-0.0939847" version="5" visible="true"/>
-  <node id="424613" lat="51.5108071" lon="-0.0684993" version="6" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-  </node>
+  <node id="424613" lat="51.5108134" lon="-0.0685264" version="7" visible="true"/>
   <node id="364282" lat="51.5023492" lon="-0.1094748" version="11" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
@@ -1696,9 +1710,7 @@
   <node id="107435" lat="51.5113325" lon="-0.0478739" version="4" visible="true"/>
   <node id="106974" lat="51.5110988" lon="-0.0641006" version="7" visible="true"/>
   <node id="106973" lat="51.5107015" lon="-0.069364" version="8" visible="true"/>
-  <node id="106969" lat="51.5110343" lon="-0.0609863" version="10" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-  </node>
+  <node id="106969" lat="51.5110327" lon="-0.0609917" version="11" visible="true"/>
   <node id="106940" lat="51.5115598" lon="-0.0436059" version="6" visible="true"/>
   <node id="106935" lat="51.5115239" lon="-0.044266" version="7" visible="true"/>
   <node id="104387" lat="51.5006999" lon="-0.1177675" version="11" visible="true">
@@ -6592,7 +6604,7 @@
     <nd ref="59367009"/>
     <nd ref="2030035730"/>
   </way>
-  <way id="226429029" visible="true" version="8">
+  <way id="226429029" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -6605,6 +6617,7 @@
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066961"/>
     <nd ref="106969"/>
+    <nd ref="7687961532"/>
     <nd ref="28798319"/>
     <nd ref="2043946033"/>
     <nd ref="289959394"/>
@@ -6623,10 +6636,11 @@
     <nd ref="18055042"/>
     <nd ref="881944154"/>
     <nd ref="4085791617"/>
+    <nd ref="7686428603"/>
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
-  <way id="226429029" visible="true" version="8">
+  <way id="226429029" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -6639,6 +6653,7 @@
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066961"/>
     <nd ref="106969"/>
+    <nd ref="7687961532"/>
     <nd ref="28798319"/>
     <nd ref="2043946033"/>
     <nd ref="289959394"/>
@@ -6657,6 +6672,7 @@
     <nd ref="18055042"/>
     <nd ref="881944154"/>
     <nd ref="4085791617"/>
+    <nd ref="7686428603"/>
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
@@ -6677,7 +6693,7 @@
     <nd ref="59367009"/>
     <nd ref="2030035730"/>
   </way>
-  <way id="226429029" visible="true" version="8">
+  <way id="226429029" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -6690,6 +6706,7 @@
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066030"/>
     <nd ref="106969"/>
+    <nd ref="7687961532"/>
     <nd ref="28798319"/>
     <nd ref="2043946033"/>
     <nd ref="289959394"/>
@@ -6708,10 +6725,11 @@
     <nd ref="18055042"/>
     <nd ref="881944154"/>
     <nd ref="4085791617"/>
+    <nd ref="7686428603"/>
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
-  <way id="226429029" visible="true" version="8">
+  <way id="226429029" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -6724,6 +6742,7 @@
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066030"/>
     <nd ref="106969"/>
+    <nd ref="7687961532"/>
     <nd ref="28798319"/>
     <nd ref="2043946033"/>
     <nd ref="289959394"/>
@@ -6742,6 +6761,7 @@
     <nd ref="18055042"/>
     <nd ref="881944154"/>
     <nd ref="4085791617"/>
+    <nd ref="7686428603"/>
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
@@ -7228,7 +7248,7 @@
     <nd ref="1694694083"/>
     <nd ref="18041883"/>
   </way>
-  <way id="226429029" visible="true" version="8">
+  <way id="226429029" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -7241,6 +7261,7 @@
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066951"/>
     <nd ref="106969"/>
+    <nd ref="7687961532"/>
     <nd ref="28798319"/>
     <nd ref="2043946033"/>
     <nd ref="289959394"/>
@@ -7259,10 +7280,11 @@
     <nd ref="18055042"/>
     <nd ref="881944154"/>
     <nd ref="4085791617"/>
+    <nd ref="7686428603"/>
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
-  <way id="243510987" visible="true" version="5">
+  <way id="243510987" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1202"/>
     <tag k="name" v="Royal Mint Street"/>
@@ -7280,9 +7302,11 @@
     <nd ref="881944008"/>
     <nd ref="106973"/>
     <nd ref="2043946040"/>
+    <nd ref="7686428600"/>
+    <nd ref="7686428596"/>
     <nd ref="424613"/>
   </way>
-  <way id="243510987" visible="true" version="5">
+  <way id="243510987" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1202"/>
     <tag k="name" v="Royal Mint Street"/>
@@ -7300,9 +7324,11 @@
     <nd ref="881944008"/>
     <nd ref="106973"/>
     <nd ref="2043946040"/>
+    <nd ref="7686428600"/>
+    <nd ref="7686428596"/>
     <nd ref="424613"/>
   </way>
-  <way id="226429029" visible="true" version="8">
+  <way id="226429029" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -7315,6 +7341,7 @@
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG135094"/>
     <nd ref="106969"/>
+    <nd ref="7687961532"/>
     <nd ref="28798319"/>
     <nd ref="2043946033"/>
     <nd ref="289959394"/>
@@ -7333,6 +7360,7 @@
     <nd ref="18055042"/>
     <nd ref="881944154"/>
     <nd ref="4085791617"/>
+    <nd ref="7686428603"/>
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
