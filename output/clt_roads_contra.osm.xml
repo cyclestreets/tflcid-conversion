@@ -80,7 +80,6 @@
   <node id="245438934" lat="51.3869759" lon="-0.1145419" version="2" visible="true"/>
   <node id="38889677" lat="51.5923823" lon="-0.0782965" version="2" visible="true"/>
   <node id="21374892" lat="51.3758887" lon="-0.0370202" version="1" visible="true"/>
-  <node id="5211220839" lat="51.5361103" lon="-0.0864599" version="1" visible="true"/>
   <node id="21411585" lat="51.4347568" lon="-0.1989617" version="5" visible="true"/>
   <node id="359691427" lat="51.5340333" lon="-0.037319" version="6" visible="true"/>
   <node id="620787593" lat="51.5727041" lon="-0.1331875" version="3" visible="true"/>
@@ -871,6 +870,7 @@
   <node id="7080433353" lat="51.5074582" lon="-0.2080395" version="2" visible="true"/>
   <node id="6824482753" lat="51.5941922" lon="-0.0765037" version="1" visible="true"/>
   <node id="1904140685" lat="51.4456123" lon="0.0108281" version="2" visible="true"/>
+  <node id="7692024524" lat="51.5360933" lon="-0.0854801" version="1" visible="true"/>
   <node id="68985070" lat="51.4993774" lon="-0.2203725" version="5" visible="true"/>
   <node id="2039457172" lat="51.5135066" lon="-0.3791716" version="3" visible="true"/>
   <node id="5104314275" lat="51.5104058" lon="-0.0895464" version="1" visible="true"/>
@@ -1166,6 +1166,7 @@
   <node id="18239818" lat="51.4496432" lon="-0.2372632" version="3" visible="true"/>
   <node id="245439250" lat="51.3834173" lon="-0.1125678" version="3" visible="true"/>
   <node id="6960482506" lat="51.5257134" lon="-0.1253574" version="4" visible="true"/>
+  <node id="7692024506" lat="51.5360806" lon="-0.0848408" version="1" visible="true"/>
   <node id="4462564528" lat="51.4925805" lon="-0.1389275" version="1" visible="true"/>
   <node id="25258282" lat="51.4488831" lon="-0.0351254" version="3" visible="true"/>
   <node id="21992361" lat="51.5104026" lon="-0.3359978" version="1" visible="true"/>
@@ -1245,7 +1246,7 @@
   <node id="702278274" lat="51.5406503" lon="-0.1736986" version="1" visible="true"/>
   <node id="5219047474" lat="51.5047094" lon="-0.0833886" version="3" visible="true"/>
   <node id="25628950" lat="51.5517022" lon="-0.3463261" version="4" visible="true"/>
-  <node id="13675715" lat="51.5366371" lon="-0.0438034" version="14" visible="true"/>
+  <node id="13675715" lat="51.5366332" lon="-0.0438124" version="15" visible="true"/>
   <node id="6071947573" lat="51.5456148" lon="-0.0621442" version="1" visible="true"/>
   <node id="6974001862" lat="51.5443733" lon="-0.2755594" version="1" visible="true"/>
   <node id="1672123295" lat="51.5123515" lon="-0.3801758" version="1" visible="true"/>
@@ -1936,7 +1937,7 @@
   <node id="877105292" lat="51.5424888" lon="-0.1604812" version="3" visible="true"/>
   <node id="5434504881" lat="51.5420202" lon="-0.0435121" version="2" visible="true"/>
   <node id="25499056" lat="51.4973797" lon="-0.1002688" version="5" visible="true"/>
-  <node id="108478" lat="51.5360703" lon="-0.084464" version="2" visible="true"/>
+  <node id="108478" lat="51.5360731" lon="-0.0844833" version="3" visible="true"/>
   <node id="626168" lat="51.4300311" lon="-0.0115031" version="3" visible="true"/>
   <node id="5618615523" lat="51.4823733" lon="-0.0146677" version="1" visible="true"/>
   <node id="6366409155" lat="51.5080382" lon="-0.2059937" version="1" visible="true"/>
@@ -2118,6 +2119,10 @@
   <node id="4775922562" lat="51.5419264" lon="-0.0573187" version="2" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="backward"/>
+  </node>
+  <node id="5211220839" lat="51.5361094" lon="-0.086429" version="2" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
   </node>
   <node id="1838084492" lat="51.5215569" lon="-0.0643868" version="3" visible="true">
     <tag k="highway" v="crossing"/>
@@ -9576,7 +9581,7 @@
     <nd ref="2410476721"/>
     <nd ref="672917361"/>
   </way>
-  <way id="4536603" visible="true" version="18">
+  <way id="4536603" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Penn Street"/>
     <tag k="highway" v="tertiary"/>
@@ -9589,7 +9594,9 @@
     <nd ref="15037321"/>
     <nd ref="6231076134"/>
     <nd ref="108478"/>
+    <nd ref="7692024506"/>
     <nd ref="5211220867"/>
+    <nd ref="7692024524"/>
     <nd ref="5211220855"/>
     <nd ref="5211220839"/>
     <nd ref="5211220848"/>
