@@ -83,7 +83,6 @@
   <node id="149265005" lat="51.3996329" lon="-0.0928234" version="2" visible="true"/>
   <node id="1205634381" lat="51.447273" lon="-0.3825746" version="1" visible="true"/>
   <node id="270420494" lat="51.4774247" lon="-0.0322946" version="4" visible="true"/>
-  <node id="29691430" lat="51.4399991" lon="-0.1061998" version="5" visible="true"/>
   <node id="4657146270" lat="51.4774753" lon="0.0577869" version="1" visible="true"/>
   <node id="27221928" lat="51.4400689" lon="-0.1766252" version="5" visible="true"/>
   <node id="25676419" lat="51.5021244" lon="-0.4463578" version="4" visible="true"/>
@@ -490,6 +489,7 @@
   <node id="3298636319" lat="51.5037966" lon="-0.1151518" version="3" visible="true"/>
   <node id="3551158320" lat="51.4891452" lon="-0.1550837" version="3" visible="true"/>
   <node id="4580650511" lat="51.5784493" lon="-0.0067925" version="6" visible="true"/>
+  <node id="662143302" lat="51.5115739" lon="0.0112312" version="4" visible="true"/>
   <node id="2204097995" lat="51.5712344" lon="-0.0946901" version="3" visible="true"/>
   <node id="6040171855" lat="51.4923404" lon="-0.2761652" version="3" visible="true"/>
   <node id="2090570147" lat="51.6091753" lon="-0.2661731" version="3" visible="true"/>
@@ -852,6 +852,7 @@
   <node id="263248115" lat="51.4164023" lon="-0.0818411" version="3" visible="true"/>
   <node id="316022640" lat="51.5701972" lon="-0.0255735" version="6" visible="true"/>
   <node id="25894926" lat="51.579063" lon="0.1773536" version="4" visible="true"/>
+  <node id="280385858" lat="51.511331" lon="0.0113363" version="4" visible="true"/>
   <node id="1688806912" lat="51.3847595" lon="-0.1907816" version="5" visible="true"/>
   <node id="3654976779" lat="51.5222911" lon="-0.1733246" version="4" visible="true"/>
   <node id="1692209247" lat="51.4384703" lon="-0.3598424" version="1" visible="true"/>
@@ -1261,6 +1262,7 @@
   <node id="5367358378" lat="51.4126269" lon="-0.2891532" version="1" visible="true"/>
   <node id="106189384" lat="51.5806854" lon="-0.3257194" version="3" visible="true"/>
   <node id="145732312" lat="51.4008262" lon="-0.0728351" version="5" visible="true"/>
+  <node id="2311947819" lat="51.511497" lon="0.0112254" version="2" visible="true"/>
   <node id="249298050" lat="51.5650094" lon="-0.0389959" version="5" visible="true"/>
   <node id="1601416161" lat="51.3864172" lon="-0.1660736" version="3" visible="true"/>
   <node id="2462321764" lat="51.5261084" lon="-0.0753743" version="2" visible="true"/>
@@ -2559,6 +2561,9 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="crossing" v="no"/>
     <tag k="cycleway" v="asl"/>
+  </node>
+  <node id="662143285" lat="51.5114222" lon="0.0112712" version="3" visible="true">
+    <tag k="highway" v="traffic_signals"/>
   </node>
   <node id="5127252026" lat="51.4808115" lon="0.1803153" version="4" visible="true">
     <tag k="bus" v="yes"/>
@@ -4116,9 +4121,6 @@
   </node>
   <node id="3022991008" lat="51.4756875" lon="-0.1673099" version="1" visible="true">
     <tag k="traffic_calming" v="table"/>
-  </node>
-  <node id="29835497" lat="51.4400611" lon="-0.106222" version="5" visible="true">
-    <tag k="highway" v="traffic_signals"/>
   </node>
   <node id="4918954452" lat="51.4428571" lon="-0.1247948" version="4" visible="true">
     <tag k="bus" v="yes"/>
@@ -8595,6 +8597,20 @@
     <tag k="tiger:upload_uuid" v="RWG219130"/>
     <nd ref="95092028"/>
     <nd ref="95093168"/>
+  </way>
+  <way id="51878818" visible="true" version="7">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Peto Street North"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG184586"/>
+    <nd ref="280385858"/>
+    <nd ref="662143285"/>
+    <nd ref="2311947819"/>
+    <nd ref="662143302"/>
   </way>
   <way id="145463592" visible="true" version="5">
     <tag k="name" v="Addiscombe Road"/>
@@ -17279,19 +17295,6 @@
     <tag k="tiger:upload_uuid" v="RWG110004"/>
     <nd ref="43414138"/>
     <nd ref="5388234735"/>
-  </way>
-  <way id="4629389" visible="true" version="18">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A215"/>
-    <tag k="name" v="Norwood Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG102239"/>
-    <nd ref="29691430"/>
-    <nd ref="29835497"/>
   </way>
   <way id="821216921" visible="true" version="2">
     <tag k="lit" v="yes"/>
