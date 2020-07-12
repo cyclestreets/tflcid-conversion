@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7703784382" lat="51.5159783" lon="0.0117229" version="1" visible="true"/>
+  <node id="7703784381" lat="51.5159068" lon="0.0117594" version="1" visible="true"/>
   <node id="7700637222" lat="51.5687963" lon="-0.0404616" version="1" visible="true"/>
   <node id="7700637220" lat="51.5688423" lon="-0.040439" version="1" visible="true"/>
   <node id="7700637219" lat="51.5686883" lon="-0.0404069" version="1" visible="true"/>
@@ -1214,6 +1216,7 @@
   <node id="252147454" lat="51.494932" lon="-0.4758391" version="1" visible="true"/>
   <node id="251952341" lat="51.5079318" lon="-0.1136921" version="6" visible="true"/>
   <node id="251400622" lat="51.5962998" lon="-0.2104756" version="2" visible="true"/>
+  <node id="250688473" lat="51.5158903" lon="0.0118546" version="2" visible="true"/>
   <node id="249905071" lat="51.5546591" lon="0.1743393" version="2" visible="true"/>
   <node id="249905064" lat="51.5543185" lon="0.1740067" version="2" visible="true"/>
   <node id="249904979" lat="51.5541522" lon="0.1738442" version="2" visible="true"/>
@@ -2837,6 +2840,17 @@
     <nd ref="6460053165"/>
     <nd ref="6460053164"/>
     <nd ref="149532264"/>
+  </way>
+  <way id="825051138" visible="true" version="1">
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG186130"/>
+    <nd ref="250688473"/>
+    <nd ref="7703784381"/>
+    <nd ref="7703784382"/>
   </way>
   <way id="360611289" visible="true" version="1">
     <tag k="highway" v="footway"/>
@@ -4679,9 +4693,10 @@
     <nd ref="7262641536"/>
     <nd ref="7262641523"/>
   </way>
-  <way id="4572256" visible="true" version="2">
+  <way id="4572256" visible="true" version="3">
     <tag k="name" v="Public Footpath No. 83"/>
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="prow_ref" v="83"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
@@ -4906,9 +4921,10 @@
     <nd ref="612635186"/>
     <nd ref="612635187"/>
   </way>
-  <way id="4572256" visible="true" version="2">
+  <way id="4572256" visible="true" version="3">
     <tag k="name" v="Public Footpath No. 83"/>
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="prow_ref" v="83"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
