@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7708058817" lat="51.5555426" lon="0.1745111" version="1" visible="true"/>
   <node id="7707806506" lat="51.5080551" lon="-0.0521193" version="1" visible="true"/>
   <node id="7707806505" lat="51.508083" lon="-0.0522273" version="1" visible="true"/>
   <node id="7707806504" lat="51.5080747" lon="-0.0524613" version="1" visible="true"/>
@@ -481,7 +482,7 @@
   </node>
   <node id="4393431098" lat="51.5555263" lon="0.1744755" version="1" visible="true"/>
   <node id="4393431092" lat="51.5555392" lon="0.1742923" version="1" visible="true"/>
-  <node id="4381399037" lat="51.5554996" lon="0.1746416" version="1" visible="true"/>
+  <node id="4381399037" lat="51.5555314" lon="0.1746523" version="2" visible="true"/>
   <node id="4379771756" lat="51.4495338" lon="0.1630353" version="1" visible="true"/>
   <node id="4294704383" lat="51.5531606" lon="-0.0822911" version="1" visible="true"/>
   <node id="4264124031" lat="51.4714567" lon="-0.3217242" version="1" visible="true"/>
@@ -1784,7 +1785,7 @@
     <nd ref="4083606126"/>
     <nd ref="4083606127"/>
   </way>
-  <way id="441603370" visible="true" version="1">
+  <way id="441603370" visible="true" version="2">
     <tag k="width" v="0.7 m"/>
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
@@ -1793,6 +1794,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG221014"/>
     <nd ref="4381399037"/>
+    <nd ref="7708058817"/>
     <nd ref="4393431098"/>
     <nd ref="4393431092"/>
   </way>

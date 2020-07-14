@@ -1347,6 +1347,13 @@
   <node id="417235507" lat="51.5713409" lon="-0.0201328" version="1" visible="true"/>
   <node id="417235506" lat="51.5707837" lon="-0.01963" version="4" visible="true"/>
   <node id="414017173" lat="51.4559359" lon="0.1416067" version="4" visible="true"/>
+  <node id="370455906" lat="51.5158388" lon="-0.070277" version="6" visible="true">
+    <tag k="ref" v="E1 1014"/>
+    <tag k="amenity" v="post_box"/>
+    <tag k="operator" v="Royal Mail"/>
+    <tag k="post_box:type" v="pillar"/>
+    <tag k="post_box:design" v="type_c"/>
+  </node>
   <node id="362474930" lat="51.5225688" lon="-0.132273" version="5" visible="true"/>
   <node id="354428750" lat="51.5577632" lon="-0.0086319" version="8" visible="true"/>
   <node id="347412997" lat="51.5033066" lon="-0.0919301" version="2" visible="true"/>
@@ -7501,7 +7508,7 @@
     <nd ref="310698347"/>
     <nd ref="1237957495"/>
   </way>
-  <way id="316976824" visible="true" version="7">
+  <way id="316976824" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Whitechapel High Street"/>
@@ -7517,6 +7524,7 @@
     <tag k="tiger:upload_uuid" v="RWG152807"/>
     <nd ref="2282295841"/>
     <nd ref="2282295844"/>
+    <nd ref="370455906"/>
     <nd ref="2282316170"/>
     <nd ref="2282295838"/>
   </way>
