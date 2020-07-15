@@ -1090,7 +1090,11 @@
   </node>
   <node id="281841787" lat="51.4580449" lon="-0.145378" version="2" visible="true"/>
   <node id="281841646" lat="51.4574674" lon="-0.1461301" version="2" visible="true"/>
-  <node id="281840897" lat="51.4602437" lon="-0.1423115" version="2" visible="true"/>
+  <node id="281840897" lat="51.4602437" lon="-0.1423115" version="3" visible="true">
+    <tag k="proposed:highway" v="crossing"/>
+    <tag k="proposed:crossing" v="uncontrolled"/>
+    <tag k="proposed:crossing_ref" v="zebra"/>
+  </node>
   <node id="281840893" lat="51.4586525" lon="-0.1445974" version="2" visible="true"/>
   <node id="281839685" lat="51.45816" lon="-0.1480292" version="4" visible="true"/>
   <node id="281619109" lat="51.4597761" lon="-0.1483487" version="15" visible="true"/>
