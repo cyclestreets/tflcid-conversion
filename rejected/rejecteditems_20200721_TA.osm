@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <node id='28196767' visible='true' version='4' lat='51.4223124' lon='-0.1741187' />
+  <node id='126375182' visible='true' version='7' lat='51.4216117' lon='-0.1748285' />
+  <node id='126375302' visible='true' version='16' lat='51.4219718' lon='-0.1744709' />
+  <node id='132078431' visible='true' version='4' lat='51.4221514' lon='-0.1742813'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='1252665600' visible='true' version='5' lat='51.4228063' lon='-0.1735811' />
+  <node id='2530035417' visible='true' version='3' lat='51.45501709478' lon='-0.12785899998'>
+    <tag k='tiger:upload_uuid' v='RWG101675' />
+    <tag k='traffic_calming' v='bump' />
+  </node>
+  <node id='7579998642' visible='true' version='1' lat='51.4543773' lon='-0.1276118'>
+    <tag k='traffic_calming' v='bump' />
+  </node>
+  <way id='168558356' visible='true' version='7'>
+    <nd ref='126375182' />
+    <nd ref='126375302' />
+    <nd ref='132078431' />
+    <nd ref='28196767' />
+    <nd ref='1252665600' />
+    <tag k='bicycle' v='designated' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='trunk' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='High Street Colliers Wood' />
+    <tag k='oneway' v='no' />
+    <tag k='operator' v='Transport for London' />
+    <tag k='ref' v='A24' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='asphalt' />
+    <tag k='tiger:upload_uuid' v='RWG124050,RWG124051,RWG124053,RWG124055' />
+  </way>
+</osm>
