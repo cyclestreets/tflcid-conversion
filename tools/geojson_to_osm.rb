@@ -29,9 +29,8 @@
 		if fn=~/\.osm$/
 			puts "Reading rejected from #{fn}"
 			doc = Nokogiri::XML(File.open(fn))
-			doc.css("tag[k='tfl_id']").each do |tag|
-				rejected[tag.attributes['v'].value] = true
-			end
+			doc.css("tag[k='tfl_id']"           ).each { |tag| rejected[tag.attributes['v'].value] = true }
+			doc.css("tag[k='tiger:upload_uuid']").each { |tag| rejected[tag.attributes['v'].value] = true }
 
 		elsif fn=~/\.geojson$/
 			puts "Converting data from #{fn}"
