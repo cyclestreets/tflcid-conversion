@@ -3039,12 +3039,13 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
-  <node id="4917164276" lat="51.5364696" lon="-0.017363" version="5" visible="true">
+  <node id="4917164276" lat="51.5364815" lon="-0.0174042" version="6" visible="true">
     <tag k="kerb" v="flush"/>
     <tag k="name" v="Bridge 4 Ped Crossing"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="2483507591" lat="51.5295762" lon="-0.0147643" version="6" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -8244,12 +8245,16 @@
     <nd ref="521700112"/>
     <nd ref="1990169363"/>
   </way>
-  <way id="570398355" visible="true" version="2">
+  <way id="570398355" visible="true" version="3">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Marshgate Lane"/>
     <tag k="lanes" v="2"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="old_name" v="Stadium Crescent West"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="ref:GB:usrn" v="22201505"/>
+    <tag k="parking:lane:both" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG156055,RWG156051,RWG156047,RWG156054"/>
     <nd ref="5483811201"/>
@@ -13438,14 +13443,15 @@
     <nd ref="1964415372"/>
     <nd ref="1685760134"/>
   </way>
-  <way id="437141999" visible="true" version="9">
+  <way id="437141999" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Wellington Street"/>
     <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="City of Westminster"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway" v="track"/>
     <tag k="cycleway:track" v="hybrid"/>
     <tag k="tiger:upload_uuid" v="RWG066856"/>
@@ -13618,17 +13624,18 @@
     <nd ref="26814988"/>
     <nd ref="2389968784"/>
   </way>
-  <way id="245170114" visible="true" version="10">
+  <way id="245170114" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A41"/>
     <tag k="name" v="Orchard Street"/>
     <tag k="lanes" v="4"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="smoothness" v="excellent"/>
     <tag k="lanes:forward" v="2"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066269"/>
     <nd ref="2524107702"/>
@@ -13920,7 +13927,7 @@
     <nd ref="2152163568"/>
     <nd ref="3705331854"/>
   </way>
-  <way id="200596577" visible="true" version="16">
+  <way id="200596577" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A301"/>
     <tag k="name" v="Waterloo Bridge"/>
@@ -13937,6 +13944,7 @@
     <tag k="not:name" v="Waterloo Road"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:est_width" v="1"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG055896,RWG056021"/>
@@ -13944,7 +13952,7 @@
     <nd ref="805522625"/>
     <nd ref="1881001588"/>
   </way>
-  <way id="437877198" visible="true" version="4">
+  <way id="437877198" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A301"/>
     <tag k="name" v="Lancaster Place"/>
@@ -13954,10 +13962,11 @@
     <tag k="name:be" v="&#x43C;&#x43E;&#x441;&#x442; &#x412;&#x430;&#x442;&#x44D;&#x440;&#x43B;&#x43E;&#x43E;"/>
     <tag k="name:ru" v="&#x43C;&#x43E;&#x441;&#x442; &#x412;&#x430;&#x442;&#x435;&#x440;&#x43B;&#x43E;&#x43E;"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="postal_code" v="WC2"/>
     <tag k="cycleway:left" v="shared_lane"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG055896"/>
     <nd ref="469773614"/>
@@ -13990,31 +13999,33 @@
     <nd ref="469784435"/>
     <nd ref="4543005959"/>
   </way>
-  <way id="211341717" visible="true" version="10">
+  <way id="211341717" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3214"/>
     <tag k="name" v="Buckingham Palace Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="shared_lane"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:left:lane" v="pictogram"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066634"/>
     <nd ref="2213529569"/>
     <nd ref="25507334"/>
   </way>
-  <way id="4257003" visible="true" version="13">
+  <way id="4257003" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3214"/>
     <tag k="name" v="Buckingham Palace Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066634"/>
     <nd ref="108292"/>
@@ -14117,25 +14128,27 @@
     <nd ref="4882596902"/>
     <nd ref="275525"/>
   </way>
-  <way id="570050976" visible="true" version="3">
+  <way id="570050976" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Birdcage Walk"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="lane"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="City of Westminster"/>
     <tag k="tiger:upload_uuid" v="RWG152189"/>
     <nd ref="5481067694"/>
     <nd ref="5481067695"/>
   </way>
-  <way id="56460695" visible="true" version="14">
+  <way id="56460695" visible="true" version="15">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Birdcage Walk"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="cycleway" v="lane"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="City of Westminster"/>
     <tag k="tiger:upload_uuid" v="RWG152189,RWG152249"/>
     <nd ref="25507068"/>
     <nd ref="5481067701"/>
@@ -14280,17 +14293,18 @@
     <nd ref="4461142651"/>
     <nd ref="4461142659"/>
   </way>
-  <way id="61960154" visible="true" version="16">
+  <way id="61960154" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A41"/>
     <tag k="name" v="Portman Square"/>
     <tag k="lanes" v="3"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="smoothness" v="excellent"/>
     <tag k="lanes:forward" v="2"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066116"/>
     <nd ref="25497440"/>
@@ -14390,43 +14404,55 @@
     <nd ref="7413919196"/>
     <nd ref="25481322"/>
   </way>
-  <way id="443226480" visible="true" version="3">
+  <way id="443226480" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Westbourne Terrace"/>
     <tag k="highway" v="tertiary"/>
     <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="City of Westminster"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102626"/>
     <nd ref="4408434867"/>
     <nd ref="4408498495"/>
   </way>
-  <way id="443225759" visible="true" version="8">
+  <way id="443225759" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Westbourne Terrace"/>
     <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="City of Westminster"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102626"/>
     <nd ref="1116296903"/>
     <nd ref="4408434867"/>
   </way>
-  <way id="817967120" visible="true" version="1">
+  <way id="817967120" visible="true" version="2">
     <tag k="access" v="no"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="City of Westminster"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway" v="track"/>
     <tag k="cycleway:track" v="hybrid"/>
     <tag k="tiger:upload_uuid" v="RWG066041"/>
     <nd ref="7638981098"/>
     <nd ref="7638981101"/>
   </way>
-  <way id="817967121" visible="true" version="1">
+  <way id="817967121" visible="true" version="2">
     <tag k="access" v="no"/>
     <tag k="oneway" v="yes"/>
     <tag k="tunnel" v="building_passage"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="City of Westminster"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway" v="track"/>
     <tag k="cycleway:track" v="hybrid"/>
     <tag k="tiger:upload_uuid" v="RWG066041"/>
@@ -14773,7 +14799,7 @@
     <nd ref="249559884"/>
     <nd ref="6110191194"/>
   </way>
-  <way id="777584669" visible="true" version="1">
+  <way id="777584669" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4"/>
     <tag k="name" v="Strand"/>
@@ -14782,28 +14808,30 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="alt_name" v="The Strand"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="City of Westminster"/>
     <tag k="sidewalk" v="left"/>
     <tag k="postal_code" v="WC2"/>
     <tag k="busway:right" v="lane"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066833"/>
     <nd ref="7256448473"/>
     <nd ref="280412704"/>
   </way>
-  <way id="211487026" visible="true" version="8">
+  <way id="211487026" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A401"/>
     <tag k="name" v="Shaftesbury Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="oneway:bus" v="no"/>
     <tag k="postal_code" v="WC2H 8DP"/>
     <tag k="busway:right" v="opposite_lane"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG153086"/>
@@ -15100,7 +15128,7 @@
     <nd ref="3654934402"/>
     <nd ref="3654976779"/>
   </way>
-  <way id="232917151" visible="true" version="9">
+  <way id="232917151" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4380"/>
     <tag k="foot" v="yes"/>
@@ -15109,9 +15137,10 @@
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="lane"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="lanes:forward" v="2"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG018162"/>
     <nd ref="2412358535"/>
@@ -15204,7 +15233,7 @@
     <nd ref="4360262759"/>
     <nd ref="4855884942"/>
   </way>
-  <way id="232914382" visible="true" version="7">
+  <way id="232914382" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4380"/>
     <tag k="name" v="Gloucester Place"/>
@@ -15212,10 +15241,11 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="lane"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="lanes:psv" v="1"/>
     <tag k="lanes:forward" v="2"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG049465"/>
     <nd ref="2412350667"/>
@@ -15880,16 +15910,17 @@
     <nd ref="6625194426"/>
     <nd ref="3070670613"/>
   </way>
-  <way id="4003433" visible="true" version="22">
+  <way id="4003433" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3216"/>
     <tag k="name" v="Chelsea Bridge Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="both"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:both" v="lane"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:conditional" v="both @ (Mo-Fr 08:00-18:30)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG056158"/>
@@ -17060,14 +17091,15 @@
     <nd ref="3944960930"/>
     <nd ref="7254299255"/>
   </way>
-  <way id="300351502" visible="true" version="10">
+  <way id="300351502" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="name" v="William Street"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG055979"/>
@@ -17441,15 +17473,16 @@
     <nd ref="419809640"/>
     <nd ref="419809799"/>
   </way>
-  <way id="617656536" visible="true" version="3">
+  <way id="617656536" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A402"/>
     <tag k="name" v="Bayswater Road"/>
     <tag k="lanes" v="2"/>
     <tag k="bicycle" v="designated"/>
     <tag k="highway" v="primary"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG055955"/>
     <nd ref="5838570405"/>
@@ -17478,16 +17511,17 @@
     <nd ref="7714623934"/>
     <nd ref="7254299259"/>
   </way>
-  <way id="198260628" visible="true" version="8">
+  <way id="198260628" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Kensington Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="mixed"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="busway:right" v="lane"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG999809,RWG999808,RWG999807"/>
     <nd ref="2084193492"/>
@@ -17499,7 +17533,7 @@
     <nd ref="2251098593"/>
     <nd ref="306464368"/>
   </way>
-  <way id="22278040" visible="true" version="19">
+  <way id="22278040" visible="true" version="20">
     <tag k="bus" v="no"/>
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
@@ -17510,8 +17544,9 @@
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="lane"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="opening_hours" v="05:00-00:00"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG056386"/>
@@ -17681,7 +17716,7 @@
     <nd ref="765182733"/>
     <nd ref="765182734"/>
   </way>
-  <way id="271816293" visible="true" version="8">
+  <way id="271816293" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="foot" v="yes"/>
@@ -17690,11 +17725,12 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="wikidata" v="Q1063230"/>
     <tag k="oneway:bus" v="no"/>
     <tag k="busway:right" v="opposite_lane"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="wikimedia_commons" v="Category:Charing_Cross_Road"/>

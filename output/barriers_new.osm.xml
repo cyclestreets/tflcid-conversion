@@ -98,8 +98,9 @@
   <node id="6621595834" lat="51.5354409" lon="-0.014954" version="1" visible="true"/>
   <node id="6621595826" lat="51.5360892" lon="-0.015559" version="2" visible="true"/>
   <node id="6621595821" lat="51.5350968" lon="-0.0138974" version="1" visible="true"/>
-  <node id="6621587337" lat="51.5361685" lon="-0.0154874" version="1" visible="true"/>
-  <node id="6621587332" lat="51.5360412" lon="-0.0155123" version="1" visible="true"/>
+  <node id="6621587332" lat="51.5360412" lon="-0.0155123" version="2" visible="true">
+    <tag k="traffic_sign:forward" v="GB:956"/>
+  </node>
   <node id="6584249473" lat="51.6131222" lon="-0.1426989" version="1" visible="true"/>
   <node id="6584249472" lat="51.6130797" lon="-0.1426942" version="1" visible="true"/>
   <node id="6584219597" lat="51.6131973" lon="-0.1427339" version="1" visible="true"/>
@@ -2728,14 +2729,15 @@
     <nd ref="-169"/>
     <nd ref="4984055139"/>
   </way>
-  <way id="27237003" visible="true" version="5">
+  <way id="27237003" visible="true" version="6">
+    <tag k="addr:postcode" v="NW1"/>
+    <tag k="highway" v="service"/>
     <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="name" v="Penfold Place"/>
     <tag k="oneway" v="yes"/>
-    <tag k="highway" v="service"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="addr:postcode" v="NW1"/>
     <nd ref="298917261"/>
     <nd ref="-170"/>
     <nd ref="3669234339"/>
@@ -2949,8 +2951,10 @@
     <nd ref="-187"/>
     <nd ref="5633625189"/>
   </way>
-  <way id="4258107" visible="true" version="18">
+  <way id="4258107" visible="true" version="19">
     <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="name" v="Strutton Ground"/>
     <tag k="oneway" v="no"/>
     <tag k="postal_code" v="SW1"/>
@@ -2962,11 +2966,12 @@
     <nd ref="-188"/>
     <nd ref="292252720"/>
   </way>
-  <way id="4480717" visible="true" version="14">
+  <way id="4480717" visible="true" version="15">
     <tag k="highway" v="residential"/>
     <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="name" v="Wardour Street"/>
     <tag k="name:en" v="Wardour Street"/>
     <tag k="name:zh" v="&#x83EF;&#x90FD;&#x8857;"/>
@@ -2981,9 +2986,11 @@
     <nd ref="-189"/>
     <nd ref="107793"/>
   </way>
-  <way id="553792357" visible="true" version="2">
+  <way id="553792357" visible="true" version="3">
     <tag k="amenity" v="marketplace"/>
     <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="name" v="Strutton Ground"/>
     <tag k="oneway" v="yes"/>
     <tag k="surface" v="sett"/>
@@ -3006,11 +3013,12 @@
     <nd ref="-191"/>
     <nd ref="25501773"/>
   </way>
-  <way id="437141999" visible="true" version="9">
+  <way id="437141999" visible="true" version="10">
     <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="lit" v="yes"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="name" v="Wellington Street"/>
     <tag k="note" v="lack of restriction signage approaching from N, but paved and painted for two way cycle lanes"/>
     <tag k="operator" v="City of Westminster"/>
@@ -3949,11 +3957,12 @@
     <nd ref="5732962433"/>
     <nd ref="245053640"/>
   </way>
-  <way id="705009882" visible="true" version="2">
+  <way id="705009882" visible="true" version="3">
+    <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="lit" v="yes"/>
     <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
-    <nd ref="6621587337"/>
     <nd ref="6621595843"/>
     <nd ref="6621595826"/>
     <nd ref="6621587332"/>

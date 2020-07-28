@@ -6381,23 +6381,25 @@
     <nd ref="3716875499"/>
     <nd ref="427931762"/>
   </way>
-  <way id="764111181" visible="true" version="1">
+  <way id="764111181" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Boundary Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="City of Westminster"/>
     <tag k="sidewalk" v="both"/>
     <tag k="tiger:upload_uuid" v="RWG152064"/>
     <nd ref="1797684636"/>
     <nd ref="4888691689"/>
   </way>
-  <way id="497285546" visible="true" version="5">
+  <way id="497285546" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Boundary Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="City of Westminster"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG152064"/>
@@ -6951,12 +6953,14 @@
     <nd ref="4958529414"/>
     <nd ref="110249279"/>
   </way>
-  <way id="48049629" visible="true" version="18">
+  <way id="48049629" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Constitution Hill"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="tiger:upload_uuid" v="RWG152191"/>
     <nd ref="5481399655"/>
     <nd ref="5481399656"/>
@@ -7195,7 +7199,7 @@
     <nd ref="5461889112"/>
     <nd ref="48928530"/>
   </way>
-  <way id="245380686" visible="true" version="8">
+  <way id="245380686" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A302"/>
     <tag k="name" v="Great George Street"/>
@@ -7211,6 +7215,7 @@
     <tag k="junction" v="circular"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="tiger:upload_uuid" v="RWG066306"/>
     <nd ref="2525878184"/>
     <nd ref="740384609"/>
@@ -7705,7 +7710,7 @@
     <nd ref="6329027869"/>
     <nd ref="6086076322"/>
   </way>
-  <way id="343406595" visible="true" version="2">
+  <way id="343406595" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3214"/>
     <tag k="name" v="Pimlico Road"/>
@@ -7713,8 +7718,9 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="tiger:upload_uuid" v="RWG056187"/>
     <nd ref="1960905117"/>
     <nd ref="3502507862"/>
@@ -7800,7 +7806,7 @@
     <nd ref="35164017"/>
     <nd ref="6069524533"/>
   </way>
-  <way id="279553202" visible="true" version="15">
+  <way id="279553202" visible="true" version="16">
     <tag k="bus" v="no"/>
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
@@ -7808,7 +7814,9 @@
     <tag k="goods" v="destination"/>
     <tag k="horse" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG056339"/>
@@ -7849,7 +7857,7 @@
     <nd ref="20947339"/>
     <nd ref="12196664"/>
   </way>
-  <way id="323060773" visible="true" version="11">
+  <way id="323060773" visible="true" version="12">
     <tag k="bus" v="no"/>
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
@@ -7858,7 +7866,9 @@
     <tag k="horse" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG056493"/>
