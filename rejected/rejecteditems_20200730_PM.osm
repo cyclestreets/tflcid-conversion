@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <node id='525083' visible='true' version='9' lat='51.6364598' lon='-0.0907341'>
+    <tag k='highway' v='junction' />
+    <tag k='name' v='Mason&apos;s Corner' />
+  </node>
+  <node id='7348907' visible='true' version='6' lat='51.6428939' lon='-0.0468013' />
+  <node id='25703612' visible='true' version='7' lat='51.6209186' lon='-0.1061316' />
+  <node id='25714120' visible='true' version='5' lat='51.6130656' lon='-0.1096833' />
+  <node id='25812010' visible='true' version='10' lat='51.6432237' lon='-0.046718' />
+  <node id='1464552740' visible='true' version='9' lat='51.6176599' lon='-0.1090958'>
+    <tag k='name' v='Palmers Green' />
+    <tag k='rcn' v='yes' />
+    <tag k='rcn_name' v='Palmers Green' />
+  </node>
+  <node id='1464559208' visible='true' version='6' lat='51.6207948' lon='-0.1062097' />
+  <node id='3982646792' visible='true' version='4' lat='51.6364724' lon='-0.0906164' />
+  <node id='3982646810' visible='true' version='4' lat='51.6364688' lon='-0.0904993'>
+    <tag k='bicycle' v='yes' />
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='crossing_ref' v='tiger' />
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='4065358731' visible='true' version='3' lat='51.6131484' lon='-0.1096903' />
+  <node id='5890698990' visible='true' version='4' lat='51.6181994' lon='-0.1083214' />
+  <node id='6169807869' visible='true' version='3' lat='51.6431624' lon='-0.0467335' />
+  <node id='6169807881' visible='true' version='5' lat='51.6434075' lon='-0.0466739' />
+  <node id='6169811294' visible='true' version='4' lat='51.6427858' lon='-0.0468288' />
+  <node id='6169811303' visible='true' version='3' lat='51.6434554' lon='-0.0466584' />
+  <node id='6169811313' visible='true' version='3' lat='51.6425283' lon='-0.0468972' />
+  <node id='6272019010' visible='true' version='3' lat='51.6364734' lon='-0.0905686' />
+  <node id='6272019011' visible='true' version='3' lat='51.6364677' lon='-0.0906779' />
+  <node id='6813224185' visible='true' version='1' lat='51.6179988' lon='-0.1086833' />
+  <node id='6813224210' visible='true' version='1' lat='51.617605' lon='-0.1091187' />
+  <node id='7644550716' visible='true' version='1' lat='51.6430278' lon='-0.0467675' />
+  <way id='1713755' visible='true' version='8'>
+    <nd ref='525083' />
+    <nd ref='6272019011' />
+    <nd ref='3982646792' />
+    <nd ref='6272019010' />
+    <nd ref='3982646810' />
+    <tag k='cycleway' v='separate' />
+    <tag k='cycleway:left' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lit' v='yes' />
+    <tag k='name' v='Ridge Avenue' />
+    <tag k='ref' v='A105' />
+    <tag k='tiger:upload_uuid' v='RWG149183,RWG149684' />
+  </way>
+  <way id='404260457' visible='true' version='1'>
+    <nd ref='25714120' />
+    <nd ref='4065358731' />
+    <tag k='cycleway:right' v='share_busway' />
+    <tag k='highway' v='primary' />
+    <tag k='lanes' v='3' />
+    <tag k='lanes:backward' v='2' />
+    <tag k='lanes:forward' v='1' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='Green Lanes' />
+    <tag k='ref' v='A105' />
+    <tag k='sidewalk' v='both' />
+    <tag k='smoothness' v='excellent' />
+    <tag k='surface' v='asphalt' />
+    <tag k='tiger:upload_uuid' v='RWG149654' />
+    <tag k='turn:lanes:backward' v='left;through|through;right' />
+  </way>
+  <way id='658970978' action='modify' visible='true' version='3'>
+    <nd ref='6169811294' />
+    <nd ref='6169811313' />
+    <tag k='alt_name' v='High Street, Ponders End' />
+    <tag k='bicycle' v='designated' />
+    <tag k='cycleway:left' v='track' />
+    <tag k='cycleway:left:track' v='hybrid' />
+    <tag k='cycleway:right' v='separate' />
+    <tag k='highway' v='primary' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='High Street' />
+    <tag k='not:name' v='Hertford Road' />
+    <tag k='ref' v='A1010' />
+    <tag k='sidewalk' v='both' />
+    <tag k='tiger:upload_uuid' v='RWG187356' />
+  </way>
+  <way id='668567144' visible='true' version='4'>
+    <nd ref='25812010' />
+    <nd ref='6169807869' />
+    <nd ref='7644550716' />
+    <tag k='alt_name' v='High Street, Ponders End' />
+    <tag k='cycleway' v='' />
+    <tag k='cycleway:track' v='hybrid' />
+    <tag k='highway' v='primary' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='High Street' />
+    <tag k='not:name' v='Hertford Road' />
+    <tag k='ref' v='A1010' />
+    <tag k='sidewalk' v='both' />
+    <tag k='tiger:upload_uuid' v='RWG187356,RWG187357,RWG187445,RWG187448,RWG187449' />
+  </way>
+  <way id='726986762' visible='true' version='3'>
+    <nd ref='6813224210' />
+    <nd ref='1464552740' />
+    <tag k='bicycle' v='designated' />
+    <tag k='cycleway:left' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='Green Lanes' />
+    <tag k='oneway' v='no' />
+    <tag k='ref' v='A105' />
+    <tag k='sidewalk' v='both' />
+    <tag k='tiger:upload_uuid' v='RWG276332' />
+  </way>
+  <way id='726986764' visible='true' version='1'>
+    <nd ref='6813224185' />
+    <nd ref='5890698990' />
+    <tag k='bicycle' v='designated' />
+    <tag k='cycleway:left' v='lane' />
+    <tag k='cycleway:right' v='separate' />
+    <tag k='highway' v='primary' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='Green Lanes' />
+    <tag k='ref' v='A105' />
+    <tag k='sidewalk' v='both' />
+    <tag k='tiger:upload_uuid' v='RWG276333' />
+  </way>
+  <way id='726989087' visible='true' version='2'>
+    <nd ref='1464559208' />
+    <nd ref='25703612' />
+    <tag k='cycleway' v='separate' />
+    <tag k='cycleway:left' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='Green Lanes' />
+    <tag k='ref' v='A105' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='asphalt' />
+    <tag k='tiger:upload_uuid' v='RWG149111,RWG149112' />
+  </way>
+  <way id='818594425' visible='true' version='1'>
+    <nd ref='6169811303' />
+    <nd ref='6169807881' />
+    <tag k='alt_name' v='High Street, Ponders End' />
+    <tag k='cycleway' v='track' />
+    <tag k='cycleway:track' v='hybrid' />
+    <tag k='highway' v='primary' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='High Street' />
+    <tag k='not:name' v='Hertford Road' />
+    <tag k='ref' v='A1010' />
+    <tag k='sidewalk' v='both' />
+    <tag k='tiger:upload_uuid' v='RWG187357,RWG187444' />
+  </way>
+  <way id='818594434' action='modify' visible='true' version='1'>
+    <nd ref='7644550716' />
+    <nd ref='7348907' />
+    <tag k='alt_name' v='High Street, Ponders End' />
+    <tag k='cycleway:left' v='lane' />
+    <tag k='cycleway:left:track' v='hybrid' />
+    <tag k='cycleway:right' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='High Street' />
+    <tag k='not:name' v='Hertford Road' />
+    <tag k='ref' v='A1010' />
+    <tag k='sidewalk' v='both' />
+    <tag k='tiger:upload_uuid' v='RWG187356,RWG187447,RWG187449' />
+  </way>
+  <way id='818594436' visible='true' version='1'>
+    <nd ref='6169807881' />
+    <nd ref='25812010' />
+    <tag k='alt_name' v='High Street, Ponders End' />
+    <tag k='cycleway' v='' />
+    <tag k='cycleway:track' v='hybrid' />
+    <tag k='highway' v='primary' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='High Street' />
+    <tag k='not:name' v='Hertford Road' />
+    <tag k='ref' v='A1010' />
+    <tag k='sidewalk' v='both' />
+    <tag k='tiger:upload_uuid' v='RWG187357,RWG187444,RWG187445' />
+  </way>
+</osm>
