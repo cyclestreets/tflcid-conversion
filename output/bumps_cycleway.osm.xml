@@ -8,13 +8,14 @@
   <node id="7747398987" lat="51.5997393" lon="0.2376056" version="1" visible="true"/>
   <node id="7747398986" lat="51.599803" lon="0.2373767" version="1" visible="true"/>
   <node id="7747394617" lat="51.5999298" lon="0.2372615" version="1" visible="true"/>
+  <node id="7727073457" lat="51.5296648" lon="-0.0598688" version="2" visible="true"/>
+  <node id="7727073456" lat="51.5298113" lon="-0.0594267" version="1" visible="true"/>
   <node id="7650872389" lat="51.594077" lon="-0.3289433" version="1" visible="true"/>
-  <node id="7616716430" lat="51.5297386" lon="-0.0599001" version="3" visible="true"/>
-  <node id="7616716429" lat="51.5298804" lon="-0.0594929" version="5" visible="true"/>
   <node id="7616698310" lat="51.5298691" lon="-0.0594005" version="2" visible="true"/>
   <node id="7564532459" lat="51.4872078" lon="-0.0334315" version="1" visible="true"/>
   <node id="7564532455" lat="51.4869116" lon="-0.0330856" version="1" visible="true"/>
   <node id="7556825549" lat="51.515094" lon="-0.0719703" version="1" visible="true"/>
+  <node id="7490711933" lat="51.5297048" lon="-0.0597388" version="2" visible="true"/>
   <node id="7379902912" lat="51.5933501" lon="-0.3245554" version="1" visible="true"/>
   <node id="7379902903" lat="51.593438" lon="-0.326154" version="1" visible="true"/>
   <node id="7293228159" lat="51.4981269" lon="-0.0738349" version="1" visible="true"/>
@@ -569,7 +570,6 @@
   <node id="12238230" lat="51.6087196" lon="-0.0414432" version="6" visible="true"/>
   <node id="199308" lat="51.5601941" lon="-0.150036" version="8" visible="true"/>
   <node id="108701" lat="51.5224798" lon="-0.0419021" version="25" visible="true"/>
-  <node id="108635" lat="51.5296889" lon="-0.0599214" version="11" visible="true"/>
   <node id="6369895029" lat="51.5810794" lon="-0.06097" visible="true" version="1">
     <tag k="traffic_calming" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG289471"/>
@@ -966,7 +966,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG072078"/>
   </node>
-  <node id="-388" lat="51.5298312786017" lon="-0.0596339444634213" visible="true">
+  <node id="-388" lat="51.5297501344537" lon="-0.0596059313206516" visible="true">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG071771"/>
   </node>
@@ -1361,17 +1361,18 @@
     <nd ref="4414750028"/>
     <nd ref="6110191194"/>
   </way>
-  <way id="815548396" visible="true" version="5">
+  <way id="827690630" visible="true" version="3">
+    <tag k="access" v="no"/>
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Old Bethnal Green Road"/>
     <tag k="proposed:oneway" v="yes"/>
     <tag k="sidewalk" v="left"/>
     <tag k="surface" v="asphalt"/>
-    <nd ref="108635"/>
-    <nd ref="7616716430"/>
-    <nd ref="-388"/>
-    <nd ref="7616716429"/>
     <nd ref="7616698310"/>
+    <nd ref="7727073456"/>
+    <nd ref="-388"/>
+    <nd ref="7490711933"/>
+    <nd ref="7727073457"/>
   </way>
   <way id="680432690" visible="true" version="2">
     <tag k="bicycle" v="designated"/>
