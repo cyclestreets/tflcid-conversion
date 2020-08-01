@@ -232,7 +232,6 @@
   <node id="6504788168" lat="51.5039095" lon="-0.1150382" version="3" visible="true"/>
   <node id="460347282" lat="51.5767289" lon="-0.382794" version="2" visible="true"/>
   <node id="82630692" lat="51.4758698" lon="-0.0320195" version="8" visible="true"/>
-  <node id="91549551" lat="51.4095236" lon="-0.3030065" version="9" visible="true"/>
   <node id="6215339751" lat="51.5804648" lon="-0.3250052" version="1" visible="true"/>
   <node id="80429949" lat="51.3865493" lon="-0.1921811" version="8" visible="true"/>
   <node id="401675165" lat="51.4799163" lon="0.1814603" version="4" visible="true"/>
@@ -4290,6 +4289,10 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+  </node>
+  <node id="91549551" lat="51.4095236" lon="-0.3030065" version="10" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="6091274146" lat="51.4079646" lon="-0.3037045" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
