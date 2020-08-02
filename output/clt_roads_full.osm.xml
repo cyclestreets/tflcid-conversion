@@ -618,6 +618,7 @@
   <node id="2592933733" lat="51.543828" lon="-0.139994" version="2" visible="true"/>
   <node id="2720043560" lat="51.452409" lon="-0.2214115" version="4" visible="true"/>
   <node id="7767829464" lat="51.5957183" lon="0.1465158" version="1" visible="true"/>
+  <node id="2539047277" lat="51.5961178" lon="0.1475658" version="2" visible="true"/>
   <node id="5125070076" lat="51.5250192" lon="-0.1374301" version="3" visible="true"/>
   <node id="52735531" lat="51.5388139" lon="-0.0767093" version="5" visible="true"/>
   <node id="7167130356" lat="51.4499349" lon="-0.3306592" version="1" visible="true"/>
@@ -1323,6 +1324,7 @@
   <node id="108540" lat="51.5305655" lon="-0.1057835" version="15" visible="true"/>
   <node id="6382313918" lat="51.5714769" lon="-0.0219285" version="4" visible="true"/>
   <node id="6521887917" lat="51.5222662" lon="-0.1324338" version="1" visible="true"/>
+  <node id="1435904588" lat="51.5833075" lon="-0.0284249" version="5" visible="true"/>
   <node id="1751778171" lat="51.3757548" lon="-0.0911708" version="2" visible="true"/>
   <node id="5610161832" lat="51.5219721" lon="-0.1356447" version="4" visible="true"/>
   <node id="5676747412" lat="51.5504055" lon="-0.0225752" version="1" visible="true"/>
@@ -1557,7 +1559,6 @@
   <node id="457947731" lat="51.3996996" lon="-0.2419392" version="6" visible="true"/>
   <node id="1936857409" lat="51.5213806" lon="-0.1719665" version="13" visible="true"/>
   <node id="382363023" lat="51.6090493" lon="-0.3672427" version="4" visible="true"/>
-  <node id="25743583" lat="51.5960921" lon="0.147486" version="5" visible="true"/>
   <node id="27026491" lat="51.4636033" lon="-0.1833216" version="6" visible="true"/>
   <node id="2055250859" lat="51.4096043" lon="-0.2269586" version="5" visible="true"/>
   <node id="7270892330" lat="51.5373422" lon="0.0717806" version="1" visible="true"/>
@@ -2784,6 +2785,9 @@
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="5452645527" lat="51.5744041" lon="-0.0141537" version="6" visible="true">
+    <tag k="traffic_calming" v="table"/>
+  </node>
+  <node id="21592330" lat="51.5834202" lon="-0.0284811" version="13" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="7447542875" lat="51.5825102" lon="-0.0349684" version="1" visible="true">
@@ -4375,7 +4379,7 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
-  <way id="831985135" visible="true" version="1">
+  <way id="831985135" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Collier Row Road"/>
     <tag k="lanes" v="2"/>
@@ -4398,7 +4402,7 @@
     <nd ref="7767829464"/>
     <nd ref="333221599"/>
     <nd ref="7767827196"/>
-    <nd ref="25743583"/>
+    <nd ref="2539047277"/>
     <nd ref="7767829465"/>
   </way>
   <way id="4276670" visible="true" version="16">
@@ -6588,6 +6592,19 @@
     <tag k="tiger:upload_uuid" v="RWG149373"/>
     <nd ref="5534977043"/>
     <nd ref="101556985"/>
+  </way>
+  <way id="141146929" visible="true" version="8">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Palmerston Road"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="postal_code" v="E17"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG149247"/>
+    <nd ref="21592330"/>
+    <nd ref="1435904588"/>
   </way>
   <way id="220024486" visible="true" version="6">
     <tag k="lit" v="yes"/>
