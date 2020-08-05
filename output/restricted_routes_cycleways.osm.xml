@@ -1192,7 +1192,12 @@
   <node id="186028567" lat="51.5713224" lon="-0.1038772" version="4" visible="true">
     <tag k="ele:1914" v="165"/>
   </node>
-  <node id="145728319" lat="51.4057643" lon="-0.0755321" version="4" visible="true"/>
+  <node id="145728319" lat="51.4057643" lon="-0.0755321" version="5" visible="true">
+    <tag k="foot" v="yes"/>
+    <tag k="access" v="no"/>
+    <tag k="barrier" v="block"/>
+    <tag k="bicycle" v="yes"/>
+  </node>
   <node id="133012825" lat="51.5558471" lon="-0.149858" version="3" visible="true"/>
   <node id="133012821" lat="51.5570863" lon="-0.1506952" version="5" visible="true"/>
   <node id="133012792" lat="51.5554348" lon="-0.1495597" version="6" visible="true"/>

@@ -2340,14 +2340,17 @@
   <node id="2440630568" lat="51.5260298" lon="-0.1240015" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
-  <node id="5411324107" lat="51.5280129" lon="-0.1275432" version="1" visible="true">
+  <node id="5411324107" lat="51.5280129" lon="-0.1275432" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
-  <node id="2963402599" lat="51.528329" lon="-0.1278332" version="2" visible="true">
+  <node id="2963402599" lat="51.528329" lon="-0.1278332" version="4" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="no"/>
   </node>
   <node id="2963402598" lat="51.5282959" lon="-0.1278026" version="2" visible="true">
     <tag k="cycleway" v="asl"/>

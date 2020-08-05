@@ -504,6 +504,7 @@
   <node id="1675715097" lat="51.3615792" lon="-0.1942114" version="3" visible="true"/>
   <node id="2543967299" lat="51.5086844" lon="-0.2195329" version="4" visible="true"/>
   <node id="5718385738" lat="51.5797766" lon="-0.2421333" version="3" visible="true"/>
+  <node id="2678590903" lat="51.387007" lon="-0.2968397" version="1" visible="true"/>
   <node id="6329555488" lat="51.5257265" lon="-0.1058884" version="1" visible="true"/>
   <node id="6335511345" lat="51.525955" lon="-0.1136268" version="1" visible="true"/>
   <node id="2387843070" lat="51.5776914" lon="-0.3305599" version="3" visible="true"/>
@@ -1418,6 +1419,7 @@
   <node id="2807249428" lat="51.4473724" lon="-0.3824781" version="1" visible="true"/>
   <node id="382363022" lat="51.6090824" lon="-0.3660679" version="4" visible="true"/>
   <node id="6040171856" lat="51.4926235" lon="-0.2733196" version="3" visible="true"/>
+  <node id="6175026510" lat="51.3850019" lon="-0.2945892" version="1" visible="true"/>
   <node id="623136929" lat="51.4637645" lon="-0.0386427" version="3" visible="true"/>
   <node id="1448692412" lat="51.5805525" lon="0.1808675" version="3" visible="true"/>
   <node id="4937046217" lat="51.656577" lon="-0.0473705" version="5" visible="true"/>
@@ -1794,6 +1796,7 @@
   <node id="6474039246" lat="51.4178236" lon="-0.2810043" version="3" visible="true"/>
   <node id="128685165" lat="51.3768715" lon="-0.0954923" version="5" visible="true"/>
   <node id="6478101893" lat="51.538043" lon="0.0780477" version="3" visible="true"/>
+  <node id="1464543004" lat="51.3870554" lon="-0.2968617" version="4" visible="true"/>
   <node id="1813690850" lat="51.5461067" lon="-0.0036711" version="6" visible="true"/>
   <node id="279661" lat="51.5775886" lon="-0.3310405" version="6" visible="true"/>
   <node id="33469869" lat="51.5803699" lon="0.1801095" version="4" visible="true"/>
@@ -1944,6 +1947,7 @@
   <node id="2775635677" lat="51.5112484" lon="-0.1051576" version="3" visible="true"/>
   <node id="32635812" lat="51.5572472" lon="0.0682934" version="7" visible="true"/>
   <node id="961587772" lat="51.525106" lon="-0.0347131" version="11" visible="true"/>
+  <node id="304435" lat="51.3849895" lon="-0.29453" version="3" visible="true"/>
   <node id="306464368" lat="51.5018112" lon="-0.1675182" version="9" visible="true"/>
   <node id="243512927" lat="51.4567892" lon="-0.4349645" version="4" visible="true"/>
   <node id="6985146839" lat="51.5291506" lon="-0.1260907" version="2" visible="true"/>
@@ -2325,6 +2329,7 @@
   <node id="201269" lat="51.5990941" lon="-0.111024" version="12" visible="true"/>
   <node id="2477093218" lat="51.5336862" lon="-0.0074054" version="3" visible="true"/>
   <node id="3982071022" lat="51.5801693" lon="-0.002842" version="4" visible="true"/>
+  <node id="2624615477" lat="51.387333" lon="-0.2969806" version="3" visible="true"/>
   <node id="6040171852" lat="51.4925324" lon="-0.2734972" version="3" visible="true"/>
   <node id="21489329" lat="51.5763288" lon="-0.3829468" version="4" visible="true"/>
   <node id="343588245" lat="51.3950775" lon="-0.0930454" version="3" visible="true"/>
@@ -4304,6 +4309,11 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
+  <node id="7769359775" lat="51.3872094" lon="-0.2969277" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:island" v="yes"/>
+  </node>
   <node id="5638809832" lat="51.6083397" lon="-0.35957" version="3" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
@@ -5026,6 +5036,29 @@
     <nd ref="7743688556"/>
     <nd ref="7252003921"/>
   </way>
+  <way id="833813151" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A240"/>
+    <tag k="name" v="Ewell Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG123605"/>
+    <nd ref="2678590903"/>
+    <nd ref="1464543004"/>
+  </way>
+  <way id="833813150" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A240"/>
+    <tag k="name" v="Ewell Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG123605"/>
+    <nd ref="1464543004"/>
+    <nd ref="7769359775"/>
+    <nd ref="2624615477"/>
+  </way>
   <way id="827038253" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A24"/>
@@ -5054,6 +5087,17 @@
     <nd ref="5941807864"/>
     <nd ref="5941807863"/>
     <nd ref="5941807860"/>
+  </way>
+  <way id="833813148" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A240"/>
+    <tag k="name" v="Ewell Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG123682"/>
+    <nd ref="6175026510"/>
+    <nd ref="304435"/>
   </way>
   <way id="653469680" visible="true" version="2">
     <tag k="lit" v="yes"/>
