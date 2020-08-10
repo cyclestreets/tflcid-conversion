@@ -2195,7 +2195,6 @@
   <node id="2091673466" lat="51.5764127" lon="-0.2384317" version="3" visible="true"/>
   <node id="6405776857" lat="51.4626592" lon="-0.0100847" version="4" visible="true"/>
   <node id="96018524" lat="51.5243289" lon="-0.0367985" version="22" visible="true"/>
-  <node id="6384632336" lat="51.5337781" lon="-0.1290802" version="2" visible="true"/>
   <node id="21389915" lat="51.3996785" lon="-0.2420768" version="5" visible="true"/>
   <node id="7721255539" lat="51.4168863" lon="-0.1798136" version="1" visible="true"/>
   <node id="7527616813" lat="51.5927304" lon="-0.1732429" version="1" visible="true"/>
@@ -3438,6 +3437,11 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="6384632336" lat="51.5337781" lon="-0.1290802" version="3" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="zebra"/>
   </node>
   <node id="6309376830" lat="51.5333738" lon="-0.128589" version="2" visible="true">
     <tag k="highway" v="crossing"/>
