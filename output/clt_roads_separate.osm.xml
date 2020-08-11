@@ -1,5 +1,19 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7799663857" lat="51.540745" lon="-0.1374471" version="1" visible="true"/>
+  <node id="7799663855" lat="51.5409154" lon="-0.1375831" version="1" visible="true"/>
+  <node id="7799663851" lat="51.5412429" lon="-0.1378677" version="1" visible="true"/>
+  <node id="7799663850" lat="51.5409703" lon="-0.1376308" version="1" visible="true"/>
+  <node id="7799663848" lat="51.5413415" lon="-0.1379531" version="1" visible="true"/>
+  <node id="7799663847" lat="51.5407748" lon="-0.1374728" version="1" visible="true"/>
+  <node id="7799636135" lat="51.5432985" lon="-0.139715" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="zebra"/>
+  </node>
+  <node id="7799623264" lat="51.5443473" lon="-0.1407998" version="1" visible="true"/>
+  <node id="7799623263" lat="51.54504" lon="-0.1414391" version="1" visible="true"/>
+  <node id="7799623261" lat="51.5449948" lon="-0.1413815" version="1" visible="true"/>
   <node id="7799235863" lat="51.5343031" lon="-0.1298488" version="1" visible="true"/>
   <node id="7797489851" lat="51.4449082" lon="-0.1112617" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -520,6 +534,16 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
   </node>
+  <node id="5334354674" lat="51.544931" lon="-0.141284" version="2" visible="true">
+    <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="forward"/>
+  </node>
+  <node id="5334329536" lat="51.5440629" lon="-0.1406013" version="1" visible="true"/>
+  <node id="5334329535" lat="51.5440376" lon="-0.1405698" version="2" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="zebra"/>
+  </node>
   <node id="5315714364" lat="51.3942486" lon="-0.3140733" version="1" visible="true"/>
   <node id="5315688985" lat="51.3942025" lon="-0.3141457" version="1" visible="true">
     <tag k="bicycle" v="yes"/>
@@ -577,11 +601,12 @@
   </node>
   <node id="4958529418" lat="51.4847198" lon="-0.1185181" version="3" visible="true"/>
   <node id="4958529414" lat="51.4847875" lon="-0.1186711" version="3" visible="true"/>
-  <node id="4931754275" lat="51.5432989" lon="-0.1397249" version="1" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="uncontrolled"/>
-    <tag k="crossing_ref" v="zebra"/>
+  <node id="4931754284" lat="51.5443929" lon="-0.1408347" version="2" visible="true"/>
+  <node id="4931754279" lat="51.5448788" lon="-0.1412255" version="3" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
+  <node id="4931754275" lat="51.5432768" lon="-0.1396948" version="2" visible="true"/>
   <node id="4892230764" lat="51.5257331" lon="-0.1252824" version="4" visible="true"/>
   <node id="4888691693" lat="51.5396275" lon="-0.1760265" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -623,7 +648,7 @@
   </node>
   <node id="4738129849" lat="51.5034388" lon="-0.0924688" version="2" visible="true"/>
   <node id="4569077409" lat="51.6274342" lon="-0.0985279" version="4" visible="true"/>
-  <node id="4559230398" lat="51.5408454" lon="-0.1375227" version="1" visible="true"/>
+  <node id="4559230398" lat="51.5408449" lon="-0.1375241" version="2" visible="true"/>
   <node id="4516636740" lat="51.520009" lon="-0.0553732" version="4" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Sidney Street"/>
@@ -783,12 +808,6 @@
   <node id="3469156918" lat="51.6305536" lon="-0.0967712" version="3" visible="true"/>
   <node id="3397713903" lat="51.5798636" lon="-0.0035888" version="4" visible="true"/>
   <node id="3256109212" lat="51.5083086" lon="-0.2745992" version="4" visible="true"/>
-  <node id="3256080576" lat="51.5412963" lon="-0.1379142" version="1" visible="true">
-    <tag k="bus" v="yes"/>
-    <tag k="name" v="Camden Road Station"/>
-    <tag k="local_ref" v="H"/>
-    <tag k="public_transport" v="stop_position"/>
-  </node>
   <node id="3252823706" lat="51.5082905" lon="-0.2745287" version="6" visible="true"/>
   <node id="3252823704" lat="51.508278" lon="-0.2744831" version="6" visible="true"/>
   <node id="3231708956" lat="51.5157049" lon="-0.0703191" version="4" visible="true">
@@ -905,12 +924,11 @@
     <tag k="crossing_ref" v="zebra"/>
   </node>
   <node id="2592872585" lat="51.5418638" lon="-0.1356349" version="4" visible="true"/>
-  <node id="2592858585" lat="51.5408177" lon="-0.1375001" version="2" visible="true">
+  <node id="2592858585" lat="51.5408185" lon="-0.1375055" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
   </node>
-  <node id="2592856889" lat="51.5408762" lon="-0.137549" version="1" visible="true"/>
   <node id="2592856886" lat="51.5400543" lon="-0.1368744" version="1" visible="true">
     <tag k="traffic_calming" v="cushion"/>
   </node>
@@ -1214,6 +1232,12 @@
   <node id="1457694462" lat="51.6449067" lon="-0.081694" version="6" visible="true"/>
   <node id="1437110781" lat="51.5133696" lon="-0.2976106" version="6" visible="true"/>
   <node id="1436218854" lat="51.5024134" lon="-0.162948" version="5" visible="true"/>
+  <node id="1427528573" lat="51.544961" lon="-0.1413287" version="5" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing:island" v="yes"/>
+  </node>
   <node id="1414262341" lat="51.4004741" lon="-0.3044725" version="6" visible="true"/>
   <node id="1382081365" lat="51.4005268" lon="-0.308384" version="2" visible="true"/>
   <node id="1382081362" lat="51.3941394" lon="-0.3142449" version="2" visible="true"/>
@@ -1284,6 +1308,12 @@
     <tag k="crossing_ref" v="zebra"/>
     <tag k="tactile_paving" v="yes"/>
   </node>
+  <node id="970237231" lat="51.5451035" lon="-0.1415028" version="9" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+  </node>
+  <node id="970237226" lat="51.5449061" lon="-0.1412524" version="5" visible="true"/>
   <node id="961587776" lat="51.5255346" lon="-0.0330668" version="5" visible="true"/>
   <node id="961587771" lat="51.5258336" lon="-0.0314675" version="5" visible="true"/>
   <node id="961587768" lat="51.5258332" lon="-0.0316432" version="7" visible="true"/>
@@ -1355,7 +1385,7 @@
   </node>
   <node id="427931763" lat="51.5305861" lon="-0.1224536" version="5" visible="true"/>
   <node id="427931762" lat="51.53056" lon="-0.1225813" version="8" visible="true"/>
-  <node id="419253376" lat="51.5412787" lon="-0.1378988" version="2" visible="true"/>
+  <node id="419257950" lat="51.5448212" lon="-0.1411619" version="4" visible="true"/>
   <node id="418054049" lat="51.5396904" lon="-0.1365973" version="6" visible="true"/>
   <node id="417235507" lat="51.5713409" lon="-0.0201328" version="1" visible="true"/>
   <node id="417235506" lat="51.5707837" lon="-0.01963" version="4" visible="true"/>
@@ -1602,6 +1632,7 @@
   <node id="25789560" lat="51.5081279" lon="-0.3241363" version="3" visible="true"/>
   <node id="25764194" lat="51.6278681" lon="-0.0983101" version="5" visible="true"/>
   <node id="25764148" lat="51.6311021" lon="-0.0962491" version="6" visible="true"/>
+  <node id="25596453" lat="51.5447296" lon="-0.1410905" version="3" visible="true"/>
   <node id="25596085" lat="51.5433847" lon="-0.1397952" version="5" visible="true"/>
   <node id="25534754" lat="51.5333514" lon="-0.2037961" version="4" visible="true"/>
   <node id="25502371" lat="51.5355461" lon="-0.1330455" version="10" visible="true"/>
@@ -1680,6 +1711,7 @@
   <node id="7258201" lat="51.6458351" lon="-0.0808357" version="7" visible="true"/>
   <node id="820319" lat="51.5226201" lon="-0.1375751" version="9" visible="true"/>
   <node id="819548" lat="51.5570088" lon="-0.0104735" version="12" visible="true"/>
+  <node id="658186" lat="51.5441003" lon="-0.1406107" version="3" visible="true"/>
   <node id="615084" lat="51.6485513" lon="-0.0798556" version="7" visible="true"/>
   <node id="525098" lat="51.6478415" lon="-0.0797415" version="4" visible="true"/>
   <node id="525097" lat="51.6473086" lon="-0.0796708" version="6" visible="true"/>
@@ -5465,7 +5497,66 @@
     <nd ref="5239924848"/>
     <nd ref="80298785"/>
   </way>
-  <way id="253349739" visible="true" version="6">
+  <way id="835618248" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG003565"/>
+    <nd ref="7799623264"/>
+    <nd ref="4931754284"/>
+  </way>
+  <way id="502802555" visible="true" version="9">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
+    <tag k="highway" v="primary"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="tiger:upload_uuid" v="RWG003565"/>
+    <nd ref="4931754284"/>
+    <nd ref="25596453"/>
+    <nd ref="419257950"/>
+  </way>
+  <way id="502802543" visible="true" version="9">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="tiger:upload_uuid" v="RWG003565"/>
+    <nd ref="419257950"/>
+    <nd ref="4931754279"/>
+  </way>
+  <way id="502802553" visible="true" version="9">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="shared_lane"/>
+    <tag k="cycleway:right" v="separate"/>
+    <tag k="tiger:upload_uuid" v="RWG003565"/>
+    <nd ref="4931754279"/>
+    <nd ref="970237226"/>
+    <nd ref="5334354674"/>
+    <nd ref="1427528573"/>
+    <nd ref="7799623261"/>
+    <nd ref="7799623263"/>
+    <nd ref="970237231"/>
+  </way>
+  <way id="835622321" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
@@ -5473,12 +5564,12 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="seprate"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG003558"/>
-    <nd ref="419253376"/>
-    <nd ref="3256080576"/>
+    <nd ref="7799663848"/>
     <nd ref="6773398984"/>
     <nd ref="2592856885"/>
     <nd ref="5336117979"/>
@@ -5705,7 +5796,7 @@
     <nd ref="5336143717"/>
     <nd ref="1198124692"/>
   </way>
-  <way id="47048376" visible="true" version="7">
+  <way id="835622324" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
@@ -5717,8 +5808,24 @@
     <tag k="sidewalk" v="both"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG030486"/>
-    <nd ref="2592856889"/>
-    <nd ref="419253376"/>
+    <nd ref="7799663855"/>
+    <nd ref="7799663850"/>
+  </way>
+  <way id="835622320" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="seprate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="traffic_calming" v="cushion"/>
+    <tag k="tiger:upload_uuid" v="RWG030486"/>
+    <nd ref="7799663850"/>
+    <nd ref="7799663851"/>
   </way>
   <way id="552732632" visible="true" version="4">
     <tag k="lit" v="yes"/>
@@ -5969,7 +6076,7 @@
     <nd ref="183313980"/>
     <nd ref="2592922021"/>
   </way>
-  <way id="48379512" visible="true" version="16">
+  <way id="48379512" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
@@ -5985,6 +6092,26 @@
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG150980"/>
     <nd ref="614490971"/>
+    <nd ref="7799663857"/>
+  </way>
+  <way id="835622326" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="layer" v="1"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="bridge_ref" v="28"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="traffic_calming" v="cushion"/>
+    <tag k="tiger:upload_uuid" v="RWG150980"/>
+    <nd ref="7799663857"/>
+    <nd ref="7799663847"/>
     <nd ref="2592858585"/>
     <nd ref="4559230398"/>
   </way>
@@ -6058,7 +6185,7 @@
     <nd ref="4337162062"/>
     <nd ref="4931754275"/>
   </way>
-  <way id="502802556" visible="true" version="6">
+  <way id="502802556" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
@@ -6074,9 +6201,10 @@
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG000088"/>
     <nd ref="4931754275"/>
+    <nd ref="7799636135"/>
     <nd ref="25596085"/>
   </way>
-  <way id="48379512" visible="true" version="16">
+  <way id="48379512" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
@@ -6092,8 +6220,7 @@
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG038313"/>
     <nd ref="614490971"/>
-    <nd ref="2592858585"/>
-    <nd ref="4559230398"/>
+    <nd ref="7799663857"/>
   </way>
   <way id="642635291" visible="true" version="1">
     <tag k="lit" v="yes"/>
@@ -6128,22 +6255,73 @@
     <nd ref="4337162062"/>
     <nd ref="4931754275"/>
   </way>
-  <way id="374914321" visible="true" version="10">
+  <way id="835618248" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
-    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG025586"/>
+    <nd ref="7799623264"/>
+    <nd ref="4931754284"/>
+  </way>
+  <way id="835618254" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="tiger:upload_uuid" v="RWG025586"/>
+    <nd ref="5334329535"/>
+    <nd ref="5334329536"/>
+    <nd ref="658186"/>
+  </way>
+  <way id="11266297" visible="true" version="15">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="tiger:upload_uuid" v="RWG025586"/>
+    <nd ref="658186"/>
+    <nd ref="7799623264"/>
+  </way>
+  <way id="502802555" visible="true" version="9">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
+    <tag k="highway" v="primary"/>
     <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="traffic_calming" v="cushion"/>
-    <tag k="tiger:upload_uuid" v="RWG030481"/>
-    <nd ref="3782968646"/>
-    <nd ref="4337162062"/>
-    <nd ref="4931754275"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="tiger:upload_uuid" v="RWG025586"/>
+    <nd ref="4931754284"/>
+    <nd ref="25596453"/>
+    <nd ref="419257950"/>
+  </way>
+  <way id="502802543" visible="true" version="9">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="tiger:upload_uuid" v="RWG025586"/>
+    <nd ref="419257950"/>
+    <nd ref="4931754279"/>
   </way>
   <way id="722085255" visible="true" version="1">
     <tag k="lit" v="yes"/>
