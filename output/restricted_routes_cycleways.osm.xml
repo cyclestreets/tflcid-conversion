@@ -66,24 +66,6 @@
   <node id="6837646002" lat="51.3916071" lon="-0.0379953" version="1" visible="true"/>
   <node id="6837646001" lat="51.3918529" lon="-0.0380116" version="1" visible="true"/>
   <node id="6814571982" lat="51.4394738" lon="-0.3607549" version="3" visible="true"/>
-  <node id="6633187882" lat="51.5213824" lon="-0.1845578" version="1" visible="true">
-    <tag k="name" v="Little Venice Rubbish Disposal"/>
-    <tag k="waste" v="trash"/>
-    <tag k="access" v="customers"/>
-    <tag k="amenity" v="waste_disposal"/>
-    <tag k="operator" v="Canal and River Trust"/>
-    <tag k="waterway" v="waste_disposal"/>
-    <tag k="centralkey" v="crt_watermate"/>
-  </node>
-  <node id="6633187881" lat="51.5213676" lon="-0.184453" version="1" visible="true">
-    <tag k="name" v="Little Venice Water Point"/>
-    <tag k="access" v="permissive"/>
-    <tag k="amenity" v="water_point"/>
-    <tag k="man_made" v="water_tap"/>
-    <tag k="operator" v="Canal and River Trust"/>
-    <tag k="waterway" v="water_point"/>
-    <tag k="drinking_water" v="yes"/>
-  </node>
   <node id="6582045949" lat="51.5930552" lon="-0.1347677" version="1" visible="true"/>
   <node id="6582045947" lat="51.5934463" lon="-0.1350848" version="1" visible="true"/>
   <node id="6582045929" lat="51.592075" lon="-0.1355165" version="1" visible="true"/>
@@ -499,22 +481,6 @@
   <node id="2704382523" lat="51.6827371" lon="-0.0485834" version="1" visible="true"/>
   <node id="2704382522" lat="51.6828285" lon="-0.0484097" version="1" visible="true"/>
   <node id="2704382511" lat="51.6835551" lon="-0.048362" version="1" visible="true"/>
-  <node id="2512202298" lat="51.5220567" lon="-0.1867096" version="2" visible="true"/>
-  <node id="2512202288" lat="51.5213741" lon="-0.1845035" version="3" visible="true">
-    <tag k="name" v="Little Venice Boater Facilities"/>
-    <tag k="waste" v="toilet"/>
-    <tag k="access" v="customers"/>
-    <tag k="amenity" v="sanitary_dump_station"/>
-    <tag k="operator" v="Canal and River Trust"/>
-    <tag k="waterway" v="sanitary_dump_station"/>
-    <tag k="centralkey" v="crt_watermate"/>
-    <tag k="sanitary_dump_station" v="yes"/>
-    <tag k="sanitary_dump_station:basin" v="yes"/>
-    <tag k="sanitary_dump_station:accepted" v="black_water"/>
-    <tag k="sanitary_dump_station:pump-out" v="yes"/>
-  </node>
-  <node id="2512202284" lat="51.5212401" lon="-0.1839716" version="1" visible="true"/>
-  <node id="2512202279" lat="51.5211534" lon="-0.1837883" version="2" visible="true"/>
   <node id="2471603495" lat="51.5959065" lon="-0.293415" version="1" visible="true"/>
   <node id="2471603488" lat="51.5956818" lon="-0.2936251" version="2" visible="true">
     <tag k="highway" v="crossing"/>
@@ -853,7 +819,6 @@
     <tag k="foot" v="designated"/>
     <tag k="barrier" v="gate"/>
   </node>
-  <node id="1233349592" lat="51.5218456" lon="-0.1860471" version="3" visible="true"/>
   <node id="1230593916" lat="51.4813137" lon="-0.1855958" version="1" visible="true"/>
   <node id="1230593876" lat="51.4814811" lon="-0.1861995" version="1" visible="true"/>
   <node id="1230593726" lat="51.4813575" lon="-0.1857364" version="1" visible="true"/>
@@ -986,9 +951,6 @@
   <node id="702785631" lat="51.3827688" lon="-0.0190931" version="2" visible="true">
     <tag k="barrier" v="swing_gate"/>
   </node>
-  <node id="666222774" lat="51.5214025" lon="-0.1846899" version="4" visible="true"/>
-  <node id="666222771" lat="51.5213491" lon="-0.1843114" version="4" visible="true"/>
-  <node id="666222760" lat="51.5222812" lon="-0.1874177" version="4" visible="true"/>
   <node id="620811528" lat="51.5727261" lon="-0.1652471" version="4" visible="true"/>
   <node id="599823498" lat="51.5771863" lon="0.023949" version="2" visible="true"/>
   <node id="583344800" lat="51.4042186" lon="0.01854" version="1" visible="true"/>
@@ -4310,39 +4272,6 @@
     <nd ref="4391698863"/>
     <nd ref="342394123"/>
     <nd ref="1305043562"/>
-  </way>
-  <way id="835121510" visible="true" version="1">
-    <tag k="lit" v="no"/>
-    <tag k="horse" v="no"/>
-    <tag k="bicycle" v="dismount"/>
-    <tag k="highway" v="footway"/>
-    <tag k="surface" v="paving_stones"/>
-    <tag k="towpath" v="yes"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG102663"/>
-    <nd ref="2512202284"/>
-    <nd ref="666222771"/>
-    <nd ref="6633187881"/>
-    <nd ref="2512202288"/>
-    <nd ref="6633187882"/>
-    <nd ref="666222774"/>
-    <nd ref="1233349592"/>
-    <nd ref="2512202298"/>
-    <nd ref="666222760"/>
-  </way>
-  <way id="835121508" visible="true" version="1">
-    <tag k="lit" v="no"/>
-    <tag k="horse" v="no"/>
-    <tag k="layer" v="-1"/>
-    <tag k="tunnel" v="yes"/>
-    <tag k="bicycle" v="dismount"/>
-    <tag k="highway" v="footway"/>
-    <tag k="surface" v="paving_stones"/>
-    <tag k="towpath" v="yes"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG102663"/>
-    <nd ref="2512202279"/>
-    <nd ref="2512202284"/>
   </way>
   <way id="220167242" visible="true" version="7">
     <tag k="rcn" v="proposed"/>
