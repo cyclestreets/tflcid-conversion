@@ -104,7 +104,6 @@
   <node id="108358" lat="51.4935066" lon="-0.1395782" version="8" visible="true"/>
   <node id="6694147938" lat="51.4740699" lon="-0.0868442" version="1" visible="true"/>
   <node id="7236156666" lat="51.5626219" lon="0.0920442" version="1" visible="true"/>
-  <node id="7080257996" lat="51.4315109" lon="-0.1720934" version="1" visible="true"/>
   <node id="7174359501" lat="51.5857013" lon="-0.2848841" version="1" visible="true"/>
   <node id="82793773" lat="51.5679757" lon="-0.1363223" version="3" visible="true"/>
   <node id="1643396680" lat="51.4899175" lon="-0.2078381" version="1" visible="true"/>
@@ -343,6 +342,7 @@
   <node id="6143248457" lat="51.6108971" lon="-0.0186115" version="1" visible="true"/>
   <node id="26635342" lat="51.5394962" lon="-0.1739135" version="3" visible="true"/>
   <node id="21504105" lat="51.4552404" lon="-0.1278923" version="23" visible="true"/>
+  <node id="25067461" lat="51.5103561" lon="-0.089587" version="5" visible="true"/>
   <node id="6483159585" lat="51.3940707" lon="-0.0670207" version="2" visible="true"/>
   <node id="7332166677" lat="51.4685871" lon="-0.1360904" version="1" visible="true"/>
   <node id="1754950894" lat="51.5503038" lon="-0.1024894" version="3" visible="true"/>
@@ -870,7 +870,7 @@
   <node id="7692024524" lat="51.5360933" lon="-0.0854801" version="1" visible="true"/>
   <node id="68985070" lat="51.4993774" lon="-0.2203725" version="5" visible="true"/>
   <node id="2039457172" lat="51.5135066" lon="-0.3791716" version="3" visible="true"/>
-  <node id="5104314275" lat="51.5104058" lon="-0.0895464" version="1" visible="true"/>
+  <node id="5104314275" lat="51.5104" lon="-0.0895486" version="2" visible="true"/>
   <node id="566123394" lat="51.4326381" lon="0.0718355" version="1" visible="true"/>
   <node id="6071938171" lat="51.5433997" lon="-0.0626243" version="1" visible="true"/>
   <node id="1955520876" lat="51.4887445" lon="-0.1220507" version="2" visible="true"/>
@@ -978,7 +978,6 @@
   <node id="150899745" lat="51.3748079" lon="-0.1075903" version="5" visible="true"/>
   <node id="6076785473" lat="51.3590718" lon="-0.133896" version="1" visible="true"/>
   <node id="4957735651" lat="51.490575" lon="-0.1164726" version="2" visible="true"/>
-  <node id="36712031" lat="51.4314393" lon="-0.1721753" version="3" visible="true"/>
   <node id="1758554291" lat="51.5167469" lon="-0.0939302" version="3" visible="true"/>
   <node id="5967919038" lat="51.5067591" lon="-0.2742936" version="2" visible="true"/>
   <node id="114272426" lat="51.4571178" lon="-0.1254384" version="5" visible="true"/>
@@ -2391,12 +2390,6 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="backward"/>
   </node>
-  <node id="25067461" lat="51.5103552" lon="-0.089587" version="4" visible="true">
-    <tag k="foot" v="designated"/>
-    <tag k="access" v="no"/>
-    <tag k="barrier" v="bollard"/>
-    <tag k="bicycle" v="designated"/>
-  </node>
   <node id="108846" lat="51.5060846" lon="-0.0879358" version="7" visible="true">
     <tag k="cycleway" v="asl"/>
   </node>
@@ -2859,9 +2852,6 @@
   <node id="7080235340" lat="51.4316095" lon="-0.1710947" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
-  </node>
-  <node id="7080258003" lat="51.4314734" lon="-0.1721246" version="1" visible="true">
-    <tag k="highway" v="give_way"/>
   </node>
   <node id="7711309309" lat="51.375893" lon="-0.0369887" version="1" visible="true">
     <tag k="highway" v="give_way"/>
@@ -12989,11 +12979,11 @@
     <nd ref="264781814"/>
     <nd ref="25498991"/>
   </way>
-  <way id="758158445" visible="true" version="1">
+  <way id="758158445" visible="true" version="2">
     <tag k="name" v="Broadwater Road"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="was:oneway" v="yes"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG171225"/>
     <nd ref="7080258010"/>
@@ -13002,11 +12992,11 @@
     <nd ref="7080258002"/>
     <nd ref="36712045"/>
   </way>
-  <way id="758158445" visible="true" version="1">
+  <way id="758158445" visible="true" version="2">
     <tag k="name" v="Broadwater Road"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="was:oneway" v="yes"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG171218"/>
     <nd ref="7080258010"/>
@@ -13041,12 +13031,12 @@
     <nd ref="7332166677"/>
     <nd ref="10869028"/>
   </way>
-  <way id="5218705" visible="true" version="7">
+  <way id="5218705" visible="true" version="8">
     <tag k="name" v="Broadwater Road"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="was:oneway" v="yes"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG171219"/>
     <nd ref="36712041"/>
@@ -13071,17 +13061,6 @@
     <nd ref="21669660"/>
     <nd ref="4462564528"/>
     <nd ref="18130217"/>
-  </way>
-  <way id="758158442" visible="true" version="1">
-    <tag k="name" v="Broadwater Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG109820"/>
-    <nd ref="7080257996"/>
-    <nd ref="7080258003"/>
-    <nd ref="36712031"/>
   </way>
   <way id="10430404" visible="true" version="12">
     <tag k="lit" v="yes"/>
