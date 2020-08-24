@@ -1158,6 +1158,7 @@
   <node id="1448684236" lat="51.5798565" lon="0.1778773" version="3" visible="true"/>
   <node id="3126576308" lat="51.5442274" lon="-0.0613975" version="3" visible="true"/>
   <node id="7725923792" lat="51.4090864" lon="-0.3034958" version="1" visible="true"/>
+  <node id="25161347" lat="51.5131998" lon="-0.0924072" version="4" visible="true"/>
   <node id="6619601563" lat="51.492293" lon="-0.0464967" version="1" visible="true"/>
   <node id="1937820044" lat="51.4688303" lon="-0.1773961" version="1" visible="true"/>
   <node id="6863550510" lat="51.5136652" lon="-0.1118346" version="1" visible="true"/>
@@ -1693,6 +1694,7 @@
   <node id="3667044533" lat="51.5338234" lon="-0.1291388" version="4" visible="true"/>
   <node id="6521887915" lat="51.5212527" lon="-0.131328" version="1" visible="true"/>
   <node id="7725549167" lat="51.5874325" lon="-0.0550777" version="1" visible="true"/>
+  <node id="1782725824" lat="51.5128661" lon="-0.092478" version="4" visible="true"/>
   <node id="17788807" lat="51.452601" lon="-0.221316" version="5" visible="true"/>
   <node id="672906685" lat="51.5394796" lon="-0.0766803" version="6" visible="true"/>
   <node id="9791484" lat="51.518766" lon="-0.1324396" version="8" visible="true"/>
@@ -3553,6 +3555,14 @@
     <tag k="rcn_name" v="Farringdon"/>
   </node>
   <node id="5573994018" lat="51.5176228" lon="-0.1051566" version="4" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
+  <node id="7836155866" lat="51.5136324" lon="-0.0923365" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="2387194148" lat="51.5129101" lon="-0.0924708" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
@@ -12218,6 +12228,26 @@
     <nd ref="1617532090"/>
     <nd ref="3265436688"/>
     <nd ref="2775635677"/>
+  </way>
+  <way id="230188926" visible="true" version="8">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Queen Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="abutters" v="commercial"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="postal_code" v="EC4"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="tiger:upload_uuid" v="RWG066497"/>
+    <nd ref="1782725824"/>
+    <nd ref="2387194148"/>
+    <nd ref="25161347"/>
+    <nd ref="7836155866"/>
   </way>
   <way id="529215734" visible="true" version="5">
     <tag k="lit" v="yes"/>
