@@ -943,7 +943,6 @@
   <node id="2559702571" lat="51.4564716" lon="0.1389721" version="3" visible="true"/>
   <node id="2525878184" lat="51.5009885" lon="-0.1264879" version="7" visible="true"/>
   <node id="2517133988" lat="51.537064" lon="-0.0030946" version="4" visible="true"/>
-  <node id="2511603156" lat="51.4780829" lon="-0.1489072" version="3" visible="true"/>
   <node id="2477093245" lat="51.5383418" lon="-0.0014387" version="4" visible="true"/>
   <node id="2477093214" lat="51.5365318" lon="-0.0037897" version="4" visible="true"/>
   <node id="2474043329" lat="51.5672288" lon="-0.0336012" version="7" visible="true">
@@ -1025,7 +1024,6 @@
   </node>
   <node id="2352399065" lat="51.5380883" lon="-0.044698" version="3" visible="true"/>
   <node id="2352399059" lat="51.5380745" lon="-0.0447707" version="4" visible="true"/>
-  <node id="2321745960" lat="51.4781194" lon="-0.1488444" version="3" visible="true"/>
   <node id="2314780177" lat="51.5034705" lon="-0.152847" version="8" visible="true">
     <tag k="bicycle" v="designated"/>
     <tag k="highway" v="crossing"/>
@@ -1173,8 +1171,6 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
-  <node id="1626997893" lat="51.4781588" lon="-0.1487392" version="3" visible="true"/>
-  <node id="1626997890" lat="51.4782362" lon="-0.1486687" version="7" visible="true"/>
   <node id="1625673753" lat="51.5334063" lon="-0.2038686" version="5" visible="true"/>
   <node id="1625673719" lat="51.533261" lon="-0.2036371" version="4" visible="true"/>
   <node id="1618016684" lat="51.5027063" lon="-0.2138406" version="5" visible="true">
@@ -1674,7 +1670,6 @@
   <node id="21393713" lat="51.4776795" lon="-0.1269061" version="2" visible="true"/>
   <node id="21155374" lat="51.4073853" lon="-0.2222514" version="7" visible="true"/>
   <node id="21155247" lat="51.4066794" lon="-0.1653419" version="3" visible="true"/>
-  <node id="21036420" lat="51.4780413" lon="-0.1489587" version="7" visible="true"/>
   <node id="20947346" lat="51.5032014" lon="-0.1535766" version="9" visible="true"/>
   <node id="20947345" lat="51.5030072" lon="-0.1554932" version="21" visible="true"/>
   <node id="20947344" lat="51.5029061" lon="-0.1566101" version="11" visible="true"/>
@@ -7962,18 +7957,6 @@
     <nd ref="4516549643"/>
     <nd ref="6632005507"/>
   </way>
-  <way id="149745414" visible="true" version="6">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A3216"/>
-    <tag k="name" v="Queenstown Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="tiger:upload_uuid" v="RWG056411"/>
-    <nd ref="1626997893"/>
-    <nd ref="1626997890"/>
-  </way>
   <way id="648221521" visible="true" version="2">
     <tag k="name" v="Carriage Drive North"/>
     <tag k="oneway" v="yes"/>
@@ -8009,21 +7992,6 @@
     <nd ref="3502507837"/>
     <nd ref="3502507834"/>
     <nd ref="3502507830"/>
-  </way>
-  <way id="4003087" visible="true" version="15">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A3216"/>
-    <tag k="name" v="Queen's Circus"/>
-    <tag k="lanes" v="3"/>
-    <tag k="highway" v="primary"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="tiger:upload_uuid" v="RWG056296"/>
-    <nd ref="21036420"/>
-    <nd ref="2511603156"/>
-    <nd ref="2321745960"/>
-    <nd ref="1626997893"/>
   </way>
   <way id="57725387" visible="true" version="19">
     <tag k="lit" v="yes"/>
