@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7849878122" lat="51.5440585" lon="-0.3976188" version="1" visible="true">
+    <tag k="barrier" v="height_restrictor"/>
+  </node>
+  <node id="7849878121" lat="51.5445523" lon="-0.3977714" version="1" visible="true">
+    <tag k="barrier" v="height_restrictor"/>
+  </node>
   <node id="7844698509" lat="51.5451859" lon="-0.3978909" version="1" visible="true"/>
   <node id="7843579542" lat="51.5446172" lon="-0.3977423" version="1" visible="true"/>
   <node id="7843577007" lat="51.5456535" lon="-0.3979888" version="1" visible="true"/>
@@ -3070,7 +3076,7 @@
     <nd ref="849527814"/>
     <nd ref="849527737"/>
   </way>
-  <way id="98381107" visible="true" version="12">
+  <way id="98381107" visible="true" version="13">
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
@@ -3086,12 +3092,14 @@
     <nd ref="7844698509"/>
     <nd ref="7843579542"/>
     <nd ref="1238253686"/>
+    <nd ref="7849878121"/>
     <nd ref="1238253654"/>
     <nd ref="1238253678"/>
     <nd ref="1238253648"/>
     <nd ref="1238253658"/>
     <nd ref="869409162"/>
     <nd ref="7842534454"/>
+    <nd ref="7849878122"/>
     <nd ref="7842534458"/>
     <nd ref="7842534455"/>
     <nd ref="7842534457"/>
@@ -3101,7 +3109,7 @@
     <nd ref="869409120"/>
     <nd ref="7843516484"/>
   </way>
-  <way id="98381107" visible="true" version="12">
+  <way id="98381107" visible="true" version="13">
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
@@ -3117,12 +3125,14 @@
     <nd ref="7844698509"/>
     <nd ref="7843579542"/>
     <nd ref="1238253686"/>
+    <nd ref="7849878121"/>
     <nd ref="1238253654"/>
     <nd ref="1238253678"/>
     <nd ref="1238253648"/>
     <nd ref="1238253658"/>
     <nd ref="869409162"/>
     <nd ref="7842534454"/>
+    <nd ref="7849878122"/>
     <nd ref="7842534458"/>
     <nd ref="7842534455"/>
     <nd ref="7842534457"/>

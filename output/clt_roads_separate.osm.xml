@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7847840898" lat="51.5338239" lon="-0.1308436" version="1" visible="true"/>
   <node id="7833075902" lat="51.3809244" lon="-0.0898031" version="1" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
@@ -1524,6 +1525,7 @@
   <node id="194614094" lat="51.3676757" lon="-0.1252368" version="4" visible="true"/>
   <node id="194613922" lat="51.3676336" lon="-0.1278231" version="5" visible="true"/>
   <node id="194613876" lat="51.3676368" lon="-0.1291901" version="5" visible="true"/>
+  <node id="185563937" lat="51.5338576" lon="-0.1308743" version="5" visible="true"/>
   <node id="183313980" lat="51.5417826" lon="-0.1355416" version="4" visible="true"/>
   <node id="181559638" lat="51.3676435" lon="-0.1307643" version="7" visible="true"/>
   <node id="146472887" lat="51.3801916" lon="-0.0908552" version="3" visible="true"/>
@@ -1660,7 +1662,7 @@
   <node id="25313157" lat="51.538328" lon="-0.0437704" version="17" visible="true"/>
   <node id="25259089" lat="51.4636719" lon="-0.0360871" version="5" visible="true"/>
   <node id="25259088" lat="51.4639184" lon="-0.0367537" version="5" visible="true"/>
-  <node id="21992200" lat="51.5336389" lon="-0.130684" version="3" visible="true"/>
+  <node id="21992200" lat="51.5336335" lon="-0.1307254" version="4" visible="true"/>
   <node id="21583260" lat="51.4422669" lon="-0.0510522" version="1" visible="true"/>
   <node id="21583259" lat="51.442093" lon="-0.0512131" version="1" visible="true"/>
   <node id="21583258" lat="51.4413507" lon="-0.0514063" version="1" visible="true"/>
@@ -5527,6 +5529,18 @@
     <tag k="tiger:upload_uuid" v="RWG003600"/>
     <nd ref="21992200"/>
     <nd ref="294737993"/>
+  </way>
+  <way id="207115848" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Goldington Street"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="traffic_calming" v="cushion"/>
+    <tag k="tiger:upload_uuid" v="RWG003600"/>
+    <nd ref="185563937"/>
+    <nd ref="7847840898"/>
+    <nd ref="21992200"/>
   </way>
   <way id="166366049" visible="true" version="5">
     <tag k="lit" v="yes"/>
