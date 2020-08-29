@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
   <node id="7847840898" lat="51.5338239" lon="-0.1308436" version="1" visible="true"/>
+  <node id="7839262209" lat="51.478154" lon="-0.1484771" version="2" visible="true"/>
+  <node id="7839262203" lat="51.4781293" lon="-0.1486968" version="2" visible="true"/>
+  <node id="7839262202" lat="51.4781418" lon="-0.1486092" version="2" visible="true"/>
   <node id="7833075902" lat="51.3809244" lon="-0.0898031" version="1" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
@@ -592,6 +595,11 @@
   <node id="5239924848" lat="51.5326919" lon="-0.1301588" version="1" visible="true"/>
   <node id="5207546667" lat="51.5048142" lon="-0.1030788" version="1" visible="true"/>
   <node id="5207546645" lat="51.5051206" lon="-0.1031153" version="2" visible="true"/>
+  <node id="5197360399" lat="51.4781483" lon="-0.1485379" version="3" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="5115338566" lat="51.455698" lon="-0.0840806" version="2" visible="true"/>
   <node id="5115338563" lat="51.4551316" lon="-0.0836711" version="3" visible="true">
     <tag k="highway" v="crossing"/>
@@ -1172,6 +1180,9 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
+  <node id="1626997926" lat="51.4781369" lon="-0.1486415" version="5" visible="true"/>
+  <node id="1626997905" lat="51.4781426" lon="-0.1484064" version="5" visible="true"/>
+  <node id="1626997893" lat="51.4781112" lon="-0.1487888" version="4" visible="true"/>
   <node id="1625673753" lat="51.5334063" lon="-0.2038686" version="5" visible="true"/>
   <node id="1625673719" lat="51.533261" lon="-0.2036371" version="4" visible="true"/>
   <node id="1618016684" lat="51.5027063" lon="-0.2138406" version="5" visible="true">
@@ -8006,6 +8017,24 @@
     <nd ref="3502507837"/>
     <nd ref="3502507834"/>
     <nd ref="3502507830"/>
+  </way>
+  <way id="182210374" visible="true" version="10">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A3216"/>
+    <tag k="name" v="Queen's Circus"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="tiger:upload_uuid" v="RWG056296"/>
+    <nd ref="1626997893"/>
+    <nd ref="7839262203"/>
+    <nd ref="1626997926"/>
+    <nd ref="7839262202"/>
+    <nd ref="5197360399"/>
+    <nd ref="7839262209"/>
+    <nd ref="1626997905"/>
   </way>
   <way id="57725387" visible="true" version="19">
     <tag k="lit" v="yes"/>
