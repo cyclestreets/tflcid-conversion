@@ -597,7 +597,7 @@
   <node id="5141354331" lat="51.5110261" lon="-0.0872194" version="3" visible="true"/>
   <node id="7195929689" lat="51.5222537" lon="-0.1384329" version="1" visible="true"/>
   <node id="90268278" lat="51.4802239" lon="-0.0907717" version="8" visible="true"/>
-  <node id="1937730424" lat="51.4825128" lon="-0.1355186" version="1" visible="true"/>
+  <node id="1937730424" lat="51.482543" lon="-0.135449" version="2" visible="true"/>
   <node id="16573934" lat="51.437231" lon="-0.4065299" version="4" visible="true"/>
   <node id="68901965" lat="51.5654357" lon="-0.4429474" version="10" visible="true"/>
   <node id="3053462699" lat="51.3943581" lon="-0.298763" version="3" visible="true"/>
@@ -829,7 +829,6 @@
   <node id="2428147202" lat="51.5292578" lon="-0.1256121" version="5" visible="true"/>
   <node id="25743582" lat="51.5955134" lon="0.14607" version="4" visible="true"/>
   <node id="17788800" lat="51.4513981" lon="-0.2219455" version="4" visible="true"/>
-  <node id="25508636" lat="51.5271808" lon="-0.1386327" version="8" visible="true"/>
   <node id="4360568916" lat="51.5322818" lon="-0.1277469" version="2" visible="true"/>
   <node id="31506038" lat="51.5366367" lon="0.1730201" version="3" visible="true"/>
   <node id="13922346" lat="51.4860378" lon="0.0629708" version="3" visible="true"/>
@@ -1687,7 +1686,6 @@
   <node id="9791484" lat="51.518766" lon="-0.1324396" version="8" visible="true"/>
   <node id="251609443" lat="51.6163534" lon="-0.082719" version="6" visible="true"/>
   <node id="200098" lat="51.6149392" lon="-0.1589377" version="3" visible="true"/>
-  <node id="33957868" lat="51.4581171" lon="-0.1815673" version="7" visible="true"/>
   <node id="32897498" lat="51.5733985" lon="0.0236171" version="9" visible="true"/>
   <node id="2060682028" lat="51.4033165" lon="-0.2740214" version="4" visible="true"/>
   <node id="1751778109" lat="51.3755592" lon="-0.091166" version="2" visible="true"/>
@@ -2159,7 +2157,6 @@
   <node id="6339483797" lat="51.4920105" lon="-0.1022242" version="3" visible="true"/>
   <node id="5859981865" lat="51.5740047" lon="0.0798696" version="1" visible="true"/>
   <node id="1936671449" lat="51.4739235" lon="-0.0684264" version="3" visible="true"/>
-  <node id="4901582027" lat="51.4825993" lon="-0.1352759" version="1" visible="true"/>
   <node id="6243228153" lat="51.5653351" lon="-0.0382199" version="4" visible="true"/>
   <node id="30472436" lat="51.4347639" lon="-0.2587821" version="8" visible="true"/>
   <node id="34595435" lat="51.5592684" lon="-0.0078818" version="23" visible="true"/>
@@ -2182,7 +2179,6 @@
   <node id="5172901278" lat="51.5868552" lon="-0.1243664" version="5" visible="true"/>
   <node id="1937820057" lat="51.4692237" lon="-0.1768814" version="1" visible="true"/>
   <node id="3170340766" lat="51.3688874" lon="-0.2858942" version="4" visible="true"/>
-  <node id="2430254" lat="51.4581001" lon="-0.1817541" version="6" visible="true"/>
   <node id="367102039" lat="51.5111259" lon="-0.1068563" version="13" visible="true"/>
   <node id="1675715010" lat="51.3616331" lon="-0.1941877" version="3" visible="true"/>
   <node id="126510760" lat="51.4203322" lon="-0.1613146" version="6" visible="true"/>
@@ -11932,21 +11928,20 @@
     <nd ref="1651916565"/>
     <nd ref="168073"/>
   </way>
-  <way id="207529550" visible="true" version="8">
+  <way id="207529550" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Hampstead Road"/>
     <tag k="horse" v="yes"/>
     <tag k="highway" v="trunk"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="busway:left" v="lane"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG000164"/>
     <nd ref="2177854542"/>
     <nd ref="293812298"/>
-    <nd ref="25508636"/>
   </way>
   <way id="817022211" visible="true" version="2">
     <tag k="lit" v="yes"/>
@@ -16931,24 +16926,6 @@
     <nd ref="3862617452"/>
     <nd ref="28800231"/>
   </way>
-  <way id="5051451" visible="true" version="13">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A3"/>
-    <tag k="name" v="North Side Wandsworth Common"/>
-    <tag k="lanes" v="4"/>
-    <tag k="layer" v="1"/>
-    <tag k="bridge" v="yes"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="trunk"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="turn:lanes" v="none|through|through|through;right"/>
-    <tag k="cycleway" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG109957"/>
-    <nd ref="33957868"/>
-    <nd ref="2430254"/>
-  </way>
   <way id="251101920" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1205"/>
@@ -17677,7 +17654,7 @@
     <nd ref="4901582023"/>
     <nd ref="60907677"/>
   </way>
-  <way id="31280293" visible="true" version="10">
+  <way id="31280293" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3205"/>
     <tag k="name" v="Nine Elms Lane"/>
@@ -17689,7 +17666,6 @@
     <tag k="tiger:upload_uuid" v="RWG056082"/>
     <nd ref="60907677"/>
     <nd ref="1937730424"/>
-    <nd ref="4901582027"/>
     <nd ref="60907675"/>
   </way>
   <way id="182676888" visible="true" version="11">
