@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7864012202" lat="51.4556671" lon="0.1423686" version="1" visible="true"/>
   <node id="7847840898" lat="51.5338239" lon="-0.1308436" version="1" visible="true"/>
   <node id="7839262209" lat="51.478154" lon="-0.1484771" version="2" visible="true"/>
   <node id="7839262203" lat="51.4781293" lon="-0.1486968" version="2" visible="true"/>
@@ -698,9 +699,10 @@
     <tag k="crossing" v="uncontrolled"/>
   </node>
   <node id="4444845661" lat="51.5024049" lon="-0.1631086" version="4" visible="true"/>
-  <node id="4444845659" lat="51.5024394" lon="-0.1625747" version="2" visible="true">
+  <node id="4444845659" lat="51.5024394" lon="-0.1625747" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="4424450174" lat="51.6470223" lon="-0.0797334" version="6" visible="true"/>
   <node id="4424450149" lat="51.6448558" lon="-0.0816882" version="5" visible="true"/>
@@ -4993,7 +4995,7 @@
     <nd ref="7368962431"/>
     <nd ref="25259089"/>
   </way>
-  <way id="584805203" visible="true" version="1">
+  <way id="584805203" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A207"/>
     <tag k="name" v="Albion Road"/>
@@ -5004,6 +5006,7 @@
     <nd ref="32444355"/>
     <nd ref="5589536445"/>
     <nd ref="32444356"/>
+    <nd ref="7864012202"/>
     <nd ref="32444357"/>
     <nd ref="414017173"/>
     <nd ref="32444358"/>

@@ -1363,6 +1363,7 @@
   <node id="1639850178" lat="51.5910013" lon="-0.0691307" version="2" visible="true"/>
   <node id="26450473" lat="51.5637747" lon="0.0707946" version="6" visible="true"/>
   <node id="2448718680" lat="51.5316321" lon="-0.2979001" version="1" visible="true"/>
+  <node id="21505286" lat="51.4874823" lon="-0.1120973" version="14" visible="true"/>
   <node id="24952195" lat="51.5095621" lon="-0.0803489" version="11" visible="true"/>
   <node id="17916421" lat="51.4900279" lon="-0.2815898" version="1" visible="true"/>
   <node id="6835441990" lat="51.4611157" lon="-0.1616041" version="2" visible="true"/>
@@ -2769,12 +2770,9 @@
   <node id="7076669870" lat="51.4918787" lon="-0.0983273" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
-  <node id="6029529917" lat="51.4875714" lon="-0.1122371" version="1" visible="true">
+  <node id="6029529917" lat="51.4875714" lon="-0.1122371" version="2" visible="true">
     <tag k="cycleway" v="asl"/>
-  </node>
-  <node id="21505286" lat="51.4874823" lon="-0.1120973" version="13" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="crossing" v="traffic_signals"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="5739257305" lat="51.487595" lon="-0.1122837" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
