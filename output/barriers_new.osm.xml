@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7866898939" lat="51.5285596" lon="0.170353" version="1" visible="true"/>
   <node id="7843181552" lat="51.6082122" lon="-0.1619088" version="1" visible="true">
     <tag k="barrier" v="gate"/>
   </node>
@@ -2125,7 +2126,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG122531"/>
   </node>
-  <node id="-236" lat="51.528461963041" lon="0.170302773413781" visible="true">
+  <node id="-236" lat="51.5284619683571" lon="0.1703027647323" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -3623,13 +3624,14 @@
     <nd ref="185654393"/>
     <nd ref="31498167"/>
   </way>
-  <way id="97630961" visible="true" version="4">
-    <tag k="name" v="Perry Close"/>
+  <way id="97630961" visible="true" version="5">
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Perry Close"/>
     <nd ref="1130145443"/>
     <nd ref="6640688109"/>
     <nd ref="-236"/>
+    <nd ref="7866898939"/>
     <nd ref="1130145440"/>
   </way>
   <way id="16788358" visible="true" version="4">
