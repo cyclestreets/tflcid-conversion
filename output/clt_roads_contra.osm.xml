@@ -654,6 +654,7 @@
   <node id="6250854126" lat="51.4436736" lon="0.0292119" version="3" visible="true"/>
   <node id="3451043898" lat="51.4680989" lon="-0.1908469" version="1" visible="true"/>
   <node id="7149988642" lat="51.4990241" lon="-0.0859476" version="1" visible="true"/>
+  <node id="5955834070" lat="51.5759222" lon="-0.0217781" version="1" visible="true"/>
   <node id="7199657132" lat="51.5166793" lon="-0.2009722" version="1" visible="true"/>
   <node id="614490971" lat="51.5406636" lon="-0.137376" version="3" visible="true"/>
   <node id="4848681131" lat="51.5022256" lon="-0.1093169" version="2" visible="true"/>
@@ -982,6 +983,7 @@
   <node id="2780691955" lat="51.526502" lon="-0.1080211" version="2" visible="true"/>
   <node id="150899745" lat="51.3748079" lon="-0.1075903" version="5" visible="true"/>
   <node id="6076785473" lat="51.3590718" lon="-0.133896" version="1" visible="true"/>
+  <node id="5955834074" lat="51.5759489" lon="-0.0217956" version="1" visible="true"/>
   <node id="4957735651" lat="51.490575" lon="-0.1164726" version="2" visible="true"/>
   <node id="1758554291" lat="51.5167469" lon="-0.0939302" version="3" visible="true"/>
   <node id="5967919038" lat="51.5067591" lon="-0.2742936" version="2" visible="true"/>
@@ -1283,6 +1285,7 @@
   <node id="80839099" lat="51.5425175" lon="-0.1583743" version="3" visible="true"/>
   <node id="150899272" lat="51.3701328" lon="-0.1030639" version="2" visible="true"/>
   <node id="4957734363" lat="51.4865408" lon="-0.1192152" version="1" visible="true"/>
+  <node id="7129415728" lat="51.5758646" lon="-0.0217221" version="1" visible="true"/>
   <node id="244183640" lat="51.3870241" lon="-0.114393" version="3" visible="true"/>
   <node id="5933107517" lat="51.5245827" lon="-0.0905117" version="2" visible="true"/>
   <node id="5843761992" lat="51.4751494" lon="-0.026008" version="1" visible="true"/>
@@ -1639,6 +1642,7 @@
   <node id="296323" lat="51.4089708" lon="-0.3050936" version="15" visible="true"/>
   <node id="4682627265" lat="51.5173013" lon="-0.0937771" version="1" visible="true"/>
   <node id="261348580" lat="51.4763163" lon="-0.1274986" version="2" visible="true"/>
+  <node id="7869922783" lat="51.5759077" lon="-0.0217641" version="1" visible="true"/>
   <node id="1794149991" lat="51.5356042" lon="-0.1095457" version="2" visible="true"/>
   <node id="5394985270" lat="51.3660049" lon="-0.1942322" version="1" visible="true"/>
   <node id="38458798" lat="51.6009661" lon="-0.1051288" version="3" visible="true"/>
@@ -1667,6 +1671,7 @@
   <node id="4076643819" lat="51.5080844" lon="-0.1044972" version="5" visible="true"/>
   <node id="36712044" lat="51.4317602" lon="-0.1717491" version="3" visible="true"/>
   <node id="30737899" lat="51.4440879" lon="-0.1436996" version="7" visible="true"/>
+  <node id="1846241635" lat="51.5747159" lon="-0.0206032" version="1" visible="true"/>
   <node id="36143201" lat="51.4632311" lon="-0.081613" version="4" visible="true"/>
   <node id="251662246" lat="51.3609769" lon="-0.0941912" version="1" visible="true"/>
   <node id="282879057" lat="51.5001592" lon="-0.0759595" version="9" visible="true"/>
@@ -3792,6 +3797,33 @@
     <nd ref="6483159585"/>
     <nd ref="6483159740"/>
     <nd ref="151182414"/>
+  </way>
+  <way id="219733877" visible="true" version="7">
+    <tag k="lcn" v="proposed"/>
+    <tag k="name" v="Chelmsford Road"/>
+    <tag k="highway" v="residential"/>
+    <tag k="cycleway" v="opposite"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="proposed:oneway" v="yes"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG187639"/>
+    <nd ref="7129415728"/>
+    <nd ref="1846241635"/>
+  </way>
+  <way id="762971183" visible="true" version="3">
+    <tag k="lcn" v="proposed"/>
+    <tag k="name" v="Chelmsford Road"/>
+    <tag k="access" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="cycleway" v="opposite"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="proposed:oneway" v="yes"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG187639"/>
+    <nd ref="5955834074"/>
+    <nd ref="5955834070"/>
+    <nd ref="7869922783"/>
+    <nd ref="7129415728"/>
   </way>
   <way id="53038889" visible="true" version="3">
     <tag k="lcn" v="proposed"/>
