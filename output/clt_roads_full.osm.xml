@@ -120,6 +120,7 @@
   <node id="2140420434" lat="51.511914" lon="-0.0977602" version="4" visible="true"/>
   <node id="108122" lat="51.4925499" lon="-0.0460426" version="5" visible="true"/>
   <node id="1960840442" lat="51.4874896" lon="-0.1524215" version="3" visible="true"/>
+  <node id="101978" lat="51.5444855" lon="-0.1540041" version="6" visible="true"/>
   <node id="5969776820" lat="51.5789879" lon="-0.0058891" version="5" visible="true"/>
   <node id="392390949" lat="51.5384534" lon="-0.0015258" version="7" visible="true"/>
   <node id="7816271346" lat="51.5387288" lon="-0.1234256" version="1" visible="true"/>
@@ -836,6 +837,7 @@
   <node id="4360568916" lat="51.5322818" lon="-0.1277469" version="2" visible="true"/>
   <node id="31506038" lat="51.5366367" lon="0.1730201" version="3" visible="true"/>
   <node id="13922346" lat="51.4860378" lon="0.0629708" version="3" visible="true"/>
+  <node id="7876968365" lat="51.54425" lon="-0.1535329" version="1" visible="true"/>
   <node id="35962999" lat="51.466239" lon="0.0845241" version="9" visible="true"/>
   <node id="290987000" lat="51.5094805" lon="-0.3766761" version="5" visible="true"/>
   <node id="3195055534" lat="51.5153106" lon="-0.2261558" version="4" visible="true"/>
@@ -1071,6 +1073,7 @@
   <node id="1672430384" lat="51.4010134" lon="-0.1603628" version="4" visible="true"/>
   <node id="1781823088" lat="51.5737987" lon="-0.0870119" version="4" visible="true"/>
   <node id="256236584" lat="51.5585469" lon="0.0758746" version="3" visible="true"/>
+  <node id="6638693376" lat="51.5441733" lon="-0.1533638" version="3" visible="true"/>
   <node id="1684964845" lat="51.5504331" lon="-0.0847179" version="2" visible="true"/>
   <node id="6252122874" lat="51.5272115" lon="-0.0740344" version="1" visible="true"/>
   <node id="239644741" lat="51.5118486" lon="-0.1686956" version="8" visible="true"/>
@@ -12295,6 +12298,32 @@
     <nd ref="2387194148"/>
     <nd ref="25161347"/>
     <nd ref="7836155866"/>
+  </way>
+  <way id="844428623" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A502"/>
+    <tag k="name" v="Haverstock Hill"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG089436"/>
+    <nd ref="7876968365"/>
+    <nd ref="101978"/>
+  </way>
+  <way id="706483975" visible="true" version="5">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A502"/>
+    <tag k="name" v="Haverstock Hill"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG089436"/>
+    <nd ref="6638693376"/>
+    <nd ref="7876968365"/>
   </way>
   <way id="529215734" visible="true" version="5">
     <tag k="lit" v="yes"/>
