@@ -131,8 +131,11 @@
   <node id="6445563327" lat="51.470981" lon="-0.0725725" version="1" visible="true"/>
   <node id="6371028584" lat="51.5265085" lon="-0.0279267" version="1" visible="true"/>
   <node id="6345272734" lat="51.5446369" lon="-0.4521542" version="1" visible="true"/>
-  <node id="6343898845" lat="51.4449487" lon="-0.0250813" version="1" visible="true"/>
-  <node id="6343898844" lat="51.4445483" lon="-0.0250693" version="1" visible="true"/>
+  <node id="6343898851" lat="51.4455735" lon="-0.0253342" version="3" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+    <tag k="traffic_sign" v="GB:1003A"/>
+  </node>
   <node id="6294833391" lat="51.5188146" lon="-0.4438593" version="1" visible="true"/>
   <node id="6290485760" lat="51.5606163" lon="-0.2728254" version="1" visible="true"/>
   <node id="6290485758" lat="51.5602733" lon="-0.2723642" version="1" visible="true"/>
@@ -169,12 +172,7 @@
   </node>
   <node id="5803156915" lat="51.5558011" lon="-0.0892844" version="1" visible="true"/>
   <node id="5803156912" lat="51.5556356" lon="-0.0889095" version="1" visible="true"/>
-  <node id="5743949467" lat="51.4444904" lon="-0.025086" version="3" visible="true">
-    <tag k="kerb" v="lowered"/>
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="unmarked"/>
-    <tag k="tactile_paving" v="yes"/>
-  </node>
+  <node id="5774893288" lat="51.4453832" lon="-0.0252717" version="4" visible="true"/>
   <node id="5735299439" lat="51.5264661" lon="-0.0279053" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -282,7 +280,7 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
-  <node id="4323387259" lat="51.4452321" lon="-0.0251488" version="3" visible="true"/>
+  <node id="4323387259" lat="51.4451326" lon="-0.0251434" version="4" visible="true"/>
   <node id="4204652589" lat="51.4539335" lon="-0.2458278" version="1" visible="true"/>
   <node id="4202180375" lat="51.5208135" lon="-0.0297283" version="1" visible="true"/>
   <node id="4169897185" lat="51.5295394" lon="0.0803981" version="1" visible="true"/>
@@ -345,8 +343,6 @@
   <node id="2967634754" lat="51.5059919" lon="-0.1674458" version="1" visible="true"/>
   <node id="2947360538" lat="51.470885" lon="-0.1645252" version="1" visible="true"/>
   <node id="2918846372" lat="51.5051234" lon="-0.067042" version="2" visible="true"/>
-  <node id="2813959112" lat="51.4448233" lon="-0.0250545" version="2" visible="true"/>
-  <node id="2813959111" lat="51.4446913" lon="-0.0250518" version="2" visible="true"/>
   <node id="2780634570" lat="51.5468547" lon="-0.0229851" version="2" visible="true"/>
   <node id="2780634518" lat="51.5476219" lon="-0.0236858" version="2" visible="true">
     <tag k="noexit" v="yes"/>
@@ -1240,8 +1236,7 @@
   <node id="9684532" lat="51.6078113" lon="-0.1640351" version="5" visible="true"/>
   <node id="9684531" lat="51.6082463" lon="-0.1617266" version="3" visible="true"/>
   <node id="9512915" lat="51.510432" lon="-0.1314738" version="10" visible="true"/>
-  <node id="650194" lat="51.44509" lon="-0.0251168" version="4" visible="true"/>
-  <node id="650192" lat="51.4444689" lon="-0.0250921" version="6" visible="true"/>
+  <node id="650196" lat="51.4456233" lon="-0.0253522" version="4" visible="true"/>
   <node id="304440" lat="51.3829078" lon="-0.2874374" version="6" visible="true"/>
   <node id="220868" lat="51.5648854" lon="-0.0998892" version="8" visible="true"/>
   <node id="196860" lat="51.644544" lon="-0.1460399" version="6" visible="true"/>
@@ -1804,7 +1799,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG197361"/>
   </node>
-  <node id="-271" lat="51.4451706117337" lon="-0.0251349544130153" visible="true">
+  <node id="-271" lat="51.4451631992952" lon="-0.0251590686300534" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -4116,22 +4111,19 @@
     <nd ref="5319566869"/>
     <nd ref="2120274124"/>
   </way>
-  <way id="28362433" visible="true" version="16">
+  <way id="677526010" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Adenmore Road"/>
     <tag k="bicycle" v="designated"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="surface" v="paving_stones"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
-    <nd ref="650192"/>
-    <nd ref="5743949467"/>
-    <nd ref="6343898844"/>
-    <nd ref="2813959111"/>
-    <nd ref="2813959112"/>
-    <nd ref="6343898845"/>
-    <nd ref="650194"/>
-    <nd ref="-271"/>
+    <tag k="sidewalk" v="right"/>
     <nd ref="4323387259"/>
+    <nd ref="-271"/>
+    <nd ref="5774893288"/>
+    <nd ref="6343898851"/>
+    <nd ref="650196"/>
   </way>
   <way id="22950460" visible="true" version="8">
     <tag k="highway" v="unclassified"/>
