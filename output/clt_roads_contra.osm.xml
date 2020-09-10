@@ -2859,8 +2859,13 @@
   <node id="7710108672" lat="51.4452794" lon="-0.1096193" version="2" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
-  <node id="7079011451" lat="51.4553691" lon="-0.1291201" version="1" visible="true">
+  <node id="7079011451" lat="51.4553691" lon="-0.1291201" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="7888424655" lat="51.4553736" lon="-0.1291741" version="1" visible="true">
+    <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="7797489847" lat="51.4451477" lon="-0.1102993" version="1" visible="true">
     <tag k="traffic_calming" v="bump"/>
@@ -12307,37 +12312,43 @@
     <nd ref="25481520"/>
     <nd ref="4750070072"/>
   </way>
-  <way id="758016852" visible="true" version="1">
+  <way id="758016852" visible="true" version="2">
     <tag k="name" v="Crescent Lane"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102340"/>
     <nd ref="119616467"/>
     <nd ref="7079011451"/>
+    <nd ref="7888424655"/>
     <nd ref="21504097"/>
   </way>
-  <way id="758016852" visible="true" version="1">
+  <way id="758016852" visible="true" version="2">
     <tag k="name" v="Crescent Lane"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG119572"/>
     <nd ref="119616467"/>
     <nd ref="7079011451"/>
+    <nd ref="7888424655"/>
     <nd ref="21504097"/>
   </way>
-  <way id="758016852" visible="true" version="1">
+  <way id="758016852" visible="true" version="2">
     <tag k="name" v="Crescent Lane"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG119573"/>
     <nd ref="119616467"/>
     <nd ref="7079011451"/>
+    <nd ref="7888424655"/>
     <nd ref="21504097"/>
   </way>
   <way id="505954458" visible="true" version="2">
@@ -12401,11 +12412,12 @@
     <nd ref="17788859"/>
     <nd ref="385375054"/>
   </way>
-  <way id="506211761" visible="true" version="5">
+  <way id="506211761" visible="true" version="6">
     <tag k="name" v="Ellison Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102332"/>
     <nd ref="4959806199"/>
@@ -12414,11 +12426,12 @@
     <nd ref="7330327067"/>
     <nd ref="4959806198"/>
   </way>
-  <way id="506211761" visible="true" version="5">
+  <way id="506211761" visible="true" version="6">
     <tag k="name" v="Ellison Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102329"/>
     <nd ref="4959806199"/>
@@ -12427,11 +12440,12 @@
     <nd ref="7330327067"/>
     <nd ref="4959806198"/>
   </way>
-  <way id="506211761" visible="true" version="5">
+  <way id="506211761" visible="true" version="6">
     <tag k="name" v="Ellison Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102330"/>
     <nd ref="4959806199"/>
@@ -12440,11 +12454,12 @@
     <nd ref="7330327067"/>
     <nd ref="4959806198"/>
   </way>
-  <way id="506211761" visible="true" version="5">
+  <way id="506211761" visible="true" version="6">
     <tag k="name" v="Ellison Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102330"/>
     <nd ref="4959806199"/>
@@ -13380,10 +13395,12 @@
     <nd ref="7330431715"/>
     <nd ref="4960127935"/>
   </way>
-  <way id="639186390" visible="true" version="1">
+  <way id="639186390" visible="true" version="2">
     <tag k="name" v="Lyham Road"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
