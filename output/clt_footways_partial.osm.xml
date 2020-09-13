@@ -457,6 +457,12 @@
   <node id="5825172758" lat="51.547823" lon="0.0129674" version="2" visible="true"/>
   <node id="5821502925" lat="51.5083987" lon="-0.3921976" version="1" visible="true"/>
   <node id="5821502924" lat="51.5085531" lon="-0.392132" version="1" visible="true"/>
+  <node id="5802681046" lat="51.5298709" lon="-0.013071" version="1" visible="true"/>
+  <node id="5802681039" lat="51.5298974" lon="-0.0130118" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
+  <node id="5802681038" lat="51.5299964" lon="-0.0127779" version="1" visible="true"/>
   <node id="5787540611" lat="51.4506068" lon="-0.2104416" version="2" visible="true"/>
   <node id="5787540610" lat="51.4507934" lon="-0.2107494" version="1" visible="true"/>
   <node id="5787540609" lat="51.4506616" lon="-0.2110671" version="2" visible="true"/>
@@ -2810,6 +2816,17 @@
     <nd ref="6695216963"/>
     <nd ref="6695216972"/>
     <nd ref="6695216964"/>
+  </way>
+  <way id="613184262" visible="true" version="1">
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG156037"/>
+    <nd ref="5802681038"/>
+    <nd ref="5802681039"/>
+    <nd ref="5802681046"/>
   </way>
   <way id="28458948" visible="true" version="10">
     <tag k="lit" v="yes"/>
