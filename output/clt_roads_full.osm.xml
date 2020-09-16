@@ -1814,7 +1814,7 @@
   <node id="7734828035" lat="51.3756335" lon="-0.0946619" version="1" visible="true"/>
   <node id="416998515" lat="51.5331422" lon="-0.0081457" version="5" visible="true"/>
   <node id="215568" lat="51.5030066" lon="-0.2241192" version="7" visible="true"/>
-  <node id="108010" lat="51.5242348" lon="-0.134564" version="22" visible="true"/>
+  <node id="108010" lat="51.5242744" lon="-0.134558" version="23" visible="true"/>
   <node id="2094988863" lat="51.5394548" lon="-0.0977808" version="3" visible="true"/>
   <node id="106189381" lat="51.5806431" lon="-0.3264452" version="4" visible="true"/>
   <node id="6217603457" lat="51.5244966" lon="-0.1591148" version="6" visible="true"/>
@@ -3696,14 +3696,14 @@
     <tag k="local_ref" v="W"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="7195621930" lat="51.5243365" lon="-0.134672" version="1" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="forward"/>
-  </node>
-  <node id="7050696570" lat="51.5243058" lon="-0.1346388" version="2" visible="true">
+  <node id="7050696570" lat="51.5243502" lon="-0.1346472" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+  </node>
+  <node id="7195621930" lat="51.5243791" lon="-0.1346787" version="2" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="3079462435" lat="51.5230607" lon="-0.1365117" version="6" visible="true">
     <tag k="highway" v="crossing"/>
