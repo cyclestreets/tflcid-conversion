@@ -988,7 +988,7 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="2453162755" lat="51.5249011" lon="-0.1273769" version="2" visible="true"/>
-  <node id="2442016053" lat="51.5227575" lon="-0.1317957" version="4" visible="true"/>
+  <node id="2442016053" lat="51.5227663" lon="-0.1317783" version="5" visible="true"/>
   <node id="2442003040" lat="51.5229928" lon="-0.1312167" version="1" visible="true"/>
   <node id="2440676404" lat="51.5305329" lon="-0.1226675" version="4" visible="true"/>
   <node id="2440636118" lat="51.5246021" lon="-0.1280764" version="4" visible="true">
@@ -5640,7 +5640,7 @@
     <nd ref="3645264139"/>
     <nd ref="5610135603"/>
   </way>
-  <way id="758462266" visible="true" version="1">
+  <way id="758462266" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
@@ -5649,16 +5649,17 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
-    <tag k="cycleway:right" v="opposite_track"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="cycleway:est_width" v="2"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG066115"/>
     <nd ref="5610135603"/>
     <nd ref="362474930"/>
     <nd ref="7083403299"/>
   </way>
-  <way id="758462268" visible="true" version="1">
+  <way id="758462268" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
@@ -5667,16 +5668,17 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="cycleway:est_width" v="2"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG066115"/>
     <nd ref="7083403299"/>
     <nd ref="2442016053"/>
     <nd ref="108006"/>
   </way>
-  <way id="3087832" visible="true" version="23">
+  <way id="3087832" visible="true" version="24">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
@@ -5686,10 +5688,11 @@
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="cycleway:est_width" v="2"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG066115"/>
     <nd ref="108006"/>
     <nd ref="1046447604"/>
@@ -5713,7 +5716,7 @@
     <nd ref="3113617920"/>
     <nd ref="1953893735"/>
   </way>
-  <way id="758462267" visible="true" version="1">
+  <way id="758462267" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
@@ -5723,16 +5726,17 @@
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:right" v="opposite_track"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="cycleway:est_width" v="2"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG066096"/>
     <nd ref="7083403298"/>
     <nd ref="698447424"/>
     <nd ref="4076120500"/>
   </way>
-  <way id="405404511" visible="true" version="8">
+  <way id="405404511" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Byng Place"/>
     <tag k="oneway" v="yes"/>
@@ -5742,9 +5746,10 @@
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:est_width" v="2"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG066096"/>
     <nd ref="4076120500"/>
     <nd ref="2442003040"/>
@@ -5885,7 +5890,7 @@
     <nd ref="168069"/>
     <nd ref="6228425166"/>
   </way>
-  <way id="665451888" visible="true" version="5">
+  <way id="665451888" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
@@ -5894,17 +5899,19 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG003352"/>
     <nd ref="6228425166"/>
     <nd ref="2432389437"/>
   </way>
-  <way id="235155193" visible="true" version="4">
+  <way id="235155193" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
     <tag k="lanes" v="3"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="turn:lanes" v="through;right|right"/>
@@ -5916,12 +5923,13 @@
     <nd ref="294764989"/>
     <nd ref="29740871"/>
   </way>
-  <way id="166369347" visible="true" version="9">
+  <way id="166369347" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="tiger:upload_uuid" v="RWG026466"/>
@@ -5931,13 +5939,14 @@
     <nd ref="546240142"/>
     <nd ref="7799235863"/>
   </way>
-  <way id="235155193" visible="true" version="4">
+  <way id="235155193" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
     <tag k="lanes" v="3"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="turn:lanes" v="through;right|right"/>
@@ -5991,12 +6000,13 @@
     <nd ref="4337162062"/>
     <nd ref="4931754275"/>
   </way>
-  <way id="166369347" visible="true" version="9">
+  <way id="166369347" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="tiger:upload_uuid" v="RWG030519"/>
@@ -6217,7 +6227,7 @@
     <nd ref="4337162062"/>
     <nd ref="4931754275"/>
   </way>
-  <way id="502802556" visible="true" version="7">
+  <way id="502802556" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
@@ -6228,9 +6238,10 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="track"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="traffic_calming" v="cushion"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG000088"/>
     <nd ref="4931754275"/>
     <nd ref="7799636135"/>
@@ -6421,7 +6432,7 @@
     <nd ref="2440630568"/>
     <nd ref="2440630567"/>
   </way>
-  <way id="758462266" visible="true" version="1">
+  <way id="758462266" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
@@ -6430,16 +6441,17 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
-    <tag k="cycleway:right" v="opposite_track"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="cycleway:est_width" v="2"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG066098"/>
     <nd ref="5610135603"/>
     <nd ref="362474930"/>
     <nd ref="7083403299"/>
   </way>
-  <way id="758462268" visible="true" version="1">
+  <way id="758462268" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
@@ -6448,10 +6460,11 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="cycleway:est_width" v="2"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG066098"/>
     <nd ref="7083403299"/>
     <nd ref="2442016053"/>
@@ -7300,13 +7313,14 @@
     <nd ref="6967968853"/>
     <nd ref="6967968855"/>
   </way>
-  <way id="679610485" visible="true" version="4">
+  <way id="679610485" visible="true" version="5">
     <tag k="name" v="Elsham Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG153038"/>
     <nd ref="21496947"/>
     <nd ref="7657224167"/>
