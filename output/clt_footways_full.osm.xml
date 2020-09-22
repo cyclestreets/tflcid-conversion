@@ -255,9 +255,10 @@
   <node id="5774304195" lat="51.4575771" lon="-0.3228295" version="1" visible="true"/>
   <node id="5774304177" lat="51.4575064" lon="-0.3228434" version="1" visible="true"/>
   <node id="5748570494" lat="51.5331411" lon="0.1430576" version="2" visible="true"/>
-  <node id="5748570491" lat="51.533105" lon="0.1431738" version="2" visible="true">
+  <node id="5748570491" lat="51.533105" lon="0.1431738" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="5662474094" lat="51.441123" lon="0.0406529" version="2" visible="true"/>
   <node id="5662474082" lat="51.4410291" lon="0.0410101" version="2" visible="true"/>
@@ -1437,8 +1438,10 @@
     <nd ref="6020342370"/>
     <nd ref="6020342371"/>
   </way>
-  <way id="606259325" visible="true" version="2">
+  <way id="606259325" visible="true" version="4">
+    <tag k="lit" v="yes"/>
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
