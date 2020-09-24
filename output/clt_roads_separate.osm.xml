@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7935382810" lat="51.4387538" lon="-0.0880296" version="1" visible="true"/>
+  <node id="7935382807" lat="51.438615" lon="-0.0879955" version="1" visible="true"/>
   <node id="7925499736" lat="51.542957" lon="-0.1393737" version="1" visible="true"/>
   <node id="7887305759" lat="51.4560906" lon="-0.0843439" version="1" visible="true">
     <tag k="traffic_calming" v="bump"/>
@@ -1599,6 +1601,9 @@
   <node id="32650512" lat="51.5402398" lon="0.000574" version="13" visible="true"/>
   <node id="32650511" lat="51.5404844" lon="0.0009789" version="12" visible="true"/>
   <node id="32650510" lat="51.5406939" lon="0.0013803" version="11" visible="true"/>
+  <node id="32618089" lat="51.4387156" lon="-0.0880124" version="3" visible="true">
+    <tag k="traffic_calming" v="bump"/>
+  </node>
   <node id="32444362" lat="51.4566134" lon="0.1387401" version="5" visible="true"/>
   <node id="32444361" lat="51.4563486" lon="0.139294" version="4" visible="true"/>
   <node id="32444360" lat="51.4562685" lon="0.1396934" version="3" visible="true"/>
@@ -8197,5 +8202,27 @@
     <nd ref="5115338563"/>
     <nd ref="5115338557"/>
     <nd ref="1296162476"/>
+  </way>
+  <way id="850609521" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Alleyn Park"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="tiger:upload_uuid" v="RWG107538"/>
+    <nd ref="7935382810"/>
+    <nd ref="32618089"/>
+    <nd ref="7935382807"/>
+  </way>
+  <way id="850609521" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Alleyn Park"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="tiger:upload_uuid" v="RWG107538"/>
+    <nd ref="7935382810"/>
+    <nd ref="32618089"/>
+    <nd ref="7935382807"/>
   </way>
 </osm>
