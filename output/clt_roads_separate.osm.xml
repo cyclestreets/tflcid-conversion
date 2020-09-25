@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7938117685" lat="51.5027143" lon="-0.1586676" version="1" visible="true"/>
+  <node id="7938078382" lat="51.5027304" lon="-0.1584656" version="1" visible="true"/>
+  <node id="7938078381" lat="51.5027278" lon="-0.158506" version="1" visible="true"/>
   <node id="7935382810" lat="51.4387538" lon="-0.0880296" version="1" visible="true"/>
   <node id="7935382807" lat="51.438615" lon="-0.0879955" version="1" visible="true"/>
   <node id="7925499736" lat="51.542957" lon="-0.1393737" version="1" visible="true"/>
@@ -4604,15 +4607,16 @@
     <nd ref="6111638096"/>
     <nd ref="1414262341"/>
   </way>
-  <way id="757744176" visible="true" version="1">
+  <way id="757744176" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Manor Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="postal_code" v="E10"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG149505"/>
     <nd ref="7076645974"/>
     <nd ref="417235506"/>
@@ -4620,15 +4624,16 @@
     <nd ref="417235507"/>
     <nd ref="6403039471"/>
   </way>
-  <way id="655489897" visible="true" version="1">
+  <way id="655489897" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Manor Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="postal_code" v="E10"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG149505"/>
     <nd ref="5595507647"/>
     <nd ref="5595507645"/>
@@ -4717,13 +4722,14 @@
     <nd ref="4108024908"/>
     <nd ref="28829254"/>
   </way>
-  <way id="683257323" visible="true" version="3">
+  <way id="683257323" visible="true" version="4">
     <tag k="name" v="Cedars Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="postal_code" v="E17"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG187702"/>
     <nd ref="5939755657"/>
     <nd ref="7241104209"/>
@@ -4744,7 +4750,7 @@
     <nd ref="6402930897"/>
     <nd ref="6402930902"/>
   </way>
-  <way id="683600133" visible="true" version="1">
+  <way id="683600133" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Peterborough Road"/>
     <tag k="oneway" v="yes"/>
@@ -4752,8 +4758,9 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="postal_code" v="E10"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG187575"/>
     <nd ref="6382242988"/>
     <nd ref="5935753893"/>
@@ -8081,7 +8088,7 @@
     <nd ref="7887305759"/>
     <nd ref="6069524533"/>
   </way>
-  <way id="279553202" visible="true" version="16">
+  <way id="279553202" visible="true" version="17">
     <tag k="bus" v="no"/>
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
@@ -8112,8 +8119,11 @@
     <nd ref="20947344"/>
     <nd ref="2837762814"/>
     <nd ref="5846883051"/>
+    <nd ref="7938078382"/>
+    <nd ref="7938078381"/>
     <nd ref="2837762804"/>
     <nd ref="2837762803"/>
+    <nd ref="7938117685"/>
     <nd ref="6493189312"/>
     <nd ref="6493189321"/>
     <nd ref="2837762802"/>
