@@ -801,6 +801,7 @@
   <node id="1780585575" lat="51.4164671" lon="-0.0817881" version="1" visible="true"/>
   <node id="7215342705" lat="51.4177585" lon="-0.2811241" version="2" visible="true"/>
   <node id="31503919" lat="51.5496308" lon="0.1622028" version="1" visible="true"/>
+  <node id="881889759" lat="51.5200926" lon="-0.1300417" version="4" visible="true"/>
   <node id="5800007045" lat="51.4062667" lon="-0.1666591" version="2" visible="true"/>
   <node id="7839262378" lat="51.48184" lon="-0.1370954" version="1" visible="true"/>
   <node id="1617532087" lat="51.5111413" lon="-0.1055559" version="4" visible="true"/>
@@ -939,7 +940,6 @@
   <node id="6759565843" lat="51.6052195" lon="-0.0754935" version="1" visible="true"/>
   <node id="55120124" lat="51.4913489" lon="-0.2277827" version="4" visible="true"/>
   <node id="6215339755" lat="51.5804104" lon="-0.3249187" version="1" visible="true"/>
-  <node id="108012" lat="51.5245734" lon="-0.1349287" version="16" visible="true"/>
   <node id="7929919360" lat="51.5503616" lon="-0.2820615" version="1" visible="true"/>
   <node id="771680560" lat="51.490161" lon="0.039723" version="4" visible="true"/>
   <node id="2448577458" lat="51.5761899" lon="-0.3247869" version="3" visible="true"/>
@@ -1812,7 +1812,6 @@
   <node id="28800231" lat="51.5231474" lon="-0.0641422" version="7" visible="true"/>
   <node id="416998515" lat="51.5331422" lon="-0.0081457" version="5" visible="true"/>
   <node id="215568" lat="51.5030066" lon="-0.2241192" version="7" visible="true"/>
-  <node id="108010" lat="51.5242744" lon="-0.134558" version="23" visible="true"/>
   <node id="2094988863" lat="51.5394548" lon="-0.0977808" version="3" visible="true"/>
   <node id="106189381" lat="51.5806431" lon="-0.3264452" version="4" visible="true"/>
   <node id="2177854547" lat="51.5286991" lon="-0.1386296" version="5" visible="true"/>
@@ -2098,6 +2097,7 @@
   <node id="934844876" lat="51.5197717" lon="-0.2280793" version="3" visible="true"/>
   <node id="6619601559" lat="51.4921678" lon="-0.0471057" version="2" visible="true"/>
   <node id="25935987" lat="51.4808563" lon="-0.4402046" version="3" visible="true"/>
+  <node id="104302" lat="51.5203633" lon="-0.1303291" version="13" visible="true"/>
   <node id="683234910" lat="51.4506547" lon="-0.3315389" version="3" visible="true"/>
   <node id="7644727396" lat="51.6554435" lon="-0.0479237" version="1" visible="true"/>
   <node id="1647370287" lat="51.5734607" lon="0.0236024" version="5" visible="true"/>
@@ -3623,6 +3623,17 @@
     <tag k="proposed:crossing" v="traffic_signals"/>
     <tag k="proposed:crossing_ref" v="pelican"/>
   </node>
+  <node id="7195621939" lat="51.5197652" lon="-0.1296805" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="6958636271" lat="51.5203074" lon="-0.1302698" version="4" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+  </node>
   <node id="4409200425" lat="51.5167544" lon="-0.1278336" version="3" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="New Oxford Street"/>
@@ -3712,12 +3723,7 @@
     <tag k="local_ref" v="W"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="7050696570" lat="51.5243502" lon="-0.1346472" version="3" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
-  </node>
-  <node id="7195621930" lat="51.5243791" lon="-0.1346787" version="2" visible="true">
+  <node id="5610135602" lat="51.522524" lon="-0.1327165" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
@@ -11696,6 +11702,23 @@
     <nd ref="5435838666"/>
     <nd ref="156620640"/>
   </way>
+  <way id="694563843" visible="true" version="4">
+    <tag k="lcn" v="proposed"/>
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A400"/>
+    <tag k="name" v="Gower Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="proposed:oneway" v="no"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG066193"/>
+    <nd ref="6521887913"/>
+    <nd ref="5610135602"/>
+  </way>
   <way id="694562117" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
@@ -11713,28 +11736,38 @@
     <nd ref="4543005960"/>
     <nd ref="6521887913"/>
   </way>
-  <way id="41588157" visible="true" version="37">
+  <way id="851719171" visible="true" version="1">
     <tag k="lcn" v="proposed"/>
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Gower Street"/>
-    <tag k="lanes" v="3"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="proposed:lanes" v="2"/>
     <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066193"/>
-    <nd ref="108012"/>
-    <nd ref="7195621930"/>
-    <nd ref="7050696570"/>
-    <nd ref="108010"/>
     <nd ref="7195621923"/>
     <nd ref="6958632448"/>
     <nd ref="108009"/>
+    <nd ref="6958632447"/>
+  </way>
+  <way id="851719170" visible="true" version="1">
+    <tag k="lcn" v="proposed"/>
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A400"/>
+    <tag k="name" v="Gower Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="proposed:oneway" v="no"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG066193"/>
     <nd ref="6958632447"/>
     <nd ref="6521870388"/>
   </way>
@@ -11803,7 +11836,24 @@
     <nd ref="6781565858"/>
     <nd ref="6521887915"/>
   </way>
-  <way id="694563844" visible="true" version="4">
+  <way id="851719165" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="rcn" v="proposed"/>
+    <tag k="ref" v="A400"/>
+    <tag k="name" v="Gower Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="proposed:oneway" v="no"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG066219"/>
+    <nd ref="7346757315"/>
+    <nd ref="3645263667"/>
+    <nd ref="108033"/>
+  </way>
+  <way id="694563844" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="rcn" v="proposed"/>
     <tag k="ref" v="A400"/>
@@ -11820,8 +11870,6 @@
     <nd ref="6521887911"/>
     <nd ref="6521832707"/>
     <nd ref="7346757315"/>
-    <nd ref="3645263667"/>
-    <nd ref="108033"/>
   </way>
   <way id="195555969" visible="true" version="12">
     <tag k="lit" v="yes"/>
@@ -12049,18 +12097,36 @@
     <nd ref="7460533149"/>
     <nd ref="7460533148"/>
   </way>
-  <way id="401189740" visible="true" version="8">
+  <way id="60494630" visible="true" version="27">
+    <tag k="lit" v="yes"/>
+    <tag k="rcn" v="proposed"/>
+    <tag k="ref" v="A400"/>
+    <tag k="name" v="Gower Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="proposed:oneway" v="no"/>
+    <tag k="tiger:upload_uuid" v="RWG066221"/>
+    <nd ref="104302"/>
+    <nd ref="6958636271"/>
+    <nd ref="881889759"/>
+    <nd ref="7195621939"/>
+  </way>
+  <way id="401189740" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Bloomsbury Street"/>
-    <tag k="lanes" v="3"/>
+    <tag k="lanes" v="2"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="shared"/>
-    <tag k="proposed:lanes" v="2"/>
     <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066197,RWG066169"/>
@@ -12841,17 +12907,16 @@
     <nd ref="984064466"/>
     <nd ref="506351757"/>
   </way>
-  <way id="147248799" visible="true" version="12">
+  <way id="147248799" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Bloomsbury Street"/>
-    <tag k="lanes" v="3"/>
+    <tag k="lanes" v="2"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="proposed:lanes" v="2"/>
     <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066169"/>
@@ -13781,6 +13846,24 @@
     <nd ref="6279388824"/>
     <nd ref="6279388822"/>
   </way>
+  <way id="571500819" visible="true" version="4">
+    <tag k="hgv" v="destination"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Lloyd Baker Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxwidth" v="7'2&quot;"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="proposed:oneway" v="no"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
+    <tag k="tiger:upload_uuid" v="RWG152737"/>
+    <nd ref="5492447668"/>
+    <nd ref="5492447666"/>
+  </way>
   <way id="724836933" visible="true" version="1">
     <tag k="hgv" v="destination"/>
     <tag k="lit" v="yes"/>
@@ -14188,21 +14271,6 @@
     <tag k="tiger:upload_uuid" v="RWG018125,RWG018127"/>
     <nd ref="26373749"/>
     <nd ref="7339659491"/>
-  </way>
-  <way id="571500819" visible="true" version="2">
-    <tag k="hgv" v="destination"/>
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Lloyd Baker Street"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="abutters" v="mixed"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="maxwidth" v="7'2&quot;"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG152737"/>
-    <nd ref="5492447668"/>
-    <nd ref="5492447666"/>
   </way>
   <way id="250328433" visible="true" version="5">
     <tag k="lit" v="yes"/>
