@@ -242,6 +242,7 @@
   <node id="6215339751" lat="51.5804648" lon="-0.3250052" version="1" visible="true"/>
   <node id="80429949" lat="51.3865493" lon="-0.1921811" version="8" visible="true"/>
   <node id="401675165" lat="51.4799163" lon="0.1814603" version="4" visible="true"/>
+  <node id="43412521" lat="51.4352923" lon="-0.1604588" version="5" visible="true"/>
   <node id="6111906886" lat="51.5575517" lon="-0.0090772" version="3" visible="true"/>
   <node id="6991416095" lat="51.4939559" lon="-0.0857808" version="2" visible="true"/>
   <node id="6597944094" lat="51.4580017" lon="-0.3306018" version="2" visible="true"/>
@@ -1397,7 +1398,6 @@
   <node id="90121966" lat="51.4726071" lon="0.0552754" version="4" visible="true"/>
   <node id="357344817" lat="51.562289" lon="-0.0735794" version="7" visible="true"/>
   <node id="5811136976" lat="51.523086" lon="-0.1364798" version="1" visible="true"/>
-  <node id="130661446" lat="51.4771807" lon="-0.2702775" version="2" visible="true"/>
   <node id="1934086683" lat="51.6163663" lon="-0.0827095" version="3" visible="true"/>
   <node id="1954751914" lat="51.5189935" lon="-0.0970577" version="2" visible="true"/>
   <node id="5716443190" lat="51.4789099" lon="0.0592725" version="2" visible="true"/>
@@ -4252,6 +4252,19 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+  </node>
+  <node id="43412859" lat="51.4355755" lon="-0.1598058" version="11" visible="true">
+    <tag k="rcn" v="yes"/>
+    <tag k="name" v="Tooting Bec"/>
+    <tag k="rcn_name" v="Tooting Bec station"/>
+  </node>
+  <node id="7816582338" lat="51.4355546" lon="-0.1598507" version="1" visible="true">
+    <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="forward"/>
+  </node>
+  <node id="7816582333" lat="51.4355317" lon="-0.1599086" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="7823795780" lat="51.4375607" lon="-0.1668364" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -9284,17 +9297,6 @@
     <nd ref="5850565971"/>
     <nd ref="253257047"/>
     <nd ref="2010667184"/>
-  </way>
-  <way id="45573496" visible="true" version="4">
-    <tag k="hgv" v="no"/>
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Hartington Road"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="maxweight" v="7.5"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG291656,RWG233591,RWG291654,RWG291657,RWG291655,RWG233587"/>
-    <nd ref="130661446"/>
-    <nd ref="581106958"/>
   </way>
   <way id="682080100" visible="true" version="2">
     <tag k="lit" v="yes"/>
@@ -17929,6 +17931,22 @@
     <tag k="tiger:upload_uuid" v="RWG109867"/>
     <nd ref="21390008"/>
     <nd ref="1425033102"/>
+  </way>
+  <way id="691007296" visible="true" version="5">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A24"/>
+    <tag k="name" v="Upper Tooting Road"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG109867,RWG109861"/>
+    <nd ref="43412521"/>
+    <nd ref="7816582333"/>
+    <nd ref="7816582338"/>
+    <nd ref="43412859"/>
   </way>
   <way id="8032768" visible="true" version="24">
     <tag k="lit" v="yes"/>
