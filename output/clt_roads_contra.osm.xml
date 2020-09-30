@@ -341,7 +341,6 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
   </node>
-  <node id="7129415728" lat="51.5758448" lon="-0.0217114" version="2" visible="true"/>
   <node id="7108815878" lat="51.5081179" lon="-0.1048541" version="1" visible="true"/>
   <node id="7098823267" lat="51.5415398" lon="-0.0383077" version="4" visible="true"/>
   <node id="7090096564" lat="51.4845637" lon="-0.3042599" version="1" visible="true"/>
@@ -3836,24 +3835,14 @@
     <nd ref="6483159740"/>
     <nd ref="151182414"/>
   </way>
-  <way id="219733877" visible="true" version="8">
+  <way id="848686082" visible="true" version="2">
     <tag k="lcn" v="proposed"/>
     <tag k="name" v="Chelmsford Road"/>
-    <tag k="highway" v="residential"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG187639"/>
-    <nd ref="7129415728"/>
-    <nd ref="1846241635"/>
-  </way>
-  <way id="848686082" visible="true" version="1">
-    <tag k="lcn" v="proposed"/>
-    <tag k="name" v="Chelmsford Road"/>
-    <tag k="access" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG187639"/>
     <nd ref="7918760217"/>
-    <nd ref="7129415728"/>
+    <nd ref="1846241635"/>
   </way>
   <way id="53038889" visible="true" version="3">
     <tag k="lcn" v="proposed"/>

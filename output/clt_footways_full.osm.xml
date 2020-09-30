@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7956185043" lat="51.457398" lon="-0.3098293" version="1" visible="true"/>
+  <node id="7952848722" lat="51.5461668" lon="-0.0200354" version="1" visible="true"/>
   <node id="7949073272" lat="51.3954416" lon="-0.1892634" version="1" visible="true"/>
   <node id="7949073271" lat="51.3954313" lon="-0.1891674" version="1" visible="true">
     <tag k="foot" v="no"/>
@@ -297,6 +299,8 @@
   </node>
   <node id="5199365419" lat="51.4664304" lon="-0.1893616" version="1" visible="true"/>
   <node id="5199365410" lat="51.4664408" lon="-0.1893898" version="1" visible="true"/>
+  <node id="5150371244" lat="51.5464418" lon="-0.0202772" version="2" visible="true"/>
+  <node id="5150371243" lat="51.5463867" lon="-0.0201812" version="2" visible="true"/>
   <node id="5109568883" lat="51.5101611" lon="0.1146311" version="1" visible="true"/>
   <node id="5109568882" lat="51.5101698" lon="0.1143774" version="1" visible="true"/>
   <node id="5109568881" lat="51.5102349" lon="0.114643" version="1" visible="true"/>
@@ -424,6 +428,7 @@
   <node id="2822799208" lat="51.5070375" lon="-0.4256151" version="1" visible="true"/>
   <node id="2822799206" lat="51.5046408" lon="-0.4193185" version="1" visible="true"/>
   <node id="2822799204" lat="51.5046044" lon="-0.419232" version="1" visible="true"/>
+  <node id="2781231856" lat="51.546227" lon="-0.0200554" version="2" visible="true"/>
   <node id="2715731772" lat="51.4766145" lon="-0.2494898" version="1" visible="true"/>
   <node id="2715731745" lat="51.4766686" lon="-0.2494947" version="1" visible="true"/>
   <node id="2715731744" lat="51.4769006" lon="-0.2494468" version="2" visible="true"/>
@@ -2462,7 +2467,7 @@
     <nd ref="1989023272"/>
     <nd ref="56485671"/>
   </way>
-  <way id="23482070" visible="true" version="14">
+  <way id="23482070" visible="true" version="15">
     <tag k="name" v="Willoughby Road"/>
     <tag k="highway" v="path"/>
     <tag k="bicycle" v="yes"/>
@@ -2472,6 +2477,7 @@
     <tag k="tiger:upload_uuid" v="RWG235551"/>
     <nd ref="254299027"/>
     <nd ref="257348203"/>
+    <nd ref="7956185043"/>
     <nd ref="272325061"/>
   </way>
   <way id="135581443" visible="true" version="4">
@@ -2788,6 +2794,23 @@
     <nd ref="243712163"/>
     <nd ref="243712162"/>
     <nd ref="88773794"/>
+  </way>
+  <way id="852553995" visible="true" version="1">
+    <tag k="lcn" v="proposed"/>
+    <tag k="access" v="no"/>
+    <tag k="highway" v="footway"/>
+    <tag k="check_date" v="2019-01-15"/>
+    <tag k="proposed:footway" v="sidewalk"/>
+    <tag k="proposed:highway" v="cycleway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG097837"/>
+    <nd ref="7952848722"/>
+    <nd ref="2781231856"/>
+    <nd ref="5150371243"/>
+    <nd ref="5150371244"/>
   </way>
   <way id="509108708" visible="true" version="2">
     <tag k="lit" v="yes"/>
