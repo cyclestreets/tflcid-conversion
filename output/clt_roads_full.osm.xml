@@ -111,6 +111,7 @@
   <node id="6040171859" lat="51.4925463" lon="-0.274129" version="3" visible="true"/>
   <node id="13823627" lat="51.4947428" lon="-0.0862209" version="5" visible="true"/>
   <node id="820319" lat="51.5226201" lon="-0.1375751" version="9" visible="true"/>
+  <node id="4213477769" lat="51.48631" lon="0.0089192" version="4" visible="true"/>
   <node id="5746403621" lat="51.4528712" lon="0.1798298" version="1" visible="true"/>
   <node id="2264552526" lat="51.524931" lon="-0.0348718" version="10" visible="true"/>
   <node id="945430250" lat="51.5982325" lon="-0.0745917" version="1" visible="true"/>
@@ -601,6 +602,7 @@
   <node id="7195929689" lat="51.5222537" lon="-0.1384329" version="1" visible="true"/>
   <node id="90268278" lat="51.4802239" lon="-0.0907717" version="8" visible="true"/>
   <node id="1937730424" lat="51.482543" lon="-0.135449" version="2" visible="true"/>
+  <node id="5209996627" lat="51.4863203" lon="0.0093336" version="5" visible="true"/>
   <node id="16573934" lat="51.437231" lon="-0.4065299" version="4" visible="true"/>
   <node id="68901965" lat="51.5654357" lon="-0.4429474" version="10" visible="true"/>
   <node id="3053462699" lat="51.3943581" lon="-0.298763" version="3" visible="true"/>
@@ -617,6 +619,7 @@
   <node id="7799385071" lat="51.4272253" lon="-0.15253" version="1" visible="true"/>
   <node id="1141487747" lat="51.5210848" lon="-0.0871499" version="1" visible="true"/>
   <node id="2962689468" lat="51.4871331" lon="-0.2315357" version="1" visible="true"/>
+  <node id="7967002913" lat="51.576176" lon="0.0694041" version="1" visible="true"/>
   <node id="7008846967" lat="51.5724356" lon="-0.0682532" version="1" visible="true"/>
   <node id="34555744" lat="51.4778578" lon="-0.3258393" version="4" visible="true"/>
   <node id="35960140" lat="51.4468412" lon="0.1564029" version="5" visible="true"/>
@@ -1617,6 +1620,7 @@
   <node id="243917867" lat="51.4624386" lon="0.0265112" version="1" visible="true"/>
   <node id="6375953722" lat="51.5522418" lon="-0.3120566" version="3" visible="true"/>
   <node id="7254300194" lat="51.4399161" lon="-0.1769818" version="1" visible="true"/>
+  <node id="5859982220" lat="51.5761164" lon="0.0693786" version="1" visible="true"/>
   <node id="7589943263" lat="51.5863579" lon="0.00657" version="1" visible="true"/>
   <node id="5719031230" lat="51.5443702" lon="-0.0421233" version="1" visible="true"/>
   <node id="250751342" lat="51.4468732" lon="0.1562863" version="3" visible="true"/>
@@ -1734,6 +1738,7 @@
   <node id="80428808" lat="51.3895732" lon="-0.1972086" version="6" visible="true"/>
   <node id="45217568" lat="51.4255958" lon="0.0647251" version="3" visible="true"/>
   <node id="1952886578" lat="51.3868257" lon="-0.1924394" version="3" visible="true"/>
+  <node id="7965296819" lat="51.4863164" lon="0.0090063" version="1" visible="true"/>
   <node id="243738102" lat="51.4657854" lon="0.0304139" version="1" visible="true"/>
   <node id="21585734" lat="51.5090536" lon="-0.3489314" version="5" visible="true"/>
   <node id="1448684244" lat="51.5800711" lon="0.178691" version="3" visible="true"/>
@@ -2715,6 +2720,12 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+  </node>
+  <node id="4617447336" lat="51.4863191" lon="0.0091384" version="4" visible="true">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Vanbrugh Hill"/>
+    <tag k="local_ref" v="B"/>
+    <tag k="public_transport" v="stop_position"/>
   </node>
   <node id="1187205365" lat="51.4794516" lon="0.0259106" version="4" visible="true">
     <tag k="highway" v="crossing"/>
@@ -6989,7 +7000,7 @@
     <nd ref="6187182648"/>
     <nd ref="6187185690"/>
   </way>
-  <way id="374915464" visible="true" version="2">
+  <way id="374915464" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -6997,6 +7008,8 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="proposed:cycleway:right" v="track"/>
+    <tag k="proposed:cycleway:right:oneway" v="no"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG184687,RWG184676"/>
     <nd ref="3698514"/>
@@ -7536,6 +7549,23 @@
     <nd ref="299612707"/>
     <nd ref="60728673"/>
     <nd ref="5835483826"/>
+  </way>
+  <way id="849381958" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A206"/>
+    <tag k="name" v="Woolwich Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="proposed:cycleway:left" v="separate"/>
+    <tag k="proposed:cycleway:left:oneway" v="no"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184971,RWG184864"/>
+    <nd ref="4213477769"/>
+    <nd ref="7965296819"/>
+    <nd ref="4617447336"/>
+    <nd ref="5209996627"/>
   </way>
   <way id="707951394" visible="true" version="1">
     <tag k="lit" v="yes"/>
@@ -8636,6 +8666,14 @@
     <nd ref="1813690850"/>
     <nd ref="5933160270"/>
     <nd ref="694283118"/>
+  </way>
+  <way id="620208378" visible="true" version="4">
+    <tag k="name" v="Parham Drive"/>
+    <tag k="highway" v="residential"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG221162"/>
+    <nd ref="5859982220"/>
+    <nd ref="7967002913"/>
   </way>
   <way id="239939416" visible="true" version="13">
     <tag k="lit" v="yes"/>
@@ -10314,12 +10352,14 @@
     <nd ref="776779037"/>
     <nd ref="25737410"/>
   </way>
-  <way id="698933734" visible="true" version="3">
+  <way id="698933734" visible="true" version="4">
     <tag k="name" v="Commonside East"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:oneway" v="no"/>
+    <tag k="traffic_intervention" v="school_street"/>
+    <tag k="motor_vehicle:conditional" v="no @ (Mo-Fr 08:00-09:30,14:30-15:30)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG218586"/>
     <nd ref="1686542853"/>
