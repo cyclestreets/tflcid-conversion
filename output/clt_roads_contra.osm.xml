@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7968771329" lat="51.4684236" lon="-0.1364749" version="1" visible="true"/>
   <node id="7961281760" lat="51.5501739" lon="-0.0431864" version="1" visible="true"/>
   <node id="7961281747" lat="51.5501246" lon="-0.0433016" version="1" visible="true"/>
   <node id="7957525272" lat="51.4970142" lon="-0.1003362" version="1" visible="true"/>
@@ -232,7 +233,7 @@
   <node id="7332202999" lat="51.4693159" lon="-0.1343627" version="1" visible="true"/>
   <node id="7332187785" lat="51.4684546" lon="-0.1363111" version="1" visible="true"/>
   <node id="7332166683" lat="51.4685192" lon="-0.1360865" version="1" visible="true"/>
-  <node id="7332166681" lat="51.4684423" lon="-0.1363549" version="1" visible="true"/>
+  <node id="7332166681" lat="51.4684465" lon="-0.1363538" version="2" visible="true"/>
   <node id="7332166677" lat="51.4685871" lon="-0.1360904" version="1" visible="true"/>
   <node id="7332103678" lat="51.4678057" lon="-0.1406117" version="1" visible="true"/>
   <node id="7332103676" lat="51.4678127" lon="-0.1407108" version="1" visible="true">
@@ -2273,8 +2274,7 @@
     <tag k="direction" v="clockwise"/>
   </node>
   <node id="249441647" lat="51.570643" lon="-0.06967" version="7" visible="true"/>
-  <node id="248933569" lat="51.468408" lon="-0.13648" version="5" visible="true"/>
-  <node id="248933568" lat="51.4683091" lon="-0.1368619" version="5" visible="true"/>
+  <node id="248933569" lat="51.4684213" lon="-0.1364867" version="6" visible="true"/>
   <node id="248879132" lat="51.5759801" lon="0.0247919" version="3" visible="true"/>
   <node id="248859005" lat="51.5769159" lon="0.0229744" version="3" visible="true"/>
   <node id="248858821" lat="51.5763242" lon="0.0243752" version="2" visible="true"/>
@@ -11928,21 +11928,6 @@
     <nd ref="2684347230"/>
     <nd ref="2485090657"/>
   </way>
-  <way id="23068615" visible="true" version="16">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Larkhall Rise"/>
-    <tag k="layer" v="1"/>
-    <tag k="bridge" v="yes"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="maxwidth" v="6'6&quot;"/>
-    <tag k="maxweight" v="3"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG102179"/>
-    <nd ref="248933568"/>
-    <nd ref="248933569"/>
-  </way>
   <way id="25755914" visible="true" version="21">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A300"/>
@@ -12777,26 +12762,6 @@
     <nd ref="5739257304"/>
     <nd ref="21505286"/>
   </way>
-  <way id="23068616" visible="true" version="15">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Larkhall Rise"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG119565"/>
-    <nd ref="248933569"/>
-    <nd ref="7332166681"/>
-  </way>
-  <way id="23068616" visible="true" version="15">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Larkhall Rise"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG102179"/>
-    <nd ref="248933569"/>
-    <nd ref="7332166681"/>
-  </way>
   <way id="784829960" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Larkhall Rise"/>
@@ -13541,6 +13506,17 @@
     <nd ref="6285164117"/>
     <nd ref="4960059430"/>
     <nd ref="15657674"/>
+  </way>
+  <way id="23068616" visible="true" version="16">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Larkhall Rise"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG102179"/>
+    <nd ref="248933569"/>
+    <nd ref="7968771329"/>
+    <nd ref="7332166681"/>
   </way>
   <way id="31731128" visible="true" version="12">
     <tag k="lit" v="yes"/>
