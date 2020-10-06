@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7977189095" lat="51.4649056" lon="-0.3216802" version="1" visible="true"/>
   <node id="7956185044" lat="51.4585452" lon="-0.3119612" version="1" visible="true"/>
   <node id="7951183534" lat="51.4717927" lon="-0.321815" version="1" visible="true"/>
   <node id="7950624663" lat="51.5701789" lon="0.2572396" version="1" visible="true"/>
@@ -702,7 +703,7 @@
   <node id="4145440092" lat="51.5139159" lon="-0.4776392" version="1" visible="true"/>
   <node id="4145440091" lat="51.5136855" lon="-0.4774514" version="1" visible="true"/>
   <node id="4145439926" lat="51.5251528" lon="-0.4858306" version="1" visible="true"/>
-  <node id="4131244623" lat="51.4648405" lon="-0.3214891" version="1" visible="true"/>
+  <node id="4131244623" lat="51.4648332" lon="-0.3214879" version="2" visible="true"/>
   <node id="4131244593" lat="51.4625853" lon="-0.3188756" version="2" visible="true"/>
   <node id="4083606132" lat="51.5545944" lon="0.1467642" version="1" visible="true"/>
   <node id="4083606131" lat="51.5555243" lon="0.146805" version="1" visible="true"/>
@@ -1346,8 +1347,8 @@
   <node id="207600646" lat="51.4645364" lon="-0.3212075" version="2" visible="true"/>
   <node id="207600644" lat="51.46464" lon="-0.3212933" version="2" visible="true"/>
   <node id="207600642" lat="51.4647637" lon="-0.3214006" version="3" visible="true"/>
-  <node id="207600641" lat="51.4648773" lon="-0.3215588" version="3" visible="true"/>
-  <node id="207600640" lat="51.4649217" lon="-0.3217664" version="7" visible="true"/>
+  <node id="207600641" lat="51.4648638" lon="-0.3215664" version="4" visible="true"/>
+  <node id="207600640" lat="51.4649344" lon="-0.3218038" version="8" visible="true"/>
   <node id="207599241" lat="51.4621607" lon="-0.3184427" version="8" visible="true"/>
   <node id="149532264" lat="51.5896695" lon="0.0502281" version="4" visible="true"/>
   <node id="145709117" lat="51.4156087" lon="-0.0635023" version="2" visible="true"/>
@@ -4676,7 +4677,7 @@
     <nd ref="6095433897"/>
     <nd ref="6095433898"/>
   </way>
-  <way id="19850779" visible="true" version="9">
+  <way id="19850779" visible="true" version="10">
     <tag k="name" v="Thames Path - northern Bank"/>
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
@@ -4685,6 +4686,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG235461"/>
     <nd ref="207600640"/>
+    <nd ref="7977189095"/>
     <nd ref="207600641"/>
     <nd ref="4131244623"/>
     <nd ref="207600642"/>
