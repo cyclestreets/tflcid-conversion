@@ -145,8 +145,6 @@
   <node id="6149398572" lat="51.5110848" lon="-0.0801487" version="1" visible="true"/>
   <node id="6123444079" lat="51.5187076" lon="-0.4439849" version="1" visible="true"/>
   <node id="6096079459" lat="51.4572702" lon="-0.3568843" version="2" visible="true"/>
-  <node id="6096071055" lat="51.4471802" lon="-0.3161538" version="1" visible="true"/>
-  <node id="6096071054" lat="51.4472632" lon="-0.3157335" version="1" visible="true"/>
   <node id="6023450429" lat="51.4672182" lon="0.0675593" version="1" visible="true"/>
   <node id="6021060105" lat="51.5359798" lon="-0.3971627" version="1" visible="true"/>
   <node id="6015241195" lat="51.5331529" lon="-0.0650685" version="1" visible="true"/>
@@ -835,6 +833,7 @@
   <node id="221319814" lat="51.6017811" lon="0.0292669" version="4" visible="true"/>
   <node id="221319306" lat="51.6020014" lon="0.0252949" version="3" visible="true"/>
   <node id="207614139" lat="51.5045018" lon="-0.1560594" version="6" visible="true"/>
+  <node id="207610274" lat="51.4470409" lon="-0.3152179" version="4" visible="true"/>
   <node id="194614016" lat="51.3682033" lon="-0.1189868" version="1" visible="true"/>
   <node id="194614013" lat="51.3682518" lon="-0.1190429" version="1" visible="true"/>
   <node id="194614012" lat="51.3689647" lon="-0.1190088" version="3" visible="true"/>
@@ -1021,8 +1020,8 @@
   <node id="31002140" lat="51.4692838" lon="-0.3537675" version="4" visible="true">
     <tag k="barrier" v="gate"/>
   </node>
-  <node id="30863507" lat="51.4470818" lon="-0.3179208" version="3" visible="true"/>
-  <node id="30863506" lat="51.4471817" lon="-0.3176492" version="3" visible="true"/>
+  <node id="30863507" lat="51.4470616" lon="-0.3179231" version="4" visible="true"/>
+  <node id="30863506" lat="51.4471572" lon="-0.3176492" version="4" visible="true"/>
   <node id="30863505" lat="51.447233" lon="-0.3173428" version="3" visible="true"/>
   <node id="30863504" lat="51.447318" lon="-0.3168173" version="3" visible="true"/>
   <node id="30863503" lat="51.4474117" lon="-0.3162307" version="3" visible="true"/>
@@ -1478,13 +1477,6 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG231770"/>
   </node>
-  <node id="30863515" lat="51.4467812869" lon="-0.3190906949" visible="true" version="6">
-    <tag k="barrier" v="yes"/>
-    <tag k="access" v="no"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG231808"/>
-  </node>
   <node id="1204206884" lat="51.4524525812" lon="-0.3675980024" visible="true" version="1">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
@@ -1513,7 +1505,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG231794"/>
   </node>
-  <node id="-296" lat="51.4473734074251" lon="-0.315746285645982" visible="true">
+  <node id="-296" lat="51.4474415982627" lon="-0.315638944495687" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -1604,7 +1596,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG217203"/>
   </node>
-  <node id="-284" lat="51.4471216242146" lon="-0.317812514920595" visible="true">
+  <node id="-284" lat="51.4471024457025" lon="-0.317806059492896" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -4292,12 +4284,13 @@
     <nd ref="-295"/>
     <nd ref="5965920641"/>
   </way>
-  <way id="649617061" visible="true" version="1">
-    <tag k="highway" v="path"/>
-    <nd ref="30863497"/>
+  <way id="23608792" visible="true" version="3">
+    <tag k="name" v="Warren Path"/>
+    <tag k="note" v="Sign says pedestrian priority"/>
+    <tag k="highway" v="cycleway"/>
+    <nd ref="207610274"/>
     <nd ref="-296"/>
-    <nd ref="6096071054"/>
-    <nd ref="6096071055"/>
+    <nd ref="30863497"/>
   </way>
   <way id="10575108" visible="true" version="2">
     <tag k="access" v="private"/>
