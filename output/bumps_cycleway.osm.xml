@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="7986504863" lat="51.5196986" lon="-0.0566345" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
   <node id="7869569159" lat="51.5296969" lon="-0.0597651" version="2" visible="true"/>
   <node id="7823340899" lat="51.5298373" lon="-0.0594017" version="1" visible="true"/>
   <node id="7747398989" lat="51.5998843" lon="0.2373029" version="1" visible="true">
@@ -1307,7 +1310,7 @@
     <nd ref="6202402703"/>
     <nd ref="6202402720"/>
   </way>
-  <way id="705809098" visible="true" version="3">
+  <way id="705809098" visible="true" version="4">
     <tag k="highway" v="cycleway"/>
     <tag k="name" v="Whitechapel Road"/>
     <tag k="oneway" v="yes"/>
@@ -1315,6 +1318,7 @@
     <tag k="sidewalk" v="left"/>
     <nd ref="6632005516"/>
     <nd ref="6631996476"/>
+    <nd ref="7986504863"/>
     <nd ref="6631996453"/>
     <nd ref="4414742491"/>
     <nd ref="4414742492"/>
