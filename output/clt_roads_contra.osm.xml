@@ -2106,7 +2106,7 @@
   <node id="534347087" lat="51.5705912" lon="-0.0709402" version="3" visible="true"/>
   <node id="518713303" lat="51.5057301" lon="-0.085978" version="5" visible="true"/>
   <node id="512040220" lat="51.5300243" lon="-0.1237776" version="10" visible="true"/>
-  <node id="485257346" lat="51.5237089" lon="-0.130123" version="7" visible="true">
+  <node id="485257346" lat="51.5237088" lon="-0.1301383" version="8" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
@@ -2790,7 +2790,7 @@
     <tag k="crossing_ref" v="zebra"/>
   </node>
   <node id="25471116" lat="51.5238059" lon="-0.12989" version="5" visible="true"/>
-  <node id="25471115" lat="51.523647" lon="-0.1302711" version="6" visible="true"/>
+  <node id="25471115" lat="51.523653" lon="-0.1302723" version="7" visible="true"/>
   <node id="25470853" lat="51.5188018" lon="-0.1247317" version="9" visible="true"/>
   <node id="25470835" lat="51.5183139" lon="-0.1242077" version="7" visible="true"/>
   <node id="25470808" lat="51.4678374" lon="-0.346629" version="1" visible="true"/>
@@ -8849,10 +8849,11 @@
     <nd ref="7779726963"/>
     <nd ref="237481"/>
   </way>
-  <way id="25799956" visible="true" version="14">
+  <way id="25799956" visible="true" version="15">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Homerton Grove"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
