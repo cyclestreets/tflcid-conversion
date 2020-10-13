@@ -513,6 +513,8 @@
   </node>
   <node id="6824402180" lat="51.5833222" lon="-0.084534" version="1" visible="true"/>
   <node id="6824335666" lat="51.5057973" lon="-0.3333817" version="1" visible="true"/>
+  <node id="6824310852" lat="51.5109989" lon="-0.3207679" version="1" visible="true"/>
+  <node id="6824310851" lat="51.510951" lon="-0.3207573" version="2" visible="true"/>
   <node id="6824098944" lat="51.5596729" lon="0.1518309" version="2" visible="true"/>
   <node id="6823852406" lat="51.5500412" lon="-0.0436191" version="2" visible="true"/>
   <node id="6817022682" lat="51.386291" lon="-0.1112256" version="1" visible="true"/>
@@ -1315,8 +1317,7 @@
   </node>
   <node id="3624900681" lat="51.4532394" lon="-0.2147155" version="1" visible="true"/>
   <node id="3526925464" lat="51.5541437" lon="-0.0542473" version="2" visible="true"/>
-  <node id="3518169320" lat="51.4845128" lon="-0.306553" version="2" visible="true"/>
-  <node id="3517594387" lat="51.4844811" lon="-0.3066153" version="2" visible="true"/>
+  <node id="3518169320" lat="51.4845069" lon="-0.3065447" version="3" visible="true"/>
   <node id="3517594382" lat="51.4843983" lon="-0.306827" version="3" visible="true"/>
   <node id="3517350289" lat="51.4842699" lon="-0.3039713" version="2" visible="true"/>
   <node id="3451043898" lat="51.4680989" lon="-0.1908469" version="1" visible="true"/>
@@ -2051,7 +2052,7 @@
   </node>
   <node id="812149206" lat="51.5058464" lon="-0.2119236" version="3" visible="true"/>
   <node id="811891607" lat="51.5321277" lon="-0.1038683" version="3" visible="true"/>
-  <node id="808078400" lat="51.4900221" lon="-0.284604" version="3" visible="true"/>
+  <node id="808078400" lat="51.4900337" lon="-0.2846143" version="4" visible="true"/>
   <node id="807322043" lat="51.5018598" lon="-0.215716" version="3" visible="true"/>
   <node id="806739138" lat="51.5062652" lon="-0.0915427" version="5" visible="true"/>
   <node id="794660693" lat="51.474425" lon="-0.0868807" version="2" visible="true"/>
@@ -2259,13 +2260,14 @@
   <node id="252263277" lat="51.5419496" lon="-0.0976242" version="5" visible="true"/>
   <node id="251963295" lat="51.5422638" lon="-0.097079" version="3" visible="true"/>
   <node id="251802164" lat="51.4900057" lon="-0.2807841" version="2" visible="true"/>
-  <node id="251802162" lat="51.4900449" lon="-0.2851048" version="2" visible="true"/>
+  <node id="251802162" lat="51.4900449" lon="-0.2851048" version="3" visible="true"/>
   <node id="251662248" lat="51.3593249" lon="-0.0942495" version="3" visible="true"/>
   <node id="251662247" lat="51.3607177" lon="-0.0941435" version="2" visible="true"/>
   <node id="251662246" lat="51.3609769" lon="-0.0941912" version="1" visible="true"/>
   <node id="250856352" lat="51.3667686" lon="-0.0990225" version="11" visible="true"/>
   <node id="250856351" lat="51.366758" lon="-0.0999608" version="5" visible="true"/>
   <node id="250856350" lat="51.3666863" lon="-0.1003007" version="5" visible="true"/>
+  <node id="250661905" lat="51.5110256" lon="-0.3207789" version="4" visible="true"/>
   <node id="250367692" lat="51.5397962" lon="-0.1370043" version="4" visible="true"/>
   <node id="250361690" lat="51.5417159" lon="-0.0978764" version="6" visible="true"/>
   <node id="249666678" lat="51.5256049" lon="-0.0838333" version="4" visible="true"/>
@@ -5755,6 +5757,18 @@
     <nd ref="245439178"/>
     <nd ref="291676057"/>
   </way>
+  <way id="728241278" visible="true" version="1">
+    <tag k="name" v="Bedford Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG233588"/>
+    <nd ref="6824310851"/>
+    <nd ref="6824310852"/>
+    <nd ref="250661905"/>
+  </way>
   <way id="814427575" visible="true" version="1">
     <tag k="name" v="Castle Road"/>
     <tag k="oneway" v="yes"/>
@@ -6256,7 +6270,7 @@
     <nd ref="2273086405"/>
     <nd ref="302734812"/>
   </way>
-  <way id="345124917" visible="true" version="5">
+  <way id="345124917" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="name" v="St. Paul's Road"/>
@@ -6271,7 +6285,6 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG233726"/>
     <nd ref="3518169320"/>
-    <nd ref="3517594387"/>
     <nd ref="7079769044"/>
     <nd ref="3517594382"/>
   </way>
@@ -7649,11 +7662,12 @@
     <nd ref="1364332907"/>
     <nd ref="24953358"/>
   </way>
-  <way id="450687245" visible="true" version="6">
+  <way id="450687245" visible="true" version="7">
     <tag k="rcn" v="proposed"/>
     <tag k="name" v="Fairhazel Gardens"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG000178"/>
@@ -7661,11 +7675,12 @@
     <nd ref="1364394308"/>
     <nd ref="1693137937"/>
   </way>
-  <way id="450687245" visible="true" version="6">
+  <way id="450687245" visible="true" version="7">
     <tag k="rcn" v="proposed"/>
     <tag k="name" v="Fairhazel Gardens"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG000214"/>

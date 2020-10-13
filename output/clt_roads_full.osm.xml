@@ -4531,8 +4531,9 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
   </node>
-  <node id="3612285000" lat="51.4383539" lon="-0.359617" version="1" visible="true">
+  <node id="3612285000" lat="51.4383539" lon="-0.359617" version="2" visible="true">
     <tag k="highway" v="speed_camera"/>
+    <tag k="maxspeed" v="20 mph"/>
   </node>
   <node id="3632496775" lat="51.4362922" lon="-0.3529695" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -9751,7 +9752,7 @@
     <nd ref="302958"/>
     <nd ref="556768604"/>
   </way>
-  <way id="355488006" visible="true" version="4">
+  <way id="355488006" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B358"/>
     <tag k="name" v="Hospital Bridge Road"/>
@@ -9759,7 +9760,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="secondary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG234300,RWG234297,RWG234299"/>
@@ -9774,7 +9775,7 @@
     <nd ref="3610864721"/>
     <nd ref="3610864712"/>
   </way>
-  <way id="355488000" visible="true" version="3">
+  <way id="355488000" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B358"/>
     <tag k="name" v="Hospital Bridge Road"/>
@@ -9784,7 +9785,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="secondary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="40 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG234300"/>
     <nd ref="3610864712"/>
@@ -10041,12 +10042,12 @@
     <nd ref="1601416114"/>
     <nd ref="26624970"/>
   </way>
-  <way id="727152383" visible="true" version="2">
+  <way id="727152383" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B358"/>
     <tag k="name" v="Sixth Cross Road"/>
     <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG233641,RWG233645,RWG233639,RWG233640"/>
     <nd ref="1692209247"/>
@@ -10296,24 +10297,24 @@
     <nd ref="7182472369"/>
     <nd ref="247043028"/>
   </way>
-  <way id="759234692" visible="true" version="2">
+  <way id="759234692" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B358"/>
     <tag k="name" v="Sixth Cross Road"/>
     <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="turn:lanes:forward" v="left;through|right"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG234204"/>
     <nd ref="7091816201"/>
     <nd ref="3610864735"/>
   </way>
-  <way id="776276072" visible="true" version="1">
+  <way id="776276072" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B358"/>
     <tag k="name" v="Sixth Cross Road"/>
     <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="turn:lanes:forward" v="left;through|right"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG234204"/>
