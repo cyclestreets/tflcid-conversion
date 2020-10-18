@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8014784827" lat="51.4730412" lon="-0.008175" version="1" visible="true"/>
+  <node id="8014784823" lat="51.4727911" lon="-0.0060543" version="1" visible="true"/>
+  <node id="8014784812" lat="51.4726394" lon="-0.0065353" version="1" visible="true"/>
+  <node id="8014784811" lat="51.4727986" lon="-0.0075906" version="1" visible="true"/>
   <node id="8006566219" lat="51.4304817" lon="-0.4032914" version="1" visible="true"/>
   <node id="8006566218" lat="51.4303493" lon="-0.4027683" version="1" visible="true"/>
   <node id="8006566214" lat="51.4305924" lon="-0.4042779" version="1" visible="true"/>
@@ -2759,7 +2763,7 @@
     <nd ref="6102973563"/>
     <nd ref="6102973564"/>
   </way>
-  <way id="102555787" visible="true" version="3">
+  <way id="102555787" visible="true" version="4">
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
@@ -2768,11 +2772,13 @@
     <tag k="tiger:upload_uuid" v="RWG198499"/>
     <nd ref="7056031125"/>
     <nd ref="2295590360"/>
+    <nd ref="8014784811"/>
     <nd ref="2295590354"/>
     <nd ref="2295590357"/>
+    <nd ref="8014784827"/>
     <nd ref="1184379743"/>
   </way>
-  <way id="102555787" visible="true" version="3">
+  <way id="102555787" visible="true" version="4">
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
@@ -2781,8 +2787,10 @@
     <tag k="tiger:upload_uuid" v="RWG198499"/>
     <nd ref="7056031125"/>
     <nd ref="2295590360"/>
+    <nd ref="8014784811"/>
     <nd ref="2295590354"/>
     <nd ref="2295590357"/>
+    <nd ref="8014784827"/>
     <nd ref="1184379743"/>
   </way>
   <way id="220438635" visible="true" version="2">
@@ -2795,7 +2803,7 @@
     <nd ref="2295590354"/>
     <nd ref="2295590356"/>
   </way>
-  <way id="540879651" visible="true" version="1">
+  <way id="540879651" visible="true" version="2">
     <tag k="highway" v="path"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
@@ -2803,6 +2811,8 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG198499"/>
     <nd ref="5231618610"/>
+    <nd ref="8014784823"/>
+    <nd ref="8014784812"/>
     <nd ref="5231618611"/>
     <nd ref="243761585"/>
   </way>
