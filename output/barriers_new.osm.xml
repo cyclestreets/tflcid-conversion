@@ -1375,8 +1375,8 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG289354"/>
   </node>
-  <node id="480185" lat="51.6185524533" lon="-0.1489026802" visible="true" version="11">
-    <tag k="maxwidth" v="2"/>
+  <node id="480185" lat="51.6185524533" lon="-0.1489026802" visible="true" version="12">
+    <tag k="maxwidth" v="2.1"/>
     <tag k="direction" v="both"/>
     <tag k="traffic_calming" v="choker"/>
     <tag k="barrier" v="yes"/>
@@ -2748,13 +2748,12 @@
     <nd ref="-179"/>
     <nd ref="2456267967"/>
   </way>
-  <way id="170470267" visible="true" version="5">
-    <tag k="name" v="Fetter Lane"/>
-    <tag k="source" v="Bing"/>
+  <way id="170470267" visible="true" version="6">
     <tag k="highway" v="unclassified"/>
-    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="source:name" v="ground survey 04.07.12"/>
+    <tag k="name" v="Fetter Lane"/>
+    <tag k="ref:GB:usrn" v="8100200"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="21578461"/>
     <nd ref="-180"/>
     <nd ref="1816038239"/>
