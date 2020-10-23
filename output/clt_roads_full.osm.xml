@@ -1386,6 +1386,7 @@
   <node id="4901582023" lat="51.4821458" lon="-0.1364215" version="2" visible="true"/>
   <node id="17899647" lat="51.4592508" lon="-0.217587" version="8" visible="true"/>
   <node id="1699816067" lat="51.3571308" lon="-0.3114948" version="2" visible="true"/>
+  <node id="8034323957" lat="51.4392047" lon="-0.3327411" version="1" visible="true"/>
   <node id="2204098012" lat="51.5709175" lon="-0.0952309" version="3" visible="true"/>
   <node id="1710752580" lat="51.4130184" lon="-0.2884138" version="3" visible="true"/>
   <node id="108540" lat="51.5305655" lon="-0.1057835" version="15" visible="true"/>
@@ -1496,6 +1497,7 @@
   <node id="26814988" lat="51.5306757" lon="-0.1058606" version="14" visible="true"/>
   <node id="2046339791" lat="51.5103475" lon="-0.3607759" version="4" visible="true"/>
   <node id="5360013216" lat="51.5281502" lon="-0.0806755" version="1" visible="true"/>
+  <node id="297737" lat="51.4392525" lon="-0.3327754" version="5" visible="true"/>
   <node id="31008685" lat="51.5803772" lon="0.1798863" version="5" visible="true"/>
   <node id="243715215" lat="51.4192031" lon="-0.2789117" version="5" visible="true"/>
   <node id="31008684" lat="51.5801655" lon="0.179266" version="4" visible="true"/>
@@ -1798,6 +1800,7 @@
   <node id="7618142421" lat="51.4893477" lon="-0.1554119" version="1" visible="true"/>
   <node id="4316306166" lat="51.5214785" lon="-0.0785508" version="5" visible="true"/>
   <node id="2330104936" lat="51.529591" lon="-0.138624" version="4" visible="true"/>
+  <node id="5967799337" lat="51.4393048" lon="-0.332807" version="4" visible="true"/>
   <node id="21489361" lat="51.5799761" lon="-0.3411778" version="5" visible="true"/>
   <node id="249441652" lat="51.5720115" lon="-0.0671332" version="11" visible="true"/>
   <node id="1305567670" lat="51.5813428" lon="-0.0183906" version="5" visible="true"/>
@@ -10358,6 +10361,21 @@
     <tag k="tiger:upload_uuid" v="RWG218752,RWG218735"/>
     <nd ref="4809681181"/>
     <nd ref="5094931026"/>
+  </way>
+  <way id="632013511" visible="true" version="5">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A310"/>
+    <tag k="name" v="Strawberry Vale"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="source_ref:ref" v="http://www.sabre-roads.org.uk/roadlists/r10/notes.php?number=A310"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG233738"/>
+    <nd ref="5967799337"/>
+    <nd ref="297737"/>
+    <nd ref="8034323957"/>
   </way>
   <way id="54167656" visible="true" version="7">
     <tag k="lit" v="yes"/>
