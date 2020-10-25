@@ -4543,8 +4543,13 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="yes"/>
   </node>
-  <node id="6502548162" lat="51.4096443" lon="-0.2345507" version="3" visible="true">
+  <node id="6502548162" lat="51.4096404" lon="-0.2345465" version="4" visible="true">
+    <tag k="cycleway" v="asl"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="8041000050" lat="51.4095869" lon="-0.2345691" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="7659420119" lat="51.3879429" lon="-0.258859" version="1" visible="true">
@@ -5857,13 +5862,12 @@
     <nd ref="2018396605"/>
     <nd ref="8023223849"/>
   </way>
-  <way id="860836097" visible="true" version="1">
+  <way id="860836097" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A308"/>
     <tag k="name" v="Kingston Hill"/>
     <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
-    <tag k="cycleway" v="track"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v="lane"/>
@@ -5968,7 +5972,7 @@
     <nd ref="80429947"/>
     <nd ref="249490159"/>
   </way>
-  <way id="692630030" visible="true" version="5">
+  <way id="692630030" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B282"/>
     <tag k="name" v="West Barnes Lane"/>
@@ -5983,6 +5987,7 @@
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG124271,RWG124272"/>
     <nd ref="6502506052"/>
+    <nd ref="8041000050"/>
     <nd ref="6502505944"/>
     <nd ref="6502548162"/>
     <nd ref="26405209"/>
