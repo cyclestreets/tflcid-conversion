@@ -2503,6 +2503,9 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
   </node>
+  <node id="8037617773" lat="51.5561479" lon="-0.062262" version="1" visible="true">
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="4704604510" lat="51.5172674" lon="-0.0132039" version="2" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Teviot Estate"/>
@@ -4376,11 +4379,11 @@
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG151998"/>
   </node>
-  <node id="-1625" lat="51.5561929440416" lon="-0.0618010204211742" visible="true">
+  <node id="-1625" lat="51.5561929340852" lon="-0.0618010195056048" visible="true">
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG041783"/>
   </node>
-  <node id="-1624" lat="51.5561045982287" lon="-0.0627055159316378" visible="true">
+  <node id="-1624" lat="51.5561045876713" lon="-0.0627055150406857" visible="true">
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG041781"/>
   </node>
@@ -5271,19 +5274,21 @@
     <nd ref="18064362"/>
     <nd ref="18064256"/>
   </way>
-  <way id="5945385" visible="true" version="2">
-    <tag k="name" v="Worsley Grove"/>
+  <way id="5945385" visible="true" version="3">
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Worsley Grove"/>
     <nd ref="35359302"/>
     <nd ref="-1624"/>
+    <nd ref="8037617773"/>
     <nd ref="35359301"/>
   </way>
-  <way id="5945385" visible="true" version="2">
-    <tag k="name" v="Worsley Grove"/>
+  <way id="5945385" visible="true" version="3">
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Worsley Grove"/>
     <nd ref="35359302"/>
+    <nd ref="8037617773"/>
     <nd ref="-1625"/>
     <nd ref="35359301"/>
   </way>

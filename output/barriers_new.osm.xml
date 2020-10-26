@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8044601694" lat="51.4564582" lon="-0.2102581" version="1" visible="true"/>
   <node id="8034214231" lat="51.3579159" lon="-0.2182111" version="1" visible="true"/>
   <node id="8034214222" lat="51.3592541" lon="-0.2172831" version="1" visible="true"/>
   <node id="8007678239" lat="51.6695701" lon="-0.0370266" version="1" visible="true"/>
@@ -53,10 +54,10 @@
   <node id="7578063465" lat="51.5725511" lon="-0.2466007" version="1" visible="true"/>
   <node id="7578063464" lat="51.572688" lon="-0.2463805" version="1" visible="true"/>
   <node id="7578063463" lat="51.5728249" lon="-0.246322" version="1" visible="true"/>
-  <node id="7567076233" lat="51.4567156" lon="-0.2099709" version="1" visible="true">
+  <node id="7567076233" lat="51.4567293" lon="-0.2099642" version="2" visible="true">
     <tag k="barrier" v="gate"/>
   </node>
-  <node id="7567076232" lat="51.4566751" lon="-0.2100125" version="1" visible="true"/>
+  <node id="7567076232" lat="51.4566751" lon="-0.2100547" version="2" visible="true"/>
   <node id="7480201694" lat="51.4843625" lon="-0.07416" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -665,12 +666,12 @@
   <node id="340511370" lat="51.5029105" lon="-0.0812919" version="3" visible="true"/>
   <node id="339856605" lat="51.5623676" lon="-0.0120549" version="3" visible="true"/>
   <node id="339856573" lat="51.5624922" lon="-0.011728" version="4" visible="true"/>
-  <node id="339412205" lat="51.4567968" lon="-0.2113804" version="2" visible="true"/>
-  <node id="339412204" lat="51.4565687" lon="-0.2107363" version="3" visible="true"/>
+  <node id="339412205" lat="51.456823" lon="-0.2114211" version="3" visible="true"/>
+  <node id="339412204" lat="51.4565755" lon="-0.210718" version="4" visible="true"/>
   <node id="339412203" lat="51.4564378" lon="-0.2104559" version="3" visible="true"/>
-  <node id="339412202" lat="51.4564061" lon="-0.2103662" version="2" visible="true"/>
-  <node id="339412201" lat="51.456409" lon="-0.210286" version="2" visible="true"/>
-  <node id="339412200" lat="51.4567646" lon="-0.2099206" version="1" visible="true"/>
+  <node id="339412202" lat="51.4564258" lon="-0.2103834" version="3" visible="true"/>
+  <node id="339412201" lat="51.4564251" lon="-0.2103445" version="3" visible="true"/>
+  <node id="339412200" lat="51.4567832" lon="-0.2099057" version="2" visible="true"/>
   <node id="336269025" lat="51.5552452" lon="-0.1126074" version="3" visible="true"/>
   <node id="336269021" lat="51.5558276" lon="-0.1131231" version="2" visible="true"/>
   <node id="335902708" lat="51.470522" lon="-0.0701064" version="2" visible="true"/>
@@ -2196,7 +2197,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG088510"/>
   </node>
-  <node id="-215" lat="51.4567847166404" lon="-0.211346294191603" visible="true">
+  <node id="-215" lat="51.4567953378499" lon="-0.211342531946807" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -3202,15 +3203,16 @@
     <nd ref="250285707"/>
     <nd ref="250285708"/>
   </way>
-  <way id="30693455" visible="true" version="5">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Askill Drive"/>
+  <way id="30693455" visible="true" version="6">
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Askill Drive"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="339412200"/>
     <nd ref="7567076233"/>
     <nd ref="7567076232"/>
+    <nd ref="8044601694"/>
     <nd ref="339412201"/>
     <nd ref="339412202"/>
     <nd ref="339412203"/>
