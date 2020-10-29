@@ -1,5 +1,14 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8057548219" lat="51.6367859" lon="-0.0815643" version="1" visible="true"/>
+  <node id="8057538954" lat="51.6369017" lon="-0.0814023" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
+  <node id="8057538951" lat="51.6366152" lon="-0.0817932" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="8031777576" lat="51.5101741" lon="-0.0723428" version="1" visible="true"/>
   <node id="8031777574" lat="51.5101773" lon="-0.072406" version="1" visible="true">
     <tag k="rcn" v="yes"/>
@@ -612,11 +621,11 @@
     <tag k="crossing_ref" v="tiger"/>
   </node>
   <node id="5307796305" lat="51.6370761" lon="-0.0811747" version="3" visible="true"/>
-  <node id="5307781453" lat="51.636709" lon="-0.0816458" version="4" visible="true"/>
+  <node id="5307781453" lat="51.6367333" lon="-0.0816118" version="5" visible="true"/>
   <node id="5307759457" lat="51.6365389" lon="-0.081923" version="4" visible="true"/>
   <node id="5307759452" lat="51.6369524" lon="-0.0813267" version="3" visible="true"/>
   <node id="5307759451" lat="51.6374727" lon="-0.0807457" version="3" visible="true"/>
-  <node id="5307759442" lat="51.6366632" lon="-0.0817238" version="4" visible="true">
+  <node id="5307759442" lat="51.6366594" lon="-0.0817292" version="5" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -1190,14 +1199,14 @@
   <node id="1651916584" lat="51.5394636" lon="-0.1364072" version="3" visible="true">
     <tag k="traffic_calming" v="cushion"/>
   </node>
-  <node id="1643721769" lat="51.6365953" lon="-0.0818221" version="6" visible="true"/>
+  <node id="1643721769" lat="51.6365927" lon="-0.0818285" version="7" visible="true"/>
   <node id="1643721557" lat="51.6028733" lon="-0.0876105" version="4" visible="true"/>
   <node id="1643721555" lat="51.6025855" lon="-0.0892932" version="4" visible="true"/>
   <node id="1643721531" lat="51.6019473" lon="-0.0906846" version="5" visible="true"/>
   <node id="1641763132" lat="51.5008696" lon="-0.1106595" version="4" visible="true"/>
   <node id="1638305489" lat="51.6375043" lon="-0.0807182" version="4" visible="true"/>
   <node id="1638305432" lat="51.6372594" lon="-0.0809559" version="4" visible="true"/>
-  <node id="1638305407" lat="51.6368663" lon="-0.0814326" version="6" visible="true">
+  <node id="1638305407" lat="51.6368756" lon="-0.0814411" version="7" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -1748,11 +1757,6 @@
   <node id="525096" lat="51.6449725" lon="-0.081695" version="13" visible="true"/>
   <node id="525095" lat="51.6412537" lon="-0.0789063" version="11" visible="true"/>
   <node id="525094" lat="51.6375731" lon="-0.0806584" version="4" visible="true"/>
-  <node id="525086" lat="51.6367521" lon="-0.0815886" version="11" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
-  </node>
   <node id="525084" lat="51.6358335" lon="-0.0861646" version="5" visible="true"/>
   <node id="525083" lat="51.6364598" lon="-0.0907341" version="9" visible="true">
     <tag k="name" v="Mason's Corner"/>
@@ -1805,7 +1809,7 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
-  <way id="1713754" visible="true" version="9">
+  <way id="1713754" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Village Road"/>
@@ -1813,8 +1817,9 @@
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG149149"/>
-    <nd ref="525086"/>
+    <nd ref="8057548219"/>
     <nd ref="1638305407"/>
+    <nd ref="8057538954"/>
     <nd ref="5307759452"/>
   </way>
   <way id="549466560" visible="true" version="4">
@@ -1840,7 +1845,7 @@
     <nd ref="1638305432"/>
     <nd ref="5307759451"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -1873,11 +1878,11 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -1910,11 +1915,11 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -1947,11 +1952,11 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -1984,11 +1989,11 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -2021,9 +2026,9 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
   <way id="549463995" visible="true" version="7">
     <tag k="lit" v="yes"/>
@@ -2201,7 +2206,7 @@
     <nd ref="1125572517"/>
     <nd ref="25967522"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -2234,9 +2239,9 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
   <way id="580680589" visible="true" version="3">
     <tag k="lit" v="yes"/>
@@ -2250,7 +2255,7 @@
     <nd ref="330696137"/>
     <nd ref="1597602079"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -2283,9 +2288,9 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
   <way id="8122359" visible="true" version="16">
     <tag k="lit" v="yes"/>
@@ -2665,7 +2670,7 @@
     <nd ref="6271893604"/>
     <nd ref="525096"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -2698,11 +2703,11 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -2735,9 +2740,9 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
   <way id="8122362" visible="true" version="11">
     <tag k="lit" v="yes"/>
@@ -2965,7 +2970,7 @@
     <nd ref="4465000548"/>
     <nd ref="6813216582"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -2998,11 +3003,11 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -3035,9 +3040,9 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
   <way id="8122362" visible="true" version="11">
     <tag k="lit" v="yes"/>
@@ -3131,7 +3136,7 @@
     <nd ref="5307659381"/>
     <nd ref="256699682"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -3164,11 +3169,11 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -3201,11 +3206,11 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -3238,9 +3243,9 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
   <way id="549463995" visible="true" version="7">
     <tag k="lit" v="yes"/>
@@ -3298,7 +3303,7 @@
     <nd ref="330696137"/>
     <nd ref="1597602079"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -3331,11 +3336,11 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
-  <way id="104200620" visible="true" version="14">
+  <way id="104200620" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Ridge Avenue"/>
@@ -3368,9 +3373,9 @@
     <nd ref="1931897145"/>
     <nd ref="5307759457"/>
     <nd ref="1643721769"/>
+    <nd ref="8057538951"/>
     <nd ref="5307759442"/>
     <nd ref="5307781453"/>
-    <nd ref="525086"/>
   </way>
   <way id="8122362" visible="true" version="11">
     <tag k="lit" v="yes"/>
