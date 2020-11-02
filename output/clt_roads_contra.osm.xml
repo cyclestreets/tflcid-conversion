@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8070319972" lat="51.5872576" lon="-0.2846592" version="1" visible="true"/>
+  <node id="8070319971" lat="51.5873543" lon="-0.2845381" version="1" visible="true"/>
+  <node id="8070319970" lat="51.5874005" lon="-0.2844496" version="1" visible="true"/>
   <node id="8050665244" lat="51.532288" lon="-0.1037094" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
@@ -230,9 +233,10 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="7435801879" lat="51.5419279" lon="-0.0572894" version="1" visible="true">
+  <node id="7435801879" lat="51.5419279" lon="-0.0572894" version="4" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="7435774349" lat="51.5419414" lon="-0.0570168" version="1" visible="true"/>
   <node id="7432098526" lat="51.5483272" lon="-0.0638567" version="1" visible="true"/>
@@ -2162,6 +2166,7 @@
   <node id="436172391" lat="51.5503951" lon="-0.1027769" version="4" visible="true"/>
   <node id="429640052" lat="51.5196046" lon="0.0146904" version="1" visible="true"/>
   <node id="427931762" lat="51.53056" lon="-0.1225813" version="8" visible="true"/>
+  <node id="427575188" lat="51.532567" lon="-0.1196305" version="4" visible="true"/>
   <node id="422055065" lat="51.3774193" lon="-0.1029999" version="5" visible="true"/>
   <node id="419259754" lat="51.5459223" lon="-0.1404424" version="3" visible="true"/>
   <node id="413483782" lat="51.4463625" lon="-0.3753902" version="3" visible="true">
@@ -2553,9 +2558,9 @@
   <node id="80839101" lat="51.5425397" lon="-0.159187" version="3" visible="true"/>
   <node id="80839099" lat="51.5425175" lon="-0.1583743" version="3" visible="true"/>
   <node id="78586764" lat="51.4985256" lon="-0.1048765" version="3" visible="true"/>
-  <node id="73771832" lat="51.5872571" lon="-0.2829824" version="11" visible="true"/>
-  <node id="73771830" lat="51.5874064" lon="-0.2843128" version="1" visible="true"/>
-  <node id="73771829" lat="51.5872731" lon="-0.2845703" version="1" visible="true"/>
+  <node id="73771832" lat="51.5873095" lon="-0.2830587" version="12" visible="true"/>
+  <node id="73771830" lat="51.5874239" lon="-0.284361" version="2" visible="true"/>
+  <node id="73771829" lat="51.587308" lon="-0.2846105" version="2" visible="true"/>
   <node id="71539789" lat="51.5089284" lon="-0.262946" version="6" visible="true"/>
   <node id="71538766" lat="51.5087384" lon="-0.2649158" version="4" visible="true"/>
   <node id="71538765" lat="51.5084808" lon="-0.2648881" version="3" visible="true"/>
@@ -6744,7 +6749,7 @@
     <nd ref="6824482772"/>
     <nd ref="38891154"/>
   </way>
-  <way id="251858667" visible="true" version="4">
+  <way id="251858667" visible="true" version="5">
     <tag k="name" v="Orchard Grove"/>
     <tag k="lanes" v="2"/>
     <tag k="highway" v="residential"/>
@@ -6753,33 +6758,10 @@
     <tag k="tiger:upload_uuid" v="RWG274747"/>
     <nd ref="2580176400"/>
     <nd ref="7174359501"/>
+    <nd ref="8070319972"/>
     <nd ref="73771829"/>
-    <nd ref="73771830"/>
-    <nd ref="73771832"/>
-  </way>
-  <way id="251858667" visible="true" version="4">
-    <tag k="name" v="Orchard Grove"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG274747"/>
-    <nd ref="2580176400"/>
-    <nd ref="7174359501"/>
-    <nd ref="73771829"/>
-    <nd ref="73771830"/>
-    <nd ref="73771832"/>
-  </way>
-  <way id="251858667" visible="true" version="4">
-    <tag k="name" v="Orchard Grove"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG274747"/>
-    <nd ref="2580176400"/>
-    <nd ref="7174359501"/>
-    <nd ref="73771829"/>
+    <nd ref="8070319971"/>
+    <nd ref="8070319970"/>
     <nd ref="73771830"/>
     <nd ref="73771832"/>
   </way>
@@ -10446,6 +10428,16 @@
     <tag k="tiger:upload_uuid" v="RWG003521"/>
     <nd ref="23050059"/>
     <nd ref="23050095"/>
+  </way>
+  <way id="824211199" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Northdown Street"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG003521"/>
+    <nd ref="23050095"/>
+    <nd ref="427575188"/>
   </way>
   <way id="36776003" visible="true" version="6">
     <tag k="lcn" v="proposed"/>
