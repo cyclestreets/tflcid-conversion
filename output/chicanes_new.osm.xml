@@ -7,6 +7,15 @@
   <node id="8037617773" lat="51.5561479" lon="-0.062262" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
+  <node id="8037615387" lat="51.5412523" lon="-0.0862423" version="1" visible="true">
+    <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="8037615160" lat="51.5404031" lon="-0.0864781" version="1" visible="true">
+    <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="8037615159" lat="51.5409685" lon="-0.0863269" version="1" visible="true">
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="8014620984" lat="51.4781557" lon="-0.2004085" version="1" visible="true"/>
   <node id="8014620927" lat="51.478259" lon="-0.2002655" version="1" visible="true"/>
   <node id="8014620926" lat="51.4782069" lon="-0.2002927" version="1" visible="true"/>
@@ -4548,7 +4557,7 @@
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG006972"/>
   </node>
-  <node id="-1595" lat="51.5399544549479" lon="-0.0865980832773444" visible="true">
+  <node id="-1595" lat="51.5399544553312" lon="-0.086598084350072" visible="true">
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG032646"/>
   </node>
@@ -4738,16 +4747,19 @@
     <nd ref="2458613929"/>
     <nd ref="7940312751"/>
   </way>
-  <way id="6570770" visible="true" version="5">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Cleveland Road"/>
+  <way id="6570770" visible="true" version="7">
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Cleveland Road"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="35340288"/>
     <nd ref="-1595"/>
+    <nd ref="8037615160"/>
+    <nd ref="8037615159"/>
     <nd ref="26547162"/>
+    <nd ref="8037615387"/>
     <nd ref="26547156"/>
   </way>
   <way id="30479855" visible="true" version="14">

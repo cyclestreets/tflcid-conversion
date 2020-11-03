@@ -10,6 +10,9 @@
   <node id="8037624762" lat="51.4138848" lon="-0.1914791" version="2" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
+  <node id="8037623240" lat="51.3940098" lon="-0.2954867" version="1" visible="true">
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="8037618126" lat="51.5444278" lon="-0.0428439" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
@@ -17,6 +20,9 @@
     <tag k="traffic_calming" v="hump"/>
   </node>
   <node id="8037617328" lat="51.541974" lon="-0.0564637" version="1" visible="true">
+    <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="8037614876" lat="51.5459393" lon="-0.1001977" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
   <node id="8013632079" lat="51.4972967" lon="-0.1153872" version="1" visible="true"/>
@@ -3303,7 +3309,7 @@
     <nd ref="6390779444"/>
     <nd ref="10694812"/>
   </way>
-  <way id="233253614" visible="true" version="4">
+  <way id="233253614" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="name" v="King Charles' Road"/>
@@ -3318,10 +3324,11 @@
     <nd ref="288571887"/>
     <nd ref="7602680937"/>
     <nd ref="294193067"/>
+    <nd ref="8037623240"/>
     <nd ref="4836300655"/>
     <nd ref="35804672"/>
   </way>
-  <way id="233253614" visible="true" version="4">
+  <way id="233253614" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="name" v="King Charles' Road"/>
@@ -3336,10 +3343,11 @@
     <nd ref="288571887"/>
     <nd ref="7602680937"/>
     <nd ref="294193067"/>
+    <nd ref="8037623240"/>
     <nd ref="4836300655"/>
     <nd ref="35804672"/>
   </way>
-  <way id="233253614" visible="true" version="4">
+  <way id="233253614" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="name" v="King Charles' Road"/>
@@ -3354,6 +3362,7 @@
     <nd ref="288571887"/>
     <nd ref="7602680937"/>
     <nd ref="294193067"/>
+    <nd ref="8037623240"/>
     <nd ref="4836300655"/>
     <nd ref="35804672"/>
   </way>
@@ -8878,7 +8887,7 @@
     <nd ref="7779726963"/>
     <nd ref="237481"/>
   </way>
-  <way id="25799956" visible="true" version="16">
+  <way id="25799956" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Homerton Grove"/>
     <tag k="highway" v="residential"/>
@@ -8886,6 +8895,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="20900532"/>
+    <tag k="cycleway:both" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG151612"/>
     <nd ref="2811568443"/>
@@ -9671,7 +9681,7 @@
     <nd ref="2817081438"/>
     <nd ref="2817081445"/>
   </way>
-  <way id="526849614" visible="true" version="5">
+  <way id="526849614" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Clifden Road"/>
     <tag k="oneway" v="yes"/>
@@ -9680,6 +9690,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="20900254"/>
+    <tag k="cycleway:both" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG009007"/>
     <nd ref="5122531916"/>
@@ -9831,7 +9842,7 @@
     <nd ref="2592872586"/>
     <nd ref="152241"/>
   </way>
-  <way id="2428027" visible="true" version="20">
+  <way id="2428027" visible="true" version="21">
     <tag k="lit" v="yes"/>
     <tag k="rcn" v="proposed"/>
     <tag k="name" v="Compton Road"/>
@@ -9850,6 +9861,7 @@
     <nd ref="339364044"/>
     <nd ref="339364060"/>
     <nd ref="10605466"/>
+    <nd ref="8037614876"/>
     <nd ref="186368752"/>
     <nd ref="6431788482"/>
   </way>
