@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8081537364" lat="51.5934389" lon="-0.3261985" version="1" visible="true"/>
+  <node id="8081537362" lat="51.5934569" lon="-0.326982" version="1" visible="true"/>
+  <node id="8081382557" lat="51.5932626" lon="-0.3237805" version="2" visible="true"/>
   <node id="8013559897" lat="51.4852028" lon="-0.1157584" version="1" visible="true"/>
   <node id="8013559894" lat="51.4848508" lon="-0.1156114" version="1" visible="true"/>
   <node id="8013559893" lat="51.4849904" lon="-0.1156581" version="1" visible="true"/>
@@ -309,8 +312,6 @@
   <node id="2188743886" lat="51.5603171" lon="-0.1638804" version="2" visible="true"/>
   <node id="2188728304" lat="51.5595446" lon="-0.1661334" version="2" visible="true"/>
   <node id="2188728303" lat="51.5597346" lon="-0.1653389" version="1" visible="true"/>
-  <node id="2181251997" lat="51.5927858" lon="-0.3232287" version="1" visible="true"/>
-  <node id="2180568239" lat="51.5926955" lon="-0.3224868" version="2" visible="true"/>
   <node id="2152131371" lat="51.5183462" lon="-0.0630656" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -1398,7 +1399,7 @@
     <nd ref="7747398989"/>
     <nd ref="7747394617"/>
   </way>
-  <way id="607472732" visible="true" version="6">
+  <way id="607472732" visible="true" version="7">
     <tag k="foot" v="designated"/>
     <tag k="highway" v="cycleway"/>
     <tag k="route" v="bicycle"/>
@@ -1559,9 +1560,10 @@
     <nd ref="354915057"/>
     <nd ref="6154607608"/>
   </way>
-  <way id="819278746" visible="true" version="1">
-    <tag k="rcn" v="proposed"/>
+  <way id="819278746" visible="true" version="4">
     <tag k="highway" v="cycleway"/>
+    <tag k="rcn" v="proposed"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="7650872389"/>
     <nd ref="970863735"/>
     <nd ref="970863741"/>
@@ -1571,14 +1573,15 @@
     <nd ref="970863748"/>
     <nd ref="-393"/>
     <nd ref="970863750"/>
+    <nd ref="8081537362"/>
     <nd ref="970863753"/>
+    <nd ref="8081537364"/>
     <nd ref="7379902903"/>
     <nd ref="970863754"/>
     <nd ref="7379902912"/>
     <nd ref="970863757"/>
     <nd ref="970863759"/>
-    <nd ref="2181251997"/>
-    <nd ref="2180568239"/>
+    <nd ref="8081382557"/>
   </way>
   <way id="632039221" visible="true" version="1">
     <tag k="name" v="Crown Street"/>
@@ -1593,9 +1596,10 @@
     <nd ref="5967958911"/>
     <nd ref="5967958906"/>
   </way>
-  <way id="819278746" visible="true" version="1">
-    <tag k="rcn" v="proposed"/>
+  <way id="819278746" visible="true" version="4">
     <tag k="highway" v="cycleway"/>
+    <tag k="rcn" v="proposed"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="7650872389"/>
     <nd ref="970863735"/>
     <nd ref="970863741"/>
@@ -1605,14 +1609,15 @@
     <nd ref="970863747"/>
     <nd ref="970863748"/>
     <nd ref="970863750"/>
+    <nd ref="8081537362"/>
     <nd ref="970863753"/>
+    <nd ref="8081537364"/>
     <nd ref="7379902903"/>
     <nd ref="970863754"/>
     <nd ref="7379902912"/>
     <nd ref="970863757"/>
     <nd ref="970863759"/>
-    <nd ref="2181251997"/>
-    <nd ref="2180568239"/>
+    <nd ref="8081382557"/>
   </way>
   <way id="38696851" visible="true" version="8">
     <tag k="lit" v="no"/>

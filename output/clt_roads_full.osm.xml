@@ -3346,15 +3346,6 @@
     <tag k="description" v="30 mph, 20 Zone ENDS"/>
     <tag k="traffic_sign" v="GB:675A"/>
   </node>
-  <node id="8037617870" lat="51.5453411" lon="-0.061998" version="1" visible="true">
-    <tag k="traffic_calming" v="cushion"/>
-  </node>
-  <node id="8037617614" lat="51.5449453" lon="-0.061782" version="1" visible="true">
-    <tag k="traffic_calming" v="cushion"/>
-  </node>
-  <node id="8037617666" lat="51.5437359" lon="-0.0611955" version="1" visible="true">
-    <tag k="traffic_calming" v="cushion"/>
-  </node>
   <node id="3506583416" lat="51.5395824" lon="-0.0561363" version="8" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Mare Street / Well Street"/>
@@ -3620,9 +3611,6 @@
   </node>
   <node id="336277511" lat="51.5578493" lon="-0.1125165" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
-  </node>
-  <node id="8037615409" lat="51.5566616" lon="-0.1267603" version="1" visible="true">
-    <tag k="traffic_calming" v="hump"/>
   </node>
   <node id="1936700412" lat="51.5916406" lon="-0.1427967" version="2" visible="true">
     <tag k="bus" v="yes"/>
@@ -14374,7 +14362,7 @@
     <nd ref="2543965733"/>
     <nd ref="2543967300"/>
   </way>
-  <way id="554186516" visible="true" version="5">
+  <way id="554186516" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Navarino Road"/>
     <tag k="oneway" v="yes"/>
@@ -14387,14 +14375,11 @@
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG008814"/>
     <nd ref="5348473923"/>
-    <nd ref="8037617870"/>
     <nd ref="3126576323"/>
-    <nd ref="8037617614"/>
     <nd ref="18061287"/>
     <nd ref="5279414473"/>
     <nd ref="3126576308"/>
     <nd ref="5279414472"/>
-    <nd ref="8037617666"/>
     <nd ref="5348457828"/>
   </way>
   <way id="595675128" visible="true" version="4">
@@ -15152,7 +15137,7 @@
     <nd ref="6797847745"/>
     <nd ref="6797847746"/>
   </way>
-  <way id="752165471" visible="true" version="2">
+  <way id="752165471" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Crayford Road"/>
     <tag k="highway" v="residential"/>
@@ -15164,7 +15149,6 @@
     <nd ref="26199459"/>
     <nd ref="2648123764"/>
     <nd ref="333232591"/>
-    <nd ref="8037615409"/>
     <nd ref="26199444"/>
   </way>
   <way id="627678232" visible="true" version="2">
