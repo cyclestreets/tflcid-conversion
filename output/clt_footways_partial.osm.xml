@@ -1,5 +1,14 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8089414393" lat="51.5671513" lon="-0.2453266" version="1" visible="true"/>
+  <node id="8089414392" lat="51.5673331" lon="-0.2454843" version="1" visible="true"/>
+  <node id="8089414391" lat="51.567261" lon="-0.2454113" version="1" visible="true">
+    <tag k="barrier" v="gate"/>
+  </node>
+  <node id="8089414383" lat="51.5682699" lon="-0.2423001" version="1" visible="true"/>
+  <node id="8089414381" lat="51.5669728" lon="-0.2461936" version="1" visible="true"/>
+  <node id="8089414380" lat="51.5668878" lon="-0.246122" version="1" visible="true"/>
+  <node id="8089414379" lat="51.5670853" lon="-0.2462884" version="1" visible="true"/>
   <node id="8073186257" lat="51.4975761" lon="0.1577161" version="1" visible="true"/>
   <node id="8073186251" lat="51.4975441" lon="0.1577804" version="1" visible="true"/>
   <node id="8073186239" lat="51.497496" lon="0.157967" version="1" visible="true"/>
@@ -604,6 +613,7 @@
     <tag k="barrier" v="gate"/>
   </node>
   <node id="5502423788" lat="51.4911059" lon="0.0129114" version="2" visible="true"/>
+  <node id="5469654355" lat="51.5683859" lon="-0.2424154" version="1" visible="true"/>
   <node id="5431963883" lat="51.5481383" lon="-0.0519747" version="1" visible="true">
     <tag k="barrier" v="bollard"/>
   </node>
@@ -3983,6 +3993,16 @@
     <nd ref="7950618315"/>
     <nd ref="7950618316"/>
   </way>
+  <way id="867861828" visible="true" version="1">
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG280057"/>
+    <nd ref="5469654355"/>
+    <nd ref="8089414383"/>
+  </way>
   <way id="27642204" visible="true" version="3">
     <tag k="foot" v="yes"/>
     <tag k="highway" v="footway"/>
@@ -5296,6 +5316,28 @@
     <tag k="tiger:upload_uuid" v="RWG236717"/>
     <nd ref="7262641536"/>
     <nd ref="7262641523"/>
+  </way>
+  <way id="867861826" visible="true" version="1">
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG274408"/>
+    <nd ref="8089414379"/>
+    <nd ref="8089414381"/>
+    <nd ref="8089414380"/>
+  </way>
+  <way id="867861831" visible="true" version="1">
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG274408"/>
+    <nd ref="8089414392"/>
+    <nd ref="8089414391"/>
+    <nd ref="8089414393"/>
   </way>
   <way id="4572256" visible="true" version="3">
     <tag k="name" v="Public Footpath No. 83"/>
