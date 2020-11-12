@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8098789797" lat="51.5240678" lon="-0.1293442" version="1" visible="true"/>
   <node id="8084743173" lat="51.6331961" lon="-0.0944148" version="1" visible="true"/>
   <node id="8084693447" lat="51.6332542" lon="-0.0943991" version="1" visible="true"/>
   <node id="8084693445" lat="51.6337123" lon="-0.0942718" version="1" visible="true"/>
@@ -294,8 +295,10 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
-  <node id="6167447661" lat="51.5208161" lon="0.1698572" version="1" visible="true">
+  <node id="6167447661" lat="51.5208161" lon="0.1698572" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="pedestrian_crossing"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="6167447656" lat="51.5215046" lon="0.1719053" version="1" visible="true"/>
   <node id="6167447651" lat="51.5208196" lon="0.1693956" version="1" visible="true"/>
@@ -609,8 +612,8 @@
     <tag k="crossing_ref" v="tiger"/>
   </node>
   <node id="4085791617" lat="51.5108362" lon="-0.0680679" version="1" visible="true"/>
-  <node id="4076120499" lat="51.5240767" lon="-0.1292776" version="1" visible="true"/>
-  <node id="4076120498" lat="51.5239433" lon="-0.1295996" version="2" visible="true"/>
+  <node id="4076120499" lat="51.5240994" lon="-0.1293011" version="2" visible="true"/>
+  <node id="4076120498" lat="51.5239506" lon="-0.1296113" version="3" visible="true"/>
   <node id="4020768416" lat="51.5405279" lon="0.0010609" version="5" visible="true"/>
   <node id="4013592740" lat="51.5226844" lon="-0.040864" version="4" visible="true">
     <tag k="bus" v="yes"/>
@@ -822,7 +825,7 @@
   </node>
   <node id="2463620459" lat="51.5224193" lon="-0.1380534" version="3" visible="true"/>
   <node id="2453162765" lat="51.5248758" lon="-0.127442" version="2" visible="true"/>
-  <node id="2453162764" lat="51.5241822" lon="-0.1290331" version="5" visible="true">
+  <node id="2453162764" lat="51.5242049" lon="-0.1290552" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="countdown"/>
@@ -832,7 +835,7 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="countdown"/>
   </node>
-  <node id="2453162758" lat="51.5241613" lon="-0.1290816" version="5" visible="true">
+  <node id="2453162758" lat="51.5241805" lon="-0.1291114" version="6" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
@@ -1486,8 +1489,8 @@
     <tag k="highway" v="traffic_signals"/>
   </node>
   <node id="108006" lat="51.5228085" lon="-0.1317693" version="10" visible="true"/>
-  <node id="107992" lat="51.524255" lon="-0.1288668" version="13" visible="true"/>
-  <node id="107991" lat="51.523904" lon="-0.129735" version="8" visible="true"/>
+  <node id="107992" lat="51.5242686" lon="-0.1288826" version="14" visible="true"/>
+  <node id="107991" lat="51.5239007" lon="-0.1297451" version="9" visible="true"/>
   <node id="107577" lat="51.5102157" lon="-0.0719996" version="3" visible="true"/>
   <node id="107439" lat="51.5110117" lon="-0.0541927" version="8" visible="true">
     <tag k="highway" v="crossing"/>
@@ -2974,7 +2977,7 @@
     <nd ref="2592856885"/>
     <nd ref="5336117979"/>
   </way>
-  <way id="8173099" visible="true" version="22">
+  <way id="8173099" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Gordon Square"/>
     <tag k="oneway" v="yes"/>
@@ -2989,6 +2992,7 @@
     <nd ref="25471116"/>
     <nd ref="107991"/>
     <nd ref="4076120498"/>
+    <nd ref="8098789797"/>
     <nd ref="4076120499"/>
   </way>
   <way id="587309226" visible="true" version="1">

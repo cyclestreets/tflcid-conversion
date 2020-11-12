@@ -5368,42 +5368,20 @@
     <nd ref="8084647570"/>
     <nd ref="8084647554"/>
   </way>
-  <way id="641951809" visible="true" version="4">
+  <way id="549454539" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
-    <tag k="cycleway:left" v="track"/>
-    <tag k="cycleway:right" v="track"/>
-    <tag k="cycleway:right:track" v="hybrid"/>
-    <tag k="tiger:upload_uuid" v="RWG149178"/>
-    <nd ref="2237823402"/>
-    <nd ref="8080147844"/>
-    <nd ref="1171722252"/>
-  </way>
-  <way id="549454539" visible="true" version="4">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A105"/>
-    <tag k="name" v="Green Lanes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="cycleway:left" v="track"/>
-    <tag k="cycleway:right" v="track"/>
-    <tag k="cycleway:right:track" v="hybrid"/>
-    <tag k="tiger:upload_uuid" v="RWG149178"/>
-    <nd ref="256699682"/>
-    <nd ref="2237823402"/>
-  </way>
-  <way id="867319247" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A105"/>
-    <tag k="name" v="Green Lanes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="cycleway:left" v="track"/>
-    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:track" v="hybrid"/>
     <tag k="tiger:upload_uuid" v="RWG149178"/>
     <nd ref="5307659381"/>
     <nd ref="256699682"/>
+    <nd ref="2237823402"/>
+    <nd ref="8080147844"/>
+    <nd ref="1171722252"/>
   </way>
   <way id="867319239" visible="true" version="1">
     <tag k="lit" v="yes"/>
@@ -12949,7 +12927,7 @@
     <nd ref="1832469430"/>
     <nd ref="1832469435"/>
   </way>
-  <way id="812922880" visible="true" version="2">
+  <way id="812922880" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Prince of Wales Road"/>
     <tag k="lanes" v="2"/>
@@ -12957,6 +12935,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
+    <tag k="maxheight" v="16'6&quot;"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG038437,RWG152055"/>
@@ -13405,17 +13384,22 @@
     <nd ref="6306624840"/>
     <nd ref="6306624836"/>
   </way>
-  <way id="35803699" visible="true" version="9">
+  <way id="35803699" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5205"/>
     <tag k="name" v="Prince Albert Road Bridge"/>
     <tag k="layer" v="1"/>
     <tag k="bridge" v="yes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="alt_name" v="Prince Albert Road"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="old_name" v="Water Meeting Bridge"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="bridge_ref" v="14"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="maxweight:signed" v="no"/>
+    <tag k="cycleway:both:lane" v="exclusive"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG152133,RWG000079"/>
     <nd ref="435697"/>
@@ -18329,7 +18313,7 @@
     <nd ref="22331461"/>
     <nd ref="5209539803"/>
   </way>
-  <way id="34401609" visible="true" version="14">
+  <way id="34401609" visible="true" version="15">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A202"/>
     <tag k="lanes" v="3"/>
