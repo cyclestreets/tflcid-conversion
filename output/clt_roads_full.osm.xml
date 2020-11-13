@@ -2431,7 +2431,6 @@
   <node id="31008678" lat="51.579939" lon="0.1785104" version="4" visible="true"/>
   <node id="7926832305" lat="51.5028244" lon="-0.0965474" version="1" visible="true"/>
   <node id="31008714" lat="51.5802766" lon="0.179832" version="4" visible="true"/>
-  <node id="2237823402" lat="51.6322386" lon="-0.0946988" version="5" visible="true"/>
   <node id="7241463985" lat="51.5572069" lon="-0.0125941" version="1" visible="true"/>
   <node id="4657146272" lat="51.4758114" lon="0.0567837" version="1" visible="true"/>
   <node id="220881" lat="51.5734622" lon="-0.0878225" version="4" visible="true"/>
@@ -3021,6 +3020,12 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="crossing:island" v="yes"/>
+  </node>
+  <node id="2237823402" lat="51.6322386" lon="-0.0946988" version="6" visible="true">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Station Road"/>
+    <tag k="local_ref" v="K"/>
+    <tag k="public_transport" v="stop_position"/>
   </node>
   <node id="8085224600" lat="51.6299783" lon="-0.097155" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -5368,7 +5373,20 @@
     <nd ref="8084647570"/>
     <nd ref="8084647554"/>
   </way>
-  <way id="549454539" visible="true" version="5">
+  <way id="870600071" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A105"/>
+    <tag k="name" v="Green Lanes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v=""/>
+    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG149178"/>
+    <nd ref="2237823402"/>
+    <nd ref="8080147844"/>
+    <nd ref="1171722252"/>
+  </way>
+  <way id="549454539" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
@@ -5380,8 +5398,6 @@
     <nd ref="5307659381"/>
     <nd ref="256699682"/>
     <nd ref="2237823402"/>
-    <nd ref="8080147844"/>
-    <nd ref="1171722252"/>
   </way>
   <way id="867319239" visible="true" version="1">
     <tag k="lit" v="yes"/>
@@ -17879,12 +17895,13 @@
     <nd ref="5831128350"/>
     <nd ref="5831128355"/>
   </way>
-  <way id="8364115" visible="true" version="12">
+  <way id="8364115" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Fairfax Place"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:right:oneway" v="no"/>

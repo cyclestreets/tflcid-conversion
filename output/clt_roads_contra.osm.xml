@@ -400,7 +400,7 @@
   <node id="7080016095" lat="51.4458229" lon="-0.1980011" version="1" visible="true"/>
   <node id="7079875510" lat="51.4228237" lon="-0.20981" version="1" visible="true"/>
   <node id="7079769044" lat="51.4844199" lon="-0.3067693" version="1" visible="true"/>
-  <node id="7079766568" lat="51.4617425" lon="-0.2764257" version="1" visible="true"/>
+  <node id="7079766568" lat="51.4617609" lon="-0.2764399" version="2" visible="true"/>
   <node id="7079696349" lat="51.4550583" lon="-0.3126863" version="1" visible="true"/>
   <node id="7079696347" lat="51.455071" lon="-0.3126459" version="1" visible="true"/>
   <node id="7079017432" lat="51.5160669" lon="-0.2653131" version="1" visible="true"/>
@@ -2697,7 +2697,7 @@
   <node id="30759365" lat="51.5502044" lon="-0.3478146" version="6" visible="true"/>
   <node id="30737899" lat="51.4440879" lon="-0.1436996" version="7" visible="true"/>
   <node id="30737829" lat="51.4437881" lon="-0.1446219" version="9" visible="true"/>
-  <node id="30426698" lat="51.4617442" lon="-0.2763118" version="4" visible="true"/>
+  <node id="30426698" lat="51.4617645" lon="-0.2763067" version="5" visible="true"/>
   <node id="28829399" lat="51.5669581" lon="-0.0179807" version="6" visible="true"/>
   <node id="28829258" lat="51.5797938" lon="-0.0270458" version="8" visible="true"/>
   <node id="28829054" lat="51.5870415" lon="-0.0362473" version="9" visible="true"/>
@@ -10247,22 +10247,24 @@
     <nd ref="1941093567"/>
     <nd ref="26840494"/>
   </way>
-  <way id="67253880" visible="true" version="3">
+  <way id="67253880" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Addison Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG042541"/>
     <nd ref="812149206"/>
     <nd ref="812149215"/>
   </way>
-  <way id="8364137" visible="true" version="7">
+  <way id="8364137" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Addison Avenue"/>
     <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG042541"/>
@@ -13004,13 +13006,13 @@
     <nd ref="2453363728"/>
     <nd ref="12353263"/>
   </way>
-  <way id="10402410" visible="true" version="13">
+  <way id="10402410" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Cheyne Walk"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG135151"/>
     <nd ref="5199094734"/>
