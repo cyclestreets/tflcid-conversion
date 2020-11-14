@@ -146,10 +146,13 @@
   <node id="5431963881" lat="51.5485164" lon="-0.0522745" version="1" visible="true">
     <tag k="barrier" v="bollard"/>
   </node>
-  <node id="5374174119" lat="51.5140361" lon="-0.1044854" version="3" visible="true">
+  <node id="5374174119" lat="51.5140361" lon="-0.1044854" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
   </node>
   <node id="5241021573" lat="51.5597982" lon="-0.1649534" version="1" visible="true"/>
   <node id="5090652912" lat="51.501206" lon="-0.1317314" version="4" visible="true">
@@ -1215,12 +1218,15 @@
     <nd ref="5090652909"/>
     <nd ref="2527746117"/>
   </way>
-  <way id="808123577" visible="true" version="1">
+  <way id="808123577" visible="true" version="4">
+    <tag k="cycleway:surface" v="asphalt"/>
+    <tag k="footway:surface" v="paving_stones"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Whitechapel High Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="sidewalk" v="left"/>
     <tag k="segregated" v="yes"/>
+    <tag k="sidewalk" v="left"/>
     <nd ref="3231708910"/>
     <nd ref="7556825549"/>
     <nd ref="4414750025"/>

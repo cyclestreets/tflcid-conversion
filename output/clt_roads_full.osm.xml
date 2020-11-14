@@ -406,6 +406,7 @@
   <node id="2129491691" lat="51.5811701" lon="-0.0184017" version="4" visible="true"/>
   <node id="25894267" lat="51.5662969" lon="-0.123594" version="2" visible="true"/>
   <node id="48695361" lat="51.5295737" lon="-0.0748259" version="15" visible="true"/>
+  <node id="1243387959" lat="51.540716" lon="-0.1249975" version="1" visible="true"/>
   <node id="5941807860" lat="51.4074149" lon="-0.1921978" version="3" visible="true"/>
   <node id="4100397982" lat="51.4515624" lon="0.0666999" version="4" visible="true"/>
   <node id="6997611414" lat="51.4980038" lon="-0.0545125" version="1" visible="true"/>
@@ -1988,6 +1989,7 @@
   <node id="8085242329" lat="51.6284614" lon="-0.0980297" version="1" visible="true"/>
   <node id="6302942629" lat="51.5935481" lon="0.1429112" version="1" visible="true"/>
   <node id="8067500283" lat="51.6151771" lon="-0.1096379" version="1" visible="true"/>
+  <node id="8115518936" lat="51.5405767" lon="-0.1249948" version="1" visible="true"/>
   <node id="1189506546" lat="51.4091988" lon="-0.3033569" version="4" visible="true"/>
   <node id="1686542848" lat="51.4040102" lon="-0.1607769" version="2" visible="true"/>
   <node id="7958025241" lat="51.5005483" lon="-0.0989742" version="2" visible="true"/>
@@ -14992,6 +14994,20 @@
     <nd ref="5773507846"/>
     <nd ref="109185"/>
   </way>
+  <way id="871216781" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5200"/>
+    <tag k="name" v="York Way"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG030468"/>
+    <nd ref="1243387959"/>
+    <nd ref="8115518936"/>
+  </way>
   <way id="837464372" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5200"/>
@@ -16062,13 +16078,13 @@
     <nd ref="2058118169"/>
     <nd ref="672906685"/>
   </way>
-  <way id="663503960" visible="true" version="4">
+  <way id="663503960" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B450"/>
     <tag k="name" v="Ladbroke Grove"/>
     <tag k="highway" v="secondary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG018125,RWG018127"/>
@@ -16078,12 +16094,12 @@
     <nd ref="7342416726"/>
     <nd ref="7342416727"/>
   </way>
-  <way id="663503961" visible="true" version="2">
+  <way id="663503961" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B450"/>
     <tag k="name" v="Ladbroke Grove"/>
     <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG018125,RWG018127"/>
@@ -17401,7 +17417,7 @@
     <nd ref="249559884"/>
     <nd ref="6110191194"/>
   </way>
-  <way id="777584669" visible="true" version="2">
+  <way id="777584669" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4"/>
     <tag k="name" v="Strand"/>
@@ -17415,6 +17431,7 @@
     <tag k="sidewalk" v="left"/>
     <tag k="postal_code" v="WC2"/>
     <tag k="busway:right" v="lane"/>
+    <tag k="cycleway:left" v="no"/>
     <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066833"/>
@@ -17980,14 +17997,14 @@
     <nd ref="7007478556"/>
     <nd ref="1937709579"/>
   </way>
-  <way id="851523581" visible="true" version="1">
+  <way id="851523581" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3217"/>
     <tag k="name" v="King's Road"/>
     <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG042542"/>
     <nd ref="198046"/>
