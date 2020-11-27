@@ -2517,7 +2517,6 @@
   <node id="104287941" lat="51.485714" lon="-0.0625915" version="4" visible="true"/>
   <node id="104287376" lat="51.4857242" lon="-0.0623909" version="5" visible="true"/>
   <node id="104285896" lat="51.4858787" lon="-0.0587457" version="6" visible="true"/>
-  <node id="102706830" lat="51.500766" lon="-0.0818789" version="4" visible="true"/>
   <node id="102705638" lat="51.5000115" lon="-0.0757633" version="10" visible="true"/>
   <node id="101467762" lat="51.354258" lon="-0.040251" version="4" visible="true"/>
   <node id="101466504" lat="51.3534349" lon="-0.0408176" version="3" visible="true"/>
@@ -2667,11 +2666,6 @@
   <node id="33228769" lat="51.4761671" lon="-0.127564" version="2" visible="true"/>
   <node id="33228752" lat="51.4781736" lon="-0.1267105" version="1" visible="true"/>
   <node id="33101846" lat="51.5742144" lon="-0.0764558" version="6" visible="true"/>
-  <node id="32975881" lat="51.5005327" lon="-0.0817962" version="11" visible="true">
-    <tag k="rcn" v="yes"/>
-    <tag k="name" v="London Bridge"/>
-    <tag k="rcn_name" v="London Bridge"/>
-  </node>
   <node id="32975392" lat="51.4992129" lon="-0.0857924" version="11" visible="true"/>
   <node id="32913324" lat="51.6109975" lon="-0.0180311" version="10" visible="true"/>
   <node id="32657145" lat="51.5387493" lon="-0.3098264" version="2" visible="true"/>
@@ -13126,21 +13120,6 @@
     <nd ref="7330328826"/>
     <nd ref="7330328822"/>
     <nd ref="7330328820"/>
-  </way>
-  <way id="384764137" visible="true" version="7">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A2205"/>
-    <tag k="name" v="Bermondsey Street"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="proposed:highway" v="cycleway"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG082124"/>
-    <nd ref="32975881"/>
-    <nd ref="102706830"/>
   </way>
   <way id="75650480" visible="true" version="10">
     <tag k="lit" v="yes"/>
