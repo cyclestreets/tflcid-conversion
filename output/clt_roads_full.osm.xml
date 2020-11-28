@@ -554,6 +554,7 @@
   <node id="6329555488" lat="51.5257265" lon="-0.1058884" version="1" visible="true"/>
   <node id="8064025762" lat="51.6387455" lon="-0.0800031" version="1" visible="true"/>
   <node id="6335511345" lat="51.525955" lon="-0.1136268" version="1" visible="true"/>
+  <node id="5679420448" lat="51.524576" lon="-0.03455" version="4" visible="true"/>
   <node id="156620638" lat="51.5399779" lon="-0.1249209" version="7" visible="true"/>
   <node id="2387843070" lat="51.5776914" lon="-0.3305599" version="3" visible="true"/>
   <node id="1936472011" lat="51.4757638" lon="-0.0316326" version="3" visible="true"/>
@@ -691,6 +692,7 @@
   <node id="250352137" lat="51.5494208" lon="-0.4828345" version="5" visible="true"/>
   <node id="1448692411" lat="51.5806601" lon="0.1812674" version="3" visible="true"/>
   <node id="60728673" lat="51.4158262" lon="-0.0538323" version="22" visible="true"/>
+  <node id="8171638889" lat="51.5247579" lon="-0.0346048" version="1" visible="true"/>
   <node id="7270892325" lat="51.5372886" lon="0.0716133" version="1" visible="true"/>
   <node id="7926832290" lat="51.5035038" lon="-0.0957798" version="1" visible="true"/>
   <node id="243246" lat="51.5703038" lon="-0.0252866" version="12" visible="true"/>
@@ -1465,6 +1467,7 @@
   <node id="5676747412" lat="51.5504055" lon="-0.0225752" version="1" visible="true"/>
   <node id="1243292852" lat="51.5388521" lon="-0.1236354" version="4" visible="true"/>
   <node id="3982646550" lat="51.6361063" lon="-0.083038" version="5" visible="true"/>
+  <node id="8171638887" lat="51.5222959" lon="-0.0339758" version="1" visible="true"/>
   <node id="6987277969" lat="51.5168856" lon="0.1909492" version="1" visible="true"/>
   <node id="2090570088" lat="51.6091608" lon="-0.2657732" version="1" visible="true"/>
   <node id="6243228161" lat="51.5652583" lon="-0.0384095" version="3" visible="true"/>
@@ -1602,6 +1605,7 @@
   <node id="1438263233" lat="51.619509" lon="7.1e-05" version="1" visible="true"/>
   <node id="2152131375" lat="51.5184006" lon="-0.0628499" version="5" visible="true"/>
   <node id="945430251" lat="51.5982184" lon="-0.0746754" version="1" visible="true"/>
+  <node id="8171638893" lat="51.5227373" lon="-0.034112" version="1" visible="true"/>
   <node id="7156676623" lat="51.6206634" lon="-0.3422724" version="1" visible="true"/>
   <node id="3126576323" lat="51.5452089" lon="-0.0619146" version="3" visible="true"/>
   <node id="1597393084" lat="51.4527829" lon="-0.221137" version="4" visible="true"/>
@@ -1870,6 +1874,7 @@
   <node id="8064033728" lat="51.6437834" lon="-0.0805737" version="2" visible="true"/>
   <node id="1937820035" lat="51.4685166" lon="-0.1776905" version="4" visible="true"/>
   <node id="2001998668" lat="51.4799172" lon="0.1812272" version="3" visible="true"/>
+  <node id="2264574096" lat="51.5246649" lon="-0.0345797" version="5" visible="true"/>
   <node id="88312224" lat="51.4703212" lon="0.0033933" version="2" visible="true"/>
   <node id="7569454870" lat="51.4872775" lon="-0.152054" version="1" visible="true"/>
   <node id="7705020060" lat="51.5266626" lon="-0.132514" version="1" visible="true"/>
@@ -2143,7 +2148,7 @@
   <node id="2101566161" lat="51.58154" lon="0.0001415" version="5" visible="true"/>
   <node id="3654934403" lat="51.5225103" lon="-0.1736481" version="4" visible="true"/>
   <node id="5808269974" lat="51.5342483" lon="-0.0066969" version="3" visible="true"/>
-  <node id="7838414330" lat="51.5222207" lon="-0.0339411" version="1" visible="true"/>
+  <node id="7838414330" lat="51.5222162" lon="-0.0339443" version="2" visible="true"/>
   <node id="27622810" lat="51.5823457" lon="-0.0185954" version="10" visible="true"/>
   <node id="7212930997" lat="51.4989343" lon="-0.0574841" version="1" visible="true"/>
   <node id="7644741351" lat="51.5148431" lon="-0.0750533" version="2" visible="true"/>
@@ -3415,7 +3420,7 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
   </node>
-  <node id="3794273757" lat="51.522198" lon="-0.0339351" version="4" visible="true">
+  <node id="3794273757" lat="51.5221954" lon="-0.0339373" version="5" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Bow Common Lane"/>
     <tag k="local_ref" v="MD"/>
@@ -19317,12 +19322,13 @@
     <nd ref="6874235266"/>
     <nd ref="108122"/>
   </way>
-  <way id="839994155" visible="true" version="1">
+  <way id="839994155" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1205"/>
     <tag k="name" v="Burdett Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="paved"/>
+    <tag k="cycleway" v="track"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
@@ -19332,7 +19338,7 @@
     <nd ref="3794273757"/>
     <nd ref="6463261148"/>
   </way>
-  <way id="839994156" visible="true" version="1">
+  <way id="839994156" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1205"/>
     <tag k="name" v="Burdett Road"/>
@@ -19341,9 +19347,12 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG999846"/>
     <nd ref="7838414331"/>
+    <nd ref="8171638893"/>
+    <nd ref="8171638887"/>
     <nd ref="7838414330"/>
   </way>
   <way id="558646402" visible="true" version="3">
@@ -19605,6 +19614,23 @@
     <tag k="tiger:upload_uuid" v="RWG073264,RWG073266"/>
     <nd ref="961587765"/>
     <nd ref="961587773"/>
+  </way>
+  <way id="878381260" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A1205"/>
+    <tag k="name" v="Burdett Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="paved"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:left" v="track"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG073255"/>
+    <nd ref="8171638889"/>
+    <nd ref="2264574096"/>
+    <nd ref="5679420448"/>
   </way>
   <way id="635993695" visible="true" version="1">
     <tag k="lit" v="yes"/>

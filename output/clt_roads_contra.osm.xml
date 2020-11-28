@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8169163840" lat="51.5496017" lon="-0.0643832" version="1" visible="true"/>
   <node id="8146267242" lat="51.485814" lon="-0.0607807" version="1" visible="true"/>
   <node id="8098789797" lat="51.5240678" lon="-0.1293442" version="1" visible="true"/>
+  <node id="8089266665" lat="51.5496534" lon="-0.0643832" version="3" visible="true"/>
   <node id="8082024001" lat="51.4489355" lon="-0.0394823" version="1" visible="true">
     <tag k="traffic_calming" v="island"/>
   </node>
@@ -944,6 +946,7 @@
     <tag k="crossing" v="unmarked"/>
   </node>
   <node id="5536994956" lat="51.5768747" lon="0.0231783" version="1" visible="true"/>
+  <node id="5532309395" lat="51.5495404" lon="-0.0643784" version="3" visible="true"/>
   <node id="5517634781" lat="51.5241648" lon="-0.1258292" version="1" visible="true"/>
   <node id="5517634780" lat="51.5243177" lon="-0.1259543" version="3" visible="true"/>
   <node id="5517613034" lat="51.5023659" lon="-0.2200477" version="1" visible="true"/>
@@ -2763,7 +2766,9 @@
   <node id="25894267" lat="51.5662969" lon="-0.123594" version="2" visible="true"/>
   <node id="25894199" lat="51.5596805" lon="-0.1195082" version="1" visible="true"/>
   <node id="25872361" lat="51.5483391" lon="-0.0647317" version="4" visible="true"/>
+  <node id="25872337" lat="51.5495024" lon="-0.0643754" version="6" visible="true"/>
   <node id="25791755" lat="51.5061168" lon="-0.3201141" version="4" visible="true"/>
+  <node id="25696662" lat="51.5500529" lon="-0.0644169" version="8" visible="true"/>
   <node id="25632860" lat="51.5149117" lon="-0.0946025" version="3" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
@@ -9001,6 +9006,42 @@
     <nd ref="5046314041"/>
     <nd ref="5046314042"/>
     <nd ref="25632860"/>
+  </way>
+  <way id="878040604" visible="true" version="1">
+    <tag k="name" v="Wayland Avenue"/>
+    <tag k="highway" v="residential"/>
+    <tag k="abutters" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="yes"/>
+    <tag k="parking:lane:right" v="parallel"/>
+    <tag k="parking:lane:right:parallel" v="on_street"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG009044"/>
+    <nd ref="8169163840"/>
+    <nd ref="5532309395"/>
+    <nd ref="25872337"/>
+  </way>
+  <way id="4287566" visible="true" version="19">
+    <tag k="name" v="Wayland Avenue"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="abutters" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG009044"/>
+    <nd ref="25696662"/>
+    <nd ref="8089266665"/>
+  </way>
+  <way id="4287566" visible="true" version="19">
+    <tag k="name" v="Wayland Avenue"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="abutters" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG097844"/>
+    <nd ref="25696662"/>
+    <nd ref="8089266665"/>
   </way>
   <way id="501117902" visible="true" version="2">
     <tag k="name" v="Northumberland Alley"/>
