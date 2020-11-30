@@ -2106,6 +2106,7 @@
   <node id="7620895976" lat="51.5098269" lon="-0.0869749" version="1" visible="true"/>
   <node id="25894515" lat="51.5802476" lon="0.1837541" version="5" visible="true"/>
   <node id="2648123764" lat="51.5564855" lon="-0.1264859" version="1" visible="true"/>
+  <node id="8175542439" lat="51.5526989" lon="-0.1093444" version="1" visible="true"/>
   <node id="256236586" lat="51.5583491" lon="0.075439" version="4" visible="true"/>
   <node id="563215185" lat="51.5009313" lon="-0.3664198" version="6" visible="true"/>
   <node id="8023223815" lat="51.4330968" lon="-0.2625116" version="1" visible="true"/>
@@ -3702,6 +3703,10 @@
   <node id="2143540772" lat="51.5487209" lon="-0.0917307" version="4" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing:island" v="yes"/>
+  </node>
+  <node id="902659475" lat="51.5526768" lon="-0.1094664" version="2" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
   </node>
   <node id="186243156" lat="51.5597132" lon="-0.1103964" version="4" visible="true">
     <tag k="bus" v="yes"/>
@@ -12741,7 +12746,7 @@
     <nd ref="2360524983"/>
     <nd ref="7725506629"/>
   </way>
-  <way id="843503632" visible="true" version="1">
+  <way id="843503632" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A109"/>
     <tag k="name" v="Bounds Green Road"/>
@@ -12749,6 +12754,7 @@
     <tag k="layer" v="1"/>
     <tag k="bridge" v="yes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
@@ -12878,12 +12884,13 @@
     <nd ref="39917888"/>
     <nd ref="38458670"/>
   </way>
-  <way id="320998201" visible="true" version="2">
+  <way id="320998201" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A109"/>
     <tag k="name" v="Bounds Green Road"/>
     <tag k="lanes" v="4"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
@@ -15495,6 +15502,20 @@
     <nd ref="300070441"/>
     <nd ref="469768812"/>
     <nd ref="2094988863"/>
+  </way>
+  <way id="76587954" visible="true" version="8">
+    <tag k="hgv" v="delivery"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Bryantwood Road"/>
+    <tag k="highway" v="residential"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxweight" v="7.5"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG003616"/>
+    <nd ref="902659475"/>
+    <nd ref="8175542439"/>
   </way>
   <way id="663373638" visible="true" version="2">
     <tag k="lit" v="yes"/>

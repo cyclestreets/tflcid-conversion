@@ -4785,13 +4785,14 @@
     <nd ref="649796"/>
     <nd ref="6250854103"/>
   </way>
-  <way id="604354007" visible="true" version="1">
+  <way id="604354007" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Deanery Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="ref:GB:usrn" v="22201371"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG156245"/>
     <nd ref="5366065709"/>
@@ -4799,13 +4800,14 @@
     <nd ref="5734767364"/>
     <nd ref="5734767369"/>
   </way>
-  <way id="604354005" visible="true" version="1">
+  <way id="604354005" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Deanery Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="ref:GB:usrn" v="22201371"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG156245"/>
     <nd ref="5734767370"/>
@@ -5027,7 +5029,7 @@
     <nd ref="5597578907"/>
     <nd ref="3882252369"/>
   </way>
-  <way id="672433154" visible="true" version="1">
+  <way id="672433154" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Manbey Grove"/>
     <tag k="oneway" v="yes"/>
@@ -5035,6 +5037,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="ref:GB:usrn" v="22201496"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG156260"/>
     <nd ref="6296895687"/>
@@ -12742,12 +12745,13 @@
     <nd ref="6283316262"/>
     <nd ref="25231554"/>
   </way>
-  <way id="3678340" visible="true" version="8">
+  <way id="3678340" visible="true" version="9">
     <tag k="name" v="Ponsonby Road"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="motor_vehicle:conditional" v="no @ (Mo-Fri 08:30-09:30,14:45-15:45)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG154113"/>
     <nd ref="18239800"/>
