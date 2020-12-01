@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8180042282" lat="51.4061493" lon="-0.1656108" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+  </node>
   <node id="8143473404" lat="51.5220729" lon="-0.0452651" version="1" visible="true"/>
   <node id="8143473401" lat="51.5220188" lon="-0.0455787" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -155,9 +160,7 @@
   <node id="7229385385" lat="51.5560494" lon="-0.0155336" version="1" visible="true"/>
   <node id="7195929692" lat="51.5222252" lon="-0.138465" version="1" visible="true"/>
   <node id="7195929689" lat="51.5222537" lon="-0.1384329" version="1" visible="true"/>
-  <node id="7182472364" lat="51.4060492" lon="-0.1656056" version="2" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-  </node>
+  <node id="7182472364" lat="51.4060295" lon="-0.1656675" version="3" visible="true"/>
   <node id="7090008128" lat="51.5134029" lon="-0.2977097" version="1" visible="true"/>
   <node id="7089999208" lat="51.5133282" lon="-0.2974873" version="1" visible="true"/>
   <node id="7083403299" lat="51.5227594" lon="-0.1318993" version="2" visible="true"/>
@@ -2761,7 +2764,7 @@
     <nd ref="3522706833"/>
     <nd ref="1625673719"/>
   </way>
-  <way id="4776144" visible="true" version="11">
+  <way id="4776144" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A217"/>
     <tag k="name" v="Holborn Way"/>
@@ -2771,6 +2774,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="tiger:upload_uuid" v="RWG218651"/>
     <nd ref="7182472364"/>
+    <nd ref="8180042282"/>
     <nd ref="6095986816"/>
     <nd ref="6095991675"/>
     <nd ref="21155247"/>

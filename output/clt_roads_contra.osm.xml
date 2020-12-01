@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8179696245" lat="51.4054548" lon="-0.1641196" version="3" visible="true"/>
+  <node id="8179669297" lat="51.4055299" lon="-0.1643373" version="3" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
   <node id="8169163840" lat="51.5496017" lon="-0.0643832" version="1" visible="true"/>
   <node id="8146267242" lat="51.485814" lon="-0.0607807" version="1" visible="true"/>
   <node id="8098789797" lat="51.5240678" lon="-0.1293442" version="1" visible="true"/>
@@ -698,6 +702,12 @@
   <node id="6105566291" lat="51.5577572" lon="-0.2130585" version="1" visible="true"/>
   <node id="6103032144" lat="51.5362779" lon="-0.3099058" version="1" visible="true"/>
   <node id="6101492906" lat="51.4838052" lon="-0.1129956" version="1" visible="true"/>
+  <node id="6096030143" lat="51.4054994" lon="-0.1642575" version="5" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing:island" v="yes"/>
+  </node>
   <node id="6090298494" lat="51.4129161" lon="-0.2961151" version="3" visible="true"/>
   <node id="6088723524" lat="51.5310434" lon="-0.1193329" version="2" visible="true"/>
   <node id="6085614905" lat="51.4991744" lon="-0.2096217" version="1" visible="true"/>
@@ -6382,6 +6392,51 @@
     <nd ref="25470807"/>
     <nd ref="25470806"/>
     <nd ref="25398259"/>
+  </way>
+  <way id="879299374" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A236"/>
+    <tag k="name" v="Upper Green West"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG218818"/>
+    <nd ref="8179669297"/>
+    <nd ref="6096030143"/>
+    <nd ref="8179696245"/>
+  </way>
+  <way id="879299374" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A236"/>
+    <tag k="name" v="Upper Green West"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG218817"/>
+    <nd ref="8179669297"/>
+    <nd ref="6096030143"/>
+    <nd ref="8179696245"/>
+  </way>
+  <way id="879299374" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A236"/>
+    <tag k="name" v="Upper Green West"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG218819"/>
+    <nd ref="8179669297"/>
+    <nd ref="6096030143"/>
+    <nd ref="8179696245"/>
   </way>
   <way id="758135369" visible="true" version="1">
     <tag k="lit" v="yes"/>
