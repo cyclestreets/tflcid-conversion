@@ -165,7 +165,6 @@
   <node id="1584091367" lat="51.4206088" lon="-0.2054466" version="5" visible="true"/>
   <node id="3945442394" lat="51.4398585" lon="-0.1771501" version="4" visible="true"/>
   <node id="4771728118" lat="51.4711088" lon="0.0093394" version="1" visible="true"/>
-  <node id="196295" lat="51.6017199" lon="-0.1735" version="5" visible="true"/>
   <node id="250751378" lat="51.4464479" lon="0.1558301" version="5" visible="true"/>
   <node id="6187185690" lat="51.4771541" lon="0.0190683" version="3" visible="true"/>
   <node id="1692209251" lat="51.4369772" lon="-0.356951" version="1" visible="true"/>
@@ -2266,7 +2265,6 @@
   <node id="271047680" lat="51.4922085" lon="-0.0468739" version="4" visible="true"/>
   <node id="31507629" lat="51.5365076" lon="0.1732068" version="2" visible="true"/>
   <node id="427537064" lat="51.4218245" lon="0.0680874" version="1" visible="true"/>
-  <node id="196296" lat="51.6010112" lon="-0.1732785" version="6" visible="true"/>
   <node id="1099558789" lat="51.616316" lon="-0.33716" version="3" visible="true"/>
   <node id="27026489" lat="51.463536" lon="-0.1833993" version="5" visible="true"/>
   <node id="7823801385" lat="51.4374489" lon="-0.1666673" version="1" visible="true"/>
@@ -2719,7 +2717,6 @@
   <node id="25421576" lat="51.6033667" lon="-0.3569644" version="7" visible="true"/>
   <node id="3226794572" lat="51.5356039" lon="-0.0052893" version="3" visible="true"/>
   <node id="7492404306" lat="51.6195322" lon="-0.3409258" version="1" visible="true"/>
-  <node id="448877980" lat="51.6013777" lon="-0.1733711" version="3" visible="true"/>
   <node id="32603681" lat="51.4507023" lon="-0.0855698" version="8" visible="true"/>
   <node id="35960141" lat="51.4466416" lon="0.1562218" version="5" visible="true"/>
   <node id="2684369302" lat="51.496299" lon="-0.0999092" version="4" visible="true"/>
@@ -11939,22 +11936,6 @@
     <nd ref="917199090"/>
     <nd ref="5718385738"/>
   </way>
-  <way id="4302712" visible="true" version="11">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A1000"/>
-    <tag k="name" v="High Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="layer" v="1"/>
-    <tag k="bridge" v="yes"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG279028"/>
-    <nd ref="196295"/>
-    <nd ref="448877980"/>
-    <nd ref="196296"/>
-  </way>
   <way id="44651522" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A310"/>
@@ -14846,7 +14827,7 @@
     <nd ref="7705020062"/>
     <nd ref="2962597587"/>
   </way>
-  <way id="825178802" visible="true" version="4">
+  <way id="825178802" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A501"/>
     <tag k="name" v="Euston Road"/>
@@ -14856,6 +14837,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="left"/>
     <tag k="lanes:psv" v="1"/>
     <tag k="busway:left" v="lane"/>
     <tag k="cycleway:left" v="separate"/>
