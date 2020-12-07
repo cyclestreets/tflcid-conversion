@@ -4368,6 +4368,9 @@
     <tag k="local_ref" v="M"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
+  <node id="8199117750" lat="51.4927074" lon="-0.0945678" version="1" visible="true">
+    <tag k="proposed:highway" v="crossing"/>
+  </node>
   <node id="2547277095" lat="51.4925531" lon="-0.0952203" version="4" visible="true">
     <tag k="traffic_calming" v="cushion"/>
   </node>
@@ -18544,7 +18547,7 @@
     <nd ref="3172348577"/>
     <nd ref="5207546665"/>
   </way>
-  <way id="675463241" visible="true" version="4">
+  <way id="675463241" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Heygate Street"/>
     <tag k="highway" v="tertiary"/>
@@ -18554,6 +18557,7 @@
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG082173"/>
     <nd ref="6325661726"/>
+    <nd ref="8199117750"/>
     <nd ref="2547277095"/>
     <nd ref="4940077266"/>
     <nd ref="6325922691"/>
