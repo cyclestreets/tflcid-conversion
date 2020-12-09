@@ -3511,16 +3511,16 @@
     <tag k="local_ref" v="KE"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="6094267288" lat="51.5464087" lon="-0.0808471" version="4" visible="true">
+  <node id="6094267288" lat="51.5464087" lon="-0.0808469" version="5" visible="true">
     <tag k="proposed:highway" v="crossing"/>
   </node>
   <node id="8089969565" lat="51.546415" lon="-0.0809141" version="3" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="backward"/>
   </node>
-  <node id="8089969568" lat="51.546421" lon="-0.0809786" version="1" visible="true">
+  <node id="8089969568" lat="51.546421" lon="-0.0809786" version="2" visible="true">
     <tag k="proposed:highway" v="traffic_signals"/>
-    <tag k="proposed:traffic_signals:direction" v="backward"/>
+    <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="469780800" lat="51.5465663" lon="-0.0831129" version="8" visible="true">
     <tag k="bus" v="yes"/>
@@ -11653,25 +11653,27 @@
     <nd ref="243513861"/>
     <nd ref="6003744952"/>
   </way>
-  <way id="511366451" visible="true" version="2">
+  <way id="511366451" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A217"/>
     <tag k="name" v="Mitcham Road"/>
     <tag k="highway" v="primary"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="22903376"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG218376"/>
     <nd ref="126510760"/>
     <nd ref="4896445158"/>
     <nd ref="43396266"/>
   </way>
-  <way id="22932407" visible="true" version="11">
+  <way id="22932407" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A217"/>
     <tag k="name" v="Mitcham Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="22903376"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG218376"/>
     <nd ref="43396266"/>
@@ -13346,10 +13348,11 @@
     <nd ref="20965801"/>
     <nd ref="2398924898"/>
   </way>
-  <way id="665451888" visible="true" version="6">
+  <way id="665451888" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="rcn_ref" v="C"/>
     <tag k="surface" v="asphalt"/>
@@ -18344,14 +18347,15 @@
     <nd ref="319634954"/>
     <nd ref="96018524"/>
   </way>
-  <way id="3617955" visible="true" version="10">
+  <way id="3617955" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A219"/>
     <tag k="name" v="Putney Hill"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="paved"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="22904077"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG089201"/>
     <nd ref="17899647"/>
@@ -19161,14 +19165,15 @@
     <nd ref="198241"/>
     <nd ref="48695355"/>
   </way>
-  <way id="45832378" visible="true" version="8">
+  <way id="45832378" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B305"/>
     <tag k="name" v="Lombard Road"/>
     <tag k="highway" v="secondary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="maxheight" v="3.2"/>
+    <tag k="ref:GB:usrn" v="22902991"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG109771,RWG109744"/>
     <nd ref="27034221"/>
@@ -19651,14 +19656,15 @@
     <nd ref="21516134"/>
     <nd ref="265729609"/>
   </way>
-  <way id="637714822" visible="true" version="1">
+  <way id="637714822" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3216"/>
     <tag k="name" v="Queenstown Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="ref:GB:usrn" v="22904132"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG056096"/>
     <nd ref="1558656883"/>
@@ -19877,14 +19883,16 @@
     <nd ref="5197360408"/>
     <nd ref="5197360402"/>
   </way>
-  <way id="30803763" visible="true" version="15">
+  <way id="30803763" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A219"/>
     <tag k="name" v="Tibbet's Ride"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="ref:GB:usrn" v="22905397"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG089223,RWG089366,RWG089225"/>
@@ -19988,13 +19996,14 @@
     <nd ref="261718847"/>
     <nd ref="24945370"/>
   </way>
-  <way id="720248796" visible="true" version="2">
+  <way id="720248796" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A219"/>
     <tag k="name" v="Putney Hill"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="22904077"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG089225"/>
@@ -20002,11 +20011,13 @@
     <nd ref="2923462135"/>
     <nd ref="17788803"/>
   </way>
-  <way id="777394641" visible="true" version="2">
+  <way id="777394641" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B229"/>
     <tag k="name" v="Burntwood Lane"/>
     <tag k="highway" v="secondary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="22900711"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG109598,RWG109803,RWG109802"/>
@@ -20169,11 +20180,13 @@
     <nd ref="5838570405"/>
     <nd ref="4636409503"/>
   </way>
-  <way id="777393623" visible="true" version="2">
+  <way id="777393623" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B229"/>
     <tag k="name" v="Burntwood Lane"/>
     <tag k="highway" v="secondary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="22900711"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG110069"/>
     <nd ref="7254299255"/>

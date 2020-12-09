@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8207358002" lat="51.5349845" lon="-0.1313583" version="1" visible="true"/>
   <node id="8194784425" lat="51.5932082" lon="-0.3303253" version="1" visible="true"/>
   <node id="8180042282" lat="51.4061493" lon="-0.1656108" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -1034,7 +1035,7 @@
   <node id="1643721555" lat="51.6025855" lon="-0.0892932" version="4" visible="true"/>
   <node id="1643721531" lat="51.6019473" lon="-0.0906846" version="5" visible="true"/>
   <node id="1641763132" lat="51.5008696" lon="-0.1106595" version="4" visible="true"/>
-  <node id="1626997893" lat="51.4780998" lon="-0.1487727" version="5" visible="true"/>
+  <node id="1626997893" lat="51.4780998" lon="-0.1487727" version="6" visible="true"/>
   <node id="1626997890" lat="51.478222" lon="-0.1486432" version="8" visible="true"/>
   <node id="1625673753" lat="51.5334063" lon="-0.2038686" version="5" visible="true"/>
   <node id="1625673719" lat="51.533261" lon="-0.2036371" version="4" visible="true"/>
@@ -1096,9 +1097,10 @@
   <node id="1382081287" lat="51.3959704" lon="-0.3119551" version="3" visible="true"/>
   <node id="1382081285" lat="51.3975849" lon="-0.3105301" version="3" visible="true"/>
   <node id="1382081284" lat="51.3992989" lon="-0.3091729" version="2" visible="true"/>
-  <node id="1365138602" lat="51.5348907" lon="-0.131142" version="2" visible="true">
+  <node id="1365138602" lat="51.5348907" lon="-0.131142" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="1363707528" lat="51.5329059" lon="-0.1302901" version="2" visible="true">
     <tag k="highway" v="crossing"/>
@@ -3232,10 +3234,11 @@
     <nd ref="5336143717"/>
     <nd ref="1198124692"/>
   </way>
-  <way id="665451882" visible="true" version="5">
+  <way id="665451882" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -3244,10 +3247,11 @@
     <nd ref="168069"/>
     <nd ref="6228425166"/>
   </way>
-  <way id="665451888" visible="true" version="6">
+  <way id="665451888" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="rcn_ref" v="C"/>
     <tag k="surface" v="asphalt"/>
@@ -3277,7 +3281,7 @@
     <nd ref="294764989"/>
     <nd ref="29740871"/>
   </way>
-  <way id="166369347" visible="true" version="10">
+  <way id="166369347" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
@@ -3286,12 +3290,40 @@
     <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="lane_markings" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG026466"/>
-    <nd ref="29740871"/>
     <nd ref="1365138602"/>
     <nd ref="29740916"/>
     <nd ref="546240142"/>
     <nd ref="7799235863"/>
+  </way>
+  <way id="882535451" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Pancras Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="tiger:upload_uuid" v="RWG026466"/>
+    <nd ref="8207358002"/>
+    <nd ref="1365138602"/>
+  </way>
+  <way id="882535450" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Pancras Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="tiger:upload_uuid" v="RWG026466"/>
+    <nd ref="29740871"/>
+    <nd ref="8207358002"/>
   </way>
   <way id="235155193" visible="true" version="5">
     <tag k="lit" v="yes"/>
@@ -3355,7 +3387,7 @@
     <nd ref="7925499736"/>
     <nd ref="4931754275"/>
   </way>
-  <way id="166369347" visible="true" version="10">
+  <way id="166369347" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
@@ -3364,12 +3396,40 @@
     <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="lane_markings" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG030519"/>
-    <nd ref="29740871"/>
     <nd ref="1365138602"/>
     <nd ref="29740916"/>
     <nd ref="546240142"/>
     <nd ref="7799235863"/>
+  </way>
+  <way id="882535451" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Pancras Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="tiger:upload_uuid" v="RWG030519"/>
+    <nd ref="8207358002"/>
+    <nd ref="1365138602"/>
+  </way>
+  <way id="882535450" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Pancras Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="tiger:upload_uuid" v="RWG030519"/>
+    <nd ref="29740871"/>
+    <nd ref="8207358002"/>
   </way>
   <way id="253353304" visible="true" version="9">
     <tag k="lit" v="yes"/>
@@ -5286,14 +5346,15 @@
     <nd ref="4516549643"/>
     <nd ref="6632005507"/>
   </way>
-  <way id="149745414" visible="true" version="7">
+  <way id="149745414" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3216"/>
     <tag k="name" v="Queenstown Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
+    <tag k="ref:GB:usrn" v="22904132"/>
     <tag k="tiger:upload_uuid" v="RWG056411"/>
     <nd ref="1626997893"/>
     <nd ref="7839262205"/>
