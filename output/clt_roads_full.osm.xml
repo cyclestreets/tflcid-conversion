@@ -604,7 +604,7 @@
   <node id="2213529569" lat="51.4971794" lon="-0.1444908" version="8" visible="true"/>
   <node id="2623998129" lat="51.4719918" lon="0.0014551" version="5" visible="true"/>
   <node id="319840216" lat="51.5257676" lon="-0.1138824" version="9" visible="true"/>
-  <node id="26399218" lat="51.4483566" lon="-0.1483448" version="5" visible="true"/>
+  <node id="26399218" lat="51.4483367" lon="-0.1483517" version="6" visible="true"/>
   <node id="25472584" lat="51.4964185" lon="-0.1057323" version="9" visible="true"/>
   <node id="1448528639" lat="51.5769854" lon="0.1770218" version="3" visible="true"/>
   <node id="7030904641" lat="51.5563501" lon="-0.1259736" version="1" visible="true"/>
@@ -1729,6 +1729,7 @@
   <node id="1936857409" lat="51.5213806" lon="-0.1719665" version="13" visible="true"/>
   <node id="382363023" lat="51.6090493" lon="-0.3672427" version="4" visible="true"/>
   <node id="283326583" lat="51.5867099" lon="-0.0451427" version="5" visible="true"/>
+  <node id="8209692403" lat="51.5406374" lon="-0.124996" version="1" visible="true"/>
   <node id="27026491" lat="51.4636033" lon="-0.1833216" version="6" visible="true"/>
   <node id="2055250859" lat="51.4096043" lon="-0.2269586" version="5" visible="true"/>
   <node id="7270892330" lat="51.5373422" lon="0.0717806" version="1" visible="true"/>
@@ -14988,7 +14989,21 @@
     <nd ref="5773507846"/>
     <nd ref="109185"/>
   </way>
-  <way id="871216781" visible="true" version="1">
+  <way id="882785553" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5200"/>
+    <tag k="name" v="York Way"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG030468"/>
+    <nd ref="8209692403"/>
+    <nd ref="8115518936"/>
+  </way>
+  <way id="871216781" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5200"/>
     <tag k="name" v="York Way"/>
@@ -15000,7 +15015,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG030468"/>
     <nd ref="1243387959"/>
-    <nd ref="8115518936"/>
+    <nd ref="8209692403"/>
   </way>
   <way id="837464372" visible="true" version="1">
     <tag k="lit" v="yes"/>
