@@ -975,6 +975,7 @@
   <node id="292623" lat="51.4200522" lon="-0.2783433" version="6" visible="true"/>
   <node id="6187182648" lat="51.477067" lon="0.0190261" version="3" visible="true"/>
   <node id="6841573709" lat="51.5229618" lon="-0.0641843" version="1" visible="true"/>
+  <node id="8221721199" lat="51.5920642" lon="-0.3335819" version="1" visible="true"/>
   <node id="3196007538" lat="51.5031024" lon="-0.2239329" version="1" visible="true"/>
   <node id="7342416727" lat="51.5096287" lon="-0.2043524" version="1" visible="true"/>
   <node id="119575502" lat="51.4424057" lon="-0.0663518" version="7" visible="true"/>
@@ -1712,6 +1713,7 @@
   <node id="6338833506" lat="51.4936564" lon="-0.1004703" version="3" visible="true"/>
   <node id="2055250861" lat="51.4096913" lon="-0.2266187" version="5" visible="true"/>
   <node id="8064033782" lat="51.6393177" lon="-0.0798831" version="1" visible="true"/>
+  <node id="29704345" lat="51.5920303" lon="-0.3335198" version="4" visible="true"/>
   <node id="2378971475" lat="51.5520936" lon="-0.3115803" version="3" visible="true"/>
   <node id="7209759271" lat="51.6535371" lon="-0.0484703" version="2" visible="true"/>
   <node id="1451195495" lat="51.5114235" lon="-0.4503894" version="4" visible="true"/>
@@ -3537,8 +3539,8 @@
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="backward"/>
   </node>
-  <node id="8089969568" lat="51.546421" lon="-0.0809786" version="2" visible="true">
-    <tag k="proposed:highway" v="traffic_signals"/>
+  <node id="8089969568" lat="51.546421" lon="-0.0809786" version="3" visible="true">
+    <tag k="disused:highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="469780800" lat="51.5465663" lon="-0.0831129" version="8" visible="true">
@@ -13268,6 +13270,21 @@
     <nd ref="488584343"/>
     <nd ref="488584345"/>
   </way>
+  <way id="884057306" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="The Bridge"/>
+    <tag k="lanes" v="3"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="lanes:forward" v="2"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="lanes:backward" v="1"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG274232"/>
+    <nd ref="8221721199"/>
+    <nd ref="29704345"/>
+  </way>
   <way id="403966477" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1"/>
@@ -13308,7 +13325,7 @@
     <nd ref="266976028"/>
     <nd ref="5778121788"/>
   </way>
-  <way id="265350834" visible="true" version="4">
+  <way id="265350834" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A409"/>
     <tag k="name" v="George Gange Way"/>
@@ -13317,6 +13334,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="left"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG274221"/>
     <nd ref="2710167250"/>
@@ -16950,7 +16968,7 @@
     <nd ref="4461142651"/>
     <nd ref="4461142659"/>
   </way>
-  <way id="61960154" visible="true" version="17">
+  <way id="61960154" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A41"/>
     <tag k="name" v="Portman Square"/>
@@ -16960,6 +16978,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="smoothness" v="excellent"/>
+    <tag k="cycleway:both" v="no"/>
     <tag k="lanes:forward" v="2"/>
     <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:left" v="share_busway"/>

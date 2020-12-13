@@ -79,17 +79,20 @@
   </node>
   <node id="7799623264" lat="51.5443513" lon="-0.1407897" version="2" visible="true"/>
   <node id="7799235863" lat="51.5343031" lon="-0.1298488" version="1" visible="true"/>
-  <node id="7797489852" lat="51.444958" lon="-0.1108971" version="2" visible="true"/>
-  <node id="7797489851" lat="51.4448813" lon="-0.1112318" version="2" visible="true">
+  <node id="7797489852" lat="51.4449798" lon="-0.1109104" version="3" visible="true"/>
+  <node id="7797489851" lat="51.444902" lon="-0.1112068" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="7797489849" lat="51.4448676" lon="-0.1112942" version="2" visible="true">
+  <node id="7797489849" lat="51.444886" lon="-0.1112701" version="3" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="7797489843" lat="51.4448495" lon="-0.1113616" version="2" visible="true">
+  <node id="7797489848" lat="51.4449582" lon="-0.1109808" version="3" visible="true">
+    <tag k="traffic_calming" v="bump"/>
+  </node>
+  <node id="7797489843" lat="51.4448722" lon="-0.1113476" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="marked"/>
   </node>
@@ -1357,7 +1360,7 @@
   <node id="35164019" lat="51.456327" lon="-0.0845046" version="3" visible="true"/>
   <node id="35164017" lat="51.4561051" lon="-0.0843538" version="2" visible="true"/>
   <node id="35164015" lat="51.4565071" lon="-0.0846139" version="3" visible="true"/>
-  <node id="34923537" lat="51.4449858" lon="-0.1108652" version="5" visible="true"/>
+  <node id="34923537" lat="51.4450035" lon="-0.1108541" version="6" visible="true"/>
   <node id="34595440" lat="51.5584763" lon="-0.0069349" version="17" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
@@ -5143,9 +5146,10 @@
     <nd ref="310698347"/>
     <nd ref="1237957495"/>
   </way>
-  <way id="506850033" visible="true" version="9">
+  <way id="506850033" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Trinity Rise"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
@@ -5155,6 +5159,7 @@
     <tag k="tiger:upload_uuid" v="RWG102308"/>
     <nd ref="34923537"/>
     <nd ref="7797489852"/>
+    <nd ref="7797489848"/>
     <nd ref="7797489851"/>
     <nd ref="7797489849"/>
     <nd ref="7797489843"/>
