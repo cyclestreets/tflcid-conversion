@@ -2183,6 +2183,7 @@
   <node id="4864083784" lat="51.5134457" lon="-0.0807987" version="3" visible="true"/>
   <node id="45451378" lat="51.423288" lon="0.0668115" version="2" visible="true"/>
   <node id="1460830110" lat="51.4806875" lon="-0.4361457" version="3" visible="true"/>
+  <node id="7195621932" lat="51.518267" lon="-0.1280495" version="2" visible="true"/>
   <node id="7174534881" lat="51.4436765" lon="-0.0203821" version="2" visible="true"/>
   <node id="30478456" lat="51.426642" lon="-0.2732731" version="8" visible="true"/>
   <node id="3610864721" lat="51.441039" lon="-0.3646459" version="3" visible="true"/>
@@ -3924,15 +3925,14 @@
     <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
   </node>
+  <node id="8225133403" lat="51.5213332" lon="-0.1313786" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
   <node id="6781565858" lat="51.5213669" lon="-0.1314128" version="4" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
-  </node>
-  <node id="7195621932" lat="51.518267" lon="-0.1280495" version="1" visible="true">
-    <tag k="proposed:highway" v="crossing"/>
-    <tag k="proposed:crossing" v="traffic_signals"/>
-    <tag k="proposed:crossing_ref" v="pelican"/>
   </node>
   <node id="7195621939" lat="51.5197652" lon="-0.1296805" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -3944,6 +3944,10 @@
     <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
+  </node>
+  <node id="8225133398" lat="51.5202813" lon="-0.1302292" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="4409200425" lat="51.5167544" lon="-0.1278336" version="3" visible="true">
     <tag k="bus" v="yes"/>
@@ -3988,6 +3992,10 @@
   <node id="3340356898" lat="51.5362792" lon="-0.1466497" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="8225133404" lat="51.5238602" lon="-0.1341281" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="6958632447" lat="51.5238921" lon="-0.1341634" version="5" visible="true">
     <tag k="highway" v="crossing"/>
@@ -13723,7 +13731,7 @@
     <nd ref="5435838666"/>
     <nd ref="156620640"/>
   </way>
-  <way id="694563843" visible="true" version="4">
+  <way id="694563843" visible="true" version="5">
     <tag k="lcn" v="proposed"/>
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
@@ -13734,13 +13742,14 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="oneway:bicycle" v="no"/>
     <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066193"/>
     <nd ref="6521887913"/>
     <nd ref="5610135602"/>
   </way>
-  <way id="694562117" visible="true" version="4">
+  <way id="694562117" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Gower Street"/>
@@ -13748,15 +13757,15 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="proposed:oneway" v="no"/>
-    <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066193"/>
     <nd ref="6521870388"/>
     <nd ref="6521887913"/>
   </way>
-  <way id="851719170" visible="true" version="1">
+  <way id="851719170" visible="true" version="2">
     <tag k="lcn" v="proposed"/>
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
@@ -13767,13 +13776,15 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="oneway:bicycle" v="no"/>
     <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066193"/>
     <nd ref="6958632447"/>
+    <nd ref="8225133404"/>
     <nd ref="6521870388"/>
   </way>
-  <way id="851719171" visible="true" version="1">
+  <way id="851719171" visible="true" version="2">
     <tag k="lcn" v="proposed"/>
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
@@ -13783,6 +13794,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="oneway:bicycle" v="no"/>
     <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066193"/>
@@ -13805,7 +13817,7 @@
     <nd ref="6071949587"/>
     <nd ref="5348473923"/>
   </way>
-  <way id="694563847" visible="true" version="2">
+  <way id="694563847" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Gower Street"/>
@@ -13813,15 +13825,15 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="proposed:oneway" v="no"/>
-    <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066219"/>
     <nd ref="6521887917"/>
     <nd ref="6521887911"/>
   </way>
-  <way id="694563842" visible="true" version="3">
+  <way id="694563842" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Gower Street"/>
@@ -13829,18 +13841,17 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="proposed:oneway" v="no"/>
-    <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066219"/>
     <nd ref="6521887915"/>
     <nd ref="1156353853"/>
     <nd ref="6521887908"/>
   </way>
-  <way id="48465024" visible="true" version="24">
+  <way id="48465024" visible="true" version="25">
     <tag k="lit" v="yes"/>
-    <tag k="rcn" v="proposed"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Gower Street"/>
     <tag k="lanes" v="2"/>
@@ -13849,16 +13860,17 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="oneway:bicycle" v="no"/>
     <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066219"/>
     <nd ref="108033"/>
     <nd ref="6781565858"/>
+    <nd ref="8225133403"/>
     <nd ref="6521887915"/>
   </way>
-  <way id="851719165" visible="true" version="1">
+  <way id="851719165" visible="true" version="2">
     <tag k="lit" v="yes"/>
-    <tag k="rcn" v="proposed"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Gower Street"/>
     <tag k="oneway" v="yes"/>
@@ -13866,6 +13878,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="oneway:bicycle" v="no"/>
     <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066219"/>
@@ -13873,9 +13886,8 @@
     <nd ref="3645263667"/>
     <nd ref="108033"/>
   </way>
-  <way id="694563844" visible="true" version="5">
+  <way id="694563844" visible="true" version="6">
     <tag k="lit" v="yes"/>
-    <tag k="rcn" v="proposed"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Gower Street"/>
     <tag k="lanes" v="2"/>
@@ -13884,6 +13896,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="oneway:bicycle" v="no"/>
     <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066219"/>
@@ -14117,9 +14130,8 @@
     <nd ref="7460533149"/>
     <nd ref="7460533148"/>
   </way>
-  <way id="60494630" visible="true" version="27">
+  <way id="60494630" visible="true" version="28">
     <tag k="lit" v="yes"/>
-    <tag k="rcn" v="proposed"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Gower Street"/>
     <tag k="lanes" v="2"/>
@@ -14129,14 +14141,16 @@
     <tag k="cycleway" v="share_busway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="oneway:bicycle" v="no"/>
     <tag k="proposed:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066221"/>
     <nd ref="104302"/>
     <nd ref="6958636271"/>
+    <nd ref="8225133398"/>
     <nd ref="881889759"/>
     <nd ref="7195621939"/>
   </way>
-  <way id="401189740" visible="true" version="9">
+  <way id="401189740" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Bloomsbury Street"/>
@@ -14144,11 +14158,10 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v="shared"/>
     <tag k="proposed:oneway" v="no"/>
-    <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066197,RWG066169"/>
     <nd ref="107851"/>
     <nd ref="7262357938"/>
@@ -14888,7 +14901,7 @@
     <nd ref="984064466"/>
     <nd ref="506351757"/>
   </way>
-  <way id="147248799" visible="true" version="13">
+  <way id="147248799" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Bloomsbury Street"/>
@@ -14896,10 +14909,10 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="proposed:oneway" v="no"/>
-    <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066169"/>
     <nd ref="1604752665"/>
     <nd ref="6521883874"/>

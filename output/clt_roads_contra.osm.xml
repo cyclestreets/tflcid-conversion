@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8224346801" lat="51.5263405" lon="-0.1260214" version="1" visible="true"/>
+  <node id="8224346800" lat="51.5261849" lon="-0.1258747" version="1" visible="true"/>
+  <node id="8223138983" lat="51.5666304" lon="-0.1228788" version="1" visible="true"/>
   <node id="8222339313" lat="51.4452639" lon="-0.1097258" version="1" visible="true"/>
   <node id="8219479644" lat="51.4453184" lon="-0.1093451" version="2" visible="true"/>
   <node id="8179696245" lat="51.4054548" lon="-0.1641196" version="3" visible="true"/>
@@ -9249,7 +9252,7 @@
     <nd ref="4136137529"/>
     <nd ref="25475664"/>
   </way>
-  <way id="17513379" visible="true" version="11">
+  <way id="17513379" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Cartwright Gardens"/>
     <tag k="lanes" v="2"/>
@@ -9262,7 +9265,7 @@
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG108345"/>
     <nd ref="107981"/>
-    <nd ref="107878"/>
+    <nd ref="8224346801"/>
   </way>
   <way id="4253996" visible="true" version="12">
     <tag k="lit" v="yes"/>
@@ -9286,20 +9289,51 @@
     <nd ref="107981"/>
     <nd ref="14959374"/>
   </way>
-  <way id="4253965" visible="true" version="17">
+  <way id="4253965" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Marchmont Street"/>
     <tag k="lanes" v="2"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG108345"/>
-    <nd ref="107878"/>
+    <nd ref="8224346800"/>
     <nd ref="1230341595"/>
     <nd ref="2440630566"/>
     <nd ref="2440633802"/>
     <nd ref="2440633800"/>
+  </way>
+  <way id="884363124" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Marchmont Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="traffic_calming" v="table"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG108345"/>
+    <nd ref="107878"/>
+    <nd ref="8224346800"/>
+  </way>
+  <way id="884363125" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Cartwright Gardens"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name:ja" v="&#x30AB;&#x30FC;&#x30C8;&#x30E9;&#x30A4;&#x30C8;&#x30FB;&#x30AC;&#x30FC;&#x30C7;&#x30F3;&#x30BA;"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="abutters" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="traffic_calming" v="table"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG108345"/>
+    <nd ref="8224346801"/>
+    <nd ref="107878"/>
   </way>
   <way id="6250983" visible="true" version="13">
     <tag k="lit" v="yes"/>
@@ -10080,7 +10114,7 @@
     <nd ref="26373934"/>
     <nd ref="6366409154"/>
   </way>
-  <way id="4471649" visible="true" version="11">
+  <way id="4471649" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Malborough Road"/>
     <tag k="highway" v="tertiary"/>
@@ -10092,6 +10126,7 @@
     <nd ref="7711687432"/>
     <nd ref="7711687423"/>
     <nd ref="7711687422"/>
+    <nd ref="8223138983"/>
     <nd ref="4943279477"/>
   </way>
   <way id="686215953" visible="true" version="2">
@@ -11729,12 +11764,12 @@
     <nd ref="2246184946"/>
     <nd ref="1955520876"/>
   </way>
-  <way id="173705537" visible="true" version="7">
+  <way id="173705537" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Glasshouse Walk"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="paved"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="postal_code" v="SE11"/>
