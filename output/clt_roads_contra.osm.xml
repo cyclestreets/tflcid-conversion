@@ -267,10 +267,6 @@
     <tag k="direction" v="forward"/>
   </node>
   <node id="7369763141" lat="51.5447184" lon="0.0041847" version="1" visible="true"/>
-  <node id="7368962431" lat="51.4636737" lon="-0.0361629" version="1" visible="true">
-    <tag k="highway" v="give_way"/>
-    <tag k="direction" v="forward"/>
-  </node>
   <node id="7332202999" lat="51.4693159" lon="-0.1343627" version="1" visible="true"/>
   <node id="7332187785" lat="51.4684546" lon="-0.1363111" version="1" visible="true"/>
   <node id="7332166683" lat="51.4685192" lon="-0.1360865" version="1" visible="true"/>
@@ -1755,7 +1751,6 @@
     <tag k="crossing" v="unmarked"/>
   </node>
   <node id="2153248551" lat="51.493295" lon="-0.0987258" version="2" visible="true"/>
-  <node id="2134749340" lat="51.4636761" lon="-0.0362628" version="1" visible="true"/>
   <node id="2119076960" lat="51.4965417" lon="-0.2820718" version="3" visible="true"/>
   <node id="2119076959" lat="51.4956355" lon="-0.2822984" version="2" visible="true"/>
   <node id="2105133377" lat="51.4932217" lon="-0.0987486" version="3" visible="true"/>
@@ -1851,9 +1846,6 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
   </node>
-  <node id="1834084657" lat="51.4644597" lon="-0.0370796" version="1" visible="true"/>
-  <node id="1834084650" lat="51.4643783" lon="-0.0371292" version="1" visible="true"/>
-  <node id="1834084635" lat="51.4642499" lon="-0.0371271" version="1" visible="true"/>
   <node id="1832559562" lat="51.3684959" lon="-0.0994014" version="5" visible="true"/>
   <node id="1832559560" lat="51.368455" lon="-0.0995848" version="2" visible="true"/>
   <node id="1828462680" lat="51.4119709" lon="-0.3019198" version="2" visible="true"/>
@@ -2572,7 +2564,6 @@
   <node id="88767559" lat="51.4840233" lon="-0.1643017" version="6" visible="true"/>
   <node id="88767558" lat="51.4840262" lon="-0.1641324" version="6" visible="true"/>
   <node id="88274651" lat="51.4434608" lon="0.0809218" version="7" visible="true"/>
-  <node id="87032632" lat="51.4644148" lon="-0.037118" version="4" visible="true"/>
   <node id="86109387" lat="51.4661748" lon="-0.034367" version="4" visible="true"/>
   <node id="83701438" lat="51.3752061" lon="-0.0849085" version="10" visible="true"/>
   <node id="82793773" lat="51.5679757" lon="-0.1363223" version="3" visible="true"/>
@@ -2720,7 +2711,6 @@
   <node id="28800670" lat="51.5168802" lon="-0.0897042" version="5" visible="true"/>
   <node id="28800219" lat="51.5215637" lon="-0.0642966" version="10" visible="true"/>
   <node id="27503953" lat="51.5130391" lon="-0.1666444" version="2" visible="true"/>
-  <node id="26998040" lat="51.4643303" lon="-0.0371441" version="3" visible="true"/>
   <node id="26980993" lat="51.6441577" lon="-0.0529097" version="7" visible="true"/>
   <node id="26980849" lat="51.6456582" lon="-0.0523765" version="3" visible="true">
     <tag k="traffic_calming" v="hump"/>
@@ -2863,9 +2853,6 @@
   <node id="25291667" lat="51.5133842" lon="-0.1761384" version="11" visible="true"/>
   <node id="25291119" lat="51.5464108" lon="-0.1758092" version="5" visible="true"/>
   <node id="25291118" lat="51.546429" lon="-0.1776459" version="3" visible="true"/>
-  <node id="25259090" lat="51.4642074" lon="-0.0371181" version="3" visible="true"/>
-  <node id="25259089" lat="51.4636719" lon="-0.0360871" version="5" visible="true"/>
-  <node id="25259088" lat="51.4639184" lon="-0.0367537" version="5" visible="true"/>
   <node id="25258286" lat="51.4485083" lon="-0.0333578" version="3" visible="true"/>
   <node id="25258285" lat="51.4487854" lon="-0.0346639" version="2" visible="true"/>
   <node id="25258282" lat="51.4488831" lon="-0.0351254" version="3" visible="true"/>
@@ -4510,21 +4497,6 @@
     <nd ref="5629063236"/>
     <nd ref="3882252360"/>
   </way>
-  <way id="4411955" visible="true" version="9">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Coulgate Street"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG198276"/>
-    <nd ref="25259088"/>
-    <nd ref="2134749340"/>
-    <nd ref="7368962431"/>
-    <nd ref="25259089"/>
-  </way>
   <way id="22727500" visible="true" version="5">
     <tag k="name" v="Rayford Avenue"/>
     <tag k="oneway" v="yes"/>
@@ -4656,24 +4628,6 @@
     <nd ref="7078961157"/>
     <nd ref="7078961163"/>
     <nd ref="60678238"/>
-  </way>
-  <way id="203751560" visible="true" version="6">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Coulgate Street"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG291027"/>
-    <nd ref="1834084657"/>
-    <nd ref="87032632"/>
-    <nd ref="1834084650"/>
-    <nd ref="26998040"/>
-    <nd ref="1834084635"/>
-    <nd ref="25259090"/>
-    <nd ref="25259088"/>
   </way>
   <way id="4311307" visible="true" version="4">
     <tag k="name" v="Montbelle Road"/>
@@ -4869,10 +4823,12 @@
     <nd ref="6035939202"/>
     <nd ref="2043098822"/>
   </way>
-  <way id="105077488" visible="true" version="6">
+  <way id="105077488" visible="true" version="8">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="St Antony's Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="postal_code" v="E7"/>
     <tag k="cycleway:right" v="lane"/>
