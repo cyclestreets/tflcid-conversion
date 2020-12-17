@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8234065148" lat="51.5459478" lon="0.0044451" version="1" visible="true"/>
   <node id="8224346801" lat="51.5263405" lon="-0.1260214" version="1" visible="true"/>
   <node id="8224346800" lat="51.5261849" lon="-0.1258747" version="1" visible="true"/>
   <node id="8223138983" lat="51.5666304" lon="-0.1228788" version="1" visible="true"/>
@@ -1141,7 +1142,7 @@
   <node id="4879504182" lat="51.5112357" lon="-0.0154753" version="1" visible="true"/>
   <node id="4875066795" lat="51.4933638" lon="-0.2676665" version="3" visible="true"/>
   <node id="4873577614" lat="51.4613281" lon="-0.1567761" version="5" visible="true"/>
-  <node id="4872999826" lat="51.5459174" lon="0.0040449" version="2" visible="true"/>
+  <node id="4872999826" lat="51.5459074" lon="0.0040603" version="3" visible="true"/>
   <node id="4872820893" lat="51.5707423" lon="-0.0780854" version="2" visible="true"/>
   <node id="4872735399" lat="51.5424407" lon="-0.1814446" version="1" visible="true"/>
   <node id="4858754163" lat="51.5480642" lon="-0.127865" version="2" visible="true"/>
@@ -2465,6 +2466,7 @@
   <node id="130281718" lat="51.3864612" lon="-0.1106459" version="9" visible="true"/>
   <node id="130281622" lat="51.3856494" lon="-0.1100748" version="6" visible="true"/>
   <node id="130280335" lat="51.3837768" lon="-0.1035642" version="3" visible="true"/>
+  <node id="130237957" lat="51.5459443" lon="0.0043671" version="8" visible="true"/>
   <node id="130232466" lat="51.544639" lon="0.0034644" version="2" visible="true"/>
   <node id="130232465" lat="51.5444949" lon="0.0026576" version="2" visible="true"/>
   <node id="130232464" lat="51.544428" lon="0.0025712" version="3" visible="true"/>
@@ -4355,6 +4357,20 @@
     <nd ref="5789782880"/>
     <nd ref="6035835565"/>
     <nd ref="4872999826"/>
+  </way>
+  <way id="885487197" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Windmill Lane"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="ref:GB:usrn" v="22201675"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG156264"/>
+    <nd ref="4872999826"/>
+    <nd ref="130237957"/>
+    <nd ref="8234065148"/>
   </way>
   <way id="16616423" visible="true" version="7">
     <tag k="name" v="Morden Road"/>
