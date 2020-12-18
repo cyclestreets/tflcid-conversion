@@ -2558,6 +2558,7 @@
   <node id="7840712839" lat="51.5177414" lon="-0.1051925" version="1" visible="true"/>
   <node id="36163040" lat="51.5022083" lon="0.1545645" version="2" visible="true"/>
   <node id="8086362582" lat="51.6428764" lon="-0.0800423" version="1" visible="true"/>
+  <node id="8235916135" lat="51.5521175" lon="-0.1410811" version="1" visible="true"/>
   <node id="32650562" lat="51.5328953" lon="-0.0084801" version="13" visible="true"/>
   <node id="6174767427" lat="51.4275281" lon="-0.2722107" version="6" visible="true"/>
   <node id="1617532085" lat="51.5111222" lon="-0.1063261" version="5" visible="true"/>
@@ -3755,6 +3756,10 @@
     <tag k="name" v="Muswell Hill"/>
     <tag k="local_ref" v="B"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="8235916132" lat="51.5519915" lon="-0.1410925" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="469768812" lat="51.5391232" lon="-0.0983123" version="5" visible="true">
     <tag k="bus" v="yes"/>
@@ -14221,6 +14226,18 @@
     <tag k="tiger:upload_uuid" v="RWG000164"/>
     <nd ref="7630660751"/>
     <nd ref="2177854542"/>
+  </way>
+  <way id="885707014" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A400"/>
+    <tag k="name" v="Fortess Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG000074"/>
+    <nd ref="8235916132"/>
+    <nd ref="8235916135"/>
   </way>
   <way id="823014696" visible="true" version="1">
     <tag k="lit" v="yes"/>
