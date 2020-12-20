@@ -1449,6 +1449,7 @@
   <node id="2133388815" lat="51.5778868" lon="0.176967" version="3" visible="true"/>
   <node id="6499514040" lat="51.4703111" lon="0.0032889" version="1" visible="true"/>
   <node id="2622866776" lat="51.4106502" lon="-0.2957767" version="4" visible="true"/>
+  <node id="90099854" lat="51.4866874" lon="0.0189835" version="16" visible="true"/>
   <node id="1440487560" lat="51.5716084" lon="-0.1395284" version="5" visible="true"/>
   <node id="1541641242" lat="51.5755586" lon="-0.1046357" version="2" visible="true"/>
   <node id="1978223382" lat="51.6007962" lon="-0.1732243" version="1" visible="true"/>
@@ -2151,6 +2152,7 @@
   <node id="8232632750" lat="51.5934457" lon="0.0059267" version="2" visible="true"/>
   <node id="245156" lat="51.5619536" lon="-0.0736607" version="13" visible="true"/>
   <node id="8025357547" lat="51.4347996" lon="-0.2586943" version="2" visible="true"/>
+  <node id="8076176816" lat="51.486681" lon="0.0189312" version="1" visible="true"/>
   <node id="5933160270" lat="51.5461055" lon="-0.0035238" version="4" visible="true"/>
   <node id="7734416189" lat="51.4484917" lon="-0.1482626" version="1" visible="true"/>
   <node id="3982646816" lat="51.6363762" lon="-0.0909782" version="5" visible="true"/>
@@ -8890,6 +8892,21 @@
     <tag k="tiger:upload_uuid" v="RWG184687,RWG184676"/>
     <nd ref="3782984850"/>
     <nd ref="3698514"/>
+  </way>
+  <way id="866482458" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A206"/>
+    <tag k="name" v="Woolwich Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="proposed:cycleway:right:oneway" v="no"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG184911"/>
+    <nd ref="90099854"/>
+    <nd ref="8076176816"/>
   </way>
   <way id="109476923" visible="true" version="3">
     <tag k="lit" v="yes"/>

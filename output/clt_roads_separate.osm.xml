@@ -184,10 +184,11 @@
   <node id="6967968848" lat="51.4829243" lon="-0.1114299" version="1" visible="true"/>
   <node id="6967968847" lat="51.4828537" lon="-0.1114087" version="1" visible="true"/>
   <node id="6967968845" lat="51.4827847" lon="-0.1114265" version="1" visible="true"/>
-  <node id="6960580697" lat="51.52605" lon="-0.1239003" version="2" visible="true">
+  <node id="6960580697" lat="51.52605" lon="-0.1239003" version="3" visible="true">
     <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="forward"/>
   </node>
-  <node id="6960580692" lat="51.5260677" lon="-0.123824" version="3" visible="true">
+  <node id="6960580692" lat="51.5260664" lon="-0.1238294" version="4" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -4149,15 +4150,16 @@
     <nd ref="2440630568"/>
     <nd ref="2440630567"/>
   </way>
-  <way id="743705606" visible="true" version="1">
+  <way id="743705606" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Tavistock Place"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:right" v="separate"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG108308"/>
     <nd ref="2440630567"/>
     <nd ref="6960580697"/>
