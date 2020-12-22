@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8246738135" lat="51.4765211" lon="-0.1036049" version="1" visible="true"/>
+  <node id="8246738131" lat="51.4767182" lon="-0.1032546" version="1" visible="true"/>
   <node id="8240081706" lat="51.5497944" lon="-0.0643951" version="1" visible="true"/>
   <node id="8234065148" lat="51.5459478" lon="0.0044451" version="1" visible="true"/>
   <node id="8224346801" lat="51.5263405" lon="-0.1260214" version="1" visible="true"/>
@@ -1382,11 +1384,10 @@
   <node id="3273540362" lat="51.4995024" lon="-0.1358529" version="2" visible="true"/>
   <node id="3273537860" lat="51.49937" lon="-0.1363701" version="1" visible="true"/>
   <node id="3260330230" lat="51.4454064" lon="0.0001165" version="1" visible="true"/>
-  <node id="3254337787" lat="51.5187436" lon="-0.1246719" version="8" visible="true">
+  <node id="3254337787" lat="51.5187436" lon="-0.1246719" version="9" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
-    <tag k="sloped_curb" v="yes"/>
     <tag k="crossing_ref" v="zebra"/>
     <tag k="tactile_paving" v="yes"/>
   </node>
@@ -1421,10 +1422,10 @@
   <node id="3134593808" lat="51.4893845" lon="0.0855327" version="3" visible="true"/>
   <node id="3134593806" lat="51.4893485" lon="0.0855445" version="3" visible="true"/>
   <node id="3113622340" lat="51.5247272" lon="-0.1277951" version="2" visible="true"/>
-  <node id="3113617920" lat="51.5246299" lon="-0.1280281" version="6" visible="true">
+  <node id="3113617920" lat="51.5246299" lon="-0.1280281" version="7" visible="true">
+    <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
-    <tag k="sloped_curb" v="both"/>
     <tag k="crossing_ref" v="countdown"/>
   </node>
   <node id="3107461267" lat="51.5366605" lon="-0.043754" version="2" visible="true"/>
@@ -1645,11 +1646,10 @@
     <tag k="button_operated" v="yes"/>
   </node>
   <node id="2440633800" lat="51.5256996" lon="-0.1255475" version="3" visible="true"/>
-  <node id="2440633799" lat="51.5256278" lon="-0.1256301" version="6" visible="true">
+  <node id="2440633799" lat="51.5256278" lon="-0.1256301" version="7" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
-    <tag k="sloped_curb" v="yes"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="button_operated" v="yes"/>
   </node>
@@ -1941,10 +1941,10 @@
   <node id="1675309167" lat="51.5597973" lon="0.0693533" version="3" visible="true"/>
   <node id="1672123295" lat="51.5123515" lon="-0.3801758" version="1" visible="true"/>
   <node id="1670708067" lat="51.5325505" lon="-0.1034491" version="2" visible="true"/>
-  <node id="1656048170" lat="51.5247755" lon="-0.1276747" version="8" visible="true">
+  <node id="1656048170" lat="51.5247755" lon="-0.1276747" version="9" visible="true">
+    <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
-    <tag k="sloped_curb" v="both"/>
     <tag k="crossing_ref" v="countdown"/>
   </node>
   <node id="1651916584" lat="51.5394636" lon="-0.1364072" version="3" visible="true">
@@ -13273,7 +13273,7 @@
     <nd ref="7149988641"/>
     <nd ref="32975392"/>
   </way>
-  <way id="27361256" visible="true" version="9">
+  <way id="27361256" visible="true" version="10">
     <tag k="name" v="Tindal Street"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
@@ -13283,6 +13283,8 @@
     <tag k="tiger:upload_uuid" v="RWG135730"/>
     <nd ref="110299064"/>
     <nd ref="7780669141"/>
+    <nd ref="8246738131"/>
+    <nd ref="8246738135"/>
     <nd ref="110300163"/>
     <nd ref="5350163637"/>
     <nd ref="5374045901"/>
