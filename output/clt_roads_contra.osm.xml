@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8254826207" lat="51.5074152" lon="-0.2081909" version="1" visible="true"/>
   <node id="8246738135" lat="51.4765211" lon="-0.1036049" version="1" visible="true"/>
   <node id="8246738131" lat="51.4767182" lon="-0.1032546" version="1" visible="true"/>
   <node id="8240081706" lat="51.5497944" lon="-0.0643951" version="1" visible="true"/>
@@ -40,7 +41,7 @@
   <node id="7961281760" lat="51.5501739" lon="-0.0431864" version="1" visible="true"/>
   <node id="7961281747" lat="51.5501246" lon="-0.0433016" version="1" visible="true"/>
   <node id="7957525272" lat="51.4970142" lon="-0.1003362" version="1" visible="true"/>
-  <node id="7944605592" lat="51.5284765" lon="-0.1112993" version="1" visible="true"/>
+  <node id="7944605592" lat="51.5284906" lon="-0.1112755" version="2" visible="true"/>
   <node id="7944605588" lat="51.5285462" lon="-0.1111932" version="1" visible="true">
     <tag k="traffic_calming" v="cushion"/>
   </node>
@@ -979,6 +980,9 @@
   <node id="5506946742" lat="51.435716" lon="-0.1999882" version="1" visible="true"/>
   <node id="5506946741" lat="51.4360566" lon="-0.2004764" version="2" visible="true"/>
   <node id="5497815427" lat="51.4882744" lon="-0.2268166" version="1" visible="true"/>
+  <node id="5492447668" lat="51.5288429" lon="-0.1106732" version="2" visible="true"/>
+  <node id="5492447666" lat="51.5288861" lon="-0.1105675" version="2" visible="true"/>
+  <node id="5492447663" lat="51.5288105" lon="-0.110736" version="2" visible="true"/>
   <node id="5483081182" lat="51.5281723" lon="-0.0177709" version="3" visible="true"/>
   <node id="5469302004" lat="51.5457182" lon="0.0028201" version="2" visible="true"/>
   <node id="5458472046" lat="51.5186575" lon="-0.1217949" version="3" visible="true">
@@ -2089,6 +2093,7 @@
   <node id="1086529663" lat="51.4917142" lon="-0.2931198" version="3" visible="true"/>
   <node id="1086529644" lat="51.4917013" lon="-0.2930701" version="3" visible="true"/>
   <node id="1035501160" lat="51.4936233" lon="-0.0985573" version="3" visible="true"/>
+  <node id="1034393518" lat="51.5287618" lon="-0.1108313" version="2" visible="true"/>
   <node id="963509972" lat="51.5066652" lon="-0.0914698" version="3" visible="true"/>
   <node id="941090808" lat="51.5062385" lon="-0.2121322" version="4" visible="true"/>
   <node id="925490468" lat="51.5517775" lon="-0.0463146" version="2" visible="true"/>
@@ -2759,7 +2764,6 @@
   <node id="26414875" lat="51.5836681" lon="-0.0844907" version="3" visible="true"/>
   <node id="26406635" lat="51.5056828" lon="-0.0858081" version="5" visible="true"/>
   <node id="26396545" lat="51.5295984" lon="-0.0813011" version="4" visible="true"/>
-  <node id="26373937" lat="51.5073962" lon="-0.2082583" version="8" visible="true"/>
   <node id="26373935" lat="51.5076505" lon="-0.207354" version="6" visible="true"/>
   <node id="26373934" lat="51.5080344" lon="-0.206046" version="8" visible="true"/>
   <node id="26345797" lat="51.5507527" lon="-0.1044928" version="4" visible="true"/>
@@ -2847,6 +2851,11 @@
   <node id="25470679" lat="51.5173904" lon="-0.1218496" version="10" visible="true"/>
   <node id="25468948" lat="51.54968" lon="-0.1408616" version="6" visible="true"/>
   <node id="25456124" lat="51.5286649" lon="-0.1110127" version="4" visible="true"/>
+  <node id="25455206" lat="51.5289933" lon="-0.1102367" version="17" visible="true">
+    <tag k="rcn" v="yes"/>
+    <tag k="name" v="Clerkenwell"/>
+    <tag k="rcn_name" v="Clerkenwell"/>
+  </node>
   <node id="25453982" lat="51.5496372" lon="-0.1403267" version="3" visible="true"/>
   <node id="25436933" lat="51.5394495" lon="-0.309808" version="5" visible="true"/>
   <node id="25436906" lat="51.5373851" lon="-0.309859" version="5" visible="true"/>
@@ -9979,6 +9988,85 @@
     <nd ref="3145798533"/>
     <nd ref="471488469"/>
   </way>
+  <way id="571500819" visible="true" version="5">
+    <tag k="hgv" v="destination"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Lloyd Baker Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="was:maxwidth" v="7'2&quot;"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG152736"/>
+    <nd ref="5492447668"/>
+    <nd ref="5492447666"/>
+  </way>
+  <way id="571500819" visible="true" version="5">
+    <tag k="hgv" v="destination"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Lloyd Baker Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="was:maxwidth" v="7'2&quot;"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG152264"/>
+    <nd ref="5492447668"/>
+    <nd ref="5492447666"/>
+  </way>
+  <way id="571500819" visible="true" version="5">
+    <tag k="hgv" v="destination"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Lloyd Baker Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="was:maxwidth" v="7'2&quot;"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG152265"/>
+    <nd ref="5492447668"/>
+    <nd ref="5492447666"/>
+  </way>
+  <way id="571500822" visible="true" version="8">
+    <tag k="hgv" v="destination"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Lloyd Baker Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG152736"/>
+    <nd ref="5492447666"/>
+    <nd ref="25455206"/>
+  </way>
+  <way id="571500822" visible="true" version="8">
+    <tag k="hgv" v="destination"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Lloyd Baker Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG152263"/>
+    <nd ref="5492447666"/>
+    <nd ref="25455206"/>
+  </way>
   <way id="366238082" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Georgiana Street"/>
@@ -10054,7 +10142,7 @@
     <nd ref="4943287492"/>
     <nd ref="848082160"/>
   </way>
-  <way id="758183881" visible="true" version="2">
+  <way id="758183881" visible="true" version="3">
     <tag k="name" v="Ladbroke Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -10064,7 +10152,7 @@
     <tag k="tiger:upload_uuid" v="RWG018137"/>
     <nd ref="7080433353"/>
     <nd ref="7080433358"/>
-    <nd ref="26373937"/>
+    <nd ref="8254826207"/>
   </way>
   <way id="758183879" visible="true" version="2">
     <tag k="name" v="Ladbroke Road"/>
@@ -10572,23 +10660,40 @@
     <nd ref="27503953"/>
     <nd ref="702287175"/>
   </way>
-  <way id="851786606" visible="true" version="1">
+  <way id="851786606" visible="true" version="2">
     <tag k="hgv" v="destination"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Lloyd Baker Street"/>
     <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="unclassified"/>
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:right:track" v="hybrid"/>
     <tag k="tiger:upload_uuid" v="RWG066561"/>
     <nd ref="7944605592"/>
     <nd ref="7944605588"/>
     <nd ref="25456124"/>
+  </way>
+  <way id="425548222" visible="true" version="11">
+    <tag k="hgv" v="destination"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Lloyd Baker Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG066561"/>
+    <nd ref="25456124"/>
+    <nd ref="1034393518"/>
+    <nd ref="5492447663"/>
+    <nd ref="5492447668"/>
   </way>
   <way id="584351058" visible="true" version="5">
     <tag k="lit" v="yes"/>
