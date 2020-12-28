@@ -614,6 +614,7 @@
   <node id="4337162062" lat="51.5427485" lon="-0.139191" version="7" visible="true"/>
   <node id="4322519841" lat="51.5021752" lon="-0.173813" version="2" visible="true"/>
   <node id="4320993842" lat="51.5384793" lon="-0.1355758" version="1" visible="true"/>
+  <node id="4310096904" lat="51.5009634" lon="-0.1263011" version="1" visible="true"/>
   <node id="4306484318" lat="51.5031003" lon="-0.1544656" version="3" visible="true"/>
   <node id="4253563711" lat="51.5676151" lon="-0.0326446" version="5" visible="true"/>
   <node id="4253563710" lat="51.5674762" lon="-0.033003" version="5" visible="true"/>
@@ -831,7 +832,10 @@
     <tag k="highway" v="traffic_signals"/>
   </node>
   <node id="2559702571" lat="51.4564716" lon="0.1389721" version="3" visible="true"/>
-  <node id="2525878184" lat="51.5009885" lon="-0.1264879" version="7" visible="true"/>
+  <node id="2525878184" lat="51.500992" lon="-0.1265022" version="8" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="2517133988" lat="51.537064" lon="-0.0030946" version="4" visible="true"/>
   <node id="2477093245" lat="51.5383418" lon="-0.0014387" version="4" visible="true"/>
   <node id="2477093214" lat="51.5365318" lon="-0.0037897" version="4" visible="true"/>
@@ -1008,9 +1012,6 @@
   </node>
   <node id="1797684636" lat="51.5396651" lon="-0.1766377" version="3" visible="true"/>
   <node id="1783426099" lat="51.5035665" lon="-0.0930409" version="3" visible="true"/>
-  <node id="1782019837" lat="51.5009792" lon="-0.1263758" version="9" visible="true">
-    <tag k="cycleway" v="asl"/>
-  </node>
   <node id="1751778376" lat="51.3800992" lon="-0.0908425" version="1" visible="true"/>
   <node id="1751778374" lat="51.3797874" lon="-0.090747" version="1" visible="true"/>
   <node id="1745361196" lat="51.614852" lon="-0.1271955" version="2" visible="true"/>
@@ -1160,9 +1161,8 @@
     <tag k="crossing" v="uncontrolled"/>
     <tag k="tactile_paving" v="yes"/>
   </node>
-  <node id="740384609" lat="51.5009795" lon="-0.1264043" version="12" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-  </node>
+  <node id="740384613" lat="51.5009303" lon="-0.1261451" version="10" visible="true"/>
+  <node id="740384609" lat="51.5009795" lon="-0.1264043" version="13" visible="true"/>
   <node id="737071850" lat="51.484749" lon="-0.11859" version="5" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -4816,7 +4816,7 @@
     <nd ref="5461889112"/>
     <nd ref="48928530"/>
   </way>
-  <way id="245380686" visible="true" version="9">
+  <way id="245380686" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A302"/>
     <tag k="name" v="Great George Street"/>
@@ -4836,7 +4836,8 @@
     <tag k="tiger:upload_uuid" v="RWG066306"/>
     <nd ref="2525878184"/>
     <nd ref="740384609"/>
-    <nd ref="1782019837"/>
+    <nd ref="4310096904"/>
+    <nd ref="740384613"/>
   </way>
   <way id="226429031" visible="true" version="6">
     <tag k="lit" v="yes"/>
