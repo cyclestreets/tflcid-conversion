@@ -450,6 +450,7 @@
   <node id="6271637138" lat="51.5021135" lon="-0.4467834" version="3" visible="true"/>
   <node id="253258309" lat="51.4809425" lon="-0.4422787" version="3" visible="true"/>
   <node id="106225197" lat="51.6200442" lon="-0.3025309" version="5" visible="true"/>
+  <node id="8272228547" lat="51.5868804" lon="-0.1241556" version="1" visible="true"/>
   <node id="313181118" lat="51.5220477" lon="-0.1363786" version="6" visible="true"/>
   <node id="296244" lat="51.4113004" lon="-0.3074876" version="6" visible="true"/>
   <node id="26070860" lat="51.4901604" lon="0.0397958" version="8" visible="true"/>
@@ -691,7 +692,6 @@
   <node id="2592933733" lat="51.5438455" lon="-0.1400678" version="3" visible="true"/>
   <node id="2720043560" lat="51.452409" lon="-0.2214115" version="4" visible="true"/>
   <node id="7767829464" lat="51.5957183" lon="0.1465158" version="1" visible="true"/>
-  <node id="2539047277" lat="51.5961178" lon="0.1475658" version="2" visible="true"/>
   <node id="5125070076" lat="51.5250192" lon="-0.1374301" version="3" visible="true"/>
   <node id="52735531" lat="51.5388139" lon="-0.0767093" version="5" visible="true"/>
   <node id="7167130356" lat="51.4499385" lon="-0.3306614" version="3" visible="true"/>
@@ -1280,6 +1280,7 @@
   <node id="250981923" lat="51.3875799" lon="-0.1934881" version="4" visible="true"/>
   <node id="6291299594" lat="51.6467734" lon="-0.0799631" version="4" visible="true"/>
   <node id="6215339759" lat="51.5806038" lon="-0.3253136" version="1" visible="true"/>
+  <node id="8272228546" lat="51.5868918" lon="-0.1240603" version="1" visible="true"/>
   <node id="243971390" lat="51.4362856" lon="-0.352658" version="5" visible="true"/>
   <node id="7741543358" lat="51.4287005" lon="-0.2701209" version="1" visible="true"/>
   <node id="7816271343" lat="51.538924" lon="-0.1237675" version="1" visible="true"/>
@@ -1557,7 +1558,6 @@
   <node id="556768606" lat="51.4567355" lon="-0.435018" version="4" visible="true"/>
   <node id="3247619644" lat="51.5004798" lon="-0.1154252" version="3" visible="true"/>
   <node id="7241419080" lat="51.5570032" lon="-0.0110212" version="1" visible="true"/>
-  <node id="7767829465" lat="51.5961264" lon="0.1475914" version="1" visible="true"/>
   <node id="8211509648" lat="51.4159504" lon="-0.2524374" version="1" visible="true"/>
   <node id="106860" lat="51.5279657" lon="-0.0779717" version="7" visible="true"/>
   <node id="6521839582" lat="51.5171379" lon="-0.1270915" version="3" visible="true"/>
@@ -5004,7 +5004,7 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
-  <way id="831985135" visible="true" version="2">
+  <way id="831985135" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Collier Row Road"/>
     <tag k="lanes" v="2"/>
@@ -5014,7 +5014,6 @@
     <tag k="cycleway:both" v="lane"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG154694,RWG154695,RWG154693"/>
-    <nd ref="6302942629"/>
     <nd ref="333219276"/>
     <nd ref="1701876713"/>
     <nd ref="25743580"/>
@@ -5027,8 +5026,19 @@
     <nd ref="7767829464"/>
     <nd ref="333221599"/>
     <nd ref="7767827196"/>
-    <nd ref="2539047277"/>
-    <nd ref="7767829465"/>
+  </way>
+  <way id="889982359" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Collier Row Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG154695,RWG154693"/>
+    <nd ref="6302942629"/>
+    <nd ref="333219276"/>
   </way>
   <way id="4276670" visible="true" version="16">
     <tag k="lit" v="yes"/>
@@ -13298,15 +13308,19 @@
     <nd ref="5179866177"/>
     <nd ref="5179866178"/>
   </way>
-  <way id="385644279" visible="true" version="4">
+  <way id="385644279" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A504"/>
     <tag k="name" v="Priory Road"/>
+    <tag k="lanes" v="3"/>
     <tag k="highway" v="primary"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="bus:lanes" v="designated|yes|yes"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG279304"/>
     <nd ref="3889807592"/>
+    <nd ref="8272228546"/>
+    <nd ref="8272228547"/>
     <nd ref="5172901278"/>
   </way>
   <way id="38232780" visible="true" version="5">
