@@ -381,6 +381,13 @@
     <tag k="crossing" v="unmarked"/>
   </node>
   <node id="6651585283" lat="51.6707348" lon="-0.0181593" version="1" visible="true"/>
+  <node id="6633259245" lat="51.503761" lon="-0.1364517" version="1" visible="true"/>
+  <node id="6633259234" lat="51.5038379" lon="-0.1364024" version="2" visible="true">
+    <tag k="foot" v="yes"/>
+    <tag k="access" v="no"/>
+    <tag k="barrier" v="bollard"/>
+  </node>
+  <node id="6633259232" lat="51.5039236" lon="-0.1362177" version="1" visible="true"/>
   <node id="6631747693" lat="51.509241" lon="-0.0260614" version="1" visible="true"/>
   <node id="6463040075" lat="51.5128825" lon="-0.0277371" version="1" visible="true"/>
   <node id="6460053165" lat="51.5895204" lon="0.0499885" version="1" visible="true"/>
@@ -6689,5 +6696,16 @@
     <nd ref="2333139082"/>
     <nd ref="304655660"/>
     <nd ref="304655668"/>
+  </way>
+  <way id="705953060" visible="true" version="2">
+    <tag k="highway" v="footway"/>
+    <tag k="segregated" v="no"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG066811"/>
+    <nd ref="6633259245"/>
+    <nd ref="6633259234"/>
+    <nd ref="6633259232"/>
   </way>
 </osm>
