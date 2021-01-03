@@ -138,9 +138,8 @@
     <tag k="barrier" v="kissing_gate"/>
   </node>
   <node id="6898592238" lat="51.497929" lon="-0.2821676" version="1" visible="true"/>
-  <node id="6856393856" lat="51.4279823" lon="-0.255867" version="1" visible="true"/>
   <node id="6856393855" lat="51.4320223" lon="-0.2566307" version="1" visible="true"/>
-  <node id="6856393853" lat="51.4276724" lon="-0.2558025" version="1" visible="true"/>
+  <node id="6856393853" lat="51.4276565" lon="-0.2557784" version="2" visible="true"/>
   <node id="6837646006" lat="51.3914663" lon="-0.0384466" version="1" visible="true"/>
   <node id="6837646005" lat="51.3914967" lon="-0.0380604" version="1" visible="true"/>
   <node id="6837646004" lat="51.3915196" lon="-0.0380095" version="1" visible="true"/>
@@ -500,10 +499,10 @@
   <node id="3249126482" lat="51.4263598" lon="-0.255364" version="1" visible="true"/>
   <node id="3249126481" lat="51.4268679" lon="-0.2555111" version="1" visible="true"/>
   <node id="3249126479" lat="51.4281683" lon="-0.2559103" version="2" visible="true"/>
-  <node id="3249126478" lat="51.427946" lon="-0.2558679" version="2" visible="true"/>
+  <node id="3249126478" lat="51.4279652" lon="-0.2558572" version="3" visible="true"/>
   <node id="3249126477" lat="51.427351" lon="-0.2556733" version="2" visible="true"/>
-  <node id="3249126476" lat="51.4273693" lon="-0.2557244" version="2" visible="true"/>
-  <node id="3249126475" lat="51.4279143" lon="-0.2558752" version="2" visible="true"/>
+  <node id="3249126476" lat="51.4273693" lon="-0.2556942" version="3" visible="true"/>
+  <node id="3249126475" lat="51.4279461" lon="-0.2558678" version="3" visible="true"/>
   <node id="3217194790" lat="51.4309762" lon="-0.2565026" version="1" visible="true"/>
   <node id="3217194778" lat="51.4319785" lon="-0.256613" version="2" visible="true"/>
   <node id="3217194775" lat="51.4325156" lon="-0.2567199" version="4" visible="true"/>
@@ -1435,11 +1434,14 @@
     <nd ref="2428040507"/>
     <nd ref="2433334430"/>
   </way>
-  <way id="732228429" visible="true" version="1">
+  <way id="732228429" visible="true" version="2">
+    <tag k="foot" v="designated"/>
     <tag k="name" v="Robin Hood Way"/>
-    <tag k="highway" v="footway"/>
-    <tag k="segregated" v="no"/>
     <tag k="bicycle" v="dismount"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="segregated" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG206949"/>
     <nd ref="877596076"/>
     <nd ref="3217194775"/>
@@ -1452,7 +1454,6 @@
     <nd ref="3217194763"/>
     <nd ref="3217194764"/>
     <nd ref="3249126479"/>
-    <nd ref="6856393856"/>
     <nd ref="3249126478"/>
     <nd ref="3249126475"/>
     <nd ref="6856393853"/>
