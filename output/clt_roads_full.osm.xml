@@ -767,7 +767,7 @@
   <node id="6184890699" lat="51.5982197" lon="-0.1196054" version="2" visible="true"/>
   <node id="48695357" lat="51.5290524" lon="-0.0751466" version="12" visible="true"/>
   <node id="446252022" lat="51.5115427" lon="-0.4493792" version="6" visible="true"/>
-  <node id="21665580" lat="51.5134667" lon="-0.1291897" version="15" visible="true"/>
+  <node id="21665580" lat="51.5134627" lon="-0.1292389" version="16" visible="true"/>
   <node id="6797847749" lat="51.5312078" lon="-0.1110568" version="1" visible="true"/>
   <node id="623136921" lat="51.4636785" lon="-0.0386935" version="2" visible="true"/>
   <node id="3172348577" lat="51.5035298" lon="-0.0957802" version="2" visible="true"/>
@@ -3573,15 +3573,17 @@
     <tag k="local_ref" v="KE"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="6094267288" lat="51.5464087" lon="-0.0808469" version="5" visible="true">
-    <tag k="proposed:highway" v="crossing"/>
+  <node id="6094267288" lat="51.5464087" lon="-0.0808469" version="6" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
   </node>
   <node id="8089969565" lat="51.546415" lon="-0.0809141" version="3" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="backward"/>
   </node>
-  <node id="8089969568" lat="51.546421" lon="-0.0809786" version="3" visible="true">
-    <tag k="disused:highway" v="traffic_signals"/>
+  <node id="8089969568" lat="51.546421" lon="-0.0809786" version="4" visible="true">
+    <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="469780800" lat="51.5465663" lon="-0.0831129" version="8" visible="true">
@@ -4016,19 +4018,19 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
-  <node id="4409200425" lat="51.5167544" lon="-0.1278336" version="3" visible="true">
+  <node id="4409200425" lat="51.5167759" lon="-0.1278492" version="4" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="New Oxford Street"/>
     <tag k="local_ref" v="Z"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="4409200422" lat="51.5167082" lon="-0.1281262" version="4" visible="true">
+  <node id="4409200422" lat="51.5167329" lon="-0.1281314" version="5" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Tottenham Court Road Station"/>
     <tag k="local_ref" v="X"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="469760236" lat="51.5166878" lon="-0.1282597" version="12" visible="true">
+  <node id="469760236" lat="51.5167103" lon="-0.1282758" version="13" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Tottenham Court Road Station / New Oxford Street"/>
     <tag k="local_ref" v="Y"/>
@@ -4040,13 +4042,13 @@
     <tag k="local_ref" v="T"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="1094124402" lat="51.5137736" lon="-0.1293797" version="10" visible="true">
+  <node id="1094124402" lat="51.5137703" lon="-0.1293958" version="11" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="crossing:island" v="yes"/>
   </node>
-  <node id="5364578863" lat="51.513489" lon="-0.1292033" version="3" visible="true">
+  <node id="5364578863" lat="51.5134887" lon="-0.1292515" version="4" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Cambridge Circus"/>
     <tag k="local_ref" v="D"/>
