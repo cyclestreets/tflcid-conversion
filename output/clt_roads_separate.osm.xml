@@ -1290,10 +1290,13 @@
   <node id="247043024" lat="51.4071069" lon="-0.1645792" version="3" visible="true"/>
   <node id="247043023" lat="51.406889" lon="-0.1651042" version="2" visible="true"/>
   <node id="246860043" lat="51.5260267" lon="-0.0305907" version="6" visible="true"/>
-  <node id="245728651" lat="51.3783768" lon="-0.0999515" version="6" visible="true">
+  <node id="245728651" lat="51.3783768" lon="-0.0999515" version="9" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
   </node>
   <node id="242601096" lat="51.4074238" lon="-0.2214168" version="5" visible="true"/>
   <node id="242600952" lat="51.4075404" lon="-0.2203552" version="6" visible="true"/>
@@ -2656,11 +2659,12 @@
     <nd ref="4368134286"/>
     <nd ref="3252823706"/>
   </way>
-  <way id="640612907" visible="true" version="3">
+  <way id="640612907" visible="true" version="4">
     <tag k="name" v="Poplar Walk"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="tiger:upload_uuid" v="RWG292680"/>
     <nd ref="6034770637"/>

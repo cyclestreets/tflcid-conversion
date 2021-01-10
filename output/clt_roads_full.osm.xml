@@ -817,6 +817,7 @@
   <node id="7418121060" lat="51.3217636" lon="-0.1347703" version="1" visible="true"/>
   <node id="7801416240" lat="51.4795529" lon="-0.1048747" version="1" visible="true"/>
   <node id="5483811201" lat="51.5365276" lon="-0.0176384" version="3" visible="true"/>
+  <node id="8306211317" lat="51.5113641" lon="0.0113127" version="1" visible="true"/>
   <node id="82630702" lat="51.47592" lon="-0.0325923" version="6" visible="true"/>
   <node id="1221502568" lat="51.4239391" lon="0.0662039" version="1" visible="true"/>
   <node id="8244960817" lat="51.5911477" lon="-0.0074705" version="1" visible="true"/>
@@ -5080,7 +5081,7 @@
     <nd ref="180501549"/>
     <nd ref="1369479858"/>
   </way>
-  <way id="43034723" visible="true" version="8">
+  <way id="43034723" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Longbridge Road"/>
     <tag k="lanes" v="2"/>
@@ -5089,11 +5090,16 @@
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="lanes:forward" v="1"/>
+    <tag k="proposed:oneway" v="yes"/>
+    <tag k="proposed:oneway:psv" v="no"/>
+    <tag k="proposed:oneway:bicycle" v="no"/>
+    <tag k="proposed:oneway:emergency" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG155512"/>
-    <nd ref="178974248"/>
     <nd ref="3099008408"/>
+    <nd ref="178974248"/>
   </way>
   <way id="674122469" visible="true" version="1">
     <tag k="lit" v="yes"/>
@@ -10911,7 +10917,7 @@
     <nd ref="95092028"/>
     <nd ref="95093168"/>
   </way>
-  <way id="51878818" visible="true" version="7">
+  <way id="51878818" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Peto Street North"/>
     <tag k="oneway" v="yes"/>
@@ -10921,6 +10927,7 @@
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG184586"/>
     <nd ref="280385858"/>
+    <nd ref="8306211317"/>
     <nd ref="662143285"/>
     <nd ref="2311947819"/>
     <nd ref="662143302"/>
@@ -11055,12 +11062,17 @@
     <nd ref="2435294649"/>
     <nd ref="25445561"/>
   </way>
-  <way id="196701363" visible="true" version="4">
+  <way id="196701363" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="London Road"/>
+    <tag k="lanes" v="3"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="share_busway"/>
+    <tag k="lanes:forward" v="2"/>
     <tag k="cycleway:right" v="lane"/>
+    <tag k="lanes:backward" v="1"/>
     <tag k="cycleway:left:width" v="1.25"/>
     <tag k="cycleway:right:width" v="1.25"/>
     <tag k="tiger:upload_uuid" v="RWG219780"/>
