@@ -6260,6 +6260,10 @@
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG206359"/>
   </node>
+  <node id="8308531568" lat="51.4134392" lon="-0.30529" visible="true" version="1">
+    <tag k="traffic_calming" v="table"/>
+    <tag k="tiger:upload_uuid" v="RWG206359"/>
+  </node>
   <node id="30481626" lat="51.4149013" lon="-0.3052195" visible="true" version="21">
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG206353"/>
@@ -7079,9 +7083,9 @@
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG276219"/>
   </node>
-  <node id="525083" lat="51.6364526" lon="-0.0907938" visible="true" version="10">
-    <tag k="name" v="Mason's Corner"/>
-    <tag k="highway" v="junction"/>
+  <node id="525083" lat="51.6364526" lon="-0.0907938" visible="true" version="11">
+    <tag k="junction" v="yes"/>
+    <tag k="junction:name" v="Mason's Corner"/>
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG276219"/>
   </node>
