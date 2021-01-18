@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8328990986" lat="51.4347907" lon="-0.1989759" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+  </node>
+  <node id="8328990972" lat="51.4348013" lon="-0.1989804" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+  </node>
   <node id="8327979623" lat="51.4264146" lon="-0.1376753" version="1" visible="true">
     <tag k="highway" v="crossing"/>
   </node>
@@ -3491,7 +3498,7 @@
     <nd ref="6836096592"/>
     <nd ref="1845926414"/>
   </way>
-  <way id="573348181" visible="true" version="2">
+  <way id="573348181" visible="true" version="3">
     <tag k="name" v="Melrose Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -3500,6 +3507,8 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG277979"/>
     <nd ref="5506946745"/>
+    <nd ref="8328990972"/>
+    <nd ref="8328990986"/>
     <nd ref="21411585"/>
   </way>
   <way id="633797511" visible="true" version="1">
