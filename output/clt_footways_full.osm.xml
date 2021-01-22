@@ -447,6 +447,7 @@
     <tag k="entrance" v="yes"/>
   </node>
   <node id="3012342183" lat="51.4123319" lon="-0.0813374" version="1" visible="true"/>
+  <node id="2971973917" lat="51.5525561" lon="-0.0198082" version="1" visible="true"/>
   <node id="2949376727" lat="51.4125213" lon="-0.0814165" version="1" visible="true"/>
   <node id="2949376715" lat="51.4124383" lon="-0.081485" version="1" visible="true"/>
   <node id="2949376705" lat="51.4123471" lon="-0.0813344" version="1" visible="true"/>
@@ -497,6 +498,8 @@
   </node>
   <node id="2556494910" lat="51.551682" lon="-0.239811" version="2" visible="true"/>
   <node id="2539076424" lat="51.5803053" lon="0.1601638" version="1" visible="true"/>
+  <node id="2535768147" lat="51.5520206" lon="-0.0205404" version="2" visible="true"/>
+  <node id="2535768131" lat="51.5523538" lon="-0.0200761" version="2" visible="true"/>
   <node id="2521602984" lat="51.5984875" lon="0.2306106" version="1" visible="true"/>
   <node id="2521602981" lat="51.5982402" lon="0.2307671" version="2" visible="true"/>
   <node id="2511170087" lat="51.4812444" lon="-0.3090946" version="2" visible="true"/>
@@ -2940,6 +2943,33 @@
     <nd ref="2781231856"/>
     <nd ref="5150371243"/>
     <nd ref="5150371244"/>
+  </way>
+  <way id="276915313" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="layer" v="1"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="cycleway" v="sidewalk"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG042311"/>
+    <nd ref="2535768147"/>
+    <nd ref="2535768131"/>
+  </way>
+  <way id="276915328" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG042311"/>
+    <nd ref="2535768131"/>
+    <nd ref="2971973917"/>
   </way>
   <way id="509108708" visible="true" version="3">
     <tag k="lit" v="yes"/>

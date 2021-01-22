@@ -3248,10 +3248,10 @@
     <nd ref="7348929"/>
     <nd ref="7348906"/>
   </way>
-  <way id="183084256" visible="true" version="11">
+  <way id="183084256" visible="true" version="12">
     <tag k="name" v="Queen Elizabeth Road"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG123998"/>
@@ -3259,10 +3259,10 @@
     <nd ref="5367382939"/>
     <nd ref="5367382942"/>
   </way>
-  <way id="648783628" visible="true" version="7">
+  <way id="648783628" visible="true" version="8">
     <tag k="name" v="Queen Elizabeth Road"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="covered" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="maxheight" v="10'3&quot;"/>
@@ -3272,10 +3272,10 @@
     <nd ref="5367382937"/>
     <nd ref="5367382935"/>
   </way>
-  <way id="556394880" visible="true" version="8">
+  <way id="556394880" visible="true" version="9">
     <tag k="name" v="Queen Elizabeth Road"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG123998"/>
@@ -3565,11 +3565,11 @@
     <nd ref="5912890425"/>
     <nd ref="5912890415"/>
   </way>
-  <way id="314788579" visible="true" version="3">
+  <way id="314788579" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Fife Road"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
@@ -4964,9 +4964,8 @@
     <nd ref="2301118665"/>
     <nd ref="32546044"/>
   </way>
-  <way id="5027344" visible="true" version="10">
+  <way id="5027344" visible="true" version="11">
     <tag k="name" v="Guildford Grove"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -6000,15 +5999,17 @@
     <nd ref="7609344756"/>
     <nd ref="21494282"/>
   </way>
-  <way id="13802859" visible="true" version="10">
+  <way id="13802859" visible="true" version="11">
     <tag k="name" v="Lansdowne Road"/>
     <tag k="lanes" v="1"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="was:busway" v="opposite_lane"/>
+    <tag k="was:busway" v="lane"/>
     <tag k="was:oneway" v="yes"/>
-    <tag k="was:cycleway" v="opposite_share_busway"/>
+    <tag k="was:cycleway" v="share_busway"/>
     <tag k="was:oneway:bicycle" v="no"/>
+    <tag k="was:busway:right:oneway" v="-1"/>
+    <tag k="was:cycleway:right:oneway" v="-1"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG292677"/>
     <nd ref="1751778215"/>
@@ -6418,10 +6419,9 @@
     <nd ref="6824335666"/>
     <nd ref="25592552"/>
   </way>
-  <way id="797936963" visible="true" version="2">
+  <way id="797936963" visible="true" version="3">
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
-    <tag k="rcn" v="proposed"/>
     <tag k="ref" v="A3000"/>
     <tag k="name" v="Wellesley Road"/>
     <tag k="highway" v="primary"/>
@@ -6435,10 +6435,9 @@
     <nd ref="17916418"/>
     <nd ref="251802162"/>
   </way>
-  <way id="538335317" visible="true" version="7">
+  <way id="538335317" visible="true" version="8">
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
-    <tag k="rcn" v="proposed"/>
     <tag k="ref" v="A3000"/>
     <tag k="name" v="Wellesley Road"/>
     <tag k="highway" v="primary"/>
@@ -7990,11 +7989,10 @@
     <nd ref="8098789797"/>
     <nd ref="4076120499"/>
   </way>
-  <way id="2644766" visible="true" version="27">
+  <way id="2644766" visible="true" version="28">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Malet Street"/>
     <tag k="oneway" v="no"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="minimum" v="1.20m"/>
     <tag k="surface" v="asphalt"/>
@@ -8084,11 +8082,10 @@
     <nd ref="1651916584"/>
     <nd ref="2592872592"/>
   </way>
-  <way id="446885216" visible="true" version="8">
+  <way id="446885216" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chatham Place"/>
     <tag k="lanes" v="1"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -8505,11 +8502,10 @@
     <nd ref="3113617920"/>
     <nd ref="1953893735"/>
   </way>
-  <way id="605078469" visible="true" version="7">
+  <way id="605078469" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -8525,11 +8521,10 @@
     <nd ref="6384542420"/>
     <nd ref="185620586"/>
   </way>
-  <way id="605078469" visible="true" version="7">
+  <way id="605078469" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -8545,11 +8540,10 @@
     <nd ref="6384542420"/>
     <nd ref="185620586"/>
   </way>
-  <way id="605078469" visible="true" version="7">
+  <way id="605078469" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -8565,11 +8559,10 @@
     <nd ref="6384542420"/>
     <nd ref="185620586"/>
   </way>
-  <way id="605078469" visible="true" version="7">
+  <way id="605078469" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -8585,11 +8578,10 @@
     <nd ref="6384542420"/>
     <nd ref="185620586"/>
   </way>
-  <way id="605078469" visible="true" version="7">
+  <way id="605078469" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -8605,11 +8597,10 @@
     <nd ref="6384542420"/>
     <nd ref="185620586"/>
   </way>
-  <way id="605078469" visible="true" version="7">
+  <way id="605078469" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -8842,10 +8833,9 @@
     <nd ref="7961281747"/>
     <nd ref="6823852406"/>
   </way>
-  <way id="8562574" visible="true" version="18">
+  <way id="8562574" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="name" v="London Lane"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -8860,10 +8850,9 @@
     <nd ref="467761720"/>
     <nd ref="4689753600"/>
   </way>
-  <way id="646135095" visible="true" version="3">
+  <way id="646135095" visible="true" version="4">
     <tag k="name" v="London Lane"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -9193,10 +9182,10 @@
     <nd ref="7432098521"/>
     <nd ref="52349079"/>
   </way>
-  <way id="80502796" visible="true" version="12">
+  <way id="80502796" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Wood Street"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -9204,12 +9193,12 @@
     <nd ref="109780"/>
     <nd ref="316763559"/>
   </way>
-  <way id="83235838" visible="true" version="19">
+  <way id="83235838" visible="true" version="20">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Wood Street"/>
     <tag k="layer" v="-1"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -9220,12 +9209,12 @@
     <nd ref="2990780039"/>
     <nd ref="2990806410"/>
   </way>
-  <way id="83235838" visible="true" version="19">
+  <way id="83235838" visible="true" version="20">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Wood Street"/>
     <tag k="layer" v="-1"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -9236,10 +9225,10 @@
     <nd ref="2990780039"/>
     <nd ref="2990806410"/>
   </way>
-  <way id="459930801" visible="true" version="6">
+  <way id="459930801" visible="true" version="7">
     <tag k="name" v="Wood Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway" v="lane"/>
@@ -9251,12 +9240,12 @@
     <nd ref="1758554286"/>
     <nd ref="2990806415"/>
   </way>
-  <way id="516476398" visible="true" version="7">
+  <way id="516476398" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Wood Street"/>
     <tag k="layer" v="-1"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -9304,11 +9293,11 @@
     <nd ref="7098823267"/>
     <nd ref="2406184917"/>
   </way>
-  <way id="419121188" visible="true" version="3">
+  <way id="419121188" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="West Bank"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -9320,11 +9309,11 @@
     <nd ref="4192665528"/>
     <nd ref="1684049601"/>
   </way>
-  <way id="419121188" visible="true" version="3">
+  <way id="419121188" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="West Bank"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -9490,10 +9479,10 @@
     <nd ref="2096450587"/>
     <nd ref="1104473061"/>
   </way>
-  <way id="78073646" visible="true" version="13">
+  <way id="78073646" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Poole Street"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -9777,11 +9766,10 @@
     <nd ref="106867"/>
     <nd ref="6332638633"/>
   </way>
-  <way id="745708734" visible="true" version="2">
+  <way id="745708734" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Ecclesbourne Road"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -9847,13 +9835,14 @@
     <nd ref="3145798533"/>
     <nd ref="471488469"/>
   </way>
-  <way id="571500819" visible="true" version="5">
+  <way id="571500819" visible="true" version="6">
     <tag k="hgv" v="destination"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Lloyd Baker Street"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="was:maxwidth" v="7'2&quot;"/>
@@ -9864,13 +9853,14 @@
     <nd ref="5492447668"/>
     <nd ref="5492447666"/>
   </way>
-  <way id="571500819" visible="true" version="5">
+  <way id="571500819" visible="true" version="6">
     <tag k="hgv" v="destination"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Lloyd Baker Street"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="was:maxwidth" v="7'2&quot;"/>
@@ -9880,13 +9870,14 @@
     <nd ref="5492447668"/>
     <nd ref="5492447666"/>
   </way>
-  <way id="571500819" visible="true" version="5">
+  <way id="571500819" visible="true" version="6">
     <tag k="hgv" v="destination"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Lloyd Baker Street"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="was:maxwidth" v="7'2&quot;"/>
@@ -9895,13 +9886,14 @@
     <nd ref="5492447668"/>
     <nd ref="5492447666"/>
   </way>
-  <way id="571500822" visible="true" version="8">
+  <way id="571500822" visible="true" version="9">
     <tag k="hgv" v="destination"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Lloyd Baker Street"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
@@ -9911,13 +9903,14 @@
     <nd ref="5492447666"/>
     <nd ref="25455206"/>
   </way>
-  <way id="571500822" visible="true" version="8">
+  <way id="571500822" visible="true" version="9">
     <tag k="hgv" v="destination"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Lloyd Baker Street"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
@@ -10064,11 +10057,10 @@
     <nd ref="6431923714"/>
     <nd ref="308837357"/>
   </way>
-  <way id="461747271" visible="true" version="10">
+  <way id="461747271" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="name" v="West Smithfield"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -10238,11 +10230,11 @@
     <nd ref="2065712024"/>
     <nd ref="620787719"/>
   </way>
-  <way id="797970282" visible="true" version="2">
+  <way id="797970282" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Colebrooke Row"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
@@ -10434,11 +10426,10 @@
     <nd ref="2417297529"/>
     <nd ref="5239543922"/>
   </way>
-  <way id="303994879" visible="true" version="7">
+  <way id="303994879" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Margery Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
@@ -10458,11 +10449,10 @@
     <nd ref="3085109057"/>
     <nd ref="109359"/>
   </way>
-  <way id="303994879" visible="true" version="7">
+  <way id="303994879" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Margery Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
@@ -10482,11 +10472,10 @@
     <nd ref="3085109057"/>
     <nd ref="109359"/>
   </way>
-  <way id="303994879" visible="true" version="7">
+  <way id="303994879" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Margery Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
@@ -10671,12 +10660,12 @@
     <nd ref="2482365802"/>
     <nd ref="10703290"/>
   </way>
-  <way id="3754070" visible="true" version="26">
+  <way id="3754070" visible="true" version="28">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Margery Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
@@ -10813,11 +10802,10 @@
     <nd ref="2454409310"/>
     <nd ref="250361690"/>
   </way>
-  <way id="240509265" visible="true" version="11">
+  <way id="240509265" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Margery Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
@@ -10833,11 +10821,10 @@
     <nd ref="3085109067"/>
     <nd ref="3085109065"/>
   </way>
-  <way id="240509265" visible="true" version="11">
+  <way id="240509265" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Margery Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
@@ -11037,11 +11024,11 @@
     <nd ref="4697525067"/>
     <nd ref="4174200022"/>
   </way>
-  <way id="17933748" visible="true" version="16">
+  <way id="17933748" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Wellington Street"/>
     <tag k="image" v="80n:dsc04599.jpg"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -11170,9 +11157,8 @@
     <nd ref="21665577"/>
     <nd ref="5932875003"/>
   </way>
-  <way id="616811843" visible="true" version="5">
+  <way id="616811843" visible="true" version="6">
     <tag k="lit" v="yes"/>
-    <tag k="rcn" v="proposed"/>
     <tag k="name" v="Leonard Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="bicycle" v="yes"/>
@@ -11188,11 +11174,11 @@
     <nd ref="2431652755"/>
     <nd ref="10675870"/>
   </way>
-  <way id="49797427" visible="true" version="17">
+  <way id="49797427" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Bow Street"/>
     <tag k="lanes" v="2"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -11209,11 +11195,11 @@
     <nd ref="2476805758"/>
     <nd ref="109836"/>
   </way>
-  <way id="139420244" visible="true" version="15">
+  <way id="139420244" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Bow Street"/>
     <tag k="lanes" v="2"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -11734,11 +11720,10 @@
     <nd ref="1844769502"/>
     <nd ref="25501944"/>
   </way>
-  <way id="827047764" visible="true" version="1">
+  <way id="827047764" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Webber Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="paving_stones"/>
     <tag k="cycleway" v="separate"/>
@@ -12038,11 +12023,10 @@
     <nd ref="6831841603"/>
     <nd ref="378757154"/>
   </way>
-  <way id="166594101" visible="true" version="16">
+  <way id="166594101" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Leonard Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="commercial"/>
@@ -12231,11 +12215,10 @@
     <nd ref="4087644121"/>
     <nd ref="3431443"/>
   </way>
-  <way id="26248224" visible="true" version="9">
+  <way id="26248224" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Tabard Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -12524,10 +12507,9 @@
     <nd ref="5497815427"/>
     <nd ref="20960912"/>
   </way>
-  <way id="4999316" visible="true" version="9">
+  <way id="4999316" visible="true" version="10">
     <tag k="name" v="Kempsford Gardens"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -12662,11 +12644,10 @@
     <nd ref="7888424655"/>
     <nd ref="21504097"/>
   </way>
-  <way id="505954458" visible="true" version="2">
+  <way id="505954458" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Vauxhall Walk"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -12679,11 +12660,10 @@
     <nd ref="4957721088"/>
     <nd ref="4957721082"/>
   </way>
-  <way id="505954458" visible="true" version="2">
+  <way id="505954458" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Vauxhall Walk"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -12783,11 +12763,10 @@
     <nd ref="7330327067"/>
     <nd ref="4959806198"/>
   </way>
-  <way id="436523543" visible="true" version="5">
+  <way id="436523543" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Barchard Street"/>
     <tag k="oneway" v="no"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
@@ -12864,10 +12843,9 @@
     <nd ref="8013632076"/>
     <nd ref="25473420"/>
   </way>
-  <way id="107674706" visible="true" version="11">
+  <way id="107674706" visible="true" version="12">
     <tag k="name" v="Carlisle Lane"/>
     <tag k="oneway" v="no"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -12923,9 +12901,8 @@
     <nd ref="5483081182"/>
     <nd ref="1711105426"/>
   </way>
-  <way id="689034153" visible="true" version="1">
+  <way id="689034153" visible="true" version="2">
     <tag k="name" v="Webb Street"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -12934,10 +12911,9 @@
     <nd ref="6463354945"/>
     <nd ref="287240194"/>
   </way>
-  <way id="24725241" visible="true" version="14">
+  <way id="24725241" visible="true" version="15">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Benhill Road"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -12985,10 +12961,9 @@
     <nd ref="5739257304"/>
     <nd ref="21505286"/>
   </way>
-  <way id="784829960" visible="true" version="1">
+  <way id="784829960" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Larkhall Rise"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -12997,10 +12972,9 @@
     <nd ref="7332166683"/>
     <nd ref="10869028"/>
   </way>
-  <way id="24209002" visible="true" version="16">
+  <way id="24209002" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Larkhall Rise"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -13694,11 +13668,10 @@
     <nd ref="7968771329"/>
     <nd ref="7332166681"/>
   </way>
-  <way id="31731128" visible="true" version="12">
+  <way id="31731128" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Farquhar Road"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
@@ -13710,13 +13683,12 @@
     <nd ref="7937407280"/>
     <nd ref="135714670"/>
   </way>
-  <way id="31731127" visible="true" version="13">
+  <way id="31731127" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Farquhar Road"/>
     <tag k="layer" v="1"/>
     <tag k="bridge" v="yes"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
@@ -13726,11 +13698,10 @@
     <nd ref="355017386"/>
     <nd ref="128108290"/>
   </way>
-  <way id="24471131" visible="true" version="15">
+  <way id="24471131" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Farquhar Road"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>

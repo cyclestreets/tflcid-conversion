@@ -771,11 +771,11 @@
   <node id="245038902" lat="51.5831179" lon="0.1731573" version="3" visible="true"/>
   <node id="245038901" lat="51.5830293" lon="0.1731323" version="2" visible="true"/>
   <node id="245038893" lat="51.5827866" lon="0.1727656" version="2" visible="true"/>
-  <node id="244668085" lat="51.5338438" lon="-0.0940546" version="10" visible="true">
+  <node id="244668085" lat="51.5338438" lon="-0.0940546" version="11" visible="true">
     <tag k="foot" v="yes"/>
     <tag k="layer" v="1"/>
     <tag k="barrier" v="bollard"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="motor_vehicle" v="no"/>
   </node>
   <node id="244427417" lat="51.4695177" lon="-0.0117603" version="2" visible="true"/>
@@ -2585,14 +2585,14 @@
     <nd ref="561205607"/>
     <nd ref="279104456"/>
   </way>
-  <way id="22780531" visible="true" version="15">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Shepherdess Walk"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="surface" v="asphalt"/>
+  <way id="22780531" visible="true" version="16">
     <tag k="abutters" v="residential"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Shepherdess Walk"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="244668085"/>
     <nd ref="5186209771"/>
     <nd ref="-171"/>
@@ -2789,16 +2789,15 @@
     <nd ref="-185"/>
     <nd ref="25501773"/>
   </way>
-  <way id="437141999" visible="true" version="10">
+  <way id="437141999" visible="true" version="11">
+    <tag k="highway" v="residential"/>
     <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="name" v="Wellington Street"/>
     <tag k="note" v="lack of restriction signage approaching from N, but paved and painted for two way cycle lanes"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="City of Westminster"/>
-    <tag k="maxspeed:type" v="GB:zone20"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="25471098"/>
     <nd ref="-186"/>
     <nd ref="4350239457"/>
@@ -3774,14 +3773,13 @@
     <nd ref="5319566869"/>
     <nd ref="2120274124"/>
   </way>
-  <way id="677526010" visible="true" version="3">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Adenmore Road"/>
-    <tag k="bicycle" v="designated"/>
+  <way id="677526010" visible="true" version="4">
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Adenmore Road"/>
     <tag k="sidewalk" v="right"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="4323387259"/>
     <nd ref="-259"/>
     <nd ref="5774893288"/>

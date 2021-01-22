@@ -350,15 +350,15 @@
   <node id="763634713" lat="51.4233077" lon="-0.0139149" version="2" visible="true"/>
   <node id="763634709" lat="51.4237773" lon="-0.0146833" version="1" visible="true"/>
   <node id="763634705" lat="51.423217" lon="-0.0133189" version="2" visible="true"/>
-  <node id="695743748" lat="51.488544" lon="-0.0619502" version="4" visible="true">
+  <node id="695743748" lat="51.488544" lon="-0.0619502" version="5" visible="true">
     <tag k="foot" v="yes"/>
     <tag k="barrier" v="bollard"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
   </node>
-  <node id="695743738" lat="51.4884563" lon="-0.0625853" version="4" visible="true">
+  <node id="695743738" lat="51.4884563" lon="-0.0625853" version="5" visible="true">
     <tag k="foot" v="yes"/>
     <tag k="barrier" v="bollard"/>
-    <tag k="bicycle" v="designated"/>
+    <tag k="bicycle" v="yes"/>
   </node>
   <node id="560712041" lat="51.5592813" lon="-0.1663676" version="4" visible="true"/>
   <node id="539417127" lat="51.598994" lon="0.238791" version="2" visible="true"/>
@@ -1314,9 +1314,8 @@
     <nd ref="4441055940"/>
     <nd ref="4441055946"/>
   </way>
-  <way id="11664017" visible="true" version="7">
+  <way id="11664017" visible="true" version="8">
     <tag k="foot" v="yes"/>
-    <tag k="bicycle" v="designated"/>
     <tag k="highway" v="cycleway"/>
     <nd ref="104309983"/>
     <nd ref="695743738"/>
@@ -1561,10 +1560,9 @@
     <nd ref="354915057"/>
     <nd ref="6154607608"/>
   </way>
-  <way id="819278746" visible="true" version="5">
+  <way id="819278746" visible="true" version="6">
     <tag k="highway" v="cycleway"/>
     <tag k="lit" v="no"/>
-    <tag k="rcn" v="proposed"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="7650872389"/>
     <nd ref="970863735"/>
@@ -1598,10 +1596,9 @@
     <nd ref="5967958911"/>
     <nd ref="5967958906"/>
   </way>
-  <way id="819278746" visible="true" version="5">
+  <way id="819278746" visible="true" version="6">
     <tag k="highway" v="cycleway"/>
     <tag k="lit" v="no"/>
-    <tag k="rcn" v="proposed"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="7650872389"/>
     <nd ref="970863735"/>
