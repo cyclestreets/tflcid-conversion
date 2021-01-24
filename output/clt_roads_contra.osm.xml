@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8354850269" lat="51.3750627" lon="-0.0835483" version="1" visible="true"/>
   <node id="8328990986" lat="51.4347907" lon="-0.1989759" version="1" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
@@ -5328,7 +5329,7 @@
     <nd ref="3714200004"/>
     <nd ref="130285788"/>
   </way>
-  <way id="636993334" visible="true" version="8">
+  <way id="899179901" visible="true" version="2">
     <tag k="lcn" v="proposed"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Addiscombe Road"/>
@@ -5336,6 +5337,21 @@
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="right"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG219595"/>
+    <nd ref="8354850269"/>
+    <nd ref="60661049"/>
+  </way>
+  <way id="636993334" visible="true" version="10">
+    <tag k="lcn" v="proposed"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Addiscombe Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG219595"/>
     <nd ref="60307039"/>
@@ -5344,7 +5360,7 @@
     <nd ref="6630543655"/>
     <nd ref="1763989703"/>
     <nd ref="60307041"/>
-    <nd ref="60661049"/>
+    <nd ref="8354850269"/>
   </way>
   <way id="8065395" visible="true" version="17">
     <tag k="lcn" v="proposed"/>
