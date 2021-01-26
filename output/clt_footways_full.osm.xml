@@ -639,12 +639,13 @@
   <node id="1349512036" lat="51.5309315" lon="-0.1045605" version="1" visible="true">
     <tag k="barrier" v="gate"/>
   </node>
-  <node id="1322453392" lat="51.5431526" lon="0.0004927" version="11" visible="true">
+  <node id="1322453392" lat="51.5431526" lon="0.0004927" version="12" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
     <tag k="traffic_signals:sound" v="no"/>
     <tag k="traffic_signals:vibration" v="yes"/>
   </node>
