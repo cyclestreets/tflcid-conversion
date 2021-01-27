@@ -1892,8 +1892,10 @@
   <node id="1763989809" lat="51.3750916" lon="-0.0873877" version="1" visible="true"/>
   <node id="1763989703" lat="51.3750437" lon="-0.0832772" version="1" visible="true"/>
   <node id="1763989695" lat="51.3750319" lon="-0.0881842" version="1" visible="true"/>
-  <node id="1763000387" lat="51.4182675" lon="-0.1348324" version="4" visible="true">
+  <node id="1763000387" lat="51.4182675" lon="-0.1348324" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="1761380805" lat="51.5247356" lon="-0.090568" version="3" visible="true"/>
   <node id="1760245128" lat="51.3774185" lon="-0.1031507" version="1" visible="true"/>
@@ -3907,8 +3909,7 @@
     <nd ref="6483159740"/>
     <nd ref="151182414"/>
   </way>
-  <way id="848686082" visible="true" version="2">
-    <tag k="lcn" v="proposed"/>
+  <way id="848686082" visible="true" version="3">
     <tag k="name" v="Chelmsford Road"/>
     <tag k="highway" v="residential"/>
     <tag k="cycleway:left" v="lane"/>
@@ -3916,8 +3917,7 @@
     <nd ref="7918760217"/>
     <nd ref="1846241635"/>
   </way>
-  <way id="53038889" visible="true" version="3">
-    <tag k="lcn" v="proposed"/>
+  <way id="53038889" visible="true" version="4">
     <tag k="name" v="Park Road"/>
     <tag k="narrow" v="yes"/>
     <tag k="oneway" v="yes"/>
@@ -10603,8 +10603,7 @@
     <nd ref="23050095"/>
     <nd ref="427575188"/>
   </way>
-  <way id="36776003" visible="true" version="6">
-    <tag k="lcn" v="proposed"/>
+  <way id="36776003" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Northdown Street"/>
     <tag k="highway" v="unclassified"/>
