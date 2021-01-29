@@ -936,6 +936,7 @@
   <node id="283561331" lat="51.6534798" lon="-0.0484446" version="7" visible="true"/>
   <node id="20460691" lat="51.5181745" lon="-0.0968919" version="2" visible="true"/>
   <node id="1759040730" lat="51.5256078" lon="-0.1053213" version="2" visible="true"/>
+  <node id="444884192" lat="51.5158099" lon="-0.3988284" version="4" visible="true"/>
   <node id="2088747007" lat="51.5823664" lon="-0.01851" version="6" visible="true"/>
   <node id="4107646656" lat="51.5097845" lon="-0.1044301" version="3" visible="true"/>
   <node id="33505505" lat="51.3617052" lon="-0.1941824" version="4" visible="true"/>
@@ -976,6 +977,7 @@
   <node id="1163837590" lat="51.4613027" lon="-0.1872271" version="3" visible="true"/>
   <node id="7721185515" lat="51.5909075" lon="0.1419691" version="1" visible="true"/>
   <node id="2114879334" lat="51.5336954" lon="-0.1223773" version="3" visible="true"/>
+  <node id="6125120932" lat="51.5158553" lon="-0.3989796" version="3" visible="true"/>
   <node id="2466456412" lat="51.5190936" lon="-0.0970997" version="1" visible="true"/>
   <node id="6563418179" lat="51.4042171" lon="-0.1614714" version="1" visible="true"/>
   <node id="4827729240" lat="51.5140816" lon="-0.0281013" version="3" visible="true"/>
@@ -1250,6 +1252,7 @@
   <node id="3373050954" lat="51.4354363" lon="-0.2573357" version="5" visible="true"/>
   <node id="25445560" lat="51.5015023" lon="-0.3646982" version="5" visible="true"/>
   <node id="8084647531" lat="51.6359978" lon="-0.0835176" version="1" visible="true"/>
+  <node id="3086647988" lat="51.5156069" lon="-0.3981877" version="3" visible="true"/>
   <node id="430414706" lat="51.5766511" lon="-0.382829" version="3" visible="true"/>
   <node id="25161363" lat="51.5110734" lon="-0.0874997" version="8" visible="true"/>
   <node id="4204662697" lat="51.5756577" lon="-0.104594" version="1" visible="true"/>
@@ -1360,6 +1363,7 @@
   <node id="1562895546" lat="51.4527815" lon="0.179701" version="2" visible="true"/>
   <node id="20947335" lat="51.5018129" lon="-0.1683404" version="16" visible="true"/>
   <node id="474411703" lat="51.4746285" lon="-0.0946427" version="4" visible="true"/>
+  <node id="2573438656" lat="51.5154407" lon="-0.3976014" version="4" visible="true"/>
   <node id="46628256" lat="51.5271727" lon="-0.0582418" version="7" visible="true"/>
   <node id="4414750002" lat="51.5183514" lon="-0.0628442" version="6" visible="true"/>
   <node id="7128785648" lat="51.4886413" lon="-0.1542585" version="1" visible="true"/>
@@ -1378,6 +1382,7 @@
   <node id="2177854542" lat="51.5277831" lon="-0.1386406" version="4" visible="true"/>
   <node id="1447130067" lat="51.6165892" lon="-0.0823741" version="4" visible="true"/>
   <node id="10365726" lat="51.5256987" lon="-0.1353498" version="28" visible="true"/>
+  <node id="3086647984" lat="51.5155741" lon="-0.3980757" version="3" visible="true"/>
   <node id="8064033802" lat="51.6461483" lon="-0.0805699" version="1" visible="true"/>
   <node id="2758638938" lat="51.4117951" lon="-0.1615042" version="5" visible="true"/>
   <node id="6272019026" lat="51.6383008" lon="-0.0801877" version="4" visible="true"/>
@@ -3741,8 +3746,9 @@
     <tag k="crossing" v="unmarked"/>
     <tag k="crossing:island" v="yes"/>
   </node>
-  <node id="2440447806" lat="51.5493849" lon="-0.0914404" version="1" visible="true">
+  <node id="2440447806" lat="51.5493849" lon="-0.0914404" version="2" visible="true">
     <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="2143540772" lat="51.5487209" lon="-0.0917307" version="4" visible="true">
     <tag k="highway" v="crossing"/>
@@ -10907,6 +10913,42 @@
     <nd ref="4465463669"/>
     <nd ref="25670662"/>
   </way>
+  <way id="653586342" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A4020"/>
+    <tag k="name" v="Uxbridge Road"/>
+    <tag k="lanes" v="4"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="40 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="lanes:psv" v="1"/>
+    <tag k="busway:left" v="lane"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG237743"/>
+    <nd ref="6125120932"/>
+    <nd ref="444884192"/>
+  </way>
+  <way id="304140275" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A4020"/>
+    <tag k="name" v="Uxbridge Road"/>
+    <tag k="lanes" v="3"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="40 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="lanes:psv" v="1"/>
+    <tag k="busway:left" v="lane"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG237743"/>
+    <nd ref="444884192"/>
+    <nd ref="3086647988"/>
+    <nd ref="3086647984"/>
+    <nd ref="2573438656"/>
+  </way>
   <way id="23265280" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4020"/>
@@ -17472,7 +17514,7 @@
     <nd ref="25497445"/>
     <nd ref="102022"/>
   </way>
-  <way id="616822346" visible="true" version="3">
+  <way id="616822346" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A10"/>
     <tag k="name" v="Shoreditch High Street"/>
@@ -17480,7 +17522,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
     <tag k="busway:left" v="lane"/>
@@ -17491,7 +17533,7 @@
     <nd ref="5076698113"/>
     <nd ref="1766962611"/>
   </way>
-  <way id="680811892" visible="true" version="1">
+  <way id="680811892" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A10"/>
     <tag k="name" v="Shoreditch High Street"/>
@@ -17499,7 +17541,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
     <tag k="busway:left" v="lane"/>
@@ -17510,7 +17552,7 @@
     <nd ref="1845105034"/>
     <nd ref="5076698102"/>
   </way>
-  <way id="616822344" visible="true" version="3">
+  <way id="616822344" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A10"/>
     <tag k="name" v="Shoreditch High Street"/>
@@ -17518,7 +17560,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
     <tag k="busway:left" v="lane"/>
@@ -18468,7 +18510,7 @@
     <nd ref="1841453467"/>
     <nd ref="10870251"/>
   </way>
-  <way id="616822342" visible="true" version="4">
+  <way id="616822342" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A10"/>
     <tag k="name" v="Shoreditch High Street"/>
@@ -18476,7 +18518,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
     <tag k="lanes:forward" v="2"/>
