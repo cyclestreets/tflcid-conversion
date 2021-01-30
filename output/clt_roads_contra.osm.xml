@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8374101026" lat="51.5408016" lon="-0.1062707" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
   <node id="8354850269" lat="51.3750627" lon="-0.0835483" version="1" visible="true"/>
   <node id="8328990986" lat="51.4347907" lon="-0.1989759" version="1" visible="true">
     <tag k="highway" v="give_way"/>
@@ -9661,7 +9665,7 @@
     <nd ref="186370898"/>
     <nd ref="252263277"/>
   </way>
-  <way id="676195904" visible="true" version="1">
+  <way id="676195904" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Barnsbury Street"/>
     <tag k="oneway" v="yes"/>
@@ -9672,10 +9676,11 @@
     <tag k="tiger:upload_uuid" v="RWG150965"/>
     <nd ref="332785647"/>
     <nd ref="6332584784"/>
+    <nd ref="8374101026"/>
     <nd ref="2525132623"/>
     <nd ref="10513695"/>
   </way>
-  <way id="676195904" visible="true" version="1">
+  <way id="676195904" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Barnsbury Street"/>
     <tag k="oneway" v="yes"/>
@@ -9686,6 +9691,7 @@
     <tag k="tiger:upload_uuid" v="RWG030494"/>
     <nd ref="332785647"/>
     <nd ref="6332584784"/>
+    <nd ref="8374101026"/>
     <nd ref="2525132623"/>
     <nd ref="10513695"/>
   </way>

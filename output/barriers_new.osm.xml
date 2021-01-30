@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8375910142" lat="51.5168641" lon="-0.448006" version="1" visible="true"/>
+  <node id="8375910138" lat="51.515576" lon="-0.4493964" version="1" visible="true"/>
+  <node id="8375514644" lat="51.5166355" lon="-0.4481628" version="1" visible="true"/>
   <node id="8286085293" lat="51.5109945" lon="-0.0569138" version="1" visible="true"/>
   <node id="8270754856" lat="51.5260758" lon="-0.0269928" version="1" visible="true"/>
   <node id="8218506843" lat="51.5105522" lon="-0.4347872" version="1" visible="true"/>
@@ -101,7 +104,7 @@
   <node id="6841487581" lat="51.5225718" lon="-0.047524" version="2" visible="true">
     <tag k="barrier" v="gate"/>
   </node>
-  <node id="6759400922" lat="51.5181861" lon="-0.4450226" version="1" visible="true"/>
+  <node id="6759400922" lat="51.5181727" lon="-0.445099" version="2" visible="true"/>
   <node id="6746113462" lat="51.5302685" lon="0.0816279" version="1" visible="true"/>
   <node id="6746113447" lat="51.5296449" lon="0.0806744" version="1" visible="true"/>
   <node id="6746113442" lat="51.5294409" lon="0.0799919" version="1" visible="true"/>
@@ -540,12 +543,11 @@
   <node id="877050453" lat="51.5173067" lon="-0.4476092" version="1" visible="true"/>
   <node id="877050437" lat="51.5180435" lon="-0.4455859" version="1" visible="true"/>
   <node id="877050430" lat="51.5157679" lon="-0.4490255" version="1" visible="true"/>
-  <node id="877050413" lat="51.5167938" lon="-0.4480289" version="1" visible="true"/>
   <node id="877050400" lat="51.5179176" lon="-0.4464177" version="1" visible="true"/>
   <node id="877050390" lat="51.5155673" lon="-0.4494152" version="1" visible="true"/>
   <node id="877050362" lat="51.5178311" lon="-0.4470152" version="1" visible="true"/>
-  <node id="877050314" lat="51.5164161" lon="-0.4482912" version="1" visible="true"/>
-  <node id="877050296" lat="51.5176131" lon="-0.4472582" version="2" visible="true"/>
+  <node id="877050314" lat="51.5164662" lon="-0.4482724" version="2" visible="true"/>
+  <node id="877050296" lat="51.5176181" lon="-0.4473065" version="3" visible="true"/>
   <node id="877050277" lat="51.5159739" lon="-0.4487121" version="2" visible="true"/>
   <node id="877050267" lat="51.5170083" lon="-0.447894" version="1" visible="true"/>
   <node id="877050258" lat="51.5179736" lon="-0.4459906" version="1" visible="true"/>
@@ -553,7 +555,7 @@
   <node id="877050231" lat="51.517857" lon="-0.4468748" version="1" visible="true"/>
   <node id="877050225" lat="51.5181648" lon="-0.4451363" version="1" visible="true"/>
   <node id="877050215" lat="51.515544" lon="-0.449685" version="1" visible="true"/>
-  <node id="877050203" lat="51.5156932" lon="-0.4507641" version="1" visible="true"/>
+  <node id="877050203" lat="51.5157026" lon="-0.4508833" version="2" visible="true"/>
   <node id="877050172" lat="51.5166166" lon="-0.4481788" version="1" visible="true"/>
   <node id="848529194" lat="51.6586266" lon="-0.2022043" version="2" visible="true"/>
   <node id="792582578" lat="51.4580922" lon="-0.0961533" version="1" visible="true"/>
@@ -1141,7 +1143,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG242372"/>
   </node>
-  <node id="-312" lat="51.5177740957662" lon="-0.447078735531392" visible="true">
+  <node id="-312" lat="51.5177811932352" lon="-0.447083445566289" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -4404,20 +4406,22 @@
     <nd ref="38891356"/>
     <nd ref="38891353"/>
   </way>
-  <way id="23207291" visible="true" version="7">
-    <tag k="name" v="Gould's Green"/>
-    <tag k="highway" v="residential"/>
+  <way id="23207291" visible="true" version="9">
     <tag k="alt_name" v="Goulds Green"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Gould's Green"/>
     <nd ref="877050203"/>
     <nd ref="877050215"/>
     <nd ref="877050390"/>
+    <nd ref="8375910138"/>
     <nd ref="877050251"/>
     <nd ref="877050430"/>
     <nd ref="877050277"/>
     <nd ref="877050466"/>
     <nd ref="877050314"/>
     <nd ref="877050172"/>
-    <nd ref="877050413"/>
+    <nd ref="8375514644"/>
+    <nd ref="8375910142"/>
     <nd ref="877050267"/>
     <nd ref="877050453"/>
     <nd ref="877050296"/>
