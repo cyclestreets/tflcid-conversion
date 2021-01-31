@@ -317,9 +317,10 @@
   <node id="7432098526" lat="51.5483272" lon="-0.0638567" version="1" visible="true"/>
   <node id="7432098525" lat="51.548159" lon="-0.063901" version="1" visible="true"/>
   <node id="7432098524" lat="51.5485076" lon="-0.0639894" version="2" visible="true"/>
-  <node id="7432098521" lat="51.5482783" lon="-0.0647183" version="2" visible="true">
+  <node id="7432098521" lat="51.5482783" lon="-0.0647183" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="7416112505" lat="51.5175735" lon="-0.0593307" version="1" visible="true"/>
@@ -8972,7 +8973,8 @@
     <nd ref="5046314042"/>
     <nd ref="25632860"/>
   </way>
-  <way id="878040604" visible="true" version="2">
+  <way id="878040604" visible="true" version="3">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Wayland Avenue"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
@@ -8987,24 +8989,30 @@
     <nd ref="5532309395"/>
     <nd ref="25872337"/>
   </way>
-  <way id="4287566" visible="true" version="20">
+  <way id="4287566" visible="true" version="23">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Wayland Avenue"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG009044"/>
     <nd ref="25696662"/>
     <nd ref="8240081706"/>
     <nd ref="8089266665"/>
   </way>
-  <way id="4287566" visible="true" version="20">
+  <way id="4287566" visible="true" version="23">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Wayland Avenue"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG097844"/>
     <nd ref="25696662"/>
@@ -10270,10 +10278,11 @@
     <nd ref="7440151241"/>
     <nd ref="35360808"/>
   </way>
-  <way id="794608872" visible="true" version="1">
+  <way id="794608872" visible="true" version="2">
     <tag k="name" v="Wayland Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
