@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8385470985" lat="51.5037067" lon="-0.0808139" version="1" visible="true"/>
   <node id="8375910142" lat="51.5168641" lon="-0.448006" version="1" visible="true"/>
   <node id="8375910138" lat="51.515576" lon="-0.4493964" version="1" visible="true"/>
   <node id="8375514644" lat="51.5166355" lon="-0.4481628" version="1" visible="true"/>
@@ -524,7 +525,6 @@
   <node id="1136348491" lat="51.5095666" lon="-0.0249311" version="6" visible="true"/>
   <node id="1129393324" lat="51.3621297" lon="-0.1920576" version="2" visible="true"/>
   <node id="1104386149" lat="51.5116816" lon="-0.1195882" version="4" visible="true"/>
-  <node id="1048496553" lat="51.5037067" lon="-0.0808139" version="3" visible="true"/>
   <node id="1028854036" lat="51.5548281" lon="-0.1385636" version="1" visible="true"/>
   <node id="1016971553" lat="51.5305964" lon="-0.2970974" version="1" visible="true"/>
   <node id="1016971551" lat="51.5307262" lon="-0.2975552" version="3" visible="true">
@@ -821,7 +821,7 @@
   <node id="137921237" lat="51.5220379" lon="-0.0477762" version="3" visible="true"/>
   <node id="137921234" lat="51.5219411" lon="-0.0477695" version="2" visible="true"/>
   <node id="133196734" lat="51.5215771" lon="-0.0476011" version="15" visible="true"/>
-  <node id="130202844" lat="51.5037263" lon="-0.0808008" version="10" visible="true"/>
+  <node id="130202844" lat="51.5037212" lon="-0.0808089" version="11" visible="true"/>
   <node id="129993523" lat="51.5334901" lon="0.0065588" version="3" visible="true"/>
   <node id="126559200" lat="51.5335613" lon="0.0341463" version="4" visible="true"/>
   <node id="126559198" lat="51.5331765" lon="0.0320172" version="1" visible="true"/>
@@ -3215,14 +3215,14 @@
     <nd ref="6280005198"/>
     <nd ref="27513875"/>
   </way>
-  <way id="75392995" visible="true" version="4">
+  <way id="75392995" visible="true" version="5">
+    <tag k="highway" v="residential"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Shand Street"/>
-    <tag k="highway" v="residential"/>
     <nd ref="340511370"/>
     <nd ref="285894133"/>
     <nd ref="-222"/>
-    <nd ref="1048496553"/>
+    <nd ref="8385470985"/>
     <nd ref="130202844"/>
   </way>
   <way id="4003193" visible="true" version="7">

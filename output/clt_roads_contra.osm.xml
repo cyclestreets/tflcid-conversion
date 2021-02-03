@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8385470980" lat="51.5057857" lon="-0.0862274" version="1" visible="true"/>
+  <node id="8385470979" lat="51.5058889" lon="-0.0868636" version="1" visible="true"/>
   <node id="8379674480" lat="51.4681161" lon="-0.190804" version="1" visible="true"/>
   <node id="8374101026" lat="51.5408016" lon="-0.1062707" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -668,8 +670,6 @@
   </node>
   <node id="6473512821" lat="51.4584369" lon="-0.191825" version="1" visible="true"/>
   <node id="6463354945" lat="51.4950707" lon="-0.0816251" version="1" visible="true"/>
-  <node id="6457452073" lat="51.5058512" lon="-0.0866203" version="3" visible="true"/>
-  <node id="6457452072" lat="51.5058219" lon="-0.0864419" version="3" visible="true"/>
   <node id="6443787914" lat="51.4761914" lon="-0.1275533" version="2" visible="true"/>
   <node id="6431923715" lat="51.517924" lon="-0.1042975" version="1" visible="true"/>
   <node id="6431923714" lat="51.518048" lon="-0.1038787" version="1" visible="true"/>
@@ -1115,9 +1115,9 @@
   <node id="5230657029" lat="51.5725097" lon="-0.1329267" version="1" visible="true"/>
   <node id="5229553602" lat="51.5762569" lon="-0.1432656" version="2" visible="true"/>
   <node id="5224834862" lat="51.3612109" lon="-0.1865917" version="1" visible="true"/>
-  <node id="5219047474" lat="51.5047094" lon="-0.0833886" version="4" visible="true">
+  <node id="5219047474" lat="51.5047094" lon="-0.0833886" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="forward"/>
+    <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="5211220867" lat="51.5360914" lon="-0.0853571" version="1" visible="true"/>
   <node id="5211220855" lat="51.5361027" lon="-0.0860903" version="1" visible="true"/>
@@ -1242,7 +1242,6 @@
   <node id="4840726611" lat="51.4946138" lon="-0.1487152" version="1" visible="true"/>
   <node id="4836300655" lat="51.394304" lon="-0.2956615" version="1" visible="true"/>
   <node id="4835779209" lat="51.5420503" lon="-0.0553023" version="4" visible="true"/>
-  <node id="4779511332" lat="51.5058354" lon="-0.0865229" version="4" visible="true"/>
   <node id="4779511331" lat="51.5059146" lon="-0.0870296" version="4" visible="true"/>
   <node id="4777953680" lat="51.5243328" lon="-0.1260141" version="3" visible="true"/>
   <node id="4775922562" lat="51.5419264" lon="-0.0573187" version="2" visible="true">
@@ -2312,7 +2311,6 @@
   <node id="300452746" lat="51.4862279" lon="-0.0006999" version="11" visible="true"/>
   <node id="294193067" lat="51.3939097" lon="-0.2954272" version="4" visible="true"/>
   <node id="293294720" lat="51.4992032" lon="-0.1372784" version="3" visible="true"/>
-  <node id="293032486" lat="51.5058123" lon="-0.0863772" version="8" visible="true"/>
   <node id="292176009" lat="51.5060968" lon="-0.0880005" version="12" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -2403,9 +2401,6 @@
     <tag k="crossing_ref" v="pelican"/>
   </node>
   <node id="247956983" lat="51.5054712" lon="-0.0852606" version="7" visible="true"/>
-  <node id="247956796" lat="51.5058434" lon="-0.0865707" version="5" visible="true">
-    <tag k="highway" v="crossing"/>
-  </node>
   <node id="246846407" lat="51.5336926" lon="-0.0379531" version="3" visible="true"/>
   <node id="245744440" lat="51.3716627" lon="-0.1036342" version="4" visible="true"/>
   <node id="245744439" lat="51.3716118" lon="-0.10515" version="4" visible="true"/>
@@ -3091,7 +3086,6 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="3431443" lat="51.5057752" lon="-0.0861611" version="10" visible="true"/>
   <node id="3409996" lat="51.4752006" lon="-0.0260321" version="10" visible="true"/>
   <node id="3202105" lat="51.474099" lon="-0.0158656" version="3" visible="true"/>
   <node id="3202093" lat="51.4739666" lon="-0.0166713" version="4" visible="true"/>
@@ -3152,8 +3146,9 @@
   </node>
   <node id="109354" lat="51.5280121" lon="-0.1098325" version="10" visible="true"/>
   <node id="109185" lat="51.5377422" lon="-0.1486695" version="7" visible="true"/>
-  <node id="108846" lat="51.5060846" lon="-0.0879358" version="7" visible="true">
+  <node id="108846" lat="51.5060846" lon="-0.0879358" version="8" visible="true">
     <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="108615" lat="51.5431088" lon="-0.0955079" version="15" visible="true"/>
   <node id="108614" lat="51.5425407" lon="-0.0963663" version="12" visible="true"/>
@@ -12233,7 +12228,7 @@
     <nd ref="7076670132"/>
     <nd ref="7076670128"/>
   </way>
-  <way id="19545035" visible="true" version="33">
+  <way id="19545035" visible="true" version="34">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Tooley Street"/>
@@ -12264,9 +12259,9 @@
     <nd ref="26406635"/>
     <nd ref="518713303"/>
     <nd ref="4087644121"/>
-    <nd ref="3431443"/>
+    <nd ref="8385470980"/>
   </way>
-  <way id="19545035" visible="true" version="33">
+  <way id="19545035" visible="true" version="34">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Tooley Street"/>
@@ -12297,7 +12292,7 @@
     <nd ref="26406635"/>
     <nd ref="518713303"/>
     <nd ref="4087644121"/>
-    <nd ref="3431443"/>
+    <nd ref="8385470980"/>
   </way>
   <way id="26248224" visible="true" version="10">
     <tag k="lit" v="yes"/>
@@ -13359,7 +13354,7 @@
     <nd ref="641397356"/>
     <nd ref="255878401"/>
   </way>
-  <way id="317711958" visible="true" version="10">
+  <way id="902848238" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Duke Street Hill"/>
@@ -13372,16 +13367,29 @@
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:right:track" v="hybrid"/>
     <tag k="tiger:upload_uuid" v="RWG082145"/>
-    <nd ref="3431443"/>
-    <nd ref="293032486"/>
-    <nd ref="6457452072"/>
-    <nd ref="4779511332"/>
-    <nd ref="247956796"/>
-    <nd ref="6457452073"/>
+    <nd ref="3240062645"/>
+    <nd ref="108846"/>
+    <nd ref="292176009"/>
+  </way>
+  <way id="902848239" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A200"/>
+    <tag k="name" v="Duke Street Hill"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="proposed:cycleway:left" v="track"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG082145"/>
+    <nd ref="8385470979"/>
     <nd ref="4779511331"/>
     <nd ref="3240062614"/>
   </way>
-  <way id="317711946" visible="true" version="8">
+  <way id="317711946" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Duke Street Hill"/>
@@ -13391,6 +13399,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="proposed:cycleway:left" v="track"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:right:track" v="hybrid"/>
     <tag k="tiger:upload_uuid" v="RWG082145"/>
@@ -13398,10 +13407,8 @@
     <nd ref="4087644120"/>
     <nd ref="1961926642"/>
     <nd ref="3240062645"/>
-    <nd ref="108846"/>
-    <nd ref="292176009"/>
   </way>
-  <way id="317711946" visible="true" version="8">
+  <way id="317711946" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Duke Street Hill"/>
@@ -13411,6 +13418,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="proposed:cycleway:left" v="track"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:right:track" v="hybrid"/>
     <tag k="tiger:upload_uuid" v="RWG082145"/>
@@ -13418,8 +13426,6 @@
     <nd ref="4087644120"/>
     <nd ref="1961926642"/>
     <nd ref="3240062645"/>
-    <nd ref="108846"/>
-    <nd ref="292176009"/>
   </way>
   <way id="89305729" visible="true" version="13">
     <tag k="name" v="Upper Ground"/>

@@ -1515,86 +1515,95 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
-  <way id="867311262" visible="true" version="2">
+  <way id="867311262" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="track"/>
     <tag k="tiger:upload_uuid" v="RWG149180"/>
     <nd ref="8084693447"/>
     <nd ref="8084743173"/>
   </way>
-  <way id="867311266" visible="true" version="1">
+  <way id="867311266" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway:right" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG149180"/>
     <nd ref="8084693440"/>
     <nd ref="8084693447"/>
   </way>
-  <way id="867311263" visible="true" version="1">
+  <way id="867311263" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="track"/>
     <tag k="tiger:upload_uuid" v="RWG149180"/>
     <nd ref="8084693445"/>
     <nd ref="25973080"/>
     <nd ref="8084693440"/>
   </way>
-  <way id="867311263" visible="true" version="1">
+  <way id="867311263" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="track"/>
     <tag k="tiger:upload_uuid" v="RWG187320"/>
     <nd ref="8084693445"/>
     <nd ref="25973080"/>
     <nd ref="8084693440"/>
   </way>
-  <way id="867311258" visible="true" version="1">
+  <way id="867311258" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG187320"/>
     <nd ref="8084693444"/>
     <nd ref="8084693445"/>
   </way>
-  <way id="867303928" visible="true" version="2">
+  <way id="867303928" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG187320"/>
     <nd ref="8080147875"/>
     <nd ref="8084693444"/>
   </way>
-  <way id="867303967" visible="true" version="1">
+  <way id="867303967" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="tiger:upload_uuid" v="RWG187320"/>
     <nd ref="8084647563"/>
     <nd ref="8080147875"/>
   </way>
-  <way id="867303965" visible="true" version="2">
+  <way id="867303965" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="tiger:upload_uuid" v="RWG187320"/>
@@ -2510,13 +2519,14 @@
     <nd ref="129994238"/>
     <nd ref="2477093245"/>
   </way>
-  <way id="28458889" visible="true" version="7">
+  <way id="28458889" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Idmiston Road"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="ref:GB:usrn" v="22200075"/>
+    <tag k="lane_markings" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG289792"/>
     <nd ref="5835485252"/>
     <nd ref="130237629"/>
