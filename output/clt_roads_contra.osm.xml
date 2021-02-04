@@ -106,7 +106,9 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="7891481597" lat="51.509027" lon="-0.2629929" version="1" visible="true"/>
+  <node id="7891481597" lat="51.509027" lon="-0.2629929" version="2" visible="true">
+    <tag k="traffic_calming" v="table"/>
+  </node>
   <node id="7891481595" lat="51.5089893" lon="-0.2629619" version="1" visible="true"/>
   <node id="7888424655" lat="51.4553736" lon="-0.1291741" version="1" visible="true">
     <tag k="cycleway" v="asl"/>
@@ -2621,7 +2623,9 @@
   <node id="73771832" lat="51.5873095" lon="-0.2830587" version="12" visible="true"/>
   <node id="73771830" lat="51.5874239" lon="-0.284361" version="2" visible="true"/>
   <node id="73771829" lat="51.587308" lon="-0.2846105" version="2" visible="true"/>
-  <node id="71539789" lat="51.5089284" lon="-0.262946" version="6" visible="true"/>
+  <node id="71539789" lat="51.5089284" lon="-0.262946" version="7" visible="true">
+    <tag k="traffic_calming" v="table"/>
+  </node>
   <node id="71538766" lat="51.5087384" lon="-0.2649158" version="4" visible="true"/>
   <node id="71538765" lat="51.5084808" lon="-0.2648881" version="3" visible="true"/>
   <node id="71538379" lat="51.5070242" lon="-0.2655912" version="2" visible="true"/>
