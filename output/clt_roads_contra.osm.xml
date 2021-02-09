@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8403985757" lat="51.4838916" lon="-0.1652866" version="1" visible="true"/>
   <node id="8401998384" lat="51.4736732" lon="-0.0868039" version="1" visible="true"/>
   <node id="8401943805" lat="51.473562" lon="-0.0867789" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -1150,7 +1151,7 @@
   <node id="5199449319" lat="51.4682028" lon="-0.1905884" version="1" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
-  <node id="5198900138" lat="51.4836291" lon="-0.1666766" version="1" visible="true"/>
+  <node id="5198900138" lat="51.4836366" lon="-0.1666614" version="2" visible="true"/>
   <node id="5191379463" lat="51.5637192" lon="0.0706717" version="2" visible="true"/>
   <node id="5191379455" lat="51.5642168" lon="0.0720849" version="1" visible="true"/>
   <node id="5137500238" lat="51.5000982" lon="-0.0758867" version="6" visible="true"/>
@@ -2166,7 +2167,7 @@
   <node id="893096846" lat="51.4989636" lon="-0.0859625" version="4" visible="true"/>
   <node id="882215106" lat="51.445844" lon="-0.197945" version="2" visible="true"/>
   <node id="877105292" lat="51.5424888" lon="-0.1604812" version="3" visible="true"/>
-  <node id="866650001" lat="51.4836496" lon="-0.1666158" version="7" visible="true"/>
+  <node id="866650001" lat="51.4836528" lon="-0.1666204" version="9" visible="true"/>
   <node id="848082160" lat="51.5685337" lon="-0.1258197" version="4" visible="true"/>
   <node id="812149215" lat="51.5056136" lon="-0.2118057" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -11197,12 +11198,13 @@
     <nd ref="2405520482"/>
     <nd ref="439565025"/>
   </way>
-  <way id="232177642" visible="true" version="1">
+  <way id="232177642" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG066765"/>
@@ -11213,12 +11215,13 @@
     <nd ref="2405520483"/>
     <nd ref="439564849"/>
   </way>
-  <way id="232177642" visible="true" version="1">
+  <way id="232177642" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG152706"/>
@@ -13192,18 +13195,6 @@
     <nd ref="866650001"/>
     <nd ref="5198900138"/>
   </way>
-  <way id="904693231" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Cheyne Walk"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG135151"/>
-    <nd ref="866650001"/>
-    <nd ref="5198900138"/>
-  </way>
   <way id="20138879" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="psv" v="yes"/>
@@ -13243,7 +13234,7 @@
     <nd ref="2453363728"/>
     <nd ref="12353263"/>
   </way>
-  <way id="10402410" visible="true" version="16">
+  <way id="10402410" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Cheyne Walk"/>
     <tag k="oneway" v="yes"/>
@@ -13253,6 +13244,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG135151"/>
     <nd ref="88767559"/>
+    <nd ref="8403985757"/>
     <nd ref="37896747"/>
     <nd ref="866650001"/>
   </way>
