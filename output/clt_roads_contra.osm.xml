@@ -2645,9 +2645,10 @@
   <node id="68999158" lat="51.5020939" lon="-0.268969" version="7" visible="true"/>
   <node id="68998629" lat="51.5061265" lon="-0.2743904" version="4" visible="true"/>
   <node id="68998628" lat="51.5063863" lon="-0.2744186" version="5" visible="true"/>
-  <node id="68998625" lat="51.506712" lon="-0.2743263" version="4" visible="true">
+  <node id="68998625" lat="51.506712" lon="-0.2743263" version="5" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="no"/>
   </node>
   <node id="68998621" lat="51.5068879" lon="-0.2740991" version="3" visible="true"/>
   <node id="68985070" lat="51.4993774" lon="-0.2203725" version="5" visible="true"/>
@@ -6029,12 +6030,13 @@
     <nd ref="1792436173"/>
     <nd ref="250856352"/>
   </way>
-  <way id="690082748" visible="true" version="7">
+  <way id="690082748" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Seaford Road"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG234215"/>
     <nd ref="6576824743"/>
@@ -6476,13 +6478,14 @@
     <nd ref="7080321683"/>
     <nd ref="7080321673"/>
   </way>
-  <way id="744634864" visible="true" version="2">
+  <way id="744634864" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Seaford Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG234386"/>
     <nd ref="6576818742"/>

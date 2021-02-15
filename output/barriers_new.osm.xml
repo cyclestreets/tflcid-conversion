@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8421658428" lat="51.5151489" lon="-0.1412044" version="1" visible="true"/>
+  <node id="8421658427" lat="51.5151952" lon="-0.1412364" version="1" visible="true"/>
+  <node id="8421658426" lat="51.5151526" lon="-0.1411844" version="1" visible="true"/>
+  <node id="8421658425" lat="51.5152045" lon="-0.141216" version="1" visible="true"/>
+  <node id="8421658424" lat="51.5153286" lon="-0.1412915" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+  </node>
   <node id="8389949718" lat="51.5175356" lon="-0.4473867" version="1" visible="true"/>
   <node id="8389949717" lat="51.5178306" lon="-0.4470784" version="1" visible="true"/>
   <node id="8389938600" lat="51.5188495" lon="-0.4438868" version="1" visible="true"/>
@@ -390,9 +397,6 @@
   <node id="2120274124" lat="51.387933" lon="0.0208573" version="2" visible="true"/>
   <node id="2114488566" lat="51.5807672" lon="-0.0235441" version="2" visible="true"/>
   <node id="2067068307" lat="51.3820202" lon="-0.2880389" version="1" visible="true"/>
-  <node id="2047806107" lat="51.5153396" lon="-0.1412322" version="8" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-  </node>
   <node id="2043946056" lat="51.5117182" lon="-0.0519471" version="1" visible="true"/>
   <node id="2036046706" lat="51.4245442" lon="-0.3426338" version="2" visible="true">
     <tag k="foot" v="yes"/>
@@ -2729,13 +2733,17 @@
     <nd ref="-183"/>
     <nd ref="25498827"/>
   </way>
-  <way id="4259295" visible="true" version="7">
+  <way id="4259295" visible="true" version="8">
+    <tag k="highway" v="pedestrian"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Argyll Street"/>
-    <tag k="highway" v="pedestrian"/>
-    <tag k="surface" v="paving_stones"/>
     <tag k="source:name" v="photograph"/>
-    <nd ref="2047806107"/>
+    <tag k="surface" v="paving_stones"/>
+    <nd ref="8421658424"/>
+    <nd ref="8421658425"/>
+    <nd ref="8421658427"/>
+    <nd ref="8421658428"/>
+    <nd ref="8421658426"/>
     <nd ref="21665915"/>
     <nd ref="-184"/>
     <nd ref="25501773"/>
