@@ -444,7 +444,6 @@
   <node id="3126695158" lat="51.4930102" lon="0.1838036" version="2" visible="true"/>
   <node id="3120753952" lat="51.5880807" lon="-0.0606821" version="2" visible="true"/>
   <node id="3110271719" lat="51.5369024" lon="-0.39149" version="1" visible="true"/>
-  <node id="3101940570" lat="51.4827849" lon="-0.249058" version="2" visible="true"/>
   <node id="3041370631" lat="51.4724789" lon="-0.2703573" version="2" visible="true"/>
   <node id="3041370630" lat="51.4721081" lon="-0.2697048" version="1" visible="true">
     <tag k="barrier" v="bollard"/>
@@ -804,12 +803,6 @@
   <node id="20913273" lat="51.4867889" lon="-0.2436793" version="2" visible="true"/>
   <node id="20913272" lat="51.4859694" lon="-0.2450589" version="2" visible="true"/>
   <node id="20913271" lat="51.4851893" lon="-0.2463433" version="3" visible="true"/>
-  <node id="20913270" lat="51.4842828" lon="-0.2476784" version="2" visible="true"/>
-  <node id="20913269" lat="51.4840191" lon="-0.2480791" version="3" visible="true"/>
-  <node id="20913268" lat="51.4833524" lon="-0.2487072" version="3" visible="true"/>
-  <node id="20913267" lat="51.4825038" lon="-0.2491923" version="3" visible="true"/>
-  <node id="20913266" lat="51.4818418" lon="-0.2493244" version="2" visible="true"/>
-  <node id="20913265" lat="51.4809431" lon="-0.2492768" version="2" visible="true"/>
   <node id="20913264" lat="51.4799009" lon="-0.2491269" version="5" visible="true"/>
   <node id="20913263" lat="51.4782473" lon="-0.2491795" version="4" visible="true"/>
   <node id="20913262" lat="51.4779417" lon="-0.2492262" version="4" visible="true"/>
@@ -2079,7 +2072,8 @@
     <nd ref="7096033484"/>
     <nd ref="7096033476"/>
   </way>
-  <way id="3991917" visible="true" version="8">
+  <way id="3991917" visible="true" version="9">
+    <tag k="name" v="Thames Tow Path"/>
     <tag k="highway" v="path"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
@@ -2100,7 +2094,8 @@
     <nd ref="2715731772"/>
     <nd ref="20913260"/>
   </way>
-  <way id="3991917" visible="true" version="8">
+  <way id="3991917" visible="true" version="9">
+    <tag k="name" v="Thames Tow Path"/>
     <tag k="highway" v="path"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
@@ -2120,40 +2115,6 @@
     <nd ref="2715731745"/>
     <nd ref="2715731772"/>
     <nd ref="20913260"/>
-  </way>
-  <way id="3991916" visible="true" version="7">
-    <tag k="highway" v="path"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="oneway" v="no"/>
-    <tag k="segregated" v="no"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG291426"/>
-    <nd ref="20913271"/>
-    <nd ref="20913270"/>
-    <nd ref="20913269"/>
-    <nd ref="20913268"/>
-    <nd ref="3101940570"/>
-    <nd ref="20913267"/>
-    <nd ref="20913266"/>
-    <nd ref="20913265"/>
-    <nd ref="20913264"/>
-  </way>
-  <way id="3991916" visible="true" version="7">
-    <tag k="highway" v="path"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="oneway" v="no"/>
-    <tag k="segregated" v="no"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG291426"/>
-    <nd ref="20913271"/>
-    <nd ref="20913270"/>
-    <nd ref="20913269"/>
-    <nd ref="20913268"/>
-    <nd ref="3101940570"/>
-    <nd ref="20913267"/>
-    <nd ref="20913266"/>
-    <nd ref="20913265"/>
-    <nd ref="20913264"/>
   </way>
   <way id="3991915" visible="true" version="10">
     <tag k="highway" v="path"/>
@@ -3206,9 +3167,9 @@
     <nd ref="24952515"/>
     <nd ref="4808275429"/>
   </way>
-  <way id="566854354" visible="true" version="7">
+  <way id="566854354" visible="true" version="8">
     <tag k="name" v="Upper Mall"/>
-    <tag k="covered" v="yes"/>
+    <tag k="covered" v="building_passage"/>
     <tag k="highway" v="path"/>
     <tag k="surface" v="paving_stones"/>
     <tag k="segregated" v="no"/>
