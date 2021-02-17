@@ -1215,12 +1215,15 @@
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG272085"/>
   </node>
-  <node id="288041097" lat="51.5076974" lon="-0.2729677" visible="true" version="7">
+  <node id="288041097" lat="51.5076974" lon="-0.2729677" visible="true" version="10">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+    <tag k="button_operated" v="yes"/>
     <tag k="crossing:island" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG272085"/>
   </node>

@@ -23,7 +23,7 @@
   <node id="2131769469" lat="51.507861" lon="-0.0877888" version="5" visible="true"/>
   <node id="2918007750" lat="51.4739448" lon="-0.063982" version="3" visible="true"/>
   <node id="282708" lat="51.5215002" lon="-0.0785403" version="11" visible="true"/>
-  <node id="1271778546" lat="51.4840195" lon="-0.176653" version="8" visible="true"/>
+  <node id="1271778546" lat="51.4840304" lon="-0.1766714" version="9" visible="true"/>
   <node id="31503916" lat="51.5502785" lon="0.1616228" version="2" visible="true"/>
   <node id="488584356" lat="51.5868887" lon="-0.3857172" version="3" visible="true"/>
   <node id="720900903" lat="51.5256946" lon="-0.0318238" version="7" visible="true"/>
@@ -593,7 +593,6 @@
   <node id="7053148974" lat="51.4814058" lon="-0.0159424" version="1" visible="true"/>
   <node id="242550954" lat="51.572461" lon="-0.0684132" version="8" visible="true"/>
   <node id="33002250" lat="51.4474906" lon="-0.0854787" version="6" visible="true"/>
-  <node id="4715264001" lat="51.5137462" lon="-0.0760953" version="3" visible="true"/>
   <node id="1312454003" lat="51.5072616" lon="-0.08786" version="7" visible="true"/>
   <node id="2360524974" lat="51.5878193" lon="-0.0566791" version="6" visible="true"/>
   <node id="6373391341" lat="51.4948301" lon="-0.3217225" version="3" visible="true"/>
@@ -1146,7 +1145,7 @@
   <node id="3705331854" lat="51.5199043" lon="-0.0564702" version="4" visible="true"/>
   <node id="4937779198" lat="51.5620867" lon="-0.0458783" version="4" visible="true"/>
   <node id="7564332458" lat="51.4995675" lon="-0.1117996" version="2" visible="true"/>
-  <node id="198046" lat="51.4839581" lon="-0.1767428" version="9" visible="true"/>
+  <node id="198046" lat="51.4839664" lon="-0.1767653" version="10" visible="true"/>
   <node id="60084325" lat="51.6190041" lon="-0.3401215" version="4" visible="true"/>
   <node id="1448692395" lat="51.5803752" lon="0.1833705" version="3" visible="true"/>
   <node id="1458665363" lat="51.5291911" lon="-0.0150405" version="6" visible="true"/>
@@ -1895,7 +1894,6 @@
   <node id="2854085700" lat="51.4593868" lon="-0.1902796" version="5" visible="true"/>
   <node id="8017764138" lat="51.4173963" lon="-0.2817106" version="1" visible="true"/>
   <node id="2360524983" lat="51.5876683" lon="-0.0559736" version="3" visible="true"/>
-  <node id="4715264002" lat="51.5137745" lon="-0.0760065" version="3" visible="true"/>
   <node id="449188099" lat="51.4528607" lon="0.0320098" version="5" visible="true"/>
   <node id="3610864735" lat="51.4391017" lon="-0.360977" version="3" visible="true"/>
   <node id="2665239973" lat="51.5110977" lon="-0.1028379" version="3" visible="true"/>
@@ -3681,11 +3679,13 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
   </node>
-  <node id="3231708929" lat="51.5152718" lon="-0.0715497" version="6" visible="true">
+  <node id="3231708929" lat="51.5152718" lon="-0.0715497" version="7" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="3231708912" lat="51.5151375" lon="-0.0719283" version="6" visible="true">
+  <node id="3231708912" lat="51.5151375" lon="-0.0719283" version="7" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="3231708910" lat="51.515123" lon="-0.071965" version="6" visible="true">
     <tag k="highway" v="crossing"/>
@@ -15194,20 +15194,6 @@
     <tag k="tiger:upload_uuid" v="RWG066642"/>
     <nd ref="10365726"/>
     <nd ref="2095079015"/>
-  </way>
-  <way id="478293189" visible="true" version="3">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Aldgate High Street"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="abutters" v="commercial"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="tiger:upload_uuid" v="RWG066273,RWG066277"/>
-    <nd ref="4715264002"/>
-    <nd ref="4715264001"/>
   </way>
   <way id="148379761" visible="true" version="5">
     <tag k="lit" v="yes"/>
