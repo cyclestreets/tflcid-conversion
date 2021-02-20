@@ -992,6 +992,7 @@
   <node id="4725902091" lat="51.5265471" lon="-0.0764035" version="1" visible="true"/>
   <node id="5105780261" lat="51.4594813" lon="0.0263802" version="3" visible="true"/>
   <node id="1163837590" lat="51.4613027" lon="-0.1872271" version="3" visible="true"/>
+  <node id="8281172947" lat="51.4856004" lon="-0.034422" version="1" visible="true"/>
   <node id="7721185515" lat="51.5909075" lon="0.1419691" version="1" visible="true"/>
   <node id="2114879334" lat="51.5336954" lon="-0.1223773" version="3" visible="true"/>
   <node id="6125120932" lat="51.5158553" lon="-0.3989796" version="3" visible="true"/>
@@ -1771,6 +1772,7 @@
   <node id="5111933470" lat="51.4411451" lon="-0.09107" version="4" visible="true"/>
   <node id="417001281" lat="51.531146" lon="-0.0107324" version="8" visible="true"/>
   <node id="2018396605" lat="51.4313957" lon="-0.2650911" version="5" visible="true"/>
+  <node id="8436205019" lat="51.4865432" lon="-0.0357366" version="1" visible="true"/>
   <node id="8256227547" lat="51.524869" lon="-0.0875589" version="1" visible="true"/>
   <node id="56695922" lat="51.385786" lon="-0.1919111" version="4" visible="true"/>
   <node id="3725519047" lat="51.5250859" lon="-0.0342854" version="4" visible="true"/>
@@ -2043,6 +2045,7 @@
   <node id="11947085" lat="51.5740462" lon="0.0798868" version="6" visible="true"/>
   <node id="1416600557" lat="51.5857867" lon="0.006499" version="3" visible="true"/>
   <node id="5972141967" lat="51.4928835" lon="-0.0839583" version="3" visible="true"/>
+  <node id="8436205018" lat="51.4867339" lon="-0.036054" version="1" visible="true"/>
   <node id="6368163946" lat="51.4593883" lon="-0.2108232" version="2" visible="true"/>
   <node id="31282219" lat="51.5832286" lon="-0.3317449" version="10" visible="true"/>
   <node id="197969" lat="51.5601115" lon="-0.1098348" version="13" visible="true"/>
@@ -2218,6 +2221,7 @@
   <node id="2965707253" lat="51.4263266" lon="-0.0801341" version="4" visible="true"/>
   <node id="8025357547" lat="51.4347996" lon="-0.2586943" version="2" visible="true"/>
   <node id="7734416189" lat="51.4484917" lon="-0.1482626" version="1" visible="true"/>
+  <node id="27513572" lat="51.4867966" lon="-0.0361554" version="12" visible="true"/>
   <node id="3982646816" lat="51.6363762" lon="-0.0909782" version="5" visible="true"/>
   <node id="8086362583" lat="51.6431349" lon="-0.0801472" version="1" visible="true"/>
   <node id="7858016913" lat="51.6051031" lon="-0.1220293" version="1" visible="true"/>
@@ -2300,6 +2304,7 @@
   <node id="5367351990" lat="51.4128734" lon="-0.2886863" version="2" visible="true"/>
   <node id="250751336" lat="51.4462366" lon="0.1557008" version="5" visible="true"/>
   <node id="4454358577" lat="51.4728099" lon="-0.122024" version="5" visible="true"/>
+  <node id="8436204421" lat="51.4857374" lon="-0.0346129" version="1" visible="true"/>
   <node id="629250" lat="51.4785337" lon="-0.0229951" version="3" visible="true"/>
   <node id="11002203" lat="51.3591323" lon="-0.155487" version="4" visible="true"/>
   <node id="3785986523" lat="51.4795376" lon="0.0280774" version="3" visible="true"/>
@@ -2331,6 +2336,7 @@
   <node id="7859212684" lat="51.5395904" lon="-0.1246725" version="1" visible="true"/>
   <node id="4305985585" lat="51.5067756" lon="-0.0880457" version="3" visible="true"/>
   <node id="26610803" lat="51.5126833" lon="-0.0321529" version="7" visible="true"/>
+  <node id="101309708" lat="51.4854899" lon="-0.0342679" version="7" visible="true"/>
   <node id="3778231037" lat="51.4973924" lon="-0.0989524" version="3" visible="true"/>
   <node id="1230490746" lat="51.5406069" lon="-0.0014776" version="7" visible="true"/>
   <node id="8080147842" lat="51.6220165" lon="-0.1054483" version="2" visible="true"/>
@@ -9057,6 +9063,45 @@
     <nd ref="7935860181"/>
     <nd ref="4213477758"/>
   </way>
+  <way id="908560768" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A200"/>
+    <tag k="name" v="Evelyn Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG198039"/>
+    <nd ref="8436205018"/>
+    <nd ref="8436205019"/>
+  </way>
+  <way id="908560769" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A200"/>
+    <tag k="name" v="Evelyn Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG198039,RWG198092"/>
+    <nd ref="27513572"/>
+    <nd ref="8436205018"/>
+  </way>
+  <way id="908560767" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A200"/>
+    <tag k="name" v="Evelyn Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG198039"/>
+    <nd ref="8436204421"/>
+    <nd ref="8281172947"/>
+    <nd ref="101309708"/>
+  </way>
   <way id="220024486" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B210"/>
@@ -12903,9 +12948,10 @@
     <nd ref="211281885"/>
     <nd ref="7278064842"/>
   </way>
-  <way id="603895117" visible="true" version="5">
+  <way id="603895117" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Harrow View"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
@@ -16404,13 +16450,13 @@
     <nd ref="667387843"/>
     <nd ref="1684964845"/>
   </way>
-  <way id="808123572" visible="true" version="1">
+  <way id="808123572" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Whitechapel High Street"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
-    <tag k="highway" v="trunk"/>
+    <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="commercial"/>
     <tag k="maxspeed" v="20 mph"/>
