@@ -61,6 +61,7 @@
   <node id="6171748069" lat="51.5274422" lon="-0.1836984" version="1" visible="true"/>
   <node id="25499381" lat="51.5206602" lon="-0.1060204" version="5" visible="true"/>
   <node id="3787449679" lat="51.5800301" lon="0.1791028" version="3" visible="true"/>
+  <node id="150608147" lat="51.3776748" lon="-0.0610157" version="6" visible="true"/>
   <node id="7090742459" lat="51.4529416" lon="-0.3405528" version="1" visible="true"/>
   <node id="6813224189" lat="51.6152699" lon="-0.1096304" version="2" visible="true"/>
   <node id="262660202" lat="51.4106022" lon="-0.2954065" version="11" visible="true"/>
@@ -114,6 +115,7 @@
   <node id="1404453425" lat="51.3367765" lon="-0.1147622" version="3" visible="true"/>
   <node id="6150365751" lat="51.4529477" lon="0.0334968" version="3" visible="true"/>
   <node id="7155688387" lat="51.5697559" lon="-0.0241019" version="1" visible="true"/>
+  <node id="150608628" lat="51.3778498" lon="-0.0611589" version="4" visible="true"/>
   <node id="7935860181" lat="51.4849948" lon="0.0040882" version="3" visible="true"/>
   <node id="18066891" lat="51.5715772" lon="-0.0216215" version="11" visible="true"/>
   <node id="35963291" lat="51.464971" lon="0.0920581" version="9" visible="true"/>
@@ -8897,6 +8899,24 @@
     <nd ref="6021217823"/>
     <nd ref="6021217848"/>
     <nd ref="35963291"/>
+  </way>
+  <way id="187094385" visible="true" version="7">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A215"/>
+    <tag k="name" v="Shirley Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="cycleway:left:width" v="1.25"/>
+    <tag k="cycleway:right:width" v="1.25"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG204738,RWG204679"/>
+    <nd ref="150608628"/>
+    <nd ref="150608147"/>
   </way>
   <way id="51817235" visible="true" version="7">
     <tag k="lit" v="yes"/>
