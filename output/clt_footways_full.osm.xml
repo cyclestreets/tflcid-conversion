@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8445179411" lat="51.5117959" lon="-0.4573688" version="1" visible="true"/>
+  <node id="8445179410" lat="51.511801" lon="-0.4570741" version="1" visible="true"/>
+  <node id="8445179409" lat="51.511801" lon="-0.4572034" version="1" visible="true"/>
+  <node id="8445179408" lat="51.5117755" lon="-0.4580345" version="1" visible="true"/>
+  <node id="8445179407" lat="51.5117592" lon="-0.4581511" version="1" visible="true"/>
+  <node id="8445179406" lat="51.5117112" lon="-0.458263" version="1" visible="true"/>
+  <node id="8445179405" lat="51.5113799" lon="-0.4587381" version="1" visible="true"/>
+  <node id="8445179404" lat="51.5113536" lon="-0.4587531" version="1" visible="true"/>
   <node id="8443635363" lat="51.5833629" lon="-0.1354298" version="1" visible="true"/>
   <node id="8409371461" lat="51.5364416" lon="0.0094504" version="1" visible="true"/>
   <node id="8356173059" lat="51.4809517" lon="-0.3104556" version="1" visible="true"/>
@@ -1976,6 +1984,24 @@
     <nd ref="6123441634"/>
     <nd ref="6123441635"/>
   </way>
+  <way id="909564345" visible="true" version="1">
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG236831"/>
+    <nd ref="8445179404"/>
+    <nd ref="8445179405"/>
+    <nd ref="8445179406"/>
+    <nd ref="8445179407"/>
+    <nd ref="8445179408"/>
+    <nd ref="8445179411"/>
+    <nd ref="8445179409"/>
+    <nd ref="8445179410"/>
+  </way>
   <way id="22936240" visible="true" version="12">
     <tag k="highway" v="footway"/>
     <tag k="surface" v="paved"/>
@@ -2980,10 +3006,11 @@
     <nd ref="2535768147"/>
     <nd ref="2535768131"/>
   </way>
-  <way id="276915328" visible="true" version="4">
+  <way id="276915328" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="footway" v="sidewalk"/>
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>

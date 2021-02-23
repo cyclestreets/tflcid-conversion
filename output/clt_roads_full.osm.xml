@@ -938,6 +938,7 @@
   <node id="90199231" lat="51.6170582" lon="-0.3382315" version="3" visible="true"/>
   <node id="3091468698" lat="51.5492629" lon="-0.3659713" version="1" visible="true"/>
   <node id="25809925" lat="51.6166663" lon="-0.0820461" version="6" visible="true"/>
+  <node id="6979879698" lat="51.5481712" lon="-0.1310724" version="2" visible="true"/>
   <node id="333731860" lat="51.5224363" lon="-0.1380141" version="7" visible="true"/>
   <node id="5941780703" lat="51.5432984" lon="0.0003665" version="3" visible="true"/>
   <node id="90199230" lat="51.6181769" lon="-0.3392324" version="4" visible="true"/>
@@ -1282,6 +1283,7 @@
   <node id="2090570084" lat="51.6094063" lon="-0.2658456" version="3" visible="true"/>
   <node id="435697" lat="51.5375142" lon="-0.1517107" version="4" visible="true"/>
   <node id="5629810033" lat="51.451481" lon="0.1034463" version="3" visible="true"/>
+  <node id="4332683070" lat="51.5482823" lon="-0.1312197" version="4" visible="true"/>
   <node id="671705223" lat="51.5699549" lon="-0.026216" version="6" visible="true"/>
   <node id="1674025836" lat="51.5274619" lon="-0.1836625" version="3" visible="true"/>
   <node id="13922353" lat="51.4659945" lon="0.0859099" version="7" visible="true"/>
@@ -1461,6 +1463,7 @@
   <node id="3890874645" lat="51.4748564" lon="-0.04046" version="6" visible="true"/>
   <node id="5747790907" lat="51.4451197" lon="0.1532808" version="4" visible="true"/>
   <node id="33002426" lat="51.4474536" lon="-0.0854868" version="7" visible="true"/>
+  <node id="198159" lat="51.5483705" lon="-0.1312886" version="4" visible="true"/>
   <node id="108033" lat="51.5214109" lon="-0.1314657" version="25" visible="true"/>
   <node id="6548275195" lat="51.4374713" lon="-0.4070735" version="1" visible="true"/>
   <node id="8023223827" lat="51.4222464" lon="-0.2766614" version="1" visible="true"/>
@@ -2054,6 +2057,7 @@
   <node id="2204098190" lat="51.5711314" lon="-0.0947406" version="3" visible="true"/>
   <node id="2720043561" lat="51.4493069" lon="-0.2229876" version="4" visible="true"/>
   <node id="3976913598" lat="51.5505045" lon="-0.2822498" version="3" visible="true"/>
+  <node id="6979879695" lat="51.5482336" lon="-0.1311637" version="2" visible="true"/>
   <node id="1457700869" lat="51.6409834" lon="-0.079001" version="5" visible="true"/>
   <node id="6357922875" lat="51.5940045" lon="0.1434684" version="2" visible="true"/>
   <node id="1430220319" lat="51.5862254" lon="-0.0501819" version="4" visible="true"/>
@@ -2172,6 +2176,7 @@
   <node id="90108064" lat="51.4875218" lon="0.0289969" version="4" visible="true"/>
   <node id="1954751918" lat="51.5194028" lon="-0.0971444" version="4" visible="true"/>
   <node id="454494880" lat="51.414869" lon="-0.1617229" version="3" visible="true"/>
+  <node id="6979879696" lat="51.5480948" lon="-0.1309455" version="3" visible="true"/>
   <node id="3195844965" lat="51.5048736" lon="-0.2246972" version="3" visible="true"/>
   <node id="6343398683" lat="51.5431422" lon="-0.4728597" version="3" visible="true"/>
   <node id="33002425" lat="51.4475492" lon="-0.0854818" version="6" visible="true"/>
@@ -3839,6 +3844,10 @@
   </node>
   <node id="336277511" lat="51.5578493" lon="-0.1125165" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
+  </node>
+  <node id="6979879697" lat="51.5484314" lon="-0.1313372" version="3" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
   </node>
   <node id="1936700412" lat="51.5916406" lon="-0.1427967" version="2" visible="true">
     <tag k="bus" v="yes"/>
@@ -13937,6 +13946,22 @@
     <nd ref="2592933733"/>
     <nd ref="658185"/>
   </way>
+  <way id="435347694" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5200"/>
+    <tag k="name" v="Torriano Avenue"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="traffic_calming" v="table"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG152087"/>
+    <nd ref="198159"/>
+    <nd ref="6979879697"/>
+  </way>
   <way id="371311786" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
@@ -15241,6 +15266,42 @@
     <nd ref="4888751630"/>
     <nd ref="7189053009"/>
     <nd ref="3340356898"/>
+  </way>
+  <way id="909467160" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5200"/>
+    <tag k="name" v="Torriano Avenue"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="traffic_calming" v="cushion"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG999972"/>
+    <nd ref="4332683070"/>
+    <nd ref="198159"/>
+  </way>
+  <way id="435347695" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5200"/>
+    <tag k="name" v="Torriano Avenue"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="busway:left" v="lane"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="traffic_calming" v="cushion"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG999972"/>
+    <nd ref="6979879696"/>
+    <nd ref="6979879698"/>
+    <nd ref="6979879695"/>
+    <nd ref="4332683070"/>
   </way>
   <way id="667569299" visible="true" version="1">
     <tag k="lit" v="yes"/>
@@ -21774,13 +21835,14 @@
     <nd ref="6331732604"/>
     <nd ref="119003093"/>
   </way>
-  <way id="536555661" visible="true" version="2">
+  <way id="536555661" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A106"/>
     <tag k="name" v="Ruckholt Road"/>
     <tag k="lanes" v="3"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="alt_name" v="Eastway"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="left"/>
@@ -21790,13 +21852,14 @@
     <nd ref="5197463414"/>
     <nd ref="2410503681"/>
   </way>
-  <way id="536555660" visible="true" version="3">
+  <way id="536555660" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Ruckholt Road"/>
     <tag k="lanes" v="3"/>
     <tag k="oneway" v="yes"/>
     <tag k="covered" v="yes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="alt_name" v="Eastway"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="left"/>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8446088171" lat="51.5081788" lon="-0.2573559" version="1" visible="true"/>
   <node id="8329774334" lat="51.4074272" lon="-0.0752219" version="1" visible="true"/>
   <node id="8329774331" lat="51.4058087" lon="-0.0754286" version="1" visible="true">
     <tag k="barrier" v="gate"/>
@@ -949,11 +950,10 @@
   <node id="1015214945" lat="51.5490655" lon="-0.43923" version="1" visible="true"/>
   <node id="1015214944" lat="51.5485021" lon="-0.4383161" version="1" visible="true"/>
   <node id="1015214943" lat="51.5485725" lon="-0.4383415" version="1" visible="true"/>
-  <node id="954322073" lat="51.5081706" lon="-0.2574521" version="1" visible="true">
+  <node id="954322073" lat="51.5081771" lon="-0.2573812" version="2" visible="true">
     <tag k="barrier" v="gate"/>
   </node>
   <node id="954322059" lat="51.5081378" lon="-0.2579634" version="1" visible="true"/>
-  <node id="954321906" lat="51.5081876" lon="-0.2572517" version="4" visible="true"/>
   <node id="954321839" lat="51.5081614" lon="-0.2575967" version="1" visible="true"/>
   <node id="884121834" lat="51.5199783" lon="-0.178807" version="7" visible="true"/>
   <node id="877596076" lat="51.4325554" lon="-0.2567278" version="4" visible="true"/>
@@ -2267,17 +2267,19 @@
     <nd ref="1927002681"/>
     <nd ref="1927002713"/>
   </way>
-  <way id="81837428" visible="true" version="5">
+  <way id="81837428" visible="true" version="6">
     <tag k="lit" v="yes"/>
-    <tag k="foot" v="yes"/>
+    <tag k="foot" v="designated"/>
+    <tag k="oneway" v="no"/>
+    <tag k="bicycle" v="dismount"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="bicycle" v="dismount"/>
+    <tag k="segregated" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG293121"/>
     <nd ref="954322059"/>
     <nd ref="954321839"/>
     <nd ref="954322073"/>
-    <nd ref="954321906"/>
+    <nd ref="8446088171"/>
   </way>
   <way id="508527570" visible="true" version="2">
     <tag k="highway" v="service"/>
