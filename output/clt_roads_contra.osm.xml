@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8449105563" lat="51.5043345" lon="-0.2690332" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="backward"/>
+  </node>
+  <node id="8449105555" lat="51.5043561" lon="-0.2690336" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+  </node>
   <node id="8433541673" lat="51.4449723" lon="-0.1109735" version="1" visible="true"/>
   <node id="8403985757" lat="51.4838916" lon="-0.1652866" version="1" visible="true"/>
   <node id="8401998384" lat="51.4736732" lon="-0.0868039" version="1" visible="true"/>
@@ -981,7 +988,7 @@
   </node>
   <node id="5608295199" lat="51.4669706" lon="-0.3652074" version="3" visible="true"/>
   <node id="5603482943" lat="51.3873379" lon="-0.1135521" version="1" visible="true"/>
-  <node id="5603199062" lat="51.5851251" lon="-0.1323993" version="3" visible="true"/>
+  <node id="5603199062" lat="51.5851219" lon="-0.1323952" version="4" visible="true"/>
   <node id="5603199061" lat="51.5853009" lon="-0.1318825" version="1" visible="true"/>
   <node id="5603199056" lat="51.5852071" lon="-0.1321612" version="1" visible="true"/>
   <node id="5599539458" lat="51.5709775" lon="0.1420377" version="1" visible="true"/>
@@ -6029,7 +6036,7 @@
     <nd ref="6969206370"/>
     <nd ref="2258931281"/>
   </way>
-  <way id="9228237" visible="true" version="7">
+  <way id="9228237" visible="true" version="8">
     <tag k="name" v="Newton Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -6037,12 +6044,14 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG234435"/>
     <nd ref="68999640"/>
+    <nd ref="8449105555"/>
+    <nd ref="8449105563"/>
     <nd ref="69000346"/>
     <nd ref="68999870"/>
     <nd ref="68999638"/>
     <nd ref="68999158"/>
   </way>
-  <way id="9228237" visible="true" version="7">
+  <way id="9228237" visible="true" version="8">
     <tag k="name" v="Newton Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -6050,6 +6059,8 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG233949"/>
     <nd ref="68999640"/>
+    <nd ref="8449105555"/>
+    <nd ref="8449105563"/>
     <nd ref="69000346"/>
     <nd ref="68999870"/>
     <nd ref="68999638"/>
@@ -10657,10 +10668,12 @@
     <nd ref="23050095"/>
     <nd ref="427575188"/>
   </way>
-  <way id="36776003" visible="true" version="7">
+  <way id="36776003" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Northdown Street"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG003521"/>

@@ -142,6 +142,7 @@
   <node id="765182734" lat="51.5132169" lon="-0.3905521" version="4" visible="true"/>
   <node id="2140420434" lat="51.511914" lon="-0.0977602" version="4" visible="true"/>
   <node id="7741543362" lat="51.4289247" lon="-0.2696207" version="2" visible="true"/>
+  <node id="8449589311" lat="51.4351367" lon="-0.2579709" version="1" visible="true"/>
   <node id="108122" lat="51.4925499" lon="-0.0460426" version="5" visible="true"/>
   <node id="1960840442" lat="51.4874896" lon="-0.1524215" version="3" visible="true"/>
   <node id="101978" lat="51.5444855" lon="-0.1540041" version="6" visible="true"/>
@@ -422,6 +423,7 @@
   <node id="4920575843" lat="51.4790488" lon="-0.1944792" version="3" visible="true"/>
   <node id="7005332229" lat="51.4592948" lon="-0.2176104" version="1" visible="true"/>
   <node id="2129491691" lat="51.5811701" lon="-0.0184017" version="4" visible="true"/>
+  <node id="8449589308" lat="51.4351231" lon="-0.2579995" version="1" visible="true"/>
   <node id="25894267" lat="51.5662969" lon="-0.123594" version="2" visible="true"/>
   <node id="48695361" lat="51.5295737" lon="-0.0748259" version="15" visible="true"/>
   <node id="1243387959" lat="51.540716" lon="-0.1249975" version="1" visible="true"/>
@@ -6288,7 +6290,7 @@
     <nd ref="4844636228"/>
     <nd ref="4844636226"/>
   </way>
-  <way id="690078603" visible="true" version="3">
+  <way id="690078603" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A308"/>
     <tag k="name" v="Kingston Vale"/>
@@ -6300,6 +6302,21 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG206668,RWG206664"/>
     <nd ref="2404735826"/>
+    <nd ref="8449589308"/>
+    <nd ref="8449589311"/>
+  </way>
+  <way id="910027263" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A308"/>
+    <tag k="name" v="Kingston Vale"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="name:right" v="Vale Parade"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG206668"/>
+    <nd ref="8449589311"/>
     <nd ref="2404735829"/>
   </way>
   <way id="232187426" visible="true" version="9">
@@ -17226,10 +17243,11 @@
     <nd ref="4937779191"/>
     <nd ref="4937779198"/>
   </way>
-  <way id="686188432" visible="true" version="5">
+  <way id="686188432" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1200"/>
     <tag k="name" v="Canonbury Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
