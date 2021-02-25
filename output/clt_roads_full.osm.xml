@@ -1247,6 +1247,7 @@
   <node id="1724508480" lat="51.3897166" lon="-0.1970546" version="4" visible="true"/>
   <node id="7468295841" lat="51.575917" lon="-0.3830692" version="1" visible="true"/>
   <node id="2418753080" lat="51.5697739" lon="-0.3222147" version="3" visible="true"/>
+  <node id="8454543528" lat="51.5627659" lon="-0.0734255" version="1" visible="true"/>
   <node id="26668309" lat="51.3182211" lon="-0.1370779" version="6" visible="true"/>
   <node id="60907677" lat="51.4823289" lon="-0.1359867" version="5" visible="true"/>
   <node id="6444359906" lat="51.5221481" lon="-0.1361268" version="1" visible="true"/>
@@ -4289,8 +4290,9 @@
   <node id="6441022361" lat="51.5159218" lon="-0.2265879" version="3" visible="true">
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="3195055520" lat="51.5151904" lon="-0.2262845" version="4" visible="true">
+  <node id="3195055520" lat="51.5151904" lon="-0.2262845" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="6441022334" lat="51.5162624" lon="-0.2267629" version="3" visible="true">
     <tag k="highway" v="crossing"/>
@@ -15680,7 +15682,7 @@
     <nd ref="1832129823"/>
     <nd ref="1810130458"/>
   </way>
-  <way id="110459085" visible="true" version="11">
+  <way id="110459085" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A10"/>
     <tag k="name" v="Stoke Newington High Street"/>
@@ -15700,6 +15702,7 @@
     <nd ref="357344817"/>
     <nd ref="262637207"/>
     <nd ref="2553635448"/>
+    <nd ref="8454543528"/>
     <nd ref="984064466"/>
     <nd ref="506351757"/>
   </way>
@@ -16096,13 +16099,13 @@
     <nd ref="313181118"/>
     <nd ref="6250501803"/>
   </way>
-  <way id="687344578" visible="true" version="1">
+  <way id="687344578" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A219"/>
     <tag k="name" v="Wood Lane"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102611"/>
@@ -16111,13 +16114,13 @@
     <nd ref="3195055564"/>
     <nd ref="6441022351"/>
   </way>
-  <way id="687179793" visible="true" version="2">
+  <way id="687179793" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A219"/>
     <tag k="name" v="Wood Lane"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:left" v="lane"/>
@@ -16125,13 +16128,13 @@
     <nd ref="6441022360"/>
     <nd ref="1937919751"/>
   </way>
-  <way id="687179790" visible="true" version="1">
+  <way id="687179790" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A219"/>
     <tag k="name" v="Wood Lane"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="lanes:backward" v="2"/>
@@ -16143,7 +16146,7 @@
     <nd ref="6441022361"/>
     <nd ref="6441022360"/>
   </way>
-  <way id="510034301" visible="true" version="3">
+  <way id="510034301" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A219"/>
     <tag k="name" v="Wood Lane"/>
@@ -16151,7 +16154,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="turn:lanes" v="left|through|through"/>
     <tag k="bicycle:lanes" v="no|designated|yes"/>

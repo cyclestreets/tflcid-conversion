@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8454496780" lat="51.5352525" lon="-0.2925414" version="1" visible="true"/>
+  <node id="8454496778" lat="51.5355276" lon="-0.2925597" version="1" visible="true">
+    <tag k="foot" v="yes"/>
+    <tag k="access" v="no"/>
+    <tag k="barrier" v="bollard"/>
+    <tag k="bollard" v="fixed"/>
+    <tag k="material" v="metal"/>
+  </node>
   <node id="8448906696" lat="51.5065196" lon="-0.262352" version="1" visible="true"/>
   <node id="8448906695" lat="51.5066075" lon="-0.2624223" version="1" visible="true"/>
   <node id="8448906692" lat="51.5065074" lon="-0.2620013" version="1" visible="true"/>
@@ -962,7 +970,7 @@
   <node id="3126695138" lat="51.491021" lon="0.209645" version="1" visible="true"/>
   <node id="3126695137" lat="51.4909988" lon="0.2095524" version="1" visible="true"/>
   <node id="3126695131" lat="51.4909152" lon="0.2095197" version="1" visible="true"/>
-  <node id="3043664701" lat="51.5355724" lon="-0.2925383" version="1" visible="true"/>
+  <node id="3043664701" lat="51.5355665" lon="-0.2925692" version="2" visible="true"/>
   <node id="3041375036" lat="51.4797336" lon="-0.2764113" version="2" visible="true"/>
   <node id="3041375035" lat="51.4781678" lon="-0.2756909" version="2" visible="true"/>
   <node id="3041370631" lat="51.4724789" lon="-0.2703573" version="2" visible="true"/>
@@ -4672,8 +4680,9 @@
     <nd ref="86107423"/>
     <nd ref="304652501"/>
   </way>
-  <way id="801729190" visible="true" version="1">
+  <way id="801729190" visible="true" version="2">
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
@@ -4684,11 +4693,14 @@
     <nd ref="6113461990"/>
     <nd ref="6113461991"/>
     <nd ref="6113461992"/>
+    <nd ref="8454496780"/>
     <nd ref="6113461993"/>
+    <nd ref="8454496778"/>
     <nd ref="3043664701"/>
   </way>
-  <way id="801729190" visible="true" version="1">
+  <way id="801729190" visible="true" version="2">
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
@@ -4699,7 +4711,9 @@
     <nd ref="6113461990"/>
     <nd ref="6113461991"/>
     <nd ref="6113461992"/>
+    <nd ref="8454496780"/>
     <nd ref="6113461993"/>
+    <nd ref="8454496778"/>
     <nd ref="3043664701"/>
   </way>
   <way id="899331132" visible="true" version="1">
