@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8456984221" lat="51.3767522" lon="-0.0353158" version="1" visible="true"/>
+  <node id="8456984220" lat="51.3763985" lon="-0.0352505" version="1" visible="true"/>
+  <node id="8456984219" lat="51.3762166" lon="-0.0352075" version="1" visible="true"/>
   <node id="8449105563" lat="51.5043345" lon="-0.2690332" version="1" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="backward"/>
@@ -232,10 +235,6 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
-  <node id="7711309309" lat="51.375893" lon="-0.0369887" version="1" visible="true">
-    <tag k="highway" v="give_way"/>
-    <tag k="direction" v="backward"/>
-  </node>
   <node id="7710108672" lat="51.4452853" lon="-0.1095893" version="4" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
@@ -315,10 +314,11 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="7435801879" lat="51.5419279" lon="-0.0572894" version="4" visible="true">
+  <node id="7435801879" lat="51.5419279" lon="-0.0572894" version="5" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="7435774349" lat="51.5419414" lon="-0.0570168" version="1" visible="true"/>
   <node id="7432098526" lat="51.5483272" lon="-0.0638567" version="1" visible="true"/>
@@ -2982,8 +2982,6 @@
   <node id="21382591" lat="51.3622112" lon="-0.0945592" version="5" visible="true"/>
   <node id="21381925" lat="51.3589815" lon="-0.1339043" version="4" visible="true"/>
   <node id="21381823" lat="51.3679986" lon="-0.1019393" version="5" visible="true"/>
-  <node id="21374896" lat="51.3761078" lon="-0.0351823" version="1" visible="true"/>
-  <node id="21374892" lat="51.3758876" lon="-0.037034" version="2" visible="true"/>
   <node id="21307200" lat="51.514893" lon="-0.0903485" version="5" visible="true"/>
   <node id="21300845" lat="51.5578584" lon="-0.2131629" version="4" visible="true"/>
   <node id="21275745" lat="51.5565375" lon="-0.2129183" version="1" visible="true"/>
@@ -3056,7 +3054,7 @@
     <tag k="name" v="Crystal Palace"/>
     <tag k="rcn_name" v="Crystal Palace"/>
   </node>
-  <node id="13808303" lat="51.376817" lon="-0.0352575" version="1" visible="true"/>
+  <node id="13808303" lat="51.3768494" lon="-0.0353293" version="2" visible="true"/>
   <node id="13675715" lat="51.5366332" lon="-0.0438124" version="15" visible="true"/>
   <node id="13565527" lat="51.4679164" lon="-0.1912742" version="2" visible="true"/>
   <node id="13565520" lat="51.4675558" lon="-0.1921569" version="2" visible="true"/>
@@ -3304,23 +3302,25 @@
     <nd ref="7348929"/>
     <nd ref="7348906"/>
   </way>
-  <way id="183084256" visible="true" version="12">
+  <way id="183084256" visible="true" version="13">
     <tag k="name" v="Queen Elizabeth Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG123998"/>
     <nd ref="1934424769"/>
     <nd ref="5367382939"/>
     <nd ref="5367382942"/>
   </way>
-  <way id="648783628" visible="true" version="8">
+  <way id="648783628" visible="true" version="9">
     <tag k="name" v="Queen Elizabeth Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="covered" v="yes"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxheight" v="10'3&quot;"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG123998"/>
@@ -3328,11 +3328,12 @@
     <nd ref="5367382937"/>
     <nd ref="5367382935"/>
   </way>
-  <way id="556394880" visible="true" version="9">
+  <way id="556394880" visible="true" version="10">
     <tag k="name" v="Queen Elizabeth Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG123998"/>
     <nd ref="5367382935"/>
@@ -3910,28 +3911,6 @@
     <nd ref="7783196455"/>
     <nd ref="36654542"/>
   </way>
-  <way id="4789578" visible="true" version="3">
-    <tag k="name" v="Lake Road"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG291822"/>
-    <nd ref="21374892"/>
-    <nd ref="7711309309"/>
-    <nd ref="21374896"/>
-    <nd ref="13808303"/>
-  </way>
-  <way id="4789578" visible="true" version="3">
-    <tag k="name" v="Lake Road"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG291818"/>
-    <nd ref="21374892"/>
-    <nd ref="7711309309"/>
-    <nd ref="21374896"/>
-    <nd ref="13808303"/>
-  </way>
   <way id="690968285" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Watcombe Road"/>
@@ -3957,6 +3936,18 @@
     <nd ref="6483159585"/>
     <nd ref="6483159740"/>
     <nd ref="151182414"/>
+  </way>
+  <way id="910770734" visible="true" version="1">
+    <tag k="name" v="Lake Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG291818"/>
+    <nd ref="8456984219"/>
+    <nd ref="8456984220"/>
+    <nd ref="8456984221"/>
+    <nd ref="13808303"/>
   </way>
   <way id="848686082" visible="true" version="3">
     <tag k="name" v="Chelmsford Road"/>
