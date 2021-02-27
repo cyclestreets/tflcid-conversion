@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8460046682" lat="51.560335" lon="-0.2724957" version="1" visible="true"/>
   <node id="8437457311" lat="51.5829248" lon="0.1729183" version="1" visible="true"/>
   <node id="8421658428" lat="51.5151489" lon="-0.1412044" version="1" visible="true"/>
   <node id="8421658427" lat="51.5151952" lon="-0.1412364" version="1" visible="true"/>
@@ -1349,7 +1350,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG271383"/>
   </node>
-  <node id="-284" lat="51.5604198249029" lon="-0.272624088226119" visible="true">
+  <node id="-284" lat="51.5604198225814" lon="-0.272624090250971" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -4018,13 +4019,14 @@
     <nd ref="-283"/>
     <nd ref="82627407"/>
   </way>
-  <way id="204308645" visible="true" version="3">
-    <tag k="name" v="North End Road"/>
+  <way id="204308645" visible="true" version="4">
     <tag k="highway" v="unclassified"/>
+    <tag k="name" v="North End Road"/>
     <nd ref="2120654720"/>
     <nd ref="6290485760"/>
     <nd ref="2143141191"/>
     <nd ref="-284"/>
+    <nd ref="8460046682"/>
     <nd ref="6290485758"/>
     <nd ref="88902295"/>
   </way>
