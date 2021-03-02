@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8474048117" lat="51.5583855" lon="-0.0071227" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="8433541672" lat="51.4448922" lon="-0.1113073" version="1" visible="true"/>
   <node id="8433541670" lat="51.4448611" lon="-0.1113913" version="1" visible="true"/>
   <node id="8225225525" lat="51.538681" lon="-0.1357402" version="1" visible="true"/>
@@ -29,7 +33,6 @@
   <node id="8084647565" lat="51.6357281" lon="-0.0916539" version="1" visible="true"/>
   <node id="8084647563" lat="51.6340335" lon="-0.0941751" version="1" visible="true"/>
   <node id="8084647518" lat="51.6358298" lon="-0.0915362" version="1" visible="true"/>
-  <node id="8082780875" lat="51.5584242" lon="-0.0070312" version="1" visible="true"/>
   <node id="8080147875" lat="51.6340102" lon="-0.0941817" version="2" visible="true"/>
   <node id="8031777576" lat="51.5101741" lon="-0.0723428" version="1" visible="true"/>
   <node id="8031777574" lat="51.5101773" lon="-0.072406" version="1" visible="true">
@@ -348,8 +351,6 @@
   <node id="6029529926" lat="51.486111" lon="-0.1161576" version="2" visible="true"/>
   <node id="6027844306" lat="51.5754703" lon="-0.0297721" version="2" visible="true"/>
   <node id="6027844305" lat="51.5753112" lon="-0.0296919" version="1" visible="true"/>
-  <node id="5976387033" lat="51.5575699" lon="-0.0090338" version="3" visible="true"/>
-  <node id="5976387027" lat="51.5576072" lon="-0.008989" version="3" visible="true"/>
   <node id="5939755657" lat="51.5817301" lon="-0.0185507" version="2" visible="true"/>
   <node id="5939755653" lat="51.5817402" lon="-0.0184934" version="5" visible="true">
     <tag k="highway" v="crossing"/>
@@ -1339,9 +1340,6 @@
   <node id="35164019" lat="51.456327" lon="-0.0845046" version="3" visible="true"/>
   <node id="35164017" lat="51.4561051" lon="-0.0843538" version="2" visible="true"/>
   <node id="35164015" lat="51.4565071" lon="-0.0846139" version="3" visible="true"/>
-  <node id="34595440" lat="51.5584763" lon="-0.0069349" version="17" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-  </node>
   <node id="33717254" lat="51.3614661" lon="-0.1484665" version="2" visible="true"/>
   <node id="33717239" lat="51.3615126" lon="-0.1481966" version="3" visible="true"/>
   <node id="33672998" lat="51.5010325" lon="-0.1105832" version="7" visible="true"/>
@@ -2189,21 +2187,6 @@
     <nd ref="4108024908"/>
     <nd ref="28829254"/>
   </way>
-  <way id="10803959" visible="true" version="30">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A106"/>
-    <tag k="name" v="Ruckholt Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v="track"/>
-    <tag k="tiger:upload_uuid" v="RWG149674"/>
-    <nd ref="5976387033"/>
-    <nd ref="5976387027"/>
-    <nd ref="5534942456"/>
-  </way>
   <way id="633085124" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A106"/>
@@ -2229,7 +2212,7 @@
     <nd ref="310846542"/>
     <nd ref="354428750"/>
   </way>
-  <way id="232721961" visible="true" version="5">
+  <way id="232721961" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A106"/>
     <tag k="name" v="Ruckholt Road"/>
@@ -2237,11 +2220,12 @@
     <tag k="highway" v="primary"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG149674"/>
     <nd ref="354428750"/>
     <nd ref="5534944005"/>
   </way>
-  <way id="577334338" visible="true" version="7">
+  <way id="912213366" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A106"/>
     <tag k="name" v="Ruckholt Road"/>
@@ -2253,8 +2237,7 @@
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG149674"/>
     <nd ref="5534944005"/>
-    <nd ref="8082780875"/>
-    <nd ref="34595440"/>
+    <nd ref="8474048117"/>
   </way>
   <way id="232721482" visible="true" version="12">
     <tag k="lit" v="yes"/>
