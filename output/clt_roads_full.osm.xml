@@ -365,7 +365,7 @@
   <node id="6040171835" lat="51.4925501" lon="-0.273296" version="3" visible="true"/>
   <node id="7091783378" lat="51.4390028" lon="-0.3608079" version="1" visible="true"/>
   <node id="1451195488" lat="51.5114633" lon="-0.4495493" version="4" visible="true"/>
-  <node id="107975" lat="51.5333812" lon="-0.1223879" version="14" visible="true"/>
+  <node id="107975" lat="51.5333278" lon="-0.1223839" version="15" visible="true"/>
   <node id="80431940" lat="51.3864185" lon="-0.1924429" version="5" visible="true"/>
   <node id="4062569212" lat="51.5714241" lon="-0.1392628" version="1" visible="true"/>
   <node id="6993899399" lat="51.3879937" lon="-0.2589446" version="2" visible="true"/>
@@ -1012,7 +1012,7 @@
   <node id="1163837590" lat="51.4613027" lon="-0.1872271" version="3" visible="true"/>
   <node id="8281172947" lat="51.4856004" lon="-0.034422" version="1" visible="true"/>
   <node id="7721185515" lat="51.5909075" lon="0.1419691" version="1" visible="true"/>
-  <node id="2114879334" lat="51.5336954" lon="-0.1223773" version="3" visible="true"/>
+  <node id="2114879334" lat="51.5337596" lon="-0.1223612" version="4" visible="true"/>
   <node id="6125120932" lat="51.5158553" lon="-0.3989796" version="3" visible="true"/>
   <node id="2466456412" lat="51.5190936" lon="-0.0970997" version="1" visible="true"/>
   <node id="6563418179" lat="51.4042171" lon="-0.1614714" version="1" visible="true"/>
@@ -1379,6 +1379,7 @@
   <node id="31255676" lat="51.5872883" lon="-0.3428901" version="4" visible="true"/>
   <node id="388598206" lat="51.471993" lon="-0.1771282" version="2" visible="true"/>
   <node id="1961705983" lat="51.5819483" lon="-0.0184706" version="4" visible="true"/>
+  <node id="2114891302" lat="51.5336687" lon="-0.1224191" version="2" visible="true"/>
   <node id="5534920254" lat="51.5572185" lon="-0.0128514" version="2" visible="true"/>
   <node id="1674025814" lat="51.5273372" lon="-0.1833214" version="3" visible="true"/>
   <node id="7638981101" lat="51.5067638" lon="-0.1287712" version="1" visible="true"/>
@@ -2423,7 +2424,7 @@
   <node id="1637875525" lat="51.5731138" lon="-0.0887982" version="3" visible="true"/>
   <node id="5976387033" lat="51.5575924" lon="-0.0089694" version="4" visible="true"/>
   <node id="8246268996" lat="51.6000759" lon="0.0134094" version="1" visible="true"/>
-  <node id="2556936809" lat="51.5220621" lon="-0.1357273" version="5" visible="true"/>
+  <node id="2556936809" lat="51.5220608" lon="-0.1357313" version="6" visible="true"/>
   <node id="1448692428" lat="51.580578" lon="0.1811274" version="3" visible="true"/>
   <node id="303988" lat="51.3568825" lon="-0.3115354" version="5" visible="true"/>
   <node id="81591277" lat="51.3791454" lon="0.0426395" version="6" visible="true"/>
@@ -2890,6 +2891,7 @@
   <node id="2684369302" lat="51.496299" lon="-0.0999092" version="4" visible="true"/>
   <node id="7593155228" lat="51.546388" lon="-0.1467056" version="1" visible="true"/>
   <node id="5348473620" lat="51.5455178" lon="-0.0621111" version="4" visible="true"/>
+  <node id="2114886921" lat="51.5336226" lon="-0.122425" version="2" visible="true"/>
   <node id="25894924" lat="51.5781741" lon="0.1769912" version="4" visible="true"/>
   <node id="25507334" lat="51.4970098" lon="-0.1446139" version="6" visible="true"/>
   <node id="4755596132" lat="51.5713437" lon="-0.1243452" version="1" visible="true"/>
@@ -3961,6 +3963,9 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="2114886913" lat="51.5334136" lon="-0.1223475" version="4" visible="true">
+    <tag k="highway" v="traffic_signals"/>
   </node>
   <node id="6384632336" lat="51.5337781" lon="-0.1290802" version="3" visible="true">
     <tag k="highway" v="crossing"/>
@@ -14243,6 +14248,26 @@
     <nd ref="4076120500"/>
     <nd ref="2442003040"/>
   </way>
+  <way id="201493132" visible="true" version="8">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5200"/>
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="York Way"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:left" v="track"/>
+    <tag k="right:district" v="Islington"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG030413"/>
+    <nd ref="2114886921"/>
+    <nd ref="2114891302"/>
+    <nd ref="2114879334"/>
+  </way>
   <way id="837464374" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5200"/>
@@ -17101,6 +17126,21 @@
     <tag k="tiger:upload_uuid" v="RWG030422"/>
     <nd ref="2114879332"/>
     <nd ref="107975"/>
+  </way>
+  <way id="7744558" visible="true" version="18">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5203"/>
+    <tag k="name" v="Wharfdale Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="right"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG030422"/>
+    <nd ref="107975"/>
+    <nd ref="2114886913"/>
   </way>
   <way id="828620489" visible="true" version="1">
     <tag k="lit" v="yes"/>
