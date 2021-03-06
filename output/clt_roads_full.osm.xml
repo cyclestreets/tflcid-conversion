@@ -368,7 +368,6 @@
   <node id="107975" lat="51.5333278" lon="-0.1223839" version="15" visible="true"/>
   <node id="80431940" lat="51.3864185" lon="-0.1924429" version="5" visible="true"/>
   <node id="4062569212" lat="51.5714241" lon="-0.1392628" version="1" visible="true"/>
-  <node id="6993899399" lat="51.3879937" lon="-0.2589446" version="2" visible="true"/>
   <node id="108009" lat="51.5239619" lon="-0.1342365" version="24" visible="true"/>
   <node id="650452266" lat="51.5392055" lon="-0.0564609" version="6" visible="true"/>
   <node id="3851724648" lat="51.4674706" lon="-0.0227746" version="4" visible="true"/>
@@ -841,7 +840,6 @@
   <node id="6937620696" lat="51.5233815" lon="-0.135702" version="2" visible="true"/>
   <node id="7851494298" lat="51.5264634" lon="0.1257964" version="1" visible="true"/>
   <node id="428594678" lat="51.5754876" lon="-0.3832192" version="3" visible="true"/>
-  <node id="6993899397" lat="51.3878843" lon="-0.2587601" version="2" visible="true"/>
   <node id="7418121060" lat="51.3217636" lon="-0.1347703" version="1" visible="true"/>
   <node id="7801416240" lat="51.4793671" lon="-0.1051189" version="2" visible="true"/>
   <node id="5483811201" lat="51.5365276" lon="-0.0176384" version="3" visible="true"/>
@@ -4410,7 +4408,7 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
   </node>
-  <node id="5756701945" lat="51.5089672" lon="-0.3473855" version="4" visible="true">
+  <node id="5756701945" lat="51.5089785" lon="-0.34747" version="5" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Ealing Hospital / Wharncliffe Drive"/>
     <tag k="local_ref" v="P"/>
@@ -5051,10 +5049,6 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="forward"/>
-  </node>
-  <node id="7659420119" lat="51.3879429" lon="-0.258859" version="1" visible="true">
-    <tag k="priority" v="backward"/>
-    <tag k="traffic_calming" v="choker"/>
   </node>
   <node id="197736430" lat="51.4113409" lon="-0.3073846" version="9" visible="true">
     <tag k="bicycle" v="yes"/>
@@ -6706,20 +6700,6 @@
     <nd ref="38934698"/>
     <nd ref="296244"/>
     <nd ref="197736430"/>
-  </way>
-  <way id="747452381" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="South Lane"/>
-    <tag k="lanes" v="1"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="priority" v="backward"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG277972,RWG277973,RWG123766"/>
-    <nd ref="6993899399"/>
-    <nd ref="7659420119"/>
-    <nd ref="6993899397"/>
   </way>
   <way id="122078349" visible="true" version="3">
     <tag k="lit" v="yes"/>
