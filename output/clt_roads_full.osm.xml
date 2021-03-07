@@ -467,7 +467,7 @@
   <node id="313181118" lat="51.5220477" lon="-0.1363786" version="6" visible="true"/>
   <node id="296244" lat="51.4113004" lon="-0.3074876" version="6" visible="true"/>
   <node id="26070860" lat="51.4901604" lon="0.0397958" version="8" visible="true"/>
-  <node id="1558656883" lat="51.4745323" lon="-0.1465559" version="5" visible="true"/>
+  <node id="1558656883" lat="51.4744875" lon="-0.146616" version="6" visible="true"/>
   <node id="25676242" lat="51.5114422" lon="-0.4496384" version="9" visible="true"/>
   <node id="5659865664" lat="51.5223568" lon="-0.0753885" version="1" visible="true"/>
   <node id="8084647534" lat="51.6360118" lon="-0.0878691" version="1" visible="true"/>
@@ -1035,6 +1035,7 @@
   <node id="242552450" lat="51.5875711" lon="-0.0556105" version="6" visible="true"/>
   <node id="2010667158" lat="51.4805802" lon="-0.4275758" version="4" visible="true"/>
   <node id="3678939262" lat="51.3910652" lon="-0.2042268" version="1" visible="true"/>
+  <node id="8491935845" lat="51.4745453" lon="-0.1465525" version="1" visible="true"/>
   <node id="30179294" lat="51.5053636" lon="-0.0073715" version="7" visible="true"/>
   <node id="1665355937" lat="51.4102279" lon="-0.2276954" version="4" visible="true"/>
   <node id="7360185468" lat="51.46963" lon="-0.028225" version="1" visible="true"/>
@@ -3481,10 +3482,11 @@
   <node id="7450786742" lat="51.5392912" lon="-0.0003588" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
-  <node id="7450786737" lat="51.5392628" lon="-0.0003871" version="2" visible="true">
+  <node id="7450786737" lat="51.5392628" lon="-0.0003871" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="426930531" lat="51.537932" lon="-0.0021783" version="8" visible="true">
     <tag k="bicycle" v="yes"/>
@@ -9624,9 +9626,10 @@
     <nd ref="2477093230"/>
     <nd ref="32654146"/>
   </way>
-  <way id="316303991" visible="true" version="5">
+  <way id="316303991" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
+    <tag k="foot" v="use_sidepath"/>
     <tag k="name" v="High Street"/>
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="yes"/>
@@ -9635,7 +9638,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="30 mph"/>
-    <tag k="sidewalk" v="no"/>
+    <tag k="sidewalk" v="separate"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG156191,RWG156190,RWG156189"/>
@@ -20849,7 +20852,7 @@
     <nd ref="8413373324"/>
     <nd ref="8413373319"/>
   </way>
-  <way id="637714822" visible="true" version="2">
+  <way id="637714822" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3216"/>
     <tag k="name" v="Queenstown Road"/>
@@ -20861,6 +20864,7 @@
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG056096"/>
     <nd ref="1558656883"/>
+    <nd ref="8491935845"/>
     <nd ref="11079555"/>
     <nd ref="2198095110"/>
     <nd ref="5203401372"/>
