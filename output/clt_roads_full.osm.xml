@@ -395,6 +395,7 @@
   <node id="2443109686" lat="51.4914867" lon="-0.2272372" version="3" visible="true"/>
   <node id="6032044867" lat="51.510415" lon="-0.0868803" version="3" visible="true"/>
   <node id="8085242323" lat="51.6296896" lon="-0.0973759" version="1" visible="true"/>
+  <node id="33141616" lat="51.4868869" lon="-0.1972059" version="10" visible="true"/>
   <node id="30737627" lat="51.4428105" lon="-0.150114" version="3" visible="true"/>
   <node id="4210749295" lat="51.4677668" lon="-0.1902632" version="3" visible="true"/>
   <node id="249559884" lat="51.514647" lon="-0.0734757" version="12" visible="true"/>
@@ -658,6 +659,7 @@
   <node id="108292" lat="51.4980651" lon="-0.1438622" version="10" visible="true"/>
   <node id="26624949" lat="51.3858577" lon="-0.1689867" version="14" visible="true"/>
   <node id="613577627" lat="51.6053047" lon="-0.1221619" version="6" visible="true"/>
+  <node id="851320721" lat="51.4865655" lon="-0.1980437" version="6" visible="true"/>
   <node id="2090570154" lat="51.6091886" lon="-0.2655584" version="1" visible="true"/>
   <node id="4657146271" lat="51.476904" lon="0.0573926" version="1" visible="true"/>
   <node id="688359512" lat="51.558379" lon="0.0755841" version="3" visible="true"/>
@@ -1152,6 +1154,7 @@
   <node id="17788799" lat="51.4519252" lon="-0.2216596" version="5" visible="true"/>
   <node id="2120283166" lat="51.480689" lon="-0.4258346" version="5" visible="true"/>
   <node id="1952886577" lat="51.3866956" lon="-0.1923003" version="3" visible="true"/>
+  <node id="783795400" lat="51.4867224" lon="-0.1976334" version="9" visible="true"/>
   <node id="31008717" lat="51.5799792" lon="0.178623" version="4" visible="true"/>
   <node id="3840066544" lat="51.5346476" lon="-0.1390168" version="4" visible="true"/>
   <node id="5735299446" lat="51.5263863" lon="-0.0289422" version="3" visible="true"/>
@@ -2198,6 +2201,7 @@
   <node id="5338221126" lat="51.5888897" lon="-0.110696" version="3" visible="true"/>
   <node id="473258639" lat="51.5096333" lon="-0.087317" version="3" visible="true"/>
   <node id="35959429" lat="51.4451273" lon="0.1531561" version="9" visible="true"/>
+  <node id="33140922" lat="51.4869023" lon="-0.1971603" version="12" visible="true"/>
   <node id="1448684238" lat="51.5800544" lon="0.1788332" version="3" visible="true"/>
   <node id="1674025787" lat="51.5272677" lon="-0.1833574" version="2" visible="true"/>
   <node id="4241698819" lat="51.4923218" lon="-0.0464259" version="1" visible="true"/>
@@ -2815,6 +2819,7 @@
   <node id="1964415372" lat="51.52765" lon="-0.0919883" version="1" visible="true"/>
   <node id="3247619637" lat="51.5004351" lon="-0.1153371" version="3" visible="true"/>
   <node id="261718847" lat="51.4594009" lon="-0.1902428" version="7" visible="true"/>
+  <node id="851320683" lat="51.4866334" lon="-0.1978673" version="8" visible="true"/>
   <node id="1664655724" lat="51.4514917" lon="-0.406191" version="7" visible="true"/>
   <node id="8084647540" lat="51.6358608" lon="-0.0865831" version="1" visible="true"/>
   <node id="27505664" lat="51.5088436" lon="-0.0121081" version="7" visible="true"/>
@@ -11324,14 +11329,14 @@
     <nd ref="3086647984"/>
     <nd ref="2573438656"/>
   </way>
-  <way id="23265280" visible="true" version="12">
+  <way id="23265280" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4020"/>
     <tag k="name" v="Uxbridge Road"/>
     <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG233518,RWG233519"/>
@@ -11496,7 +11501,7 @@
     <nd ref="3091468698"/>
     <nd ref="2335261537"/>
   </way>
-  <way id="848210051" visible="true" version="1">
+  <way id="848210051" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4020"/>
     <tag k="name" v="Uxbridge Road"/>
@@ -11504,7 +11509,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="bus:lanes" v="designated|yes|yes"/>
     <tag k="lanes:bus" v="1"/>
@@ -11514,7 +11519,7 @@
     <nd ref="2308843807"/>
     <nd ref="21585734"/>
   </way>
-  <way id="50218848" visible="true" version="11">
+  <way id="50218848" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4020"/>
     <tag k="name" v="Uxbridge Road"/>
@@ -11522,7 +11527,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="bus:lanes" v="designated|yes|yes"/>
     <tag k="lanes:bus" v="1"/>
@@ -18242,6 +18247,21 @@
     <nd ref="6957877497"/>
     <nd ref="1937709615"/>
     <nd ref="1795462018"/>
+  </way>
+  <way id="74663175" visible="true" version="8">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A3218"/>
+    <tag k="name" v="Lillie Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG042584"/>
+    <nd ref="851320721"/>
+    <nd ref="851320683"/>
+    <nd ref="783795400"/>
+    <nd ref="33141616"/>
+    <nd ref="33140922"/>
   </way>
   <way id="849651136" visible="true" version="1">
     <tag k="lit" v="yes"/>
