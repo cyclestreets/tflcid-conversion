@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8507976784" lat="51.5140637" lon="-0.2487718" version="1" visible="true"/>
   <node id="8497736757" lat="51.4127107" lon="-0.3022256" version="1" visible="true"/>
   <node id="8450409255" lat="51.5117755" lon="-0.4580345" version="1" visible="true"/>
   <node id="8445179411" lat="51.5117959" lon="-0.4573688" version="1" visible="true"/>
@@ -30,7 +31,7 @@
   <node id="8318533775" lat="51.5481302" lon="-0.0265566" version="1" visible="true"/>
   <node id="8318533774" lat="51.5480731" lon="-0.0266702" version="1" visible="true"/>
   <node id="8318533773" lat="51.5480437" lon="-0.0267355" version="1" visible="true"/>
-  <node id="8154943192" lat="51.5140579" lon="-0.248131" version="1" visible="true"/>
+  <node id="8154943192" lat="51.5140748" lon="-0.2481334" version="2" visible="true"/>
   <node id="8094461589" lat="51.4178713" lon="-0.0733795" version="1" visible="true"/>
   <node id="8094461583" lat="51.4178044" lon="-0.0739607" version="1" visible="true"/>
   <node id="8094461582" lat="51.4178908" lon="-0.0734111" version="1" visible="true"/>
@@ -236,7 +237,6 @@
   <node id="6441521539" lat="51.564537" lon="0.2037747" version="1" visible="true"/>
   <node id="6434181014" lat="51.4800957" lon="-0.1656138" version="1" visible="true"/>
   <node id="6434181012" lat="51.4800685" lon="-0.1656839" version="1" visible="true"/>
-  <node id="6430014137" lat="51.5140652" lon="-0.2489338" version="1" visible="true"/>
   <node id="6425583436" lat="51.4466898" lon="-0.4162769" version="1" visible="true"/>
   <node id="6425583426" lat="51.4465334" lon="-0.4172209" version="1" visible="true"/>
   <node id="6386995536" lat="51.4738231" lon="-0.268574" version="2" visible="true"/>
@@ -503,13 +503,12 @@
   <node id="2715731745" lat="51.4766686" lon="-0.2494947" version="1" visible="true"/>
   <node id="2715731744" lat="51.4769006" lon="-0.2494468" version="2" visible="true"/>
   <node id="2700737082" lat="51.5141983" lon="-0.2459544" version="1" visible="true"/>
-  <node id="2700735555" lat="51.5140359" lon="-0.2488125" version="1" visible="true"/>
-  <node id="2700735551" lat="51.5140526" lon="-0.2488822" version="1" visible="true"/>
-  <node id="2700735544" lat="51.5140426" lon="-0.2488501" version="1" visible="true"/>
-  <node id="2700735542" lat="51.5140405" lon="-0.2485621" version="2" visible="true"/>
-  <node id="2700735539" lat="51.5142108" lon="-0.2457366" version="3" visible="true"/>
-  <node id="2700735536" lat="51.5140603" lon="-0.2480702" version="1" visible="true"/>
-  <node id="2700735534" lat="51.5140676" lon="-0.2489064" version="1" visible="true"/>
+  <node id="2700735555" lat="51.5140606" lon="-0.2487291" version="2" visible="true"/>
+  <node id="2700735551" lat="51.5140956" lon="-0.2488829" version="2" visible="true"/>
+  <node id="2700735544" lat="51.5140703" lon="-0.2488127" version="2" visible="true"/>
+  <node id="2700735542" lat="51.5140585" lon="-0.2486136" version="3" visible="true"/>
+  <node id="2700735539" lat="51.5142054" lon="-0.2458295" version="4" visible="true"/>
+  <node id="2700735536" lat="51.5140691" lon="-0.248069" version="2" visible="true"/>
   <node id="2654341303" lat="51.5369955" lon="0.0093031" version="2" visible="true"/>
   <node id="2604200683" lat="51.4822221" lon="-0.3120757" version="2" visible="true"/>
   <node id="2604200681" lat="51.4819991" lon="-0.3121444" version="3" visible="true"/>
@@ -3064,7 +3063,7 @@
     <nd ref="2535768131"/>
     <nd ref="2971973917"/>
   </way>
-  <way id="509108708" visible="true" version="3">
+  <way id="509108708" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Western Avenue"/>
     <tag k="footway" v="sidewalk"/>
@@ -3074,10 +3073,9 @@
     <tag k="oneway" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG049593"/>
-    <nd ref="6430014137"/>
-    <nd ref="2700735534"/>
     <nd ref="2700735551"/>
     <nd ref="2700735544"/>
+    <nd ref="8507976784"/>
     <nd ref="2700735555"/>
     <nd ref="2700735542"/>
     <nd ref="8154943192"/>
