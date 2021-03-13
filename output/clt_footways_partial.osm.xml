@@ -625,7 +625,11 @@
   <node id="6020363426" lat="51.5026291" lon="0.1126543" version="1" visible="true"/>
   <node id="6020363425" lat="51.5026959" lon="0.1126918" version="1" visible="true"/>
   <node id="6020363424" lat="51.5028495" lon="0.1131264" version="1" visible="true"/>
-  <node id="5985157057" lat="51.5761556" lon="-0.1503269" version="1" visible="true"/>
+  <node id="5985157057" lat="51.5761556" lon="-0.1503269" version="2" visible="true">
+    <tag k="barrier" v="bollard"/>
+    <tag k="bollard" v="fixed"/>
+    <tag k="vehicle" v="no"/>
+  </node>
   <node id="5981112409" lat="51.3955072" lon="-0.1898644" version="1" visible="true"/>
   <node id="5966022293" lat="51.4464453" lon="-0.347611" version="1" visible="true"/>
   <node id="5951134962" lat="51.6543422" lon="-0.1121245" version="1" visible="true"/>
@@ -1304,7 +1308,11 @@
   <node id="671776401" lat="51.4905253" lon="0.1553254" version="2" visible="true"/>
   <node id="671763072" lat="51.4911242" lon="0.1559043" version="2" visible="true"/>
   <node id="671754554" lat="51.4910691" lon="0.1555877" version="1" visible="true"/>
-  <node id="620811820" lat="51.5759542" lon="-0.1509854" version="4" visible="true"/>
+  <node id="620811820" lat="51.5759542" lon="-0.1509854" version="5" visible="true">
+    <tag k="barrier" v="bollard"/>
+    <tag k="bollard" v="fixed"/>
+    <tag k="vehicle" v="no"/>
+  </node>
   <node id="612635187" lat="51.5251122" lon="-0.4857636" version="2" visible="true"/>
   <node id="612635186" lat="51.5250531" lon="-0.4858139" version="2" visible="true"/>
   <node id="612635185" lat="51.5250375" lon="-0.4858223" version="2" visible="true"/>
@@ -5565,7 +5573,8 @@
     <nd ref="6375925455"/>
     <nd ref="6375925458"/>
   </way>
-  <way id="529488615" visible="true" version="5">
+  <way id="529488615" visible="true" version="6">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Park House Passage"/>
     <tag k="width" v="5"/>
     <tag k="highway" v="footway"/>
