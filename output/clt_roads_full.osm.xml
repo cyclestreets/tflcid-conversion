@@ -573,7 +573,7 @@
   <node id="4762808389" lat="51.472875" lon="0.0090301" version="1" visible="true"/>
   <node id="25497440" lat="51.516342" lon="-0.1549028" version="8" visible="true"/>
   <node id="5930366778" lat="51.5222684" lon="-0.0433274" version="3" visible="true"/>
-  <node id="5914286090" lat="51.3861943" lon="-0.024446" version="2" visible="true"/>
+  <node id="5914286090" lat="51.3861644" lon="-0.0244218" version="3" visible="true"/>
   <node id="6283599355" lat="51.5085022" lon="0.2103835" version="1" visible="true"/>
   <node id="4421008566" lat="51.5084824" lon="-0.1044025" version="6" visible="true"/>
   <node id="18066894" lat="51.5748153" lon="-0.0136107" version="15" visible="true"/>
@@ -587,7 +587,7 @@
   <node id="6335511345" lat="51.525955" lon="-0.1136268" version="1" visible="true"/>
   <node id="1960764351" lat="51.4929168" lon="-0.1252052" version="5" visible="true"/>
   <node id="5679420448" lat="51.524576" lon="-0.03455" version="4" visible="true"/>
-  <node id="8456984248" lat="51.3858882" lon="-0.0247178" version="1" visible="true"/>
+  <node id="8456984248" lat="51.38586" lon="-0.0246914" version="2" visible="true"/>
   <node id="156620638" lat="51.5399779" lon="-0.1249209" version="7" visible="true"/>
   <node id="2387843070" lat="51.5776914" lon="-0.3305599" version="3" visible="true"/>
   <node id="1936472011" lat="51.4757638" lon="-0.0316326" version="3" visible="true"/>
@@ -1193,7 +1193,7 @@
   <node id="6021217848" lat="51.4650887" lon="0.091305" version="3" visible="true"/>
   <node id="1253174106" lat="51.506095" lon="0.1078522" version="4" visible="true"/>
   <node id="1365141255" lat="51.5322354" lon="-0.1277104" version="3" visible="true"/>
-  <node id="8456984247" lat="51.3857207" lon="-0.024858" version="1" visible="true"/>
+  <node id="8456984247" lat="51.3857035" lon="-0.0248283" version="2" visible="true"/>
   <node id="2399965477" lat="51.5528416" lon="-0.0190534" version="7" visible="true"/>
   <node id="3265436688" lat="51.5112208" lon="-0.1052463" version="2" visible="true"/>
   <node id="48705205" lat="51.5270273" lon="-0.064792" version="3" visible="true"/>
@@ -2791,7 +2791,7 @@
   <node id="6250491144" lat="51.5229101" lon="-0.1369021" version="3" visible="true"/>
   <node id="4771732531" lat="51.4706605" lon="0.0092689" version="2" visible="true"/>
   <node id="8023223808" lat="51.4339337" lon="-0.2607534" version="1" visible="true"/>
-  <node id="13808239" lat="51.3860482" lon="-0.0245775" version="8" visible="true"/>
+  <node id="13808239" lat="51.3859726" lon="-0.0245979" version="9" visible="true"/>
   <node id="1601435373" lat="51.3859966" lon="-0.1682653" version="4" visible="true"/>
   <node id="7278064842" lat="51.5843058" lon="-0.362508" version="1" visible="true"/>
   <node id="6223880793" lat="51.4439326" lon="-0.0203206" version="6" visible="true"/>
@@ -2838,7 +2838,7 @@
   <node id="8023257684" lat="51.4284689" lon="-0.2705836" version="1" visible="true"/>
   <node id="4213477768" lat="51.4861755" lon="0.0081052" version="3" visible="true"/>
   <node id="1587291267" lat="51.4467139" lon="-0.1493683" version="5" visible="true"/>
-  <node id="13808238" lat="51.3863142" lon="-0.0243335" version="4" visible="true"/>
+  <node id="13808238" lat="51.3863008" lon="-0.0242939" version="5" visible="true"/>
   <node id="25676299" lat="51.5114025" lon="-0.4502641" version="6" visible="true"/>
   <node id="245797263" lat="51.5806161" lon="0.1808037" version="4" visible="true"/>
   <node id="7880122112" lat="51.574097" lon="-0.014633" version="1" visible="true"/>
@@ -8244,13 +8244,14 @@
     <nd ref="5976323624"/>
     <nd ref="5976323631"/>
   </way>
-  <way id="619506336" visible="true" version="3">
+  <way id="619506336" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1008"/>
     <tag k="name" v="Blake Hall Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:both" v="lane"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG155201,RWG155259"/>
