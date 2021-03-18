@@ -1,5 +1,15 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8528979442" lat="51.4292802" lon="-0.135024" version="1" visible="true">
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="8528979441" lat="51.4294254" lon="-0.1350092" version="1" visible="true">
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="8528979440" lat="51.4297522" lon="-0.1349855" version="1" visible="true">
+    <tag k="natural" v="tree"/>
+  </node>
+  <node id="8527952642" lat="51.5759542" lon="-0.1509854" version="1" visible="true"/>
   <node id="8520850545" lat="51.4134836" lon="-0.124374" version="1" visible="true"/>
   <node id="8520850544" lat="51.4134469" lon="-0.1243645" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -1323,7 +1333,7 @@
   <node id="671776401" lat="51.4905253" lon="0.1553254" version="2" visible="true"/>
   <node id="671763072" lat="51.4911242" lon="0.1559043" version="2" visible="true"/>
   <node id="671754554" lat="51.4910691" lon="0.1555877" version="1" visible="true"/>
-  <node id="620811820" lat="51.5759542" lon="-0.1509854" version="5" visible="true">
+  <node id="620811820" lat="51.5759675" lon="-0.150947" version="6" visible="true">
     <tag k="barrier" v="bollard"/>
     <tag k="bollard" v="fixed"/>
     <tag k="vehicle" v="no"/>
@@ -5612,7 +5622,7 @@
     <nd ref="6375925455"/>
     <nd ref="6375925458"/>
   </way>
-  <way id="529488615" visible="true" version="6">
+  <way id="529488615" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Park House Passage"/>
     <tag k="width" v="5"/>
@@ -5627,6 +5637,7 @@
     <nd ref="5226344416"/>
     <nd ref="5985157057"/>
     <nd ref="620811820"/>
+    <nd ref="8527952642"/>
   </way>
   <way id="651991962" visible="true" version="1">
     <tag k="highway" v="footway"/>
@@ -6892,7 +6903,7 @@
     <nd ref="304655660"/>
     <nd ref="304655668"/>
   </way>
-  <way id="905803479" visible="true" version="3">
+  <way id="905803479" visible="true" version="4">
     <tag k="footway" v="sidewalk"/>
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
@@ -6907,7 +6918,10 @@
     <nd ref="8411763378"/>
     <nd ref="8411763379"/>
     <nd ref="8411763380"/>
+    <nd ref="8528979442"/>
+    <nd ref="8528979441"/>
     <nd ref="8411763381"/>
+    <nd ref="8528979440"/>
     <nd ref="8411763382"/>
     <nd ref="8411763385"/>
   </way>

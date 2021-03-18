@@ -708,15 +708,6 @@
     <tag k="crossing" v="unmarked"/>
   </node>
   <node id="3208345529" lat="51.4130969" lon="-0.2989864" version="3" visible="true"/>
-  <node id="3195055489" lat="51.5149421" lon="-0.2258659" version="2" visible="true">
-    <tag k="bicycle" v="yes"/>
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="toucan"/>
-  </node>
-  <node id="3195055482" lat="51.514902" lon="-0.2258981" version="1" visible="true"/>
-  <node id="3195055476" lat="51.5148718" lon="-0.2259166" version="1" visible="true"/>
-  <node id="3195055474" lat="51.5148442" lon="-0.2259296" version="1" visible="true"/>
   <node id="3143447955" lat="51.5742611" lon="-0.0289314" version="3" visible="true"/>
   <node id="3143447939" lat="51.5740809" lon="-0.0288011" version="4" visible="true">
     <tag k="bicycle" v="yes"/>
@@ -1116,7 +1107,6 @@
   <node id="1163234012" lat="51.511092" lon="-0.0551979" version="5" visible="true"/>
   <node id="1149458661" lat="51.5266208" lon="-0.1077393" version="2" visible="true"/>
   <node id="1139157766" lat="51.5752482" lon="0.1834688" version="6" visible="true"/>
-  <node id="1117582902" lat="51.5148051" lon="-0.2259413" version="4" visible="true"/>
   <node id="1109361187" lat="51.4063406" lon="-0.1654019" version="3" visible="true"/>
   <node id="1046447604" lat="51.5228607" lon="-0.1316388" version="6" visible="true">
     <tag k="highway" v="crossing"/>
@@ -4003,26 +3993,6 @@
     <nd ref="4888691693"/>
     <nd ref="4888691690"/>
     <nd ref="6279835282"/>
-  </way>
-  <way id="313508696" visible="true" version="3">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A219"/>
-    <tag k="foot" v="no"/>
-    <tag k="name" v="Wood Lane"/>
-    <tag k="horse" v="no"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="no"/>
-    <tag k="highway" v="primary_link"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="tiger:upload_uuid" v="RWG102621"/>
-    <nd ref="3195055489"/>
-    <nd ref="3195055482"/>
-    <nd ref="3195055476"/>
-    <nd ref="3195055474"/>
-    <nd ref="1117582902"/>
   </way>
   <way id="681757489" visible="true" version="5">
     <tag k="lit" v="yes"/>
