@@ -2786,7 +2786,7 @@
   <node id="201269" lat="51.5990908" lon="-0.1110287" version="13" visible="true"/>
   <node id="2477093218" lat="51.5336862" lon="-0.0074054" version="3" visible="true"/>
   <node id="7843964143" lat="51.5002914" lon="-0.0736428" version="1" visible="true"/>
-  <node id="2624615477" lat="51.387333" lon="-0.2969806" version="3" visible="true"/>
+  <node id="2624615477" lat="51.387337" lon="-0.2969774" version="4" visible="true"/>
   <node id="6040171852" lat="51.4925324" lon="-0.2734972" version="3" visible="true"/>
   <node id="7830847460" lat="51.5931635" lon="0.0096762" version="1" visible="true"/>
   <node id="21489329" lat="51.5763288" lon="-0.3829468" version="4" visible="true"/>
@@ -3390,9 +3390,9 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="5784610769" lat="51.5619379" lon="-0.0462179" version="5" visible="true">
+  <node id="5784610769" lat="51.5619379" lon="-0.0462179" version="6" visible="true">
     <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals" v="signal"/>
+    <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="3748437560" lat="51.5619141" lon="-0.0462758" version="8" visible="true">
     <tag k="bicycle" v="designated"/>
@@ -3401,9 +3401,9 @@
     <tag k="crossing_ref" v="toucan"/>
     <tag k="crossing:island" v="yes"/>
   </node>
-  <node id="5784606278" lat="51.5618864" lon="-0.0463326" version="6" visible="true">
+  <node id="5784606278" lat="51.5618864" lon="-0.0463326" version="7" visible="true">
     <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals" v="signal"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="4535105045" lat="51.5587773" lon="-0.0539254" version="3" visible="true">
     <tag k="bus" v="yes"/>
@@ -15904,10 +15904,11 @@
     <nd ref="6276140939"/>
     <nd ref="578517945"/>
   </way>
-  <way id="206540620" visible="true" version="13">
+  <way id="206540620" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A107"/>
     <tag k="name" v="Lower Clapton Road"/>
+    <tag k="lanes" v="4"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
