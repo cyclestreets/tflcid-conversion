@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8536458487" lat="51.488656" lon="-0.1212654" version="1" visible="true"/>
   <node id="8504024172" lat="51.4451224" lon="-0.1103571" version="1" visible="true"/>
   <node id="8478459931" lat="51.3619554" lon="-0.0944829" version="1" visible="true"/>
   <node id="8478459929" lat="51.3616357" lon="-0.0943876" version="1" visible="true"/>
@@ -731,7 +732,13 @@
   <node id="6315106863" lat="51.4138767" lon="-0.1908974" version="1" visible="true"/>
   <node id="6299713198" lat="51.4933801" lon="-0.26747" version="1" visible="true"/>
   <node id="6299708150" lat="51.4933836" lon="-0.2673736" version="2" visible="true"/>
-  <node id="6296895687" lat="51.5447798" lon="0.0045723" version="3" visible="true"/>
+  <node id="6296895687" lat="51.5447803" lon="0.0046074" version="4" visible="true">
+    <tag k="kerb" v="flush"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+  </node>
   <node id="6285164117" lat="51.4264576" lon="-0.1376672" version="2" visible="true"/>
   <node id="6283316262" lat="51.458544" lon="-0.1904701" version="1" visible="true"/>
   <node id="6279835276" lat="51.5396119" lon="-0.1756919" version="3" visible="true"/>
@@ -939,8 +946,7 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="5739257304" lat="51.4875306" lon="-0.1121764" version="1" visible="true"/>
-  <node id="5734842562" lat="51.5447835" lon="0.0046653" version="1" visible="true"/>
-  <node id="5734842561" lat="51.5447866" lon="0.0046346" version="1" visible="true"/>
+  <node id="5734842562" lat="51.544788" lon="0.0046985" version="2" visible="true"/>
   <node id="5734788464" lat="51.5437393" lon="0.0026913" version="5" visible="true">
     <tag k="foot" v="yes"/>
     <tag k="horse" v="yes"/>
@@ -2673,6 +2679,7 @@
     <tag k="highway" v="traffic_signals"/>
   </node>
   <node id="60266188" lat="51.5372991" lon="-0.3098611" version="2" visible="true"/>
+  <node id="59851490" lat="51.5447544" lon="0.0044995" version="12" visible="true"/>
   <node id="59367009" lat="51.5116092" lon="-0.0429237" version="5" visible="true"/>
   <node id="54597090" lat="51.4093022" lon="-0.189436" version="1" visible="true"/>
   <node id="54597088" lat="51.4091684" lon="-0.1905089" version="1" visible="true"/>
@@ -4589,6 +4596,38 @@
     <nd ref="5597471223"/>
     <nd ref="82748718"/>
   </way>
+  <way id="672433154" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Manbey Grove"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="ref:GB:usrn" v="22201496"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG156261"/>
+    <nd ref="6296895687"/>
+    <nd ref="5734842562"/>
+  </way>
+  <way id="672433154" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Manbey Grove"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="ref:GB:usrn" v="22201496"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG156260"/>
+    <nd ref="6296895687"/>
+    <nd ref="5734842562"/>
+  </way>
   <way id="585798146" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Minard Road"/>
@@ -5060,22 +5099,6 @@
     <nd ref="5597578907"/>
     <nd ref="3882252369"/>
   </way>
-  <way id="672433154" visible="true" version="3">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Manbey Grove"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="ref:GB:usrn" v="22201496"/>
-    <tag k="lane_markings" v="no"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG156260"/>
-    <nd ref="6296895687"/>
-    <nd ref="5734842561"/>
-    <nd ref="5734842562"/>
-  </way>
   <way id="535669193" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Coventry Road"/>
@@ -5101,6 +5124,22 @@
     <nd ref="7236136519"/>
     <nd ref="7236136513"/>
     <nd ref="7236136511"/>
+  </way>
+  <way id="604367644" visible="true" version="7">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Manbey Grove"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="ref:GB:usrn" v="22201496"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG999444"/>
+    <nd ref="59851490"/>
+    <nd ref="6296895687"/>
   </way>
   <way id="384871725" visible="true" version="4">
     <tag k="lit" v="yes"/>
@@ -11804,7 +11843,7 @@
     <nd ref="1955520876"/>
     <nd ref="1844769510"/>
   </way>
-  <way id="505954460" visible="true" version="2">
+  <way id="505954460" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Glasshouse Walk"/>
     <tag k="highway" v="residential"/>
@@ -11816,6 +11855,7 @@
     <tag k="tiger:upload_uuid" v="RWG056242"/>
     <nd ref="25501321"/>
     <nd ref="2246184946"/>
+    <nd ref="8536458487"/>
     <nd ref="1955520876"/>
   </way>
   <way id="173705537" visible="true" version="8">
