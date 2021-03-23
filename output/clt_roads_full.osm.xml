@@ -2205,6 +2205,7 @@
   <node id="5197360402" lat="51.4779139" lon="-0.1472948" version="2" visible="true"/>
   <node id="326122897" lat="51.64252" lon="-0.079877" version="5" visible="true"/>
   <node id="7797306651" lat="51.4422168" lon="-0.0661424" version="1" visible="true"/>
+  <node id="7876968372" lat="51.5430505" lon="-0.1496168" version="3" visible="true"/>
   <node id="31008688" lat="51.5801119" lon="0.1784921" version="5" visible="true"/>
   <node id="8011192975" lat="51.5307948" lon="-0.1016118" version="1" visible="true"/>
   <node id="90108064" lat="51.4875218" lon="0.0289969" version="4" visible="true"/>
@@ -4167,6 +4168,10 @@
     <tag k="name" v="Lancaster Place"/>
     <tag k="local_ref" v="T"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="8550313653" lat="51.5430295" lon="-0.1495106" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="7630660745" lat="51.5288961" lon="-0.1386343" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -16378,6 +16383,19 @@
     <tag k="tiger:upload_uuid" v="RWG151515"/>
     <nd ref="3506583416"/>
     <nd ref="2352390053"/>
+  </way>
+  <way id="920928414" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A502"/>
+    <tag k="name" v="Chalk Farm Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG038333"/>
+    <nd ref="7876968372"/>
+    <nd ref="8550313653"/>
   </way>
   <way id="7225349" visible="true" version="20">
     <tag k="lit" v="yes"/>
