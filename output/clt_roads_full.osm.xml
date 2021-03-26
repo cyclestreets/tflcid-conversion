@@ -174,6 +174,7 @@
   <node id="2751193005" lat="51.4949107" lon="-0.3219288" version="4" visible="true"/>
   <node id="18092251" lat="51.5846258" lon="-0.0194171" version="8" visible="true"/>
   <node id="1938819293" lat="51.5118943" lon="-0.0975666" version="4" visible="true"/>
+  <node id="7721255531" lat="51.4172228" lon="-0.1792131" version="1" visible="true"/>
   <node id="18008333" lat="51.496012" lon="-0.3249604" version="3" visible="true"/>
   <node id="2584020698" lat="51.522579" lon="-0.0778571" version="5" visible="true"/>
   <node id="1584091367" lat="51.4206088" lon="-0.2054466" version="5" visible="true"/>
@@ -1938,6 +1939,7 @@
   <node id="449188099" lat="51.4528607" lon="0.0320098" version="5" visible="true"/>
   <node id="3610864735" lat="51.4391017" lon="-0.360977" version="3" visible="true"/>
   <node id="2665239973" lat="51.5110977" lon="-0.1028379" version="3" visible="true"/>
+  <node id="36712239" lat="51.4271819" lon="-0.1688999" version="5" visible="true"/>
   <node id="25324988" lat="51.5550681" lon="-0.3601781" version="6" visible="true"/>
   <node id="1488974262" lat="51.3693922" lon="-0.3060794" version="4" visible="true"/>
   <node id="7325349546" lat="51.4256116" lon="-0.2741541" version="2" visible="true"/>
@@ -2179,6 +2181,7 @@
   <node id="1708262086" lat="51.4038907" lon="-0.2758171" version="4" visible="true"/>
   <node id="1674025808" lat="51.5273305" lon="-0.1837751" version="3" visible="true"/>
   <node id="2477093258" lat="51.5306991" lon="-0.0114326" version="4" visible="true"/>
+  <node id="7776618943" lat="51.4187391" lon="-0.177576" version="1" visible="true"/>
   <node id="90117683" lat="51.4691749" lon="0.0542691" version="6" visible="true"/>
   <node id="3461322635" lat="51.4758228" lon="-0.2685466" version="1" visible="true"/>
   <node id="8245581917" lat="51.5899472" lon="-0.014091" version="1" visible="true"/>
@@ -2314,6 +2317,7 @@
   <node id="4213477762" lat="51.4854048" lon="0.0059723" version="5" visible="true"/>
   <node id="419810195" lat="51.4867091" lon="-0.1309719" version="4" visible="true"/>
   <node id="2507582451" lat="51.4637429" lon="-0.1830989" version="4" visible="true"/>
+  <node id="3887439982" lat="51.4171732" lon="-0.1792934" version="4" visible="true"/>
   <node id="624932" lat="51.4415986" lon="-0.0205268" version="5" visible="true"/>
   <node id="3610864717" lat="51.4402755" lon="-0.36384" version="3" visible="true"/>
   <node id="6306624838" lat="51.532806" lon="-0.1281298" version="2" visible="true"/>
@@ -2355,6 +2359,7 @@
   <node id="11002203" lat="51.3591323" lon="-0.155487" version="4" visible="true"/>
   <node id="3785986523" lat="51.4795376" lon="0.0280774" version="3" visible="true"/>
   <node id="7725506629" lat="51.5877307" lon="-0.0562359" version="1" visible="true"/>
+  <node id="7776618963" lat="51.4188885" lon="-0.1774335" version="1" visible="true"/>
   <node id="8084647574" lat="51.6363373" lon="-0.0910185" version="1" visible="true"/>
   <node id="60976690" lat="51.5348762" lon="-0.1389946" version="5" visible="true"/>
   <node id="3839024645" lat="51.5727976" lon="-0.0896836" version="3" visible="true"/>
@@ -4837,6 +4842,23 @@
     <tag k="crossing_ref" v="pelican"/>
     <tag k="traffic_calming" v="table"/>
   </node>
+  <node id="4951341217" lat="51.427541" lon="-0.1684876" version="4" visible="true">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Tooting Broadway / South Thames College"/>
+    <tag k="local_ref" v="K"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="4951341220" lat="51.427377" lon="-0.1686712" version="4" visible="true">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Tooting Broadway Station"/>
+    <tag k="local_ref" v="L"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="7972133007" lat="51.4272412" lon="-0.168833" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:island" v="yes"/>
+  </node>
   <node id="4896445157" lat="51.4211066" lon="-0.1608586" version="4" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Mitcham Road / Tooting Station"/>
@@ -7082,6 +7104,21 @@
     <nd ref="7769359775"/>
     <nd ref="2624615477"/>
   </way>
+  <way id="827038253" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A24"/>
+    <tag k="name" v="High Street Colliers Wood"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="cycleway:forward" v="separate"/>
+    <tag k="cycleway:backward" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG206571"/>
+    <nd ref="7721255531"/>
+    <nd ref="3887439982"/>
+  </way>
   <way id="629350808" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A24"/>
@@ -7679,7 +7716,7 @@
     <nd ref="6243499487"/>
     <nd ref="27622810"/>
   </way>
-  <way id="903599960" visible="true" version="1">
+  <way id="903599960" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A24"/>
     <tag k="name" v="High Street Colliers Wood"/>
@@ -7689,13 +7726,14 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG124051"/>
+    <tag k="cycleway:forward" v="lane"/>
+    <tag k="cycleway:backward" v="track"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG124051,RWG124053"/>
     <nd ref="126375182"/>
     <nd ref="8392290217"/>
   </way>
-  <way id="903599959" visible="true" version="1">
+  <way id="903599959" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A24"/>
     <tag k="name" v="High Street Colliers Wood"/>
@@ -7705,8 +7743,8 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v="track"/>
-    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:forward" v="track"/>
+    <tag k="cycleway:backward" v="track"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG124051,RWG124053"/>
     <nd ref="8392290217"/>
@@ -7782,7 +7820,7 @@
     <nd ref="6474088399"/>
     <nd ref="8023223816"/>
   </way>
-  <way id="827038251" visible="true" version="2">
+  <way id="827038251" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A238"/>
     <tag k="name" v="Merton High Street"/>
@@ -7791,8 +7829,9 @@
     <tag k="sidewalk" v="both"/>
     <tag k="lanes:left" v="2"/>
     <tag k="lanes:right" v="1"/>
+    <tag k="cycleway:forward" v="separate"/>
+    <tag k="cycleway:backward" v="lane"/>
     <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG206569"/>
     <nd ref="19091848"/>
     <nd ref="7721255539"/>
@@ -7850,6 +7889,22 @@
     <tag k="tiger:upload_uuid" v="RWG123719"/>
     <nd ref="3198398960"/>
     <nd ref="80428808"/>
+  </way>
+  <way id="833064662" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A24"/>
+    <tag k="name" v="High Street Colliers Wood"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:forward" v="separate"/>
+    <tag k="cycleway:backward" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG206610"/>
+    <nd ref="7776618943"/>
+    <nd ref="7776618963"/>
   </way>
   <way id="577333026" visible="true" version="4">
     <tag k="lit" v="yes"/>
@@ -8478,7 +8533,7 @@
     <nd ref="441315624"/>
     <nd ref="441316326"/>
   </way>
-  <way id="833064661" visible="true" version="3">
+  <way id="833064661" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A24"/>
     <tag k="name" v="High Street Colliers Wood"/>
@@ -8487,8 +8542,9 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="right"/>
+    <tag k="cycleway:forward" v="separate"/>
+    <tag k="cycleway:backward" v="lane"/>
     <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG123945,RWG124053"/>
     <nd ref="7776618958"/>
     <nd ref="7838396451"/>
@@ -8810,7 +8866,7 @@
     <nd ref="7776618946"/>
     <nd ref="7776618959"/>
   </way>
-  <way id="833064654" visible="true" version="3">
+  <way id="833064654" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A24"/>
     <tag k="name" v="High Street Colliers Wood"/>
@@ -8819,8 +8875,9 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:forward" v="track"/>
+    <tag k="cycleway:backward" v="separate"/>
     <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:right" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG124053"/>
     <nd ref="7776618959"/>
     <nd ref="7838396450"/>
@@ -20404,7 +20461,7 @@
     <nd ref="27034221"/>
     <nd ref="388598206"/>
   </way>
-  <way id="846604955" visible="true" version="2">
+  <way id="846604955" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A24"/>
     <tag k="name" v="Balham Hill"/>
@@ -20412,7 +20469,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:backward" v="lane"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG171212,RWG109908"/>
     <nd ref="26399218"/>
@@ -20544,6 +20601,37 @@
     <nd ref="43403631"/>
     <nd ref="7799385071"/>
     <nd ref="43414138"/>
+  </way>
+  <way id="846603864" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A24"/>
+    <tag k="name" v="Tooting High Street"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:forward" v="share_busway"/>
+    <tag k="cycleway:backward" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG109917"/>
+    <nd ref="36712239"/>
+    <nd ref="7972133007"/>
+    <nd ref="4951341220"/>
+  </way>
+  <way id="495573215" visible="true" version="6">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A24"/>
+    <tag k="name" v="Tooting High Street"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:forward" v="share_busway"/>
+    <tag k="cycleway:backward" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG109917"/>
+    <nd ref="4951341220"/>
+    <nd ref="4951341217"/>
   </way>
   <way id="849634914" visible="true" version="1">
     <tag k="lit" v="yes"/>

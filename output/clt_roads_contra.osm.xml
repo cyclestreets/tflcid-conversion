@@ -82,7 +82,6 @@
   <node id="8050665244" lat="51.532288" lon="-0.1037094" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
-  <node id="8041822141" lat="51.5501059" lon="-0.3479187" version="1" visible="true"/>
   <node id="8017530626" lat="51.4410924" lon="-0.1062951" version="1" visible="true"/>
   <node id="8017530621" lat="51.4410599" lon="-0.106288" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -532,7 +531,6 @@
   <node id="7013470693" lat="51.4692266" lon="-0.3707739" version="2" visible="true"/>
   <node id="6988576676" lat="51.5393474" lon="-0.3098194" version="1" visible="true"/>
   <node id="6988568048" lat="51.4154671" lon="0.0054938" version="1" visible="true"/>
-  <node id="6988563179" lat="51.5501674" lon="-0.3478358" version="2" visible="true"/>
   <node id="6988558772" lat="51.4992864" lon="-0.0914858" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
@@ -1478,7 +1476,7 @@
   </node>
   <node id="3240062614" lat="51.5059555" lon="-0.0872862" version="4" visible="true"/>
   <node id="3233503925" lat="51.4674678" lon="-0.3656356" version="4" visible="true"/>
-  <node id="3225717602" lat="51.5505949" lon="-0.3472878" version="2" visible="true"/>
+  <node id="3225717602" lat="51.5505766" lon="-0.347261" version="3" visible="true"/>
   <node id="3208345486" lat="51.4120742" lon="-0.3014213" version="1" visible="true"/>
   <node id="3183951947" lat="51.5081188" lon="-0.1049234" version="1" visible="true"/>
   <node id="3183951944" lat="51.508127" lon="-0.1055894" version="1" visible="true"/>
@@ -2100,8 +2098,8 @@
   <node id="1364394308" lat="51.5440485" lon="-0.1826076" version="4" visible="true"/>
   <node id="1364332907" lat="51.5447178" lon="-0.1833966" version="2" visible="true"/>
   <node id="1360122937" lat="51.5178284" lon="-0.1046305" version="3" visible="true"/>
-  <node id="1333991183" lat="51.5513528" lon="-0.3462953" version="3" visible="true"/>
-  <node id="1333991181" lat="51.551322" lon="-0.3462979" version="3" visible="true"/>
+  <node id="1333991183" lat="51.551337" lon="-0.3462577" version="4" visible="true"/>
+  <node id="1333991181" lat="51.5513062" lon="-0.3462603" version="4" visible="true"/>
   <node id="1323320000" lat="51.4659214" lon="-0.034474" version="1" visible="true"/>
   <node id="1323319985" lat="51.4660742" lon="-0.0343834" version="1" visible="true"/>
   <node id="1320901110" lat="51.4084774" lon="-0.2942069" version="3" visible="true"/>
@@ -2234,7 +2232,7 @@
   <node id="613578682" lat="51.6011789" lon="-0.1052807" version="4" visible="true"/>
   <node id="613466792" lat="51.5853325" lon="-0.084276" version="2" visible="true"/>
   <node id="599572234" lat="51.5136043" lon="-0.1667932" version="4" visible="true"/>
-  <node id="586529222" lat="51.5512972" lon="-0.3463249" version="5" visible="true"/>
+  <node id="586529222" lat="51.5512814" lon="-0.3462873" version="6" visible="true"/>
   <node id="568114064" lat="51.5516219" lon="-0.0478908" version="2" visible="true"/>
   <node id="568114059" lat="51.5515556" lon="-0.048675" version="3" visible="true"/>
   <node id="567836357" lat="51.5429022" lon="-0.4779443" version="1" visible="true"/>
@@ -2768,7 +2766,7 @@
   </node>
   <node id="31002214" lat="51.4676921" lon="-0.3658228" version="3" visible="true"/>
   <node id="30863438" lat="51.4550546" lon="-0.3127434" version="4" visible="true"/>
-  <node id="30759365" lat="51.5502044" lon="-0.3478146" version="6" visible="true"/>
+  <node id="30759365" lat="51.5501927" lon="-0.3477844" version="7" visible="true"/>
   <node id="30737899" lat="51.4440879" lon="-0.1436996" version="7" visible="true"/>
   <node id="30737829" lat="51.4437881" lon="-0.1446219" version="9" visible="true"/>
   <node id="30426698" lat="51.4617645" lon="-0.2763067" version="5" visible="true"/>
@@ -2847,8 +2845,8 @@
   <node id="25632860" lat="51.5149117" lon="-0.0946025" version="3" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
-  <node id="25628953" lat="51.5510162" lon="-0.3467073" version="5" visible="true"/>
-  <node id="25628950" lat="51.5517047" lon="-0.3463663" version="5" visible="true"/>
+  <node id="25628953" lat="51.5510029" lon="-0.3466671" version="6" visible="true"/>
+  <node id="25628950" lat="51.5516964" lon="-0.3463301" version="6" visible="true"/>
   <node id="25592552" lat="51.5057758" lon="-0.3334437" version="3" visible="true"/>
   <node id="25583054" lat="51.5747508" lon="0.1231983" version="12" visible="true"/>
   <node id="25582773" lat="51.5629128" lon="0.0918041" version="6" visible="true"/>
@@ -4893,7 +4891,8 @@
     <nd ref="5278147415"/>
     <nd ref="116117797"/>
   </way>
-  <way id="4099959" visible="true" version="3">
+  <way id="4099959" visible="true" version="4">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Balfour Avenue"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -4904,7 +4903,8 @@
     <nd ref="21992363"/>
     <nd ref="8324695578"/>
   </way>
-  <way id="4099959" visible="true" version="3">
+  <way id="4099959" visible="true" version="4">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Balfour Avenue"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -7266,16 +7266,6 @@
     <nd ref="5625690748"/>
     <nd ref="6332768478"/>
     <nd ref="6332768473"/>
-  </way>
-  <way id="746815054" visible="true" version="2">
-    <tag k="name" v="Rothesay Avenue"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG275688"/>
-    <nd ref="30759365"/>
-    <nd ref="6988563179"/>
-    <nd ref="8041822141"/>
   </way>
   <way id="586435574" visible="true" version="1">
     <tag k="name" v="Park Avenue South"/>
