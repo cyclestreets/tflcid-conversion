@@ -371,7 +371,7 @@
   <node id="650452266" lat="51.5392055" lon="-0.0564609" version="6" visible="true"/>
   <node id="3851724648" lat="51.4674706" lon="-0.0227746" version="4" visible="true"/>
   <node id="6772461633" lat="51.4112501" lon="-0.1615069" version="2" visible="true"/>
-  <node id="684418452" lat="51.4696416" lon="-0.028212" version="1" visible="true"/>
+  <node id="684418452" lat="51.4696155" lon="-0.0282538" version="2" visible="true"/>
   <node id="1626997888" lat="51.4702754" lon="-0.1709421" version="6" visible="true"/>
   <node id="945430246" lat="51.5968799" lon="-0.0729596" version="1" visible="true"/>
   <node id="4882563266" lat="51.4980559" lon="-0.2075565" version="2" visible="true"/>
@@ -1037,7 +1037,6 @@
   <node id="8491935845" lat="51.4745453" lon="-0.1465525" version="1" visible="true"/>
   <node id="30179294" lat="51.5053636" lon="-0.0073715" version="7" visible="true"/>
   <node id="1665355937" lat="51.4102279" lon="-0.2276954" version="4" visible="true"/>
-  <node id="7360185468" lat="51.46963" lon="-0.028225" version="1" visible="true"/>
   <node id="3224128140" lat="51.5384797" lon="-0.0014931" version="3" visible="true"/>
   <node id="1781823084" lat="51.5739624" lon="-0.0867367" version="5" visible="true"/>
   <node id="1946796292" lat="51.5930838" lon="-0.3332349" version="2" visible="true"/>
@@ -1486,7 +1485,6 @@
   <node id="220876" lat="51.5724539" lon="-0.0906463" version="8" visible="true"/>
   <node id="7413919196" lat="51.501454" lon="-0.2084593" version="1" visible="true"/>
   <node id="1502785424" lat="51.5023394" lon="-0.1562643" version="7" visible="true"/>
-  <node id="3890874645" lat="51.4748564" lon="-0.04046" version="6" visible="true"/>
   <node id="5747790907" lat="51.4451197" lon="0.1532808" version="4" visible="true"/>
   <node id="33002426" lat="51.4474536" lon="-0.0854868" version="7" visible="true"/>
   <node id="198159" lat="51.5483705" lon="-0.1312886" version="4" visible="true"/>
@@ -4473,6 +4471,14 @@
     <tag k="name" v="New Cross Gate Station"/>
     <tag k="local_ref" v="O"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="8562371374" lat="51.4748684" lon="-0.0404115" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
+  <node id="3890874645" lat="51.4748564" lon="-0.04046" version="7" visible="true">
+    <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="backward"/>
   </node>
   <node id="602536308" lat="51.4975081" lon="-0.0539591" version="5" visible="true">
     <tag k="bus" v="yes"/>
@@ -10261,7 +10267,7 @@
     <nd ref="2094944256"/>
     <nd ref="129993091"/>
   </way>
-  <way id="651852806" visible="true" version="2">
+  <way id="651852806" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Wickham Road"/>
     <tag k="oneway" v="no"/>
@@ -10271,7 +10277,6 @@
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG198072"/>
     <nd ref="105122"/>
-    <nd ref="7360185468"/>
     <nd ref="684418452"/>
   </way>
   <way id="613966986" visible="true" version="7">
@@ -10672,7 +10677,7 @@
     <nd ref="623136921"/>
     <nd ref="7365362018"/>
   </way>
-  <way id="385751422" visible="true" version="2">
+  <way id="385751422" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A2"/>
     <tag k="foot" v="yes"/>
@@ -10689,6 +10694,7 @@
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG198347"/>
     <nd ref="3890874645"/>
+    <nd ref="8562371374"/>
     <nd ref="13823652"/>
   </way>
   <way id="38697229" visible="true" version="15">
