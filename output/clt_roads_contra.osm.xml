@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8575389573" lat="51.5724354" lon="-0.1328309" version="1" visible="true"/>
   <node id="8566227325" lat="51.5131334" lon="-0.1627485" version="1" visible="true"/>
   <node id="8566196415" lat="51.51311" lon="-0.1627342" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -370,9 +371,9 @@
     <tag k="crossing" v="unmarked"/>
   </node>
   <node id="7330328815" lat="51.4807916" lon="-0.0951922" version="1" visible="true"/>
-  <node id="7330327067" lat="51.4183363" lon="-0.1349211" version="2" visible="true">
+  <node id="7330327067" lat="51.4183363" lon="-0.1349211" version="3" visible="true">
     <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals;marked"/>
+    <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
   </node>
   <node id="7330327066" lat="51.4183087" lon="-0.1348838" version="2" visible="true">
@@ -10357,7 +10358,7 @@
     <nd ref="3714379365"/>
     <nd ref="7432098526"/>
   </way>
-  <way id="8399712" visible="true" version="9">
+  <way id="8399712" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Ashmount Road"/>
     <tag k="highway" v="residential"/>
@@ -10368,6 +10369,7 @@
     <nd ref="26625327"/>
     <nd ref="620787591"/>
     <nd ref="26625328"/>
+    <nd ref="8575389573"/>
     <nd ref="6787202869"/>
     <nd ref="5230657029"/>
     <nd ref="6787202861"/>
