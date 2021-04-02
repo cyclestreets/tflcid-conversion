@@ -3966,10 +3966,11 @@
   <node id="25500407" lat="51.526871" lon="-0.1203726" version="7" visible="true">
     <tag k="maxwidth" v="7.5"/>
   </node>
-  <node id="251336156" lat="51.5268375" lon="-0.1205226" version="9" visible="true">
+  <node id="251336156" lat="51.5268375" lon="-0.1205226" version="10" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="2114886913" lat="51.5334136" lon="-0.1223475" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -14294,7 +14295,7 @@
     <nd ref="6384632336"/>
     <nd ref="7918944667"/>
   </way>
-  <way id="534676024" visible="true" version="5">
+  <way id="534676024" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Sidmouth Street"/>
     <tag k="highway" v="tertiary"/>
@@ -14303,6 +14304,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="maxwidth" v="7'0&quot;"/>
     <tag k="priority" v="forward"/>
+    <tag k="lane_markings" v="no"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG152760,RWG152757,RWG152252,RWG152253,RWG152254,RWG152758,RWG152251"/>
     <nd ref="5184854306"/>
