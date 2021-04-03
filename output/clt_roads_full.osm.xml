@@ -594,6 +594,7 @@
   <node id="29158929" lat="51.4954016" lon="-0.1012801" version="13" visible="true"/>
   <node id="5425192220" lat="51.5230511" lon="-0.1079142" version="3" visible="true"/>
   <node id="98302858" lat="51.5781672" lon="-0.0071175" version="11" visible="true"/>
+  <node id="4937046204" lat="51.656381" lon="-0.0474489" version="3" visible="true"/>
   <node id="6331732604" lat="51.5547949" lon="0.0463819" version="3" visible="true"/>
   <node id="529742640" lat="51.5777974" lon="-0.3301058" version="4" visible="true"/>
   <node id="5831128360" lat="51.5252186" lon="-0.0774117" version="3" visible="true"/>
@@ -1621,6 +1622,7 @@
   <node id="6366316086" lat="51.5019882" lon="-0.1102851" version="4" visible="true"/>
   <node id="765269510" lat="51.501418" lon="-0.3649631" version="5" visible="true"/>
   <node id="1448692397" lat="51.5806446" lon="0.1810297" version="3" visible="true"/>
+  <node id="8584885252" lat="51.6562743" lon="-0.0474915" version="1" visible="true"/>
   <node id="556768606" lat="51.4567355" lon="-0.435018" version="4" visible="true"/>
   <node id="3247619644" lat="51.5004798" lon="-0.1154252" version="3" visible="true"/>
   <node id="7241419080" lat="51.5570032" lon="-0.0110212" version="1" visible="true"/>
@@ -6233,7 +6235,7 @@
     <nd ref="8085224589"/>
     <nd ref="8085242323"/>
   </way>
-  <way id="772285185" visible="true" version="3">
+  <way id="772285185" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1010"/>
     <tag k="name" v="Hertford Road"/>
@@ -6246,11 +6248,24 @@
     <nd ref="1178222843"/>
     <nd ref="7483395222"/>
   </way>
-  <way id="658346245" visible="true" version="4">
+  <way id="925017821" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1010"/>
     <tag k="name" v="Hertford Road"/>
     <tag k="highway" v="primary"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG149613"/>
+    <nd ref="7644727392"/>
+    <nd ref="4937046204"/>
+    <nd ref="8584885252"/>
+  </way>
+  <way id="658346245" visible="true" version="5">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A1010"/>
+    <tag k="name" v="Hertford Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG149613"/>
     <nd ref="4937046217"/>
@@ -8233,7 +8248,7 @@
     <nd ref="8023223819"/>
     <nd ref="2114748153"/>
   </way>
-  <way id="34433398" visible="true" version="8">
+  <way id="34433398" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A218"/>
     <tag k="name" v="Haydons Road"/>
@@ -8241,6 +8256,7 @@
     <tag k="bridge" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="alt_name" v="Haydon's Road"/>
+    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG124124"/>
