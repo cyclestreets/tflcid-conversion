@@ -790,7 +790,7 @@
   <node id="186883094" lat="51.3704031" lon="-0.1252025" version="2" visible="true"/>
   <node id="186883091" lat="51.3708264" lon="-0.1238721" version="2" visible="true"/>
   <node id="186883088" lat="51.3709144" lon="-0.1237608" version="1" visible="true"/>
-  <node id="185716902" lat="51.5065471" lon="-0.2405626" version="14" visible="true"/>
+  <node id="185716902" lat="51.5065805" lon="-0.2405423" version="15" visible="true"/>
   <node id="185716900" lat="51.5063262" lon="-0.2407354" version="2" visible="true"/>
   <node id="185654393" lat="51.5529067" lon="0.238427" version="3" visible="true"/>
   <node id="185654391" lat="51.5530188" lon="0.2376202" version="2" visible="true"/>
@@ -1073,11 +1073,15 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
-  <node id="11079536" lat="51.4708672" lon="-0.1645983" version="6" visible="true">
+  <node id="11079536" lat="51.4708672" lon="-0.1645983" version="10" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
   </node>
   <node id="9684532" lat="51.6078113" lon="-0.1640351" version="5" visible="true"/>
   <node id="9684531" lat="51.6082463" lon="-0.1617266" version="3" visible="true"/>
@@ -3178,8 +3182,10 @@
     <nd ref="7529726604"/>
     <nd ref="7529726606"/>
   </way>
-  <way id="4003193" visible="true" version="7">
+  <way id="4003193" visible="true" version="9">
     <tag k="highway" v="cycleway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="surface" v="sett"/>
     <nd ref="21037713"/>
     <nd ref="7791466385"/>
     <nd ref="1822117059"/>

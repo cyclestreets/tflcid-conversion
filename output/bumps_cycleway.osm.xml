@@ -27,8 +27,9 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="backward"/>
   </node>
-  <node id="7986504863" lat="51.5196986" lon="-0.0566345" version="1" visible="true">
+  <node id="7986504863" lat="51.5197014" lon="-0.056614" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="7978171550" lat="51.5296443" lon="-0.0599264" version="1" visible="true"/>
   <node id="7891393623" lat="51.529652" lon="-0.0599004" version="2" visible="true"/>
@@ -774,6 +775,10 @@
   <node id="7293228161" lat="51.4987158" lon="-0.0737683" visible="true" version="1">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG078972"/>
+  </node>
+  <node id="3823720157" lat="51.4893084" lon="-0.0731254" visible="true" version="1">
+    <tag k="traffic_calming" v="hump"/>
+    <tag k="tiger:upload_uuid" v="RWG077767"/>
   </node>
   <node id="7681799811" lat="51.4801828" lon="-0.062954" visible="true" version="1">
     <tag k="foot" v="yes"/>
