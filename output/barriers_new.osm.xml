@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8595434856" lat="51.3428558" lon="-0.1605752" version="1" visible="true"/>
+  <node id="8595434844" lat="51.3425949" lon="-0.1625837" version="1" visible="true"/>
+  <node id="8595434838" lat="51.3425415" lon="-0.1629973" version="1" visible="true"/>
   <node id="8460046682" lat="51.560335" lon="-0.2724957" version="1" visible="true"/>
   <node id="8437457311" lat="51.5829248" lon="0.1729183" version="1" visible="true"/>
   <node id="8421658428" lat="51.5151489" lon="-0.1412044" version="1" visible="true"/>
@@ -1440,7 +1443,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG215403"/>
   </node>
-  <node id="-272" lat="51.3428248659725" lon="-0.160805174480417" visible="true">
+  <node id="-272" lat="51.3428259036484" lon="-0.160805312429782" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -3861,18 +3864,21 @@
     <nd ref="50453722"/>
     <nd ref="50453776"/>
   </way>
-  <way id="60103679" visible="true" version="8">
-    <tag k="foot" v="permissive"/>
-    <tag k="name" v="Oaks Track"/>
+  <way id="60103679" visible="true" version="9">
     <tag k="access" v="private"/>
     <tag k="bicycle" v="permissive"/>
+    <tag k="foot" v="permissive"/>
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Oaks Track"/>
     <nd ref="60264296"/>
     <nd ref="5299648495"/>
     <nd ref="7187215973"/>
     <nd ref="60264300"/>
+    <nd ref="8595434856"/>
     <nd ref="-272"/>
+    <nd ref="8595434844"/>
+    <nd ref="8595434838"/>
     <nd ref="60264301"/>
     <nd ref="60264302"/>
     <nd ref="5299648496"/>
