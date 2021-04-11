@@ -276,7 +276,6 @@
   <node id="39917888" lat="51.6052162" lon="-0.0776501" version="3" visible="true"/>
   <node id="8430303820" lat="51.5111989" lon="-0.0610374" version="1" visible="true"/>
   <node id="31008716" lat="51.580003" lon="0.1790213" version="3" visible="true"/>
-  <node id="7593155216" lat="51.5464253" lon="-0.1465587" version="2" visible="true"/>
   <node id="21990629" lat="51.5156666" lon="-0.089335" version="5" visible="true"/>
   <node id="2024766715" lat="51.6145945" lon="-0.1588887" version="2" visible="true"/>
   <node id="33082400" lat="51.5658687" lon="-0.2838608" version="2" visible="true"/>
@@ -372,7 +371,6 @@
   <node id="107975" lat="51.5333278" lon="-0.1223839" version="15" visible="true"/>
   <node id="80431940" lat="51.3864185" lon="-0.1924429" version="5" visible="true"/>
   <node id="4062569212" lat="51.5714241" lon="-0.1392628" version="1" visible="true"/>
-  <node id="1773062851" lat="51.4178559" lon="-0.126904" version="5" visible="true"/>
   <node id="108009" lat="51.5239619" lon="-0.1342365" version="24" visible="true"/>
   <node id="650452266" lat="51.5392055" lon="-0.0564609" version="6" visible="true"/>
   <node id="3851724648" lat="51.4674706" lon="-0.0227746" version="4" visible="true"/>
@@ -836,7 +834,6 @@
   <node id="7007425142" lat="51.4864415" lon="-0.1246438" version="1" visible="true"/>
   <node id="26199444" lat="51.5568357" lon="-0.1270405" version="2" visible="true"/>
   <node id="250676592" lat="51.5387134" lon="-0.0012032" version="6" visible="true"/>
-  <node id="155316" lat="51.5463715" lon="-0.1467669" version="4" visible="true"/>
   <node id="5298376192" lat="51.4806892" lon="-0.436196" version="3" visible="true"/>
   <node id="1604752665" lat="51.5181228" lon="-0.1278957" version="5" visible="true"/>
   <node id="186241084" lat="51.5598622" lon="-0.1101813" version="9" visible="true"/>
@@ -2214,7 +2211,6 @@
   <node id="326122897" lat="51.64252" lon="-0.079877" version="5" visible="true"/>
   <node id="7797306651" lat="51.4422168" lon="-0.0661424" version="1" visible="true"/>
   <node id="7876968372" lat="51.5430505" lon="-0.1496168" version="3" visible="true"/>
-  <node id="8605928148" lat="51.41784" lon="-0.1268913" version="1" visible="true"/>
   <node id="31008688" lat="51.5801119" lon="0.1784921" version="5" visible="true"/>
   <node id="8011192975" lat="51.5307948" lon="-0.1016118" version="1" visible="true"/>
   <node id="90108064" lat="51.4875218" lon="0.0289969" version="4" visible="true"/>
@@ -2897,7 +2893,6 @@
   <node id="32603681" lat="51.4507023" lon="-0.0855698" version="8" visible="true"/>
   <node id="35960141" lat="51.4466416" lon="0.1562218" version="5" visible="true"/>
   <node id="2684369302" lat="51.496299" lon="-0.0999092" version="4" visible="true"/>
-  <node id="7593155228" lat="51.546388" lon="-0.1467056" version="1" visible="true"/>
   <node id="5348473620" lat="51.5455178" lon="-0.0621111" version="4" visible="true"/>
   <node id="2114886921" lat="51.5336226" lon="-0.122425" version="2" visible="true"/>
   <node id="25894924" lat="51.5781741" lon="0.1769912" version="4" visible="true"/>
@@ -14047,22 +14042,6 @@
     <nd ref="1832469430"/>
     <nd ref="1832469435"/>
   </way>
-  <way id="812922880" visible="true" version="3">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Prince of Wales Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="right"/>
-    <tag k="maxheight" v="16'6&quot;"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG038437,RWG152055"/>
-    <nd ref="7593155216"/>
-    <nd ref="7593155228"/>
-    <nd ref="155316"/>
-  </way>
   <way id="590635416" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A410"/>
@@ -21581,23 +21560,6 @@
     <nd ref="3415604487"/>
     <nd ref="2322309695"/>
     <nd ref="1268694957"/>
-  </way>
-  <way id="927611745" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A23"/>
-    <tag k="name" v="Streatham High Road"/>
-    <tag k="lanes" v="3"/>
-    <tag k="highway" v="trunk"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="busway:left" v="lane"/>
-    <tag k="postal_code" v="SW16"/>
-    <tag k="cycleway:left" v="share_busway"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG102341"/>
-    <nd ref="1773062851"/>
-    <nd ref="8605928148"/>
   </way>
   <way id="838297056" visible="true" version="1">
     <tag k="name" v="Beechcroft Road"/>
