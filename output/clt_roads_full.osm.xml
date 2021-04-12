@@ -1064,6 +1064,7 @@
   <node id="6163808337" lat="51.5254548" lon="-0.0334019" version="3" visible="true"/>
   <node id="6228425166" lat="51.5354112" lon="-0.132397" version="1" visible="true"/>
   <node id="1305563695" lat="51.4992761" lon="-0.2042106" version="3" visible="true"/>
+  <node id="3752949983" lat="51.4279975" lon="-0.168001" version="5" visible="true"/>
   <node id="7838396455" lat="51.4212395" lon="-0.1751777" version="1" visible="true"/>
   <node id="25676243" lat="51.5116105" lon="-0.4493251" version="6" visible="true"/>
   <node id="3654934402" lat="51.5221239" lon="-0.1730778" version="4" visible="true"/>
@@ -2527,6 +2528,7 @@
   <node id="45212417" lat="51.4255096" lon="0.06479" version="3" visible="true"/>
   <node id="5179866177" lat="51.5883748" lon="-0.1121221" version="3" visible="true"/>
   <node id="2453902008" lat="51.5406581" lon="-0.0069837" version="6" visible="true"/>
+  <node id="20356113" lat="51.4280394" lon="-0.1679691" version="10" visible="true"/>
   <node id="5982313621" lat="51.5898655" lon="-0.3743867" version="1" visible="true"/>
   <node id="253258724" lat="51.4807714" lon="-0.4387597" version="3" visible="true"/>
   <node id="25259470" lat="51.4671304" lon="-0.0222052" version="16" visible="true"/>
@@ -4852,6 +4854,12 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="traffic_calming" v="table"/>
+  </node>
+  <node id="5385267254" lat="51.4278824" lon="-0.1681123" version="5" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing:island" v="yes"/>
   </node>
   <node id="4896445157" lat="51.4211066" lon="-0.1608586" version="4" visible="true">
     <tag k="bus" v="yes"/>
@@ -7914,13 +7922,13 @@
     <nd ref="6474088399"/>
     <nd ref="8023223816"/>
   </way>
-  <way id="927794733" visible="true" version="1">
+  <way id="927794733" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A112"/>
     <tag k="name" v="Chingford Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="none"/>
+    <tag k="cycleway" v="no"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="postal_code" v="E4"/>
     <tag k="cycleway:right" v="lane"/>
@@ -21335,6 +21343,26 @@
     <nd ref="7667639186"/>
     <nd ref="419809640"/>
     <nd ref="419809799"/>
+  </way>
+  <way id="929025186" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A24"/>
+    <tag k="name" v="Tooting High Street"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="lanes:forward" v="2"/>
+    <tag k="lanes:backward" v="3"/>
+    <tag k="lanes:bus:backward" v="1"/>
+    <tag k="turn:lanes:forward" v="left|through|right"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG109730"/>
+    <nd ref="5385267254"/>
+    <nd ref="3752949983"/>
+    <nd ref="20356113"/>
   </way>
   <way id="838297057" visible="true" version="1">
     <tag k="name" v="Beechcroft Road"/>
