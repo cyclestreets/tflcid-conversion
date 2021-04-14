@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8623394531" lat="51.4314808" lon="-0.1721199" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="traffic_calming" v="bump"/>
+  </node>
   <node id="8603578708" lat="51.5442125" lon="-0.052522" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -925,9 +932,9 @@
   <node id="5843761994" lat="51.4751018" lon="-0.026004" version="1" visible="true"/>
   <node id="5843761993" lat="51.4749541" lon="-0.0259656" version="2" visible="true"/>
   <node id="5843761992" lat="51.4751494" lon="-0.026008" version="1" visible="true"/>
-  <node id="5842402589" lat="51.4446205" lon="-0.0089689" version="1" visible="true"/>
-  <node id="5842402585" lat="51.4446591" lon="-0.0089691" version="1" visible="true"/>
-  <node id="5842402081" lat="51.4446879" lon="-0.0089827" version="1" visible="true"/>
+  <node id="5842402589" lat="51.444618" lon="-0.0089461" version="2" visible="true"/>
+  <node id="5842402585" lat="51.4446566" lon="-0.0089463" version="2" visible="true"/>
+  <node id="5842402081" lat="51.4446854" lon="-0.0089599" version="2" visible="true"/>
   <node id="5830967582" lat="51.5246515" lon="-0.0852404" version="2" visible="true"/>
   <node id="5830967579" lat="51.5246523" lon="-0.0850897" version="2" visible="true"/>
   <node id="5830967578" lat="51.5246571" lon="-0.0854247" version="2" visible="true"/>
@@ -3134,7 +3141,7 @@
   <node id="629344" lat="51.48229" lon="-0.0133772" version="21" visible="true"/>
   <node id="629343" lat="51.4823383" lon="-0.0140841" version="5" visible="true"/>
   <node id="629342" lat="51.4823674" lon="-0.014707" version="5" visible="true"/>
-  <node id="624896" lat="51.4445839" lon="-0.009002" version="5" visible="true"/>
+  <node id="624896" lat="51.4445814" lon="-0.0089792" version="6" visible="true"/>
   <node id="618788" lat="51.4451356" lon="0.0001435" version="6" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
@@ -13592,7 +13599,7 @@
     <nd ref="264781814"/>
     <nd ref="25498991"/>
   </way>
-  <way id="758158445" visible="true" version="4">
+  <way id="758158445" visible="true" version="5">
     <tag k="name" v="Broadwater Road"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
@@ -13604,10 +13611,11 @@
     <tag k="tiger:upload_uuid" v="RWG171225"/>
     <nd ref="7080258005"/>
     <nd ref="36712044"/>
+    <nd ref="8623394531"/>
     <nd ref="7080258003"/>
     <nd ref="36712031"/>
   </way>
-  <way id="758158445" visible="true" version="4">
+  <way id="758158445" visible="true" version="5">
     <tag k="name" v="Broadwater Road"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
@@ -13619,6 +13627,7 @@
     <tag k="tiger:upload_uuid" v="RWG109820"/>
     <nd ref="7080258005"/>
     <nd ref="36712044"/>
+    <nd ref="8623394531"/>
     <nd ref="7080258003"/>
     <nd ref="36712031"/>
   </way>
