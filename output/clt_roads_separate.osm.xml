@@ -1,12 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
   <node id="8626514865" lat="51.5350536" lon="-0.1314804" version="1" visible="true"/>
-  <node id="8626514861" lat="51.5350701" lon="-0.1315202" version="1" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="uncontrolled"/>
-    <tag k="crossing_ref" v="zebra"/>
-    <tag k="crossing:island" v="no"/>
-  </node>
   <node id="8626388726" lat="51.5358416" lon="-0.1334338" version="1" visible="true"/>
   <node id="8626388725" lat="51.5359709" lon="-0.1335395" version="1" visible="true"/>
   <node id="8626388721" lat="51.5359343" lon="-0.133504" version="1" visible="true"/>
@@ -3078,7 +3072,7 @@
     <nd ref="3113617920"/>
     <nd ref="1953893735"/>
   </way>
-  <way id="552732632" visible="true" version="6">
+  <way id="552732632" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
@@ -3090,13 +3084,43 @@
     <tag k="sidewalk" v="right"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG003346"/>
-    <nd ref="6228425157"/>
     <nd ref="2592905913"/>
     <nd ref="2592917199"/>
     <nd ref="8626384991"/>
     <nd ref="2592917202"/>
     <nd ref="8626388726"/>
     <nd ref="7346592971"/>
+  </way>
+  <way id="930432931" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="right"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="traffic_calming" v="cushion"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
+    <tag k="tiger:upload_uuid" v="RWG003346"/>
+    <nd ref="7346592971"/>
+    <nd ref="8626388721"/>
+  </way>
+  <way id="930432932" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="Royal College Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="right"/>
+    <tag k="traffic_calming" v="cushion"/>
+    <tag k="tiger:upload_uuid" v="RWG003346"/>
     <nd ref="8626388721"/>
     <nd ref="8626388725"/>
     <nd ref="2592917201"/>
@@ -3105,7 +3129,7 @@
     <nd ref="5336143717"/>
     <nd ref="1198124692"/>
   </way>
-  <way id="552732632" visible="true" version="6">
+  <way id="930432932" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
@@ -3117,13 +3141,6 @@
     <tag k="sidewalk" v="right"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG003350"/>
-    <nd ref="6228425157"/>
-    <nd ref="2592905913"/>
-    <nd ref="2592917199"/>
-    <nd ref="8626384991"/>
-    <nd ref="2592917202"/>
-    <nd ref="8626388726"/>
-    <nd ref="7346592971"/>
     <nd ref="8626388721"/>
     <nd ref="8626388725"/>
     <nd ref="2592917201"/>
@@ -3132,7 +3149,7 @@
     <nd ref="5336143717"/>
     <nd ref="1198124692"/>
   </way>
-  <way id="552732632" visible="true" version="6">
+  <way id="552732632" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
@@ -3144,20 +3161,12 @@
     <tag k="sidewalk" v="right"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG003345"/>
-    <nd ref="6228425157"/>
     <nd ref="2592905913"/>
     <nd ref="2592917199"/>
     <nd ref="8626384991"/>
     <nd ref="2592917202"/>
     <nd ref="8626388726"/>
     <nd ref="7346592971"/>
-    <nd ref="8626388721"/>
-    <nd ref="8626388725"/>
-    <nd ref="2592917201"/>
-    <nd ref="469767790"/>
-    <nd ref="5336175087"/>
-    <nd ref="5336143717"/>
-    <nd ref="1198124692"/>
   </way>
   <way id="835622324" visible="true" version="2">
     <tag k="lit" v="yes"/>
@@ -3191,7 +3200,7 @@
     <nd ref="7799663850"/>
     <nd ref="7799663851"/>
   </way>
-  <way id="552732632" visible="true" version="6">
+  <way id="930432932" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
@@ -3203,13 +3212,6 @@
     <tag k="sidewalk" v="right"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG030491"/>
-    <nd ref="6228425157"/>
-    <nd ref="2592905913"/>
-    <nd ref="2592917199"/>
-    <nd ref="8626384991"/>
-    <nd ref="2592917202"/>
-    <nd ref="8626388726"/>
-    <nd ref="7346592971"/>
     <nd ref="8626388721"/>
     <nd ref="8626388725"/>
     <nd ref="2592917201"/>
@@ -3356,7 +3358,7 @@
     <nd ref="8207358002"/>
     <nd ref="1365138602"/>
   </way>
-  <way id="882535450" visible="true" version="3">
+  <way id="930432929" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
@@ -3367,8 +3369,6 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="tiger:upload_uuid" v="RWG030519"/>
-    <nd ref="8518294522"/>
-    <nd ref="8626514861"/>
     <nd ref="8626514865"/>
     <nd ref="8207358002"/>
   </way>
