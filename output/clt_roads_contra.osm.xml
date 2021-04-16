@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8631944502" lat="51.5748686" lon="0.1236288" version="1" visible="true"/>
+  <node id="8630571765" lat="51.4742986" lon="-0.0147434" version="1" visible="true"/>
+  <node id="8630571764" lat="51.473821" lon="-0.0177398" version="1" visible="true"/>
+  <node id="8630571763" lat="51.4738158" lon="-0.017806" version="1" visible="true"/>
   <node id="8623394531" lat="51.4314808" lon="-0.1721199" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -2480,14 +2484,12 @@
   <node id="244161862" lat="51.3941988" lon="-0.1210516" version="2" visible="true"/>
   <node id="244161860" lat="51.3947145" lon="-0.1203027" version="1" visible="true"/>
   <node id="244161399" lat="51.3950091" lon="-0.1199164" version="1" visible="true"/>
-  <node id="243865399" lat="51.4742472" lon="-0.0149772" version="2" visible="true"/>
+  <node id="243865399" lat="51.4742339" lon="-0.0151288" version="3" visible="true"/>
   <node id="243788586" lat="51.4633707" lon="0.0450964" version="1" visible="true"/>
   <node id="243788575" lat="51.4633683" lon="0.0453142" version="2" visible="true"/>
   <node id="243744670" lat="51.4899983" lon="-0.2825333" version="1" visible="true"/>
-  <node id="243684171" lat="51.4742655" lon="-0.0148181" version="1" visible="true"/>
-  <node id="243684170" lat="51.4742184" lon="-0.0151021" version="1" visible="true"/>
-  <node id="243684168" lat="51.4737903" lon="-0.0177106" version="1" visible="true"/>
-  <node id="243684167" lat="51.4743183" lon="-0.0145568" version="1" visible="true"/>
+  <node id="243684168" lat="51.4738187" lon="-0.0178516" version="2" visible="true"/>
+  <node id="243684167" lat="51.4743385" lon="-0.0145754" version="2" visible="true"/>
   <node id="224831921" lat="51.3855654" lon="-0.2742385" version="6" visible="true"/>
   <node id="224831908" lat="51.387065" lon="-0.272541" version="3" visible="true"/>
   <node id="212960541" lat="51.4983658" lon="-0.1051367" version="4" visible="true"/>
@@ -2651,7 +2653,7 @@
   <node id="82748757" lat="51.4438094" lon="0.0109552" version="2" visible="true"/>
   <node id="82748718" lat="51.4438045" lon="0.0113346" version="3" visible="true"/>
   <node id="82701629" lat="51.5760568" lon="-0.142814" version="3" visible="true"/>
-  <node id="82634341" lat="51.4737547" lon="-0.0179453" version="7" visible="true"/>
+  <node id="82634341" lat="51.473839" lon="-0.0179614" version="8" visible="true"/>
   <node id="82627431" lat="51.3627089" lon="-0.1994052" version="3" visible="true"/>
   <node id="82627424" lat="51.3622064" lon="-0.1961123" version="4" visible="true"/>
   <node id="80839101" lat="51.5425397" lon="-0.159187" version="3" visible="true"/>
@@ -3128,8 +3130,7 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="3409996" lat="51.4752006" lon="-0.0260321" version="10" visible="true"/>
-  <node id="3202105" lat="51.474099" lon="-0.0158656" version="3" visible="true"/>
-  <node id="3202093" lat="51.4739666" lon="-0.0166713" version="4" visible="true"/>
+  <node id="3202093" lat="51.4739914" lon="-0.0166713" version="5" visible="true"/>
   <node id="2375123" lat="51.5337484" lon="-0.2257599" version="3" visible="true"/>
   <node id="1105852" lat="51.6471358" lon="-0.0518817" version="7" visible="true"/>
   <node id="819749" lat="51.5586131" lon="-0.0049699" version="15" visible="true">
@@ -5099,18 +5100,18 @@
     <nd ref="2301118665"/>
     <nd ref="32546044"/>
   </way>
-  <way id="5027344" visible="true" version="11">
+  <way id="5027344" visible="true" version="12">
     <tag k="name" v="Guildford Grove"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG198654"/>
     <nd ref="243684167"/>
-    <nd ref="243684171"/>
+    <nd ref="8630571765"/>
     <nd ref="243865399"/>
-    <nd ref="243684170"/>
-    <nd ref="3202105"/>
     <nd ref="3202093"/>
+    <nd ref="8630571764"/>
+    <nd ref="8630571763"/>
     <nd ref="243684168"/>
     <nd ref="82634341"/>
   </way>
@@ -5387,7 +5388,7 @@
     <nd ref="5536994970"/>
     <nd ref="248859005"/>
   </way>
-  <way id="16617707" visible="true" version="14">
+  <way id="16617707" visible="true" version="15">
     <tag k="name" v="Somerville Road"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
@@ -5395,6 +5396,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG221223"/>
     <nd ref="25583054"/>
+    <nd ref="8631944502"/>
     <nd ref="171631398"/>
     <nd ref="329789161"/>
     <nd ref="171631399"/>
