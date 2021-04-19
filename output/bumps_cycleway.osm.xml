@@ -817,8 +817,9 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG013233"/>
   </node>
-  <node id="8013559895" lat="51.4855716" lon="-0.1159209" visible="true" version="1">
+  <node id="8013559895" lat="51.4855716" lon="-0.1159209" visible="true" version="2">
     <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG055076"/>
   </node>
@@ -1329,8 +1330,9 @@
     <nd ref="5679418900"/>
     <nd ref="4461193077"/>
   </way>
-  <way id="859726277" visible="true" version="1">
+  <way id="859726277" visible="true" version="2">
     <tag k="highway" v="cycleway"/>
+    <tag k="lit" v="yes"/>
     <tag k="note" v="semi-segregated, alternating ever 50 yards or so between concrete kerb + wands, and paint + 'orcas'"/>
     <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
