@@ -894,6 +894,7 @@
   <node id="2453043230" lat="51.5412988" lon="-0.1251383" version="1" visible="true"/>
   <node id="6272018264" lat="51.6217526" lon="-0.1056625" version="4" visible="true"/>
   <node id="6991416098" lat="51.4945539" lon="-0.0863039" version="1" visible="true"/>
+  <node id="8643637434" lat="51.5943961" lon="0.1440948" version="1" visible="true"/>
   <node id="6807529426" lat="51.4867972" lon="0.0634043" version="1" visible="true"/>
   <node id="4077495964" lat="51.5171577" lon="-0.1047714" version="3" visible="true"/>
   <node id="7241419083" lat="51.5571945" lon="-0.0124489" version="1" visible="true"/>
@@ -3869,8 +3870,8 @@
     <tag k="crossing" v="unmarked"/>
     <tag k="crossing:island" v="yes"/>
   </node>
-  <node id="25161381" lat="51.5103945" lon="-0.0868882" version="9" visible="true">
-    <tag k="highway" v="checkpoint"/>
+  <node id="25161381" lat="51.5103945" lon="-0.0868882" version="10" visible="true">
+    <tag k="police" v="checkpoint"/>
   </node>
   <node id="4077579334" lat="51.509668" lon="-0.087555" version="1" visible="true">
     <tag k="bus" v="yes"/>
@@ -4060,8 +4061,8 @@
     <tag k="local_ref" v="ST"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="4530195657" lat="51.5169827" lon="-0.1040919" version="3" visible="true">
-    <tag k="highway" v="checkpoint"/>
+  <node id="4530195657" lat="51.5169827" lon="-0.1040919" version="4" visible="true">
+    <tag k="police" v="checkpoint"/>
   </node>
   <node id="4942595236" lat="51.516872" lon="-0.1037468" version="3" visible="true">
     <tag k="bus" v="yes"/>
@@ -5155,7 +5156,7 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
-  <way id="831985135" visible="true" version="4">
+  <way id="831985135" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Collier Row Road"/>
     <tag k="lanes" v="2"/>
@@ -5169,6 +5170,7 @@
     <nd ref="1701876713"/>
     <nd ref="25743580"/>
     <nd ref="6357922875"/>
+    <nd ref="8643637434"/>
     <nd ref="7767829463"/>
     <nd ref="8418384383"/>
     <nd ref="25743581"/>
@@ -20163,7 +20165,7 @@
     <nd ref="255880403"/>
     <nd ref="5482996491"/>
   </way>
-  <way id="840613087" visible="true" version="1">
+  <way id="840613087" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Jamaica Road"/>
@@ -20175,6 +20177,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:both" v="separate"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG082702"/>
     <nd ref="7843964143"/>
@@ -20466,7 +20469,7 @@
     <nd ref="27026491"/>
     <nd ref="27026489"/>
   </way>
-  <way id="772557512" visible="true" version="3">
+  <way id="772557512" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Jamaica Road"/>
@@ -20479,6 +20482,7 @@
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
     <tag k="busway:left" v="lane"/>
+    <tag k="cycleway:both" v="separate"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG135934"/>
     <nd ref="7212930997"/>
