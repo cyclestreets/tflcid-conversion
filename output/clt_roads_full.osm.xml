@@ -477,6 +477,7 @@
   <node id="25676242" lat="51.5114422" lon="-0.4496384" version="9" visible="true"/>
   <node id="5659865664" lat="51.5223568" lon="-0.0753885" version="1" visible="true"/>
   <node id="8084647534" lat="51.6360118" lon="-0.0878691" version="1" visible="true"/>
+  <node id="303237" lat="51.4463078" lon="-0.3834713" version="9" visible="true"/>
   <node id="6071949587" lat="51.545471" lon="-0.062066" version="1" visible="true"/>
   <node id="4713656141" lat="51.422689" lon="-0.2763069" version="4" visible="true"/>
   <node id="7030381503" lat="51.5436992" lon="-0.1528792" version="1" visible="true"/>
@@ -2196,6 +2197,7 @@
   <node id="7644727392" lat="51.6565024" lon="-0.047401" version="1" visible="true"/>
   <node id="1708262086" lat="51.4038907" lon="-0.2758171" version="4" visible="true"/>
   <node id="1674025808" lat="51.5273305" lon="-0.1837751" version="3" visible="true"/>
+  <node id="248832798" lat="51.4468764" lon="-0.38289" version="2" visible="true"/>
   <node id="2477093258" lat="51.5306991" lon="-0.0114326" version="4" visible="true"/>
   <node id="90117683" lat="51.4691749" lon="0.0542691" version="6" visible="true"/>
   <node id="3461322635" lat="51.4758228" lon="-0.2685466" version="1" visible="true"/>
@@ -3348,10 +3350,11 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="6111906885" lat="51.5570614" lon="-0.0102821" version="4" visible="true">
+  <node id="6111906885" lat="51.5570614" lon="-0.0102821" version="5" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="4270274376" lat="51.5502857" lon="-0.006667" version="6" visible="true">
     <tag k="traffic_calming" v="chicane"/>
@@ -13276,6 +13279,17 @@
     <nd ref="26478226"/>
     <nd ref="26478225"/>
   </way>
+  <way id="27389425" visible="true" version="10">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A314"/>
+    <tag k="name" v="Hanworth Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG233988"/>
+    <nd ref="303237"/>
+    <nd ref="248832798"/>
+  </way>
   <way id="22756258" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4088"/>
@@ -18587,7 +18601,7 @@
     <nd ref="4454358577"/>
     <nd ref="4453915934"/>
   </way>
-  <way id="905942129" visible="true" version="1">
+  <way id="905942129" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A202"/>
     <tag k="name" v="Camberwell New Road"/>
@@ -18838,7 +18852,7 @@
     <nd ref="6032331297"/>
     <nd ref="7733879519"/>
   </way>
-  <way id="173129948" visible="true" version="8">
+  <way id="173129948" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A202"/>
     <tag k="foot" v="yes"/>
@@ -19449,7 +19463,7 @@
     <nd ref="1597462564"/>
     <nd ref="292501"/>
   </way>
-  <way id="905990663" visible="true" version="1">
+  <way id="905990663" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A202"/>
     <tag k="name" v="Camberwell New Road"/>
@@ -19976,7 +19990,7 @@
     <nd ref="7958025214"/>
     <nd ref="7958025226"/>
   </way>
-  <way id="905944771" visible="true" version="1">
+  <way id="905944771" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A202"/>
     <tag k="name" v="Camberwell New Road"/>

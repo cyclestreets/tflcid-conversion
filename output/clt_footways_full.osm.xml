@@ -72,7 +72,12 @@
   <node id="7992632849" lat="51.6131392" lon="-0.3181167" version="1" visible="true"/>
   <node id="7992632848" lat="51.6128589" lon="-0.318079" version="1" visible="true"/>
   <node id="7956185043" lat="51.457398" lon="-0.3098293" version="1" visible="true"/>
-  <node id="7952848722" lat="51.5461668" lon="-0.0200354" version="1" visible="true"/>
+  <node id="7952848722" lat="51.5461317" lon="-0.0200058" version="2" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+  </node>
   <node id="7949073272" lat="51.3954416" lon="-0.1892634" version="1" visible="true"/>
   <node id="7949073271" lat="51.3954313" lon="-0.1891674" version="1" visible="true">
     <tag k="foot" v="no"/>
