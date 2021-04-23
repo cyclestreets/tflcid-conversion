@@ -308,7 +308,7 @@
   <node id="6250877942" lat="51.5386203" lon="-0.3872156" version="1" visible="true"/>
   <node id="6250491144" lat="51.5229101" lon="-0.1369021" version="3" visible="true"/>
   <node id="6243228148" lat="51.5671452" lon="-0.0338067" version="3" visible="true"/>
-  <node id="6228425166" lat="51.5354252" lon="-0.1323873" version="2" visible="true"/>
+  <node id="6228425166" lat="51.5354365" lon="-0.1324335" version="3" visible="true"/>
   <node id="6228425157" lat="51.535563" lon="-0.13319" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -501,11 +501,13 @@
     <tag k="crossing_ref" v="zebra"/>
   </node>
   <node id="5315714364" lat="51.3942486" lon="-0.3140733" version="1" visible="true"/>
-  <node id="5315688985" lat="51.3942025" lon="-0.3141457" version="1" visible="true">
+  <node id="5315688985" lat="51.3942025" lon="-0.3141457" version="3" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="5315680085" lat="51.3973039" lon="-0.3107546" version="1" visible="true"/>
   <node id="5315680082" lat="51.3969053" lon="-0.3110772" version="1" visible="true">
@@ -888,7 +890,7 @@
     <tag k="highway" v="traffic_signals"/>
   </node>
   <node id="2440630567" lat="51.5260389" lon="-0.1239636" version="6" visible="true"/>
-  <node id="2432389437" lat="51.5353718" lon="-0.1322421" version="6" visible="true"/>
+  <node id="2432389437" lat="51.5353318" lon="-0.1321407" version="7" visible="true"/>
   <node id="2417927639" lat="51.5414524" lon="-0.0381094" version="5" visible="true"/>
   <node id="2417927637" lat="51.5414802" lon="-0.0380933" version="3" visible="true"/>
   <node id="2417927632" lat="51.541419" lon="-0.0381283" version="9" visible="true">
@@ -1029,11 +1031,13 @@
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
   </node>
-  <node id="1656048170" lat="51.5247755" lon="-0.1276747" version="9" visible="true">
+  <node id="1656048170" lat="51.5247755" lon="-0.1276747" version="11" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="countdown"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="1651916584" lat="51.5394636" lon="-0.1364072" version="3" visible="true">
     <tag k="traffic_calming" v="cushion"/>
@@ -1480,7 +1484,6 @@
   <node id="238704" lat="51.5410594" lon="-0.03834" version="19" visible="true"/>
   <node id="227790" lat="51.4448568" lon="-0.1115053" version="6" visible="true"/>
   <node id="224688" lat="51.502646" lon="-0.2139858" version="10" visible="true"/>
-  <node id="168069" lat="51.5354499" lon="-0.1324845" version="7" visible="true"/>
   <node id="155329" lat="51.5419111" lon="-0.1357109" version="6" visible="true"/>
   <node id="152241" lat="51.5398855" lon="-0.1367428" version="8" visible="true"/>
   <node id="152220" lat="51.5391238" lon="-0.1361266" version="5" visible="true"/>
@@ -3220,20 +3223,7 @@
     <nd ref="5336143717"/>
     <nd ref="1198124692"/>
   </way>
-  <way id="665451882" visible="true" version="6">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A5202"/>
-    <tag k="name" v="Pancras Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="tiger:upload_uuid" v="RWG003352"/>
-    <nd ref="168069"/>
-    <nd ref="6228425166"/>
-  </way>
-  <way id="665451888" visible="true" version="7">
+  <way id="665451888" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Pancras Road"/>
@@ -3244,6 +3234,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG003352"/>
     <nd ref="6228425166"/>
     <nd ref="2432389437"/>
@@ -4068,9 +4059,10 @@
     <nd ref="2440630568"/>
     <nd ref="2440630567"/>
   </way>
-  <way id="743705606" visible="true" version="2">
+  <way id="743705606" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Tavistock Place"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>

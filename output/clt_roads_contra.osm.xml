@@ -1750,13 +1750,14 @@
     <tag k="highway" v="traffic_signals"/>
   </node>
   <node id="2440634917" lat="51.5253065" lon="-0.1264194" version="2" visible="true"/>
-  <node id="2440633802" lat="51.5257266" lon="-0.1255684" version="6" visible="true">
+  <node id="2440633802" lat="51.5257266" lon="-0.1255684" version="7" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="2440633800" lat="51.5256996" lon="-0.1255475" version="3" visible="true"/>
   <node id="2440633799" lat="51.5256278" lon="-0.1256301" version="7" visible="true">
@@ -2049,11 +2050,13 @@
   <node id="1672123295" lat="51.5123515" lon="-0.3801758" version="1" visible="true"/>
   <node id="1670708067" lat="51.5325505" lon="-0.1034491" version="2" visible="true"/>
   <node id="1664023567" lat="51.4402597" lon="-0.1062257" version="4" visible="true"/>
-  <node id="1656048170" lat="51.5247755" lon="-0.1276747" version="9" visible="true">
+  <node id="1656048170" lat="51.5247755" lon="-0.1276747" version="11" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="countdown"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="1651916584" lat="51.5394636" lon="-0.1364072" version="3" visible="true">
     <tag k="traffic_calming" v="cushion"/>
