@@ -110,6 +110,7 @@
   <node id="5941807864" lat="51.4075993" lon="-0.1921611" version="5" visible="true"/>
   <node id="513071584" lat="51.4924264" lon="-0.1253506" version="8" visible="true"/>
   <node id="2090570087" lat="51.6091923" lon="-0.2658609" version="1" visible="true"/>
+  <node id="26022787" lat="51.4739531" lon="-0.0905892" version="6" visible="true"/>
   <node id="149265005" lat="51.3996741" lon="-0.092799" version="3" visible="true"/>
   <node id="270420494" lat="51.4774247" lon="-0.0322946" version="4" visible="true"/>
   <node id="4657146270" lat="51.4774753" lon="0.0577869" version="1" visible="true"/>
@@ -1175,6 +1176,7 @@
   <node id="6290665593" lat="51.4426944" lon="-0.020288" version="4" visible="true"/>
   <node id="319636734" lat="51.5223397" lon="-0.0426934" version="6" visible="true"/>
   <node id="1465829285" lat="51.6301522" lon="-0.0970474" version="3" visible="true"/>
+  <node id="105680190" lat="51.4739503" lon="-0.0905633" version="7" visible="true"/>
   <node id="1448528620" lat="51.5768529" lon="0.1769792" version="3" visible="true"/>
   <node id="1665352260" lat="51.4099283" lon="-0.2280093" version="4" visible="true"/>
   <node id="4937779198" lat="51.5620867" lon="-0.0458783" version="4" visible="true"/>
@@ -15748,9 +15750,10 @@
     <nd ref="6979879695"/>
     <nd ref="4332683070"/>
   </way>
-  <way id="667569299" visible="true" version="1">
+  <way id="667569299" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Howland Street"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
@@ -18986,6 +18989,21 @@
     <tag k="tiger:upload_uuid" v="RWG108718"/>
     <nd ref="662564160"/>
     <nd ref="27505664"/>
+  </way>
+  <way id="176034191" visible="true" version="8">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A202"/>
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="Camberwell Church Street"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG081987"/>
+    <nd ref="26022787"/>
+    <nd ref="105680190"/>
   </way>
   <way id="704852760" visible="true" version="1">
     <tag k="name" v="Cope Street"/>
