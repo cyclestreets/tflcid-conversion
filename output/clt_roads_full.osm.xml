@@ -4829,6 +4829,11 @@
     <tag k="local_ref" v="P"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
+  <node id="8666148116" lat="51.4821728" lon="-0.1363565" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+  </node>
   <node id="7602731086" lat="51.4857256" lon="-0.1458106" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="marked"/>
@@ -21330,7 +21335,7 @@
     <nd ref="5735299446"/>
     <nd ref="13676096"/>
   </way>
-  <way id="925859529" visible="true" version="2">
+  <way id="925859529" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3205"/>
     <tag k="name" v="Nine Elms Lane"/>
@@ -21343,6 +21348,7 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG056082"/>
     <nd ref="4901582023"/>
+    <nd ref="8666148116"/>
     <nd ref="60907677"/>
   </way>
   <way id="31280293" visible="true" version="13">
