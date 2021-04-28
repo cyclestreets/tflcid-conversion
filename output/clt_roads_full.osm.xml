@@ -1253,7 +1253,6 @@
   <node id="21662375" lat="51.5022293" lon="-0.2275486" version="7" visible="true"/>
   <node id="198270" lat="51.5357271" lon="-0.0769101" version="5" visible="true"/>
   <node id="1601416090" lat="51.3864769" lon="-0.1652999" version="3" visible="true"/>
-  <node id="30688011" lat="51.4741492" lon="-0.3273839" version="5" visible="true"/>
   <node id="4438011382" lat="51.5712892" lon="-0.0945216" version="3" visible="true"/>
   <node id="4937055050" lat="51.6552732" lon="-0.0480251" version="3" visible="true"/>
   <node id="6343912798" lat="51.443516" lon="-0.0203928" version="5" visible="true"/>
@@ -1667,6 +1666,7 @@
   <node id="3785986519" lat="51.4793932" lon="0.024994" version="3" visible="true"/>
   <node id="6474039244" lat="51.4175273" lon="-0.2815119" version="5" visible="true"/>
   <node id="7926832313" lat="51.5040682" lon="-0.095718" version="1" visible="true"/>
+  <node id="8670108250" lat="51.4723783" lon="-0.3281061" version="1" visible="true"/>
   <node id="735028665" lat="51.4593027" lon="-0.1164821" version="6" visible="true"/>
   <node id="1161639064" lat="51.5339036" lon="-0.0073279" version="5" visible="true"/>
   <node id="2218803097" lat="51.5347972" lon="-0.13899" version="4" visible="true"/>
@@ -1867,7 +1867,7 @@
   <node id="4984630726" lat="51.4789432" lon="-0.3235291" version="3" visible="true"/>
   <node id="6603757281" lat="51.4103433" lon="-0.2276123" version="3" visible="true"/>
   <node id="6343912799" lat="51.442956" lon="-0.0203017" version="4" visible="true"/>
-  <node id="6387458677" lat="51.4788761" lon="-0.3235271" version="3" visible="true"/>
+  <node id="6387458677" lat="51.4788036" lon="-0.3235271" version="4" visible="true"/>
   <node id="1934086684" lat="51.6164481" lon="-0.0826274" version="3" visible="true"/>
   <node id="7958025214" lat="51.5015635" lon="-0.0980811" version="1" visible="true"/>
   <node id="5900372641" lat="51.4707562" lon="-0.3610761" version="3" visible="true"/>
@@ -2291,6 +2291,7 @@
   <node id="245156" lat="51.5619536" lon="-0.0736607" version="13" visible="true"/>
   <node id="2965707253" lat="51.4263266" lon="-0.0801341" version="4" visible="true"/>
   <node id="8025357547" lat="51.4347996" lon="-0.2586943" version="2" visible="true"/>
+  <node id="8670108249" lat="51.4724607" lon="-0.3280708" version="1" visible="true"/>
   <node id="7734416189" lat="51.4484917" lon="-0.1482626" version="1" visible="true"/>
   <node id="27513572" lat="51.4867966" lon="-0.0361554" version="12" visible="true"/>
   <node id="3982646816" lat="51.6363762" lon="-0.0909782" version="5" visible="true"/>
@@ -2456,6 +2457,7 @@
   <node id="2556936809" lat="51.5220608" lon="-0.1357313" version="6" visible="true"/>
   <node id="1448692428" lat="51.580578" lon="0.1811274" version="3" visible="true"/>
   <node id="303988" lat="51.3568825" lon="-0.3115354" version="5" visible="true"/>
+  <node id="8670108247" lat="51.4726334" lon="-0.327997" version="1" visible="true"/>
   <node id="81591277" lat="51.3791454" lon="0.0426395" version="6" visible="true"/>
   <node id="7618142422" lat="51.4888473" lon="-0.1545959" version="1" visible="true"/>
   <node id="3696366" lat="51.4794933" lon="0.0270542" version="9" visible="true"/>
@@ -2568,7 +2570,6 @@
   <node id="8226000081" lat="51.522546" lon="-0.1327108" version="1" visible="true"/>
   <node id="1670708004" lat="51.5308028" lon="-0.101635" version="6" visible="true"/>
   <node id="4360262759" lat="51.4679314" lon="-0.190356" version="3" visible="true"/>
-  <node id="303087" lat="51.4747197" lon="-0.3267853" version="4" visible="true"/>
   <node id="279654672" lat="51.5602543" lon="-0.1096823" version="4" visible="true"/>
   <node id="1419565097" lat="51.5137245" lon="-0.1116247" version="7" visible="true"/>
   <node id="198395" lat="51.5256995" lon="-0.1053301" version="9" visible="true"/>
@@ -5000,6 +5001,10 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="crossing:island" v="yes"/>
+  </node>
+  <node id="8670064237" lat="51.4788127" lon="-0.3235272" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="6474122725" lat="51.4279156" lon="-0.2716231" version="4" visible="true">
     <tag k="highway" v="crossing"/>
@@ -11941,6 +11946,32 @@
     <nd ref="287613"/>
     <nd ref="1460830108"/>
   </way>
+  <way id="935628803" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A310"/>
+    <tag k="name" v="Twickenham Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG233999"/>
+    <nd ref="8670108250"/>
+    <nd ref="8670108249"/>
+  </way>
+  <way id="935628802" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A310"/>
+    <tag k="name" v="Twickenham Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG234339,RWG233999"/>
+    <nd ref="8670108249"/>
+    <nd ref="8670108247"/>
+  </way>
   <way id="194493309" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3005"/>
@@ -12084,7 +12115,7 @@
     <nd ref="253257047"/>
     <nd ref="2010667184"/>
   </way>
-  <way id="682080100" visible="true" version="2">
+  <way id="682080100" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B454"/>
     <tag k="name" v="Spur Road"/>
@@ -12095,6 +12126,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG233944"/>
     <nd ref="6387458677"/>
+    <nd ref="8670064237"/>
     <nd ref="4984630726"/>
   </way>
   <way id="536648491" visible="true" version="2">
@@ -12266,18 +12298,6 @@
     <nd ref="215865414"/>
     <nd ref="2358257606"/>
     <nd ref="68901965"/>
-  </way>
-  <way id="491578829" visible="true" version="3">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A310"/>
-    <tag k="name" v="Twickenham Road"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG234003,RWG233999"/>
-    <nd ref="30688011"/>
-    <nd ref="303087"/>
   </way>
   <way id="624853553" visible="true" version="1">
     <tag k="psv" v="yes"/>
@@ -14331,7 +14351,7 @@
     <nd ref="8221721199"/>
     <nd ref="29704345"/>
   </way>
-  <way id="403966477" visible="true" version="1">
+  <way id="403966477" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1"/>
     <tag k="foot" v="no"/>
@@ -14345,6 +14365,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="no"/>
+    <tag k="maxheight" v="default"/>
     <tag k="smoothness" v="excellent"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG279267,RWG003347"/>
