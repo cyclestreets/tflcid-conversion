@@ -1,8 +1,24 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8675119162" lat="51.5251981" lon="-0.4858247" version="1" visible="true"/>
+  <node id="8675119161" lat="51.5251781" lon="-0.4858073" version="1" visible="true"/>
+  <node id="8675119160" lat="51.5251763" lon="-0.4855423" version="1" visible="true"/>
+  <node id="8675119157" lat="51.525169" lon="-0.4855264" version="1" visible="true"/>
+  <node id="8675119156" lat="51.5251728" lon="-0.4857426" version="1" visible="true"/>
+  <node id="8675119155" lat="51.5251856" lon="-0.4858176" version="2" visible="true"/>
+  <node id="8675119154" lat="51.5255121" lon="-0.4858391" version="1" visible="true"/>
+  <node id="8675119153" lat="51.5252129" lon="-0.4858277" version="1" visible="true"/>
+  <node id="8675119152" lat="51.5251754" lon="-0.4857915" version="1" visible="true"/>
+  <node id="8675119151" lat="51.5251745" lon="-0.4856762" version="1" visible="true"/>
+  <node id="8675119150" lat="51.5251787" lon="-0.4855608" version="1" visible="true"/>
+  <node id="8675119149" lat="51.5251342" lon="-0.4854759" version="1" visible="true"/>
+  <node id="8675094063" lat="51.5251761" lon="-0.4857994" version="1" visible="true"/>
+  <node id="8675094062" lat="51.5251913" lon="-0.4858222" version="1" visible="true"/>
+  <node id="8675094061" lat="51.5251817" lon="-0.4858135" version="1" visible="true"/>
   <node id="8660041266" lat="51.5080802" lon="-0.0521839" version="1" visible="true"/>
   <node id="8660041265" lat="51.5077802" lon="-0.0516496" version="1" visible="true"/>
   <node id="8660041261" lat="51.5077032" lon="-0.0510341" version="1" visible="true"/>
+  <node id="8659124736" lat="51.525611" lon="-0.4858049" version="2" visible="true"/>
   <node id="8652817519" lat="51.5104402" lon="-0.4031682" version="1" visible="true"/>
   <node id="8615233074" lat="51.5370424" lon="0.0093078" version="1" visible="true"/>
   <node id="8541306757" lat="51.5274219" lon="-0.3499826" version="1" visible="true"/>
@@ -860,7 +876,6 @@
   <node id="4145440093" lat="51.5141061" lon="-0.4777733" version="1" visible="true"/>
   <node id="4145440092" lat="51.5139159" lon="-0.4776392" version="1" visible="true"/>
   <node id="4145440091" lat="51.5136855" lon="-0.4774514" version="1" visible="true"/>
-  <node id="4145439926" lat="51.5251528" lon="-0.4858306" version="1" visible="true"/>
   <node id="4131244623" lat="51.4648332" lon="-0.3214879" version="2" visible="true"/>
   <node id="4131244593" lat="51.4625853" lon="-0.3188756" version="2" visible="true"/>
   <node id="4083606132" lat="51.5545944" lon="0.1467642" version="1" visible="true"/>
@@ -1061,7 +1076,6 @@
   <node id="2623902092" lat="51.5010448" lon="-0.119845" version="1" visible="true"/>
   <node id="2623902086" lat="51.5009772" lon="-0.1198585" version="1" visible="true"/>
   <node id="2607617982" lat="51.6254321" lon="-0.4948473" version="1" visible="true"/>
-  <node id="2604516398" lat="51.525222" lon="-0.4858612" version="1" visible="true"/>
   <node id="2604200634" lat="51.4809996" lon="-0.309791" version="2" visible="true"/>
   <node id="2604200625" lat="51.4809577" lon="-0.3101256" version="2" visible="true"/>
   <node id="2572200697" lat="51.572925" lon="-0.3243909" version="1" visible="true">
@@ -1347,10 +1361,6 @@
     <tag k="bollard" v="fixed"/>
     <tag k="vehicle" v="no"/>
   </node>
-  <node id="612635187" lat="51.5251122" lon="-0.4857636" version="2" visible="true"/>
-  <node id="612635186" lat="51.5250531" lon="-0.4858139" version="2" visible="true"/>
-  <node id="612635185" lat="51.5250375" lon="-0.4858223" version="2" visible="true"/>
-  <node id="612635183" lat="51.5249891" lon="-0.4858287" version="2" visible="true"/>
   <node id="602709887" lat="51.4969577" lon="-0.0352509" version="2" visible="true"/>
   <node id="602709886" lat="51.4969217" lon="-0.0356066" version="2" visible="true"/>
   <node id="602709885" lat="51.497912" lon="-0.0359254" version="2" visible="true"/>
@@ -5764,30 +5774,29 @@
     <nd ref="1503373412"/>
     <nd ref="31247049"/>
   </way>
-  <way id="413203744" visible="true" version="1">
-    <tag k="highway" v="path"/>
-    <tag k="incline" v="up"/>
+  <way id="936209152" visible="true" version="2">
+    <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG237617"/>
-    <nd ref="2604516398"/>
-    <nd ref="4145439926"/>
-    <nd ref="612635187"/>
-  </way>
-  <way id="48206468" visible="true" version="2">
-    <tag k="highway" v="path"/>
-    <tag k="incline" v="up"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="oneway" v="no"/>
-    <tag k="segregated" v="no"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG237617"/>
-    <nd ref="612635183"/>
-    <nd ref="612635185"/>
-    <nd ref="612635186"/>
-    <nd ref="612635187"/>
+    <nd ref="8675119149"/>
+    <nd ref="8675119157"/>
+    <nd ref="8675119160"/>
+    <nd ref="8675119150"/>
+    <nd ref="8675119151"/>
+    <nd ref="8675119156"/>
+    <nd ref="8675119152"/>
+    <nd ref="8675094063"/>
+    <nd ref="8675119161"/>
+    <nd ref="8675094061"/>
+    <nd ref="8675119155"/>
+    <nd ref="8675094062"/>
+    <nd ref="8675119162"/>
+    <nd ref="8675119153"/>
+    <nd ref="8675119154"/>
+    <nd ref="8659124736"/>
   </way>
   <way id="4572256" visible="true" version="3">
     <tag k="name" v="Public Footpath No. 83"/>

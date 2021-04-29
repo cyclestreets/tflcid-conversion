@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8675263945" lat="51.5585099" lon="-0.1364639" version="1" visible="true"/>
+  <node id="8675263942" lat="51.558349" lon="-0.1367974" version="1" visible="true"/>
   <node id="8672464658" lat="51.5109949" lon="-0.0565261" version="1" visible="true"/>
   <node id="8672464657" lat="51.5103832" lon="-0.0564861" version="1" visible="true">
     <tag k="barrier" v="gate"/>
@@ -2543,14 +2545,16 @@
     <nd ref="2592356272"/>
     <nd ref="26799664"/>
   </way>
-  <way id="8362783" visible="true" version="5">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Ward Road"/>
-    <tag k="highway" v="residential"/>
+  <way id="8362783" visible="true" version="6">
     <tag k="abutters" v="residential"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Ward Road"/>
     <nd ref="25416246"/>
+    <nd ref="8675263945"/>
     <nd ref="25416244"/>
+    <nd ref="8675263942"/>
     <nd ref="25416245"/>
     <nd ref="1842096040"/>
     <nd ref="-171"/>
