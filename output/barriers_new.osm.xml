@@ -150,7 +150,7 @@
   <node id="6746113442" lat="51.5294409" lon="0.0799919" version="1" visible="true"/>
   <node id="6746113438" lat="51.529335" lon="0.0795555" version="1" visible="true"/>
   <node id="6696225039" lat="51.6586397" lon="-0.2015527" version="1" visible="true"/>
-  <node id="6658596693" lat="51.5931768" lon="-0.4311928" version="1" visible="true"/>
+  <node id="6658596693" lat="51.5931793" lon="-0.4312197" version="2" visible="true"/>
   <node id="6621595845" lat="51.5351041" lon="-0.0139384" version="1" visible="true"/>
   <node id="6621595843" lat="51.5361351" lon="-0.0155849" version="3" visible="true"/>
   <node id="6621595840" lat="51.5355803" lon="-0.0151169" version="1" visible="true"/>
@@ -612,10 +612,10 @@
   <node id="486544190" lat="51.592617" lon="-0.431996" version="2" visible="true"/>
   <node id="486544187" lat="51.5926357" lon="-0.431963" version="2" visible="true"/>
   <node id="486544186" lat="51.5926637" lon="-0.4319057" version="2" visible="true"/>
-  <node id="486544183" lat="51.5929888" lon="-0.4314435" version="3" visible="true"/>
-  <node id="486544181" lat="51.5928266" lon="-0.4316308" version="3" visible="true"/>
+  <node id="486544183" lat="51.5929708" lon="-0.4315497" version="4" visible="true"/>
+  <node id="486544181" lat="51.5928294" lon="-0.4317098" version="4" visible="true"/>
   <node id="486544178" lat="51.5931213" lon="-0.4312776" version="3" visible="true"/>
-  <node id="486544175" lat="51.5930847" lon="-0.4313316" version="3" visible="true"/>
+  <node id="486544175" lat="51.5931145" lon="-0.4313713" version="4" visible="true"/>
   <node id="484890539" lat="51.5316138" lon="-0.0477007" version="1" visible="true"/>
   <node id="484889911" lat="51.5317472" lon="-0.0470655" version="1" visible="true"/>
   <node id="484889900" lat="51.531614" lon="-0.0464748" version="3" visible="true"/>
@@ -657,7 +657,7 @@
   <node id="335902708" lat="51.470522" lon="-0.0701064" version="2" visible="true"/>
   <node id="331351277" lat="51.5451211" lon="0.060649" version="3" visible="true"/>
   <node id="331351273" lat="51.545055" lon="0.0609342" version="3" visible="true"/>
-  <node id="329096183" lat="51.5927253" lon="-0.431778" version="3" visible="true"/>
+  <node id="329096183" lat="51.5927291" lon="-0.4318227" version="4" visible="true"/>
   <node id="329096181" lat="51.5925821" lon="-0.4320345" version="3" visible="true"/>
   <node id="329095410" lat="51.591339" lon="-0.4328631" version="3" visible="true"/>
   <node id="329095406" lat="51.5913992" lon="-0.43277" version="2" visible="true"/>
@@ -1164,7 +1164,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG289386"/>
   </node>
-  <node id="-303" lat="51.5928300385815" lon="-0.431626823213083" visible="true">
+  <node id="-303" lat="51.5928710925738" lon="-0.431662587650638" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -4259,17 +4259,16 @@
     <nd ref="293800481"/>
     <nd ref="293800378"/>
   </way>
-  <way id="708593291" visible="true" version="2">
-    <tag k="foot" v="yes"/>
-    <tag k="name" v="HillingdonFirst Parking"/>
+  <way id="708593291" visible="true" version="3">
     <tag k="access" v="permissive"/>
     <tag k="bicycle" v="yes"/>
     <tag k="covered" v="no"/>
+    <tag k="foot" v="yes"/>
     <tag k="highway" v="service"/>
-    <tag k="service" v="parking_aisle"/>
-    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="5 mph"/>
     <tag k="motor_vehicle" v="permit"/>
+    <tag k="name" v="HillingdonFirst Parking"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="6658596693"/>
     <nd ref="486544178"/>
     <nd ref="486544175"/>
