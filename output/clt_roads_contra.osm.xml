@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8684923639" lat="51.4690284" lon="-0.0611642" version="1" visible="true"/>
+  <node id="8684923638" lat="51.4690962" lon="-0.0610541" version="1" visible="true"/>
   <node id="8674948529" lat="51.511586" lon="-0.0432446" version="1" visible="true"/>
   <node id="8671383310" lat="51.4440609" lon="-0.1438126" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -2628,6 +2630,7 @@
   <node id="104287941" lat="51.485714" lon="-0.0625915" version="4" visible="true"/>
   <node id="104287376" lat="51.4857242" lon="-0.0623909" version="5" visible="true"/>
   <node id="104285896" lat="51.4858787" lon="-0.0587457" version="6" visible="true"/>
+  <node id="102955804" lat="51.469004" lon="-0.0612562" version="4" visible="true"/>
   <node id="102705638" lat="51.5000115" lon="-0.0757633" version="10" visible="true"/>
   <node id="101467762" lat="51.354258" lon="-0.040251" version="4" visible="true"/>
   <node id="101466504" lat="51.3534349" lon="-0.0408176" version="3" visible="true"/>
@@ -3015,6 +3018,7 @@
   <node id="21583257" lat="51.4408706" lon="-0.0514084" version="1" visible="true"/>
   <node id="21550686" lat="51.4616013" lon="-0.1193846" version="3" visible="true"/>
   <node id="21539417" lat="51.4613777" lon="-0.1192448" version="5" visible="true"/>
+  <node id="21516511" lat="51.469131" lon="-0.0610052" version="8" visible="true"/>
   <node id="21508108" lat="51.4561501" lon="-0.1253994" version="5" visible="true"/>
   <node id="21505286" lat="51.4874823" lon="-0.1120973" version="14" visible="true"/>
   <node id="21504112" lat="51.4578171" lon="-0.1255123" version="3" visible="true"/>
@@ -13974,6 +13978,21 @@
     <nd ref="36143201"/>
     <nd ref="7181475098"/>
     <nd ref="4882290443"/>
+  </way>
+  <way id="25695908" visible="true" version="7">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Gordon Road"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="maxheight" v="14'0&quot;"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG107752"/>
+    <nd ref="21516511"/>
+    <nd ref="8684923638"/>
+    <nd ref="8684923639"/>
+    <nd ref="102955804"/>
   </way>
   <way id="639186390" visible="true" version="2">
     <tag k="name" v="Lyham Road"/>
