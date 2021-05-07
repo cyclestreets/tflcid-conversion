@@ -113,6 +113,7 @@
   <node id="8146267242" lat="51.485814" lon="-0.0607807" version="1" visible="true"/>
   <node id="8098789797" lat="51.5240678" lon="-0.1293442" version="1" visible="true"/>
   <node id="8089266665" lat="51.5496534" lon="-0.0643832" version="3" visible="true"/>
+  <node id="8085801956" lat="51.6200473" lon="-0.1069475" version="1" visible="true"/>
   <node id="8082024001" lat="51.4489355" lon="-0.0394823" version="1" visible="true">
     <tag k="traffic_calming" v="island"/>
   </node>
@@ -667,6 +668,7 @@
   <node id="6824098944" lat="51.5596729" lon="0.1518309" version="2" visible="true"/>
   <node id="6823852406" lat="51.5500412" lon="-0.0436191" version="2" visible="true"/>
   <node id="6817022682" lat="51.386291" lon="-0.1112256" version="1" visible="true"/>
+  <node id="6813215816" lat="51.6200322" lon="-0.1068952" version="1" visible="true"/>
   <node id="6801941396" lat="51.5245542" lon="-0.1261954" version="3" visible="true"/>
   <node id="6798955974" lat="51.3791744" lon="-0.0905622" version="1" visible="true"/>
   <node id="6794259099" lat="51.5285937" lon="0.1636415" version="1" visible="true"/>
@@ -1444,6 +1446,7 @@
   <node id="3799757269" lat="51.4985549" lon="-0.1045505" version="5" visible="true"/>
   <node id="3795021071" lat="51.584513" lon="-0.0843689" version="1" visible="true"/>
   <node id="3795021066" lat="51.5851363" lon="-0.0843179" version="1" visible="true"/>
+  <node id="3763179456" lat="51.6201153" lon="-0.1071883" version="2" visible="true"/>
   <node id="3716875477" lat="51.5305238" lon="-0.1225436" version="1" visible="true"/>
   <node id="3714379365" lat="51.548404" lon="-0.0638947" version="4" visible="true">
     <tag k="highway" v="give_way"/>
@@ -2884,7 +2887,13 @@
   <node id="25592552" lat="51.5057758" lon="-0.3334437" version="3" visible="true"/>
   <node id="25583054" lat="51.5747508" lon="0.1231983" version="12" visible="true"/>
   <node id="25582773" lat="51.5629128" lon="0.0918041" version="6" visible="true"/>
+  <node id="25533778" lat="51.6179587" lon="-0.109839" version="8" visible="true"/>
   <node id="25533437" lat="51.5135066" lon="-0.1224261" version="8" visible="true"/>
+  <node id="25532903" lat="51.6200677" lon="-0.1070317" version="2" visible="true"/>
+  <node id="25532899" lat="51.6203136" lon="-0.1078185" version="1" visible="true"/>
+  <node id="25532897" lat="51.6196608" lon="-0.1083978" version="1" visible="true"/>
+  <node id="25532894" lat="51.619008" lon="-0.1089557" version="1" visible="true"/>
+  <node id="25532891" lat="51.6183951" lon="-0.1094707" version="1" visible="true"/>
   <node id="25532494" lat="51.5104037" lon="-0.0825881" version="4" visible="true"/>
   <node id="25510383" lat="51.4993129" lon="-0.1144373" version="3" visible="true"/>
   <node id="25510041" lat="51.5004116" lon="-0.1117298" version="6" visible="true"/>
@@ -3298,6 +3307,46 @@
     <nd ref="177691700"/>
     <nd ref="177691993"/>
     <nd ref="177691803"/>
+  </way>
+  <way id="4259661" visible="true" version="11">
+    <tag k="name" v="Devonshire Road"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="cycleway" v="opposite"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="proposed:oneway" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG276336"/>
+    <nd ref="25533778"/>
+    <nd ref="25532891"/>
+    <nd ref="25532894"/>
+    <nd ref="25532897"/>
+    <nd ref="25532899"/>
+    <nd ref="3763179456"/>
+    <nd ref="25532903"/>
+    <nd ref="8085801956"/>
+    <nd ref="6813215816"/>
+  </way>
+  <way id="4259661" visible="true" version="11">
+    <tag k="name" v="Devonshire Road"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="cycleway" v="opposite"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="proposed:oneway" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG276336"/>
+    <nd ref="25533778"/>
+    <nd ref="25532891"/>
+    <nd ref="25532894"/>
+    <nd ref="25532897"/>
+    <nd ref="25532899"/>
+    <nd ref="3763179456"/>
+    <nd ref="25532903"/>
+    <nd ref="8085801956"/>
+    <nd ref="6813215816"/>
   </way>
   <way id="659491992" visible="true" version="3">
     <tag k="name" v="Kingsway"/>
