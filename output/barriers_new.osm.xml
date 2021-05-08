@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8710058870" lat="51.5727188" lon="-0.2463983" version="1" visible="true"/>
   <node id="8675263945" lat="51.5585099" lon="-0.1364639" version="1" visible="true"/>
   <node id="8675263942" lat="51.558349" lon="-0.1367974" version="1" visible="true"/>
   <node id="8672464658" lat="51.5109949" lon="-0.0565261" version="1" visible="true"/>
@@ -89,8 +90,8 @@
     <tag k="barrier" v="gate"/>
   </node>
   <node id="7578063465" lat="51.5725511" lon="-0.2466007" version="1" visible="true"/>
-  <node id="7578063464" lat="51.572688" lon="-0.2463805" version="1" visible="true"/>
-  <node id="7578063463" lat="51.5728249" lon="-0.246322" version="1" visible="true"/>
+  <node id="7578063464" lat="51.5727002" lon="-0.2464131" version="2" visible="true"/>
+  <node id="7578063463" lat="51.5728243" lon="-0.2463142" version="2" visible="true"/>
   <node id="7529726606" lat="51.4357974" lon="-0.1304499" version="2" visible="true">
     <tag k="highway" v="crossing"/>
   </node>
@@ -4028,7 +4029,7 @@
     <nd ref="-287"/>
     <nd ref="25284027"/>
   </way>
-  <way id="568549930" visible="true" version="3">
+  <way id="568549930" visible="true" version="4">
     <tag k="highway" v="service"/>
     <nd ref="6845694036"/>
     <nd ref="5469655169"/>
@@ -4039,6 +4040,7 @@
     <nd ref="5469655165"/>
     <nd ref="5469655164"/>
     <nd ref="7578063463"/>
+    <nd ref="8710058870"/>
     <nd ref="7578063464"/>
     <nd ref="7578063465"/>
     <nd ref="7578063466"/>

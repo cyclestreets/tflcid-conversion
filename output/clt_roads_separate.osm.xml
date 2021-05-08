@@ -701,12 +701,13 @@
   <node id="3716875498" lat="51.5305846" lon="-0.1218901" version="4" visible="true"/>
   <node id="3716875470" lat="51.5304776" lon="-0.1228159" version="3" visible="true"/>
   <node id="3678939554" lat="51.407612" lon="-0.2199647" version="1" visible="true"/>
-  <node id="3645264139" lat="51.5224998" lon="-0.1325525" version="6" visible="true">
+  <node id="3645264139" lat="51.5224998" lon="-0.1325525" version="7" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="wheelchair" v="yes"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="3623416486" lat="51.4552542" lon="-0.083764" version="4" visible="true"/>
   <node id="3536211850" lat="51.5216875" lon="0.1719627" version="2" visible="true"/>
@@ -3012,9 +3013,10 @@
     <nd ref="2453162758"/>
     <nd ref="2453162764"/>
   </way>
-  <way id="605078470" visible="true" version="8">
+  <way id="605078470" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
@@ -4019,9 +4021,10 @@
     <nd ref="6384549780"/>
     <nd ref="6384561968"/>
   </way>
-  <way id="681757485" visible="true" version="2">
+  <way id="681757485" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
