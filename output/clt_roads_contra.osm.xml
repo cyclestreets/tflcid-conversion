@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8742217159" lat="51.4933695" lon="-0.0937538" version="1" visible="true"/>
+  <node id="8742217158" lat="51.4933585" lon="-0.093795" version="1" visible="true"/>
   <node id="8732624516" lat="51.5111856" lon="-0.3371436" version="1" visible="true"/>
   <node id="8732547411" lat="51.4610181" lon="0.1158355" version="1" visible="true"/>
   <node id="8728994364" lat="51.5447607" lon="0.0045465" version="1" visible="true"/>
@@ -565,8 +567,9 @@
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="7078785705" lat="51.4082181" lon="-0.2941329" version="1" visible="true"/>
-  <node id="7076702500" lat="51.4785526" lon="-0.0853772" version="1" visible="true">
+  <node id="7076702500" lat="51.4785526" lon="-0.0853772" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="7076670132" lat="51.4791595" lon="-0.0853614" version="1" visible="true"/>
   <node id="7076670128" lat="51.4791171" lon="-0.085371" version="1" visible="true"/>
@@ -773,6 +776,10 @@
   <node id="6332565144" lat="51.5706604" lon="-0.078069" version="1" visible="true"/>
   <node id="6332565141" lat="51.5707231" lon="-0.0780707" version="1" visible="true"/>
   <node id="6332565140" lat="51.5706386" lon="-0.0780805" version="1" visible="true"/>
+  <node id="6325622621" lat="51.4933553" lon="-0.0938274" version="3" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+  </node>
   <node id="6317087492" lat="51.3881976" lon="-0.2705053" version="1" visible="true"/>
   <node id="6315106867" lat="51.4138748" lon="-0.1907887" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -936,6 +943,7 @@
   </node>
   <node id="5915108513" lat="51.3880565" lon="-0.1115822" version="1" visible="true"/>
   <node id="5915108512" lat="51.3880887" lon="-0.1114796" version="1" visible="true"/>
+  <node id="5914851721" lat="51.4933555" lon="-0.0938622" version="4" visible="true"/>
   <node id="5912890425" lat="51.4091072" lon="-0.300566" version="2" visible="true"/>
   <node id="5912890415" lat="51.4091683" lon="-0.3005665" version="2" visible="true"/>
   <node id="5895330360" lat="51.5541247" lon="-0.0542863" version="1" visible="true"/>
@@ -12668,6 +12676,20 @@
     <nd ref="7076669873"/>
     <nd ref="2547407933"/>
     <nd ref="33657939"/>
+  </way>
+  <way id="944232032" visible="true" version="1">
+    <tag k="name" v="Munton Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG153880"/>
+    <nd ref="8742217159"/>
+    <nd ref="8742217158"/>
+    <nd ref="6325622621"/>
+    <nd ref="5914851721"/>
   </way>
   <way id="739689732" visible="true" version="1">
     <tag k="name" v="Hartington Road"/>
