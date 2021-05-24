@@ -105,7 +105,7 @@
   <node id="7885396757" lat="51.4561745" lon="-0.1445323" version="2" visible="true">
     <tag k="barrier" v="bollard"/>
   </node>
-  <node id="7885396755" lat="51.4561617" lon="-0.1444935" version="2" visible="true"/>
+  <node id="7885396755" lat="51.4561593" lon="-0.1444834" version="3" visible="true"/>
   <node id="7829555516" lat="51.5007785" lon="-0.3184408" version="2" visible="true">
     <tag k="barrier" v="bollard"/>
     <tag k="bollard" v="rising"/>
@@ -317,6 +317,7 @@
   <node id="5226564966" lat="51.6228919" lon="-0.2835103" version="2" visible="true"/>
   <node id="5226467244" lat="51.519987" lon="-0.1792787" version="1" visible="true"/>
   <node id="5224030446" lat="51.5725946" lon="-0.164617" version="3" visible="true"/>
+  <node id="5224030444" lat="51.5720859" lon="-0.1721459" version="3" visible="true"/>
   <node id="5211312727" lat="51.567121" lon="0.0676563" version="1" visible="true"/>
   <node id="5211312726" lat="51.5671035" lon="0.0676134" version="1" visible="true"/>
   <node id="5070359370" lat="51.5662435" lon="-0.1865718" version="1" visible="true"/>
@@ -450,7 +451,7 @@
   <node id="3752134843" lat="51.351652" lon="-0.0463747" version="1" visible="true"/>
   <node id="3749254581" lat="51.3205335" lon="-0.1422573" version="1" visible="true"/>
   <node id="3749254580" lat="51.3204699" lon="-0.1421949" version="1" visible="true"/>
-  <node id="3742586084" lat="51.57193" lon="-0.1720594" version="1" visible="true">
+  <node id="3742586084" lat="51.5719445" lon="-0.1719748" version="2" visible="true">
     <tag k="barrier" v="gate"/>
   </node>
   <node id="3742526132" lat="51.5725831" lon="-0.1646214" version="3" visible="true">
@@ -1089,7 +1090,6 @@
   <node id="357433302" lat="51.5664452" lon="-0.1864481" version="4" visible="true"/>
   <node id="357432882" lat="51.5647644" lon="-0.1891082" version="5" visible="true"/>
   <node id="357431916" lat="51.5653014" lon="-0.1887385" version="9" visible="true"/>
-  <node id="357417200" lat="51.5719764" lon="-0.1723381" version="4" visible="true"/>
   <node id="357415633" lat="51.5721825" lon="-0.1671459" version="5" visible="true"/>
   <node id="357403209" lat="51.55871" lon="-0.1534411" version="4" visible="true"/>
   <node id="355187875" lat="51.4080329" lon="-0.0739872" version="6" visible="true"/>
@@ -4941,7 +4941,7 @@
     <nd ref="7964076194"/>
     <nd ref="7964076195"/>
   </way>
-  <way id="30048348" visible="true" version="17">
+  <way id="30048348" visible="true" version="18">
     <tag k="width" v="5 m"/>
     <tag k="highway" v="service"/>
     <tag k="bicycle" v="dismount"/>
@@ -4968,7 +4968,7 @@
     <nd ref="330945706"/>
     <nd ref="330945707"/>
     <nd ref="3742586084"/>
-    <nd ref="357417200"/>
+    <nd ref="5224030444"/>
   </way>
   <way id="19786452" visible="true" version="6">
     <tag k="highway" v="service"/>

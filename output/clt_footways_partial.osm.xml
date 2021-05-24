@@ -43,7 +43,13 @@
   <node id="8528979440" lat="51.4297522" lon="-0.1349949" version="2" visible="true">
     <tag k="natural" v="tree"/>
   </node>
-  <node id="8527952642" lat="51.5759542" lon="-0.1509854" version="1" visible="true"/>
+  <node id="8527952642" lat="51.5759542" lon="-0.1509854" version="2" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="zebra"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
+  </node>
   <node id="8520850545" lat="51.4134836" lon="-0.124374" version="1" visible="true"/>
   <node id="8520850544" lat="51.4134469" lon="-0.1243645" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -1313,7 +1319,7 @@
   <node id="671776401" lat="51.4905253" lon="0.1553254" version="2" visible="true"/>
   <node id="671763072" lat="51.4911242" lon="0.1559043" version="2" visible="true"/>
   <node id="671754554" lat="51.4910691" lon="0.1555877" version="1" visible="true"/>
-  <node id="620811820" lat="51.5759675" lon="-0.150947" version="6" visible="true">
+  <node id="620811820" lat="51.5759899" lon="-0.150864" version="7" visible="true">
     <tag k="barrier" v="bollard"/>
     <tag k="bollard" v="fixed"/>
     <tag k="vehicle" v="no"/>

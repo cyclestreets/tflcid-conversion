@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8757831602" lat="51.4807975" lon="-0.0285616" version="1" visible="true"/>
+  <node id="8757831600" lat="51.4807756" lon="-0.0287953" version="1" visible="true"/>
+  <node id="8757831598" lat="51.4806933" lon="-0.0296287" version="1" visible="true"/>
   <node id="8723303391" lat="51.5225431" lon="-0.0417117" version="1" visible="true"/>
   <node id="8719705901" lat="51.5678973" lon="-0.0319257" version="1" visible="true"/>
   <node id="8719705900" lat="51.5678424" lon="-0.0320655" version="1" visible="true"/>
@@ -672,6 +675,12 @@
     <tag k="local_ref" v="D"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
+  <node id="4009478567" lat="51.4807457" lon="-0.0291141" version="3" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="zebra"/>
+  </node>
+  <node id="4009478557" lat="51.48081" lon="-0.0284287" version="3" visible="true"/>
   <node id="3930766782" lat="51.3948046" lon="-0.3131964" version="2" visible="true"/>
   <node id="3858008795" lat="51.5110996" lon="-0.0556082" version="3" visible="true">
     <tag k="bus" v="yes"/>
@@ -1217,6 +1226,7 @@
     <tag k="local_ref" v="P"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
+  <node id="443870630" lat="51.4806416" lon="-0.030137" version="4" visible="true"/>
   <node id="427931764" lat="51.530605" lon="-0.1222509" version="6" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
@@ -1338,6 +1348,12 @@
   <node id="110059498" lat="51.4837346" lon="-0.1168083" version="6" visible="true"/>
   <node id="108035528" lat="51.4765378" lon="-0.1308618" version="1" visible="true"/>
   <node id="107093858" lat="51.4858908" lon="-0.1212168" version="7" visible="true"/>
+  <node id="98223424" lat="51.4808412" lon="-0.0282023" version="6" visible="true">
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="tiger"/>
+  </node>
   <node id="96222378" lat="51.5206116" lon="-0.0521816" version="12" visible="true"/>
   <node id="82710874" lat="51.5107934" lon="-0.052957" version="11" visible="true"/>
   <node id="80298785" lat="51.532634" lon="-0.1301433" version="5" visible="true"/>
@@ -2370,6 +2386,20 @@
     <nd ref="6423538770"/>
     <nd ref="6198113579"/>
     <nd ref="6198113574"/>
+  </way>
+  <way id="494303747" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Edward Street"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="tiger:upload_uuid" v="RWG198221"/>
+    <nd ref="443870630"/>
+    <nd ref="8757831598"/>
+    <nd ref="4009478567"/>
+    <nd ref="8757831600"/>
+    <nd ref="8757831602"/>
+    <nd ref="4009478557"/>
+    <nd ref="98223424"/>
   </way>
   <way id="884969366" visible="true" version="1">
     <tag k="lit" v="yes"/>
