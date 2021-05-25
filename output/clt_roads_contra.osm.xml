@@ -1954,8 +1954,9 @@
   </node>
   <node id="1953893735" lat="51.5246928" lon="-0.1278791" version="5" visible="true"/>
   <node id="1953676009" lat="51.527949" lon="-0.1275053" version="5" visible="true"/>
-  <node id="1953027011" lat="51.5256189" lon="-0.1256716" version="6" visible="true">
+  <node id="1953027011" lat="51.5256189" lon="-0.1256716" version="7" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="1952362584" lat="51.4617429" lon="-0.11867" version="1" visible="true"/>
   <node id="1949936634" lat="51.3750771" lon="-0.1069976" version="1" visible="true"/>
@@ -9390,16 +9391,16 @@
     <nd ref="107981"/>
     <nd ref="14959374"/>
   </way>
-  <way id="4253965" visible="true" version="20">
+  <way id="4253965" visible="true" version="21">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Marchmont Street"/>
     <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway" v="lane"/>
+    <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG108345"/>
     <nd ref="8224346800"/>
     <nd ref="1230341595"/>
@@ -9407,17 +9408,17 @@
     <nd ref="2440633802"/>
     <nd ref="2440633800"/>
   </way>
-  <way id="884363124" visible="true" version="2">
+  <way id="884363124" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Marchmont Street"/>
     <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="traffic_calming" v="table"/>
-    <tag k="cycleway" v="lane"/>
+    <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG108345"/>
     <nd ref="107878"/>
     <nd ref="8224346800"/>
@@ -10004,11 +10005,12 @@
     <nd ref="25067558"/>
     <nd ref="25067636"/>
   </way>
-  <way id="227558614" visible="true" version="7">
+  <way id="227558614" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="rcn" v="proposed"/>
     <tag k="ref" v="B101"/>
     <tag k="name" v="New North Road"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="secondary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -13390,11 +13392,11 @@
     <nd ref="7797489852"/>
     <nd ref="8433541673"/>
   </way>
-  <way id="945432609" visible="true" version="1">
+  <way id="945432609" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Trinity Rise"/>
     <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -13878,10 +13880,10 @@
     <nd ref="4462564528"/>
     <nd ref="18130217"/>
   </way>
-  <way id="10430404" visible="true" version="13">
+  <way id="10430404" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Turret Grove"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -13895,11 +13897,11 @@
     <nd ref="4965120676"/>
     <nd ref="4965120679"/>
   </way>
-  <way id="506868861" visible="true" version="3">
+  <way id="506868861" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Turret Grove"/>
     <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
