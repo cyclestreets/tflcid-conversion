@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8764625429" lat="51.550203" lon="-0.0430951" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+  </node>
   <node id="8742217159" lat="51.4933695" lon="-0.0937538" version="1" visible="true"/>
   <node id="8742217158" lat="51.4933585" lon="-0.093795" version="1" visible="true"/>
   <node id="8732624516" lat="51.5111856" lon="-0.3371436" version="1" visible="true"/>
@@ -2358,7 +2364,7 @@
   <node id="339364044" lat="51.5444663" lon="-0.0991976" version="2" visible="true"/>
   <node id="336383379" lat="51.5507534" lon="-0.1044108" version="4" visible="true"/>
   <node id="336383370" lat="51.5506867" lon="-0.1048262" version="8" visible="true"/>
-  <node id="336252920" lat="51.5507243" lon="-0.1041341" version="3" visible="true"/>
+  <node id="336252920" lat="51.5507401" lon="-0.104181" version="4" visible="true"/>
   <node id="336252911" lat="51.5504929" lon="-0.1033904" version="3" visible="true"/>
   <node id="333719180" lat="51.5193132" lon="-0.1328086" version="12" visible="true">
     <tag k="highway" v="crossing"/>
@@ -9078,7 +9084,7 @@
     <nd ref="8603578708"/>
     <nd ref="237481"/>
   </way>
-  <way id="25799956" visible="true" version="17">
+  <way id="25799956" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Homerton Grove"/>
     <tag k="highway" v="residential"/>
@@ -9091,6 +9097,7 @@
     <tag k="tiger:upload_uuid" v="RWG151612"/>
     <nd ref="2811568443"/>
     <nd ref="5892966767"/>
+    <nd ref="8764625429"/>
     <nd ref="7961281760"/>
     <nd ref="2811568447"/>
     <nd ref="7961281747"/>
