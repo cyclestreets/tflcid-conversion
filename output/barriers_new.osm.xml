@@ -297,11 +297,16 @@
   <node id="4414742268" lat="51.5218027" lon="-0.0477343" version="1" visible="true"/>
   <node id="4376163236" lat="51.5334828" lon="-0.0937745" version="3" visible="true"/>
   <node id="4350239457" lat="51.5117486" lon="-0.1196927" version="1" visible="true"/>
-  <node id="4349648276" lat="51.5104777" lon="-0.1314953" version="4" visible="true">
+  <node id="4349648276" lat="51.5104777" lon="-0.1314953" version="9" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
   </node>
   <node id="4349648275" lat="51.510535" lon="-0.131526" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
