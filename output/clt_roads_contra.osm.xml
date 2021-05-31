@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8781213321" lat="51.4902946" lon="-0.2067092" version="1" visible="true"/>
   <node id="8778040162" lat="51.5066788" lon="-0.1002966" version="1" visible="true"/>
   <node id="8774101386" lat="51.4091516" lon="-0.1909797" version="1" visible="true"/>
   <node id="8774101379" lat="51.4091673" lon="-0.1905662" version="1" visible="true"/>
@@ -1149,9 +1150,10 @@
   <node id="5434504883" lat="51.5425544" lon="-0.0450423" version="1" visible="true"/>
   <node id="5434504881" lat="51.5420202" lon="-0.0435121" version="2" visible="true"/>
   <node id="5434504879" lat="51.542069" lon="-0.0436571" version="1" visible="true"/>
-  <node id="5434504877" lat="51.5420587" lon="-0.0436279" version="2" visible="true">
+  <node id="5434504877" lat="51.5420587" lon="-0.0436279" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="5411324118" lat="51.5281344" lon="-0.1276561" version="1" visible="true"/>
   <node id="5411324107" lat="51.5280129" lon="-0.1275432" version="2" visible="true">
@@ -10119,10 +10121,10 @@
     <nd ref="2410476721"/>
     <nd ref="672917361"/>
   </way>
-  <way id="4536603" visible="true" version="19">
+  <way id="4536603" visible="true" version="20">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Penn Street"/>
-    <tag k="highway" v="tertiary"/>
+    <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
@@ -12882,7 +12884,7 @@
     <nd ref="1643396661"/>
     <nd ref="20961337"/>
   </way>
-  <way id="151526842" visible="true" version="4">
+  <way id="151526842" visible="true" version="5">
     <tag k="name" v="Baron's Court Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -12894,10 +12896,11 @@
     <tag k="tiger:upload_uuid" v="RWG042558"/>
     <nd ref="20961350"/>
     <nd ref="7080456658"/>
+    <nd ref="8781213321"/>
     <nd ref="7080456654"/>
     <nd ref="1643396709"/>
   </way>
-  <way id="151526842" visible="true" version="4">
+  <way id="151526842" visible="true" version="5">
     <tag k="name" v="Baron's Court Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -12909,6 +12912,7 @@
     <tag k="tiger:upload_uuid" v="RWG152989"/>
     <nd ref="20961350"/>
     <nd ref="7080456658"/>
+    <nd ref="8781213321"/>
     <nd ref="7080456654"/>
     <nd ref="1643396709"/>
   </way>
