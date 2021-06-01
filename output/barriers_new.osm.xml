@@ -497,9 +497,9 @@
   <node id="1598016064" lat="51.5352887" lon="-0.014749" version="4" visible="true"/>
   <node id="1598016042" lat="51.5359397" lon="-0.015432" version="5" visible="true"/>
   <node id="1597993286" lat="51.546738" lon="-0.0228756" version="4" visible="true"/>
-  <node id="1547013754" lat="51.5119877" lon="-0.0803953" version="1" visible="true"/>
+  <node id="1547013754" lat="51.512052" lon="-0.0803852" version="2" visible="true"/>
   <node id="1547013724" lat="51.5115451" lon="-0.0800545" version="1" visible="true"/>
-  <node id="1547013597" lat="51.5118765" lon="-0.0802905" version="1" visible="true"/>
+  <node id="1547013597" lat="51.5118832" lon="-0.0802737" version="2" visible="true"/>
   <node id="1547013592" lat="51.5115034" lon="-0.0800505" version="1" visible="true"/>
   <node id="1547013588" lat="51.5113757" lon="-0.080076" version="1" visible="true"/>
   <node id="1547013574" lat="51.5116764" lon="-0.0801415" version="1" visible="true"/>
@@ -2837,11 +2837,14 @@
     <nd ref="4960698841"/>
     <nd ref="643739162"/>
   </way>
-  <way id="64441615" visible="true" version="2">
-    <tag k="name" v="Brownfield Street"/>
+  <way id="64441615" visible="true" version="5">
     <tag k="highway" v="residential"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="motor_vehicle" v="no"/>
+    <tag k="name" v="Brownfield Street"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="255879969"/>
     <nd ref="-193"/>
     <nd ref="255879970"/>
