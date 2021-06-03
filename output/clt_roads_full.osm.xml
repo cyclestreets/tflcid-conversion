@@ -348,7 +348,6 @@
   <node id="50761371" lat="51.5756971" lon="-0.324507" version="7" visible="true"/>
   <node id="2050107346" lat="51.5495437" lon="-0.091348" version="4" visible="true"/>
   <node id="32899760" lat="51.5735297" lon="0.0235632" version="7" visible="true"/>
-  <node id="1936869882" lat="51.5058998" lon="-0.0074785" version="3" visible="true"/>
   <node id="3729157216" lat="51.4367956" lon="-0.4074797" version="4" visible="true"/>
   <node id="292668" lat="51.4124646" lon="-0.2894193" version="9" visible="true"/>
   <node id="654202574" lat="51.5465437" lon="-0.0848842" version="6" visible="true"/>
@@ -1065,7 +1064,6 @@
   <node id="242552450" lat="51.5875711" lon="-0.0556105" version="6" visible="true"/>
   <node id="2010667158" lat="51.4805802" lon="-0.4275758" version="4" visible="true"/>
   <node id="8491935845" lat="51.4745453" lon="-0.1465525" version="1" visible="true"/>
-  <node id="30179294" lat="51.5053636" lon="-0.0073715" version="7" visible="true"/>
   <node id="1665355937" lat="51.4102279" lon="-0.2276954" version="4" visible="true"/>
   <node id="1630605982" lat="51.5090358" lon="-0.1172324" version="11" visible="true"/>
   <node id="3224128140" lat="51.5384797" lon="-0.0014931" version="3" visible="true"/>
@@ -1625,7 +1623,6 @@
   <node id="7954173452" lat="51.602551" lon="-0.0165522" version="1" visible="true"/>
   <node id="8179854096" lat="51.4045975" lon="-0.1647187" version="1" visible="true"/>
   <node id="6313090051" lat="51.6487939" lon="-0.0511368" version="1" visible="true"/>
-  <node id="253943162" lat="51.5059419" lon="-0.0074893" version="4" visible="true"/>
   <node id="1952886579" lat="51.3870751" lon="-0.1927865" version="3" visible="true"/>
   <node id="25497814" lat="51.502775" lon="-0.0968312" version="6" visible="true"/>
   <node id="25743579" lat="51.5911336" lon="0.1420132" version="1" visible="true"/>
@@ -2134,7 +2131,6 @@
   <node id="5179866175" lat="51.5886628" lon="-0.1112652" version="3" visible="true"/>
   <node id="26635011" lat="51.5893621" lon="-0.0761313" version="2" visible="true"/>
   <node id="7621138137" lat="51.5001818" lon="-0.1111923" version="1" visible="true"/>
-  <node id="183214268" lat="51.5051515" lon="-0.0073558" version="7" visible="true"/>
   <node id="33002424" lat="51.447596" lon="-0.0854975" version="8" visible="true"/>
   <node id="25894846" lat="51.5855363" lon="0.1727997" version="2" visible="true"/>
   <node id="18129858" lat="51.4896233" lon="-0.1558748" version="8" visible="true"/>
@@ -3044,7 +3040,6 @@
   <node id="1694551377" lat="51.4884301" lon="-0.1539322" version="4" visible="true"/>
   <node id="8279030906" lat="51.5891517" lon="-0.0748506" version="1" visible="true"/>
   <node id="2316547998" lat="51.4863549" lon="0.0631746" version="1" visible="true"/>
-  <node id="3004839338" lat="51.5063993" lon="-0.0075951" version="3" visible="true"/>
   <node id="4874565374" lat="51.3681957" lon="-0.3063659" version="3" visible="true"/>
   <node id="4844636227" lat="51.5805284" lon="0.1828094" version="3" visible="true">
     <tag k="bus" v="yes"/>
@@ -3707,17 +3702,6 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="no"/>
     <tag k="traffic_calming" v="table"/>
-  </node>
-  <node id="3800082875" lat="51.5060426" lon="-0.0075126" version="3" visible="true">
-    <tag k="bus" v="yes"/>
-    <tag k="name" v="Aspen Way"/>
-    <tag k="public_transport" v="stop_position"/>
-  </node>
-  <node id="3800082876" lat="51.5063074" lon="-0.0075738" version="3" visible="true">
-    <tag k="bus" v="yes"/>
-    <tag k="name" v="Aspen Way"/>
-    <tag k="local_ref" v="R"/>
-    <tag k="public_transport" v="stop_position"/>
   </node>
   <node id="3794273762" lat="51.5255475" lon="-0.032424" version="3" visible="true">
     <tag k="bus" v="yes"/>
@@ -22053,28 +22037,6 @@
     <nd ref="2923433610"/>
     <nd ref="2923462135"/>
     <nd ref="17788803"/>
-  </way>
-  <way id="296673075" visible="true" version="10">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A1206"/>
-    <tag k="foot" v="yes"/>
-    <tag k="name" v="Prestons Road"/>
-    <tag k="lanes" v="4"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="alt_name" v="Preston's Road"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG073214"/>
-    <nd ref="3004839338"/>
-    <nd ref="3800082876"/>
-    <nd ref="3800082875"/>
-    <nd ref="253943162"/>
-    <nd ref="1936869882"/>
-    <nd ref="30179294"/>
-    <nd ref="183214268"/>
   </way>
   <way id="648222762" visible="true" version="3">
     <tag k="lit" v="yes"/>
