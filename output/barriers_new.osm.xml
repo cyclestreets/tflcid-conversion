@@ -550,7 +550,9 @@
   <node id="1165756048" lat="51.5013002" lon="-0.0501535" version="3" visible="true"/>
   <node id="1165756043" lat="51.5015273" lon="-0.050455" version="5" visible="true"/>
   <node id="1165264579" lat="51.4972857" lon="-0.1338417" version="2" visible="true"/>
-  <node id="1163241564" lat="51.5113628" lon="-0.0515558" version="1" visible="true"/>
+  <node id="1163241564" lat="51.5113628" lon="-0.0515558" version="2" visible="true">
+    <tag k="barrier" v="gate"/>
+  </node>
   <node id="1163234030" lat="51.5109573" lon="-0.0551937" version="2" visible="true"/>
   <node id="1163234012" lat="51.511092" lon="-0.0551979" version="5" visible="true"/>
   <node id="1163209065" lat="51.5122902" lon="-0.0560396" version="3" visible="true">
@@ -2306,14 +2308,6 @@
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG006365"/>
-  </node>
-  <node id="459802023" lat="51.5502110634" lon="-0.1076916263" visible="true" version="4">
-    <tag k="proposed:barrier" v="bollard"/>
-    <tag k="barrier" v="yes"/>
-    <tag k="access" v="no"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG008496"/>
   </node>
   <node id="-165" lat="51.555437615342" lon="-0.112779799519158" visible="true">
     <tag k="barrier" v="yes"/>
