@@ -8407,7 +8407,7 @@
     <nd ref="1651916584"/>
     <nd ref="2592872592"/>
   </way>
-  <way id="446885216" visible="true" version="9">
+  <way id="446885216" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chatham Place"/>
     <tag k="lanes" v="1"/>
@@ -8415,26 +8415,40 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG151597"/>
-    <nd ref="7399343223"/>
-    <nd ref="701445848"/>
-    <nd ref="18064224"/>
-    <nd ref="701445795"/>
-    <nd ref="18064189"/>
-    <nd ref="701744562"/>
-    <nd ref="2433234747"/>
-    <nd ref="18064349"/>
-    <nd ref="7779726961"/>
     <nd ref="33778756"/>
+    <nd ref="7779726961"/>
+    <nd ref="18064349"/>
+    <nd ref="2433234747"/>
+    <nd ref="701744562"/>
+    <nd ref="18064189"/>
+    <nd ref="701445795"/>
   </way>
-  <way id="446885215" visible="true" version="4">
+  <way id="953411326" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Chatham Place"/>
+    <tag k="lanes" v="1"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="traffic_intervention" v="school_street"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG151597"/>
+    <nd ref="701445795"/>
+    <nd ref="18064224"/>
+    <nd ref="701445848"/>
+    <nd ref="7399343223"/>
+  </way>
+  <way id="446885215" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chatham Place"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="traffic_intervention" v="school_street"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG151597"/>
     <nd ref="701445905"/>
@@ -12154,7 +12168,7 @@
     <nd ref="368045975"/>
     <nd ref="6414252443"/>
   </way>
-  <way id="4791835" visible="true" version="17">
+  <way id="4791835" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Hydethorpe Road"/>
     <tag k="lanes" v="1"/>
@@ -12163,6 +12177,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="traffic_intervention" v="school_street"/>
     <tag k="motor_vehicle:conditional" v="destination @ (Mo-Fri 07:45-09:15; 14:15-15:45)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102311"/>
@@ -12172,7 +12187,7 @@
     <nd ref="7330431715"/>
     <nd ref="4960127935"/>
   </way>
-  <way id="4791835" visible="true" version="17">
+  <way id="4791835" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Hydethorpe Road"/>
     <tag k="lanes" v="1"/>
@@ -12181,6 +12196,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="traffic_intervention" v="school_street"/>
     <tag k="motor_vehicle:conditional" v="destination @ (Mo-Fri 07:45-09:15; 14:15-15:45)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG199470"/>
@@ -12190,7 +12206,7 @@
     <nd ref="7330431715"/>
     <nd ref="4960127935"/>
   </way>
-  <way id="784655978" visible="true" version="4">
+  <way id="784655978" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Hydethorpe Road"/>
     <tag k="lanes" v="1"/>
@@ -12198,6 +12214,7 @@
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="traffic_intervention" v="school_street"/>
     <tag k="motor_vehicle:conditional" v="destination @ (Mo-Fri 07:45-09:15; 14:15-15:45)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102311"/>
@@ -12207,7 +12224,7 @@
     <nd ref="7330431707"/>
     <nd ref="30737899"/>
   </way>
-  <way id="784655978" visible="true" version="4">
+  <way id="784655978" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Hydethorpe Road"/>
     <tag k="lanes" v="1"/>
@@ -12215,6 +12232,7 @@
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="traffic_intervention" v="school_street"/>
     <tag k="motor_vehicle:conditional" v="destination @ (Mo-Fri 07:45-09:15; 14:15-15:45)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG199469"/>
