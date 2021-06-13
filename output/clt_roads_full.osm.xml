@@ -1356,6 +1356,7 @@
   <node id="7402107375" lat="51.5324914" lon="-0.370026" version="1" visible="true"/>
   <node id="671705223" lat="51.5699549" lon="-0.026216" version="6" visible="true"/>
   <node id="1674025836" lat="51.5274619" lon="-0.1836625" version="3" visible="true"/>
+  <node id="1946796262" lat="51.5918849" lon="-0.3291847" version="5" visible="true"/>
   <node id="13922353" lat="51.4659945" lon="0.0859099" version="7" visible="true"/>
   <node id="3265436680" lat="51.5111311" lon="-0.1056337" version="2" visible="true"/>
   <node id="8691058272" lat="51.4280918" lon="-0.1680129" version="1" visible="true"/>
@@ -2427,6 +2428,7 @@
   <node id="8023223849" lat="51.4314518" lon="-0.2650201" version="1" visible="true"/>
   <node id="7714623934" lat="51.4421905" lon="-0.1706402" version="1" visible="true"/>
   <node id="21545802" lat="51.5765872" lon="-0.2385929" version="6" visible="true"/>
+  <node id="60913640" lat="51.5917524" lon="-0.3295742" version="9" visible="true"/>
   <node id="1448684240" lat="51.5797182" lon="0.177817" version="3" visible="true"/>
   <node id="4305986091" lat="51.5092406" lon="-0.0871711" version="3" visible="true"/>
   <node id="3224128144" lat="51.5387135" lon="-0.0009875" version="3" visible="true"/>
@@ -13896,6 +13898,22 @@
     <tag k="tiger:upload_uuid" v="RWG279203"/>
     <nd ref="242551753"/>
     <nd ref="242552802"/>
+  </way>
+  <way id="766370253" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="psv" v="yes"/>
+    <tag k="name" v="Christchurch Avenue"/>
+    <tag k="lanes" v="2"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="motor_vehicle" v="destination"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG293308"/>
+    <nd ref="1946796262"/>
+    <nd ref="60913640"/>
   </way>
   <way id="4014037" visible="true" version="12">
     <tag k="lit" v="yes"/>
