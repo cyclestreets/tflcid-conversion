@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8829494829" lat="51.5470539" lon="-0.0231671" version="2" visible="true">
+    <tag k="foot" v="yes"/>
+    <tag k="barrier" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="man_made" v="planter"/>
+    <tag k="motor_vehicle" v="no"/>
+  </node>
   <node id="8790676046" lat="51.5251176" lon="-0.0759426" version="1" visible="true"/>
   <node id="8788638976" lat="51.5062838" lon="-0.2409036" version="1" visible="true"/>
   <node id="8788638975" lat="51.5064584" lon="-0.2407325" version="1" visible="true"/>
@@ -3060,12 +3067,14 @@
     <nd ref="-205"/>
     <nd ref="7281165315"/>
   </way>
-  <way id="273186676" visible="true" version="2">
+  <way id="273186676" visible="true" version="4">
     <tag k="highway" v="service"/>
     <tag k="motor_vehicle" v="designated"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="1597993286"/>
     <nd ref="-206"/>
     <nd ref="2780634570"/>
+    <nd ref="8829494829"/>
     <nd ref="2780634518"/>
   </way>
   <way id="100874379" visible="true" version="3">
