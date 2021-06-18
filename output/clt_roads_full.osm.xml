@@ -1232,6 +1232,7 @@
   <node id="32650616" lat="51.5340656" lon="-0.0071243" version="8" visible="true"/>
   <node id="4931754286" lat="51.5439334" lon="-0.1402415" version="3" visible="true"/>
   <node id="18055438" lat="51.5212215" lon="-0.0641698" version="9" visible="true"/>
+  <node id="348533385" lat="51.5553071" lon="0.0614511" version="10" visible="true"/>
   <node id="6021217848" lat="51.4650887" lon="0.091305" version="3" visible="true"/>
   <node id="1253174106" lat="51.506095" lon="0.1078522" version="4" visible="true"/>
   <node id="1365141255" lat="51.5322354" lon="-0.1277104" version="3" visible="true"/>
@@ -1348,6 +1349,7 @@
   <node id="8757831595" lat="51.4806367" lon="-0.0301982" version="1" visible="true"/>
   <node id="25445560" lat="51.5015023" lon="-0.3646982" version="5" visible="true"/>
   <node id="368369106" lat="51.5036387" lon="-0.0805204" version="7" visible="true"/>
+  <node id="348532889" lat="51.5556059" lon="0.0625281" version="13" visible="true"/>
   <node id="8084647531" lat="51.6359978" lon="-0.0835176" version="1" visible="true"/>
   <node id="3086647988" lat="51.5156069" lon="-0.3981877" version="3" visible="true"/>
   <node id="430414706" lat="51.5766511" lon="-0.382829" version="3" visible="true"/>
@@ -1615,6 +1617,7 @@
   <node id="1751778171" lat="51.3757548" lon="-0.0911708" version="2" visible="true"/>
   <node id="5610161832" lat="51.5219721" lon="-0.1356447" version="4" visible="true"/>
   <node id="5676747412" lat="51.5504055" lon="-0.0225752" version="1" visible="true"/>
+  <node id="8841308813" lat="51.5554406" lon="0.0619322" version="1" visible="true"/>
   <node id="1243292852" lat="51.5388521" lon="-0.1236354" version="4" visible="true"/>
   <node id="3982646550" lat="51.6361063" lon="-0.083038" version="5" visible="true"/>
   <node id="8171638887" lat="51.5222959" lon="-0.0339758" version="1" visible="true"/>
@@ -2723,6 +2726,7 @@
   <node id="31008678" lat="51.579939" lon="0.1785104" version="4" visible="true"/>
   <node id="7926832305" lat="51.5028244" lon="-0.0965474" version="1" visible="true"/>
   <node id="31008714" lat="51.5802766" lon="0.179832" version="4" visible="true"/>
+  <node id="558238" lat="51.555092" lon="0.0607546" version="23" visible="true"/>
   <node id="7241463985" lat="51.5572069" lon="-0.0125941" version="1" visible="true"/>
   <node id="4657146272" lat="51.4758114" lon="0.0567837" version="1" visible="true"/>
   <node id="7602710990" lat="51.4857324" lon="-0.1458917" version="1" visible="true"/>
@@ -9280,6 +9284,24 @@
     <nd ref="7715006209"/>
     <nd ref="7715006208"/>
   </way>
+  <way id="229699753" visible="true" version="6">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A118"/>
+    <tag k="name" v="Romford Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="not:name" v="Ilford Hill"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG155663,RWG155941,RWG155944"/>
+    <nd ref="558238"/>
+    <nd ref="348533385"/>
+    <nd ref="8841308813"/>
+    <nd ref="348532889"/>
+  </way>
   <way id="23187892" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A223"/>
@@ -13414,14 +13436,14 @@
     <nd ref="776779037"/>
     <nd ref="25737410"/>
   </way>
-  <way id="698933734" visible="true" version="4">
+  <way id="698933734" visible="true" version="5">
     <tag k="name" v="Commonside East"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:oneway" v="no"/>
     <tag k="traffic_intervention" v="school_street"/>
-    <tag k="motor_vehicle:conditional" v="no @ (Mo-Fr 08:00-09:30,14:30-15:30)"/>
+    <tag k="motor_vehicle:conditional" v="no @ (Mo-Fr 08:00-09:30,14:30-15:30; SH off)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG218586"/>
     <nd ref="1686542853"/>
