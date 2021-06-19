@@ -247,10 +247,13 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="6631996460" lat="51.5209632" lon="-0.0503086" version="4" visible="true">
+  <node id="6631996460" lat="51.5209632" lon="-0.0503086" version="7" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
   </node>
   <node id="6631996457" lat="51.5199386" lon="-0.0558097" version="4" visible="true"/>
   <node id="6493189322" lat="51.5022496" lon="-0.165422" version="1" visible="true"/>
