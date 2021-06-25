@@ -606,10 +606,12 @@
     <tag k="public_transport" v="stop_position"/>
   </node>
   <node id="4739749763" lat="51.5386661" lon="-0.0421969" version="3" visible="true"/>
-  <node id="4738129864" lat="51.5032814" lon="-0.0918399" version="2" visible="true">
+  <node id="4738129864" lat="51.5032814" lon="-0.0918399" version="4" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="4738129849" lat="51.5034388" lon="-0.0924688" version="2" visible="true"/>
   <node id="4737887173" lat="51.491098" lon="0.0772921" version="5" visible="true">
@@ -5288,7 +5290,7 @@
     <nd ref="1937709583"/>
     <nd ref="107093858"/>
   </way>
-  <way id="147680889" visible="true" version="16">
+  <way id="147680889" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B300"/>
     <tag k="name" v="Union Street"/>
@@ -5296,6 +5298,7 @@
     <tag k="highway" v="secondary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="lane_markings" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG082013"/>
     <nd ref="534966128"/>
     <nd ref="25473412"/>
