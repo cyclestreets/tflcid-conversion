@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8871712746" lat="51.3610625" lon="-0.1920744" version="1" visible="true"/>
   <node id="8866179504" lat="51.5679839" lon="-0.0749601" version="1" visible="true"/>
   <node id="8866179501" lat="51.567956" lon="-0.0763207" version="1" visible="true"/>
   <node id="8866179500" lat="51.5680416" lon="-0.0765567" version="1" visible="true"/>
@@ -1090,12 +1091,12 @@
   <node id="20947391" lat="51.5056357" lon="-0.1615969" version="7" visible="true"/>
   <node id="20947379" lat="51.5051917" lon="-0.1596358" version="13" visible="true"/>
   <node id="20917253" lat="51.4858415" lon="-0.2499255" version="4" visible="true"/>
-  <node id="11080792" lat="51.3604125" lon="-0.1917991" version="6" visible="true">
+  <node id="11080792" lat="51.3604239" lon="-0.1917961" version="7" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
   </node>
-  <node id="11080791" lat="51.3612681" lon="-0.1921064" version="8" visible="true">
+  <node id="11080791" lat="51.3612755" lon="-0.192104" version="9" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -1510,7 +1511,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG231809"/>
   </node>
-  <node id="-263" lat="51.3605069802129" lon="-0.191833035659993" visible="true">
+  <node id="-263" lat="51.3605049265234" lon="-0.191831413368509" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -3801,12 +3802,13 @@
     <nd ref="-262"/>
     <nd ref="376429331"/>
   </way>
-  <way id="23295491" visible="true" version="8">
-    <tag k="name" v="High Street"/>
+  <way id="23295491" visible="true" version="9">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="pedestrian"/>
+    <tag k="name" v="High Street"/>
     <tag k="source:name" v="OS_OpenData_StreetView"/>
     <nd ref="11080791"/>
+    <nd ref="8871712746"/>
     <nd ref="-263"/>
     <nd ref="11080792"/>
   </way>

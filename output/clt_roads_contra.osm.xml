@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8870787693" lat="51.4475156" lon="-0.3286675" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+  </node>
+  <node id="8870787692" lat="51.4474261" lon="-0.3290273" version="1" visible="true"/>
   <node id="8842401694" lat="51.5858432" lon="-0.2848821" version="1" visible="true"/>
   <node id="8842401692" lat="51.5856944" lon="-0.2849058" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
@@ -2466,7 +2470,7 @@
   <node id="282828891" lat="51.5370192" lon="-0.0430906" version="4" visible="true"/>
   <node id="282828890" lat="51.5373191" lon="-0.0425273" version="3" visible="true"/>
   <node id="282828889" lat="51.5375671" lon="-0.0421419" version="4" visible="true"/>
-  <node id="280423558" lat="51.4474136" lon="-0.3290836" version="3" visible="true"/>
+  <node id="280423558" lat="51.4474111" lon="-0.3290668" version="4" visible="true"/>
   <node id="277031996" lat="51.5046161" lon="-0.0831465" version="11" visible="true"/>
   <node id="269336774" lat="51.5312692" lon="-0.2983906" version="3" visible="true"/>
   <node id="269336773" lat="51.531563" lon="-0.2981198" version="5" visible="true"/>
@@ -7209,9 +7213,11 @@
     <nd ref="371761575"/>
     <nd ref="371761578"/>
   </way>
-  <way id="25718067" visible="true" version="7">
+  <way id="25718067" visible="true" version="8">
+    <tag k="hgv" v="discouraged"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Holly Road"/>
+    <tag k="image" v="https://archive.org/details/twickenham-2019-02-17/Twickenham%202019-02-17/DSCN8742.JPG"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
@@ -7221,6 +7227,8 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG233975"/>
     <nd ref="297715"/>
+    <nd ref="8870787693"/>
+    <nd ref="8870787692"/>
     <nd ref="280423558"/>
   </way>
   <way id="24538828" visible="true" version="9">

@@ -17,7 +17,6 @@
   <node id="8597243202" lat="51.3857842" lon="-0.2532348" version="1" visible="true"/>
   <node id="25510039" lat="51.4995094" lon="-0.1118855" version="10" visible="true"/>
   <node id="29991892" lat="51.5901519" lon="-0.0113851" version="6" visible="true"/>
-  <node id="88804459" lat="51.4818498" lon="-0.0060605" version="8" visible="true"/>
   <node id="275513" lat="51.498407" lon="-0.2223357" version="7" visible="true"/>
   <node id="3359229626" lat="51.4204684" lon="-0.2781015" version="3" visible="true"/>
   <node id="8064033790" lat="51.6439914" lon="-0.0807581" version="1" visible="true"/>
@@ -1827,7 +1826,7 @@
   <node id="26267827" lat="51.5670496" lon="-0.0605642" version="4" visible="true"/>
   <node id="1727515754" lat="51.5097071" lon="-0.0873821" version="6" visible="true"/>
   <node id="31506039" lat="51.536596" lon="0.1732703" version="2" visible="true"/>
-  <node id="33500448" lat="51.3613969" lon="-0.194436" version="5" visible="true"/>
+  <node id="33500448" lat="51.3614013" lon="-0.1944123" version="6" visible="true"/>
   <node id="30478672" lat="51.4237077" lon="-0.2755296" version="3" visible="true"/>
   <node id="6563418178" lat="51.4041127" lon="-0.1611352" version="1" visible="true"/>
   <node id="7241419073" lat="51.5571259" lon="-0.0119502" version="1" visible="true"/>
@@ -4665,15 +4664,6 @@
   <node id="21585733" lat="51.5090846" lon="-0.3500696" version="7" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
-  </node>
-  <node id="7235348488" lat="51.4816975" lon="-0.0065549" version="1" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="backward"/>
-  </node>
-  <node id="2541359992" lat="51.4816778" lon="-0.0066036" version="5" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
   </node>
   <node id="5960269010" lat="51.4782021" lon="-0.0229266" version="2" visible="true">
     <tag k="bus" v="yes"/>
@@ -10251,20 +10241,6 @@
     <nd ref="1562895546"/>
     <nd ref="5746403623"/>
     <nd ref="5746403621"/>
-  </way>
-  <way id="276815338" visible="true" version="7">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A206"/>
-    <tag k="name" v="Romney Road"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="maxweight" v="7.5"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG198362"/>
-    <nd ref="2541359992"/>
-    <nd ref="7235348488"/>
-    <nd ref="88804459"/>
   </way>
   <way id="665184637" visible="true" version="4">
     <tag k="lit" v="yes"/>
