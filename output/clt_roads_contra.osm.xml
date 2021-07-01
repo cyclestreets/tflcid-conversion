@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8878568156" lat="51.5441341" lon="-0.0759115" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
   <node id="8870787693" lat="51.4475156" lon="-0.3286675" version="1" visible="true">
     <tag k="highway" v="give_way"/>
   </node>
@@ -9732,7 +9736,7 @@
     <nd ref="4360597682"/>
     <nd ref="1957996225"/>
   </way>
-  <way id="51271817" visible="true" version="13">
+  <way id="51271817" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Forest Road"/>
     <tag k="highway" v="residential"/>
@@ -9743,6 +9747,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG042195"/>
     <nd ref="654181232"/>
+    <nd ref="8878568156"/>
     <nd ref="5436446038"/>
   </way>
   <way id="564167354" visible="true" version="4">

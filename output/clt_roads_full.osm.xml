@@ -1158,6 +1158,7 @@
   <node id="6593922088" lat="51.5533685" lon="0.0465896" version="3" visible="true"/>
   <node id="8456984239" lat="51.3798925" lon="-0.0278404" version="1" visible="true"/>
   <node id="791583143" lat="51.5880126" lon="-0.0603958" version="6" visible="true"/>
+  <node id="2275901093" lat="51.5350304" lon="-0.1231779" version="5" visible="true"/>
   <node id="8011192974" lat="51.5307297" lon="-0.1013784" version="1" visible="true"/>
   <node id="7527616800" lat="51.5926538" lon="-0.1734152" version="1" visible="true"/>
   <node id="1465829230" lat="51.6301734" lon="-0.0970336" version="3" visible="true"/>
@@ -1702,6 +1703,7 @@
   <node id="6366316086" lat="51.5019882" lon="-0.1102851" version="4" visible="true"/>
   <node id="765269510" lat="51.501418" lon="-0.3649631" version="5" visible="true"/>
   <node id="1448692397" lat="51.5806446" lon="0.1810297" version="3" visible="true"/>
+  <node id="2275901092" lat="51.5350307" lon="-0.1232889" version="5" visible="true"/>
   <node id="8584885252" lat="51.6562743" lon="-0.0474915" version="1" visible="true"/>
   <node id="8824423994" lat="51.4864972" lon="-0.1508225" version="1" visible="true"/>
   <node id="556768606" lat="51.4567355" lon="-0.435018" version="4" visible="true"/>
@@ -1755,6 +1757,7 @@
   <node id="297737" lat="51.4392727" lon="-0.3327854" version="6" visible="true"/>
   <node id="31008685" lat="51.5803772" lon="0.1798863" version="5" visible="true"/>
   <node id="243715215" lat="51.4192031" lon="-0.2789117" version="5" visible="true"/>
+  <node id="7708239417" lat="51.5350157" lon="-0.1231045" version="1" visible="true"/>
   <node id="31008684" lat="51.5801655" lon="0.179266" version="4" visible="true"/>
   <node id="6088912707" lat="51.3940518" lon="-0.1813588" version="1" visible="true"/>
   <node id="7767829463" lat="51.5944053" lon="0.1441096" version="1" visible="true"/>
@@ -1762,6 +1765,7 @@
   <node id="4680514033" lat="51.5314768" lon="-0.1272859" version="3" visible="true"/>
   <node id="43389902" lat="51.4243691" lon="-0.1715583" version="7" visible="true"/>
   <node id="5756539318" lat="51.4439348" lon="-0.0260383" version="4" visible="true"/>
+  <node id="2275901090" lat="51.5349816" lon="-0.1236202" version="4" visible="true"/>
   <node id="21093592" lat="51.4522074" lon="-0.2215148" version="5" visible="true"/>
   <node id="552099532" lat="51.4894112" lon="-0.3021021" version="6" visible="true"/>
   <node id="7613626070" lat="51.5141472" lon="-0.1035665" version="1" visible="true"/>
@@ -2069,6 +2073,7 @@
   <node id="53327861" lat="51.5891047" lon="-0.0745593" version="5" visible="true"/>
   <node id="17788807" lat="51.452601" lon="-0.221316" version="5" visible="true"/>
   <node id="672906685" lat="51.5394796" lon="-0.0766803" version="6" visible="true"/>
+  <node id="8880415467" lat="51.3826272" lon="-0.0266017" version="1" visible="true"/>
   <node id="251609443" lat="51.6163534" lon="-0.082719" version="6" visible="true"/>
   <node id="200098" lat="51.6149392" lon="-0.1589377" version="3" visible="true"/>
   <node id="6474058852" lat="51.4190709" lon="-0.2790406" version="5" visible="true"/>
@@ -2640,6 +2645,7 @@
   <node id="2918007752" lat="51.4740486" lon="-0.0642851" version="3" visible="true"/>
   <node id="1674025823" lat="51.5274125" lon="-0.1837372" version="2" visible="true"/>
   <node id="364290" lat="51.4971259" lon="-0.0992421" version="4" visible="true"/>
+  <node id="29740928" lat="51.5349642" lon="-0.1237126" version="5" visible="true"/>
   <node id="80429947" lat="51.3879358" lon="-0.1939965" version="7" visible="true"/>
   <node id="1937709615" lat="51.4862617" lon="-0.123285" version="3" visible="true"/>
   <node id="3461322617" lat="51.4750668" lon="-0.2675903" version="1" visible="true"/>
@@ -15008,6 +15014,25 @@
     <nd ref="2592933733"/>
     <nd ref="658185"/>
   </way>
+  <way id="959607649" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Goods Way"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="proposed:oneway" v="no"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
+    <tag k="tiger:upload_uuid" v="RWG030401,RWG003545"/>
+    <nd ref="7708239417"/>
+    <nd ref="2275901093"/>
+    <nd ref="2275901092"/>
+    <nd ref="2275901090"/>
+    <nd ref="29740928"/>
+  </way>
   <way id="435347694" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5200"/>
@@ -22934,7 +22959,7 @@
     <nd ref="6302460453"/>
     <nd ref="25284612"/>
   </way>
-  <way id="166971349" visible="true" version="9">
+  <way id="166971349" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Monks Orchard Road"/>
     <tag k="highway" v="tertiary"/>
@@ -22955,6 +22980,7 @@
     <nd ref="13808243"/>
     <nd ref="8456984245"/>
     <nd ref="13808245"/>
+    <nd ref="8880415467"/>
     <nd ref="13808246"/>
     <nd ref="6807253283"/>
     <nd ref="8456984244"/>
