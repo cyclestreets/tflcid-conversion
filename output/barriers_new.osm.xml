@@ -548,7 +548,9 @@
   <node id="1413347522" lat="51.5937779" lon="-0.1245625" version="1" visible="true"/>
   <node id="1285347919" lat="51.6602708" lon="-0.2032104" version="2" visible="true"/>
   <node id="1244881476" lat="51.5497829" lon="0.0479432" version="2" visible="true"/>
-  <node id="1244881469" lat="51.5497077" lon="0.0475052" version="2" visible="true"/>
+  <node id="1244881469" lat="51.5497057" lon="0.0474578" version="3" visible="true">
+    <tag k="barrier" v="gate"/>
+  </node>
   <node id="1232048725" lat="51.4965703" lon="-0.1336441" version="5" visible="true"/>
   <node id="1228338409" lat="51.5317045" lon="-0.0468764" version="1" visible="true"/>
   <node id="1227761839" lat="51.5316381" lon="-0.0475852" version="1" visible="true"/>
@@ -1741,7 +1743,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG169889"/>
   </node>
-  <node id="-229" lat="51.5497555421334" lon="0.0477838854035793" visible="true">
+  <node id="-229" lat="51.5497575061865" lon="0.0477835675967133" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -3315,10 +3317,10 @@
     <nd ref="117947320"/>
     <nd ref="117947319"/>
   </way>
-  <way id="108522631" visible="true" version="2">
-    <tag k="name" v="Cranbourne Road"/>
-    <tag k="highway" v="unclassified"/>
+  <way id="108522631" visible="true" version="3">
+    <tag k="highway" v="service"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="Cranbourne Road"/>
     <nd ref="1244881476"/>
     <nd ref="-229"/>
     <nd ref="1244881469"/>

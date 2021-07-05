@@ -2036,7 +2036,7 @@
   <node id="1844769510" lat="51.4887585" lon="-0.1221824" version="2" visible="true"/>
   <node id="1844769502" lat="51.4887984" lon="-0.1226339" version="2" visible="true"/>
   <node id="1839216410" lat="51.4687486" lon="-0.1352161" version="3" visible="true"/>
-  <node id="1839216409" lat="51.4776282" lon="-0.1269574" version="2" visible="true"/>
+  <node id="1839216409" lat="51.4776407" lon="-0.126948" version="3" visible="true"/>
   <node id="1838084510" lat="51.521663" lon="-0.0670709" version="1" visible="true"/>
   <node id="1838084505" lat="51.5216538" lon="-0.0671063" version="1" visible="true"/>
   <node id="1838084495" lat="51.5216059" lon="-0.0660349" version="1" visible="true"/>
@@ -2490,7 +2490,7 @@
   <node id="264835751" lat="51.4998817" lon="-0.1097802" version="6" visible="true"/>
   <node id="264781814" lat="51.4997933" lon="-0.093733" version="5" visible="true"/>
   <node id="264781812" lat="51.5003169" lon="-0.0927953" version="4" visible="true"/>
-  <node id="261348580" lat="51.4763163" lon="-0.1274986" version="2" visible="true"/>
+  <node id="261348580" lat="51.4763354" lon="-0.1274933" version="3" visible="true"/>
   <node id="261348566" lat="51.4774197" lon="-0.1270416" version="2" visible="true"/>
   <node id="257015837" lat="51.3611501" lon="-0.1869627" version="3" visible="true"/>
   <node id="257015827" lat="51.3613997" lon="-0.1854876" version="4" visible="true"/>
@@ -2910,7 +2910,7 @@
     <tag k="access" v="private"/>
     <tag k="entrance" v="yes"/>
   </node>
-  <node id="26840494" lat="51.4701754" lon="-0.006288" version="5" visible="true"/>
+  <node id="26840494" lat="51.4701754" lon="-0.006288" version="6" visible="true"/>
   <node id="26799443" lat="51.5574294" lon="-0.0907615" version="5" visible="true"/>
   <node id="26799441" lat="51.5568591" lon="-0.0924549" version="2" visible="true"/>
   <node id="26756581" lat="51.4457714" lon="-0.1982949" version="6" visible="true"/>
@@ -11485,13 +11485,15 @@
     <nd ref="6507301201"/>
     <nd ref="249666678"/>
   </way>
-  <way id="157777134" visible="true" version="9">
+  <way id="157777134" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="separate"/>
+    <tag k="lane_markings" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG066765"/>
     <nd ref="2030035730"/>
@@ -11500,13 +11502,15 @@
     <nd ref="2405520482"/>
     <nd ref="439565025"/>
   </way>
-  <way id="157777134" visible="true" version="9">
+  <way id="157777134" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="separate"/>
+    <tag k="lane_markings" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG152706"/>
     <nd ref="2030035730"/>
@@ -11515,7 +11519,7 @@
     <nd ref="2405520482"/>
     <nd ref="439565025"/>
   </way>
-  <way id="232177642" visible="true" version="2">
+  <way id="232177642" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -11523,6 +11527,7 @@
     <tag k="highway" v="secondary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="lane_markings" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG066765"/>
     <nd ref="2030035730"/>
@@ -11532,7 +11537,7 @@
     <nd ref="2405520483"/>
     <nd ref="439564849"/>
   </way>
-  <way id="232177642" visible="true" version="2">
+  <way id="232177642" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -11540,6 +11545,7 @@
     <tag k="highway" v="secondary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="lane_markings" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG152706"/>
     <nd ref="2030035730"/>
@@ -13511,10 +13517,11 @@
     <nd ref="7332166683"/>
     <nd ref="10869028"/>
   </way>
-  <way id="24209002" visible="true" version="17">
+  <way id="24209002" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Larkhall Rise"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG119565"/>

@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8893062911" lat="51.4911224" lon="0.0778725" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="8891192327" lat="51.5022709" lon="-0.1650941" version="1" visible="true"/>
   <node id="8814546860" lat="51.491017" lon="0.0815787" version="1" visible="true"/>
   <node id="8814452065" lat="51.4910317" lon="0.0813246" version="1" visible="true"/>
   <node id="8757831602" lat="51.4807975" lon="-0.0285616" version="1" visible="true"/>
@@ -1043,7 +1049,7 @@
     <tag k="curve_geometry" v="yes"/>
   </node>
   <node id="1934885501" lat="51.4130934" lon="-0.2990277" version="3" visible="true"/>
-  <node id="1839216409" lat="51.4776282" lon="-0.1269574" version="2" visible="true"/>
+  <node id="1839216409" lat="51.4776407" lon="-0.126948" version="3" visible="true"/>
   <node id="1834075744" lat="51.4834406" lon="-0.1165009" version="10" visible="true">
     <tag k="bicycle" v="designated"/>
     <tag k="highway" v="crossing"/>
@@ -2491,7 +2497,7 @@
     <nd ref="2517133988"/>
     <nd ref="2477093214"/>
   </way>
-  <way id="37788481" visible="true" version="17">
+  <way id="37788481" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Plumstead Road"/>
@@ -2504,6 +2510,7 @@
     <nd ref="443257043"/>
     <nd ref="2411507950"/>
     <nd ref="4737887173"/>
+    <nd ref="8893062911"/>
     <nd ref="1489687604"/>
     <nd ref="443257050"/>
     <nd ref="1191148321"/>
@@ -5536,7 +5543,7 @@
     <nd ref="7887305759"/>
     <nd ref="6069524533"/>
   </way>
-  <way id="279553202" visible="true" version="17">
+  <way id="279553202" visible="true" version="18">
     <tag k="bus" v="no"/>
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
@@ -5583,6 +5590,7 @@
     <nd ref="4444845661"/>
     <nd ref="20947341"/>
     <nd ref="1974138013"/>
+    <nd ref="8891192327"/>
     <nd ref="6493189322"/>
     <nd ref="1504499986"/>
     <nd ref="20947340"/>
@@ -5590,7 +5598,7 @@
     <nd ref="20947339"/>
     <nd ref="12196664"/>
   </way>
-  <way id="279553202" visible="true" version="17">
+  <way id="279553202" visible="true" version="18">
     <tag k="bus" v="no"/>
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
@@ -5637,6 +5645,7 @@
     <nd ref="4444845661"/>
     <nd ref="20947341"/>
     <nd ref="1974138013"/>
+    <nd ref="8891192327"/>
     <nd ref="6493189322"/>
     <nd ref="1504499986"/>
     <nd ref="20947340"/>
