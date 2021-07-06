@@ -1235,7 +1235,6 @@
   </node>
   <node id="5230657029" lat="51.5725297" lon="-0.1329327" version="2" visible="true"/>
   <node id="5229553602" lat="51.5762569" lon="-0.1432656" version="2" visible="true"/>
-  <node id="5224834862" lat="51.3612109" lon="-0.1865917" version="1" visible="true"/>
   <node id="5219047474" lat="51.5047094" lon="-0.0833886" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
@@ -1909,14 +1908,17 @@
   <node id="2365608725" lat="51.555626" lon="-0.1117963" version="1" visible="true"/>
   <node id="2364985179" lat="51.5468365" lon="-0.1029372" version="1" visible="true"/>
   <node id="2364967671" lat="51.54755" lon="-0.1024996" version="1" visible="true"/>
-  <node id="2364933887" lat="51.5485016" lon="-0.1019244" version="1" visible="true">
+  <node id="2364933887" lat="51.5485016" lon="-0.1019244" version="2" visible="true">
+    <tag k="check_date" v="2021-07-05"/>
     <tag k="traffic_calming" v="bump"/>
   </node>
-  <node id="2364933884" lat="51.5500798" lon="-0.1009611" version="1" visible="true">
+  <node id="2364933884" lat="51.5500798" lon="-0.1009611" version="2" visible="true">
+    <tag k="check_date" v="2021-07-05"/>
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="2364933882" lat="51.5467628" lon="-0.1029836" version="1" visible="true"/>
-  <node id="2364933877" lat="51.5469469" lon="-0.1028696" version="2" visible="true">
+  <node id="2364933877" lat="51.5469469" lon="-0.1028696" version="3" visible="true">
+    <tag k="check_date" v="2021-07-05"/>
     <tag k="traffic_calming" v="bump"/>
   </node>
   <node id="2364933875" lat="51.5466948" lon="-0.1030178" version="1" visible="true"/>
@@ -2109,16 +2111,19 @@
   <node id="1692355580" lat="51.5492241" lon="-0.1777073" version="2" visible="true"/>
   <node id="1684049601" lat="51.5743536" lon="-0.0772788" version="5" visible="true"/>
   <node id="1684049598" lat="51.5742466" lon="-0.0773507" version="3" visible="true"/>
-  <node id="1684049571" lat="51.5495667" lon="-0.101274" version="2" visible="true">
+  <node id="1684049571" lat="51.5495667" lon="-0.101274" version="3" visible="true">
+    <tag k="check_date" v="2021-07-05"/>
     <tag k="traffic_calming" v="bump"/>
   </node>
   <node id="1684049569" lat="51.5490493" lon="-0.1015887" version="2" visible="true">
     <tag k="traffic_calming" v="bump"/>
   </node>
-  <node id="1684049567" lat="51.5479992" lon="-0.1022248" version="4" visible="true">
+  <node id="1684049567" lat="51.5479992" lon="-0.1022248" version="5" visible="true">
+    <tag k="check_date" v="2021-07-05"/>
     <tag k="traffic_calming" v="bump"/>
   </node>
-  <node id="1684049558" lat="51.5474816" lon="-0.1025415" version="2" visible="true">
+  <node id="1684049558" lat="51.5474816" lon="-0.1025415" version="3" visible="true">
+    <tag k="check_date" v="2021-07-05"/>
     <tag k="traffic_calming" v="bump"/>
   </node>
   <node id="1678452794" lat="51.5132115" lon="-0.1218515" version="5" visible="true"/>
@@ -2492,7 +2497,7 @@
   <node id="264781812" lat="51.5003169" lon="-0.0927953" version="4" visible="true"/>
   <node id="261348580" lat="51.4763354" lon="-0.1274933" version="3" visible="true"/>
   <node id="261348566" lat="51.4774197" lon="-0.1270416" version="2" visible="true"/>
-  <node id="257015837" lat="51.3611501" lon="-0.1869627" version="3" visible="true"/>
+  <node id="257015837" lat="51.3611726" lon="-0.18698" version="4" visible="true"/>
   <node id="257015827" lat="51.3613997" lon="-0.1854876" version="4" visible="true"/>
   <node id="257015695" lat="51.3614762" lon="-0.1849076" version="2" visible="true"/>
   <node id="256416492" lat="51.4926271" lon="-0.232342" version="5" visible="true"/>
@@ -6847,6 +6852,26 @@
     <nd ref="1127805145"/>
     <nd ref="21664812"/>
   </way>
+  <way id="32998168" visible="true" version="3">
+    <tag k="name" v="Morland Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="postal_code" v="SM1 4RP"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG219677"/>
+    <nd ref="371761578"/>
+    <nd ref="257015837"/>
+  </way>
+  <way id="32998168" visible="true" version="3">
+    <tag k="name" v="Morland Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="postal_code" v="SM1 4RP"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG219678"/>
+    <nd ref="371761578"/>
+    <nd ref="257015837"/>
+  </way>
   <way id="4344559" visible="true" version="5">
     <tag k="name" v="Longfield Avenue"/>
     <tag k="oneway" v="yes"/>
@@ -7201,17 +7226,6 @@
     <nd ref="620388987"/>
     <nd ref="5247192619"/>
     <nd ref="7155922858"/>
-  </way>
-  <way id="32998168" visible="true" version="2">
-    <tag k="name" v="Morland Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="postal_code" v="SM1 4RP"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG219678"/>
-    <nd ref="371761578"/>
-    <nd ref="5224834862"/>
-    <nd ref="257015837"/>
   </way>
   <way id="23731864" visible="true" version="3">
     <tag k="name" v="Morland Road"/>
@@ -13427,7 +13441,7 @@
     <nd ref="1224752590"/>
     <nd ref="25510383"/>
   </way>
-  <way id="570320309" visible="true" version="1">
+  <way id="570320309" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Bromley High Street"/>
     <tag k="oneway" v="yes"/>
@@ -13435,6 +13449,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="lane_markings" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG073471"/>
     <nd ref="5483081182"/>

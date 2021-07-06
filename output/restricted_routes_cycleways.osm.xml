@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8895550379" lat="51.5738537" lon="-0.1019485" version="1" visible="true"/>
+  <node id="8895477650" lat="51.5737505" lon="-0.1024268" version="1" visible="true"/>
+  <node id="8895268366" lat="51.3757898" lon="-0.2034127" version="1" visible="true"/>
   <node id="8812561920" lat="51.5772035" lon="-0.3330686" version="1" visible="true">
     <tag k="cycleway" v="asl"/>
   </node>
@@ -875,7 +878,7 @@
   <node id="1533173151" lat="51.5651742" lon="0.0670951" version="2" visible="true"/>
   <node id="1519533552" lat="51.5755357" lon="0.0449994" version="2" visible="true"/>
   <node id="1499049182" lat="51.5930819" lon="-0.134789" version="4" visible="true"/>
-  <node id="1460212900" lat="51.5738537" lon="-0.1019485" version="2" visible="true"/>
+  <node id="1460212900" lat="51.5738575" lon="-0.1019155" version="3" visible="true"/>
   <node id="1460197126" lat="51.5722706" lon="-0.1043674" version="2" visible="true"/>
   <node id="1460197120" lat="51.5723295" lon="-0.1041823" version="2" visible="true"/>
   <node id="1459870791" lat="51.5717929" lon="-0.1039745" version="2" visible="true"/>
@@ -2494,7 +2497,7 @@
     <nd ref="5335657913"/>
     <nd ref="5335657912"/>
   </way>
-  <way id="506132507" visible="true" version="4">
+  <way id="506132507" visible="true" version="5">
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG220208"/>
@@ -2504,6 +2507,7 @@
     <nd ref="4958993846"/>
     <nd ref="266745084"/>
     <nd ref="4958993839"/>
+    <nd ref="8895268366"/>
     <nd ref="266745083"/>
   </way>
   <way id="202092839" visible="true" version="2">
@@ -4399,10 +4403,11 @@
     <nd ref="1460197120"/>
     <nd ref="21678292"/>
   </way>
-  <way id="146504358" visible="true" version="4">
+  <way id="146504358" visible="true" version="7">
     <tag k="foot" v="yes"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="highway" v="service"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="12 mph"/>
     <tag k="cycle_network" v="GB:London:Greenways"/>
     <tag k="tiger:upload_uuid" v="RWG280818"/>
@@ -4410,7 +4415,9 @@
     <nd ref="21678338"/>
     <nd ref="1459870754"/>
     <nd ref="1460212900"/>
+    <nd ref="8895550379"/>
     <nd ref="21678337"/>
+    <nd ref="8895477650"/>
     <nd ref="21678336"/>
     <nd ref="7196944661"/>
     <nd ref="21678335"/>
