@@ -355,9 +355,8 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
-  <node id="6167447661" lat="51.5208161" lon="0.1698572" version="2" visible="true">
+  <node id="6167447661" lat="51.5208161" lon="0.1698572" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals" v="pedestrian_crossing"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="6167447656" lat="51.5215046" lon="0.1719053" version="1" visible="true"/>
@@ -485,8 +484,9 @@
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
   </node>
-  <node id="5430417346" lat="51.3783335" lon="-0.1000817" version="3" visible="true">
+  <node id="5430417346" lat="51.3782625" lon="-0.1003036" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="5425497689" lat="51.5012265" lon="-0.1105358" version="4" visible="true">
     <tag k="bus" v="yes"/>
@@ -776,7 +776,7 @@
   </node>
   <node id="3224130795" lat="51.5402012" lon="0.0005177" version="4" visible="true"/>
   <node id="3224130793" lat="51.540144" lon="0.0004513" version="4" visible="true"/>
-  <node id="3224128136" lat="51.5380861" lon="-0.001758" version="3" visible="true"/>
+  <node id="3224128136" lat="51.5380194" lon="-0.0018379" version="4" visible="true"/>
   <node id="3208345540" lat="51.4131256" lon="-0.3004546" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -887,7 +887,7 @@
   </node>
   <node id="2517133988" lat="51.537064" lon="-0.0030946" version="4" visible="true"/>
   <node id="2477093245" lat="51.5383418" lon="-0.0014387" version="4" visible="true"/>
-  <node id="2477093214" lat="51.5365318" lon="-0.0037897" version="4" visible="true"/>
+  <node id="2477093214" lat="51.5364387" lon="-0.0039126" version="5" visible="true"/>
   <node id="2474043329" lat="51.5672288" lon="-0.0336012" version="7" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="bicycle" v="yes"/>
@@ -995,7 +995,7 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
   </node>
-  <node id="2282295838" lat="51.5160027" lon="-0.0699085" version="5" visible="true"/>
+  <node id="2282295838" lat="51.5160398" lon="-0.0698288" version="6" visible="true"/>
   <node id="2211033268" lat="51.4816763" lon="-0.1111499" version="5" visible="true"/>
   <node id="2211033266" lat="51.4818254" lon="-0.111251" version="4" visible="true"/>
   <node id="2211033263" lat="51.4819349" lon="-0.1113256" version="5" visible="true"/>

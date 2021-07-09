@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8901214490" lat="51.5265032" lon="-0.0279122" version="1" visible="true"/>
   <node id="8871712746" lat="51.3610625" lon="-0.1920744" version="1" visible="true"/>
   <node id="8866179504" lat="51.5679839" lon="-0.0749601" version="1" visible="true"/>
   <node id="8866179501" lat="51.567956" lon="-0.0763207" version="1" visible="true"/>
@@ -313,7 +314,7 @@
   <node id="4438272579" lat="51.4594967" lon="-0.0607347" version="1" visible="true">
     <tag k="traffic_calming" v="bump"/>
   </node>
-  <node id="4414742278" lat="51.5216208" lon="-0.0476269" version="1" visible="true"/>
+  <node id="4414742278" lat="51.521641" lon="-0.0476392" version="2" visible="true"/>
   <node id="4414742268" lat="51.5218027" lon="-0.0477343" version="1" visible="true"/>
   <node id="4376163236" lat="51.5334828" lon="-0.0937745" version="3" visible="true"/>
   <node id="4350239457" lat="51.5117486" lon="-0.1196927" version="1" visible="true"/>
@@ -2895,13 +2896,14 @@
     <nd ref="-200"/>
     <nd ref="1662290352"/>
   </way>
-  <way id="22926680" visible="true" version="14">
+  <way id="22926680" visible="true" version="15">
     <tag k="highway" v="living_street"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Merchant Street"/>
     <tag k="surface" v="paved"/>
     <nd ref="246860028"/>
+    <nd ref="8901214490"/>
     <nd ref="5735299439"/>
     <nd ref="652797079"/>
     <nd ref="246860030"/>
