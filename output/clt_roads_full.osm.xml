@@ -615,7 +615,7 @@
   <node id="6319748554" lat="51.516806" lon="-0.1268036" version="4" visible="true"/>
   <node id="29158929" lat="51.4954016" lon="-0.1012801" version="13" visible="true"/>
   <node id="5425192220" lat="51.5230511" lon="-0.1079142" version="3" visible="true"/>
-  <node id="98302858" lat="51.5781672" lon="-0.0071175" version="11" visible="true"/>
+  <node id="98302858" lat="51.578163" lon="-0.0071334" version="12" visible="true"/>
   <node id="4937046204" lat="51.656381" lon="-0.0474489" version="3" visible="true"/>
   <node id="6331732604" lat="51.5547949" lon="0.0463819" version="3" visible="true"/>
   <node id="529742640" lat="51.5777974" lon="-0.3301058" version="4" visible="true"/>
@@ -719,7 +719,7 @@
   <node id="2710167250" lat="51.5947495" lon="-0.3335064" version="5" visible="true"/>
   <node id="1143684264" lat="51.4438495" lon="-0.0203057" version="8" visible="true"/>
   <node id="3224128109" lat="51.5376028" lon="-0.0023828" version="3" visible="true"/>
-  <node id="3397696665" lat="51.578025" lon="-0.0072828" version="8" visible="true"/>
+  <node id="3397696665" lat="51.5780321" lon="-0.0072828" version="9" visible="true"/>
   <node id="513071572" lat="51.4914951" lon="-0.1257937" version="6" visible="true"/>
   <node id="3839064118" lat="51.5669252" lon="-0.0604783" version="3" visible="true"/>
   <node id="4737194583" lat="51.4912759" lon="0.0707394" version="4" visible="true"/>
@@ -762,7 +762,6 @@
   <node id="7270892325" lat="51.5372886" lon="0.0716133" version="1" visible="true"/>
   <node id="7926832290" lat="51.5035038" lon="-0.0957798" version="1" visible="true"/>
   <node id="8217845312" lat="51.4874946" lon="0.0287951" version="2" visible="true"/>
-  <node id="243246" lat="51.5703038" lon="-0.0252866" version="12" visible="true"/>
   <node id="35960144" lat="51.4454907" lon="0.1538783" version="6" visible="true"/>
   <node id="8085224582" lat="51.6281372" lon="-0.0982008" version="1" visible="true"/>
   <node id="5004179133" lat="51.6081673" lon="-0.2761861" version="3" visible="true"/>
@@ -1021,7 +1020,6 @@
   <node id="5291254940" lat="51.5838049" lon="0.1746557" version="3" visible="true"/>
   <node id="245428710" lat="51.5719106" lon="-0.1244099" version="4" visible="true"/>
   <node id="263248115" lat="51.4164023" lon="-0.0818411" version="3" visible="true"/>
-  <node id="316022640" lat="51.5701972" lon="-0.0255735" version="6" visible="true"/>
   <node id="25894926" lat="51.579063" lon="0.1773536" version="4" visible="true"/>
   <node id="1143684253" lat="51.4448084" lon="-0.0204743" version="3" visible="true"/>
   <node id="8627296771" lat="51.5412388" lon="-0.1420174" version="1" visible="true"/>
@@ -1963,7 +1961,7 @@
   <node id="3196150454" lat="51.6468595" lon="-0.0798734" version="6" visible="true"/>
   <node id="25477536" lat="51.5246205" lon="-0.17681" version="9" visible="true"/>
   <node id="4725091014" lat="51.4750895" lon="-0.0395207" version="3" visible="true"/>
-  <node id="29691275" lat="51.571853" lon="-0.0207935" version="12" visible="true"/>
+  <node id="29691275" lat="51.5718587" lon="-0.0207662" version="13" visible="true"/>
   <node id="243917867" lat="51.4624386" lon="0.0265112" version="1" visible="true"/>
   <node id="6375953722" lat="51.5522418" lon="-0.3120566" version="3" visible="true"/>
   <node id="7254300194" lat="51.4399363" lon="-0.1769273" version="3" visible="true"/>
@@ -3491,16 +3489,6 @@
   <node id="28829091" lat="51.5825865" lon="-0.0350777" version="15" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
-  <node id="6004012301" lat="51.5702486" lon="-0.0254341" version="7" visible="true">
-    <tag k="bicycle" v="yes"/>
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="toucan"/>
-  </node>
-  <node id="6004012299" lat="51.5702328" lon="-0.025477" version="4" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="backward"/>
-  </node>
   <node id="6044368674" lat="51.5606674" lon="-0.0003623" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
@@ -4555,11 +4543,11 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
   </node>
-  <node id="8379910820" lat="51.5161799" lon="-0.1548272" version="1" visible="true">
+  <node id="8379910820" lat="51.5161728" lon="-0.1548234" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
-  <node id="8379910817" lat="51.5162242" lon="-0.1548479" version="1" visible="true">
+  <node id="8379910817" lat="51.5162147" lon="-0.1548441" version="2" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="backward"/>
   </node>
@@ -4581,12 +4569,16 @@
     <tag k="local_ref" v="BA"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="2524107702" lat="51.5147828" lon="-0.154196" version="4" visible="true">
+  <node id="2524107702" lat="51.5148189" lon="-0.1542121" version="5" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="sloped_curb" v="yes"/>
     <tag k="crossing_ref" v="pelican"/>
+  </node>
+  <node id="8907885104" lat="51.5147835" lon="-0.1541959" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="4528689426" lat="51.514188" lon="-0.1539211" version="5" visible="true">
     <tag k="bus" v="yes"/>
@@ -5542,11 +5534,13 @@
     <nd ref="5307759452"/>
     <nd ref="5307796305"/>
   </way>
-  <way id="867481295" visible="true" version="1">
+  <way id="867481295" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="cycleway:right" v="track"/>
@@ -5556,11 +5550,13 @@
     <nd ref="8080138492"/>
     <nd ref="8085801977"/>
   </way>
-  <way id="867481294" visible="true" version="1">
+  <way id="867481294" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v=""/>
@@ -5834,11 +5830,13 @@
     <nd ref="1464559223"/>
     <nd ref="8085802013"/>
   </way>
-  <way id="867481324" visible="true" version="1">
+  <way id="867481324" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v="lane"/>
@@ -8676,24 +8674,6 @@
     <nd ref="316022636"/>
     <nd ref="671705223"/>
   </way>
-  <way id="220382208" visible="true" version="8">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A104"/>
-    <tag k="name" v="Lea Bridge Road"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="separate"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="parking:lane:right" v="no_stopping"/>
-    <tag k="cycleway:left" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG149664"/>
-    <nd ref="243246"/>
-    <nd ref="6004012301"/>
-    <nd ref="6004012299"/>
-    <nd ref="316022640"/>
-    <nd ref="671705223"/>
-  </way>
   <way id="666802105" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1006"/>
@@ -8878,14 +8858,14 @@
     <nd ref="7229385385"/>
     <nd ref="2410505763"/>
   </way>
-  <way id="794190481" visible="true" version="1">
+  <way id="794190481" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Lea Bridge Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="separate"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="parking:lane:left" v="no_stopping"/>
     <tag k="cycleway:right" v="share_busway"/>
@@ -8893,14 +8873,14 @@
     <nd ref="18066892"/>
     <nd ref="7427896146"/>
   </way>
-  <way id="40471810" visible="true" version="13">
+  <way id="40471810" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Lea Bridge Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="separate"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="shoulder" v="right"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="parking:lane:right" v="parallel"/>
@@ -8912,14 +8892,14 @@
     <nd ref="6382313919"/>
     <nd ref="6445201464"/>
   </way>
-  <way id="687552108" visible="true" version="2">
+  <way id="687552108" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Lea Bridge Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="separate"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="shoulder" v="right"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="parking:lane:right" v="no_stopping"/>
@@ -8929,14 +8909,14 @@
     <nd ref="18066891"/>
     <nd ref="6445201461"/>
   </way>
-  <way id="687552109" visible="true" version="2">
+  <way id="687552109" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Lea Bridge Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="separate"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="shoulder" v="right"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="parking:lane:right" v="parallel"/>
@@ -8946,14 +8926,14 @@
     <nd ref="6445201463"/>
     <nd ref="6445201462"/>
   </way>
-  <way id="687552110" visible="true" version="2">
+  <way id="687552110" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Lea Bridge Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="separate"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="parking:lane:right" v="no_stopping"/>
     <tag k="cycleway:left" v="share_busway"/>
@@ -18348,7 +18328,7 @@
     <nd ref="26814988"/>
     <nd ref="2389968784"/>
   </way>
-  <way id="245170114" visible="true" version="11">
+  <way id="245170114" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A41"/>
     <tag k="name" v="Orchard Street"/>
@@ -18363,6 +18343,7 @@
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066269"/>
     <nd ref="2524107702"/>
+    <nd ref="8907885104"/>
     <nd ref="4528689425"/>
     <nd ref="4528689426"/>
   </way>

@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8905849756" lat="51.5764754" lon="-0.0298437" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
+  <node id="8905849755" lat="51.5763844" lon="-0.0298343" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="8893062911" lat="51.4911224" lon="0.0778725" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals" v="signal"/>
@@ -163,11 +171,11 @@
     <tag k="highway" v="traffic_signals"/>
   </node>
   <node id="7427880332" lat="51.5737586" lon="-0.0285566" version="1" visible="true"/>
-  <node id="7427880329" lat="51.5726522" lon="-0.0277077" version="1" visible="true">
+  <node id="7427880329" lat="51.5726605" lon="-0.0277134" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
-  <node id="7427880326" lat="51.5725744" lon="-0.0276537" version="1" visible="true">
+  <node id="7427880326" lat="51.5725696" lon="-0.027648" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
@@ -364,7 +372,7 @@
   <node id="6167447648" lat="51.520666" lon="0.170329" version="1" visible="true"/>
   <node id="6167447646" lat="51.5215767" lon="0.1719283" version="1" visible="true"/>
   <node id="6141367097" lat="51.5724653" lon="-0.027591" version="1" visible="true"/>
-  <node id="6141367088" lat="51.5726141" lon="-0.027679" version="2" visible="true">
+  <node id="6141367088" lat="51.5726128" lon="-0.027678" version="3" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -400,7 +408,7 @@
   <node id="6034770637" lat="51.3780216" lon="-0.1009902" version="3" visible="true"/>
   <node id="6029529930" lat="51.4852851" lon="-0.1157627" version="2" visible="true"/>
   <node id="6029529926" lat="51.486111" lon="-0.1161576" version="2" visible="true"/>
-  <node id="6027844306" lat="51.5754703" lon="-0.0297721" version="2" visible="true"/>
+  <node id="6027844306" lat="51.5754723" lon="-0.0297657" version="3" visible="true"/>
   <node id="6027844305" lat="51.5753112" lon="-0.0296919" version="1" visible="true"/>
   <node id="5939755657" lat="51.5817301" lon="-0.0185507" version="2" visible="true"/>
   <node id="5939755653" lat="51.5817402" lon="-0.0184934" version="5" visible="true">
@@ -471,11 +479,13 @@
   <node id="5481399655" lat="51.5021933" lon="-0.1415793" version="1" visible="true"/>
   <node id="5461889112" lat="51.5157957" lon="-0.0701321" version="4" visible="true"/>
   <node id="5452431593" lat="51.5731141" lon="-0.0280375" version="3" visible="true"/>
-  <node id="5452431587" lat="51.5754485" lon="-0.0297617" version="4" visible="true">
+  <node id="5452431587" lat="51.5754306" lon="-0.0297476" version="6" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="tiger"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="traffic_calming" v="table"/>
   </node>
   <node id="5452431583" lat="51.5756681" lon="-0.0298026" version="2" visible="true"/>
   <node id="5434515617" lat="51.538992" lon="-0.0414865" version="3" visible="true"/>
@@ -684,7 +694,7 @@
     <tag k="name" v="London Eye"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="4108024908" lat="51.5780267" lon="-0.0301807" version="5" visible="true">
+  <node id="4108024908" lat="51.5780457" lon="-0.0301873" version="6" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
@@ -1031,7 +1041,7 @@
   <node id="1964249208" lat="51.4837904" lon="-0.1168408" version="4" visible="true"/>
   <node id="1961636481" lat="51.5774771" lon="-0.0300112" version="1" visible="true"/>
   <node id="1961636479" lat="51.5766951" lon="-0.0298654" version="1" visible="true"/>
-  <node id="1961636478" lat="51.5764106" lon="-0.0298373" version="3" visible="true">
+  <node id="1961636478" lat="51.5764331" lon="-0.0298391" version="4" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -1521,8 +1531,8 @@
   <node id="18066953" lat="51.5761812" lon="-0.0298113" version="8" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
-  <node id="18066952" lat="51.5779215" lon="-0.0301508" version="3" visible="true"/>
-  <node id="18066885" lat="51.5726782" lon="-0.0277274" version="5" visible="true"/>
+  <node id="18066952" lat="51.5779265" lon="-0.0301508" version="4" visible="true"/>
+  <node id="18066885" lat="51.5726806" lon="-0.0277274" version="6" visible="true"/>
   <node id="18066884" lat="51.5671161" lon="-0.0338735" version="11" visible="true"/>
   <node id="18064293" lat="51.538499" lon="-0.0429639" version="16" visible="true"/>
   <node id="18064292" lat="51.5384273" lon="-0.0433932" version="20" visible="true"/>
@@ -2151,14 +2161,14 @@
     <nd ref="1382081346"/>
     <nd ref="1382081319"/>
   </way>
-  <way id="655488400" visible="true" version="4">
+  <way id="655488400" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1006"/>
     <tag k="name" v="Markhouse Road"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="tiger:upload_uuid" v="RWG187701"/>
     <nd ref="6141367097"/>
@@ -2183,7 +2193,9 @@
     <nd ref="5452431583"/>
     <nd ref="6839226246"/>
     <nd ref="18066953"/>
+    <nd ref="8905849755"/>
     <nd ref="1961636478"/>
+    <nd ref="8905849756"/>
     <nd ref="1961636479"/>
     <nd ref="28829277"/>
     <nd ref="1961636481"/>
@@ -2236,14 +2248,14 @@
     <nd ref="5935753893"/>
     <nd ref="6402930898"/>
   </way>
-  <way id="655488400" visible="true" version="4">
+  <way id="655488400" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1006"/>
     <tag k="name" v="Markhouse Road"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="tiger:upload_uuid" v="RWG187699"/>
     <nd ref="6141367097"/>
@@ -2268,7 +2280,9 @@
     <nd ref="5452431583"/>
     <nd ref="6839226246"/>
     <nd ref="18066953"/>
+    <nd ref="8905849755"/>
     <nd ref="1961636478"/>
+    <nd ref="8905849756"/>
     <nd ref="1961636479"/>
     <nd ref="28829277"/>
     <nd ref="1961636481"/>
