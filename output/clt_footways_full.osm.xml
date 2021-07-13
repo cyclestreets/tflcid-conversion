@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8910835765" lat="51.4725785" lon="-0.006653" version="1" visible="true"/>
+  <node id="8908535452" lat="51.3882804" lon="0.0362749" version="1" visible="true"/>
   <node id="8880596359" lat="51.5880249" lon="-0.2080354" version="1" visible="true"/>
   <node id="8880596358" lat="51.587761" lon="-0.2084714" version="1" visible="true"/>
   <node id="8880596357" lat="51.5879769" lon="-0.2081255" version="1" visible="true"/>
@@ -191,15 +193,6 @@
   <node id="6833562311" lat="51.5608987" lon="-0.253237" version="1" visible="true"/>
   <node id="6833562310" lat="51.5609221" lon="-0.2539047" version="1" visible="true"/>
   <node id="6833562303" lat="51.560741" lon="-0.2533934" version="1" visible="true"/>
-  <node id="6746899447" lat="51.388432" lon="0.0363626" version="1" visible="true"/>
-  <node id="6746899446" lat="51.3884709" lon="0.0364132" version="1" visible="true"/>
-  <node id="6746899445" lat="51.3885267" lon="0.0363996" version="1" visible="true"/>
-  <node id="6746899444" lat="51.3885802" lon="0.0364989" version="1" visible="true"/>
-  <node id="6746899443" lat="51.3886215" lon="0.0365125" version="1" visible="true"/>
-  <node id="6746899442" lat="51.3886179" lon="0.0364054" version="1" visible="true"/>
-  <node id="6746899441" lat="51.3885875" lon="0.0362652" version="1" visible="true"/>
-  <node id="6746899440" lat="51.3884769" lon="0.0361932" version="1" visible="true"/>
-  <node id="6746899439" lat="51.3884259" lon="0.0363042" version="1" visible="true"/>
   <node id="6746899438" lat="51.388189" lon="0.0363645" version="1" visible="true"/>
   <node id="6746899437" lat="51.3880784" lon="0.036421" version="1" visible="true"/>
   <node id="6746899436" lat="51.3878962" lon="0.0364405" version="1" visible="true"/>
@@ -255,14 +248,11 @@
   <node id="6425583436" lat="51.4466898" lon="-0.4162769" version="1" visible="true"/>
   <node id="6425583426" lat="51.4465492" lon="-0.417271" version="2" visible="true"/>
   <node id="6386995536" lat="51.4738231" lon="-0.268574" version="2" visible="true"/>
-  <node id="6372473514" lat="51.4559699" lon="0.1975608" version="1" visible="true"/>
   <node id="6343280340" lat="51.4550601" lon="-0.4224362" version="2" visible="true"/>
   <node id="6343199361" lat="51.4547214" lon="-0.4220034" version="3" visible="true"/>
   <node id="6338828444" lat="51.4942474" lon="-0.0957119" version="1" visible="true"/>
   <node id="6324351759" lat="51.4669254" lon="-0.4219471" version="3" visible="true"/>
   <node id="6324351758" lat="51.4669225" lon="-0.4219695" version="1" visible="true"/>
-  <node id="6318615069" lat="51.4559214" lon="0.1975231" version="2" visible="true"/>
-  <node id="6318615068" lat="51.4560087" lon="0.1976319" version="1" visible="true"/>
   <node id="6318397157" lat="51.5069296" lon="-0.0566804" version="1" visible="true"/>
   <node id="6318397156" lat="51.5067337" lon="-0.056719" version="1" visible="true"/>
   <node id="6304847862" lat="51.4905181" lon="0.1554318" version="1" visible="true"/>
@@ -728,11 +718,6 @@
   <node id="517939079" lat="51.5017341" lon="0.1804061" version="3" visible="true"/>
   <node id="506426992" lat="51.4355677" lon="-0.2567678" version="4" visible="true"/>
   <node id="501578906" lat="51.5233989" lon="-0.3777417" version="5" visible="true"/>
-  <node id="492641828" lat="51.4560554" lon="0.1976511" version="2" visible="true"/>
-  <node id="491324740" lat="51.4559586" lon="0.1975773" version="3" visible="true">
-    <tag k="barrier" v="gate"/>
-    <tag k="material" v="metal"/>
-  </node>
   <node id="478867409" lat="51.4205876" lon="-0.0395241" version="1" visible="true">
     <tag k="barrier" v="bollard"/>
   </node>
@@ -777,14 +762,6 @@
   <node id="247486754" lat="51.4560421" lon="0.0597626" version="4" visible="true"/>
   <node id="247072959" lat="51.4549228" lon="-0.4223251" version="2" visible="true"/>
   <node id="247072958" lat="51.4547192" lon="-0.4219631" version="3" visible="true"/>
-  <node id="243761585" lat="51.4725387" lon="-0.0066684" version="5" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="marked"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="button_operated" v="yes"/>
-    <tag k="crossing:island" v="no"/>
-    <tag k="traffic_signals:direction" v="both"/>
-  </node>
   <node id="243712164" lat="51.4732426" lon="-0.0057095" version="1" visible="true"/>
   <node id="243712163" lat="51.4732716" lon="-0.0058761" version="1" visible="true"/>
   <node id="243712162" lat="51.473294" lon="-0.0060541" version="1" visible="true"/>
@@ -1127,35 +1104,6 @@
     <nd ref="6119737371"/>
     <nd ref="7560986505"/>
   </way>
-  <way id="680568320" visible="true" version="1">
-    <tag k="width" v="1.6"/>
-    <tag k="highway" v="footway"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="oneway" v="no"/>
-    <tag k="segregated" v="no"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG185920"/>
-    <nd ref="6318615069"/>
-    <nd ref="6372473514"/>
-    <nd ref="6318615068"/>
-  </way>
-  <way id="680568319" visible="true" version="1">
-    <tag k="ref" v="105"/>
-    <tag k="foot" v="yes"/>
-    <tag k="width" v="1"/>
-    <tag k="highway" v="path"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="motorcar" v="no"/>
-    <tag k="designation" v="restricted_byway"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="oneway" v="no"/>
-    <tag k="segregated" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG185920"/>
-    <nd ref="6318615069"/>
-    <nd ref="491324740"/>
-    <nd ref="6318615068"/>
-    <nd ref="492641828"/>
-  </way>
   <way id="183320019" visible="true" version="3">
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
@@ -1172,7 +1120,7 @@
     <nd ref="8094461580"/>
     <nd ref="8094461583"/>
   </way>
-  <way id="718454103" visible="true" version="1">
+  <way id="718454103" visible="true" version="2">
     <tag k="horse" v="yes"/>
     <tag k="width" v="2"/>
     <tag k="highway" v="path"/>
@@ -1202,18 +1150,9 @@
     <nd ref="6746899436"/>
     <nd ref="6746899437"/>
     <nd ref="6746899438"/>
-    <nd ref="6746899439"/>
-    <nd ref="6746899440"/>
-    <nd ref="6746899441"/>
-    <nd ref="6746899442"/>
-    <nd ref="6746899443"/>
-    <nd ref="6746899444"/>
-    <nd ref="6746899445"/>
-    <nd ref="6746899446"/>
-    <nd ref="6746899447"/>
-    <nd ref="6746899439"/>
+    <nd ref="8908535452"/>
   </way>
-  <way id="718454103" visible="true" version="1">
+  <way id="718454103" visible="true" version="2">
     <tag k="horse" v="yes"/>
     <tag k="width" v="2"/>
     <tag k="highway" v="path"/>
@@ -1243,139 +1182,7 @@
     <nd ref="6746899436"/>
     <nd ref="6746899437"/>
     <nd ref="6746899438"/>
-    <nd ref="6746899439"/>
-    <nd ref="6746899440"/>
-    <nd ref="6746899441"/>
-    <nd ref="6746899442"/>
-    <nd ref="6746899443"/>
-    <nd ref="6746899444"/>
-    <nd ref="6746899445"/>
-    <nd ref="6746899446"/>
-    <nd ref="6746899447"/>
-    <nd ref="6746899439"/>
-  </way>
-  <way id="718454103" visible="true" version="1">
-    <tag k="horse" v="yes"/>
-    <tag k="width" v="2"/>
-    <tag k="highway" v="path"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="oneway" v="no"/>
-    <tag k="segregated" v="no"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG291819"/>
-    <nd ref="6746899420"/>
-    <nd ref="6746899421"/>
-    <nd ref="6746899422"/>
-    <nd ref="6746899423"/>
-    <nd ref="6746899424"/>
-    <nd ref="6746899425"/>
-    <nd ref="6712095528"/>
-    <nd ref="6746899426"/>
-    <nd ref="6746899427"/>
-    <nd ref="6746899428"/>
-    <nd ref="6746899429"/>
-    <nd ref="6746899430"/>
-    <nd ref="6746899431"/>
-    <nd ref="6746899432"/>
-    <nd ref="6746899433"/>
-    <nd ref="6746899434"/>
-    <nd ref="6746899435"/>
-    <nd ref="6746899436"/>
-    <nd ref="6746899437"/>
-    <nd ref="6746899438"/>
-    <nd ref="6746899439"/>
-    <nd ref="6746899440"/>
-    <nd ref="6746899441"/>
-    <nd ref="6746899442"/>
-    <nd ref="6746899443"/>
-    <nd ref="6746899444"/>
-    <nd ref="6746899445"/>
-    <nd ref="6746899446"/>
-    <nd ref="6746899447"/>
-    <nd ref="6746899439"/>
-  </way>
-  <way id="718454103" visible="true" version="1">
-    <tag k="horse" v="yes"/>
-    <tag k="width" v="2"/>
-    <tag k="highway" v="path"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="oneway" v="no"/>
-    <tag k="segregated" v="no"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG291819"/>
-    <nd ref="6746899420"/>
-    <nd ref="6746899421"/>
-    <nd ref="6746899422"/>
-    <nd ref="6746899423"/>
-    <nd ref="6746899424"/>
-    <nd ref="6746899425"/>
-    <nd ref="6712095528"/>
-    <nd ref="6746899426"/>
-    <nd ref="6746899427"/>
-    <nd ref="6746899428"/>
-    <nd ref="6746899429"/>
-    <nd ref="6746899430"/>
-    <nd ref="6746899431"/>
-    <nd ref="6746899432"/>
-    <nd ref="6746899433"/>
-    <nd ref="6746899434"/>
-    <nd ref="6746899435"/>
-    <nd ref="6746899436"/>
-    <nd ref="6746899437"/>
-    <nd ref="6746899438"/>
-    <nd ref="6746899439"/>
-    <nd ref="6746899440"/>
-    <nd ref="6746899441"/>
-    <nd ref="6746899442"/>
-    <nd ref="6746899443"/>
-    <nd ref="6746899444"/>
-    <nd ref="6746899445"/>
-    <nd ref="6746899446"/>
-    <nd ref="6746899447"/>
-    <nd ref="6746899439"/>
-  </way>
-  <way id="718454103" visible="true" version="1">
-    <tag k="horse" v="yes"/>
-    <tag k="width" v="2"/>
-    <tag k="highway" v="path"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="oneway" v="no"/>
-    <tag k="segregated" v="no"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG291819"/>
-    <nd ref="6746899420"/>
-    <nd ref="6746899421"/>
-    <nd ref="6746899422"/>
-    <nd ref="6746899423"/>
-    <nd ref="6746899424"/>
-    <nd ref="6746899425"/>
-    <nd ref="6712095528"/>
-    <nd ref="6746899426"/>
-    <nd ref="6746899427"/>
-    <nd ref="6746899428"/>
-    <nd ref="6746899429"/>
-    <nd ref="6746899430"/>
-    <nd ref="6746899431"/>
-    <nd ref="6746899432"/>
-    <nd ref="6746899433"/>
-    <nd ref="6746899434"/>
-    <nd ref="6746899435"/>
-    <nd ref="6746899436"/>
-    <nd ref="6746899437"/>
-    <nd ref="6746899438"/>
-    <nd ref="6746899439"/>
-    <nd ref="6746899440"/>
-    <nd ref="6746899441"/>
-    <nd ref="6746899442"/>
-    <nd ref="6746899443"/>
-    <nd ref="6746899444"/>
-    <nd ref="6746899445"/>
-    <nd ref="6746899446"/>
-    <nd ref="6746899447"/>
-    <nd ref="6746899439"/>
+    <nd ref="8908535452"/>
   </way>
   <way id="291469092" visible="true" version="1">
     <tag k="highway" v="footway"/>
@@ -2856,7 +2663,7 @@
     <nd ref="2295590354"/>
     <nd ref="2295590356"/>
   </way>
-  <way id="540879651" visible="true" version="3">
+  <way id="540879651" visible="true" version="4">
     <tag k="highway" v="path"/>
     <tag k="surface" v="grass"/>
     <tag k="bicycle" v="yes"/>
@@ -2868,7 +2675,7 @@
     <nd ref="8014784823"/>
     <nd ref="8014784812"/>
     <nd ref="5231618611"/>
-    <nd ref="243761585"/>
+    <nd ref="8910835765"/>
   </way>
   <way id="10402964" visible="true" version="7">
     <tag k="highway" v="footway"/>

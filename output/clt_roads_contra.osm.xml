@@ -1689,11 +1689,13 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="no"/>
   </node>
-  <node id="2963402598" lat="51.5282959" lon="-0.1278026" version="2" visible="true">
+  <node id="2963402598" lat="51.5282959" lon="-0.1278026" version="3" visible="true">
     <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="forward"/>
   </node>
-  <node id="2963402597" lat="51.5282576" lon="-0.1277715" version="2" visible="true">
+  <node id="2963402597" lat="51.5282576" lon="-0.1277715" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="2935899340" lat="51.5355066" lon="-0.1094987" version="2" visible="true">
     <tag k="highway" v="give_way"/>
@@ -2115,7 +2117,8 @@
     <tag k="check_date" v="2021-07-05"/>
     <tag k="traffic_calming" v="bump"/>
   </node>
-  <node id="1684049569" lat="51.5490493" lon="-0.1015887" version="2" visible="true">
+  <node id="1684049569" lat="51.5490493" lon="-0.1015887" version="3" visible="true">
+    <tag k="check_date" v="2021-07-11"/>
     <tag k="traffic_calming" v="bump"/>
   </node>
   <node id="1684049567" lat="51.5479992" lon="-0.1022248" version="5" visible="true">
@@ -10049,12 +10052,13 @@
     <nd ref="186370898"/>
     <nd ref="252263277"/>
   </way>
-  <way id="676195904" visible="true" version="2">
+  <way id="676195904" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Barnsbury Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG150965"/>
@@ -10064,12 +10068,13 @@
     <nd ref="2525132623"/>
     <nd ref="10513695"/>
   </way>
-  <way id="676195904" visible="true" version="2">
+  <way id="676195904" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Barnsbury Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG030494"/>

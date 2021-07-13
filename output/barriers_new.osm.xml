@@ -395,7 +395,7 @@
     <tag k="noexit" v="yes"/>
   </node>
   <node id="2676677227" lat="51.557703" lon="-0.2843735" version="3" visible="true"/>
-  <node id="2672643542" lat="51.557702" lon="-0.2837374" version="2" visible="true"/>
+  <node id="2672643542" lat="51.5577037" lon="-0.2837602" version="3" visible="true"/>
   <node id="2622294263" lat="51.5309174" lon="-0.2984481" version="1" visible="true"/>
   <node id="2616260522" lat="51.4543844" lon="-0.360462" version="2" visible="true">
     <tag k="barrier" v="gate"/>
@@ -3967,8 +3967,9 @@
     <nd ref="7578063469"/>
     <nd ref="7578063468"/>
   </way>
-  <way id="27791127" visible="true" version="6">
+  <way id="27791127" visible="true" version="7">
     <tag k="highway" v="service"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="60239770"/>
     <nd ref="6582045928"/>
     <nd ref="60239811"/>
@@ -4015,8 +4016,10 @@
     <nd ref="6584249472"/>
     <nd ref="1985653896"/>
   </way>
-  <way id="700878137" visible="true" version="1">
+  <way id="700878137" visible="true" version="3">
     <tag k="highway" v="cycleway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="3729863991"/>
     <nd ref="-286"/>
     <nd ref="60242933"/>
