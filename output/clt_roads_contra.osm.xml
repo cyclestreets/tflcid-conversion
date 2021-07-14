@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8916342169" lat="51.4299399" lon="0.0659201" version="1" visible="true"/>
+  <node id="8916342167" lat="51.4295516" lon="0.0649534" version="1" visible="true"/>
+  <node id="8916324411" lat="51.4311454" lon="0.0679642" version="1" visible="true"/>
+  <node id="8916324372" lat="51.4312625" lon="0.0680706" version="1" visible="true"/>
   <node id="8881479138" lat="51.5317646" lon="-0.1041538" version="1" visible="true"/>
   <node id="8878568156" lat="51.5441341" lon="-0.0759115" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -850,6 +854,7 @@
   </node>
   <node id="6275529417" lat="51.5363046" lon="0.1174577" version="1" visible="true"/>
   <node id="6275529416" lat="51.5362755" lon="0.1171837" version="1" visible="true"/>
+  <node id="6258724521" lat="51.4298203" lon="0.0656396" version="2" visible="true"/>
   <node id="6256533672" lat="51.4560958" lon="-0.1253967" version="1" visible="true"/>
   <node id="6256533668" lat="51.4590696" lon="-0.1256617" version="2" visible="true"/>
   <node id="6256533666" lat="51.4592604" lon="-0.1257171" version="2" visible="true"/>
@@ -2953,8 +2958,8 @@
   <node id="26118138" lat="51.4304632" lon="0.0672361" version="2" visible="true"/>
   <node id="26118137" lat="51.4305994" lon="0.0674675" version="1" visible="true"/>
   <node id="26118136" lat="51.4324154" lon="0.0691193" version="2" visible="true"/>
-  <node id="26118133" lat="51.4299543" lon="0.0659494" version="2" visible="true"/>
-  <node id="26118132" lat="51.429567" lon="0.0650802" version="1" visible="true"/>
+  <node id="26118133" lat="51.4299562" lon="0.0659571" version="3" visible="true"/>
+  <node id="26118132" lat="51.4295776" lon="0.0650663" version="2" visible="true"/>
   <node id="26118130" lat="51.4295574" lon="0.0641474" version="4" visible="true"/>
   <node id="25894267" lat="51.5662969" lon="-0.123594" version="2" visible="true"/>
   <node id="25894199" lat="51.5596805" lon="-0.1195082" version="1" visible="true"/>
@@ -4920,34 +4925,44 @@
     <nd ref="8303168594"/>
     <nd ref="60678238"/>
   </way>
-  <way id="4311307" visible="true" version="4">
+  <way id="4311307" visible="true" version="6">
     <tag k="name" v="Montbelle Road"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG198269"/>
     <nd ref="26118130"/>
+    <nd ref="8916342167"/>
     <nd ref="26118132"/>
+    <nd ref="6258724521"/>
+    <nd ref="8916342169"/>
     <nd ref="26118133"/>
     <nd ref="26118138"/>
     <nd ref="45213556"/>
     <nd ref="26118137"/>
+    <nd ref="8916324411"/>
+    <nd ref="8916324372"/>
     <nd ref="26118136"/>
     <nd ref="26125364"/>
     <nd ref="2255609239"/>
   </way>
-  <way id="4311307" visible="true" version="4">
+  <way id="4311307" visible="true" version="6">
     <tag k="name" v="Montbelle Road"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG291016"/>
     <nd ref="26118130"/>
+    <nd ref="8916342167"/>
     <nd ref="26118132"/>
+    <nd ref="6258724521"/>
+    <nd ref="8916342169"/>
     <nd ref="26118133"/>
     <nd ref="26118138"/>
     <nd ref="45213556"/>
     <nd ref="26118137"/>
+    <nd ref="8916324411"/>
+    <nd ref="8916324372"/>
     <nd ref="26118136"/>
     <nd ref="26125364"/>
     <nd ref="2255609239"/>
