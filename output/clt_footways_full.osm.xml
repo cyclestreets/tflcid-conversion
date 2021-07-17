@@ -620,6 +620,7 @@
   <node id="1771255097" lat="51.49855" lon="0.1830479" version="2" visible="true"/>
   <node id="1768879554" lat="51.4606808" lon="-0.3136388" version="2" visible="true"/>
   <node id="1768126490" lat="51.460286" lon="-0.3127019" version="7" visible="true"/>
+  <node id="1741021224" lat="51.4471409" lon="-0.4130264" version="2" visible="true"/>
   <node id="1703148736" lat="51.4743003" lon="-0.272936" version="2" visible="true"/>
   <node id="1703148733" lat="51.4747269" lon="-0.2733616" version="3" visible="true"/>
   <node id="1687330381" lat="51.6330968" lon="-0.1655448" version="1" visible="true"/>
@@ -749,6 +750,7 @@
   <node id="257453723" lat="51.50893" lon="-0.0568869" version="3" visible="true">
     <tag k="highway" v="steps"/>
   </node>
+  <node id="254996701" lat="51.4474548" lon="-0.4116206" version="2" visible="true"/>
   <node id="249140538" lat="51.5079446" lon="-0.0538927" version="2" visible="true"/>
   <node id="249140533" lat="51.5076094" lon="-0.0517365" version="4" visible="true">
     <tag k="highway" v="steps"/>
@@ -1792,6 +1794,17 @@
     <nd ref="6123441633"/>
     <nd ref="6123441634"/>
     <nd ref="6123441635"/>
+  </way>
+  <way id="23548672" visible="true" version="13">
+    <tag k="highway" v="footway"/>
+    <tag k="construction" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG235552"/>
+    <nd ref="1741021224"/>
+    <nd ref="254996701"/>
   </way>
   <way id="909564345" visible="true" version="3">
     <tag k="name" v="London Loop"/>

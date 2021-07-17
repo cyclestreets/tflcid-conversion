@@ -809,6 +809,7 @@
   <node id="418026497" lat="51.4423529" lon="-0.0203291" version="4" visible="true"/>
   <node id="1326821579" lat="51.5179344" lon="-0.0967973" version="3" visible="true"/>
   <node id="6198225446" lat="51.4908801" lon="-0.1262803" version="3" visible="true"/>
+  <node id="6370894208" lat="51.5278877" lon="-0.0216274" version="4" visible="true"/>
   <node id="7091816201" lat="51.4391531" lon="-0.3610782" version="3" visible="true"/>
   <node id="226287" lat="51.4723679" lon="0.009532" version="10" visible="true"/>
   <node id="249251409" lat="51.6201033" lon="-0.3020677" version="2" visible="true"/>
@@ -3780,6 +3781,10 @@
     <tag k="name" v="Bow Church"/>
     <tag k="local_ref" v="M"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="6370894211" lat="51.5279112" lon="-0.0214944" version="4" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="7432034861" lat="51.543511" lon="-0.0416403" version="5" visible="true">
     <tag k="highway" v="crossing"/>
@@ -16226,7 +16231,7 @@
     <nd ref="3265436688"/>
     <nd ref="2775635677"/>
   </way>
-  <way id="849359569" visible="true" version="2">
+  <way id="849359569" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Moorgate"/>
     <tag k="oneway" v="yes"/>
@@ -16236,6 +16241,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="oneway:bus" v="no"/>
+    <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:right:oneway" v="-1"/>
@@ -17485,7 +17491,7 @@
     <nd ref="2143540772"/>
     <nd ref="87460181"/>
   </way>
-  <way id="3709270" visible="true" version="37">
+  <way id="3709270" visible="true" version="38">
     <tag k="bus" v="yes"/>
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
@@ -17499,21 +17505,20 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="not:name" v="Borough High Street"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="motorcycle" v="yes"/>
-    <tag k="cycleway:left" v="track"/>
     <tag k="motor_vehicle:conditional" v="no @ (Mo-Fr 07:00-19:00)"/>
-    <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066602,RWG999694"/>
     <nd ref="108835"/>
     <nd ref="4193151464"/>
     <nd ref="1312453970"/>
     <nd ref="1312454003"/>
   </way>
-  <way id="815996530" visible="true" version="6">
+  <way id="815996530" visible="true" version="7">
     <tag k="bus" v="yes"/>
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
@@ -17527,15 +17532,14 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="check_date" v="2020-07-18"/>
     <tag k="motorcycle" v="yes"/>
     <tag k="postal_code" v="EC4"/>
-    <tag k="cycleway:left" v="track"/>
     <tag k="motor_vehicle:conditional" v="no @ (Mo-Fr 07:00-19:00)"/>
-    <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066602"/>
     <nd ref="4305986091"/>
     <nd ref="108835"/>
@@ -20647,7 +20651,7 @@
     <nd ref="3794273762"/>
     <nd ref="160277688"/>
   </way>
-  <way id="725195626" visible="true" version="6">
+  <way id="725195626" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A24"/>
     <tag k="name" v="Tooting High Street"/>
@@ -20655,12 +20659,13 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="lanes:bus" v="1"/>
     <tag k="turn:lanes" v="none|through|through;right"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG109674"/>
     <nd ref="4951341217"/>
     <nd ref="8691058267"/>
@@ -22027,7 +22032,7 @@
     <nd ref="662838385"/>
     <nd ref="662838387"/>
   </way>
-  <way id="833064668" visible="true" version="6">
+  <way id="833064668" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A24"/>
     <tag k="name" v="Tooting High Street"/>
@@ -22220,6 +22225,22 @@
     <nd ref="602536308"/>
     <nd ref="6997611443"/>
     <nd ref="6997611414"/>
+  </way>
+  <way id="680430127" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A11"/>
+    <tag k="name" v="Bow Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway" v="track"/>
+    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG073462"/>
+    <nd ref="6370894208"/>
+    <nd ref="6370894211"/>
   </way>
   <way id="184418766" visible="true" version="8">
     <tag k="lit" v="yes"/>
@@ -22848,7 +22869,7 @@
     <nd ref="5115457796"/>
     <nd ref="32603681"/>
   </way>
-  <way id="849624791" visible="true" version="1">
+  <way id="849624791" visible="true" version="2">
     <tag k="bus" v="yes"/>
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
@@ -22863,20 +22884,19 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="not:name" v="Borough High Street"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="motorcycle" v="yes"/>
-    <tag k="cycleway:left" v="track"/>
     <tag k="motor_vehicle:conditional" v="no @ (Mo-Fr 07:00-19:00)"/>
-    <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066605"/>
     <nd ref="7926686248"/>
     <nd ref="2131769469"/>
     <nd ref="25161387"/>
   </way>
-  <way id="4223982" visible="true" version="25">
+  <way id="4223982" visible="true" version="26">
     <tag k="bus" v="yes"/>
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
@@ -22888,13 +22908,13 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="motorcycle" v="yes"/>
     <tag k="postal_code" v="EC4"/>
     <tag k="motor_vehicle:conditional" v="no @ (Mo-Fr 07:00-19:00)"/>
-    <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066605"/>
     <nd ref="25161387"/>
     <nd ref="4305986094"/>
@@ -23121,7 +23141,7 @@
     <nd ref="8456984238"/>
     <nd ref="13808252"/>
   </way>
-  <way id="849624793" visible="true" version="1">
+  <way id="849624793" visible="true" version="2">
     <tag k="bus" v="yes"/>
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
@@ -23135,14 +23155,13 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="not:name" v="Borough High Street"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="motorcycle" v="yes"/>
-    <tag k="cycleway:left" v="lane"/>
     <tag k="motor_vehicle:conditional" v="no @ (Mo-Fr 07:00-19:00)"/>
-    <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG999694"/>
     <nd ref="1312454003"/>
     <nd ref="4305985585"/>
