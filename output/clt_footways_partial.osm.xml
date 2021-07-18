@@ -4123,14 +4123,15 @@
     <nd ref="535122266"/>
     <nd ref="535122269"/>
   </way>
-  <way id="643480540" visible="true" version="3">
+  <way id="643480540" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="access" v="no"/>
-    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="path"/>
     <tag k="segregated" v="no"/>
-    <tag k="oneway" v="no"/>
+    <tag k="oneway:foot" v="yes"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG291647"/>
     <nd ref="6055520751"/>
     <nd ref="420060478"/>
