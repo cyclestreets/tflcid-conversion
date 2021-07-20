@@ -1240,7 +1240,9 @@
   <node id="248454566" lat="51.5572989" lon="-0.150888" version="3" visible="true"/>
   <node id="243209730" lat="51.5008192" lon="-0.3183267" version="4" visible="true"/>
   <node id="242700039" lat="51.6022823" lon="-0.2352643" version="2" visible="true"/>
-  <node id="242337161" lat="51.5723197" lon="-0.1045601" version="4" visible="true">
+  <node id="242337161" lat="51.5723197" lon="-0.1045601" version="5" visible="true">
+    <tag k="name" v="Hornsey Gate"/>
+    <tag k="place" v="locality"/>
     <tag k="barrier" v="gate"/>
   </node>
   <node id="206276396" lat="51.3855567" lon="-0.0679592" version="2" visible="true"/>
@@ -4378,8 +4380,7 @@
     <nd ref="242337161"/>
     <nd ref="4995788855"/>
   </way>
-  <way id="17972371" visible="true" version="13">
-    <tag k="name" v="Hornsey Gate"/>
+  <way id="17972371" visible="true" version="14">
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="service"/>
     <tag k="maxspeed" v="12 mph"/>

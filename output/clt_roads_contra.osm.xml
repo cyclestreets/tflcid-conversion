@@ -1074,6 +1074,7 @@
   <node id="5734767369" lat="51.5430792" lon="0.0068538" version="1" visible="true"/>
   <node id="5734767365" lat="51.5430763" lon="0.0067598" version="1" visible="true"/>
   <node id="5734767364" lat="51.5430803" lon="0.0068244" version="1" visible="true"/>
+  <node id="5728906962" lat="51.5431193" lon="-0.0425594" version="2" visible="true"/>
   <node id="5683492726" lat="51.5251847" lon="-0.0907293" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -1406,6 +1407,12 @@
   </node>
   <node id="4598956657" lat="51.5392682" lon="-0.1410875" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="4534666471" lat="51.5431526" lon="-0.0426359" version="5" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="traffic_calming" v="table"/>
   </node>
   <node id="4476093325" lat="51.5439457" lon="-0.1825052" version="1" visible="true"/>
   <node id="4462564551" lat="51.4934557" lon="-0.1396498" version="1" visible="true"/>
@@ -10254,6 +10261,18 @@
     <tag k="tiger:upload_uuid" v="RWG003436"/>
     <nd ref="2410476721"/>
     <nd ref="672917361"/>
+  </way>
+  <way id="457298602" visible="true" version="11">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Gascoyne Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG042304"/>
+    <nd ref="4534666471"/>
+    <nd ref="5728906962"/>
   </way>
   <way id="4536603" visible="true" version="20">
     <tag k="lit" v="yes"/>
