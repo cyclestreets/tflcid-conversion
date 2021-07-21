@@ -4121,9 +4121,10 @@
     <tag k="check_date" v="2021-07-10"/>
     <tag k="traffic_calming" v="cushion"/>
   </node>
-  <node id="2143531731" lat="51.5494075" lon="-0.0914285" version="3" visible="true">
+  <node id="2143531731" lat="51.5494075" lon="-0.0914285" version="4" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="yes"/>
   </node>
   <node id="2440447806" lat="51.5493849" lon="-0.0914404" version="2" visible="true">
@@ -17454,9 +17455,10 @@
     <nd ref="3265436692"/>
     <nd ref="3265436695"/>
   </way>
-  <way id="204349397" visible="true" version="7">
+  <way id="204349397" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Petherton Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
