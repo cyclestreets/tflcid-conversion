@@ -2473,15 +2473,16 @@
     <nd ref="-171"/>
     <nd ref="306511552"/>
   </way>
-  <way id="305976269" visible="true" version="5">
+  <way id="305976269" visible="true" version="6">
+    <tag k="cycleway" v="opposite"/>
+    <tag k="highway" v="service"/>
     <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Earlham Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="highway" v="service"/>
-    <tag k="cycleway" v="opposite"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
     <tag k="oneway:bicycle" v="no"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="surface" v="paving_stones"/>
     <nd ref="25544143"/>
     <nd ref="5811221631"/>
     <nd ref="-172"/>
