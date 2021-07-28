@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8953895556" lat="51.5060944" lon="0.0399797" version="1" visible="true"/>
+  <node id="8953895554" lat="51.5060765" lon="0.0400292" version="1" visible="true"/>
   <node id="8951899554" lat="51.5463933" lon="-0.0198816" version="1" visible="true"/>
   <node id="8951899553" lat="51.5467936" lon="-0.0202194" version="1" visible="true"/>
   <node id="8951521991" lat="51.4942276" lon="-0.0955219" version="1" visible="true"/>
@@ -39,6 +41,7 @@
   <node id="8814452065" lat="51.4910317" lon="0.0813246" version="1" visible="true"/>
   <node id="8814452064" lat="51.4910879" lon="0.0821876" version="1" visible="true"/>
   <node id="8761115654" lat="51.4464657" lon="-0.4176899" version="1" visible="true"/>
+  <node id="8760889668" lat="51.5057853" lon="0.0399923" version="2" visible="true"/>
   <node id="8734039258" lat="51.4790865" lon="-0.2491372" version="1" visible="true"/>
   <node id="8734006806" lat="51.4798126" lon="-0.2491244" version="1" visible="true"/>
   <node id="8660041265" lat="51.5077802" lon="-0.0516496" version="1" visible="true"/>
@@ -1595,6 +1598,28 @@
     <nd ref="30149881"/>
     <nd ref="5910395022"/>
     <nd ref="685519170"/>
+  </way>
+  <way id="967828419" visible="true" version="1">
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG185744"/>
+    <nd ref="8760889668"/>
+    <nd ref="8953895554"/>
+    <nd ref="8953895556"/>
+  </way>
+  <way id="967828419" visible="true" version="1">
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG185744"/>
+    <nd ref="8760889668"/>
+    <nd ref="8953895554"/>
+    <nd ref="8953895556"/>
   </way>
   <way id="568963388" visible="true" version="7">
     <tag k="footway" v="sidewalk"/>
