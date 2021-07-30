@@ -1,16 +1,5 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
-  <node id="8954672805" lat="51.4918286" lon="-0.1026316" version="1" visible="true"/>
-  <node id="8941852448" lat="51.4921961" lon="-0.1020625" version="1" visible="true"/>
-  <node id="8941852445" lat="51.4918876" lon="-0.1025413" version="1" visible="true">
-    <tag k="highway" v="crossing"/>
-  </node>
-  <node id="8941852444" lat="51.4921469" lon="-0.1021444" version="1" visible="true"/>
-  <node id="8941852443" lat="51.4916642" lon="-0.1028832" version="1" visible="true"/>
-  <node id="8941852442" lat="51.4915791" lon="-0.1030023" version="1" visible="true"/>
-  <node id="8941852441" lat="51.4915064" lon="-0.103077" version="1" visible="true"/>
-  <node id="8941852440" lat="51.4914332" lon="-0.1031271" version="1" visible="true"/>
-  <node id="8941852439" lat="51.4913728" lon="-0.1031488" version="1" visible="true"/>
   <node id="8895550379" lat="51.5738537" lon="-0.1019485" version="1" visible="true"/>
   <node id="8895477650" lat="51.5737505" lon="-0.1024268" version="1" visible="true"/>
   <node id="8895268366" lat="51.3757898" lon="-0.2034127" version="1" visible="true"/>
@@ -201,7 +190,6 @@
   <node id="6474805733" lat="51.6063541" lon="-0.1859772" version="1" visible="true"/>
   <node id="6343398664" lat="51.5450142" lon="-0.4772863" version="1" visible="true"/>
   <node id="6343398663" lat="51.5449696" lon="-0.4772334" version="3" visible="true"/>
-  <node id="6339483818" lat="51.4922216" lon="-0.1020676" version="4" visible="true"/>
   <node id="6290463459" lat="51.5184407" lon="-0.4092274" version="1" visible="true"/>
   <node id="6211698707" lat="51.4907862" lon="-0.2423033" version="1" visible="true"/>
   <node id="6113492895" lat="51.6070977" lon="-0.3322697" version="2" visible="true"/>
@@ -337,7 +325,6 @@
   <node id="5224030444" lat="51.5720859" lon="-0.1721459" version="3" visible="true"/>
   <node id="5211312727" lat="51.567121" lon="0.0676563" version="1" visible="true"/>
   <node id="5211312726" lat="51.5671035" lon="0.0676134" version="1" visible="true"/>
-  <node id="5160617662" lat="51.4923199" lon="-0.1019416" version="5" visible="true"/>
   <node id="5070359370" lat="51.5662435" lon="-0.1865718" version="1" visible="true"/>
   <node id="5070359369" lat="51.5661334" lon="-0.1866952" version="1" visible="true"/>
   <node id="5070359368" lat="51.5659967" lon="-0.1869097" version="1" visible="true"/>
@@ -1057,7 +1044,7 @@
   <node id="521799985" lat="51.3203709" lon="-0.1421217" version="2" visible="true"/>
   <node id="453751654" lat="51.3825262" lon="-0.0194296" version="2" visible="true"/>
   <node id="450940604" lat="51.5728341" lon="-0.2245506" version="3" visible="true"/>
-  <node id="420374157" lat="51.404827" lon="0.0122044" version="1" visible="true"/>
+  <node id="420374157" lat="51.4046931" lon="0.0122594" version="2" visible="true"/>
   <node id="420374156" lat="51.4049678" lon="0.0121491" version="1" visible="true"/>
   <node id="419349476" lat="51.5497757" lon="-0.4405565" version="3" visible="true"/>
   <node id="419349475" lat="51.549531" lon="-0.4405763" version="5" visible="true"/>
@@ -1347,7 +1334,7 @@
     <tag k="ele:1914" v="166"/>
   </node>
   <node id="21640668" lat="51.3750039" lon="0.0483497" version="3" visible="true"/>
-  <node id="21596788" lat="51.4050942" lon="0.0120897" version="1" visible="true"/>
+  <node id="21596788" lat="51.4050925" lon="0.0121192" version="2" visible="true"/>
   <node id="21390087" lat="51.4136026" lon="-0.1136511" version="7" visible="true"/>
   <node id="19110508" lat="51.3306613" lon="-0.1039181" version="6" visible="true"/>
   <node id="17948123" lat="51.640445" lon="-0.0857489" version="4" visible="true">
@@ -4090,24 +4077,6 @@
     <nd ref="7297410789"/>
     <nd ref="7297375082"/>
     <nd ref="7297395753"/>
-  </way>
-  <way id="966493607" visible="true" version="2">
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="footway"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="bicycle" v="dismount"/>
-    <tag k="tiger:upload_uuid" v="RWG136022"/>
-    <nd ref="8941852439"/>
-    <nd ref="8941852440"/>
-    <nd ref="8941852441"/>
-    <nd ref="8941852442"/>
-    <nd ref="8941852443"/>
-    <nd ref="8954672805"/>
-    <nd ref="8941852445"/>
-    <nd ref="8941852444"/>
-    <nd ref="8941852448"/>
-    <nd ref="6339483818"/>
-    <nd ref="5160617662"/>
   </way>
   <way id="24162586" visible="true" version="12">
     <tag k="foot" v="yes"/>
