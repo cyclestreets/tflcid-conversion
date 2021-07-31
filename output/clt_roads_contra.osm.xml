@@ -1651,8 +1651,9 @@
   <node id="3085109067" lat="51.52658" lon="-0.1124072" version="1" visible="true"/>
   <node id="3085109065" lat="51.5265654" lon="-0.112444" version="1" visible="true"/>
   <node id="3085109063" lat="51.5265524" lon="-0.1124834" version="1" visible="true"/>
-  <node id="3085109062" lat="51.5264747" lon="-0.1126368" version="1" visible="true">
+  <node id="3085109062" lat="51.5264818" lon="-0.1126277" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="3085109059" lat="51.5264227" lon="-0.1127553" version="3" visible="true">
     <tag k="highway" v="crossing"/>
@@ -2282,8 +2283,9 @@
   <node id="1181638562" lat="51.5412659" lon="-0.1735766" version="1" visible="true"/>
   <node id="1159495947" lat="51.5265356" lon="-0.1125151" version="5" visible="true"/>
   <node id="1158990275" lat="51.5000318" lon="-0.0933248" version="4" visible="true"/>
-  <node id="1158143644" lat="51.5264512" lon="-0.1126852" version="4" visible="true">
+  <node id="1158143644" lat="51.5264512" lon="-0.1126852" version="5" visible="true">
     <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="1155414110" lat="51.5355555" lon="0.0669562" version="1" visible="true"/>
   <node id="1149802765" lat="51.4641068" lon="-0.1411685" version="3" visible="true"/>
@@ -3300,9 +3302,7 @@
   <node id="110156" lat="51.5245101" lon="-0.0902807" version="10" visible="true"/>
   <node id="109836" lat="51.5126513" lon="-0.1211916" version="12" visible="true"/>
   <node id="109780" lat="51.5157284" lon="-0.0946076" version="7" visible="true"/>
-  <node id="109359" lat="51.5263749" lon="-0.1129121" version="17" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-  </node>
+  <node id="109359" lat="51.5263749" lon="-0.1129121" version="18" visible="true"/>
   <node id="109354" lat="51.5280121" lon="-0.1098325" version="10" visible="true"/>
   <node id="109185" lat="51.5377422" lon="-0.1486695" version="7" visible="true"/>
   <node id="108846" lat="51.5060846" lon="-0.0879358" version="8" visible="true">
