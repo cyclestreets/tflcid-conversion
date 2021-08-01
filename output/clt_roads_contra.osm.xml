@@ -1,5 +1,19 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8964566417" lat="51.4089344" lon="-0.3043926" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing:island" v="no"/>
+  </node>
+  <node id="8964549716" lat="51.4089342" lon="-0.304333" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
+  <node id="8964452531" lat="51.5251165" lon="-0.090713" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="8955478277" lat="51.5057504" lon="-0.2118741" version="1" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="forward"/>
@@ -807,8 +821,9 @@
   <node id="6392533092" lat="51.5099209" lon="-0.1187024" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
-  <node id="6390779444" lat="51.4089322" lon="-0.3044153" version="3" visible="true">
+  <node id="6390779444" lat="51.4089347" lon="-0.3044604" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="6384561968" lat="51.521591" lon="-0.1348388" version="2" visible="true"/>
   <node id="6384549780" lat="51.5217379" lon="-0.1344686" version="2" visible="true"/>
@@ -983,8 +998,9 @@
   <node id="5937754283" lat="51.4683375" lon="-0.0309743" version="1" visible="true"/>
   <node id="5937754282" lat="51.4679889" lon="-0.0295732" version="1" visible="true"/>
   <node id="5934126091" lat="51.5132367" lon="-0.121891" version="2" visible="true"/>
-  <node id="5933125751" lat="51.5251528" lon="-0.0907268" version="1" visible="true">
-    <tag k="highway" v="traffic_signals"/>
+  <node id="5933125751" lat="51.5251528" lon="-0.0907268" version="2" visible="true">
+    <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="5933107517" lat="51.5245827" lon="-0.0905117" version="2" visible="true"/>
   <node id="5932899704" lat="51.5138895" lon="-0.1294857" version="4" visible="true"/>
@@ -2292,8 +2308,9 @@
   <node id="1135825487" lat="51.5423215" lon="-0.4780466" version="1" visible="true"/>
   <node id="1127805145" lat="51.3796691" lon="-0.1561295" version="2" visible="true"/>
   <node id="1127805128" lat="51.3804711" lon="-0.1561088" version="2" visible="true"/>
-  <node id="1104496295" lat="51.5188521" lon="-0.1213807" version="6" visible="true">
+  <node id="1104496295" lat="51.5188521" lon="-0.1213807" version="7" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="1104473061" lat="51.5189475" lon="-0.1211642" version="8" visible="true"/>
   <node id="1094124402" lat="51.5137703" lon="-0.1293958" version="11" visible="true">
@@ -2422,7 +2439,7 @@
   <node id="378757154" lat="51.5245685" lon="-0.087518" version="4" visible="true"/>
   <node id="371761578" lat="51.3612299" lon="-0.1865632" version="2" visible="true"/>
   <node id="371761575" lat="51.3612856" lon="-0.1862297" version="2" visible="true"/>
-  <node id="368369088" lat="51.5047326" lon="-0.0834465" version="10" visible="true"/>
+  <node id="368369088" lat="51.5047447" lon="-0.0834806" version="11" visible="true"/>
   <node id="368045975" lat="51.4989005" lon="-0.1092049" version="5" visible="true"/>
   <node id="360459707" lat="51.5501654" lon="-0.1009072" version="2" visible="true"/>
   <node id="359691427" lat="51.5340283" lon="-0.0372788" version="7" visible="true"/>
@@ -3552,7 +3569,7 @@
     <nd ref="7078801030"/>
     <nd ref="7078801035"/>
   </way>
-  <way id="4874225" visible="true" version="13">
+  <way id="4874225" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Eden Street"/>
     <tag k="highway" v="unclassified"/>
@@ -3564,6 +3581,8 @@
     <nd ref="2560553221"/>
     <nd ref="303299649"/>
     <nd ref="6390779444"/>
+    <nd ref="8964566417"/>
+    <nd ref="8964549716"/>
     <nd ref="10694812"/>
   </way>
   <way id="233253614" visible="true" version="6">
@@ -10827,7 +10846,7 @@
     <nd ref="4062567251"/>
     <nd ref="82793773"/>
   </way>
-  <way id="38575041" visible="true" version="27">
+  <way id="38575041" visible="true" version="28">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B144"/>
     <tag k="name" v="Bunhill Row"/>
@@ -10840,10 +10859,11 @@
     <nd ref="1954751944"/>
     <nd ref="5933107517"/>
     <nd ref="1761380805"/>
+    <nd ref="8964452531"/>
     <nd ref="5933125751"/>
     <nd ref="5683492726"/>
   </way>
-  <way id="38575041" visible="true" version="27">
+  <way id="38575041" visible="true" version="28">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B144"/>
     <tag k="name" v="Bunhill Row"/>
@@ -10856,10 +10876,11 @@
     <nd ref="1954751944"/>
     <nd ref="5933107517"/>
     <nd ref="1761380805"/>
+    <nd ref="8964452531"/>
     <nd ref="5933125751"/>
     <nd ref="5683492726"/>
   </way>
-  <way id="38575041" visible="true" version="27">
+  <way id="38575041" visible="true" version="28">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B144"/>
     <tag k="name" v="Bunhill Row"/>
@@ -10872,6 +10893,7 @@
     <nd ref="1954751944"/>
     <nd ref="5933107517"/>
     <nd ref="1761380805"/>
+    <nd ref="8964452531"/>
     <nd ref="5933125751"/>
     <nd ref="5683492726"/>
   </way>
