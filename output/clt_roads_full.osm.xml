@@ -251,7 +251,7 @@
   <node id="30472373" lat="51.4338875" lon="-0.2608607" version="8" visible="true"/>
   <node id="1187205384" lat="51.4794684" lon="0.0265083" version="3" visible="true"/>
   <node id="444541273" lat="51.4758003" lon="-0.0319806" version="6" visible="true"/>
-  <node id="105122" lat="51.4695475" lon="-0.028317" version="4" visible="true"/>
+  <node id="105122" lat="51.46956" lon="-0.0282922" version="5" visible="true"/>
   <node id="8250354823" lat="51.486712" lon="0.0189389" version="1" visible="true"/>
   <node id="4762808387" lat="51.472855" lon="0.0089261" version="1" visible="true"/>
   <node id="3692311" lat="51.4719095" lon="0.0094608" version="4" visible="true"/>
@@ -398,7 +398,7 @@
   <node id="650452266" lat="51.5392055" lon="-0.0564609" version="6" visible="true"/>
   <node id="3851724648" lat="51.4674706" lon="-0.0227746" version="4" visible="true"/>
   <node id="6772461633" lat="51.4111795" lon="-0.1615299" version="3" visible="true"/>
-  <node id="684418452" lat="51.4696155" lon="-0.0282538" version="2" visible="true"/>
+  <node id="684418452" lat="51.4695904" lon="-0.0282719" version="3" visible="true"/>
   <node id="1626997888" lat="51.4702754" lon="-0.1709421" version="6" visible="true"/>
   <node id="8947753233" lat="51.5419694" lon="0.0041588" version="2" visible="true"/>
   <node id="945430246" lat="51.5968799" lon="-0.0729596" version="1" visible="true"/>
@@ -3031,7 +3031,7 @@
   <node id="3247619637" lat="51.5004351" lon="-0.1153371" version="3" visible="true"/>
   <node id="261718847" lat="51.4593944" lon="-0.1902355" version="8" visible="true"/>
   <node id="851320683" lat="51.4866334" lon="-0.1978673" version="8" visible="true"/>
-  <node id="1664655724" lat="51.4514917" lon="-0.406191" version="7" visible="true"/>
+  <node id="1664655724" lat="51.4514891" lon="-0.4061821" version="8" visible="true"/>
   <node id="8084647540" lat="51.6358608" lon="-0.0865831" version="1" visible="true"/>
   <node id="27505664" lat="51.5088436" lon="-0.0121081" version="7" visible="true"/>
   <node id="1844769518" lat="51.4855539" lon="-0.1234035" version="4" visible="true"/>
@@ -4426,6 +4426,9 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+  </node>
+  <node id="8972731452" lat="51.5256996" lon="-0.1254116" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
   </node>
   <node id="6958636273" lat="51.5204722" lon="-0.1304377" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -13059,10 +13062,11 @@
     <nd ref="683234910"/>
     <nd ref="298409"/>
   </way>
-  <way id="749999166" visible="true" version="2">
+  <way id="749999166" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A244"/>
     <tag k="name" v="Hounslow Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
@@ -16760,7 +16764,7 @@
     <nd ref="5006065040"/>
     <nd ref="5006063176"/>
   </way>
-  <way id="17513381" visible="true" version="22">
+  <way id="17513381" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Tavistock Place"/>
     <tag k="lanes" v="1"/>
@@ -16774,6 +16778,7 @@
     <tag k="oneway:bicycle" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG108333"/>
     <nd ref="107879"/>
+    <nd ref="8972731452"/>
     <nd ref="2440633797"/>
     <nd ref="6960482506"/>
   </way>
