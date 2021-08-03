@@ -1606,6 +1606,7 @@
   <node id="3362402623" lat="51.5783291" lon="-0.0020269" version="2" visible="true"/>
   <node id="3355227835" lat="51.5060863" lon="-0.1031155" version="5" visible="true"/>
   <node id="3340156850" lat="51.5402405" lon="-0.1356335" version="1" visible="true"/>
+  <node id="3340126574" lat="51.5416045" lon="-0.13536" version="1" visible="true"/>
   <node id="3273540364" lat="51.4995489" lon="-0.1356773" version="2" visible="true"/>
   <node id="3273540362" lat="51.4995024" lon="-0.1358529" version="2" visible="true"/>
   <node id="3273537860" lat="51.49937" lon="-0.1363701" version="1" visible="true"/>
@@ -1778,7 +1779,7 @@
   </node>
   <node id="2658101265" lat="51.525833" lon="-0.0838152" version="1" visible="true"/>
   <node id="2622506576" lat="51.5186212" lon="-0.1245373" version="8" visible="true"/>
-  <node id="2592922021" lat="51.5416788" lon="-0.1354259" version="2" visible="true"/>
+  <node id="2592922021" lat="51.5417072" lon="-0.1354527" version="3" visible="true"/>
   <node id="2592872592" lat="51.5396689" lon="-0.1365792" version="2" visible="true"/>
   <node id="2592872586" lat="51.5398683" lon="-0.136813" version="3" visible="true">
     <tag k="highway" v="crossing"/>
@@ -1861,8 +1862,9 @@
   <node id="2448718678" lat="51.5315909" lon="-0.2980542" version="1" visible="true"/>
   <node id="2448718676" lat="51.5314508" lon="-0.2982565" version="1" visible="true"/>
   <node id="2448088678" lat="51.5503758" lon="-0.1026166" version="3" visible="true"/>
-  <node id="2440636118" lat="51.5246021" lon="-0.1280764" version="4" visible="true">
+  <node id="2440636118" lat="51.5246021" lon="-0.1280764" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="2440634917" lat="51.5253065" lon="-0.1264194" version="2" visible="true"/>
   <node id="2440633802" lat="51.5257266" lon="-0.1255684" version="7" visible="true">
@@ -1882,8 +1884,9 @@
     <tag k="crossing_ref" v="pelican"/>
     <tag k="button_operated" v="yes"/>
   </node>
-  <node id="2440630568" lat="51.5260298" lon="-0.1240015" version="5" visible="true">
+  <node id="2440630568" lat="51.5260298" lon="-0.1240015" version="6" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="2440630567" lat="51.5260389" lon="-0.1239636" version="6" visible="true"/>
   <node id="2440630566" lat="51.5257701" lon="-0.1255942" version="4" visible="true">
@@ -3315,6 +3318,7 @@
   <node id="198139" lat="51.5481343" lon="-0.1277565" version="5" visible="true"/>
   <node id="155329" lat="51.5419111" lon="-0.1357109" version="6" visible="true"/>
   <node id="152241" lat="51.5398855" lon="-0.1367428" version="8" visible="true"/>
+  <node id="152235" lat="51.5416583" lon="-0.1354049" version="6" visible="true"/>
   <node id="152220" lat="51.5391238" lon="-0.1361266" version="5" visible="true"/>
   <node id="110156" lat="51.5245101" lon="-0.0902807" version="10" visible="true"/>
   <node id="109836" lat="51.5126513" lon="-0.1211916" version="12" visible="true"/>
@@ -7850,25 +7854,6 @@
     <nd ref="183313980"/>
     <nd ref="2592922021"/>
   </way>
-  <way id="722371172" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A5202"/>
-    <tag k="name" v="St Pancras Way"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="maxheight" v="4.6"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG151004"/>
-    <nd ref="155329"/>
-    <nd ref="6775888784"/>
-    <nd ref="2592872585"/>
-    <nd ref="183313980"/>
-    <nd ref="2592922021"/>
-  </way>
   <way id="5368655" visible="true" version="7">
     <tag k="hgv" v="no"/>
     <tag k="name" v="Cranbrook Park"/>
@@ -8447,6 +8432,21 @@
     <nd ref="419259754"/>
     <nd ref="6789492376"/>
     <nd ref="6789492370"/>
+  </way>
+  <way id="45189945" visible="true" version="14">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5202"/>
+    <tag k="name" v="St Pancras Way"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG151004"/>
+    <nd ref="2592922021"/>
+    <nd ref="152235"/>
+    <nd ref="3340126574"/>
   </way>
   <way id="642635290" visible="true" version="4">
     <tag k="lit" v="yes"/>
