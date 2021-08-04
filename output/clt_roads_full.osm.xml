@@ -255,6 +255,7 @@
   <node id="8250354823" lat="51.486712" lon="0.0189389" version="1" visible="true"/>
   <node id="4762808387" lat="51.472855" lon="0.0089261" version="1" visible="true"/>
   <node id="3692311" lat="51.4719095" lon="0.0094608" version="4" visible="true"/>
+  <node id="8975760344" lat="51.5118866" lon="-0.1734255" version="1" visible="true"/>
   <node id="4973447313" lat="51.501878" lon="-0.1168564" version="5" visible="true"/>
   <node id="1096095892" lat="51.5775249" lon="-0.326041" version="7" visible="true"/>
   <node id="7900888377" lat="51.5147865" lon="-0.0745574" version="1" visible="true"/>
@@ -2520,6 +2521,7 @@
   <node id="2775635677" lat="51.5112484" lon="-0.1051576" version="3" visible="true"/>
   <node id="32635812" lat="51.5572472" lon="0.0682934" version="7" visible="true"/>
   <node id="1674025797" lat="51.5273067" lon="-0.1833292" version="2" visible="true"/>
+  <node id="8975760350" lat="51.5119716" lon="-0.1724718" version="1" visible="true"/>
   <node id="306464368" lat="51.5018112" lon="-0.1675182" version="9" visible="true"/>
   <node id="8465237617" lat="51.4407986" lon="-0.0206678" version="1" visible="true"/>
   <node id="243512927" lat="51.4567892" lon="-0.4349645" version="4" visible="true"/>
@@ -2659,7 +2661,7 @@
   <node id="45461470" lat="51.4223032" lon="0.0676526" version="2" visible="true"/>
   <node id="183313929" lat="51.5406348" lon="-0.1355246" version="4" visible="true"/>
   <node id="276492255" lat="51.5020397" lon="-0.2285606" version="7" visible="true"/>
-  <node id="5838570405" lat="51.5118608" lon="-0.1737077" version="4" visible="true"/>
+  <node id="5838570405" lat="51.5118591" lon="-0.1737294" version="5" visible="true"/>
   <node id="8085242335" lat="51.6283425" lon="-0.0980954" version="1" visible="true"/>
   <node id="5327756325" lat="51.4137512" lon="-0.161658" version="3" visible="true"/>
   <node id="5534977043" lat="51.5605461" lon="0.0012686" version="3" visible="true"/>
@@ -2837,6 +2839,7 @@
   <node id="8787384682" lat="51.5181273" lon="-0.110578" version="1" visible="true"/>
   <node id="2362862377" lat="51.4865844" lon="-0.0721749" version="1" visible="true"/>
   <node id="2335261537" lat="51.5491989" lon="-0.3661546" version="2" visible="true"/>
+  <node id="5353569314" lat="51.5230153" lon="-0.1078775" version="6" visible="true"/>
   <node id="17788801" lat="51.4510448" lon="-0.2221261" version="4" visible="true"/>
   <node id="80428802" lat="51.3877953" lon="-0.1942684" version="10" visible="true"/>
   <node id="1795462125" lat="51.4866774" lon="-0.1250146" version="6" visible="true"/>
@@ -4370,9 +4373,9 @@
     <tag k="local_ref" v="A"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="5353569314" lat="51.5230284" lon="-0.1078871" version="5" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="backward"/>
+  <node id="8975577827" lat="51.523034" lon="-0.1078967" version="1" visible="true">
+    <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="backward"/>
   </node>
   <node id="3519872213" lat="51.5156886" lon="-0.0999552" version="5" visible="true">
     <tag k="bus" v="yes"/>
@@ -4394,6 +4397,10 @@
     <tag k="name" v="Farringdon Station"/>
     <tag k="local_ref" v="B"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="8975645641" lat="51.5176544" lon="-0.1051663" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="7836155866" lat="51.5136324" lon="-0.0923365" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -4694,6 +4701,10 @@
     <tag k="name" v="Orchard Street / Selfridges"/>
     <tag k="local_ref" v="BZ"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="3287720029" lat="51.5119669" lon="-0.1725183" version="4" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="2090570120" lat="51.6091891" lon="-0.2660055" version="3" visible="true">
     <tag k="highway" v="crossing"/>
@@ -16864,7 +16875,7 @@
     <nd ref="8373651316"/>
     <nd ref="8263157414"/>
   </way>
-  <way id="454748305" visible="true" version="10">
+  <way id="454748305" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A201"/>
     <tag k="name" v="Farringdon Street"/>
@@ -16878,6 +16889,7 @@
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066515"/>
     <nd ref="4512763348"/>
+    <nd ref="8975645641"/>
     <nd ref="1360122841"/>
   </way>
   <way id="841534881" visible="true" version="1">
@@ -18222,7 +18234,7 @@
     <nd ref="1141487747"/>
     <nd ref="5540675361"/>
   </way>
-  <way id="670642182" visible="true" version="4">
+  <way id="670642182" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A201"/>
     <tag k="name" v="Farringdon Road"/>
@@ -18236,6 +18248,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG066691"/>
     <nd ref="5425192220"/>
+    <nd ref="8975577827"/>
     <nd ref="5353569314"/>
   </way>
   <way id="484421099" visible="true" version="1">
@@ -23004,6 +23017,22 @@
     <tag k="tiger:upload_uuid" v="RWG055955"/>
     <nd ref="5838570405"/>
     <nd ref="4636409503"/>
+  </way>
+  <way id="474500481" visible="true" version="6">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A402"/>
+    <tag k="name" v="Bayswater Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG055955"/>
+    <nd ref="4636409503"/>
+    <nd ref="8975760344"/>
+    <nd ref="3287720029"/>
+    <nd ref="8975760350"/>
   </way>
   <way id="963996798" visible="true" version="1">
     <tag k="lit" v="yes"/>
