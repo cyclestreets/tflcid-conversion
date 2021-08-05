@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8979378774" lat="51.5268461" lon="-0.1319594" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="marked"/>
+  </node>
   <node id="8953895557" lat="51.5061892" lon="0.0397019" version="1" visible="true"/>
   <node id="8953895556" lat="51.5060944" lon="0.0399797" version="1" visible="true"/>
   <node id="8936894251" lat="51.4587619" lon="-0.193814" version="1" visible="true"/>
@@ -360,7 +364,9 @@
   <node id="7738282971" lat="51.5597694" lon="-0.399238" version="2" visible="true"/>
   <node id="7708058817" lat="51.5555426" lon="0.1745111" version="1" visible="true"/>
   <node id="7707806506" lat="51.5080551" lon="-0.0521193" version="1" visible="true"/>
-  <node id="7707806505" lat="51.5081013" lon="-0.0522568" version="3" visible="true"/>
+  <node id="7707806505" lat="51.5080927" lon="-0.0522565" version="4" visible="true"/>
+  <node id="7706105487" lat="51.526777" lon="-0.1318932" version="2" visible="true"/>
+  <node id="7706029169" lat="51.5269755" lon="-0.1320892" version="2" visible="true"/>
   <node id="7703784382" lat="51.5159783" lon="0.0117229" version="1" visible="true"/>
   <node id="7703784381" lat="51.5159068" lon="0.0117594" version="1" visible="true"/>
   <node id="7600246388" lat="51.5092839" lon="-0.0260204" version="1" visible="true"/>
@@ -1223,6 +1229,11 @@
   <node id="1533286844" lat="51.4976419" lon="0.1576372" version="2" visible="true"/>
   <node id="1531105881" lat="51.5103701" lon="-0.4032488" version="2" visible="true"/>
   <node id="1531105703" lat="51.5105822" lon="-0.4029698" version="2" visible="true"/>
+  <node id="1519252880" lat="51.5269288" lon="-0.1320388" version="7" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+  </node>
   <node id="1451227728" lat="51.5357272" lon="-0.3469203" version="4" visible="true"/>
   <node id="1399814136" lat="51.5453033" lon="-0.4823215" version="6" visible="true">
     <tag k="highway" v="crossing"/>
@@ -5944,6 +5955,23 @@
     <nd ref="7353930438"/>
     <nd ref="7353930433"/>
     <nd ref="6044579895"/>
+  </way>
+  <way id="825288056" visible="true" version="3">
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="crossing" v="marked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG109221"/>
+    <nd ref="7706029169"/>
+    <nd ref="1519252880"/>
+    <nd ref="8979378774"/>
+    <nd ref="7706105487"/>
   </way>
   <way id="11282068" visible="true" version="9">
     <tag k="lit" v="no"/>
