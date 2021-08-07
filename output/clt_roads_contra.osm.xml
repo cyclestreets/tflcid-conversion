@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8984299278" lat="51.4490323" lon="-0.2378085" version="1" visible="true"/>
+  <node id="8984299277" lat="51.4490587" lon="-0.2377977" version="1" visible="true"/>
   <node id="8981524069" lat="51.3747664" lon="-0.0940787" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
@@ -358,7 +360,7 @@
   <node id="7720662908" lat="51.4493471" lon="-0.2373574" version="2" visible="true">
     <tag k="traffic_calming" v="bump"/>
   </node>
-  <node id="7720662907" lat="51.4490836" lon="-0.2377439" version="2" visible="true"/>
+  <node id="7720662907" lat="51.4490916" lon="-0.2377471" version="3" visible="true"/>
   <node id="7720662903" lat="51.449763" lon="-0.2374452" version="2" visible="true"/>
   <node id="7714629490" lat="51.4691248" lon="-0.1343989" version="1" visible="true"/>
   <node id="7713352376" lat="51.4685762" lon="-0.1358775" version="1" visible="true">
@@ -1535,6 +1537,7 @@
   <node id="4035081941" lat="51.5258671" lon="-0.0838571" version="2" visible="true"/>
   <node id="4018259760" lat="51.5329307" lon="-0.1030911" version="3" visible="true"/>
   <node id="3978741918" lat="51.5377344" lon="-0.3098518" version="1" visible="true"/>
+  <node id="3891509533" lat="51.4489609" lon="-0.2378982" version="3" visible="true"/>
   <node id="3882252369" lat="51.4448915" lon="0.0001311" version="2" visible="true"/>
   <node id="3882252362" lat="51.4449298" lon="0.0024057" version="2" visible="true"/>
   <node id="3882252360" lat="51.4448854" lon="-0.0009994" version="2" visible="true"/>
@@ -3188,6 +3191,7 @@
   <node id="18395288" lat="51.5141068" lon="-0.0909306" version="3" visible="true"/>
   <node id="18393873" lat="51.5149178" lon="-0.0905573" version="4" visible="true"/>
   <node id="18239822" lat="51.4494379" lon="-0.2372137" version="4" visible="true"/>
+  <node id="18239821" lat="51.4488799" lon="-0.2379958" version="8" visible="true"/>
   <node id="18239820" lat="51.4492167" lon="-0.2375573" version="3" visible="true"/>
   <node id="18239819" lat="51.4495693" lon="-0.2371748" version="5" visible="true"/>
   <node id="18239818" lat="51.4496401" lon="-0.2372496" version="5" visible="true"/>
@@ -10478,10 +10482,11 @@
     <nd ref="2592872586"/>
     <nd ref="152241"/>
   </way>
-  <way id="2428027" visible="true" version="22">
+  <way id="2428027" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="rcn" v="proposed"/>
     <tag k="name" v="Compton Road"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -14014,6 +14019,33 @@
     <nd ref="6024546591"/>
     <nd ref="264781814"/>
     <nd ref="25498991"/>
+  </way>
+  <way id="826967950" visible="true" version="2">
+    <tag k="name" v="Ponsonby Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG089306"/>
+    <nd ref="8984299277"/>
+    <nd ref="8984299278"/>
+    <nd ref="3891509533"/>
+    <nd ref="18239821"/>
+  </way>
+  <way id="826967950" visible="true" version="2">
+    <tag k="name" v="Ponsonby Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG154112"/>
+    <nd ref="8984299277"/>
+    <nd ref="8984299278"/>
+    <nd ref="3891509533"/>
+    <nd ref="18239821"/>
   </way>
   <way id="758158445" visible="true" version="5">
     <tag k="name" v="Broadwater Road"/>

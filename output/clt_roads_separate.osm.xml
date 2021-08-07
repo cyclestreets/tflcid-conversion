@@ -857,7 +857,10 @@
   </node>
   <node id="2638606914" lat="51.5110993" lon="-0.0640526" version="2" visible="true"/>
   <node id="2638606860" lat="51.5110487" lon="-0.0652117" version="2" visible="true"/>
-  <node id="2623951853" lat="51.5007299" lon="-0.1185215" version="5" visible="true"/>
+  <node id="2623951853" lat="51.5007313" lon="-0.1185033" version="6" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="2592922021" lat="51.5417072" lon="-0.1354527" version="3" visible="true"/>
   <node id="2592919475" lat="51.5385441" lon="-0.1356286" version="1" visible="true">
     <tag k="traffic_calming" v="cushion"/>
