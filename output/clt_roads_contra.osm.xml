@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8993763811" lat="51.3627983" lon="-0.1972483" version="1" visible="true"/>
   <node id="8987914040" lat="51.5245102" lon="-0.0875316" version="1" visible="true"/>
   <node id="8987914039" lat="51.5245412" lon="-0.0874848" version="1" visible="true"/>
   <node id="8984299278" lat="51.4490323" lon="-0.2378085" version="1" visible="true"/>
@@ -727,6 +728,7 @@
     <tag k="direction" v="backward"/>
     <tag k="traffic_sign" v="GB:1003A"/>
   </node>
+  <node id="6944308410" lat="51.3627984" lon="-0.1973675" version="3" visible="true"/>
   <node id="6925827740" lat="51.4781301" lon="-0.1267136" version="1" visible="true"/>
   <node id="6885386389" lat="51.395192" lon="-0.1196766" version="1" visible="true"/>
   <node id="6879037149" lat="51.4989167" lon="-0.2100706" version="3" visible="true"/>
@@ -1248,8 +1250,7 @@
   <node id="5399776218" lat="51.5457971" lon="0.0032947" version="3" visible="true"/>
   <node id="5394985270" lat="51.3660042" lon="-0.1942398" version="3" visible="true"/>
   <node id="5394985269" lat="51.3661785" lon="-0.1943004" version="2" visible="true"/>
-  <node id="5394755124" lat="51.3628009" lon="-0.1967507" version="3" visible="true"/>
-  <node id="5394745420" lat="51.3627283" lon="-0.199214" version="3" visible="true"/>
+  <node id="5394745420" lat="51.3627186" lon="-0.1991668" version="4" visible="true"/>
   <node id="5390830863" lat="51.362366" lon="-0.1944366" version="1" visible="true"/>
   <node id="5383984932" lat="51.542412" lon="-0.161843" version="1" visible="true"/>
   <node id="5380474867" lat="51.5398658" lon="-0.150102" version="1" visible="true"/>
@@ -1983,8 +1984,8 @@
   </node>
   <node id="2360980532" lat="51.383539" lon="-0.1036771" version="1" visible="true"/>
   <node id="2349681141" lat="51.4640018" lon="-0.1411554" version="4" visible="true"/>
-  <node id="2337312816" lat="51.5766514" lon="0.0238433" version="2" visible="true"/>
-  <node id="2337312664" lat="51.5764569" lon="0.0241901" version="1" visible="true"/>
+  <node id="2337312816" lat="51.5766729" lon="0.0238596" version="3" visible="true"/>
+  <node id="2337312664" lat="51.5764809" lon="0.0242186" version="2" visible="true"/>
   <node id="2334436937" lat="51.5313792" lon="-0.2983219" version="2" visible="true"/>
   <node id="2333682796" lat="51.5316135" lon="-0.2979797" version="2" visible="true"/>
   <node id="2333322136" lat="51.531843" lon="-0.2965983" version="2" visible="true"/>
@@ -2588,11 +2589,11 @@
   </node>
   <node id="249441647" lat="51.570643" lon="-0.06967" version="7" visible="true"/>
   <node id="248933569" lat="51.4684213" lon="-0.1364867" version="6" visible="true"/>
-  <node id="248879132" lat="51.5759801" lon="0.0247919" version="3" visible="true"/>
-  <node id="248859005" lat="51.5769159" lon="0.0229744" version="3" visible="true"/>
-  <node id="248858821" lat="51.5763242" lon="0.0243752" version="2" visible="true"/>
-  <node id="248858820" lat="51.5765809" lon="0.0240025" version="2" visible="true"/>
-  <node id="248858819" lat="51.576751" lon="0.0235889" version="2" visible="true"/>
+  <node id="248879132" lat="51.5759902" lon="0.0247878" version="4" visible="true"/>
+  <node id="248859005" lat="51.5769134" lon="0.0229947" version="4" visible="true"/>
+  <node id="248858821" lat="51.5763293" lon="0.0243996" version="3" visible="true"/>
+  <node id="248858820" lat="51.5765986" lon="0.0240167" version="3" visible="true"/>
+  <node id="248858819" lat="51.57677" lon="0.0235889" version="3" visible="true"/>
   <node id="248832777" lat="51.4451133" lon="-0.3723189" version="2" visible="true"/>
   <node id="248832772" lat="51.4457678" lon="-0.3716641" version="3" visible="true"/>
   <node id="247957486" lat="51.5050957" lon="-0.0843761" version="9" visible="true"/>
@@ -2811,7 +2812,7 @@
   <node id="82748718" lat="51.4438045" lon="0.0113346" version="3" visible="true"/>
   <node id="82701629" lat="51.5760568" lon="-0.142814" version="3" visible="true"/>
   <node id="82634341" lat="51.473839" lon="-0.0179614" version="8" visible="true"/>
-  <node id="82627431" lat="51.3627104" lon="-0.1994126" version="4" visible="true"/>
+  <node id="82627431" lat="51.3626978" lon="-0.1994111" version="5" visible="true"/>
   <node id="82627425" lat="51.3627976" lon="-0.1964566" version="5" visible="true"/>
   <node id="82627424" lat="51.3622059" lon="-0.1960817" version="5" visible="true"/>
   <node id="80839101" lat="51.5425397" lon="-0.159187" version="3" visible="true"/>
@@ -3945,14 +3946,35 @@
     <nd ref="5394745420"/>
     <nd ref="82627431"/>
   </way>
-  <way id="10055141" visible="true" version="13">
+  <way id="10055141" visible="true" version="14">
+    <tag k="name" v="Camden Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG124115"/>
+    <nd ref="82627425"/>
+    <nd ref="8993763811"/>
+    <nd ref="6944308410"/>
+  </way>
+  <way id="10055141" visible="true" version="14">
+    <tag k="name" v="Camden Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG124117"/>
+    <nd ref="82627425"/>
+    <nd ref="8993763811"/>
+    <nd ref="6944308410"/>
+  </way>
+  <way id="10055141" visible="true" version="14">
     <tag k="name" v="Camden Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG124118"/>
     <nd ref="82627425"/>
-    <nd ref="5394755124"/>
+    <nd ref="8993763811"/>
+    <nd ref="6944308410"/>
   </way>
   <way id="99069670" visible="true" version="6">
     <tag k="name" v="Burges Road"/>
@@ -5456,36 +5478,6 @@
     <nd ref="26450310"/>
     <nd ref="1675309167"/>
     <nd ref="5599499648"/>
-  </way>
-  <way id="577620625" visible="true" version="5">
-    <tag k="name" v="Spratt Hall Road"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG156351"/>
-    <nd ref="5536994956"/>
-    <nd ref="248858819"/>
-    <nd ref="2337312816"/>
-    <nd ref="248858820"/>
-    <nd ref="2337312664"/>
-    <nd ref="248858821"/>
-    <nd ref="4313691207"/>
-    <nd ref="248879132"/>
-  </way>
-  <way id="577620625" visible="true" version="5">
-    <tag k="name" v="Spratt Hall Road"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG156351"/>
-    <nd ref="5536994956"/>
-    <nd ref="248858819"/>
-    <nd ref="2337312816"/>
-    <nd ref="248858820"/>
-    <nd ref="2337312664"/>
-    <nd ref="248858821"/>
-    <nd ref="4313691207"/>
-    <nd ref="248879132"/>
   </way>
   <way id="577620625" visible="true" version="5">
     <tag k="name" v="Spratt Hall Road"/>

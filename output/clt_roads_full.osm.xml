@@ -4121,11 +4121,12 @@
     <tag k="local_ref" v="N"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="5076698100" lat="51.5246132" lon="-0.0772949" version="6" visible="true">
+  <node id="5076698100" lat="51.5246132" lon="-0.0772949" version="7" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+    <tag k="button_operated" v="yes"/>
     <tag k="crossing:island" v="yes"/>
   </node>
   <node id="6379830499" lat="51.5245791" lon="-0.0772876" version="3" visible="true">
@@ -6978,10 +6979,11 @@
     <nd ref="370586335"/>
     <nd ref="247117702"/>
   </way>
-  <way id="763127270" visible="true" version="2">
+  <way id="763127270" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A308"/>
     <tag k="name" v="London Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
