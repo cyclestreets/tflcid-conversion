@@ -6090,11 +6090,12 @@
     <nd ref="8084647570"/>
     <nd ref="8084647554"/>
   </way>
-  <way id="870600071" visible="true" version="1">
+  <way id="870600071" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:track" v="hybrid"/>
@@ -6250,11 +6251,12 @@
     <nd ref="8067500283"/>
     <nd ref="6813224189"/>
   </way>
-  <way id="867303983" visible="true" version="1">
+  <way id="867303983" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:track" v="hybrid"/>
@@ -6263,11 +6265,12 @@
     <nd ref="3982646801"/>
     <nd ref="5746030702"/>
   </way>
-  <way id="867303942" visible="true" version="1">
+  <way id="867303942" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="track"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:track" v="hybrid"/>
@@ -6426,10 +6429,11 @@
     <nd ref="8064033790"/>
     <nd ref="248071106"/>
   </way>
-  <way id="867401539" visible="true" version="3">
+  <way id="867401539" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
@@ -6441,11 +6445,13 @@
     <nd ref="8085242336"/>
     <nd ref="8080147918"/>
   </way>
-  <way id="867401503" visible="true" version="1">
+  <way id="867401503" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:right" v="lane"/>
@@ -6455,25 +6461,29 @@
     <nd ref="26026556"/>
     <nd ref="8085242357"/>
   </way>
-  <way id="867401533" visible="true" version="1">
+  <way id="867401533" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG149319"/>
     <nd ref="8085224587"/>
     <nd ref="8085224600"/>
   </way>
-  <way id="867401459" visible="true" version="1">
+  <way id="867401459" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="track"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:left:track" v="hybrid"/>
     <tag k="tiger:upload_uuid" v="RWG149320"/>
@@ -6482,11 +6492,12 @@
     <nd ref="1465829230"/>
     <nd ref="1465829289"/>
   </way>
-  <way id="867401512" visible="true" version="1">
+  <way id="867401512" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:right" v="separate"/>
@@ -6703,10 +6714,11 @@
     <nd ref="8067281694"/>
     <nd ref="8064025774"/>
   </way>
-  <way id="867401456" visible="true" version="2">
+  <way id="867401456" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
@@ -6716,10 +6728,11 @@
     <nd ref="8085242325"/>
     <nd ref="8085242320"/>
   </way>
-  <way id="867401492" visible="true" version="2">
+  <way id="867401492" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="Green Lanes"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
@@ -13794,14 +13807,16 @@
     <nd ref="917199090"/>
     <nd ref="5718385738"/>
   </way>
-  <way id="842268414" visible="true" version="3">
+  <way id="842268414" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1000"/>
     <tag k="name" v="High Road"/>
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="busway:left" v="lane"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="cycleway" v="lane"/>
@@ -13811,7 +13826,7 @@
     <nd ref="1978230425"/>
     <nd ref="1978230469"/>
   </way>
-  <way id="4302712" visible="true" version="13">
+  <way id="4302712" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1000"/>
     <tag k="name" v="High Road"/>
@@ -13820,9 +13835,12 @@
     <tag k="bridge" v="yes"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="busway:left" v="lane"/>
     <tag k="cycleway:left" v="share_busway"/>
+    <tag k="maxweight:signed" v="no"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG279028"/>
     <nd ref="196295"/>
@@ -21232,11 +21250,12 @@
     <nd ref="6388354557"/>
     <nd ref="48751550"/>
   </way>
-  <way id="620179830" visible="true" version="4">
+  <way id="620179830" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1209"/>
     <tag k="name" v="Bethnal Green Road"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="share_busway"/>
@@ -21251,11 +21270,12 @@
     <nd ref="7490944535"/>
     <nd ref="48747437"/>
   </way>
-  <way id="628156324" visible="true" version="1">
+  <way id="628156324" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1209"/>
     <tag k="name" v="Bethnal Green Road"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="share_busway"/>
