@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="8999530395" lat="51.3752197" lon="-0.0857104" version="1" visible="true"/>
+  <node id="8999501763" lat="51.3751208" lon="-0.084113" version="1" visible="true"/>
   <node id="8993763811" lat="51.3627983" lon="-0.1972483" version="1" visible="true"/>
   <node id="8987914040" lat="51.5245102" lon="-0.0875316" version="1" visible="true"/>
   <node id="8987914039" lat="51.5245412" lon="-0.0874848" version="1" visible="true"/>
@@ -3207,7 +3209,7 @@
     <tag k="name" v="Belgravia"/>
     <tag k="rcn_name" v="Belgravia"/>
   </node>
-  <node id="18126588" lat="51.4925175" lon="-0.2294348" version="6" visible="true"/>
+  <node id="18126588" lat="51.4925408" lon="-0.2294216" version="7" visible="true"/>
   <node id="18126587" lat="51.4925607" lon="-0.231196" version="5" visible="true"/>
   <node id="18126586" lat="51.4926351" lon="-0.2324676" version="6" visible="true"/>
   <node id="18126585" lat="51.4928327" lon="-0.2342975" version="7" visible="true"/>
@@ -5509,7 +5511,7 @@
     <nd ref="4313691207"/>
     <nd ref="248879132"/>
   </way>
-  <way id="828542407" visible="true" version="1">
+  <way id="828542407" visible="true" version="3">
     <tag k="lcn" v="proposed"/>
     <tag k="name" v="Addiscombe Road"/>
     <tag k="lanes" v="2"/>
@@ -5518,9 +5520,11 @@
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG219595"/>
     <nd ref="60661049"/>
+    <nd ref="8999501763"/>
     <nd ref="1228052944"/>
     <nd ref="83701438"/>
     <nd ref="60307042"/>
+    <nd ref="8999530395"/>
     <nd ref="62934775"/>
     <nd ref="60307043"/>
     <nd ref="6789596025"/>
@@ -5542,9 +5546,10 @@
     <nd ref="7236156668"/>
     <nd ref="687941378"/>
   </way>
-  <way id="723926248" visible="true" version="1">
+  <way id="723926248" visible="true" version="2">
     <tag k="name" v="Chisholm Road"/>
     <tag k="lanes" v="2"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -5556,9 +5561,10 @@
     <nd ref="1470846162"/>
     <nd ref="60608966"/>
   </way>
-  <way id="723926248" visible="true" version="1">
+  <way id="723926248" visible="true" version="2">
     <tag k="name" v="Chisholm Road"/>
     <tag k="lanes" v="2"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
@@ -13113,6 +13119,22 @@
     <nd ref="439935224"/>
     <nd ref="439935226"/>
     <nd ref="20917292"/>
+  </way>
+  <way id="312263571" visible="true" version="6">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A315"/>
+    <tag k="name" v="King Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG042788"/>
+    <nd ref="25509425"/>
+    <nd ref="18126588"/>
+    <nd ref="1825191274"/>
   </way>
   <way id="312263571" visible="true" version="6">
     <tag k="lit" v="yes"/>
