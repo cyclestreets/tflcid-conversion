@@ -4250,9 +4250,10 @@
     <tag k="continuous" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG117659"/>
   </node>
-  <node id="8809521062" lat="51.4310433" lon="-0.1044181" visible="true" version="2">
+  <node id="8809521062" lat="51.4310433" lon="-0.1044181" visible="true" version="3">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="no"/>
     <tag k="sidewalk" v="yes"/>
     <tag k="continuous" v="yes"/>
@@ -4796,6 +4797,11 @@
     <tag k="continuous" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG088468"/>
   </node>
+  <node id="9001963694" lat="51.4980426" lon="-0.0642287" visible="true" version="1">
+    <tag k="sidewalk" v="yes"/>
+    <tag k="continuous" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG078097"/>
+  </node>
   <node id="882187475" lat="51.4539173" lon="-0.2109096" visible="true" version="5">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
@@ -4900,7 +4906,7 @@
     <tag k="continuous" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG079251"/>
   </node>
-  <node id="271005179" lat="51.5002211" lon="-0.0727831" visible="true" version="11">
+  <node id="271005179" lat="51.5002184" lon="-0.072794" visible="true" version="12">
     <tag k="sidewalk" v="yes"/>
     <tag k="continuous" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG079276"/>
@@ -6044,11 +6050,14 @@
     <tag k="continuous" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG032299"/>
   </node>
-  <node id="1754040832" lat="51.5352211" lon="-0.1043772" visible="true" version="4">
+  <node id="1754040832" lat="51.5352211" lon="-0.1043772" visible="true" version="7">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
     <tag k="crossing:island" v="yes"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
     <tag k="sidewalk" v="yes"/>
     <tag k="continuous" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG006657"/>

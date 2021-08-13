@@ -121,13 +121,6 @@
   <node id="7992632850" lat="51.6127449" lon="-0.3181996" version="1" visible="true"/>
   <node id="7992632849" lat="51.6131392" lon="-0.3181167" version="1" visible="true"/>
   <node id="7992632848" lat="51.6128589" lon="-0.318079" version="1" visible="true"/>
-  <node id="7952848722" lat="51.5461418" lon="-0.019976" version="3" visible="true">
-    <tag k="bicycle" v="yes"/>
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="unmarked"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="crossing:island" v="no"/>
-  </node>
   <node id="7949073272" lat="51.3954416" lon="-0.1892634" version="1" visible="true"/>
   <node id="7949073271" lat="51.3954313" lon="-0.1891674" version="1" visible="true">
     <tag k="foot" v="no"/>
@@ -398,8 +391,6 @@
   <node id="5199365419" lat="51.4664304" lon="-0.1893616" version="1" visible="true"/>
   <node id="5199365410" lat="51.4664408" lon="-0.1893898" version="1" visible="true"/>
   <node id="5150371245" lat="51.546472" lon="-0.0203344" version="3" visible="true"/>
-  <node id="5150371244" lat="51.546412" lon="-0.0202073" version="3" visible="true"/>
-  <node id="5150371243" lat="51.5463867" lon="-0.0201812" version="2" visible="true"/>
   <node id="5109568883" lat="51.5101409" lon="0.114609" version="2" visible="true"/>
   <node id="5109568882" lat="51.5101871" lon="0.1142911" version="2" visible="true"/>
   <node id="5109568881" lat="51.5102543" lon="0.1145459" version="2" visible="true"/>
@@ -529,7 +520,6 @@
   <node id="2822799208" lat="51.5070375" lon="-0.4256151" version="1" visible="true"/>
   <node id="2822799206" lat="51.5046408" lon="-0.4193185" version="1" visible="true"/>
   <node id="2822799204" lat="51.5046044" lon="-0.419232" version="1" visible="true"/>
-  <node id="2781231856" lat="51.546227" lon="-0.0200554" version="2" visible="true"/>
   <node id="2715731772" lat="51.4766145" lon="-0.2494898" version="1" visible="true"/>
   <node id="2715731745" lat="51.4766686" lon="-0.2494947" version="1" visible="true"/>
   <node id="2715731744" lat="51.4769006" lon="-0.2494468" version="2" visible="true"/>
@@ -2771,22 +2761,6 @@
     <nd ref="8657505858"/>
     <nd ref="8657505856"/>
     <nd ref="5150371245"/>
-  </way>
-  <way id="852553995" visible="true" version="2">
-    <tag k="access" v="no"/>
-    <tag k="highway" v="footway"/>
-    <tag k="check_date" v="2019-01-15"/>
-    <tag k="proposed:footway" v="sidewalk"/>
-    <tag k="proposed:highway" v="cycleway"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="oneway" v="no"/>
-    <tag k="segregated" v="no"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG097837"/>
-    <nd ref="7952848722"/>
-    <nd ref="2781231856"/>
-    <nd ref="5150371243"/>
-    <nd ref="5150371244"/>
   </way>
   <way id="276915313" visible="true" version="3">
     <tag k="lit" v="yes"/>
