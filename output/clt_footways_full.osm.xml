@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9004945470" lat="51.5304461" lon="-0.0127968" version="1" visible="true"/>
+  <node id="9004945469" lat="51.5304967" lon="-0.0126859" version="1" visible="true"/>
+  <node id="9004945468" lat="51.5306401" lon="-0.0123678" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:island" v="no"/>
+  </node>
+  <node id="9004945466" lat="51.5310076" lon="-0.0116649" version="1" visible="true"/>
   <node id="8985963645" lat="51.5096575" lon="-0.0569328" version="1" visible="true"/>
   <node id="8985963621" lat="51.509646" lon="-0.0569321" version="1" visible="true"/>
   <node id="8953895556" lat="51.5060944" lon="0.0399797" version="1" visible="true"/>
@@ -678,6 +686,12 @@
   <node id="1531105534" lat="51.5104758" lon="-0.4034135" version="2" visible="true"/>
   <node id="1517115942" lat="51.3796434" lon="-0.1218495" version="3" visible="true"/>
   <node id="1368874203" lat="51.5863074" lon="0.0540479" version="2" visible="true"/>
+  <node id="1356420743" lat="51.5304754" lon="-0.0127334" version="3" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="traffic_calming" v="table"/>
+  </node>
   <node id="1349512036" lat="51.5309315" lon="-0.1045605" version="1" visible="true">
     <tag k="barrier" v="gate"/>
   </node>
@@ -1572,6 +1586,34 @@
     <tag k="tiger:upload_uuid" v="RWG221001"/>
     <nd ref="126529917"/>
     <nd ref="126532802"/>
+  </way>
+  <way id="972937730" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG156092"/>
+    <nd ref="9004945470"/>
+    <nd ref="1356420743"/>
+    <nd ref="9004945469"/>
+  </way>
+  <way id="972937729" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG156092"/>
+    <nd ref="9004945469"/>
+    <nd ref="9004945468"/>
+    <nd ref="9004945466"/>
   </way>
   <way id="651494147" visible="true" version="1">
     <tag k="highway" v="footway"/>

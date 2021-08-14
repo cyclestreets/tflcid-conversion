@@ -3080,11 +3080,13 @@
   <node id="25471792" lat="51.4983777" lon="-0.1149736" version="3" visible="true"/>
   <node id="25471791" lat="51.497847" lon="-0.115198" version="1" visible="true"/>
   <node id="25471790" lat="51.4965489" lon="-0.1155768" version="2" visible="true"/>
-  <node id="25471708" lat="51.5135616" lon="-0.1225923" version="9" visible="true">
+  <node id="25471708" lat="51.5135616" lon="-0.1225923" version="11" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="25471116" lat="51.5238334" lon="-0.1299215" version="6" visible="true"/>
   <node id="25471115" lat="51.5236689" lon="-0.1303159" version="9" visible="true"/>
@@ -11243,12 +11245,13 @@
     <nd ref="109354"/>
     <nd ref="25473339"/>
   </way>
-  <way id="68543462" visible="true" version="18">
+  <way id="68543462" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="rcn" v="proposed"/>
     <tag k="name" v="Wardour Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="City of Westminster"/>
     <tag k="sidewalk" v="left"/>
