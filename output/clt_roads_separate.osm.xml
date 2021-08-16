@@ -1232,10 +1232,11 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
   </node>
-  <node id="735391283" lat="51.5021844" lon="-0.1704078" version="8" visible="true">
+  <node id="735391283" lat="51.5021844" lon="-0.1704078" version="9" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
   </node>
   <node id="720900903" lat="51.5257258" lon="-0.0318352" version="8" visible="true"/>
   <node id="694189997" lat="51.5102586" lon="-0.0715674" version="4" visible="true"/>
@@ -1500,9 +1501,11 @@
   <node id="20947344" lat="51.5029061" lon="-0.1566101" version="11" visible="true"/>
   <node id="20947341" lat="51.5023083" lon="-0.1645186" version="14" visible="true"/>
   <node id="20947340" lat="51.5022248" lon="-0.1664702" version="7" visible="true"/>
-  <node id="20947339" lat="51.5022013" lon="-0.1684045" version="13" visible="true">
+  <node id="20947339" lat="51.5022013" lon="-0.1684045" version="15" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
   </node>
   <node id="20947333" lat="51.502179" lon="-0.1712379" version="12" visible="true"/>
   <node id="18066953" lat="51.5761812" lon="-0.0298113" version="8" visible="true">
@@ -5624,13 +5627,14 @@
     <nd ref="20947339"/>
     <nd ref="12196664"/>
   </way>
-  <way id="323060773" visible="true" version="12">
+  <way id="323060773" visible="true" version="13">
     <tag k="bus" v="no"/>
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="South Carriage Drive"/>
     <tag k="goods" v="destination"/>
     <tag k="horse" v="yes"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
