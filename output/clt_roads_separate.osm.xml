@@ -5,7 +5,7 @@
     <tag k="direction" v="forward"/>
   </node>
   <node id="8963666194" lat="51.5314626" lon="-0.0104063" version="1" visible="true"/>
-  <node id="8963666193" lat="51.5312425" lon="-0.0106197" version="1" visible="true"/>
+  <node id="8963666193" lat="51.5312406" lon="-0.0106442" version="2" visible="true"/>
   <node id="8960609689" lat="51.48274" lon="-0.111453" version="1" visible="true"/>
   <node id="8960572191" lat="51.4824239" lon="-0.1115335" version="1" visible="true"/>
   <node id="8955781833" lat="51.5209489" lon="-0.0503756" version="1" visible="true"/>
@@ -1279,7 +1279,7 @@
   <node id="418054049" lat="51.5396904" lon="-0.1365973" version="6" visible="true"/>
   <node id="417235507" lat="51.5713409" lon="-0.0201328" version="1" visible="true"/>
   <node id="417235506" lat="51.5707837" lon="-0.01963" version="4" visible="true"/>
-  <node id="417001281" lat="51.531146" lon="-0.0107405" version="9" visible="true"/>
+  <node id="417001281" lat="51.5311508" lon="-0.0107496" version="10" visible="true"/>
   <node id="414017173" lat="51.4559359" lon="0.1416067" version="4" visible="true"/>
   <node id="362474930" lat="51.5225963" lon="-0.1323112" version="6" visible="true"/>
   <node id="354428750" lat="51.5577632" lon="-0.0086319" version="8" visible="true"/>
@@ -1428,7 +1428,7 @@
   <node id="33044927" lat="51.4764296" lon="-0.1304253" version="7" visible="true"/>
   <node id="33023742" lat="51.4548691" lon="-0.0833788" version="6" visible="true"/>
   <node id="33002249" lat="51.4476129" lon="-0.0855115" version="8" visible="true"/>
-  <node id="32654148" lat="51.5309408" lon="-0.0110291" version="9" visible="true"/>
+  <node id="32654148" lat="51.5309688" lon="-0.0109992" version="10" visible="true"/>
   <node id="32654146" lat="51.5313704" lon="-0.0105243" version="19" visible="true"/>
   <node id="32651007" lat="51.5294987" lon="-0.0141987" version="8" visible="true"/>
   <node id="32650622" lat="51.5390155" lon="-0.0008339" version="8" visible="true"/>
@@ -1519,8 +1519,9 @@
   <node id="18055041" lat="51.5109212" lon="-0.0668458" version="6" visible="true"/>
   <node id="18041884" lat="51.5111196" lon="-0.0501784" version="5" visible="true"/>
   <node id="18041883" lat="51.5108527" lon="-0.0535737" version="11" visible="true"/>
-  <node id="18041860" lat="51.5112849" lon="-0.0482321" version="5" visible="true">
+  <node id="18041860" lat="51.5112849" lon="-0.0482321" version="6" visible="true">
     <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="marked"/>
   </node>
   <node id="13824329" lat="51.4479959" lon="-0.0855317" version="7" visible="true"/>
   <node id="12689157" lat="51.5251907" lon="-0.126693" version="6" visible="true"/>
@@ -2512,7 +2513,7 @@
     <nd ref="2517133988"/>
     <nd ref="2477093214"/>
   </way>
-  <way id="239939396" visible="true" version="13">
+  <way id="239939396" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
     <tag k="name" v="High Street"/>
@@ -2522,8 +2523,9 @@
     <tag k="old_ref" v="A11"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
-    <tag k="sidewalk" v="left"/>
+    <tag k="sidewalk" v="separate"/>
     <tag k="cycleway:left" v="separate"/>
+    <tag k="parking:lane:both" v="no_stopping"/>
     <tag k="tiger:upload_uuid" v="RWG156145"/>
     <nd ref="32654146"/>
     <nd ref="8963666193"/>
