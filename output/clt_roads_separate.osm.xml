@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9017022653" lat="51.5385429" lon="-0.0011877" version="1" visible="true"/>
+  <node id="9017022621" lat="51.536639" lon="-0.0036704" version="1" visible="true"/>
+  <node id="9015577621" lat="51.5317869" lon="-0.0100043" version="1" visible="true"/>
   <node id="8975122159" lat="51.5156761" lon="-0.0704109" version="1" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="forward"/>
@@ -901,10 +904,8 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="2517133988" lat="51.537064" lon="-0.0030946" version="4" visible="true"/>
-  <node id="2477093245" lat="51.5383393" lon="-0.0014356" version="5" visible="true"/>
-  <node id="2477093230" lat="51.5321004" lon="-0.0095784" version="4" visible="true"/>
+  <node id="2477093245" lat="51.5383693" lon="-0.0013997" version="6" visible="true"/>
   <node id="2477093223" lat="51.5308246" lon="-0.011227" version="4" visible="true"/>
-  <node id="2477093214" lat="51.5364387" lon="-0.0039126" version="5" visible="true"/>
   <node id="2474043329" lat="51.5672288" lon="-0.0336012" version="7" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="bicycle" v="yes"/>
@@ -1330,7 +1331,7 @@
     <tag k="access" v="no"/>
     <tag k="barrier" v="swing_gate"/>
   </node>
-  <node id="250676592" lat="51.5387134" lon="-0.0012032" version="6" visible="true"/>
+  <node id="250676592" lat="51.5386439" lon="-0.0012871" version="7" visible="true"/>
   <node id="249319045" lat="51.5110918" lon="-0.0551018" version="10" visible="true">
     <tag k="proposed:highway" v="crossing"/>
     <tag k="proposed:crossing" v="uncontrolled"/>
@@ -1376,7 +1377,6 @@
   <node id="160277688" lat="51.5254747" lon="-0.0328548" version="10" visible="true"/>
   <node id="133188753" lat="51.5226697" lon="-0.0410772" version="17" visible="true"/>
   <node id="130237629" lat="51.5482577" lon="0.0129167" version="7" visible="true"/>
-  <node id="129994238" lat="51.5385932" lon="-0.0011259" version="10" visible="true"/>
   <node id="110252960" lat="51.4853902" lon="-0.1200617" version="8" visible="true"/>
   <node id="110249279" lat="51.4848313" lon="-0.1187403" version="8" visible="true"/>
   <node id="110247143" lat="51.4821561" lon="-0.1114119" version="6" visible="true"/>
@@ -2496,7 +2496,7 @@
     <nd ref="32444362"/>
     <nd ref="4844390881"/>
   </way>
-  <way id="244387420" visible="true" version="5">
+  <way id="244387420" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
     <tag k="name" v="High Street"/>
@@ -2505,13 +2505,14 @@
     <tag k="highway" v="primary"/>
     <tag k="old_ref" v="A11"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="turn:lanes" v="through|through|right"/>
+    <tag k="was:maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG156177"/>
     <nd ref="2517133988"/>
-    <nd ref="2477093214"/>
+    <nd ref="9017022621"/>
   </way>
   <way id="239939396" visible="true" version="14">
     <tag k="lit" v="yes"/>
@@ -2653,7 +2654,7 @@
     <nd ref="3110215510"/>
     <nd ref="65298684"/>
   </way>
-  <way id="239939401" visible="true" version="6">
+  <way id="239939401" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
     <tag k="foot" v="yes"/>
@@ -2663,15 +2664,16 @@
     <tag k="highway" v="primary"/>
     <tag k="old_ref" v="A11"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="no"/>
+    <tag k="was:maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG156214"/>
     <nd ref="2477093245"/>
     <nd ref="32650548"/>
     <nd ref="3224128136"/>
   </way>
-  <way id="23181826" visible="true" version="17">
+  <way id="23181826" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
     <tag k="foot" v="yes"/>
@@ -2683,12 +2685,13 @@
     <tag k="highway" v="primary"/>
     <tag k="old_ref" v="A11"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
+    <tag k="was:maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="maxweight:signed" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG156214"/>
-    <nd ref="129994238"/>
+    <nd ref="9017022653"/>
     <nd ref="2477093245"/>
   </way>
   <way id="28458889" visible="true" version="8">
@@ -2724,7 +2727,7 @@
     <nd ref="3224130793"/>
     <nd ref="275071531"/>
   </way>
-  <way id="239939406" visible="true" version="10">
+  <way id="974155466" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
     <tag k="name" v="High Street"/>
@@ -2737,7 +2740,7 @@
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG156141"/>
-    <nd ref="2477093230"/>
+    <nd ref="9015577621"/>
     <nd ref="8963666194"/>
     <nd ref="32654146"/>
   </way>
