@@ -6,8 +6,8 @@
   <node id="8993763811" lat="51.3627983" lon="-0.1972483" version="1" visible="true"/>
   <node id="8987914040" lat="51.5245102" lon="-0.0875316" version="1" visible="true"/>
   <node id="8987914039" lat="51.5245412" lon="-0.0874848" version="1" visible="true"/>
-  <node id="8984299278" lat="51.4490323" lon="-0.2378085" version="1" visible="true"/>
-  <node id="8984299277" lat="51.4490587" lon="-0.2377977" version="1" visible="true"/>
+  <node id="8984299278" lat="51.4490221" lon="-0.2377864" version="2" visible="true"/>
+  <node id="8984299277" lat="51.4490664" lon="-0.2377616" version="2" visible="true"/>
   <node id="8981524069" lat="51.3747664" lon="-0.0940787" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
@@ -366,7 +366,7 @@
   <node id="7720662908" lat="51.4493471" lon="-0.2373574" version="2" visible="true">
     <tag k="traffic_calming" v="bump"/>
   </node>
-  <node id="7720662907" lat="51.4490916" lon="-0.2377471" version="3" visible="true"/>
+  <node id="7720662907" lat="51.4491631" lon="-0.2376299" version="4" visible="true"/>
   <node id="7720662903" lat="51.449763" lon="-0.2374452" version="2" visible="true"/>
   <node id="7714629490" lat="51.4691248" lon="-0.1343989" version="1" visible="true"/>
   <node id="7713352376" lat="51.4685762" lon="-0.1358775" version="1" visible="true">
@@ -1543,7 +1543,7 @@
   <node id="4035081941" lat="51.5258671" lon="-0.0838571" version="2" visible="true"/>
   <node id="4018259760" lat="51.5329307" lon="-0.1030911" version="3" visible="true"/>
   <node id="3978741918" lat="51.5377344" lon="-0.3098518" version="1" visible="true"/>
-  <node id="3891509533" lat="51.4489609" lon="-0.2378982" version="3" visible="true"/>
+  <node id="3891509533" lat="51.4489543" lon="-0.2378859" version="4" visible="true"/>
   <node id="3882252369" lat="51.4448915" lon="0.0001311" version="2" visible="true"/>
   <node id="3882252362" lat="51.4449298" lon="0.0024057" version="2" visible="true"/>
   <node id="3882252360" lat="51.4448854" lon="-0.0009994" version="2" visible="true"/>
@@ -14081,20 +14081,6 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG089306"/>
-    <nd ref="8984299277"/>
-    <nd ref="8984299278"/>
-    <nd ref="3891509533"/>
-    <nd ref="18239821"/>
-  </way>
-  <way id="826967950" visible="true" version="2">
-    <tag k="name" v="Ponsonby Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="track"/>
-    <tag k="cycleway:right:track" v="hybrid"/>
-    <tag k="tiger:upload_uuid" v="RWG154112"/>
     <nd ref="8984299277"/>
     <nd ref="8984299278"/>
     <nd ref="3891509533"/>

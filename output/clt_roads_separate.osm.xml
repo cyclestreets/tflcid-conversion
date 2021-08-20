@@ -3,6 +3,8 @@
   <node id="9017022653" lat="51.5385429" lon="-0.0011877" version="1" visible="true"/>
   <node id="9017022621" lat="51.536639" lon="-0.0036704" version="1" visible="true"/>
   <node id="9015577621" lat="51.5317869" lon="-0.0100043" version="1" visible="true"/>
+  <node id="8984299278" lat="51.4490221" lon="-0.2377864" version="2" visible="true"/>
+  <node id="8984299277" lat="51.4490664" lon="-0.2377616" version="2" visible="true"/>
   <node id="8975122159" lat="51.5156761" lon="-0.0704109" version="1" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="forward"/>
@@ -719,6 +721,7 @@
   </node>
   <node id="4009478557" lat="51.48081" lon="-0.0284287" version="3" visible="true"/>
   <node id="3930766782" lat="51.3948103" lon="-0.3132101" version="3" visible="true"/>
+  <node id="3891509533" lat="51.4489543" lon="-0.2378859" version="4" visible="true"/>
   <node id="3858008795" lat="51.5110996" lon="-0.0556082" version="3" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Shadwell Station"/>
@@ -976,13 +979,15 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
   </node>
-  <node id="2314780177" lat="51.5034672" lon="-0.1528336" version="10" visible="true">
+  <node id="2314780177" lat="51.5034672" lon="-0.1528336" version="12" visible="true">
     <tag k="kerb" v="flush"/>
     <tag k="bicycle" v="designated"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="2282316170" lat="51.5159201" lon="-0.0700849" version="5" visible="true"/>
   <node id="2282295844" lat="51.5158178" lon="-0.0703266" version="5" visible="true"/>
@@ -1508,6 +1513,7 @@
     <tag k="crossing:island" v="yes"/>
   </node>
   <node id="20947333" lat="51.502179" lon="-0.1712379" version="12" visible="true"/>
+  <node id="18239821" lat="51.4488799" lon="-0.2379958" version="8" visible="true"/>
   <node id="18066953" lat="51.5761812" lon="-0.0298113" version="8" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
@@ -2393,12 +2399,13 @@
     <nd ref="8923042478"/>
     <nd ref="5315680062"/>
   </way>
-  <way id="670587278" visible="true" version="2">
+  <way id="670587278" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Oliver Road"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="separate"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="tiger:upload_uuid" v="RWG149100"/>
     <nd ref="6279634357"/>
@@ -5531,6 +5538,18 @@
     <tag k="tiger:upload_uuid" v="RWG152921"/>
     <nd ref="32651007"/>
     <nd ref="1221074665"/>
+  </way>
+  <way id="826967950" visible="true" version="2">
+    <tag k="name" v="Ponsonby Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="tiger:upload_uuid" v="RWG154112"/>
+    <nd ref="8984299277"/>
+    <nd ref="8984299278"/>
+    <nd ref="3891509533"/>
+    <nd ref="18239821"/>
   </way>
   <way id="645780100" visible="true" version="8">
     <tag k="lit" v="yes"/>
