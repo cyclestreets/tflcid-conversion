@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9035829805" lat="51.5438094" lon="-0.0502043" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+  </node>
   <node id="9023329974" lat="51.5100004" lon="-0.1187501" version="1" visible="true"/>
   <node id="9002108728" lat="51.3773177" lon="-0.0856139" version="1" visible="true"/>
   <node id="8999530395" lat="51.3752197" lon="-0.0857104" version="1" visible="true"/>
@@ -348,7 +354,7 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="backward"/>
   </node>
-  <node id="7779726964" lat="51.543915" lon="-0.0549155" version="1" visible="true">
+  <node id="7779726964" lat="51.5439131" lon="-0.0549149" version="2" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
   <node id="7779726963" lat="51.5441658" lon="-0.0528806" version="1" visible="true">
@@ -357,7 +363,7 @@
   <node id="7779726961" lat="51.5440677" lon="-0.0503064" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
-  <node id="7779726954" lat="51.5440356" lon="-0.0538798" version="1" visible="true">
+  <node id="7779726954" lat="51.5440379" lon="-0.0538792" version="2" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
   <node id="7733920484" lat="51.4408849" lon="-0.1062772" version="1" visible="true"/>
@@ -1135,7 +1141,7 @@
   <node id="5659763933" lat="51.558687" lon="-0.005051" version="1" visible="true"/>
   <node id="5631422736" lat="51.4887319" lon="0.0672354" version="2" visible="true"/>
   <node id="5631421512" lat="51.4887554" lon="0.0671717" version="2" visible="true"/>
-  <node id="5630516687" lat="51.543922" lon="-0.0548255" version="1" visible="true"/>
+  <node id="5630516687" lat="51.5439239" lon="-0.0548261" version="2" visible="true"/>
   <node id="5629063236" lat="51.444921" lon="-0.0009776" version="1" visible="true"/>
   <node id="5629063235" lat="51.4450619" lon="-0.0009879" version="1" visible="true"/>
   <node id="5627867274" lat="51.5345007" lon="-0.3389391" version="1" visible="true"/>
@@ -1950,7 +1956,7 @@
   <node id="2406445673" lat="51.3853927" lon="-0.1101178" version="1" visible="true"/>
   <node id="2406445596" lat="51.3849636" lon="-0.1097313" version="1" visible="true"/>
   <node id="2406184917" lat="51.541572" lon="-0.0382297" version="5" visible="true"/>
-  <node id="2406106608" lat="51.5439758" lon="-0.0543391" version="2" visible="true"/>
+  <node id="2406106608" lat="51.5439825" lon="-0.0543396" version="3" visible="true"/>
   <node id="2405520492" lat="51.5116125" lon="-0.0422516" version="1" visible="true"/>
   <node id="2405520489" lat="51.5115883" lon="-0.0424334" version="1" visible="true"/>
   <node id="2405520485" lat="51.5116101" lon="-0.0424261" version="1" visible="true"/>
@@ -3216,7 +3222,6 @@
   <node id="18064349" lat="51.5450576" lon="-0.0506868" version="4" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
-  <node id="18064302" lat="51.5439545" lon="-0.0545038" version="2" visible="true"/>
   <node id="18064234" lat="51.5445081" lon="-0.0422116" version="11" visible="true"/>
   <node id="18064232" lat="51.5443869" lon="-0.0431656" version="6" visible="true"/>
   <node id="18064224" lat="51.5464918" lon="-0.0509354" version="3" visible="true"/>
@@ -8564,7 +8569,7 @@
     <nd ref="1651916584"/>
     <nd ref="2592872592"/>
   </way>
-  <way id="446885216" visible="true" version="10">
+  <way id="446885216" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chatham Place"/>
     <tag k="lanes" v="1"/>
@@ -8575,6 +8580,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG151597"/>
     <nd ref="33778756"/>
+    <nd ref="9035829805"/>
     <nd ref="7779726961"/>
     <nd ref="18064349"/>
     <nd ref="2433234747"/>
@@ -9346,7 +9352,7 @@
     <nd ref="1547013597"/>
     <nd ref="1547013754"/>
   </way>
-  <way id="6022180" visible="true" version="25">
+  <way id="6022180" visible="true" version="26">
     <tag k="hgv" v="destination"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Darnley Road"/>
@@ -9360,7 +9366,6 @@
     <nd ref="33778716"/>
     <nd ref="7779726964"/>
     <nd ref="5630516687"/>
-    <nd ref="18064302"/>
     <nd ref="2406106608"/>
     <nd ref="7779726954"/>
     <nd ref="7779726963"/>
@@ -9431,24 +9436,26 @@
     <nd ref="7204857361"/>
     <nd ref="7204857354"/>
   </way>
-  <way id="3713824" visible="true" version="8">
+  <way id="3713824" visible="true" version="9">
     <tag k="name" v="Wood Street"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="abutters" v="commercial"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="wikidata" v="Q8032277"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG066276"/>
     <nd ref="104321"/>
     <nd ref="5046314040"/>
     <nd ref="24951854"/>
   </way>
-  <way id="122768630" visible="true" version="6">
+  <way id="122768630" visible="true" version="7">
     <tag k="name" v="Wood Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="abutters" v="commercial"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="wikidata" v="Q8032277"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG066276"/>
     <nd ref="5046314043"/>
