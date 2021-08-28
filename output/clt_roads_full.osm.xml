@@ -1117,6 +1117,7 @@
   <node id="6563418179" lat="51.4042171" lon="-0.1614714" version="1" visible="true"/>
   <node id="4827729240" lat="51.5140816" lon="-0.0281013" version="3" visible="true"/>
   <node id="5483811202" lat="51.5364056" lon="-0.0170068" version="2" visible="true"/>
+  <node id="3865505181" lat="51.4937261" lon="-0.2239273" version="4" visible="true"/>
   <node id="2431739201" lat="51.5334116" lon="-0.1286319" version="6" visible="true"/>
   <node id="8981524060" lat="51.3759034" lon="-0.0948417" version="1" visible="true"/>
   <node id="7838414331" lat="51.5228243" lon="-0.0341268" version="1" visible="true"/>
@@ -2231,7 +2232,6 @@
   <node id="1759040753" lat="51.5256903" lon="-0.1057528" version="3" visible="true"/>
   <node id="4762808377" lat="51.4725985" lon="0.009482" version="1" visible="true"/>
   <node id="1832469430" lat="51.6197656" lon="-0.3039992" version="3" visible="true"/>
-  <node id="3865505180" lat="51.4936202" lon="-0.2239332" version="3" visible="true"/>
   <node id="10621471" lat="51.5463992" lon="-0.0807155" version="18" visible="true"/>
   <node id="2793597143" lat="51.6030372" lon="-0.3571227" version="3" visible="true"/>
   <node id="6252122873" lat="51.5272197" lon="-0.0740081" version="1" visible="true"/>
@@ -21277,7 +21277,7 @@
     <nd ref="7657271489"/>
     <nd ref="266819683"/>
   </way>
-  <way id="66767929" visible="true" version="13">
+  <way id="66767929" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A306"/>
     <tag k="name" v="Great West Road"/>
@@ -21285,7 +21285,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="junction" v="circular"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:left:oneway" v="no"/>
@@ -21294,10 +21294,10 @@
     <nd ref="55120123"/>
     <nd ref="55120124"/>
   </way>
-  <way id="383309240" visible="true" version="3">
+  <way id="383309240" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A219"/>
-    <tag k="name" v="Shepherds Bush Road"/>
+    <tag k="name" v="Hammersmith Broadway"/>
     <tag k="lanes" v="4"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
@@ -21312,7 +21312,7 @@
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG117900"/>
     <nd ref="1685957577"/>
-    <nd ref="3865505180"/>
+    <nd ref="3865505181"/>
   </way>
   <way id="5002643" visible="true" version="13">
     <tag k="lit" v="yes"/>
@@ -22580,7 +22580,8 @@
     <nd ref="7801416252"/>
     <nd ref="7801416240"/>
   </way>
-  <way id="19845935" visible="true" version="16">
+  <way id="19845935" visible="true" version="17">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Mawbey Road"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>

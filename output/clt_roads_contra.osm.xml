@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9039251414" lat="51.5255542" lon="0.0535753" version="1" visible="true"/>
   <node id="9035829805" lat="51.5438094" lon="-0.0502043" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -1217,8 +1218,6 @@
   <node id="5517634781" lat="51.5241648" lon="-0.1258292" version="1" visible="true"/>
   <node id="5517634780" lat="51.5243177" lon="-0.1259543" version="3" visible="true"/>
   <node id="5517613034" lat="51.5023659" lon="-0.2200477" version="1" visible="true"/>
-  <node id="5517613031" lat="51.5023619" lon="-0.2200677" version="1" visible="true"/>
-  <node id="5517613030" lat="51.5023595" lon="-0.2201131" version="1" visible="true"/>
   <node id="5515552114" lat="51.5756711" lon="0.0014229" version="1" visible="true"/>
   <node id="5515552110" lat="51.575624" lon="0.0014694" version="1" visible="true"/>
   <node id="5515552109" lat="51.575653" lon="0.001434" version="1" visible="true"/>
@@ -1869,10 +1868,11 @@
     <tag k="highway" v="give_way"/>
   </node>
   <node id="2453162765" lat="51.5248758" lon="-0.127442" version="2" visible="true"/>
-  <node id="2453162761" lat="51.5243323" lon="-0.1286966" version="6" visible="true">
+  <node id="2453162761" lat="51.5243323" lon="-0.1286966" version="7" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="countdown"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="2453162755" lat="51.5249011" lon="-0.1273769" version="2" visible="true"/>
   <node id="2449187621" lat="51.5481112" lon="-0.1277909" version="4" visible="true">
@@ -2421,10 +2421,11 @@
   <node id="534347087" lat="51.5705912" lon="-0.0709402" version="3" visible="true"/>
   <node id="518713303" lat="51.5057301" lon="-0.085978" version="5" visible="true"/>
   <node id="512040220" lat="51.5300243" lon="-0.1237776" version="10" visible="true"/>
-  <node id="485257346" lat="51.5237322" lon="-0.1301655" version="10" visible="true">
+  <node id="485257346" lat="51.5237322" lon="-0.1301655" version="11" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="475966573" lat="51.513568" lon="-0.1226125" version="6" visible="true"/>
   <node id="473091606" lat="51.5258997" lon="-0.083977" version="10" visible="true"/>
@@ -3150,7 +3151,7 @@
   <node id="21664840" lat="51.3806456" lon="-0.1556911" version="2" visible="true"/>
   <node id="21664812" lat="51.379441" lon="-0.1558763" version="3" visible="true"/>
   <node id="21664811" lat="51.3802135" lon="-0.1567829" version="2" visible="true"/>
-  <node id="21662728" lat="51.5023633" lon="-0.2201541" version="4" visible="true"/>
+  <node id="21662728" lat="51.5023635" lon="-0.2201326" version="5" visible="true"/>
   <node id="21661987" lat="51.5022522" lon="-0.2148477" version="4" visible="true"/>
   <node id="21651076" lat="51.5695154" lon="-0.3465488" version="6" visible="true"/>
   <node id="21651075" lat="51.570119" lon="-0.3454499" version="4" visible="true"/>
@@ -5817,7 +5818,7 @@
     <nd ref="6486077957"/>
     <nd ref="245440656"/>
   </way>
-  <way id="12704167" visible="true" version="9">
+  <way id="12704167" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Marlow Road"/>
     <tag k="oneway" v="yes"/>
@@ -5830,6 +5831,7 @@
     <nd ref="116085832"/>
     <nd ref="6947977920"/>
     <nd ref="6951195454"/>
+    <nd ref="9039251414"/>
     <nd ref="116085831"/>
   </way>
   <way id="972650960" visible="true" version="1">
@@ -9295,7 +9297,7 @@
     <nd ref="4771240252"/>
     <nd ref="50153365"/>
   </way>
-  <way id="840264350" visible="true" version="2">
+  <way id="840264350" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Old Jewry"/>
     <tag k="lanes" v="1"/>
@@ -9305,6 +9307,7 @@
     <tag k="wikidata" v="Q7084306"/>
     <tag k="was:oneway" v="yes"/>
     <tag k="was:cycleway" v="opposite"/>
+    <tag k="cyclestreets_id" v="173568"/>
     <tag k="was:oneway:bicycle" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG066322"/>
@@ -9314,7 +9317,7 @@
     <nd ref="1717643537"/>
     <nd ref="18393873"/>
   </way>
-  <way id="840264350" visible="true" version="2">
+  <way id="840264350" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Old Jewry"/>
     <tag k="lanes" v="1"/>
@@ -9324,6 +9327,7 @@
     <tag k="wikidata" v="Q7084306"/>
     <tag k="was:oneway" v="yes"/>
     <tag k="was:cycleway" v="opposite"/>
+    <tag k="cyclestreets_id" v="173568"/>
     <tag k="was:oneway:bicycle" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG066318"/>
@@ -13169,7 +13173,7 @@
     <nd ref="32585899"/>
     <nd ref="2892563563"/>
   </way>
-  <way id="574906297" visible="true" version="2">
+  <way id="574906297" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Minford Gardens"/>
     <tag k="oneway" v="yes"/>
@@ -13178,8 +13182,6 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG153042"/>
     <nd ref="5517613034"/>
-    <nd ref="5517613031"/>
-    <nd ref="5517613030"/>
     <nd ref="21662728"/>
   </way>
   <way id="312263556" visible="true" version="3">
