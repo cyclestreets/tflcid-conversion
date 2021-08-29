@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9043819682" lat="51.5450203" lon="-0.4772986" version="1" visible="true"/>
   <node id="8995541068" lat="51.5450655" lon="-0.4773442" version="1" visible="true"/>
   <node id="8979626843" lat="51.5083734" lon="-0.0505924" version="1" visible="true"/>
   <node id="8895550379" lat="51.5738537" lon="-0.1019485" version="1" visible="true"/>
@@ -182,8 +183,7 @@
   <node id="6561682307" lat="51.4972282" lon="-0.1689833" version="2" visible="true"/>
   <node id="6474805734" lat="51.6063636" lon="-0.1859943" version="1" visible="true"/>
   <node id="6474805733" lat="51.6063541" lon="-0.1859772" version="1" visible="true"/>
-  <node id="6343398664" lat="51.545013" lon="-0.4772948" version="2" visible="true"/>
-  <node id="6343398663" lat="51.5449921" lon="-0.4772974" version="4" visible="true"/>
+  <node id="6343398663" lat="51.5449846" lon="-0.4772626" version="5" visible="true"/>
   <node id="6290463459" lat="51.5184407" lon="-0.4092274" version="1" visible="true"/>
   <node id="6211698707" lat="51.4907862" lon="-0.2423033" version="1" visible="true"/>
   <node id="6113492895" lat="51.6070977" lon="-0.3322697" version="2" visible="true"/>
@@ -1310,7 +1310,7 @@
   <node id="27074551" lat="51.5660583" lon="-0.1867747" version="15" visible="true"/>
   <node id="27074549" lat="51.5667802" lon="-0.1862111" version="15" visible="true"/>
   <node id="27074548" lat="51.5673066" lon="-0.1838821" version="20" visible="true"/>
-  <node id="26970999" lat="51.5451166" lon="-0.4773976" version="3" visible="true"/>
+  <node id="26970999" lat="51.5451865" lon="-0.4774432" version="4" visible="true"/>
   <node id="26489679" lat="51.5709085" lon="-0.2144094" version="1" visible="true"/>
   <node id="25947633" lat="51.4962364" lon="-0.4605908" version="1" visible="true"/>
   <node id="25947438" lat="51.4954882" lon="-0.4599195" version="2" visible="true"/>
@@ -3071,13 +3071,13 @@
     <nd ref="7131589877"/>
     <nd ref="7131589881"/>
   </way>
-  <way id="677467607" visible="true" version="2">
+  <way id="677467607" visible="true" version="4">
     <tag k="highway" v="footway"/>
     <tag k="bicycle:conditional" v="yes @ (Mo-Fr 10:30-17:00; Sa-Su 09:30-17:00)"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG237915"/>
     <nd ref="6343398663"/>
-    <nd ref="6343398664"/>
+    <nd ref="9043819682"/>
     <nd ref="8995541068"/>
     <nd ref="26970999"/>
   </way>

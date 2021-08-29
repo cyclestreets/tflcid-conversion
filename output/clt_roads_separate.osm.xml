@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9044166969" lat="51.557708" lon="-0.2819849" version="1" visible="true"/>
+  <node id="9044166968" lat="51.5577071" lon="-0.2823232" version="1" visible="true"/>
+  <node id="9044166963" lat="51.5577078" lon="-0.2820656" version="1" visible="true"/>
+  <node id="9044166962" lat="51.5577071" lon="-0.2821688" version="1" visible="true"/>
+  <node id="9044166961" lat="51.5577079" lon="-0.2820382" version="1" visible="true"/>
   <node id="9017022653" lat="51.5385429" lon="-0.0011877" version="1" visible="true"/>
   <node id="9017022621" lat="51.536639" lon="-0.0036704" version="1" visible="true"/>
   <node id="9015577621" lat="51.5317869" lon="-0.0100043" version="1" visible="true"/>
@@ -41,6 +46,7 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="marked"/>
   </node>
+  <node id="8908088034" lat="51.5577032" lon="-0.281748" version="1" visible="true"/>
   <node id="8905849756" lat="51.5764754" lon="-0.0298437" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
@@ -906,6 +912,9 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
+  <node id="2521909451" lat="51.5577084" lon="-0.2818392" version="5" visible="true">
+    <tag k="highway" v="crossing"/>
+  </node>
   <node id="2517133988" lat="51.537064" lon="-0.0030946" version="4" visible="true"/>
   <node id="2477093245" lat="51.5383693" lon="-0.0013997" version="6" visible="true"/>
   <node id="2477093223" lat="51.5308246" lon="-0.011227" version="4" visible="true"/>
@@ -1077,6 +1086,13 @@
   </node>
   <node id="1797684636" lat="51.5396651" lon="-0.1766377" version="3" visible="true"/>
   <node id="1783426099" lat="51.5035665" lon="-0.0930409" version="3" visible="true"/>
+  <node id="1770721443" lat="51.5577077" lon="-0.2820999" version="8" visible="true">
+    <tag k="foot" v="yes"/>
+    <tag k="barrier" v="lift_gate"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="motor_vehicle" v="private"/>
+    <tag k="opening_hours" v="closed &quot;normally&quot;"/>
+  </node>
   <node id="1745361196" lat="51.614852" lon="-0.1271955" version="2" visible="true"/>
   <node id="1745286001" lat="51.6140108" lon="-0.1250206" version="1" visible="true"/>
   <node id="1745285985" lat="51.6146835" lon="-0.1267629" version="1" visible="true"/>
@@ -1397,6 +1413,7 @@
     <tag k="crossing_ref" v="tiger"/>
   </node>
   <node id="96222378" lat="51.5206116" lon="-0.0521816" version="12" visible="true"/>
+  <node id="88909645" lat="51.5576902" lon="-0.2816792" version="4" visible="true"/>
   <node id="82710874" lat="51.5107934" lon="-0.052957" version="11" visible="true"/>
   <node id="80298785" lat="51.532634" lon="-0.1301433" version="5" visible="true"/>
   <node id="65298731" lat="51.5386494" lon="-0.3872036" version="6" visible="true"/>
@@ -2921,6 +2938,61 @@
     <tag k="tiger:upload_uuid" v="RWG237464"/>
     <nd ref="255323085"/>
     <nd ref="255323083"/>
+  </way>
+  <way id="977416559" visible="true" version="1">
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="Lakeside Way"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="motor_vehicle" v="permissive"/>
+    <tag k="tiger:upload_uuid" v="RWG274783"/>
+    <nd ref="9044166968"/>
+    <nd ref="9044166962"/>
+  </way>
+  <way id="977416555" visible="true" version="1">
+    <tag k="name" v="Lakeside Way"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="motor_vehicle" v="permissive"/>
+    <tag k="tiger:upload_uuid" v="RWG274783"/>
+    <nd ref="9044166962"/>
+    <nd ref="1770721443"/>
+    <nd ref="9044166963"/>
+  </way>
+  <way id="977416556" visible="true" version="1">
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="Lakeside Way"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="motor_vehicle" v="permissive"/>
+    <tag k="tiger:upload_uuid" v="RWG274783"/>
+    <nd ref="9044166963"/>
+    <nd ref="9044166961"/>
+  </way>
+  <way id="977416560" visible="true" version="1">
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="Lakeside Way"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="maxspeed" v="5 mph"/>
+    <tag k="motor_vehicle" v="private"/>
+    <tag k="tiger:upload_uuid" v="RWG274783"/>
+    <nd ref="9044166961"/>
+    <nd ref="9044166969"/>
+  </way>
+  <way id="293533375" visible="true" version="6">
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="Lakeside Way"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="maxspeed" v="5 mph"/>
+    <tag k="motor_vehicle" v="private"/>
+    <tag k="tiger:upload_uuid" v="RWG274783"/>
+    <nd ref="9044166969"/>
+    <nd ref="2521909451"/>
+    <nd ref="8908088034"/>
+    <nd ref="88909645"/>
   </way>
   <way id="4217249" visible="true" version="18">
     <tag k="lit" v="yes"/>
