@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9051951669" lat="51.5369269" lon="-0.1464184" version="1" visible="true"/>
+  <node id="9051951668" lat="51.5369448" lon="-0.1464422" version="1" visible="true"/>
   <node id="9050541457" lat="51.3947655" lon="-0.3132729" version="1" visible="true"/>
   <node id="9050541455" lat="51.3945154" lon="-0.313654" version="1" visible="true"/>
   <node id="9044166969" lat="51.557708" lon="-0.2819849" version="1" visible="true"/>
@@ -71,6 +73,10 @@
   <node id="8723303391" lat="51.5225431" lon="-0.0417117" version="1" visible="true"/>
   <node id="8719705901" lat="51.5678973" lon="-0.0319257" version="1" visible="true"/>
   <node id="8719705900" lat="51.5678424" lon="-0.0320655" version="1" visible="true"/>
+  <node id="8703263210" lat="51.5369788" lon="-0.1466415" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="8674948529" lat="51.511586" lon="-0.0432446" version="1" visible="true"/>
   <node id="8671044438" lat="51.5705448" lon="-0.0194213" version="1" visible="true"/>
   <node id="8626514865" lat="51.5350536" lon="-0.1314804" version="1" visible="true"/>
@@ -250,6 +256,10 @@
   <node id="7083403298" lat="51.5228786" lon="-0.1315934" version="2" visible="true"/>
   <node id="7076645974" lat="51.5697896" lon="-0.0187614" version="1" visible="true"/>
   <node id="7005160427" lat="51.4765239" lon="-0.1307718" version="1" visible="true"/>
+  <node id="6981900056" lat="51.5368808" lon="-0.146343" version="3" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="6967968870" lat="51.4825366" lon="-0.1115552" version="3" visible="true"/>
   <node id="6967968866" lat="51.4823654" lon="-0.1114563" version="3" visible="true"/>
   <node id="6967968865" lat="51.4827003" lon="-0.1114497" version="3" visible="true"/>
@@ -797,6 +807,9 @@
   </node>
   <node id="3502507834" lat="51.4908563" lon="-0.1498068" version="3" visible="true"/>
   <node id="3502507830" lat="51.4908364" lon="-0.1497466" version="3" visible="true"/>
+  <node id="3393316085" lat="51.5368642" lon="-0.1463042" version="3" visible="true">
+    <tag k="highway" v="crossing"/>
+  </node>
   <node id="3256109212" lat="51.5083086" lon="-0.2745992" version="4" visible="true"/>
   <node id="3252823706" lat="51.5082905" lon="-0.2745287" version="6" visible="true"/>
   <node id="3252823704" lat="51.508278" lon="-0.2744831" version="6" visible="true"/>
@@ -839,6 +852,7 @@
     <tag k="traffic_calming" v="cushion"/>
   </node>
   <node id="3062596141" lat="51.504839" lon="-0.1030981" version="1" visible="true"/>
+  <node id="3018806130" lat="51.5369891" lon="-0.1466515" version="2" visible="true"/>
   <node id="2890999644" lat="51.4852879" lon="-0.119813" version="4" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -1165,6 +1179,8 @@
   </node>
   <node id="1437110781" lat="51.5133696" lon="-0.2976106" version="6" visible="true"/>
   <node id="1436218854" lat="51.5024134" lon="-0.162948" version="5" visible="true"/>
+  <node id="1427483058" lat="51.5368424" lon="-0.1464825" version="7" visible="true"/>
+  <node id="1427483024" lat="51.5370057" lon="-0.1465117" version="4" visible="true"/>
   <node id="1414262341" lat="51.4004741" lon="-0.3044725" version="6" visible="true"/>
   <node id="1382081365" lat="51.4005268" lon="-0.308384" version="2" visible="true"/>
   <node id="1382081362" lat="51.3941394" lon="-0.3142449" version="2" visible="true"/>
@@ -3116,6 +3132,34 @@
     <nd ref="6222636139"/>
     <nd ref="38456656"/>
     <nd ref="1643721557"/>
+  </way>
+  <way id="497287421" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Gloucester Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxweight" v="5"/>
+    <tag k="postal_code" v="NW1"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG000109"/>
+    <nd ref="1427483058"/>
+    <nd ref="8703263210"/>
+    <nd ref="3018806130"/>
+  </way>
+  <way id="609546531" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Gloucester Avenue"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="postal_code" v="NW1"/>
+    <tag k="tiger:upload_uuid" v="RWG000109"/>
+    <nd ref="1427483024"/>
+    <nd ref="9051951668"/>
+    <nd ref="9051951669"/>
+    <nd ref="6981900056"/>
+    <nd ref="3393316085"/>
   </way>
   <way id="11266300" visible="true" version="21">
     <tag k="lit" v="yes"/>
