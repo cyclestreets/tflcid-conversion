@@ -429,13 +429,6 @@
   <node id="4345737951" lat="51.3712052" lon="-0.1676621" version="2" visible="true"/>
   <node id="4345737950" lat="51.3713778" lon="-0.1678761" version="3" visible="true"/>
   <node id="4309161351" lat="51.566374" lon="-0.1864894" version="2" visible="true"/>
-  <node id="4297126477" lat="51.4191928" lon="-0.1110907" version="2" visible="true">
-    <tag k="barrier" v="bollard"/>
-    <tag k="bollard" v="removable"/>
-  </node>
-  <node id="4297126464" lat="51.4183311" lon="-0.1122325" version="2" visible="true">
-    <tag k="barrier" v="bollard"/>
-  </node>
   <node id="4269872810" lat="51.5727143" lon="-0.1652496" version="4" visible="true">
     <tag k="barrier" v="gate"/>
   </node>
@@ -815,7 +808,6 @@
   <node id="1768757454" lat="51.5435994" lon="0.1678901" version="1" visible="true"/>
   <node id="1768757425" lat="51.5435094" lon="0.1694861" version="1" visible="true"/>
   <node id="1768757421" lat="51.5436051" lon="0.1660527" version="1" visible="true"/>
-  <node id="1763296341" lat="51.4185812" lon="-0.1118698" version="2" visible="true"/>
   <node id="1761962917" lat="51.5708591" lon="-0.2142973" version="1" visible="true"/>
   <node id="1761962915" lat="51.570138" lon="-0.2104081" version="2" visible="true"/>
   <node id="1761962914" lat="51.5711525" lon="-0.2128543" version="1" visible="true"/>
@@ -1153,7 +1145,6 @@
   <node id="291087127" lat="51.5706306" lon="-0.3080618" version="4" visible="true">
     <tag k="highway" v="turning_circle"/>
   </node>
-  <node id="290921468" lat="51.4190218" lon="-0.1112699" version="2" visible="true"/>
   <node id="281841827" lat="51.4570006" lon="-0.145499" version="2" visible="true"/>
   <node id="281841826" lat="51.4574611" lon="-0.1457094" version="1" visible="true"/>
   <node id="281841824" lat="51.4572472" lon="-0.1456837" version="1" visible="true"/>
@@ -1269,7 +1260,6 @@
   <node id="129942253" lat="51.4131731" lon="-0.1140778" version="3" visible="true"/>
   <node id="129942241" lat="51.4144581" lon="-0.1188821" version="3" visible="true"/>
   <node id="129942240" lat="51.4144198" lon="-0.1178427" version="2" visible="true"/>
-  <node id="128136176" lat="51.4192496" lon="-0.1110229" version="2" visible="true"/>
   <node id="88010932" lat="51.5721035" lon="-0.1646608" version="7" visible="true"/>
   <node id="87994493" lat="51.5565793" lon="-0.1591972" version="6" visible="true"/>
   <node id="87994491" lat="51.5565678" lon="-0.1596633" version="6" visible="true"/>
@@ -3149,22 +3139,6 @@
     <nd ref="5536994955"/>
     <nd ref="5536994975"/>
     <nd ref="599823498"/>
-  </way>
-  <way id="430437498" visible="true" version="2">
-    <tag k="name" v="Gibsons Hill"/>
-    <tag k="access" v="private"/>
-    <tag k="bicycle" v="dismount"/>
-    <tag k="highway" v="track"/>
-    <tag k="surface" v="unpaved"/>
-    <tag k="alt_name" v="Gibson's Hill"/>
-    <tag k="est_width" v="2.5m"/>
-    <tag k="tracktype" v="grade1"/>
-    <tag k="tiger:upload_uuid" v="RWG219969"/>
-    <nd ref="4297126464"/>
-    <nd ref="1763296341"/>
-    <nd ref="290921468"/>
-    <nd ref="4297126477"/>
-    <nd ref="128136176"/>
   </way>
   <way id="204645297" visible="true" version="8">
     <tag k="lit" v="yes"/>
