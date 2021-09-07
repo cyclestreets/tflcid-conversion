@@ -481,6 +481,10 @@
   </node>
   <node id="7468704954" lat="51.4887069" lon="0.0672751" version="1" visible="true"/>
   <node id="7464319959" lat="51.4595809" lon="-0.1257511" version="1" visible="true"/>
+  <node id="7447542874" lat="51.5825575" lon="-0.0352541" version="2" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="7440151253" lat="51.5608577" lon="-0.0642636" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
@@ -1088,6 +1092,10 @@
   </node>
   <node id="5890679509" lat="51.5984664" lon="-0.1107261" version="1" visible="true"/>
   <node id="5890679508" lat="51.5984857" lon="-0.1105755" version="1" visible="true"/>
+  <node id="5887623544" lat="51.5825685" lon="-0.0351976" version="3" visible="true">
+    <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="forward"/>
+  </node>
   <node id="5880265995" lat="51.5741301" lon="-0.0765377" version="1" visible="true"/>
   <node id="5880265994" lat="51.5741984" lon="-0.0764965" version="2" visible="true"/>
   <node id="5880265988" lat="51.5740865" lon="-0.0765474" version="1" visible="true"/>
@@ -1153,6 +1161,10 @@
   <node id="5734767365" lat="51.5430763" lon="0.0067598" version="1" visible="true"/>
   <node id="5734767364" lat="51.5430803" lon="0.0068244" version="1" visible="true"/>
   <node id="5728906962" lat="51.5431193" lon="-0.0425594" version="2" visible="true"/>
+  <node id="5709961057" lat="51.5825718" lon="-0.0351427" version="4" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
   <node id="5683492726" lat="51.5251847" lon="-0.0907293" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -2990,6 +3002,7 @@
   <node id="29164393" lat="51.5329632" lon="-0.1030735" version="15" visible="true"/>
   <node id="28829399" lat="51.5669581" lon="-0.0179807" version="6" visible="true"/>
   <node id="28829258" lat="51.5797938" lon="-0.0270458" version="8" visible="true"/>
+  <node id="28829159" lat="51.5825419" lon="-0.0353161" version="6" visible="true"/>
   <node id="28829054" lat="51.5870415" lon="-0.0362473" version="9" visible="true"/>
   <node id="28800219" lat="51.5215637" lon="-0.0642966" version="10" visible="true"/>
   <node id="27503953" lat="51.5130391" lon="-0.1666444" version="2" visible="true"/>
@@ -3351,7 +3364,7 @@
   <node id="432827" lat="51.4451071" lon="-0.0010121" version="4" visible="true"/>
   <node id="432825" lat="51.4451585" lon="0.0012719" version="5" visible="true"/>
   <node id="297715" lat="51.4475278" lon="-0.3286177" version="5" visible="true"/>
-  <node id="296323" lat="51.4089708" lon="-0.3050936" version="15" visible="true"/>
+  <node id="296323" lat="51.4089775" lon="-0.3051472" version="16" visible="true"/>
   <node id="292354" lat="51.4673822" lon="-0.1434506" version="6" visible="true"/>
   <node id="292296" lat="51.388414" lon="-0.2700503" version="6" visible="true"/>
   <node id="292291" lat="51.3876304" lon="-0.2716023" version="5" visible="true"/>
@@ -3925,6 +3938,28 @@
     <nd ref="21411582"/>
     <nd ref="7236130716"/>
     <nd ref="5506946741"/>
+  </way>
+  <way id="980099511" visible="true" version="1">
+    <tag k="name" v="Glenthorne Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG187538"/>
+    <nd ref="28829159"/>
+    <nd ref="7447542874"/>
+  </way>
+  <way id="8150607" visible="true" version="14">
+    <tag k="name" v="Glenthorne Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG187538"/>
+    <nd ref="7447542874"/>
+    <nd ref="5887623544"/>
+    <nd ref="5709961057"/>
   </way>
   <way id="627282281" visible="true" version="1">
     <tag k="foot" v="yes"/>
@@ -7189,7 +7224,8 @@
     <nd ref="21275745"/>
     <nd ref="21641282"/>
   </way>
-  <way id="758096822" visible="true" version="2">
+  <way id="758096822" visible="true" version="3">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Rosslyn Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
