@@ -525,10 +525,11 @@
     <tag k="barrier" v="bollard"/>
     <tag k="bicycle" v="yes"/>
   </node>
-  <node id="695743738" lat="51.4884563" lon="-0.0625853" version="5" visible="true">
+  <node id="695743738" lat="51.4884563" lon="-0.0625853" version="6" visible="true">
     <tag k="foot" v="yes"/>
     <tag k="barrier" v="bollard"/>
     <tag k="bicycle" v="yes"/>
+    <tag k="bollard" v="fixed"/>
   </node>
   <node id="560712041" lat="51.5592813" lon="-0.1663676" version="4" visible="true"/>
   <node id="539417127" lat="51.598994" lon="0.238791" version="2" visible="true"/>
@@ -1542,9 +1543,10 @@
     <nd ref="4441055940"/>
     <nd ref="4441055946"/>
   </way>
-  <way id="11664017" visible="true" version="8">
+  <way id="11664017" visible="true" version="9">
     <tag k="foot" v="yes"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="lit" v="yes"/>
     <nd ref="104309983"/>
     <nd ref="695743738"/>
     <nd ref="-356"/>

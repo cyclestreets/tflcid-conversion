@@ -433,6 +433,7 @@
   <node id="658185" lat="51.5435518" lon="-0.139216" version="5" visible="true"/>
   <node id="5197463414" lat="51.5527695" lon="-0.019136" version="4" visible="true"/>
   <node id="2443109686" lat="51.4914867" lon="-0.2272372" version="3" visible="true"/>
+  <node id="9077960431" lat="51.5491711" lon="-0.482319" version="1" visible="true"/>
   <node id="6032044867" lat="51.510415" lon="-0.0868803" version="3" visible="true"/>
   <node id="8085242323" lat="51.6296896" lon="-0.0973759" version="1" visible="true"/>
   <node id="5337777137" lat="51.6026314" lon="-0.0165561" version="4" visible="true"/>
@@ -727,7 +728,6 @@
   <node id="5102616327" lat="51.3890969" lon="-0.1961014" version="4" visible="true"/>
   <node id="6279388824" lat="51.5174188" lon="-0.1078795" version="1" visible="true"/>
   <node id="721104994" lat="51.4794114" lon="-0.1949715" version="6" visible="true"/>
-  <node id="4405547700" lat="51.5491624" lon="-0.4823028" version="1" visible="true"/>
   <node id="107585" lat="51.5133949" lon="-0.0803493" version="10" visible="true"/>
   <node id="6403029265" lat="51.574648" lon="-0.0138397" version="4" visible="true"/>
   <node id="27034221" lat="51.4719361" lon="-0.1771473" version="4" visible="true"/>
@@ -1431,6 +1431,7 @@
   <node id="87340705" lat="51.54342" lon="-0.2706944" version="4" visible="true"/>
   <node id="7767808086" lat="51.598892" lon="0.1616088" version="1" visible="true"/>
   <node id="8085242351" lat="51.6296198" lon="-0.0974209" version="1" visible="true"/>
+  <node id="273784" lat="51.5326326" lon="-0.1113867" version="8" visible="true"/>
   <node id="2463620459" lat="51.5224193" lon="-0.1380534" version="3" visible="true"/>
   <node id="7254300191" lat="51.4397857" lon="-0.1773564" version="2" visible="true"/>
   <node id="221865" lat="51.5529859" lon="-0.1049153" version="5" visible="true"/>
@@ -1519,6 +1520,7 @@
   <node id="2684369319" lat="51.4965536" lon="-0.099645" version="3" visible="true"/>
   <node id="2638187150" lat="51.4455341" lon="0.1539959" version="4" visible="true"/>
   <node id="8761029038" lat="51.5872745" lon="-0.3428379" version="1" visible="true"/>
+  <node id="9077960429" lat="51.5491624" lon="-0.4823028" version="1" visible="true"/>
   <node id="8023223812" lat="51.4329845" lon="-0.2627361" version="1" visible="true"/>
   <node id="7207322115" lat="51.5736665" lon="-0.0872934" version="1" visible="true"/>
   <node id="1966932721" lat="51.5034111" lon="-0.0957931" version="3" visible="true"/>
@@ -2793,6 +2795,7 @@
   <node id="47290542" lat="51.5273751" lon="-0.056689" version="5" visible="true"/>
   <node id="5352759766" lat="51.491073" lon="0.0804436" version="4" visible="true"/>
   <node id="1688806907" lat="51.3849515" lon="-0.1911716" version="4" visible="true"/>
+  <node id="6800424769" lat="51.5331632" lon="-0.1114341" version="1" visible="true"/>
   <node id="8865878647" lat="51.5264052" lon="0.1261508" version="1" visible="true"/>
   <node id="45212417" lat="51.4255096" lon="0.06479" version="3" visible="true"/>
   <node id="5179866177" lat="51.5883748" lon="-0.1121221" version="3" visible="true"/>
@@ -14052,7 +14055,7 @@
     <nd ref="8902610938"/>
     <nd ref="130201928"/>
   </way>
-  <way id="4408648" visible="true" version="9">
+  <way id="4408648" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="High Street"/>
     <tag k="highway" v="residential"/>
@@ -14061,7 +14064,8 @@
     <tag k="tiger:upload_uuid" v="RWG237271"/>
     <nd ref="26974801"/>
     <nd ref="9077256248"/>
-    <nd ref="4405547700"/>
+    <nd ref="9077960429"/>
+    <nd ref="9077960431"/>
     <nd ref="9064251411"/>
     <nd ref="250352137"/>
     <nd ref="469074151"/>
@@ -19303,6 +19307,24 @@
     <tag k="tiger:upload_uuid" v="RWG025606"/>
     <nd ref="7735276478"/>
     <nd ref="336277511"/>
+  </way>
+  <way id="725187384" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Penton Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="abutters" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="exclusive"/>
+    <tag k="cycleway:left:width" v="1.25"/>
+    <tag k="cycleway:right:width" v="1.25"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG003605,RWG003606"/>
+    <nd ref="6800424769"/>
+    <nd ref="273784"/>
   </way>
   <way id="195361771" visible="true" version="9">
     <tag k="lit" v="yes"/>
