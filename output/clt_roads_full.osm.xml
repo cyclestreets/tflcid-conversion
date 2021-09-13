@@ -955,6 +955,7 @@
   <node id="1488975347" lat="51.3682793" lon="-0.3063448" version="4" visible="true"/>
   <node id="1692209245" lat="51.4364272" lon="-0.3542982" version="2" visible="true"/>
   <node id="7638981102" lat="51.5067979" lon="-0.1287023" version="2" visible="true"/>
+  <node id="9083299999" lat="51.5490337" lon="-0.4821002" version="1" visible="true"/>
   <node id="5840422714" lat="51.5513144" lon="-0.1569386" version="3" visible="true"/>
   <node id="71152630" lat="51.5105236" lon="-0.361923" version="7" visible="true"/>
   <node id="223077" lat="51.4901714" lon="0.0396722" version="10" visible="true"/>
@@ -14073,7 +14074,7 @@
     <nd ref="8902610938"/>
     <nd ref="130201928"/>
   </way>
-  <way id="4408648" visible="true" version="10">
+  <way id="4408648" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="name" v="High Street"/>
     <tag k="highway" v="residential"/>
@@ -14082,6 +14083,7 @@
     <tag k="tiger:upload_uuid" v="RWG237271"/>
     <nd ref="26974801"/>
     <nd ref="9077256248"/>
+    <nd ref="9083299999"/>
     <nd ref="9077960429"/>
     <nd ref="9077960431"/>
     <nd ref="9064251411"/>
@@ -18156,7 +18158,7 @@
     <nd ref="538075245"/>
     <nd ref="25503657"/>
   </way>
-  <way id="554186516" visible="true" version="9">
+  <way id="554186516" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Navarino Road"/>
     <tag k="oneway" v="yes"/>
@@ -18164,8 +18166,10 @@
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
+    <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG008814"/>
