@@ -1032,6 +1032,10 @@
   <node id="6023334485" lat="51.455517" lon="-0.1279238" version="2" visible="true"/>
   <node id="6023328083" lat="51.4555599" lon="-0.1279448" version="3" visible="true"/>
   <node id="6014302223" lat="51.51338" lon="-0.0767268" version="1" visible="true"/>
+  <node id="6006034179" lat="51.4639823" lon="-0.1308632" version="2" visible="true"/>
+  <node id="6006034176" lat="51.4640194" lon="-0.1308603" version="2" visible="true"/>
+  <node id="6006034175" lat="51.4640421" lon="-0.1308928" version="2" visible="true"/>
+  <node id="6006034172" lat="51.4640589" lon="-0.1309449" version="3" visible="true"/>
   <node id="6001787526" lat="51.4969977" lon="-0.1003531" version="3" visible="true"/>
   <node id="6001787523" lat="51.4968919" lon="-0.100223" version="2" visible="true"/>
   <node id="6001787522" lat="51.4970564" lon="-0.1003211" version="2" visible="true"/>
@@ -13677,6 +13681,18 @@
     <nd ref="287240317"/>
     <nd ref="6463354945"/>
     <nd ref="287240194"/>
+  </way>
+  <way id="636993580" visible="true" version="1">
+    <tag k="name" v="Aristotle Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG199674"/>
+    <nd ref="6006034172"/>
+    <nd ref="6006034175"/>
+    <nd ref="6006034176"/>
+    <nd ref="6006034179"/>
   </way>
   <way id="24725241" visible="true" version="17">
     <tag k="lit" v="yes"/>
