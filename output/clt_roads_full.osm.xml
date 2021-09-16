@@ -1320,7 +1320,7 @@
   <node id="1759040769" lat="51.5257927" lon="-0.1059071" version="3" visible="true"/>
   <node id="1759040734" lat="51.525623" lon="-0.1051538" version="4" visible="true"/>
   <node id="1448692429" lat="51.5804769" lon="0.1836602" version="3" visible="true"/>
-  <node id="107879" lat="51.5256659" lon="-0.1255204" version="11" visible="true"/>
+  <node id="107879" lat="51.5256751" lon="-0.1255298" version="12" visible="true"/>
   <node id="4931754286" lat="51.5439305" lon="-0.1402425" version="4" visible="true"/>
   <node id="18055438" lat="51.5212215" lon="-0.0641698" version="9" visible="true"/>
   <node id="348533385" lat="51.5553071" lon="0.0614511" version="10" visible="true"/>
@@ -1932,7 +1932,7 @@
   <node id="5172901229" lat="51.5880483" lon="-0.1130659" version="8" visible="true"/>
   <node id="5808279569" lat="51.5329631" lon="-0.0085907" version="5" visible="true"/>
   <node id="32636769" lat="51.5419792" lon="0.0040493" version="19" visible="true"/>
-  <node id="6960482506" lat="51.5257134" lon="-0.1253574" version="4" visible="true"/>
+  <node id="6960482506" lat="51.5257088" lon="-0.1253608" version="5" visible="true"/>
   <node id="1674025772" lat="51.5272059" lon="-0.183591" version="3" visible="true"/>
   <node id="6685632447" lat="51.3999742" lon="-0.0927102" version="1" visible="true"/>
   <node id="50918728" lat="51.5440272" lon="-0.0342023" version="21" visible="true"/>
@@ -4401,10 +4401,11 @@
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
   </node>
-  <node id="6309376830" lat="51.5333738" lon="-0.128589" version="2" visible="true">
+  <node id="6309376830" lat="51.5333738" lon="-0.128589" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="4565754128" lat="51.5319467" lon="-0.1275456" version="2" visible="true">
     <tag k="bus" v="yes"/>
@@ -4558,14 +4559,12 @@
     <tag k="tactile_paving" v="no"/>
     <tag k="button_operated" v="yes"/>
   </node>
-  <node id="2440633797" lat="51.5257034" lon="-0.1253992" version="6" visible="true">
-    <tag k="kerb" v="lowered"/>
+  <node id="8972731452" lat="51.5256981" lon="-0.1254168" version="5" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
-  </node>
-  <node id="8972731452" lat="51.5256996" lon="-0.1254116" version="1" visible="true">
-    <tag k="highway" v="crossing"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="6958636273" lat="51.5204722" lon="-0.1304377" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -17710,7 +17709,7 @@
     <nd ref="5006065040"/>
     <nd ref="5006063176"/>
   </way>
-  <way id="17513381" visible="true" version="23">
+  <way id="17513381" visible="true" version="24">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Tavistock Place"/>
     <tag k="lanes" v="1"/>
@@ -17725,7 +17724,6 @@
     <tag k="tiger:upload_uuid" v="RWG108333"/>
     <nd ref="107879"/>
     <nd ref="8972731452"/>
-    <nd ref="2440633797"/>
     <nd ref="6960482506"/>
   </way>
   <way id="674823272" visible="true" version="7">
