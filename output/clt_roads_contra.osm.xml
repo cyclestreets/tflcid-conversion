@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9106409685" lat="51.4743067" lon="-0.0146485" version="1" visible="true"/>
   <node id="9092918248" lat="51.5257248" lon="-0.1253187" version="1" visible="true"/>
   <node id="9092918246" lat="51.5257639" lon="-0.1255902" version="1" visible="true">
     <tag k="cycleway" v="asl"/>
@@ -160,7 +161,7 @@
     <tag k="crossing" v="unmarked"/>
   </node>
   <node id="8631944502" lat="51.5748686" lon="0.1236288" version="1" visible="true"/>
-  <node id="8630571765" lat="51.4742986" lon="-0.0147434" version="1" visible="true"/>
+  <node id="8630571765" lat="51.474284" lon="-0.0147612" version="2" visible="true"/>
   <node id="8630571764" lat="51.473821" lon="-0.0177398" version="1" visible="true"/>
   <node id="8630571763" lat="51.4738158" lon="-0.017806" version="1" visible="true"/>
   <node id="8623394531" lat="51.4314808" lon="-0.1721199" version="1" visible="true">
@@ -5403,13 +5404,14 @@
     <nd ref="2301118665"/>
     <nd ref="32546044"/>
   </way>
-  <way id="5027344" visible="true" version="12">
+  <way id="5027344" visible="true" version="13">
     <tag k="name" v="Guildford Grove"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG198654"/>
     <nd ref="243684167"/>
+    <nd ref="9106409685"/>
     <nd ref="8630571765"/>
     <nd ref="243865399"/>
     <nd ref="3202093"/>
