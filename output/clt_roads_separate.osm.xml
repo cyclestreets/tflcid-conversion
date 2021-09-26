@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9121310682" lat="51.4561293" lon="-0.0843706" version="1" visible="true"/>
+  <node id="9121310671" lat="51.4560037" lon="-0.0842842" version="1" visible="true"/>
   <node id="9092918248" lat="51.5257248" lon="-0.1253187" version="1" visible="true"/>
   <node id="9068783987" lat="51.5111023" lon="-0.0557504" version="1" visible="true"/>
   <node id="9068746510" lat="51.5111138" lon="-0.0563035" version="1" visible="true">
@@ -436,8 +438,7 @@
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="6111638096" lat="51.4003777" lon="-0.3045547" version="4" visible="true"/>
-  <node id="6101371383" lat="51.4564531" lon="-0.0845927" version="1" visible="true"/>
-  <node id="6101371382" lat="51.4565509" lon="-0.0846682" version="1" visible="true">
+  <node id="6101371382" lat="51.4565526" lon="-0.084689" version="2" visible="true">
     <tag k="foot" v="yes"/>
     <tag k="horse" v="yes"/>
     <tag k="barrier" v="bollard"/>
@@ -1456,9 +1457,9 @@
   <node id="35702021" lat="51.5110909" lon="-0.0547226" version="7" visible="true"/>
   <node id="35702016" lat="51.5111192" lon="-0.056496" version="9" visible="true"/>
   <node id="35537121" lat="51.3676498" lon="-0.1262605" version="8" visible="true"/>
-  <node id="35164019" lat="51.456327" lon="-0.0845046" version="3" visible="true"/>
+  <node id="35164019" lat="51.4562879" lon="-0.0844807" version="4" visible="true"/>
   <node id="35164017" lat="51.4561051" lon="-0.0843538" version="2" visible="true"/>
-  <node id="35164015" lat="51.4565071" lon="-0.0846139" version="3" visible="true"/>
+  <node id="35164015" lat="51.4564895" lon="-0.084598" version="4" visible="true"/>
   <node id="33717254" lat="51.3614661" lon="-0.1484665" version="2" visible="true"/>
   <node id="33717239" lat="51.3615126" lon="-0.1481966" version="3" visible="true"/>
   <node id="33672998" lat="51.5010325" lon="-0.1105832" version="7" visible="true"/>
@@ -5747,7 +5748,7 @@
     <nd ref="7887305758"/>
     <nd ref="5115338566"/>
   </way>
-  <way id="5045842" visible="true" version="17">
+  <way id="5045842" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Green Dale"/>
     <tag k="bicycle" v="yes"/>
@@ -5758,10 +5759,11 @@
     <tag k="tiger:upload_uuid" v="RWG107455"/>
     <nd ref="6101371382"/>
     <nd ref="35164015"/>
-    <nd ref="6101371383"/>
     <nd ref="35164019"/>
+    <nd ref="9121310682"/>
     <nd ref="35164017"/>
     <nd ref="7887305759"/>
+    <nd ref="9121310671"/>
     <nd ref="6069524533"/>
   </way>
   <way id="965628477" visible="true" version="1">
