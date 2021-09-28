@@ -1622,7 +1622,7 @@
   <node id="3882252360" lat="51.4448854" lon="-0.0009994" version="2" visible="true"/>
   <node id="3882252359" lat="51.4449256" lon="0.0012681" version="2" visible="true"/>
   <node id="3882252358" lat="51.445271" lon="0.0001172" version="2" visible="true"/>
-  <node id="3865505306" lat="51.4994695" lon="-0.2202818" version="2" visible="true"/>
+  <node id="3865505306" lat="51.4994706" lon="-0.2202833" version="3" visible="true"/>
   <node id="3865505305" lat="51.4994495" lon="-0.2203239" version="2" visible="true"/>
   <node id="3865505304" lat="51.499437" lon="-0.2203358" version="2" visible="true">
     <tag k="highway" v="crossing"/>
@@ -1820,12 +1820,13 @@
   <node id="2990806410" lat="51.516939" lon="-0.0939778" version="3" visible="true"/>
   <node id="2990780039" lat="51.516765" lon="-0.094077" version="1" visible="true"/>
   <node id="2990780037" lat="51.5167226" lon="-0.0939243" version="2" visible="true"/>
-  <node id="2963402599" lat="51.528329" lon="-0.1278332" version="4" visible="true">
+  <node id="2963402599" lat="51.528329" lon="-0.1278332" version="5" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
   </node>
   <node id="2963402598" lat="51.5282959" lon="-0.1278026" version="3" visible="true">
     <tag k="cycleway" v="asl"/>
