@@ -112,9 +112,11 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="8518294522" lat="51.5351085" lon="-0.1316035" version="2" visible="true"/>
-  <node id="8513946919" lat="51.5203443" lon="-0.0536129" version="1" visible="true">
+  <node id="8513946919" lat="51.5203443" lon="-0.0536129" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="marked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="8474048117" lat="51.5583855" lon="-0.0071227" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>

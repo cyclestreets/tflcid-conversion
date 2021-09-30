@@ -1131,11 +1131,11 @@
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG271319"/>
   </node>
-  <node id="304745879" lat="51.5210978" lon="-0.2819526" visible="true" version="4">
+  <node id="234239" lat="51.5211583" lon="-0.2818385" visible="true" version="3">
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG271319"/>
   </node>
-  <node id="234239" lat="51.5211583" lon="-0.2818385" visible="true" version="3">
+  <node id="304745879" lat="51.5211245" lon="-0.281911" visible="true" version="5">
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG271319"/>
   </node>
@@ -1293,7 +1293,7 @@
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG269109"/>
   </node>
-  <node id="68385377" lat="51.5090846" lon="-0.2615968" visible="true" version="9">
+  <node id="68385377" lat="51.5091046" lon="-0.2615418" visible="true" version="10">
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG272004"/>
   </node>
@@ -2384,9 +2384,13 @@
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG231194"/>
   </node>
-  <node id="224809" lat="51.5129991" lon="-0.3062012" visible="true" version="7">
+  <node id="224809" lat="51.5129991" lon="-0.3062012" visible="true" version="8">
+    <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG293221"/>
   </node>

@@ -1707,6 +1707,7 @@
   <node id="33102027" lat="51.5640755" lon="-0.0411972" version="11" visible="true"/>
   <node id="1688800452" lat="51.385048" lon="-0.1908121" version="3" visible="true"/>
   <node id="4077495858" lat="51.5170008" lon="-0.1041485" version="3" visible="true"/>
+  <node id="9129323859" lat="51.4988485" lon="-0.1025766" version="1" visible="true"/>
   <node id="6813224191" lat="51.6150264" lon="-0.1096487" version="3" visible="true"/>
   <node id="2133388815" lat="51.5778868" lon="0.176967" version="3" visible="true"/>
   <node id="2622866776" lat="51.4106502" lon="-0.2957767" version="4" visible="true"/>
@@ -1852,7 +1853,7 @@
   <node id="3696361" lat="51.4794615" lon="0.026146" version="14" visible="true"/>
   <node id="3749192782" lat="51.3229001" lon="-0.1352154" version="1" visible="true"/>
   <node id="54073742" lat="51.5375216" lon="-0.1519946" version="3" visible="true"/>
-  <node id="90223106" lat="51.4954772" lon="-0.1156055" version="8" visible="true"/>
+  <node id="90223106" lat="51.4954857" lon="-0.1155607" version="9" visible="true"/>
   <node id="99301644" lat="51.475224" lon="-0.0390221" version="5" visible="true"/>
   <node id="7805128680" lat="51.5880219" lon="-0.1131517" version="1" visible="true"/>
   <node id="6749987013" lat="51.5003597" lon="-0.2359427" version="3" visible="true"/>
@@ -1995,6 +1996,7 @@
   <node id="5972141968" lat="51.4930402" lon="-0.0841447" version="3" visible="true"/>
   <node id="6271893657" lat="51.640418" lon="-0.0794367" version="4" visible="true"/>
   <node id="8086362587" lat="51.6431002" lon="-0.0801347" version="1" visible="true"/>
+  <node id="9129613257" lat="51.4927238" lon="-0.0944857" version="1" visible="true"/>
   <node id="36491620" lat="51.5339521" lon="-0.3286697" version="4" visible="true"/>
   <node id="6880053761" lat="51.4989959" lon="-0.1006695" version="1" visible="true"/>
   <node id="65139958" lat="51.5955849" lon="-0.3586446" version="4" visible="true"/>
@@ -2290,7 +2292,7 @@
   <node id="477280302" lat="51.4989116" lon="0.0057892" version="5" visible="true"/>
   <node id="5179866175" lat="51.5886628" lon="-0.1112652" version="3" visible="true"/>
   <node id="8975071636" lat="51.5251048" lon="-0.0341863" version="1" visible="true"/>
-  <node id="26635011" lat="51.5893621" lon="-0.0761313" version="2" visible="true"/>
+  <node id="26635011" lat="51.5893696" lon="-0.0761675" version="3" visible="true"/>
   <node id="7621138137" lat="51.5001818" lon="-0.1111923" version="1" visible="true"/>
   <node id="33002424" lat="51.447596" lon="-0.0854975" version="8" visible="true"/>
   <node id="25894846" lat="51.5855363" lon="0.1727997" version="2" visible="true"/>
@@ -2746,6 +2748,7 @@
   <node id="8263157414" lat="51.5141639" lon="-0.1090273" version="2" visible="true"/>
   <node id="683234910" lat="51.4506472" lon="-0.331506" version="4" visible="true"/>
   <node id="7644727396" lat="51.6554435" lon="-0.0479237" version="1" visible="true"/>
+  <node id="9129590506" lat="51.4923133" lon="-0.0962365" version="1" visible="true"/>
   <node id="1647370287" lat="51.5734607" lon="0.0236024" version="5" visible="true"/>
   <node id="6171748065" lat="51.5272388" lon="-0.1836922" version="3" visible="true"/>
   <node id="3785986518" lat="51.4793678" lon="0.0247427" version="3" visible="true"/>
@@ -4423,10 +4426,11 @@
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
   </node>
-  <node id="6309376830" lat="51.5333738" lon="-0.128589" version="3" visible="true">
+  <node id="6309376830" lat="51.5333738" lon="-0.128589" version="4" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
   </node>
   <node id="4565754128" lat="51.5319467" lon="-0.1275456" version="2" visible="true">
@@ -9829,7 +9833,7 @@
     <nd ref="3399027029"/>
     <nd ref="5969776820"/>
   </way>
-  <way id="883599635" visible="true" version="3">
+  <way id="883599635" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -9839,6 +9843,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:left:oneway" v="no"/>
     <tag k="cycleway:right" v="lane"/>
@@ -10141,7 +10146,7 @@
     <nd ref="36163040"/>
     <nd ref="36163048"/>
   </way>
-  <way id="4485858" visible="true" version="15">
+  <way id="4485858" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -10151,6 +10156,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="cycleway" v="lane"/>
@@ -10174,7 +10180,7 @@
     <nd ref="5747881426"/>
     <nd ref="5747881427"/>
   </way>
-  <way id="883599633" visible="true" version="3">
+  <way id="883599633" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -10183,6 +10189,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG184737"/>
@@ -10221,13 +10228,15 @@
     <nd ref="3696380"/>
     <nd ref="90090299"/>
   </way>
-  <way id="850687686" visible="true" version="3">
+  <way id="850687686" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG184863"/>
@@ -10294,15 +10303,17 @@
     <nd ref="383426004"/>
     <nd ref="35963111"/>
   </way>
-  <way id="51817235" visible="true" version="9">
+  <way id="51817235" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG184735,RWG290287"/>
@@ -10569,7 +10580,7 @@
     <nd ref="5746403628"/>
     <nd ref="5746403625"/>
   </way>
-  <way id="374915465" visible="true" version="5">
+  <way id="374915465" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -10579,6 +10590,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="maxheight" v="4.8"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway:left:oneway" v="no"/>
     <tag k="cycleway" v="lane"/>
@@ -10587,7 +10599,7 @@
     <nd ref="3698514"/>
     <nd ref="3782984850"/>
   </way>
-  <way id="883599638" visible="true" version="3">
+  <way id="883599638" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -10597,6 +10609,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway:left:oneway" v="no"/>
@@ -10608,7 +10621,7 @@
     <nd ref="3698522"/>
     <nd ref="3785917949"/>
   </way>
-  <way id="887378549" visible="true" version="1">
+  <way id="887378549" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -10618,6 +10631,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:left:oneway" v="no"/>
@@ -10719,7 +10733,7 @@
     <nd ref="4617106068"/>
     <nd ref="8797033719"/>
   </way>
-  <way id="934521049" visible="true" version="1">
+  <way id="934521049" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -10728,6 +10742,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:left:oneway" v="no"/>
     <tag k="cycleway" v="lane"/>
@@ -11234,7 +11249,7 @@
     <nd ref="4760757344"/>
     <nd ref="4760757345"/>
   </way>
-  <way id="883599626" visible="true" version="2">
+  <way id="883599626" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -11243,6 +11258,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway" v="lane"/>
@@ -11251,7 +11267,7 @@
     <nd ref="7124520010"/>
     <nd ref="3697236"/>
   </way>
-  <way id="883599624" visible="true" version="3">
+  <way id="883599624" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -11260,6 +11276,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG290288"/>
@@ -11267,7 +11284,7 @@
     <nd ref="4726869385"/>
     <nd ref="8217861822"/>
   </way>
-  <way id="883599634" visible="true" version="2">
+  <way id="883599634" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -11276,6 +11293,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway" v="lane"/>
@@ -22365,7 +22383,7 @@
     <nd ref="5840176860"/>
     <nd ref="7958025214"/>
   </way>
-  <way id="675463241" visible="true" version="5">
+  <way id="675463241" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Heygate Street"/>
     <tag k="highway" v="tertiary"/>
@@ -22375,11 +22393,13 @@
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG082173"/>
     <nd ref="6325661726"/>
+    <nd ref="9129613257"/>
     <nd ref="8199117750"/>
     <nd ref="2547277095"/>
     <nd ref="4940077266"/>
     <nd ref="6325922691"/>
     <nd ref="2547277098"/>
+    <nd ref="9129590506"/>
     <nd ref="295317284"/>
     <nd ref="7198990255"/>
     <nd ref="4523191656"/>
@@ -22723,7 +22743,7 @@
     <nd ref="6880053745"/>
     <nd ref="6880053742"/>
   </way>
-  <way id="734642862" visible="true" version="3">
+  <way id="734642862" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3202"/>
     <tag k="name" v="Borough Road"/>
@@ -22737,6 +22757,7 @@
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG082346,RWG082352"/>
     <nd ref="730857285"/>
+    <nd ref="9129323859"/>
     <nd ref="6880053723"/>
     <nd ref="6880053745"/>
   </way>
