@@ -488,6 +488,7 @@
   <node id="1243387959" lat="51.540716" lon="-0.1249975" version="1" visible="true"/>
   <node id="5941807860" lat="51.4073271" lon="-0.1921777" version="4" visible="true"/>
   <node id="4100397982" lat="51.4515624" lon="0.0666999" version="4" visible="true"/>
+  <node id="9147202488" lat="51.5192367" lon="-0.1212721" version="1" visible="true"/>
   <node id="6997611414" lat="51.4980038" lon="-0.0545125" version="1" visible="true"/>
   <node id="6765322347" lat="51.4105654" lon="-0.2274876" version="1" visible="true"/>
   <node id="1448684233" lat="51.579981" lon="0.1787517" version="3" visible="true"/>
@@ -2502,6 +2503,7 @@
   <node id="8011192975" lat="51.5307948" lon="-0.1016118" version="1" visible="true"/>
   <node id="8919037561" lat="51.5345816" lon="-0.006306" version="1" visible="true"/>
   <node id="90108064" lat="51.4875218" lon="0.0289969" version="4" visible="true"/>
+  <node id="9147202490" lat="51.5192488" lon="-0.1212882" version="1" visible="true"/>
   <node id="1954751918" lat="51.5194028" lon="-0.0971444" version="4" visible="true"/>
   <node id="454494880" lat="51.414869" lon="-0.1617229" version="3" visible="true"/>
   <node id="1702271287" lat="51.4656456" lon="-0.2142763" version="8" visible="true"/>
@@ -4653,6 +4655,10 @@
   <node id="8225133403" lat="51.5213162" lon="-0.1313595" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
+  </node>
+  <node id="2117444174" lat="51.5191883" lon="-0.1211802" version="5" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="8225133400" lat="51.517665" lon="-0.1275179" version="2" visible="true">
     <tag k="cycleway" v="asl"/>
@@ -16547,6 +16553,23 @@
     <nd ref="5184854306"/>
     <nd ref="251336156"/>
     <nd ref="25500407"/>
+  </way>
+  <way id="989775521" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A4200"/>
+    <tag k="name" v="Southampton Row"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary_link"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG066347"/>
+    <nd ref="9147202490"/>
+    <nd ref="9147202488"/>
+    <nd ref="2117444174"/>
   </way>
   <way id="405404511" visible="true" version="10">
     <tag k="lit" v="yes"/>
