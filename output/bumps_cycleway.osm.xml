@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9150269567" lat="51.485196" lon="-0.1157552" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
   <node id="9036695945" lat="51.5155401" lon="-0.10481" version="1" visible="true"/>
   <node id="8952708200" lat="51.4957398" lon="-0.1002261" version="1" visible="true"/>
   <node id="8936830371" lat="51.495743" lon="-0.1002982" version="2" visible="true">
@@ -1501,7 +1505,7 @@
     <nd ref="-352"/>
     <nd ref="246846403"/>
   </way>
-  <way id="859726277" visible="true" version="2">
+  <way id="859726277" visible="true" version="3">
     <tag k="highway" v="cycleway"/>
     <tag k="lit" v="yes"/>
     <tag k="note" v="semi-segregated, alternating ever 50 yards or so between concrete kerb + wands, and paint + 'orcas'"/>
@@ -1510,6 +1514,7 @@
     <nd ref="8013559885"/>
     <nd ref="8013559894"/>
     <nd ref="8013559893"/>
+    <nd ref="9150269567"/>
     <nd ref="8013559897"/>
     <nd ref="8013559892"/>
     <nd ref="8013559891"/>
