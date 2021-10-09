@@ -106,7 +106,7 @@
   <node id="9044166963" lat="51.5577078" lon="-0.2820656" version="1" visible="true"/>
   <node id="3519181426" lat="51.5184396" lon="-0.1282467" version="6" visible="true"/>
   <node id="225155" lat="51.5090208" lon="-0.3478413" version="5" visible="true"/>
-  <node id="110087778" lat="51.4843404" lon="-0.1246239" version="10" visible="true"/>
+  <node id="110087778" lat="51.4843417" lon="-0.1246259" version="11" visible="true"/>
   <node id="3045448340" lat="51.3853518" lon="-0.2526072" version="3" visible="true"/>
   <node id="3267209950" lat="51.5077671" lon="-0.4726358" version="1" visible="true"/>
   <node id="1502785421" lat="51.5022873" lon="-0.1567389" version="6" visible="true"/>
@@ -817,7 +817,7 @@
   <node id="8865878650" lat="51.5264565" lon="0.1258303" version="1" visible="true"/>
   <node id="454546056" lat="51.5950827" lon="0.1452927" version="4" visible="true"/>
   <node id="993228047" lat="51.528958" lon="-0.2498988" version="2" visible="true"/>
-  <node id="33229064" lat="51.4843315" lon="-0.1239813" version="6" visible="true"/>
+  <node id="33229064" lat="51.4843307" lon="-0.1239939" version="7" visible="true"/>
   <node id="53330841" lat="51.5886114" lon="-0.0728946" version="2" visible="true"/>
   <node id="3782984850" lat="51.4867378" lon="0.0197673" version="5" visible="true"/>
   <node id="25676494" lat="51.5077286" lon="-0.4727344" version="7" visible="true"/>
@@ -2641,6 +2641,7 @@
   <node id="25481208" lat="51.5275262" lon="-0.0935657" version="7" visible="true"/>
   <node id="5367351990" lat="51.4128734" lon="-0.2886863" version="2" visible="true"/>
   <node id="250751336" lat="51.4462366" lon="0.1557008" version="5" visible="true"/>
+  <node id="900940478" lat="51.5423739" lon="-0.0766254" version="5" visible="true"/>
   <node id="4454358577" lat="51.4728099" lon="-0.122024" version="5" visible="true"/>
   <node id="8436204421" lat="51.4857374" lon="-0.0346129" version="1" visible="true"/>
   <node id="629250" lat="51.4785337" lon="-0.0229951" version="3" visible="true"/>
@@ -3147,6 +3148,8 @@
   <node id="5291254941" lat="51.5853325" lon="0.1729134" version="3" visible="true"/>
   <node id="8084647577" lat="51.635974" lon="-0.0876325" version="1" visible="true"/>
   <node id="1990708542" lat="51.5464298" lon="-0.081037" version="5" visible="true"/>
+  <node id="4913835153" lat="51.5423956" lon="-0.0769005" version="1" visible="true"/>
+  <node id="4006578714" lat="51.5423743" lon="-0.075719" version="1" visible="true"/>
   <node id="1964415372" lat="51.5276966" lon="-0.0919781" version="2" visible="true"/>
   <node id="3247619637" lat="51.5004351" lon="-0.1153371" version="3" visible="true"/>
   <node id="261718847" lat="51.4593944" lon="-0.1902355" version="8" visible="true"/>
@@ -4104,6 +4107,14 @@
     <tag k="crossing_ref" v="pelican"/>
   </node>
   <node id="6388354558" lat="51.5270752" lon="-0.0590703" version="3" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="4006578713" lat="51.5423763" lon="-0.0758686" version="3" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
+  <node id="7833019509" lat="51.5423682" lon="-0.076547" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
@@ -14960,7 +14971,7 @@
     <nd ref="8279030906"/>
     <nd ref="384795824"/>
   </way>
-  <way id="890780293" visible="true" version="1">
+  <way id="890780293" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B153"/>
     <tag k="foot" v="yes"/>
@@ -14968,6 +14979,7 @@
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
@@ -15053,7 +15065,7 @@
     <nd ref="5638790121"/>
     <nd ref="25422236"/>
   </way>
-  <way id="890780288" visible="true" version="1">
+  <way id="890780288" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B153"/>
     <tag k="foot" v="yes"/>
@@ -15061,6 +15073,7 @@
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
@@ -15069,7 +15082,7 @@
     <nd ref="11728437"/>
     <nd ref="8279054556"/>
   </way>
-  <way id="890780270" visible="true" version="1">
+  <way id="890780270" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B153"/>
     <tag k="foot" v="yes"/>
@@ -15077,6 +15090,7 @@
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG279113"/>
@@ -15084,7 +15098,7 @@
     <nd ref="53330841"/>
     <nd ref="26635387"/>
   </way>
-  <way id="890780273" visible="true" version="1">
+  <way id="890780273" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B153"/>
     <tag k="foot" v="yes"/>
@@ -15092,6 +15106,7 @@
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="track"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
@@ -15208,7 +15223,7 @@
     <nd ref="5529513331"/>
     <nd ref="279656"/>
   </way>
-  <way id="664044483" visible="true" version="4">
+  <way id="664044483" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Gayton Road"/>
     <tag k="lanes" v="2"/>
@@ -15216,9 +15231,9 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG274970"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG274972,RWG274970"/>
     <nd ref="106189381"/>
     <nd ref="6215339757"/>
     <nd ref="106189383"/>
@@ -15757,7 +15772,7 @@
     <nd ref="2328642442"/>
     <nd ref="1936700412"/>
   </way>
-  <way id="890780289" visible="true" version="1">
+  <way id="890780289" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B153"/>
     <tag k="foot" v="yes"/>
@@ -15765,6 +15780,7 @@
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
@@ -15773,7 +15789,7 @@
     <nd ref="26635011"/>
     <nd ref="8279054423"/>
   </way>
-  <way id="890780286" visible="true" version="1">
+  <way id="890780286" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B153"/>
     <tag k="foot" v="yes"/>
@@ -15781,6 +15797,7 @@
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="track"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
@@ -16429,13 +16446,14 @@
     <nd ref="8948860052"/>
     <nd ref="658185"/>
   </way>
-  <way id="959607649" visible="true" version="1">
+  <way id="959607649" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Goods Way"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="wikidata" v="Q64225415"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
@@ -17537,6 +17555,23 @@
     <nd ref="6250491144"/>
     <nd ref="6355365939"/>
   </way>
+  <way id="839400071" visible="true" version="2">
+    <tag k="hgv" v="destination"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Englefield Road"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="abutters" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="maxweight" v="7.5"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG150949"/>
+    <nd ref="4913835153"/>
+    <nd ref="900940478"/>
+    <nd ref="7833019509"/>
+  </way>
   <way id="252610470" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3211"/>
@@ -18072,6 +18107,19 @@
     <tag k="tiger:upload_uuid" v="RWG066261"/>
     <nd ref="3850146457"/>
     <nd ref="7644741351"/>
+  </way>
+  <way id="235063379" visible="true" version="7">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Richmond Road"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG042380"/>
+    <nd ref="4006578713"/>
+    <nd ref="4006578714"/>
   </way>
   <way id="414225409" visible="true" version="4">
     <tag k="lit" v="yes"/>
@@ -23535,12 +23583,13 @@
     <nd ref="7602731086"/>
     <nd ref="53847568"/>
   </way>
-  <way id="558646402" visible="true" version="3">
+  <way id="558646402" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B241"/>
     <tag k="name" v="Rectory Lane"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="secondary"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG110003,RWG110004"/>
     <nd ref="43403631"/>
@@ -24218,11 +24267,12 @@
     <nd ref="4894875391"/>
     <nd ref="30737627"/>
   </way>
-  <way id="558646405" visible="true" version="1">
+  <way id="558646405" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B241"/>
     <tag k="name" v="Rectory Lane"/>
     <tag k="highway" v="secondary"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG110004"/>
     <nd ref="43414138"/>
