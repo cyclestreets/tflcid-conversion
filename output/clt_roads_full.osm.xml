@@ -1348,6 +1348,7 @@
   <node id="56435242" lat="51.548554" lon="-0.0918124" version="9" visible="true"/>
   <node id="566757736" lat="51.4500393" lon="-0.3307764" version="3" visible="true"/>
   <node id="13823700" lat="51.4739274" lon="-0.0644567" version="9" visible="true"/>
+  <node id="9162679182" lat="51.4645408" lon="0.0947421" version="1" visible="true"/>
   <node id="3745660639" lat="51.5723728" lon="-0.0679835" version="4" visible="true"/>
   <node id="460947524" lat="51.5741259" lon="-0.0865262" version="8" visible="true"/>
   <node id="7427896146" lat="51.5721273" lon="-0.0199322" version="1" visible="true"/>
@@ -3256,7 +3257,6 @@
   <node id="8915067738" lat="51.437454" lon="-0.3313422" version="1" visible="true"/>
   <node id="4986024987" lat="51.5209442" lon="-0.1388931" version="1" visible="true"/>
   <node id="6824106646" lat="51.4002473" lon="-0.196559" version="1" visible="true"/>
-  <node id="35963111" lat="51.4645407" lon="0.0947566" version="5" visible="true"/>
   <node id="4414000545" lat="51.4932343" lon="-0.047145" version="3" visible="true"/>
   <node id="7124520010" lat="51.4875762" lon="0.0289299" version="2" visible="true"/>
   <node id="245173" lat="51.5724094" lon="-0.0681219" version="9" visible="true"/>
@@ -3453,6 +3453,10 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="crossing:island" v="yes"/>
+  </node>
+  <node id="9162667915" lat="51.4645756" lon="0.0945446" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
   </node>
   <node id="6021217840" lat="51.4653278" lon="0.0899348" version="4" visible="true">
     <tag k="highway" v="crossing"/>
@@ -8695,14 +8699,18 @@
     <nd ref="1416542577"/>
     <nd ref="8998930765"/>
   </way>
-  <way id="535420473" visible="true" version="5">
+  <way id="535420473" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A117"/>
     <tag k="name" v="Forest Drive"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="postal_code" v="E12"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="exclusive"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG155371"/>
     <nd ref="6593922088"/>
@@ -10395,7 +10403,7 @@
     <nd ref="150608628"/>
     <nd ref="150608147"/>
   </way>
-  <way id="4352350" visible="true" version="13">
+  <way id="4352350" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A207"/>
     <tag k="name" v="Bellegrove Road"/>
@@ -10411,7 +10419,8 @@
     <nd ref="9152716758"/>
     <nd ref="383426004"/>
     <nd ref="9152716762"/>
-    <nd ref="35963111"/>
+    <nd ref="9162667915"/>
+    <nd ref="9162679182"/>
   </way>
   <way id="51817235" visible="true" version="10">
     <tag k="lit" v="yes"/>
