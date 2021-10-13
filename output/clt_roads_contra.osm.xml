@@ -1202,10 +1202,11 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
   </node>
-  <node id="5683492726" lat="51.5251847" lon="-0.0907293" version="2" visible="true">
+  <node id="5683492726" lat="51.5251847" lon="-0.0907293" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="5675464306" lat="51.5446344" lon="0.0034304" version="1" visible="true"/>
   <node id="5675464291" lat="51.5447154" lon="0.0041453" version="2" visible="true"/>
@@ -1753,10 +1754,11 @@
   <node id="3089162049" lat="51.5806553" lon="0.1274882" version="2" visible="true"/>
   <node id="3086399831" lat="51.5104898" lon="-0.3136089" version="3" visible="true"/>
   <node id="3086399829" lat="51.51045" lon="-0.3138377" version="8" visible="true"/>
-  <node id="3085109097" lat="51.5274133" lon="-0.1107781" version="2" visible="true">
+  <node id="3085109097" lat="51.5274133" lon="-0.1107781" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="3085109095" lat="51.5270583" lon="-0.1114884" version="1" visible="true"/>
   <node id="3085109094" lat="51.5270358" lon="-0.1115287" version="1" visible="true"/>
@@ -4369,7 +4371,8 @@
     <nd ref="671697215"/>
     <nd ref="28829399"/>
   </way>
-  <way id="758104832" visible="true" version="1">
+  <way id="758104832" visible="true" version="2">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Temple Sheen Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -11372,11 +11375,12 @@
     <nd ref="687158192"/>
     <nd ref="25894199"/>
   </way>
-  <way id="166490649" visible="true" version="17">
+  <way id="166490649" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Margery Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
@@ -11387,11 +11391,12 @@
     <nd ref="2482365802"/>
     <nd ref="10703290"/>
   </way>
-  <way id="166490649" visible="true" version="17">
+  <way id="166490649" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Margery Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
@@ -11402,11 +11407,12 @@
     <nd ref="2482365802"/>
     <nd ref="10703290"/>
   </way>
-  <way id="166490649" visible="true" version="17">
+  <way id="166490649" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Margery Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
@@ -11417,11 +11423,12 @@
     <nd ref="2482365802"/>
     <nd ref="10703290"/>
   </way>
-  <way id="166490649" visible="true" version="17">
+  <way id="166490649" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Margery Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
@@ -13795,9 +13802,10 @@
     <nd ref="3049542535"/>
     <nd ref="5802408633"/>
   </way>
-  <way id="70241074" visible="true" version="11">
+  <way id="70241074" visible="true" version="12">
     <tag k="name" v="Frazier Street"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="traffic_calming" v="table"/>
     <tag k="cycleway:right" v="lane"/>
