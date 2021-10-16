@@ -1,6 +1,12 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
-  <node id="9167809448" lat="51.5160007" lon="-0.0699124" version="1" visible="true">
+  <node id="9170878018" lat="51.5909473" lon="0.2098292" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="9170849310" lat="51.5907292" lon="0.2095108" version="1" visible="true"/>
+  <node id="9170633757" lat="51.5208708" lon="-0.0509116" version="1" visible="true"/>
+  <node id="9167809448" lat="51.5159763" lon="-0.0699557" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="forward"/>
@@ -861,11 +867,16 @@
   </node>
   <node id="2837762803" lat="51.5027193" lon="-0.1586119" version="5" visible="true"/>
   <node id="2837762802" lat="51.5026144" lon="-0.1599952" version="3" visible="true"/>
-  <node id="2830429041" lat="51.4841953" lon="-0.1171725" version="5" visible="true">
+  <node id="2830429041" lat="51.4841953" lon="-0.1171725" version="10" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
   </node>
   <node id="2830429040" lat="51.48442" lon="-0.1177205" version="4" visible="true"/>
   <node id="2780691954" lat="51.5264832" lon="-0.1078855" version="2" visible="true"/>
@@ -1029,7 +1040,7 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
   </node>
-  <node id="2282295838" lat="51.5160398" lon="-0.0698288" version="6" visible="true"/>
+  <node id="2282295838" lat="51.5160047" lon="-0.0699123" version="7" visible="true"/>
   <node id="2211033268" lat="51.4816763" lon="-0.1111499" version="5" visible="true"/>
   <node id="2211033266" lat="51.4818254" lon="-0.111251" version="4" visible="true"/>
   <node id="2211033263" lat="51.4819349" lon="-0.1113256" version="5" visible="true"/>
@@ -1261,9 +1272,10 @@
   </node>
   <node id="740384613" lat="51.5009303" lon="-0.1261451" version="10" visible="true"/>
   <node id="740384609" lat="51.5009795" lon="-0.1264043" version="13" visible="true"/>
-  <node id="737071850" lat="51.484749" lon="-0.11859" version="5" visible="true">
+  <node id="737071850" lat="51.484749" lon="-0.11859" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="735391283" lat="51.5021844" lon="-0.1704078" version="9" visible="true">
     <tag k="highway" v="crossing"/>
@@ -1499,12 +1511,15 @@
   <node id="28792233" lat="51.5204498" lon="-0.0530431" version="8" visible="true"/>
   <node id="28792184" lat="51.5202633" lon="-0.0540256" version="13" visible="true"/>
   <node id="27650338" lat="51.520706" lon="-0.0516741" version="14" visible="true"/>
+  <node id="27480767" lat="51.5899079" lon="0.2085989" version="4" visible="true"/>
   <node id="27477192" lat="51.5131125" lon="-0.296937" version="10" visible="true"/>
   <node id="27227436" lat="51.4131357" lon="-0.3006054" version="7" visible="true"/>
   <node id="26005299" lat="51.6357901" lon="-0.0915787" version="7" visible="true"/>
   <node id="25973082" lat="51.6341163" lon="-0.0941499" version="8" visible="true"/>
   <node id="25973080" lat="51.6336117" lon="-0.0943006" version="8" visible="true"/>
   <node id="25972575" lat="51.6354143" lon="-0.0921217" version="6" visible="true"/>
+  <node id="25894032" lat="51.590457" lon="0.2091842" version="4" visible="true"/>
+  <node id="25894030" lat="51.591032" lon="0.2099528" version="5" visible="true"/>
   <node id="25789578" lat="51.5077149" lon="-0.3257573" version="3" visible="true"/>
   <node id="25789574" lat="51.5079075" lon="-0.3254137" version="4" visible="true"/>
   <node id="25789569" lat="51.5080231" lon="-0.3248062" version="4" visible="true"/>
@@ -1602,7 +1617,7 @@
   <node id="106969" lat="51.5110327" lon="-0.0609917" version="11" visible="true"/>
   <node id="106940" lat="51.5115598" lon="-0.0436059" version="6" visible="true"/>
   <node id="106935" lat="51.5115239" lon="-0.044266" version="7" visible="true"/>
-  <node id="106801" lat="51.5210643" lon="-0.0500437" version="16" visible="true"/>
+  <node id="106801" lat="51.521063" lon="-0.0500316" version="17" visible="true"/>
   <node id="104387" lat="51.5006999" lon="-0.1177675" version="11" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
@@ -1957,6 +1972,21 @@
     <nd ref="6696588104"/>
     <nd ref="1382081346"/>
     <nd ref="1382081319"/>
+  </way>
+  <way id="992608475" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A118"/>
+    <tag k="name" v="Main Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="tiger:upload_uuid" v="RWG151119"/>
+    <nd ref="27480767"/>
+    <nd ref="25894032"/>
+    <nd ref="9170849310"/>
+    <nd ref="9170878018"/>
+    <nd ref="25894030"/>
   </way>
   <way id="183126002" visible="true" version="7">
     <tag k="lit" v="yes"/>
@@ -5555,7 +5585,7 @@
     <nd ref="319635941"/>
     <nd ref="108702"/>
   </way>
-  <way id="37136556" visible="true" version="28">
+  <way id="37136556" visible="true" version="29">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
@@ -5581,10 +5611,11 @@
     <nd ref="6802262392"/>
     <nd ref="96222378"/>
     <nd ref="27650338"/>
+    <nd ref="9170633757"/>
     <nd ref="4516549643"/>
     <nd ref="6632005507"/>
   </way>
-  <way id="37136556" visible="true" version="28">
+  <way id="37136556" visible="true" version="29">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
@@ -5610,6 +5641,7 @@
     <nd ref="6802262392"/>
     <nd ref="96222378"/>
     <nd ref="27650338"/>
+    <nd ref="9170633757"/>
     <nd ref="4516549643"/>
     <nd ref="6632005507"/>
   </way>

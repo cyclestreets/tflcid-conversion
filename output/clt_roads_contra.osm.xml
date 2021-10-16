@@ -115,9 +115,11 @@
   <node id="8916324411" lat="51.4311454" lon="0.0679642" version="1" visible="true"/>
   <node id="8916324372" lat="51.4312625" lon="0.0680706" version="1" visible="true"/>
   <node id="8881479138" lat="51.5317646" lon="-0.1041538" version="1" visible="true"/>
-  <node id="8878568156" lat="51.5441341" lon="-0.0759115" version="1" visible="true">
+  <node id="8878568156" lat="51.5441341" lon="-0.0759115" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="8870787693" lat="51.4475156" lon="-0.3286675" version="1" visible="true">
     <tag k="highway" v="give_way"/>
@@ -1097,7 +1099,7 @@
   <node id="5933107517" lat="51.5245988" lon="-0.0904949" version="3" visible="true"/>
   <node id="5932899704" lat="51.5138895" lon="-0.1294857" version="4" visible="true"/>
   <node id="5932899702" lat="51.5138014" lon="-0.1294347" version="4" visible="true"/>
-  <node id="5932899700" lat="51.513942" lon="-0.1295157" version="4" visible="true"/>
+  <node id="5932899700" lat="51.513942" lon="-0.1294989" version="5" visible="true"/>
   <node id="5932875003" lat="51.5126265" lon="-0.1315974" version="1" visible="true"/>
   <node id="5932856692" lat="51.5128328" lon="-0.1310641" version="1" visible="true"/>
   <node id="5932856691" lat="51.5129163" lon="-0.1308175" version="2" visible="true"/>
@@ -8782,7 +8784,7 @@
     <nd ref="1651916584"/>
     <nd ref="2592872592"/>
   </way>
-  <way id="446885216" visible="true" version="11">
+  <way id="446885216" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chatham Place"/>
     <tag k="lanes" v="1"/>
@@ -11474,13 +11476,14 @@
     <nd ref="5597443391"/>
     <nd ref="25473424"/>
   </way>
-  <way id="3754069" visible="true" version="19">
+  <way id="3754069" visible="true" version="20">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Rosoman Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:left" v="shared"/>
     <tag k="cycleway:right" v="lane"/>
