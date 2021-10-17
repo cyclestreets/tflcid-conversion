@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9175574662" lat="51.513969" lon="-0.1295467" version="1" visible="true"/>
+  <node id="9175574641" lat="51.5137856" lon="-0.1294722" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing:island" v="yes"/>
+  </node>
   <node id="9153562355" lat="51.5027941" lon="-0.2202441" version="1" visible="true"/>
   <node id="9153562354" lat="51.5027631" lon="-0.2202314" version="1" visible="true"/>
   <node id="9153562351" lat="51.5028172" lon="-0.2202439" version="1" visible="true"/>
@@ -1097,9 +1104,9 @@
     <tag k="direction" v="forward"/>
   </node>
   <node id="5933107517" lat="51.5245988" lon="-0.0904949" version="3" visible="true"/>
-  <node id="5932899704" lat="51.5138895" lon="-0.1294857" version="4" visible="true"/>
-  <node id="5932899702" lat="51.5138014" lon="-0.1294347" version="4" visible="true"/>
-  <node id="5932899700" lat="51.513942" lon="-0.1294989" version="5" visible="true"/>
+  <node id="5932899704" lat="51.5139433" lon="-0.1295507" version="5" visible="true"/>
+  <node id="5932899702" lat="51.5137618" lon="-0.1294595" version="5" visible="true"/>
+  <node id="5932899700" lat="51.5139958" lon="-0.129523" version="6" visible="true"/>
   <node id="5932875003" lat="51.5126265" lon="-0.1315974" version="1" visible="true"/>
   <node id="5932856692" lat="51.5128328" lon="-0.1310641" version="1" visible="true"/>
   <node id="5932856691" lat="51.5129163" lon="-0.1308175" version="2" visible="true"/>
@@ -1143,9 +1150,9 @@
   <node id="5866293916" lat="51.545786" lon="0.0032242" version="2" visible="true"/>
   <node id="5866293915" lat="51.5457282" lon="0.0028892" version="2" visible="true"/>
   <node id="5847345225" lat="51.5446696" lon="0.00374" version="1" visible="true"/>
-  <node id="5843761995" lat="51.4750262" lon="-0.0259847" version="2" visible="true"/>
+  <node id="5843761995" lat="51.4750238" lon="-0.0259943" version="3" visible="true"/>
   <node id="5843761994" lat="51.4751018" lon="-0.026004" version="1" visible="true"/>
-  <node id="5843761993" lat="51.4749541" lon="-0.0259656" version="2" visible="true"/>
+  <node id="5843761993" lat="51.474972" lon="-0.0259771" version="3" visible="true"/>
   <node id="5843761992" lat="51.4751494" lon="-0.026008" version="1" visible="true"/>
   <node id="5842402589" lat="51.444618" lon="-0.0089461" version="2" visible="true"/>
   <node id="5842402585" lat="51.4446566" lon="-0.0089463" version="2" visible="true"/>
@@ -1463,9 +1470,10 @@
   <node id="4879538276" lat="51.4934912" lon="-0.0920991" version="5" visible="true"/>
   <node id="4879538275" lat="51.4934781" lon="-0.0925075" version="2" visible="true"/>
   <node id="4879520193" lat="51.4999861" lon="-0.0757239" version="6" visible="true"/>
-  <node id="4879520192" lat="51.5000634" lon="-0.0758387" version="5" visible="true">
+  <node id="4879520192" lat="51.5000634" lon="-0.0758387" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="4875066795" lat="51.4933638" lon="-0.2676665" version="3" visible="true"/>
   <node id="4873577614" lat="51.4613281" lon="-0.1567761" version="5" visible="true"/>
@@ -1619,7 +1627,7 @@
   <node id="4061873557" lat="51.4611118" lon="-0.1616721" version="3" visible="true"/>
   <node id="4040619153" lat="51.5258902" lon="-0.0839123" version="3" visible="true"/>
   <node id="4040619150" lat="51.5257966" lon="-0.0838032" version="2" visible="true"/>
-  <node id="4037432698" lat="51.4749937" lon="-0.0259756" version="3" visible="true">
+  <node id="4037432698" lat="51.4749937" lon="-0.0259871" version="4" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
   </node>
@@ -2422,12 +2430,7 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="1104473061" lat="51.5189475" lon="-0.1211642" version="8" visible="true"/>
-  <node id="1094124402" lat="51.5137703" lon="-0.1293958" version="11" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
-    <tag k="crossing:island" v="yes"/>
-  </node>
+  <node id="1094124402" lat="51.5137156" lon="-0.1293938" version="12" visible="true"/>
   <node id="1086531278" lat="51.4915572" lon="-0.2924838" version="3" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
@@ -3241,7 +3244,7 @@
   <node id="21651073" lat="51.5706405" lon="-0.3440403" version="4" visible="true"/>
   <node id="21651072" lat="51.5707642" lon="-0.3436106" version="5" visible="true"/>
   <node id="21651065" lat="51.5708398" lon="-0.3428575" version="4" visible="true"/>
-  <node id="21645238" lat="51.5138532" lon="-0.1294682" version="14" visible="true"/>
+  <node id="21645238" lat="51.513868" lon="-0.1295151" version="16" visible="true"/>
   <node id="21643449" lat="51.5232689" lon="0.0539536" version="8" visible="true"/>
   <node id="21641325" lat="51.5564332" lon="-0.2117769" version="2" visible="true"/>
   <node id="21641282" lat="51.5560643" lon="-0.212434" version="2" visible="true"/>
@@ -9459,7 +9462,7 @@
     <nd ref="21990620"/>
     <nd ref="21990621"/>
   </way>
-  <way id="264966078" visible="true" version="7">
+  <way id="264966078" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Charing Cross Road"/>
@@ -9475,8 +9478,32 @@
     <tag k="tiger:upload_uuid" v="RWG066189"/>
     <nd ref="1094124402"/>
     <nd ref="5932899702"/>
+    <nd ref="9175574641"/>
     <nd ref="21645238"/>
     <nd ref="5932899704"/>
+    <nd ref="9175574662"/>
+    <nd ref="5932899700"/>
+  </way>
+  <way id="264966078" visible="true" version="8">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A400"/>
+    <tag k="name" v="Charing Cross Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="wikidata" v="Q1063230"/>
+    <tag k="wikimedia_commons" v="Category:Charing_Cross_Road"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG066189"/>
+    <nd ref="1094124402"/>
+    <nd ref="5932899702"/>
+    <nd ref="9175574641"/>
+    <nd ref="21645238"/>
+    <nd ref="5932899704"/>
+    <nd ref="9175574662"/>
     <nd ref="5932899700"/>
   </way>
   <way id="794608873" visible="true" version="2">
