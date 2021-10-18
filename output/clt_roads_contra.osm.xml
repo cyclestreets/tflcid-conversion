@@ -646,6 +646,10 @@
   <node id="7235908208" lat="51.5989039" lon="-0.1030517" version="1" visible="true"/>
   <node id="7235908205" lat="51.5989352" lon="-0.1030583" version="1" visible="true"/>
   <node id="7235619921" lat="51.5663215" lon="-0.1235259" version="1" visible="true"/>
+  <node id="7235234518" lat="51.4797372" lon="-0.0070196" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+  </node>
   <node id="7231653832" lat="51.5415232" lon="-0.0383389" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -1364,6 +1368,7 @@
   <node id="5336095985" lat="51.5434614" lon="-0.1395835" version="5" visible="true"/>
   <node id="5335280816" lat="51.5395978" lon="-0.1753764" version="2" visible="true"/>
   <node id="5330301568" lat="51.49545" lon="-0.3239021" version="2" visible="true"/>
+  <node id="5323109844" lat="51.4797062" lon="-0.0071515" version="1" visible="true"/>
   <node id="5300244115" lat="51.4837314" lon="-0.0027646" version="2" visible="true"/>
   <node id="5300244111" lat="51.4837086" lon="-0.0028469" version="2" visible="true"/>
   <node id="5278147415" lat="51.5432714" lon="0.0089073" version="2" visible="true"/>
@@ -2889,6 +2894,7 @@
     <tag k="traffic_calming" v="hump"/>
   </node>
   <node id="89226732" lat="51.4678286" lon="-0.1419797" version="4" visible="true"/>
+  <node id="88771142" lat="51.4797547" lon="-0.0069454" version="4" visible="true"/>
   <node id="88767559" lat="51.4841071" lon="-0.1641027" version="8" visible="true"/>
   <node id="88274651" lat="51.4434608" lon="0.0809218" version="7" visible="true"/>
   <node id="86109387" lat="51.4661748" lon="-0.034367" version="4" visible="true"/>
@@ -4840,6 +4846,39 @@
     <nd ref="243788575"/>
     <nd ref="243788586"/>
     <nd ref="90250318"/>
+  </way>
+  <way id="551178902" visible="true" version="10">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Nevada Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="old_name" v="Silver Street"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG291051"/>
+    <nd ref="5323109844"/>
+    <nd ref="7235234518"/>
+    <nd ref="88771142"/>
+  </way>
+  <way id="551178902" visible="true" version="10">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Nevada Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="old_name" v="Silver Street"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG198122"/>
+    <nd ref="5323109844"/>
+    <nd ref="7235234518"/>
+    <nd ref="88771142"/>
   </way>
   <way id="746813868" visible="true" version="2">
     <tag k="name" v="Oaklands Road"/>
