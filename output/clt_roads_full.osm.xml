@@ -3143,6 +3143,7 @@
   <node id="6223880793" lat="51.4439131" lon="-0.0202842" version="7" visible="true"/>
   <node id="6369780714" lat="51.5282806" lon="-0.0193236" version="5" visible="true"/>
   <node id="14598825" lat="51.4528841" lon="0.0322402" version="6" visible="true"/>
+  <node id="8031777575" lat="51.5101725" lon="-0.0724756" version="2" visible="true"/>
   <node id="581106958" lat="51.4761287" lon="-0.2689482" version="2" visible="true"/>
   <node id="9136411315" lat="51.4878882" lon="0.0304851" version="1" visible="true"/>
   <node id="18061287" lat="51.5445926" lon="-0.0616046" version="4" visible="true"/>
@@ -4336,6 +4337,11 @@
     <tag k="name" v="St Botolph Street"/>
     <tag k="local_ref" v="B"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="8031777574" lat="51.5101773" lon="-0.072406" version="1" visible="true">
+    <tag k="rcn" v="yes"/>
+    <tag k="name" v="Tower Gateway"/>
+    <tag k="rcn_name" v="Tower Gateway station"/>
   </node>
   <node id="4864083785" lat="51.5134087" lon="-0.0804714" version="5" visible="true">
     <tag k="highway" v="crossing"/>
@@ -12757,7 +12763,21 @@
     <nd ref="26118127"/>
     <nd ref="306022725"/>
   </way>
-  <way id="967149098" visible="true" version="1">
+  <way id="993523520" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A118"/>
+    <tag k="name" v="Romford Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG289816"/>
+    <nd ref="8947753237"/>
+    <nd ref="8947753233"/>
+  </way>
+  <way id="967149098" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
     <tag k="name" v="Romford Road"/>
@@ -12770,7 +12790,6 @@
     <tag k="tiger:upload_uuid" v="RWG289816"/>
     <nd ref="8947753238"/>
     <nd ref="8947753237"/>
-    <nd ref="8947753233"/>
   </way>
   <way id="897642182" visible="true" version="3">
     <tag k="lit" v="yes"/>
@@ -22002,6 +22021,22 @@
     <nd ref="4210749295"/>
     <nd ref="4360262759"/>
     <nd ref="4855884942"/>
+  </way>
+  <way id="993539728" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A1202"/>
+    <tag k="name" v="Royal Mint Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="right"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="cycleway:left:oneway" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG135095"/>
+    <nd ref="8031777575"/>
+    <nd ref="8031777574"/>
   </way>
   <way id="232914382" visible="true" version="8">
     <tag k="lit" v="yes"/>
