@@ -354,6 +354,9 @@
   <node id="4323387259" lat="51.4451326" lon="-0.0251434" version="4" visible="true"/>
   <node id="4262977360" lat="51.5160192" lon="-0.4486723" version="3" visible="true"/>
   <node id="4202180375" lat="51.5208135" lon="-0.0297309" version="2" visible="true"/>
+  <node id="4189248446" lat="51.5109933" lon="-0.1318175" version="5" visible="true">
+    <tag k="man_made" v="arch"/>
+  </node>
   <node id="4169897185" lat="51.5295394" lon="0.0803981" version="1" visible="true"/>
   <node id="4169897183" lat="51.5297222" lon="0.0808304" version="1" visible="true"/>
   <node id="4169897181" lat="51.5300706" lon="0.0812144" version="1" visible="true"/>
@@ -2160,7 +2163,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065382"/>
   </node>
-  <node id="-178" lat="51.5108582061147" lon="-0.131731542397729" visible="true">
+  <node id="-178" lat="51.5108581904745" lon="-0.131731567396118" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -2539,24 +2542,25 @@
     <nd ref="-177"/>
     <nd ref="292252720"/>
   </way>
-  <way id="4480717" visible="true" version="15">
-    <tag k="lit" v="yes"/>
-    <tag k="rcn" v="proposed"/>
-    <tag k="name" v="Wardour Street"/>
-    <tag k="lanes" v="2"/>
+  <way id="4480717" visible="true" version="16">
     <tag k="highway" v="residential"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
+    <tag k="name" v="Wardour Street"/>
     <tag k="name:en" v="Wardour Street"/>
     <tag k="name:zh" v="&#x83EF;&#x90FD;&#x8857;"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="wikidata" v="Q3566282"/>
     <tag k="postal_code" v="W1"/>
+    <tag k="rcn" v="proposed"/>
     <tag k="source:name" v="local knowledge"/>
-    <tag k="maxspeed:type" v="GB:zone20"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikidata" v="Q3566282"/>
     <nd ref="9512915"/>
     <nd ref="4349648276"/>
     <nd ref="4349648275"/>
     <nd ref="-178"/>
+    <nd ref="4189248446"/>
     <nd ref="107793"/>
   </way>
   <way id="553792357" visible="true" version="3">
