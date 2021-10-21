@@ -357,7 +357,7 @@
   <node id="6384542424" lat="51.5219382" lon="-0.1339675" version="2" visible="true"/>
   <node id="6384542422" lat="51.5219955" lon="-0.1338204" version="2" visible="true"/>
   <node id="6384542416" lat="51.5219739" lon="-0.1338814" version="2" visible="true"/>
-  <node id="6382242988" lat="51.5798278" lon="-0.0035568" version="2" visible="true"/>
+  <node id="6382242988" lat="51.5798171" lon="-0.0035453" version="3" visible="true"/>
   <node id="6370969505" lat="51.5261315" lon="-0.0300755" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
@@ -808,6 +808,7 @@
   </node>
   <node id="3502507834" lat="51.4908563" lon="-0.1498068" version="3" visible="true"/>
   <node id="3502507830" lat="51.4908364" lon="-0.1497466" version="3" visible="true"/>
+  <node id="3397713903" lat="51.5798708" lon="-0.0036018" version="6" visible="true"/>
   <node id="3393316085" lat="51.5368642" lon="-0.1463042" version="3" visible="true">
     <tag k="highway" v="crossing"/>
   </node>
@@ -2293,6 +2294,21 @@
     <nd ref="6382242988"/>
     <nd ref="5935753893"/>
     <nd ref="6402930898"/>
+  </way>
+  <way id="329368454" visible="true" version="13">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Peterborough Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="opposite"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="postal_code" v="E10"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="tiger:upload_uuid" v="RWG187575"/>
+    <nd ref="3397713903"/>
+    <nd ref="6382242988"/>
   </way>
   <way id="655488400" visible="true" version="6">
     <tag k="lit" v="yes"/>
