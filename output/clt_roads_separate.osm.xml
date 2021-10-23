@@ -11,7 +11,6 @@
     <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="9150269566" lat="51.4852016" lon="-0.1157253" version="1" visible="true"/>
   <node id="9121310682" lat="51.4561293" lon="-0.0843706" version="1" visible="true"/>
   <node id="9121310671" lat="51.4560037" lon="-0.0842842" version="1" visible="true"/>
   <node id="9092918248" lat="51.5257248" lon="-0.1253187" version="1" visible="true"/>
@@ -160,11 +159,6 @@
     <tag k="name" v="Tower Gateway"/>
     <tag k="rcn_name" v="Tower Gateway station"/>
   </node>
-  <node id="8013559885" lat="51.4848359" lon="-0.1155615" version="1" visible="true">
-    <tag k="highway" v="give_way"/>
-    <tag k="direction" v="backward"/>
-  </node>
-  <node id="8008294341" lat="51.4866902" lon="-0.1164505" version="3" visible="true"/>
   <node id="7938117685" lat="51.5027129" lon="-0.1586995" version="2" visible="true"/>
   <node id="7925499736" lat="51.542957" lon="-0.1393737" version="1" visible="true"/>
   <node id="7887305759" lat="51.4560906" lon="-0.0843439" version="1" visible="true">
@@ -466,8 +460,6 @@
   <node id="6049369335" lat="51.5399565" lon="-0.1367972" version="1" visible="true"/>
   <node id="6049369333" lat="51.5388727" lon="-0.1359267" version="1" visible="true"/>
   <node id="6034770637" lat="51.3780216" lon="-0.1009902" version="3" visible="true"/>
-  <node id="6029529930" lat="51.4852851" lon="-0.1157627" version="2" visible="true"/>
-  <node id="6029529926" lat="51.486111" lon="-0.1161576" version="2" visible="true"/>
   <node id="6027844306" lat="51.5754723" lon="-0.0297657" version="3" visible="true"/>
   <node id="6027844305" lat="51.5753112" lon="-0.0296919" version="1" visible="true"/>
   <node id="5939755657" lat="51.5817301" lon="-0.0185507" version="2" visible="true"/>
@@ -1286,7 +1278,6 @@
   </node>
   <node id="720900903" lat="51.5257258" lon="-0.0318352" version="8" visible="true"/>
   <node id="694189997" lat="51.5102586" lon="-0.0715674" version="4" visible="true"/>
-  <node id="672965138" lat="51.4855774" lon="-0.1158906" version="3" visible="true"/>
   <node id="650932560" lat="51.4795697" lon="-0.1652503" version="6" visible="true">
     <tag k="name" v="Albert Gate"/>
     <tag k="place" v="locality"/>
@@ -5342,26 +5333,6 @@
     <nd ref="2751695457"/>
     <nd ref="6967968870"/>
     <nd ref="6967968861"/>
-  </way>
-  <way id="859124964" visible="true" version="4">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Vauxhall Street"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="postal_code" v="SE11"/>
-    <tag k="cycleway:right" v="track"/>
-    <tag k="oneway:bicycle" v="no"/>
-    <tag k="cycleway:right:oneway" v="-1"/>
-    <tag k="tiger:upload_uuid" v="RWG055994"/>
-    <nd ref="8008294341"/>
-    <nd ref="6029529926"/>
-    <nd ref="672965138"/>
-    <nd ref="6029529930"/>
-    <nd ref="9150269566"/>
-    <nd ref="8013559885"/>
   </way>
   <way id="37308935" visible="true" version="19">
     <tag k="lit" v="yes"/>

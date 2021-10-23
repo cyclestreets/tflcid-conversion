@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9190127234" lat="51.4979152" lon="-0.2822205" version="1" visible="true"/>
+  <node id="9190127150" lat="51.4933505" lon="-0.2824906" version="1" visible="true"/>
+  <node id="9190127149" lat="51.4932726" lon="-0.2824689" version="1" visible="true"/>
+  <node id="9190127148" lat="51.4931835" lon="-0.2824507" version="1" visible="true"/>
   <node id="9055562957" lat="51.5717827" lon="-0.3990033" version="1" visible="true"/>
   <node id="9043819682" lat="51.5450386" lon="-0.4772812" version="2" visible="true"/>
   <node id="8995541068" lat="51.5450722" lon="-0.4773207" version="2" visible="true"/>
@@ -668,7 +672,7 @@
   <node id="2120835506" lat="51.5854817" lon="-0.2308071" version="1" visible="true"/>
   <node id="2120835505" lat="51.585505" lon="-0.2307802" version="1" visible="true"/>
   <node id="2120830726" lat="51.5856383" lon="-0.2309734" version="1" visible="true"/>
-  <node id="2119071943" lat="51.4934431" lon="-0.2824287" version="1" visible="true"/>
+  <node id="2119071943" lat="51.4934382" lon="-0.2825123" version="2" visible="true"/>
   <node id="2119071941" lat="51.4929289" lon="-0.2824206" version="1" visible="true"/>
   <node id="2104843547" lat="51.5726318" lon="-0.2283235" version="1" visible="true"/>
   <node id="2095429782" lat="51.622961" lon="-0.2837509" version="2" visible="true"/>
@@ -1693,7 +1697,7 @@
     <nd ref="1783626081"/>
     <nd ref="1941892403"/>
   </way>
-  <way id="640165327" visible="true" version="3">
+  <way id="640165327" visible="true" version="4">
     <tag k="bicycle" v="dismount"/>
     <tag k="highway" v="footway"/>
     <tag k="segregated" v="yes"/>
@@ -1702,15 +1706,19 @@
     <nd ref="6030934417"/>
     <nd ref="3018169942"/>
     <nd ref="2119071941"/>
+    <nd ref="9190127148"/>
+    <nd ref="9190127149"/>
+    <nd ref="9190127150"/>
     <nd ref="2119071943"/>
   </way>
-  <way id="23536406" visible="true" version="4">
+  <way id="23536406" visible="true" version="5">
     <tag k="name" v="Park Place Drive"/>
     <tag k="highway" v="service"/>
     <tag k="surface" v="asphalt"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG236228"/>
     <nd ref="254866701"/>
+    <nd ref="9190127234"/>
     <nd ref="6898592238"/>
     <nd ref="254866702"/>
     <nd ref="254866703"/>

@@ -1,5 +1,33 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9193072228" lat="51.445182" lon="0.0001397" version="1" visible="true"/>
+  <node id="9188720333" lat="51.4864983" lon="-0.1192115" version="1" visible="true"/>
+  <node id="9188711161" lat="51.4866196" lon="-0.116413" version="1" visible="true"/>
+  <node id="9188711147" lat="51.4858895" lon="-0.1160572" version="1" visible="true"/>
+  <node id="9188711146" lat="51.4859167" lon="-0.1160848" version="1" visible="true"/>
+  <node id="9188711145" lat="51.4863331" lon="-0.116287" version="1" visible="true"/>
+  <node id="9188711143" lat="51.4865794" lon="-0.1163944" version="1" visible="true">
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
+  <node id="9188711142" lat="51.4864755" lon="-0.1163419" version="1" visible="true">
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
+  <node id="9188711141" lat="51.4863675" lon="-0.1162936" version="1" visible="true">
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
+  <node id="9188711140" lat="51.4858559" lon="-0.1160404" version="1" visible="true">
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
+  <node id="9188711139" lat="51.4856502" lon="-0.1159364" version="1" visible="true">
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
+  <node id="9188711138" lat="51.4856229" lon="-0.1159397" version="1" visible="true"/>
+  <node id="9188711136" lat="51.4850715" lon="-0.1156492" version="1" visible="true">
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
+  <node id="9188711135" lat="51.485141" lon="-0.1157006" version="1" visible="true"/>
+  <node id="9188711134" lat="51.4851238" lon="-0.1156749" version="1" visible="true"/>
+  <node id="9188711130" lat="51.4849494" lon="-0.1155893" version="1" visible="true"/>
   <node id="9183301061" lat="51.5268572" lon="-0.1083599" version="1" visible="true"/>
   <node id="9183301059" lat="51.5267145" lon="-0.1081975" version="1" visible="true"/>
   <node id="9183301058" lat="51.526645" lon="-0.1081144" version="1" visible="true"/>
@@ -322,6 +350,8 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
+  <node id="8013559885" lat="51.4849168" lon="-0.1155899" version="3" visible="true"/>
+  <node id="8008294341" lat="51.4866319" lon="-0.1164324" version="4" visible="true"/>
   <node id="7986895215" lat="51.5571533" lon="-0.0914906" version="1" visible="true"/>
   <node id="7968771329" lat="51.4684236" lon="-0.1364749" version="1" visible="true"/>
   <node id="7961281760" lat="51.5501739" lon="-0.0431864" version="1" visible="true"/>
@@ -3371,7 +3401,7 @@
   <node id="11312046" lat="51.5360449" lon="-0.1096635" version="9" visible="true"/>
   <node id="11080786" lat="51.3659832" lon="-0.1942068" version="6" visible="true"/>
   <node id="10869028" lat="51.4685308" lon="-0.1360471" version="4" visible="true"/>
-  <node id="10865118" lat="51.4864203" lon="-0.1192045" version="6" visible="true"/>
+  <node id="10865118" lat="51.4864608" lon="-0.1192029" version="7" visible="true"/>
   <node id="10703290" lat="51.5274659" lon="-0.1106786" version="5" visible="true"/>
   <node id="10694812" lat="51.408932" lon="-0.3038072" version="9" visible="true">
     <tag k="highway" v="mini_roundabout"/>
@@ -5556,7 +5586,7 @@
     <nd ref="251662247"/>
     <nd ref="9070672812"/>
   </way>
-  <way id="384871725" visible="true" version="4">
+  <way id="384871725" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Minard Road"/>
     <tag k="oneway" v="yes"/>
@@ -5569,6 +5599,7 @@
     <tag k="tiger:upload_uuid" v="RWG198432"/>
     <nd ref="3882252358"/>
     <nd ref="5597578903"/>
+    <nd ref="9193072228"/>
     <nd ref="618788"/>
   </way>
   <way id="13714884" visible="true" version="6">
@@ -12297,7 +12328,7 @@
     <nd ref="7076669867"/>
     <nd ref="7076669870"/>
   </way>
-  <way id="4256478" visible="true" version="14">
+  <way id="4256478" visible="true" version="15">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Tyers Street"/>
     <tag k="oneway" v="yes"/>
@@ -12309,6 +12340,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG056240"/>
     <nd ref="10865118"/>
+    <nd ref="9188720333"/>
     <nd ref="4957734363"/>
   </way>
   <way id="840227641" visible="true" version="1">
@@ -13453,6 +13485,64 @@
     <nd ref="4957721086"/>
     <nd ref="4957721088"/>
     <nd ref="4957721082"/>
+  </way>
+  <way id="995068113" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Vauxhall Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="postal_code" v="SE11"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:right:oneway" v="no"/>
+    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG055994"/>
+    <nd ref="9188711135"/>
+    <nd ref="9188711134"/>
+    <nd ref="9188711136"/>
+    <nd ref="9188711130"/>
+    <nd ref="8013559885"/>
+  </way>
+  <way id="995068118" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Vauxhall Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="postal_code" v="SE11"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:right:oneway" v="no"/>
+    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG055994"/>
+    <nd ref="9188711146"/>
+    <nd ref="9188711147"/>
+    <nd ref="9188711140"/>
+    <nd ref="9188711139"/>
+    <nd ref="9188711138"/>
+  </way>
+  <way id="995068119" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Vauxhall Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="postal_code" v="SE11"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway:right:oneway" v="no"/>
+    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG055994"/>
+    <nd ref="8008294341"/>
+    <nd ref="9188711161"/>
+    <nd ref="9188711143"/>
+    <nd ref="9188711142"/>
+    <nd ref="9188711141"/>
+    <nd ref="9188711145"/>
   </way>
   <way id="758131795" visible="true" version="1">
     <tag k="name" v="Burr Road"/>
