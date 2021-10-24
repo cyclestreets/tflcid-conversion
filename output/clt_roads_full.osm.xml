@@ -3621,11 +3621,12 @@
   <node id="6194914606" lat="51.459537" lon="0.0264006" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
-  <node id="4100747032" lat="51.4595222" lon="0.0263949" version="5" visible="true">
+  <node id="4100747032" lat="51.4595222" lon="0.0263949" version="6" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="6489536104" lat="51.6548784" lon="-0.0482611" version="5" visible="true">
     <tag k="bicycle" v="yes"/>
@@ -5314,20 +5315,24 @@
     <tag k="local_ref" v="T"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="564089100" lat="51.488771" lon="-0.1292101" version="10" visible="true">
+  <node id="564089100" lat="51.488771" lon="-0.1292101" version="11" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
   </node>
   <node id="3781134797" lat="51.4886983" lon="-0.1293214" version="8" visible="true">
     <tag k="rcn" v="yes"/>
     <tag k="name" v="Vauxhall Bridge"/>
     <tag k="rcn_name" v="Vauxhall Bridge"/>
   </node>
-  <node id="564089146" lat="51.4884423" lon="-0.1296467" version="7" visible="true">
+  <node id="564089146" lat="51.4884423" lon="-0.1296467" version="10" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
   </node>
   <node id="7007478556" lat="51.4849419" lon="-0.1232286" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
