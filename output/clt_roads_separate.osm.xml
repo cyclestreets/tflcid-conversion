@@ -81,9 +81,11 @@
     <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
-  <node id="8923102025" lat="51.4035717" lon="-0.3078513" version="1" visible="true">
+  <node id="8923102025" lat="51.4035717" lon="-0.3078513" version="2" visible="true">
     <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="marked"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="zebra"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="8923042478" lat="51.4055729" lon="-0.3082319" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -602,11 +604,11 @@
     <tag k="crossing_ref" v="zebra"/>
   </node>
   <node id="5315680062" lat="51.4056487" lon="-0.3082452" version="4" visible="true"/>
-  <node id="5315680058" lat="51.4035396" lon="-0.3078515" version="4" visible="true">
+  <node id="5315680058" lat="51.4035396" lon="-0.3078515" version="5" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
-    <tag k="crossing_ref" v="tiger"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="5315680057" lat="51.3996793" lon="-0.3088972" version="1" visible="true"/>
   <node id="5315680044" lat="51.3967315" lon="-0.3112282" version="1" visible="true"/>
@@ -1230,7 +1232,7 @@
   <node id="1382081325" lat="51.3984293" lon="-0.3098806" version="3" visible="true"/>
   <node id="1382081324" lat="51.398222" lon="-0.3100424" version="3" visible="true"/>
   <node id="1382081321" lat="51.4053159" lon="-0.3081586" version="5" visible="true"/>
-  <node id="1382081319" lat="51.4034101" lon="-0.3078535" version="3" visible="true"/>
+  <node id="1382081319" lat="51.4033973" lon="-0.3078512" version="4" visible="true"/>
   <node id="1382081318" lat="51.4015606" lon="-0.3081468" version="3" visible="true"/>
   <node id="1382081315" lat="51.3955409" lon="-0.3123892" version="3" visible="true"/>
   <node id="1382081305" lat="51.3946955" lon="-0.3133709" version="2" visible="true"/>
