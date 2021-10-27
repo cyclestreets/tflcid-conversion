@@ -544,6 +544,8 @@
   </node>
   <node id="3012342183" lat="51.4123319" lon="-0.0813374" version="1" visible="true"/>
   <node id="2971973917" lat="51.5525561" lon="-0.0198082" version="1" visible="true"/>
+  <node id="2961101939" lat="51.5515651" lon="-0.2608336" version="4" visible="true"/>
+  <node id="2961101938" lat="51.5516002" lon="-0.2607591" version="3" visible="true"/>
   <node id="2949376727" lat="51.4125213" lon="-0.0814165" version="1" visible="true"/>
   <node id="2949376715" lat="51.4124383" lon="-0.081485" version="1" visible="true"/>
   <node id="2949376705" lat="51.4123471" lon="-0.0813344" version="1" visible="true"/>
@@ -2500,6 +2502,19 @@
     <tag k="tiger:upload_uuid" v="RWG279683"/>
     <nd ref="5920551654"/>
     <nd ref="3120753952"/>
+  </way>
+  <way id="745016802" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="North Circular Road"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG274857"/>
+    <nd ref="2961101938"/>
+    <nd ref="2961101939"/>
   </way>
   <way id="300035913" visible="true" version="4">
     <tag k="highway" v="path"/>

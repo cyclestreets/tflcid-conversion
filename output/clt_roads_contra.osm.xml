@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9202524416" lat="51.525849" lon="-0.0838297" version="1" visible="true"/>
   <node id="9197395438" lat="51.5115268" lon="-0.0441473" version="1" visible="true"/>
   <node id="9195182438" lat="51.4410231" lon="-0.1062847" version="1" visible="true"/>
   <node id="9193072228" lat="51.445182" lon="0.0001397" version="1" visible="true"/>
@@ -1668,7 +1669,7 @@
     <tag k="crossing_ref" v="pelican"/>
   </node>
   <node id="4061873557" lat="51.4611118" lon="-0.1616721" version="3" visible="true"/>
-  <node id="4040619153" lat="51.5258902" lon="-0.0839123" version="3" visible="true"/>
+  <node id="4040619153" lat="51.525875" lon="-0.0838812" version="4" visible="true"/>
   <node id="4040619150" lat="51.5257966" lon="-0.0838032" version="2" visible="true"/>
   <node id="4037432698" lat="51.4749937" lon="-0.0259871" version="4" visible="true">
     <tag k="highway" v="crossing"/>
@@ -2555,7 +2556,7 @@
     <tag k="crossing_ref" v="zebra"/>
     <tag k="tactile_paving" v="yes"/>
   </node>
-  <node id="473091606" lat="51.5258997" lon="-0.083977" version="10" visible="true"/>
+  <node id="473091606" lat="51.5259011" lon="-0.0839895" version="11" visible="true"/>
   <node id="471488469" lat="51.5131052" lon="-0.0817976" version="5" visible="true">
     <tag k="foot" v="yes"/>
     <tag k="barrier" v="gate"/>
@@ -11930,7 +11931,7 @@
     <nd ref="2476805753"/>
     <nd ref="351771449"/>
   </way>
-  <way id="405587429" visible="true" version="11">
+  <way id="405587429" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Paul Street"/>
     <tag k="oneway" v="yes"/>
@@ -11944,12 +11945,13 @@
     <nd ref="473091606"/>
     <nd ref="4040619153"/>
     <nd ref="4035081941"/>
+    <nd ref="9202524416"/>
     <nd ref="2658101265"/>
     <nd ref="4040619150"/>
     <nd ref="6507301201"/>
     <nd ref="249666678"/>
   </way>
-  <way id="405587429" visible="true" version="11">
+  <way id="405587429" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Paul Street"/>
     <tag k="oneway" v="yes"/>
@@ -11963,6 +11965,7 @@
     <nd ref="473091606"/>
     <nd ref="4040619153"/>
     <nd ref="4035081941"/>
+    <nd ref="9202524416"/>
     <nd ref="2658101265"/>
     <nd ref="4040619150"/>
     <nd ref="6507301201"/>
@@ -14047,8 +14050,9 @@
     <nd ref="5219047474"/>
     <nd ref="368369088"/>
   </way>
-  <way id="537863430" visible="true" version="3">
+  <way id="537863430" visible="true" version="4">
     <tag k="name" v="Burrell Street"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
