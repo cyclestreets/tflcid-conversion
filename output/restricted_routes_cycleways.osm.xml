@@ -650,8 +650,9 @@
   <node id="2217327476" lat="51.5711228" lon="-0.2129737" version="1" visible="true"/>
   <node id="2217327471" lat="51.5704619" lon="-0.2094496" version="2" visible="true"/>
   <node id="2161322116" lat="51.3748245" lon="-0.2040466" version="3" visible="true"/>
-  <node id="2146369239" lat="51.5196329" lon="-0.1015702" version="3" visible="true">
-    <tag k="barrier" v="gate"/>
+  <node id="2146369239" lat="51.5196329" lon="-0.1015702" version="4" visible="true">
+    <tag k="barrier" v="lift_gate"/>
+    <tag k="vehicle" v="destination"/>
   </node>
   <node id="2145558570" lat="51.6022672" lon="-0.235199" version="2" visible="true"/>
   <node id="2133128011" lat="51.5999252" lon="-0.2300184" version="2" visible="true"/>
@@ -3078,15 +3079,17 @@
     <nd ref="5536994975"/>
     <nd ref="599823498"/>
   </way>
-  <way id="204645297" visible="true" version="8">
+  <way id="204645297" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="name" v="Grand Avenue"/>
+    <tag k="image" v="https://archive.org/details/city-of-london-2019-05-06/DSCN0241.JPG"/>
     <tag k="access" v="permissive"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="covered" v="yes"/>
     <tag k="highway" v="service"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="vehicle" v="destination"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="postal_code" v="EC1"/>
     <tag k="tiger:upload_uuid" v="RWG108436"/>
