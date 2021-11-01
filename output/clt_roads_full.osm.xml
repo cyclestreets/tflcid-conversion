@@ -3997,11 +3997,12 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="5060192724" lat="51.5324501" lon="-0.009302" version="7" visible="true">
+  <node id="5060192724" lat="51.5324501" lon="-0.009302" version="8" visible="true">
     <tag k="bicycle" v="designated"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="9015577622" lat="51.5317921" lon="-0.0099978" version="1" visible="true">
     <tag k="maxspeed" v="30 mph"/>
@@ -4036,19 +4037,23 @@
     <tag k="local_ref" v="M"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="242930504" lat="51.5285209" lon="-0.0179227" version="11" visible="true">
+  <node id="242930504" lat="51.5285209" lon="-0.0179227" version="14" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
   </node>
   <node id="2483507601" lat="51.528496" lon="-0.0179797" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="6370930041" lat="51.5282549" lon="-0.0195722" version="2" visible="true">
+  <node id="6370930041" lat="51.5282549" lon="-0.0195722" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="6370894211" lat="51.5279112" lon="-0.0214944" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
