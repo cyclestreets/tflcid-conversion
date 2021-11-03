@@ -1017,7 +1017,7 @@
   <node id="1674025844" lat="51.527481" lon="-0.1835717" version="2" visible="true"/>
   <node id="9116731186" lat="51.4795607" lon="0.0293728" version="1" visible="true"/>
   <node id="8246268994" lat="51.6001193" lon="0.0134442" version="1" visible="true"/>
-  <node id="8653249702" lat="51.5595882" lon="0.1558768" version="2" visible="true"/>
+  <node id="8653249702" lat="51.559591" lon="0.1559064" version="3" visible="true"/>
   <node id="2050017893" lat="51.5099087" lon="-0.3588526" version="3" visible="true"/>
   <node id="8889241676" lat="51.594891" lon="-0.3336131" version="1" visible="true"/>
   <node id="8902610938" lat="51.4112463" lon="-0.1615249" version="1" visible="true"/>
@@ -3412,10 +3412,6 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
-  </node>
-  <node id="7231302825" lat="51.586713" lon="0.0066675" version="3" visible="true">
-    <tag k="highway" v="speed_camera"/>
-    <tag k="was:traffic_calming" v="island"/>
   </node>
   <node id="6252066889" lat="51.5374161" lon="0.0719536" version="4" visible="true">
     <tag k="highway" v="crossing"/>
@@ -9900,7 +9896,7 @@
     <nd ref="7830847458"/>
     <nd ref="3293157563"/>
   </way>
-  <way id="827170819" visible="true" version="6">
+  <way id="827170819" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Woodford New Road"/>
@@ -9916,7 +9912,6 @@
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG149471"/>
     <nd ref="1751120934"/>
-    <nd ref="7231302825"/>
     <nd ref="7589943263"/>
     <nd ref="1416600562"/>
     <nd ref="209281"/>
