@@ -286,7 +286,6 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="7354490968" lat="51.4857708" lon="-0.1209298" version="1" visible="true"/>
   <node id="7346592971" lat="51.5358735" lon="-0.1334603" version="2" visible="true"/>
   <node id="7246548216" lat="51.5015184" lon="-0.1104889" version="2" visible="true"/>
   <node id="7246548200" lat="51.5003916" lon="-0.1110111" version="4" visible="true"/>
@@ -336,15 +335,6 @@
   <node id="6960482506" lat="51.5257088" lon="-0.1253608" version="5" visible="true"/>
   <node id="6953312052" lat="51.5212442" lon="0.1718158" version="1" visible="true"/>
   <node id="6925827740" lat="51.4781301" lon="-0.1267136" version="1" visible="true"/>
-  <node id="6845915139" lat="51.4842262" lon="-0.1172437" version="1" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="backward"/>
-  </node>
-  <node id="6845915138" lat="51.4841654" lon="-0.1171088" version="1" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="forward"/>
-  </node>
-  <node id="6845915136" lat="51.4836503" lon="-0.1167353" version="1" visible="true"/>
   <node id="6839226246" lat="51.5757967" lon="-0.0298105" version="1" visible="true"/>
   <node id="6806740820" lat="51.5048074" lon="-0.1030409" version="1" visible="true"/>
   <node id="6806740812" lat="51.5050956" lon="-0.1031097" version="1" visible="true"/>
@@ -640,13 +630,6 @@
     <tag k="crossing:island" v="yes"/>
   </node>
   <node id="5115338557" lat="51.4550578" lon="-0.0836108" version="1" visible="true"/>
-  <node id="4958530841" lat="51.4850232" lon="-0.1191768" version="4" visible="true">
-    <tag k="bus" v="yes"/>
-    <tag k="name" v="Harleyford Road / Durham Street"/>
-    <tag k="public_transport" v="stop_position"/>
-  </node>
-  <node id="4958529418" lat="51.4847198" lon="-0.1185181" version="3" visible="true"/>
-  <node id="4958529414" lat="51.4847875" lon="-0.1186711" version="3" visible="true"/>
   <node id="4931754284" lat="51.5443452" lon="-0.1407995" version="4" visible="true"/>
   <node id="4931754279" lat="51.5449236" lon="-0.1412704" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -663,8 +646,6 @@
     <tag k="crossing_ref" v="pelican"/>
   </node>
   <node id="4888691689" lat="51.5396396" lon="-0.1762909" version="2" visible="true"/>
-  <node id="4848681131" lat="51.5022256" lon="-0.1093169" version="2" visible="true"/>
-  <node id="4848681129" lat="51.5023035" lon="-0.1094378" version="1" visible="true"/>
   <node id="4844390881" lat="51.4566995" lon="0.1386555" version="3" visible="true"/>
   <node id="4812109003" lat="51.4055468" lon="-0.3082273" version="5" visible="true">
     <tag k="bicycle" v="yes"/>
@@ -737,8 +718,6 @@
   <node id="4253563711" lat="51.5676151" lon="-0.0326446" version="5" visible="true"/>
   <node id="4253563710" lat="51.5674762" lon="-0.033003" version="5" visible="true"/>
   <node id="4253563709" lat="51.5671928" lon="-0.033691" version="7" visible="true"/>
-  <node id="4215490757" lat="51.4856343" lon="-0.1206128" version="5" visible="true"/>
-  <node id="4215298241" lat="51.4852112" lon="-0.1196193" version="4" visible="true"/>
   <node id="4112540071" lat="51.5007096" lon="-0.1180364" version="3" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="London Eye"/>
@@ -880,10 +859,6 @@
   <node id="3062596145" lat="51.5049235" lon="-0.1031047" version="2" visible="true"/>
   <node id="3062596141" lat="51.504839" lon="-0.1030981" version="1" visible="true"/>
   <node id="3018806130" lat="51.5369891" lon="-0.1466515" version="2" visible="true"/>
-  <node id="2890999644" lat="51.4852879" lon="-0.119813" version="4" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-  </node>
   <node id="2837762814" lat="51.5027838" lon="-0.1578006" version="3" visible="true"/>
   <node id="2837762804" lat="51.5027289" lon="-0.1585085" version="13" visible="true">
     <tag k="bicycle" v="yes"/>
@@ -895,18 +870,6 @@
   </node>
   <node id="2837762803" lat="51.5027193" lon="-0.1586119" version="5" visible="true"/>
   <node id="2837762802" lat="51.5026144" lon="-0.1599952" version="3" visible="true"/>
-  <node id="2830429041" lat="51.4841953" lon="-0.1171725" version="10" visible="true">
-    <tag k="bicycle" v="yes"/>
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="toucan"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="button_operated" v="yes"/>
-    <tag k="crossing:island" v="no"/>
-    <tag k="traffic_signals:sound" v="yes"/>
-    <tag k="traffic_signals:vibration" v="yes"/>
-  </node>
-  <node id="2830429040" lat="51.48442" lon="-0.1177205" version="4" visible="true"/>
   <node id="2780691954" lat="51.5264832" lon="-0.1078855" version="2" visible="true"/>
   <node id="2751695457" lat="51.4824373" lon="-0.1115383" version="7" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -1099,7 +1062,6 @@
   </node>
   <node id="1974138013" lat="51.5022754" lon="-0.1650255" version="4" visible="true"/>
   <node id="1973754615" lat="51.5030681" lon="-0.1548432" version="3" visible="true"/>
-  <node id="1964249208" lat="51.4837904" lon="-0.1168408" version="4" visible="true"/>
   <node id="1961636481" lat="51.5774771" lon="-0.0300112" version="1" visible="true"/>
   <node id="1961636479" lat="51.5766951" lon="-0.0298654" version="1" visible="true"/>
   <node id="1961636478" lat="51.5764331" lon="-0.0298391" version="4" visible="true">
@@ -1114,24 +1076,11 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="1937709583" lat="51.4857872" lon="-0.1209664" version="5" visible="true"/>
-  <node id="1937709549" lat="51.4840875" lon="-0.1169921" version="4" visible="true"/>
   <node id="1936005018" lat="51.5021946" lon="-0.1403817" version="3" visible="true">
     <tag k="curve_geometry" v="yes"/>
   </node>
   <node id="1934885501" lat="51.4130934" lon="-0.2990277" version="3" visible="true"/>
   <node id="1839216409" lat="51.4776407" lon="-0.126948" version="3" visible="true"/>
-  <node id="1834075744" lat="51.4834406" lon="-0.1165009" version="10" visible="true">
-    <tag k="bicycle" v="designated"/>
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="toucan"/>
-  </node>
-  <node id="1834075741" lat="51.4835666" lon="-0.1166423" version="5" visible="true"/>
-  <node id="1834075738" lat="51.4834651" lon="-0.1165313" version="6" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="backward"/>
-  </node>
   <node id="1801232600" lat="51.4106537" lon="-0.2967834" version="11" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
@@ -1301,11 +1250,6 @@
   </node>
   <node id="740384613" lat="51.5009303" lon="-0.1261451" version="10" visible="true"/>
   <node id="740384609" lat="51.5009795" lon="-0.1264043" version="13" visible="true"/>
-  <node id="737071850" lat="51.484749" lon="-0.11859" version="6" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="tactile_paving" v="yes"/>
-  </node>
   <node id="735391283" lat="51.5021844" lon="-0.1704078" version="9" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
@@ -1398,7 +1342,6 @@
     <tag k="button_operated" v="yes"/>
     <tag k="crossing:island" v="no"/>
   </node>
-  <node id="259472972" lat="51.4840511" lon="-0.1169623" version="6" visible="true"/>
   <node id="256626817" lat="51.6353464" lon="-0.0922735" version="5" visible="true"/>
   <node id="255323085" lat="51.5596368" lon="-0.4074471" version="6" visible="true"/>
   <node id="255323083" lat="51.5598485" lon="-0.4069842" version="7" visible="true"/>
@@ -1452,12 +1395,8 @@
   <node id="160277688" lat="51.5254747" lon="-0.0328548" version="10" visible="true"/>
   <node id="133188753" lat="51.5226697" lon="-0.0410772" version="17" visible="true"/>
   <node id="130237629" lat="51.5482577" lon="0.0129167" version="7" visible="true"/>
-  <node id="110252960" lat="51.4853902" lon="-0.1200617" version="8" visible="true"/>
-  <node id="110249279" lat="51.4848313" lon="-0.1187403" version="8" visible="true"/>
   <node id="110247143" lat="51.4821561" lon="-0.1114119" version="6" visible="true"/>
-  <node id="110059498" lat="51.4837346" lon="-0.1168083" version="6" visible="true"/>
   <node id="108035528" lat="51.4765378" lon="-0.1308618" version="1" visible="true"/>
-  <node id="107093858" lat="51.4858908" lon="-0.1212168" version="7" visible="true"/>
   <node id="98223424" lat="51.4808412" lon="-0.0282023" version="6" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
@@ -1608,8 +1547,6 @@
   <node id="12196664" lat="51.5021865" lon="-0.1701948" version="14" visible="true"/>
   <node id="11080900" lat="51.3676354" lon="-0.1290616" version="8" visible="true"/>
   <node id="11080895" lat="51.3676783" lon="-0.1247714" version="8" visible="true"/>
-  <node id="10865124" lat="51.4841273" lon="-0.1170448" version="10" visible="true"/>
-  <node id="10865123" lat="51.4847087" lon="-0.1184302" version="7" visible="true"/>
   <node id="820319" lat="51.5226168" lon="-0.1376073" version="10" visible="true"/>
   <node id="658186" lat="51.5441391" lon="-0.1406067" version="4" visible="true"/>
   <node id="424613" lat="51.5108173" lon="-0.0685333" version="8" visible="true"/>
@@ -4751,28 +4688,6 @@
     <nd ref="1535256986"/>
     <nd ref="108785"/>
   </way>
-  <way id="10430408" visible="true" version="18">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A202"/>
-    <tag k="name" v="Kennington Oval"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="trunk"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="postal_code" v="SE11"/>
-    <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:left:oneway" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG055964"/>
-    <nd ref="1834075744"/>
-    <nd ref="1834075738"/>
-    <nd ref="1834075741"/>
-    <nd ref="6845915136"/>
-    <nd ref="110059498"/>
-    <nd ref="1964249208"/>
-    <nd ref="259472972"/>
-    <nd ref="1937709549"/>
-    <nd ref="10865124"/>
-  </way>
   <way id="749089529" visible="true" version="1">
     <tag k="name" v="Cowthorpe Road"/>
     <tag k="FIXME" v="Check name: OSM has Cawthorpe Road, OS has Cowthorpe Road."/>
@@ -4785,68 +4700,6 @@
     <nd ref="108035528"/>
     <nd ref="7005160427"/>
     <nd ref="33044927"/>
-  </way>
-  <way id="11910018" visible="true" version="18">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A202"/>
-    <tag k="name" v="Harleyford Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="trunk"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="postal_code" v="SE11"/>
-    <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:left:oneway" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG056110"/>
-    <nd ref="10865124"/>
-    <nd ref="6845915138"/>
-    <nd ref="2830429041"/>
-    <nd ref="6845915139"/>
-    <nd ref="2830429040"/>
-    <nd ref="10865123"/>
-  </way>
-  <way id="232676128" visible="true" version="11">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A202"/>
-    <tag k="name" v="Harleyford Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="trunk"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="postal_code" v="SE11"/>
-    <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:left:oneway" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG056110"/>
-    <nd ref="110249279"/>
-    <nd ref="4958530841"/>
-    <nd ref="4215298241"/>
-    <nd ref="2890999644"/>
-    <nd ref="110252960"/>
-    <nd ref="4215490757"/>
-    <nd ref="7354490968"/>
-    <nd ref="1937709583"/>
-    <nd ref="107093858"/>
-  </way>
-  <way id="59439984" visible="true" version="15">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A202"/>
-    <tag k="name" v="Harleyford Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="trunk"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="postal_code" v="SE11"/>
-    <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:left:oneway" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG056110"/>
-    <nd ref="10865123"/>
-    <nd ref="4958529418"/>
-    <nd ref="737071850"/>
-    <nd ref="4958529414"/>
-    <nd ref="110249279"/>
   </way>
   <way id="48049629" visible="true" version="19">
     <tag k="lit" v="yes"/>
@@ -5031,38 +4884,6 @@
     <nd ref="2780691954"/>
     <nd ref="584514537"/>
     <nd ref="1149458661"/>
-  </way>
-  <way id="11910018" visible="true" version="18">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A202"/>
-    <tag k="name" v="Harleyford Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="trunk"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="postal_code" v="SE11"/>
-    <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:left:oneway" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG055959"/>
-    <nd ref="10865124"/>
-    <nd ref="6845915138"/>
-    <nd ref="2830429041"/>
-    <nd ref="6845915139"/>
-    <nd ref="2830429040"/>
-    <nd ref="10865123"/>
-  </way>
-  <way id="827047764" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Webber Street"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="paving_stones"/>
-    <tag k="cycleway" v="separate"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="tiger:upload_uuid" v="RWG135156"/>
-    <nd ref="4848681131"/>
-    <nd ref="4848681129"/>
   </way>
   <way id="5148716" visible="true" version="24">
     <tag k="lit" v="yes"/>
@@ -5553,54 +5374,6 @@
     <nd ref="6925827740"/>
     <nd ref="21393713"/>
     <nd ref="1839216409"/>
-  </way>
-  <way id="232676128" visible="true" version="11">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A202"/>
-    <tag k="name" v="Harleyford Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="trunk"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="postal_code" v="SE11"/>
-    <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:left:oneway" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG135202"/>
-    <nd ref="110249279"/>
-    <nd ref="4958530841"/>
-    <nd ref="4215298241"/>
-    <nd ref="2890999644"/>
-    <nd ref="110252960"/>
-    <nd ref="4215490757"/>
-    <nd ref="7354490968"/>
-    <nd ref="1937709583"/>
-    <nd ref="107093858"/>
-  </way>
-  <way id="232676128" visible="true" version="11">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A202"/>
-    <tag k="name" v="Harleyford Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="trunk"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="postal_code" v="SE11"/>
-    <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:left:oneway" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG135202"/>
-    <nd ref="110249279"/>
-    <nd ref="4958530841"/>
-    <nd ref="4215298241"/>
-    <nd ref="2890999644"/>
-    <nd ref="110252960"/>
-    <nd ref="4215490757"/>
-    <nd ref="7354490968"/>
-    <nd ref="1937709583"/>
-    <nd ref="107093858"/>
   </way>
   <way id="147680889" visible="true" version="17">
     <tag k="lit" v="yes"/>
