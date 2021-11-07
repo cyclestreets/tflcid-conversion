@@ -5475,11 +5475,13 @@
     <nd ref="5278147415"/>
     <nd ref="116117797"/>
   </way>
-  <way id="4099959" visible="true" version="4">
+  <way id="4099959" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Balfour Avenue"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="traffic_intervention" v="school_street"/>
+    <tag k="motor_vehicle:conditional" v="destination @ (Mo-Fr 08:30-09:00,14:45-15:30)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG233525"/>
     <nd ref="21992546"/>
@@ -5487,11 +5489,13 @@
     <nd ref="21992363"/>
     <nd ref="8324695578"/>
   </way>
-  <way id="4099959" visible="true" version="4">
+  <way id="4099959" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Balfour Avenue"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="traffic_intervention" v="school_street"/>
+    <tag k="motor_vehicle:conditional" v="destination @ (Mo-Fr 08:30-09:00,14:45-15:30)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG234381"/>
     <nd ref="21992546"/>
@@ -6896,12 +6900,14 @@
     <nd ref="6299713198"/>
     <nd ref="4875066795"/>
   </way>
-  <way id="895569674" visible="true" version="2">
+  <way id="895569674" visible="true" version="3">
     <tag k="name" v="Balfour Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="traffic_intervention" v="school_street"/>
+    <tag k="motor_vehicle:conditional" v="destination @ (Mo-Fr 08:30-09:00,14:45-15:30)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG234381"/>
     <nd ref="8324695578"/>
@@ -7698,10 +7704,12 @@
     <nd ref="7079017432"/>
     <nd ref="71005309"/>
   </way>
-  <way id="4746965" visible="true" version="9">
+  <way id="4746965" visible="true" version="11">
     <tag k="name" v="Federal Road"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="traffic_intervention" v="school_street"/>
+    <tag k="motor_vehicle:conditional" v="destination @ (Mo-Fr 08:15-09:15,14:45-15:45)"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:right:track" v="hybrid"/>
     <tag k="tiger:upload_uuid" v="RWG275277"/>
@@ -7713,12 +7721,14 @@
     <nd ref="32657145"/>
     <nd ref="36678026"/>
   </way>
-  <way id="746815158" visible="true" version="1">
+  <way id="746815158" visible="true" version="2">
     <tag k="name" v="Federal Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="maxweight" v="2.1"/>
+    <tag k="traffic_intervention" v="school_street"/>
+    <tag k="motor_vehicle:conditional" v="destination @ (Mo-Fr 08:15-09:15,14:45-15:45)"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:right:track" v="hybrid"/>
     <tag k="tiger:upload_uuid" v="RWG275277"/>
