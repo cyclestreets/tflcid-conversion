@@ -391,13 +391,6 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="marked"/>
   </node>
-  <node id="8013632079" lat="51.4972967" lon="-0.1153872" version="1" visible="true"/>
-  <node id="8013632078" lat="51.4970985" lon="-0.1153958" version="1" visible="true"/>
-  <node id="8013632077" lat="51.4975453" lon="-0.115315" version="1" visible="true"/>
-  <node id="8013632076" lat="51.4979204" lon="-0.1151679" version="2" visible="true">
-    <tag k="highway" v="give_way"/>
-    <tag k="direction" v="forward"/>
-  </node>
   <node id="8013559885" lat="51.4849168" lon="-0.1155899" version="3" visible="true"/>
   <node id="8008294341" lat="51.4866319" lon="-0.1164324" version="4" visible="true"/>
   <node id="7986895215" lat="51.5571533" lon="-0.0914906" version="1" visible="true"/>
@@ -3248,8 +3241,6 @@
   <node id="25472986" lat="51.5269972" lon="-0.1115882" version="5" visible="true"/>
   <node id="25472045" lat="51.5194266" lon="-0.132478" version="7" visible="true"/>
   <node id="25471792" lat="51.4983776" lon="-0.1150064" version="4" visible="true"/>
-  <node id="25471791" lat="51.497847" lon="-0.115198" version="1" visible="true"/>
-  <node id="25471790" lat="51.4965489" lon="-0.1155768" version="2" visible="true"/>
   <node id="25471708" lat="51.5135775" lon="-0.1226272" version="12" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
@@ -14036,40 +14027,6 @@
     <nd ref="7720662908"/>
     <nd ref="18239820"/>
     <nd ref="7720662907"/>
-  </way>
-  <way id="507117176" visible="true" version="11">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Carlisle Lane"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG135158"/>
-    <nd ref="25471790"/>
-    <nd ref="8013632078"/>
-    <nd ref="8013632079"/>
-    <nd ref="8013632077"/>
-    <nd ref="25471791"/>
-    <nd ref="8013632076"/>
-    <nd ref="25473420"/>
-  </way>
-  <way id="507117176" visible="true" version="11">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Carlisle Lane"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG135158"/>
-    <nd ref="25471790"/>
-    <nd ref="8013632078"/>
-    <nd ref="8013632079"/>
-    <nd ref="8013632077"/>
-    <nd ref="25471791"/>
-    <nd ref="8013632076"/>
-    <nd ref="25473420"/>
   </way>
   <way id="107674706" visible="true" version="16">
     <tag k="lit" v="yes"/>
