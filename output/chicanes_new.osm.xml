@@ -1,5 +1,16 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9250535134" lat="51.5476278" lon="-0.0582585" version="1" visible="true"/>
+  <node id="9250478223" lat="51.4617876" lon="-0.1103284" version="1" visible="true"/>
+  <node id="9250478220" lat="51.4617335" lon="-0.1102702" version="1" visible="true"/>
+  <node id="9250454366" lat="51.4622042" lon="-0.1106793" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+  </node>
+  <node id="9250454365" lat="51.4621764" lon="-0.1106577" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
   <node id="9244838473" lat="51.5588117" lon="0.1555238" version="1" visible="true">
     <tag k="priority" v="backward"/>
     <tag k="traffic_calming" v="choker"/>
@@ -2480,7 +2491,7 @@
   <node id="112007563" lat="51.4539141" lon="-0.1061738" version="3" visible="true"/>
   <node id="112007562" lat="51.4536414" lon="-0.10644" version="8" visible="true"/>
   <node id="112004092" lat="51.461235" lon="-0.1097182" version="10" visible="true"/>
-  <node id="111994337" lat="51.4622185" lon="-0.1106659" version="7" visible="true"/>
+  <node id="111994337" lat="51.4622321" lon="-0.1107009" version="8" visible="true"/>
   <node id="111994335" lat="51.4618816" lon="-0.1104342" version="6" visible="true"/>
   <node id="111993903" lat="51.4606637" lon="-0.1091125" version="10" visible="true"/>
   <node id="111993066" lat="51.4601176" lon="-0.1085181" version="9" visible="true"/>
@@ -4874,7 +4885,7 @@
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG106212"/>
   </node>
-  <node id="-24041" lat="51.4618269532375" lon="-0.110373693732523" visible="true">
+  <node id="-24041" lat="51.4618273506356" lon="-0.110373146471763" visible="true">
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG135065"/>
   </node>
@@ -4990,7 +5001,7 @@
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG041781"/>
   </node>
-  <node id="-24018" lat="51.5475229939064" lon="-0.0583778629933724" visible="true">
+  <node id="-24018" lat="51.5475230084236" lon="-0.0583778783026609" visible="true">
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG152005"/>
   </node>
@@ -6133,7 +6144,7 @@
     <nd ref="2959628828"/>
     <nd ref="4904399287"/>
   </way>
-  <way id="206108904" visible="true" version="8">
+  <way id="206108904" visible="true" version="9">
     <tag k="highway" v="residential"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -6142,6 +6153,7 @@
     <tag k="surface" v="asphalt"/>
     <nd ref="2161098755"/>
     <nd ref="2161098743"/>
+    <nd ref="9250535134"/>
     <nd ref="60365283"/>
     <nd ref="5803454859"/>
     <nd ref="-24017"/>
@@ -6151,7 +6163,7 @@
     <nd ref="60365285"/>
     <nd ref="18061578"/>
   </way>
-  <way id="206108904" visible="true" version="8">
+  <way id="206108904" visible="true" version="9">
     <tag k="highway" v="residential"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -6161,6 +6173,7 @@
     <nd ref="2161098755"/>
     <nd ref="2161098743"/>
     <nd ref="-24018"/>
+    <nd ref="9250535134"/>
     <nd ref="60365283"/>
     <nd ref="5803454859"/>
     <nd ref="60365284"/>
@@ -6270,7 +6283,7 @@
     <nd ref="3761737524"/>
     <nd ref="263028184"/>
   </way>
-  <way id="206108904" visible="true" version="8">
+  <way id="206108904" visible="true" version="9">
     <tag k="highway" v="residential"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -6279,6 +6292,7 @@
     <tag k="surface" v="asphalt"/>
     <nd ref="2161098755"/>
     <nd ref="2161098743"/>
+    <nd ref="9250535134"/>
     <nd ref="60365283"/>
     <nd ref="5803454859"/>
     <nd ref="-24026"/>
@@ -6615,20 +6629,24 @@
     <nd ref="3245320661"/>
     <nd ref="111943050"/>
   </way>
-  <way id="639182547" visible="true" version="3">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Somerleyton Road"/>
+  <way id="639182547" visible="true" version="5">
     <tag k="highway" v="unclassified"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Somerleyton Road"/>
     <nd ref="111992063"/>
     <nd ref="111993066"/>
     <nd ref="1956340242"/>
     <nd ref="1782298849"/>
     <nd ref="111993903"/>
     <nd ref="112004092"/>
+    <nd ref="9250478220"/>
+    <nd ref="9250478223"/>
     <nd ref="-24041"/>
     <nd ref="111994335"/>
     <nd ref="6846938121"/>
+    <nd ref="9250454365"/>
+    <nd ref="9250454366"/>
     <nd ref="111994337"/>
   </way>
   <way id="4256336" visible="true" version="6">

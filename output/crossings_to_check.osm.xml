@@ -939,7 +939,7 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184365"/>
   </node>
-  <node id="2467846171" lat="51.4744939947772" lon="-0.0228219999968232" visible="true" version="7">
+  <node id="2467846166" lat="51.4743895947772" lon="-0.0227570999968322" visible="true" version="7">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -948,7 +948,7 @@
     <tag k="crossing:island" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG199197"/>
   </node>
-  <node id="2467846166" lat="51.4743895947772" lon="-0.0227570999968322" visible="true" version="7">
+  <node id="2467846171" lat="51.4744939947772" lon="-0.0228219999968232" visible="true" version="7">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -1629,12 +1629,12 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184360"/>
   </node>
-  <node id="-32446" lat="51.5927399677343" lon="0.0411886542595331" visible="true">
+  <node id="-32446" lat="51.5927527479578" lon="0.0415530380568272" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG154505"/>
   </node>
-  <node id="-32445" lat="51.5927527479578" lon="0.0415530380568272" visible="true">
+  <node id="-32445" lat="51.5927399677343" lon="0.0411886542595331" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG154505"/>
@@ -1918,12 +1918,12 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184406"/>
   </node>
-  <node id="2549814933" lat="51.4664266" lon="0.1811733" visible="true" version="1">
+  <node id="-32428" lat="51.4664769013399" lon="0.181000958801068" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184475"/>
   </node>
-  <node id="-32428" lat="51.4664769013399" lon="0.181000958801068" visible="true">
+  <node id="2549814933" lat="51.4664266" lon="0.1811733" visible="true" version="1">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184475"/>
@@ -2010,7 +2010,7 @@
     <tag k="traffic_signals:countdown" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG123531"/>
   </node>
-  <node id="1370175228" lat="51.4077862947788" lon="-0.219118299969498" visible="true" version="4">
+  <node id="1370175228" lat="51.4077856947788" lon="-0.219129999969497" visible="true" version="5">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
@@ -2770,26 +2770,6 @@
     <nd ref="-32444"/>
     <nd ref="1561475155"/>
   </way>
-  <way id="138568316" visible="true" version="8">
-    <tag k="abutters" v="mixed"/>
-    <tag k="highway" v="trunk"/>
-    <tag k="lanes" v="2"/>
-    <tag k="lit" v="yes"/>
-    <tag k="maxspeed" v="40 mph"/>
-    <tag k="name" v="Southend Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="ref" v="A1400"/>
-    <nd ref="11947151"/>
-    <nd ref="8505249391"/>
-    <nd ref="-32445"/>
-    <nd ref="1496229624"/>
-    <nd ref="4524680605"/>
-    <nd ref="25581943"/>
-    <nd ref="1880426842"/>
-    <nd ref="25581941"/>
-    <nd ref="11947160"/>
-  </way>
   <way id="2969465" visible="true" version="15">
     <tag k="abutters" v="mixed"/>
     <tag k="highway" v="trunk"/>
@@ -2806,7 +2786,7 @@
     <nd ref="25581942"/>
     <nd ref="2378279196"/>
     <nd ref="8505249390"/>
-    <nd ref="-32446"/>
+    <nd ref="-32445"/>
     <nd ref="1496229619"/>
     <nd ref="13980239"/>
     <nd ref="563964"/>
@@ -2815,6 +2795,26 @@
     <nd ref="6660646940"/>
     <nd ref="256247364"/>
     <nd ref="5905156374"/>
+  </way>
+  <way id="138568316" visible="true" version="8">
+    <tag k="abutters" v="mixed"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="40 mph"/>
+    <tag k="name" v="Southend Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="ref" v="A1400"/>
+    <nd ref="11947151"/>
+    <nd ref="8505249391"/>
+    <nd ref="-32446"/>
+    <nd ref="1496229624"/>
+    <nd ref="4524680605"/>
+    <nd ref="25581943"/>
+    <nd ref="1880426842"/>
+    <nd ref="25581941"/>
+    <nd ref="11947160"/>
   </way>
   <way id="239869089" visible="true" version="5">
     <tag k="lit" v="yes"/>

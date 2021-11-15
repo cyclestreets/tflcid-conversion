@@ -371,8 +371,9 @@
   <node id="4169897158" lat="51.5299904" lon="0.0811259" version="1" visible="true"/>
   <node id="4169897156" lat="51.5302183" lon="0.0814692" version="1" visible="true"/>
   <node id="4169897154" lat="51.5302632" lon="0.0816125" version="1" visible="true"/>
-  <node id="4007718219" lat="51.6135185" lon="-0.1431101" version="2" visible="true">
+  <node id="4007718219" lat="51.6135185" lon="-0.1431101" version="3" visible="true">
     <tag k="barrier" v="bollard"/>
+    <tag k="bollard" v="removable"/>
   </node>
   <node id="3956296666" lat="51.4176242" lon="-0.1853387" version="3" visible="true"/>
   <node id="3924447505" lat="51.5201048" lon="-0.0296725" version="2" visible="true"/>
@@ -785,12 +786,6 @@
   </node>
   <node id="243458783" lat="51.5105879" lon="-0.4348021" version="4" visible="true"/>
   <node id="242553362" lat="51.5821407" lon="-0.0630063" version="1" visible="true"/>
-  <node id="240055669" lat="51.48719" lon="-0.10745" version="5" visible="true">
-    <tag k="foot" v="yes"/>
-    <tag k="barrier" v="gate"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="motor_vehicle" v="no"/>
-  </node>
   <node id="236863201" lat="51.5060301" lon="-0.1691715" version="5" visible="true"/>
   <node id="236853726" lat="51.5060377" lon="-0.1692843" version="4" visible="true"/>
   <node id="221323071" lat="51.6031383" lon="0.0270068" version="3" visible="true"/>
@@ -832,8 +827,6 @@
     <tag k="highway" v="mini_roundabout"/>
     <tag k="direction" v="clockwise"/>
   </node>
-  <node id="105950872" lat="51.4873911" lon="-0.1079365" version="3" visible="true"/>
-  <node id="105950871" lat="51.487089" lon="-0.1071954" version="6" visible="true"/>
   <node id="104284801" lat="51.4868146" lon="-0.0549489" version="2" visible="true"/>
   <node id="104274626" lat="51.4843878" lon="-0.0758619" version="1" visible="true"/>
   <node id="104274625" lat="51.4843616" lon="-0.0740881" version="7" visible="true">
@@ -1971,56 +1964,49 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG072451"/>
   </node>
-  <node id="-202" lat="51.4871505489113" lon="-0.107350565159691" visible="true">
-    <tag k="barrier" v="yes"/>
-    <tag k="access" v="no"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG055478"/>
-  </node>
-  <node id="-201" lat="51.5196135451514" lon="-0.0293545152563386" visible="true">
+  <node id="-202" lat="51.5196135451514" lon="-0.0293545152563386" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG072517"/>
   </node>
-  <node id="-200" lat="51.525747463232" lon="-0.0266510588454846" visible="true">
+  <node id="-201" lat="51.525747463232" lon="-0.0266510588454846" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG072084"/>
   </node>
-  <node id="-199" lat="51.5095229427029" lon="-0.0242235239409396" visible="true">
+  <node id="-200" lat="51.5095229427029" lon="-0.0242235239409396" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG072952"/>
   </node>
-  <node id="-198" lat="51.5040865227452" lon="-0.15355789124134" visible="true">
+  <node id="-199" lat="51.5040865227452" lon="-0.15355789124134" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG135641"/>
   </node>
-  <node id="-197" lat="51.5250258196533" lon="-0.0759307675015897" visible="true">
+  <node id="-198" lat="51.5250258196533" lon="-0.0759307675015897" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG072605"/>
   </node>
-  <node id="-196" lat="51.5168860682549" lon="-0.075448229013283" visible="true">
+  <node id="-197" lat="51.5168860682549" lon="-0.075448229013283" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG072710"/>
   </node>
-  <node id="-195" lat="51.5314275153787" lon="-0.0460042706888453" visible="true">
+  <node id="-196" lat="51.5314275153787" lon="-0.0460042706888453" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -2034,126 +2020,126 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG072903"/>
   </node>
-  <node id="-194" lat="51.5007285947765" lon="-0.0197105999972563" visible="true">
+  <node id="-195" lat="51.5007285947765" lon="-0.0197105999972563" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG071443"/>
   </node>
-  <node id="-193" lat="51.5133343761152" lon="-0.0130090413596997" visible="true">
+  <node id="-194" lat="51.5133343761152" lon="-0.0130090413596997" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG072165"/>
   </node>
-  <node id="-192" lat="51.5118018830527" lon="-0.0224294808874039" visible="true">
+  <node id="-193" lat="51.5118018830527" lon="-0.0224294808874039" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG108787"/>
   </node>
-  <node id="-191" lat="51.5170500500979" lon="-0.074197833403673" visible="true">
+  <node id="-192" lat="51.5170500500979" lon="-0.074197833403673" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG070900"/>
   </node>
-  <node id="-190" lat="51.4895254573491" lon="-0.150127593509514" visible="true">
+  <node id="-191" lat="51.4895254573491" lon="-0.150127593509514" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG055367"/>
   </node>
-  <node id="-189" lat="51.506904226722" lon="-0.0151985145918941" visible="true">
+  <node id="-190" lat="51.506904226722" lon="-0.0151985145918941" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG108786"/>
   </node>
-  <node id="-188" lat="51.5331603081045" lon="-0.0650219063007087" visible="true">
+  <node id="-189" lat="51.5331603081045" lon="-0.0650219063007087" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG072762"/>
   </node>
-  <node id="-187" lat="51.4795278903549" lon="-0.186881102917233" visible="true">
+  <node id="-188" lat="51.4795278903549" lon="-0.186881102917233" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG043305"/>
   </node>
-  <node id="-186" lat="51.510930476936" lon="-0.0565218876108799" visible="true">
+  <node id="-187" lat="51.510930476936" lon="-0.0565218876108799" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG108678"/>
   </node>
-  <node id="-185" lat="51.51170077393" lon="-0.0529210629607696" visible="true">
+  <node id="-186" lat="51.51170077393" lon="-0.0529210629607696" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG108676"/>
   </node>
-  <node id="-184" lat="51.5106529563678" lon="-0.0550814892714331" visible="true">
+  <node id="-185" lat="51.5106529563678" lon="-0.0550814892714331" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG064503"/>
   </node>
-  <node id="-183" lat="51.5050785219094" lon="-0.0670951958299853" visible="true">
+  <node id="-184" lat="51.5050785219094" lon="-0.0670951958299853" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG064460"/>
   </node>
-  <node id="-182" lat="51.5118004241383" lon="-0.119805856234491" visible="true">
+  <node id="-183" lat="51.5118004241383" lon="-0.119805856234491" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065581"/>
   </node>
-  <node id="-181" lat="51.5149439670938" lon="-0.141022408211872" visible="true">
+  <node id="-182" lat="51.5149439670938" lon="-0.141022408211872" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065409"/>
   </node>
-  <node id="-180" lat="51.4975007584792" lon="-0.133875887398634" visible="true">
+  <node id="-181" lat="51.4975007584792" lon="-0.133875887398634" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065382"/>
   </node>
-  <node id="-179" lat="51.5108581904745" lon="-0.131731567396118" visible="true">
+  <node id="-180" lat="51.5108581904745" lon="-0.131731567396118" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065375"/>
   </node>
-  <node id="-178" lat="51.4966031961232" lon="-0.133656327684924" visible="true">
+  <node id="-179" lat="51.4966031961232" lon="-0.133656327684924" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065374"/>
   </node>
-  <node id="-177" lat="51.51099269504" lon="-0.0566648774743828" visible="true">
+  <node id="-178" lat="51.51099269504" lon="-0.0566648774743828" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -2168,112 +2154,112 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG108677"/>
   </node>
-  <node id="-176" lat="51.5103047561649" lon="-0.0556311296059855" visible="true">
+  <node id="-177" lat="51.5103047561649" lon="-0.0556311296059855" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG064497"/>
   </node>
-  <node id="-175" lat="51.5233922151287" lon="-0.0934936965294348" visible="true">
+  <node id="-176" lat="51.5233922151287" lon="-0.0934936965294348" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065076"/>
   </node>
-  <node id="-174" lat="51.5112655748899" lon="-0.0801035204967118" visible="true">
+  <node id="-175" lat="51.5112655748899" lon="-0.0801035204967118" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG152614"/>
   </node>
-  <node id="-173" lat="51.5175157763109" lon="-0.109014426786565" visible="true">
+  <node id="-174" lat="51.5175157763109" lon="-0.109014426786565" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG066947"/>
   </node>
-  <node id="-172" lat="51.5135209153195" lon="-0.12861207016499" visible="true">
+  <node id="-173" lat="51.5135209153195" lon="-0.12861207016499" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065015"/>
   </node>
-  <node id="-171" lat="51.5581515871775" lon="-0.137720081025357" visible="true">
+  <node id="-172" lat="51.5581515871775" lon="-0.137720081025357" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG032507"/>
   </node>
-  <node id="-170" lat="51.558603656046" lon="-0.100704601910776" visible="true">
+  <node id="-171" lat="51.558603656046" lon="-0.100704601910776" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG006365"/>
   </node>
-  <node id="-169" lat="51.555437615342" lon="-0.112779799519158" visible="true">
+  <node id="-170" lat="51.555437615342" lon="-0.112779799519158" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG150936"/>
   </node>
-  <node id="-168" lat="51.5337638794468" lon="-0.0939830296773016" visible="true">
+  <node id="-169" lat="51.5337638794468" lon="-0.0939830296773016" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG032132"/>
   </node>
-  <node id="-167" lat="51.5348618145336" lon="-0.124670011077613" visible="true">
+  <node id="-168" lat="51.5348618145336" lon="-0.124670011077613" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG032619"/>
   </node>
-  <node id="-166" lat="51.5546060565889" lon="-0.138700970177222" visible="true">
+  <node id="-167" lat="51.5546060565889" lon="-0.138700970177222" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG039893"/>
   </node>
-  <node id="-165" lat="51.5551977120437" lon="-0.138852612282476" visible="true">
+  <node id="-166" lat="51.5551977120437" lon="-0.138852612282476" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG039883"/>
   </node>
-  <node id="-164" lat="51.5551625444662" lon="-0.138709790271965" visible="true">
+  <node id="-165" lat="51.5551625444662" lon="-0.138709790271965" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG039884"/>
   </node>
-  <node id="-163" lat="51.5205858278251" lon="-0.174748409186017" visible="true">
+  <node id="-164" lat="51.5205858278251" lon="-0.174748409186017" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG049206"/>
   </node>
-  <node id="-162" lat="51.5208056923858" lon="-0.171013628187264" visible="true">
+  <node id="-163" lat="51.5208056923858" lon="-0.171013628187264" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG049203"/>
   </node>
-  <node id="-161" lat="51.506219391093" lon="-0.240994077313411" visible="true">
+  <node id="-162" lat="51.506219391093" lon="-0.240994077313411" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -2285,7 +2271,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Becklow Road"/>
     <nd ref="5913196264"/>
-    <nd ref="-161"/>
+    <nd ref="-162"/>
     <nd ref="8788638976"/>
     <nd ref="185716900"/>
     <nd ref="968515097"/>
@@ -2305,7 +2291,7 @@
     <tag k="postal_code" v="NW1"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="298917261"/>
-    <nd ref="-162"/>
+    <nd ref="-163"/>
     <nd ref="3669234339"/>
     <nd ref="32055885"/>
   </way>
@@ -2316,17 +2302,8 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="service"/>
     <nd ref="4895317399"/>
-    <nd ref="-163"/>
-    <nd ref="4895317407"/>
-  </way>
-  <way id="326008335" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Raveley Street"/>
-    <tag k="highway" v="living_street"/>
-    <tag k="source:highway" v="Home Zone sign at west"/>
-    <nd ref="3326237017"/>
     <nd ref="-164"/>
-    <nd ref="248927952"/>
+    <nd ref="4895317407"/>
   </way>
   <way id="326008335" visible="true" version="2">
     <tag k="lit" v="yes"/>
@@ -2337,13 +2314,22 @@
     <nd ref="-165"/>
     <nd ref="248927952"/>
   </way>
+  <way id="326008335" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Raveley Street"/>
+    <tag k="highway" v="living_street"/>
+    <tag k="source:highway" v="Home Zone sign at west"/>
+    <nd ref="3326237017"/>
+    <nd ref="-166"/>
+    <nd ref="248927952"/>
+  </way>
   <way id="23068029" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Lupton Street"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="pedestrian"/>
     <nd ref="248927951"/>
-    <nd ref="-166"/>
+    <nd ref="-167"/>
     <nd ref="1028854036"/>
   </way>
   <way id="140633010" visible="true" version="10">
@@ -2355,7 +2341,7 @@
     <tag k="name" v="Stable Street"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="1447052073"/>
-    <nd ref="-167"/>
+    <nd ref="-168"/>
     <nd ref="1540349979"/>
   </way>
   <way id="22780531" visible="true" version="17">
@@ -2369,7 +2355,7 @@
     <tag k="surface" v="asphalt"/>
     <nd ref="244668085"/>
     <nd ref="5186209771"/>
-    <nd ref="-168"/>
+    <nd ref="-169"/>
     <nd ref="4376163236"/>
     <nd ref="2536561975"/>
     <nd ref="4652810782"/>
@@ -2383,7 +2369,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="336269025"/>
-    <nd ref="-169"/>
+    <nd ref="-170"/>
     <nd ref="181327901"/>
     <nd ref="336269021"/>
   </way>
@@ -2399,7 +2385,7 @@
     <nd ref="26799611"/>
     <nd ref="2592356273"/>
     <nd ref="26799663"/>
-    <nd ref="-170"/>
+    <nd ref="-171"/>
     <nd ref="6277895027"/>
     <nd ref="9022543126"/>
     <nd ref="2592356272"/>
@@ -2417,7 +2403,7 @@
     <nd ref="8675263942"/>
     <nd ref="25416245"/>
     <nd ref="1842096040"/>
-    <nd ref="-171"/>
+    <nd ref="-172"/>
     <nd ref="306511552"/>
   </way>
   <way id="305976269" visible="true" version="6">
@@ -2432,7 +2418,7 @@
     <tag k="surface" v="paving_stones"/>
     <nd ref="25544143"/>
     <nd ref="5811221631"/>
-    <nd ref="-172"/>
+    <nd ref="-173"/>
     <nd ref="2456267967"/>
   </way>
   <way id="170470267" visible="true" version="7">
@@ -2442,7 +2428,7 @@
     <tag k="ref:GB:usrn" v="8100200"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="21578461"/>
-    <nd ref="-173"/>
+    <nd ref="-174"/>
     <nd ref="1816038239"/>
     <nd ref="1816038199"/>
     <nd ref="5014591889"/>
@@ -2463,7 +2449,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="wikipedia" v="en:Mark Lane, London"/>
     <nd ref="6149398572"/>
-    <nd ref="-174"/>
+    <nd ref="-175"/>
     <nd ref="1547013588"/>
     <nd ref="1547013592"/>
     <nd ref="1547013724"/>
@@ -2478,7 +2464,7 @@
     <tag k="surface" v="paving_stones"/>
     <tag k="maxspeed" v="20 mph"/>
     <nd ref="25472206"/>
-    <nd ref="-175"/>
+    <nd ref="-176"/>
     <nd ref="25472191"/>
   </way>
   <way id="5148720" visible="true" version="6">
@@ -2490,7 +2476,7 @@
     <nd ref="8672464656"/>
     <nd ref="108788"/>
     <nd ref="1535257000"/>
-    <nd ref="-176"/>
+    <nd ref="-177"/>
     <nd ref="35702051"/>
   </way>
   <way id="589967593" visible="true" version="4">
@@ -2498,7 +2484,7 @@
     <nd ref="8286085293"/>
     <nd ref="9068746505"/>
     <nd ref="9068746507"/>
-    <nd ref="-177"/>
+    <nd ref="-178"/>
     <nd ref="8672464658"/>
     <nd ref="9068746506"/>
     <nd ref="5633625189"/>
@@ -2515,7 +2501,7 @@
     <tag k="vehicle:conditional" v="no @ (Mo-Fr 08:00-17:00)"/>
     <nd ref="24973090"/>
     <nd ref="1232048725"/>
-    <nd ref="-178"/>
+    <nd ref="-179"/>
     <nd ref="292252720"/>
   </way>
   <way id="4480717" visible="true" version="16">
@@ -2535,7 +2521,7 @@
     <nd ref="9512915"/>
     <nd ref="4349648276"/>
     <nd ref="4349648275"/>
-    <nd ref="-179"/>
+    <nd ref="-180"/>
     <nd ref="4189248446"/>
     <nd ref="107793"/>
   </way>
@@ -2552,7 +2538,7 @@
     <tag k="vehicle:conditional" v="no @ (Mo-Fr 08:00-17:00)"/>
     <nd ref="292252720"/>
     <nd ref="1165264579"/>
-    <nd ref="-180"/>
+    <nd ref="-181"/>
     <nd ref="25498827"/>
   </way>
   <way id="4259295" visible="true" version="8">
@@ -2567,7 +2553,7 @@
     <nd ref="8421658428"/>
     <nd ref="8421658426"/>
     <nd ref="21665915"/>
-    <nd ref="-181"/>
+    <nd ref="-182"/>
     <nd ref="25501773"/>
   </way>
   <way id="437141999" visible="true" version="11">
@@ -2580,7 +2566,7 @@
     <tag k="operator" v="City of Westminster"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="25471098"/>
-    <nd ref="-182"/>
+    <nd ref="-183"/>
     <nd ref="4350239457"/>
     <nd ref="1104386149"/>
     <nd ref="1614926285"/>
@@ -2592,7 +2578,7 @@
     <tag k="surface" v="sett"/>
     <tag k="sidewalk" v="both"/>
     <nd ref="6973771054"/>
-    <nd ref="-183"/>
+    <nd ref="-184"/>
     <nd ref="2918846372"/>
     <nd ref="278306813"/>
   </way>
@@ -2603,7 +2589,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="source" v="OS"/>
     <nd ref="8643220025"/>
-    <nd ref="-184"/>
+    <nd ref="-185"/>
     <nd ref="8643220024"/>
     <nd ref="8643220023"/>
     <nd ref="8643220022"/>
@@ -2620,14 +2606,14 @@
     <nd ref="2043946056"/>
     <nd ref="249135455"/>
     <nd ref="5633630689"/>
-    <nd ref="-185"/>
+    <nd ref="-186"/>
     <nd ref="108766"/>
   </way>
   <way id="935888086" visible="true" version="1">
     <tag k="highway" v="service"/>
     <nd ref="8672464656"/>
     <nd ref="8672464657"/>
-    <nd ref="-186"/>
+    <nd ref="-187"/>
     <nd ref="8672464658"/>
   </way>
   <way id="4422303" visible="true" version="4">
@@ -2637,7 +2623,7 @@
     <tag k="source:name" v="photograph"/>
     <tag k="source:maxspeed" v="THE HAMMERSMITH AND FULHAM (20 MPH SPEED LIMIT) EXPERIMENTAL TRAFFIC ORDER 2016"/>
     <nd ref="719015171"/>
-    <nd ref="-187"/>
+    <nd ref="-188"/>
     <nd ref="27091743"/>
   </way>
   <way id="638207381" visible="true" version="1">
@@ -2654,7 +2640,7 @@
     <nd ref="6015241192"/>
     <nd ref="6015241193"/>
     <nd ref="6015241194"/>
-    <nd ref="-188"/>
+    <nd ref="-189"/>
     <nd ref="6015241195"/>
   </way>
   <way id="130668668" visible="true" version="6">
@@ -2665,7 +2651,7 @@
     <tag k="sidewalk" v="none"/>
     <tag k="surface" v="concrete"/>
     <nd ref="1881056803"/>
-    <nd ref="-189"/>
+    <nd ref="-190"/>
     <nd ref="1438463220"/>
     <nd ref="1438463209"/>
     <nd ref="1438463230"/>
@@ -2674,7 +2660,7 @@
     <tag k="source" v="Bing"/>
     <tag k="highway" v="service"/>
     <nd ref="1685947983"/>
-    <nd ref="-190"/>
+    <nd ref="-191"/>
     <nd ref="1143756006"/>
     <nd ref="1143756004"/>
   </way>
@@ -2684,7 +2670,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <nd ref="1736734324"/>
-    <nd ref="-191"/>
+    <nd ref="-192"/>
     <nd ref="1490928695"/>
     <nd ref="1841331313"/>
     <nd ref="1490928714"/>
@@ -2694,7 +2680,7 @@
     <tag k="highway" v="service"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="641397283"/>
-    <nd ref="-192"/>
+    <nd ref="-193"/>
     <nd ref="4960698841"/>
   </way>
   <way id="64441615" visible="true" version="5">
@@ -2706,7 +2692,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="255879969"/>
-    <nd ref="-193"/>
+    <nd ref="-194"/>
     <nd ref="255879970"/>
   </way>
   <way id="356811166" visible="true" version="1">
@@ -2714,13 +2700,13 @@
     <tag k="highway" v="service"/>
     <nd ref="3618318449"/>
     <nd ref="3622156337"/>
-    <nd ref="-194"/>
+    <nd ref="-195"/>
     <nd ref="3622156338"/>
   </way>
   <way id="40226076" visible="true" version="5">
     <tag k="highway" v="service"/>
     <nd ref="484889587"/>
-    <nd ref="-195"/>
+    <nd ref="-196"/>
     <nd ref="484889863"/>
     <nd ref="484889900"/>
     <nd ref="1228338409"/>
@@ -2739,7 +2725,7 @@
     <nd ref="109769"/>
     <nd ref="4664722546"/>
     <nd ref="3486459771"/>
-    <nd ref="-196"/>
+    <nd ref="-197"/>
     <nd ref="1736771018"/>
     <nd ref="5659876323"/>
     <nd ref="7901360019"/>
@@ -2754,7 +2740,7 @@
     <tag k="name" v="Ligonier Street"/>
     <tag k="source" v="survey on 2007-09-08 with yahoo and gpx assistance"/>
     <nd ref="8790676046"/>
-    <nd ref="-197"/>
+    <nd ref="-198"/>
     <nd ref="25775295"/>
   </way>
   <way id="71799573" visible="true" version="20">
@@ -2771,7 +2757,7 @@
     <tag k="motor_vehicle" v="private"/>
     <tag k="usability:skate" v="excellent"/>
     <nd ref="60852813"/>
-    <nd ref="-198"/>
+    <nd ref="-199"/>
     <nd ref="247391886"/>
     <nd ref="102968467"/>
     <nd ref="207614139"/>
@@ -2806,7 +2792,7 @@
     <nd ref="1136348491"/>
     <nd ref="255878362"/>
     <nd ref="1136348580"/>
-    <nd ref="-199"/>
+    <nd ref="-200"/>
     <nd ref="1662290352"/>
   </way>
   <way id="22926680" visible="true" version="18">
@@ -2832,7 +2818,7 @@
     <nd ref="1459375410"/>
     <nd ref="9130764358"/>
     <nd ref="246860035"/>
-    <nd ref="-200"/>
+    <nd ref="-201"/>
     <nd ref="1459283065"/>
     <nd ref="9165967801"/>
     <nd ref="9165967790"/>
@@ -2860,17 +2846,8 @@
     <nd ref="3924447505"/>
     <nd ref="662028053"/>
     <nd ref="270491207"/>
-    <nd ref="-201"/>
-    <nd ref="270491210"/>
-  </way>
-  <way id="726171381" visible="true" version="1">
-    <tag k="name" v="Cleaver Square"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <nd ref="105950872"/>
-    <nd ref="240055669"/>
     <nd ref="-202"/>
-    <nd ref="105950871"/>
+    <nd ref="270491210"/>
   </way>
   <way id="14327777" visible="true" version="7">
     <tag k="highway" v="residential"/>
