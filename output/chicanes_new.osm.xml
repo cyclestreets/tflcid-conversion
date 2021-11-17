@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9251669191" lat="51.4705484" lon="-0.1051908" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="backward"/>
+  </node>
+  <node id="9251669190" lat="51.4705162" lon="-0.105182" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+  </node>
   <node id="9250535134" lat="51.5476278" lon="-0.0582585" version="1" visible="true"/>
   <node id="9250478223" lat="51.4617876" lon="-0.1103284" version="1" visible="true"/>
   <node id="9250478220" lat="51.4617335" lon="-0.1102702" version="1" visible="true"/>
@@ -6609,12 +6616,14 @@
     <nd ref="8087350684"/>
     <nd ref="7290398111"/>
   </way>
-  <way id="12343832" visible="true" version="17">
+  <way id="12343832" visible="true" version="18">
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Minet Road"/>
     <nd ref="25484561"/>
+    <nd ref="9251669191"/>
     <nd ref="6023079474"/>
+    <nd ref="9251669190"/>
     <nd ref="6023079463"/>
     <nd ref="2854509168"/>
     <nd ref="418339188"/>
@@ -8999,12 +9008,13 @@
     <nd ref="6782919103"/>
     <nd ref="1493656994"/>
   </way>
-  <way id="798180119" visible="true" version="2">
+  <way id="798180119" visible="true" version="3">
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Renwick Road"/>
@@ -9020,12 +9030,13 @@
     <nd ref="32922591"/>
     <nd ref="6254805664"/>
   </way>
-  <way id="798180119" visible="true" version="2">
+  <way id="798180119" visible="true" version="3">
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Renwick Road"/>
