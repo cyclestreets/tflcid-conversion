@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9260981854" lat="51.4713181" lon="-0.072602" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="backward"/>
+  </node>
   <node id="9195774409" lat="51.5921499" lon="-0.1265945" version="1" visible="true"/>
   <node id="9167922628" lat="51.5216545" lon="-0.0476472" version="1" visible="true">
     <tag k="highway" v="give_way"/>
@@ -222,7 +226,7 @@
   <node id="6579836683" lat="51.5827207" lon="-0.0638403" version="1" visible="true"/>
   <node id="6463178198" lat="51.5095715" lon="-0.0249904" version="1" visible="true"/>
   <node id="6445563329" lat="51.4706427" lon="-0.0725323" version="1" visible="true"/>
-  <node id="6445563328" lat="51.4712024" lon="-0.0725913" version="1" visible="true"/>
+  <node id="6445563328" lat="51.4711999" lon="-0.0725712" version="2" visible="true"/>
   <node id="6445563327" lat="51.470981" lon="-0.0725725" version="1" visible="true"/>
   <node id="6345272734" lat="51.5446369" lon="-0.4521542" version="1" visible="true"/>
   <node id="6343898851" lat="51.4455774" lon="-0.0253363" version="4" visible="true">
@@ -998,9 +1002,8 @@
   <node id="25416246" lat="51.5586441" lon="-0.1361855" version="1" visible="true"/>
   <node id="25416245" lat="51.558147" lon="-0.1372163" version="4" visible="true"/>
   <node id="25416244" lat="51.5584383" lon="-0.1366123" version="2" visible="true"/>
-  <node id="25340681" lat="51.4713481" lon="-0.0726246" version="6" visible="true">
-    <tag k="highway" v="mini_roundabout"/>
-    <tag k="direction" v="clockwise"/>
+  <node id="25340681" lat="51.4713606" lon="-0.0726266" version="7" visible="true">
+    <tag k="was:highway" v="mini_roundabout"/>
   </node>
   <node id="25340679" lat="51.4705371" lon="-0.0724991" version="1" visible="true"/>
   <node id="25340678" lat="51.4703309" lon="-0.0722544" version="2" visible="true"/>
@@ -3066,14 +3069,15 @@
     <nd ref="7323306894"/>
     <nd ref="7323306895"/>
   </way>
-  <way id="4799196" visible="true" version="10">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Elm Grove"/>
+  <way id="4799196" visible="true" version="11">
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Elm Grove"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="25340681"/>
+    <nd ref="9260981854"/>
     <nd ref="6445563328"/>
     <nd ref="6445563327"/>
     <nd ref="6445563329"/>
