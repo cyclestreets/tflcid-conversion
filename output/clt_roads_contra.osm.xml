@@ -1090,7 +1090,7 @@
   <node id="6250854111" lat="51.4451028" lon="0.0024246" version="1" visible="true"/>
   <node id="6250854106" lat="51.4456497" lon="0.0108564" version="1" visible="true"/>
   <node id="6250854104" lat="51.4436734" lon="0.029113" version="4" visible="true"/>
-  <node id="6250854103" lat="51.4447307" lon="0.0051387" version="1" visible="true"/>
+  <node id="6250854103" lat="51.4447376" lon="0.0051487" version="2" visible="true"/>
   <node id="6250854102" lat="51.4436389" lon="0.0292294" version="4" visible="true"/>
   <node id="6250854099" lat="51.4457334" lon="0.010811" version="1" visible="true"/>
   <node id="6250744684" lat="51.5503957" lon="-0.1027281" version="1" visible="true"/>
@@ -3538,7 +3538,9 @@
   <node id="107991" lat="51.5239007" lon="-0.1297451" version="9" visible="true"/>
   <node id="107981" lat="51.5275459" lon="-0.1271102" version="6" visible="true"/>
   <node id="107917" lat="51.5354837" lon="-0.1094858" version="6" visible="true"/>
-  <node id="107878" lat="51.5262563" lon="-0.125939" version="10" visible="true"/>
+  <node id="107878" lat="51.5262563" lon="-0.125939" version="11" visible="true">
+    <tag k="traffic_calming" v="table"/>
+  </node>
   <node id="107844" lat="51.5207281" lon="-0.1295001" version="10" visible="true"/>
   <node id="107094" lat="51.5374134" lon="-0.1098294" version="9" visible="true"/>
   <node id="106940" lat="51.5115598" lon="-0.0436059" version="6" visible="true"/>
@@ -10086,7 +10088,7 @@
     <nd ref="4136137529"/>
     <nd ref="25475664"/>
   </way>
-  <way id="17513379" visible="true" version="12">
+  <way id="17513379" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Cartwright Gardens"/>
     <tag k="lanes" v="2"/>
@@ -10095,7 +10097,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="separate"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG108345"/>
     <nd ref="107981"/>
@@ -13669,10 +13671,11 @@
     <nd ref="5234005578"/>
     <nd ref="5234005583"/>
   </way>
-  <way id="4999316" visible="true" version="10">
+  <way id="4999316" visible="true" version="11">
     <tag k="name" v="Kempsford Gardens"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG117907"/>
