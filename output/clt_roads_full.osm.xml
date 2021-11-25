@@ -588,6 +588,7 @@
   <node id="26026556" lat="51.6294622" lon="-0.0974802" version="10" visible="true"/>
   <node id="2301891644" lat="51.5021087" lon="-0.4469714" version="3" visible="true"/>
   <node id="705941461" lat="51.4746521" lon="-0.0237028" version="7" visible="true"/>
+  <node id="6384561968" lat="51.521591" lon="-0.1348388" version="2" visible="true"/>
   <node id="249675163" lat="51.6141676" lon="-0.0614862" version="1" visible="true"/>
   <node id="1960840446" lat="51.4881099" lon="-0.1534447" version="3" visible="true"/>
   <node id="8085802013" lat="51.6205768" lon="-0.1063428" version="1" visible="true"/>
@@ -1088,7 +1089,7 @@
   <node id="556768604" lat="51.4570065" lon="-0.4347339" version="5" visible="true"/>
   <node id="3135406157" lat="51.6547917" lon="-0.0482982" version="5" visible="true"/>
   <node id="8397391424" lat="51.5070449" lon="-0.4709223" version="3" visible="true"/>
-  <node id="419809799" lat="51.4901665" lon="-0.1268789" version="5" visible="true"/>
+  <node id="419809799" lat="51.4902007" lon="-0.126844" version="6" visible="true"/>
   <node id="1457700865" lat="51.6411206" lon="-0.0789238" version="6" visible="true"/>
   <node id="3195845028" lat="51.5053552" lon="-0.2257546" version="4" visible="true"/>
   <node id="253257134" lat="51.4810761" lon="-0.4469908" version="3" visible="true"/>
@@ -2523,6 +2524,7 @@
   <node id="326122897" lat="51.64252" lon="-0.079877" version="5" visible="true"/>
   <node id="7797306651" lat="51.4422168" lon="-0.0661424" version="1" visible="true"/>
   <node id="7876968372" lat="51.5430505" lon="-0.1496168" version="3" visible="true"/>
+  <node id="9279437653" lat="51.5215479" lon="-0.1349577" version="1" visible="true"/>
   <node id="31008688" lat="51.5801119" lon="0.1784921" version="5" visible="true"/>
   <node id="8011192975" lat="51.5307948" lon="-0.1016118" version="1" visible="true"/>
   <node id="8919037561" lat="51.5345816" lon="-0.006306" version="1" visible="true"/>
@@ -4874,6 +4876,10 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
     <tag k="traffic_signals:sound" v="no"/>
+  </node>
+  <node id="5610161834" lat="51.5215663" lon="-0.1349078" version="5" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="6384542423" lat="51.5215231" lon="-0.1352454" version="9" visible="true">
     <tag k="highway" v="crossing"/>
@@ -18291,6 +18297,24 @@
     <nd ref="21662035"/>
     <nd ref="21662030"/>
     <nd ref="3195845028"/>
+  </way>
+  <way id="687481232" visible="true" version="5">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Torrington Place"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG152184"/>
+    <nd ref="6384561968"/>
+    <nd ref="5610161834"/>
+    <nd ref="9279437653"/>
   </way>
   <way id="529215734" visible="true" version="8">
     <tag k="lit" v="yes"/>
