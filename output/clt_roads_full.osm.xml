@@ -1881,7 +1881,7 @@
   <node id="6474039244" lat="51.4175273" lon="-0.2815119" version="5" visible="true"/>
   <node id="7926832313" lat="51.5040682" lon="-0.095718" version="1" visible="true"/>
   <node id="8670108250" lat="51.4723783" lon="-0.3281061" version="1" visible="true"/>
-  <node id="735028665" lat="51.4593027" lon="-0.1164821" version="6" visible="true"/>
+  <node id="735028665" lat="51.4592449" lon="-0.1161403" version="7" visible="true"/>
   <node id="2218803097" lat="51.5347972" lon="-0.13899" version="4" visible="true"/>
   <node id="382363022" lat="51.6090831" lon="-0.3660569" version="6" visible="true"/>
   <node id="8591697288" lat="51.5407391" lon="-0.0015604" version="1" visible="true"/>
@@ -3247,7 +3247,7 @@
   <node id="6272019029" lat="51.6386716" lon="-0.0800256" version="4" visible="true"/>
   <node id="90415365" lat="51.5520176" lon="-0.3112697" version="9" visible="true"/>
   <node id="521700115" lat="51.3394644" lon="-0.1128355" version="2" visible="true"/>
-  <node id="7733879519" lat="51.4703015" lon="-0.1324011" version="1" visible="true"/>
+  <node id="7733879519" lat="51.4703004" lon="-0.1324233" version="2" visible="true"/>
   <node id="8011192977" lat="51.5308403" lon="-0.1017091" version="1" visible="true"/>
   <node id="9159707251" lat="51.5256998" lon="-0.1050525" version="1" visible="true"/>
   <node id="35959441" lat="51.4453421" lon="0.1536825" version="9" visible="true"/>
@@ -5542,15 +5542,10 @@
     <tag k="disused:highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="6032331297" lat="51.4702086" lon="-0.1325616" version="1" visible="true">
+  <node id="6032331297" lat="51.4702181" lon="-0.1325692" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="backward"/>
-  </node>
-  <node id="7918272056" lat="51.459301" lon="-0.116456" version="1" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals" v="signal"/>
-    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="2912413611" lat="51.4436243" lon="-0.1526848" version="8" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -25450,7 +25445,7 @@
     <nd ref="25161387"/>
     <nd ref="4305986094"/>
   </way>
-  <way id="848628025" visible="true" version="2">
+  <way id="848628025" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A204"/>
     <tag k="name" v="St. Matthew's Road"/>
@@ -25467,7 +25462,6 @@
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG999654"/>
     <nd ref="7918272058"/>
-    <nd ref="7918272056"/>
     <nd ref="735028665"/>
   </way>
   <way id="28884256" visible="true" version="10">
