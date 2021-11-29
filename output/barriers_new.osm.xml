@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9291113665" lat="51.5737583" lon="-0.2474062" version="1" visible="true"/>
+  <node id="9291113663" lat="51.5739617" lon="-0.2475671" version="1" visible="true">
+    <tag k="barrier" v="gate"/>
+  </node>
   <node id="9260981854" lat="51.4713181" lon="-0.072602" version="1" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="backward"/>
@@ -286,8 +290,8 @@
   <node id="5633630689" lat="51.5117291" lon="-0.0523973" version="1" visible="true"/>
   <node id="5633625189" lat="51.5109734" lon="-0.0561806" version="3" visible="true"/>
   <node id="5603482940" lat="51.3868369" lon="-0.1133853" version="1" visible="true"/>
-  <node id="5469655169" lat="51.573859" lon="-0.2474955" version="1" visible="true"/>
-  <node id="5469655168" lat="51.5737506" lon="-0.2473533" version="1" visible="true"/>
+  <node id="5469655169" lat="51.5737711" lon="-0.2474692" version="2" visible="true"/>
+  <node id="5469655168" lat="51.5737294" lon="-0.2473316" version="2" visible="true"/>
   <node id="5469655167" lat="51.5736856" lon="-0.2471843" version="1" visible="true"/>
   <node id="5469655166" lat="51.5736206" lon="-0.2469456" version="1" visible="true"/>
   <node id="5469655165" lat="51.5735373" lon="-0.2468222" version="1" visible="true"/>
@@ -1272,7 +1276,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG289371"/>
   </node>
-  <node id="-277" lat="51.5738448339639" lon="-0.247476923698948" visible="true">
+  <node id="-277" lat="51.573827622189" lon="-0.247498234770686" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -3830,11 +3834,13 @@
     <nd ref="-276"/>
     <nd ref="25284027"/>
   </way>
-  <way id="568549930" visible="true" version="4">
+  <way id="568549930" visible="true" version="5">
     <tag k="highway" v="service"/>
     <nd ref="6845694036"/>
-    <nd ref="5469655169"/>
+    <nd ref="9291113663"/>
     <nd ref="-277"/>
+    <nd ref="5469655169"/>
+    <nd ref="9291113665"/>
     <nd ref="5469655168"/>
     <nd ref="5469655167"/>
     <nd ref="5469655166"/>
