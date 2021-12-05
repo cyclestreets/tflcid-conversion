@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9310718003" lat="51.5405723" lon="-0.1373009" version="1" visible="true"/>
   <node id="9294989255" lat="51.5235917" lon="-0.1304434" version="1" visible="true"/>
   <node id="9294989253" lat="51.5235699" lon="-0.1305292" version="1" visible="true"/>
   <node id="9294989252" lat="51.5235861" lon="-0.1304888" version="1" visible="true"/>
@@ -2408,10 +2409,11 @@
   <node id="1470846162" lat="51.3762811" lon="-0.0862614" version="1" visible="true"/>
   <node id="1470846161" lat="51.3759558" lon="-0.0861381" version="1" visible="true"/>
   <node id="1470846160" lat="51.3755579" lon="-0.0858405" version="1" visible="true"/>
-  <node id="1448889398" lat="51.5208482" lon="-0.1296337" version="7" visible="true">
+  <node id="1448889398" lat="51.5208482" lon="-0.1296337" version="8" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="tactile_paving" v="no"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="1448876659" lat="51.5213434" lon="-0.130173" version="7" visible="true">
     <tag k="highway" v="crossing"/>
@@ -8361,7 +8363,7 @@
     <nd ref="4943292127"/>
     <nd ref="6332613846"/>
   </way>
-  <way id="642635291" visible="true" version="3">
+  <way id="642635291" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A5202"/>
     <tag k="name" v="Royal College Street"/>
@@ -8377,6 +8379,7 @@
     <tag k="tiger:upload_uuid" v="RWG003554"/>
     <nd ref="9206614956"/>
     <nd ref="2592856886"/>
+    <nd ref="9310718003"/>
     <nd ref="614490971"/>
   </way>
   <way id="4450041" visible="true" version="10">
