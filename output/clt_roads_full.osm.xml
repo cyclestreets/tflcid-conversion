@@ -1917,6 +1917,7 @@
   <node id="623136929" lat="51.4637645" lon="-0.0386427" version="3" visible="true"/>
   <node id="9244551600" lat="51.5771853" lon="0.1770206" version="1" visible="true"/>
   <node id="8690388554" lat="51.6030871" lon="-0.3570611" version="1" visible="true"/>
+  <node id="9316017761" lat="51.4897529" lon="-0.111228" version="1" visible="true"/>
   <node id="8688597904" lat="51.4091212" lon="-0.1923466" version="1" visible="true"/>
   <node id="1448692412" lat="51.5805525" lon="0.1808675" version="3" visible="true"/>
   <node id="4937046217" lat="51.6565895" lon="-0.0473665" version="6" visible="true"/>
@@ -2918,6 +2919,7 @@
   <node id="5352759766" lat="51.491073" lon="0.0804436" version="4" visible="true"/>
   <node id="1688806907" lat="51.3849515" lon="-0.1911716" version="4" visible="true"/>
   <node id="6800424769" lat="51.5331632" lon="-0.1114341" version="1" visible="true"/>
+  <node id="9316017762" lat="51.4896903" lon="-0.1112298" version="1" visible="true"/>
   <node id="8865878647" lat="51.5264052" lon="0.1261508" version="1" visible="true"/>
   <node id="45212417" lat="51.4255096" lon="0.06479" version="3" visible="true"/>
   <node id="5179866177" lat="51.5883748" lon="-0.1121221" version="3" visible="true"/>
@@ -21850,6 +21852,22 @@
     <tag k="tiger:upload_uuid" v="RWG056396"/>
     <nd ref="6470898677"/>
     <nd ref="8960661013"/>
+  </way>
+  <way id="1009689020" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A23"/>
+    <tag k="name" v="Kennington Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="postal_code" v="SE11"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG135680"/>
+    <nd ref="9316017762"/>
+    <nd ref="9316017761"/>
   </way>
   <way id="69147486" visible="true" version="11">
     <tag k="lit" v="yes"/>
