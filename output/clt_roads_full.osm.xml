@@ -4327,8 +4327,9 @@
     <tag k="local_ref" v="T"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="3866859757" lat="51.5281474" lon="-0.0802033" version="2" visible="true">
+  <node id="3866859757" lat="51.5281474" lon="-0.0802033" version="3" visible="true">
     <tag k="barrier" v="bollard"/>
+    <tag k="bollard" v="removable"/>
   </node>
   <node id="3862617452" lat="51.5230074" lon="-0.0641711" version="3" visible="true">
     <tag k="bus" v="yes"/>
@@ -8847,11 +8848,10 @@
     <nd ref="235493045"/>
     <nd ref="8568415411"/>
   </way>
-  <way id="995438635" visible="true" version="1">
+  <way id="995438635" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A503"/>
     <tag k="name" v="Forest Road"/>
-    <tag k="horse" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="separate"/>
@@ -8863,33 +8863,31 @@
     <nd ref="1722570520"/>
     <nd ref="8997216885"/>
   </way>
-  <way id="951327127" visible="true" version="4">
+  <way id="951327127" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A503"/>
     <tag k="name" v="Forest Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="postal_code" v="E17"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:left:width" v="1.75"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG149258"/>
     <nd ref="27798611"/>
     <nd ref="7154243974"/>
   </way>
-  <way id="972138204" visible="true" version="3">
+  <way id="972138204" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A503"/>
     <tag k="name" v="Forest Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="postal_code" v="E17"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:left:width" v="1.75"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG149258"/>
     <nd ref="8997216885"/>
