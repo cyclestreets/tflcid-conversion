@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9342283937" lat="51.4925357" lon="-0.2287162" version="1" visible="true"/>
   <node id="9335541775" lat="51.4925865" lon="-0.231875" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
@@ -43,7 +44,7 @@
     <tag k="traffic_calming" v="cushion"/>
   </node>
   <node id="9279437656" lat="51.5216786" lon="-0.134618" version="1" visible="true"/>
-  <node id="9262624366" lat="51.4926705" lon="-0.2328504" version="2" visible="true"/>
+  <node id="9262624366" lat="51.4926697" lon="-0.2328545" version="3" visible="true"/>
   <node id="9262624365" lat="51.4926512" lon="-0.2326305" version="2" visible="true"/>
   <node id="9259618832" lat="51.4710823" lon="-0.0741722" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -52,6 +53,10 @@
   <node id="9259618820" lat="51.4710795" lon="-0.0742011" version="1" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
+  </node>
+  <node id="9224809938" lat="51.4925262" lon="-0.228881" version="3" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
   </node>
   <node id="9217364609" lat="51.488708" lon="-0.1217266" version="1" visible="true"/>
   <node id="9217364606" lat="51.4887394" lon="-0.1220054" version="1" visible="true"/>
@@ -69,6 +74,10 @@
   <node id="9216802595" lat="51.5691684" lon="0.1465662" version="1" visible="true"/>
   <node id="9216802592" lat="51.5692064" lon="0.1463664" version="1" visible="true"/>
   <node id="9215384106" lat="51.5451344" lon="-0.050709" version="1" visible="true"/>
+  <node id="9212136035" lat="51.4925293" lon="-0.2288103" version="3" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="9210728218" lat="51.4995802" lon="-0.1356049" version="1" visible="true"/>
   <node id="9210633876" lat="51.4993038" lon="-0.1366741" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -142,7 +151,7 @@
   <node id="9140867358" lat="51.5159965" lon="-0.1206655" version="1" visible="true"/>
   <node id="9140866198" lat="51.4926065" lon="-0.232091" version="2" visible="true"/>
   <node id="9140866197" lat="51.4927022" lon="-0.2332568" version="2" visible="true"/>
-  <node id="9140866195" lat="51.4926354" lon="-0.23256" version="2" visible="true"/>
+  <node id="9140866195" lat="51.4926354" lon="-0.2325499" version="3" visible="true"/>
   <node id="9140866186" lat="51.492585" lon="-0.2316617" version="2" visible="true"/>
   <node id="9136788521" lat="51.4993761" lon="-0.2203395" version="1" visible="true"/>
   <node id="9128465447" lat="51.4738767" lon="-0.0173906" version="1" visible="true"/>
@@ -349,7 +358,7 @@
   <node id="8552340941" lat="51.4854646" lon="-0.0639271" version="1" visible="true"/>
   <node id="8536458487" lat="51.488656" lon="-0.1212654" version="1" visible="true"/>
   <node id="8504024172" lat="51.4451224" lon="-0.1103571" version="1" visible="true"/>
-  <node id="8489557022" lat="51.4183977" lon="-0.1349806" version="1" visible="true"/>
+  <node id="8489557022" lat="51.4184059" lon="-0.1349894" version="2" visible="true"/>
   <node id="8478459931" lat="51.3619554" lon="-0.0944829" version="1" visible="true"/>
   <node id="8478459929" lat="51.3616357" lon="-0.0943876" version="1" visible="true"/>
   <node id="8478459927" lat="51.3617382" lon="-0.0944182" version="1" visible="true"/>
@@ -3375,7 +3384,7 @@
     <tag k="name" v="Belgravia"/>
     <tag k="rcn_name" v="Belgravia"/>
   </node>
-  <node id="18126588" lat="51.4925342" lon="-0.2294206" version="9" visible="true"/>
+  <node id="18126588" lat="51.4925355" lon="-0.2294407" version="10" visible="true"/>
   <node id="18066100" lat="51.5122117" lon="-0.0157375" version="3" visible="true"/>
   <node id="18064483" lat="51.5455852" lon="-0.06214" version="6" visible="true"/>
   <node id="18064349" lat="51.5450576" lon="-0.0506868" version="4" visible="true">
@@ -7936,10 +7945,13 @@
     <nd ref="6974001862"/>
     <nd ref="6974001860"/>
   </way>
-  <way id="10506676" visible="true" version="2">
+  <way id="10506676" visible="true" version="5">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Union Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="postal_code" v="HA0"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG275524"/>
@@ -11087,7 +11099,8 @@
     <nd ref="7440151241"/>
     <nd ref="35360808"/>
   </way>
-  <way id="794608872" visible="true" version="2">
+  <way id="794608872" visible="true" version="3">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Wayland Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -13339,6 +13352,23 @@
     <tag k="tiger:upload_uuid" v="RWG042788"/>
     <nd ref="25509425"/>
     <nd ref="18126588"/>
+  </way>
+  <way id="1012624409" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A315"/>
+    <tag k="name" v="King Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG042788"/>
+    <nd ref="9342283937"/>
+    <nd ref="9212136035"/>
+    <nd ref="9224809938"/>
+    <nd ref="25509425"/>
   </way>
   <way id="3997535" visible="true" version="8">
     <tag k="name" v="Crisp Road"/>
