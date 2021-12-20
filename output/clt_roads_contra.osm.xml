@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9348641639" lat="51.418313" lon="-0.1348886" version="1" visible="true"/>
+  <node id="9348641638" lat="51.4182098" lon="-0.1347292" version="1" visible="true"/>
   <node id="9342283937" lat="51.4925357" lon="-0.2287162" version="1" visible="true"/>
   <node id="9335541775" lat="51.4925865" lon="-0.231875" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -733,10 +735,6 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
-  </node>
-  <node id="7330327066" lat="51.4183087" lon="-0.1348838" version="2" visible="true">
-    <tag k="cycleway" v="asl"/>
-    <tag k="direction" v="forward"/>
   </node>
   <node id="7330281379" lat="51.4906008" lon="-0.1164751" version="1" visible="true"/>
   <node id="7330281378" lat="51.4906225" lon="-0.1164587" version="1" visible="true"/>
@@ -2331,11 +2329,6 @@
   </node>
   <node id="1763989703" lat="51.3750437" lon="-0.0832772" version="1" visible="true"/>
   <node id="1763989695" lat="51.3750319" lon="-0.0881842" version="1" visible="true"/>
-  <node id="1763000387" lat="51.4182722" lon="-0.1348349" version="6" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals" v="signal"/>
-    <tag k="traffic_signals:direction" v="forward"/>
-  </node>
   <node id="1761380805" lat="51.5247401" lon="-0.09055" version="4" visible="true"/>
   <node id="1760245128" lat="51.3774185" lon="-0.1031507" version="1" visible="true"/>
   <node id="1759454163" lat="51.5164734" lon="-0.0942292" version="1" visible="true"/>
@@ -13685,7 +13678,7 @@
     <nd ref="3624900680"/>
     <nd ref="17788866"/>
   </way>
-  <way id="506211761" visible="true" version="11">
+  <way id="1013307614" visible="true" version="1">
     <tag k="name" v="Ellison Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -13695,55 +13688,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102332"/>
     <nd ref="4959806199"/>
-    <nd ref="1763000387"/>
-    <nd ref="7330327066"/>
-    <nd ref="7330327067"/>
-    <nd ref="8489557022"/>
-  </way>
-  <way id="506211761" visible="true" version="11">
-    <tag k="name" v="Ellison Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG102329"/>
-    <nd ref="4959806199"/>
-    <nd ref="1763000387"/>
-    <nd ref="7330327066"/>
-    <nd ref="7330327067"/>
-    <nd ref="8489557022"/>
-  </way>
-  <way id="506211761" visible="true" version="11">
-    <tag k="name" v="Ellison Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG102330"/>
-    <nd ref="4959806199"/>
-    <nd ref="1763000387"/>
-    <nd ref="7330327066"/>
-    <nd ref="7330327067"/>
-    <nd ref="8489557022"/>
-  </way>
-  <way id="506211761" visible="true" version="11">
-    <tag k="name" v="Ellison Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG102330"/>
-    <nd ref="4959806199"/>
-    <nd ref="1763000387"/>
-    <nd ref="7330327066"/>
-    <nd ref="7330327067"/>
-    <nd ref="8489557022"/>
+    <nd ref="9348641638"/>
   </way>
   <way id="670972146" visible="true" version="3">
     <tag k="lit" v="yes"/>
@@ -14014,6 +13959,32 @@
     <nd ref="21539417"/>
     <nd ref="3049542535"/>
     <nd ref="5802408633"/>
+  </way>
+  <way id="1013307615" visible="true" version="1">
+    <tag k="name" v="Ellison Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG102329"/>
+    <nd ref="9348641639"/>
+    <nd ref="7330327067"/>
+    <nd ref="8489557022"/>
+  </way>
+  <way id="1013307615" visible="true" version="1">
+    <tag k="name" v="Ellison Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG102330"/>
+    <nd ref="9348641639"/>
+    <nd ref="7330327067"/>
+    <nd ref="8489557022"/>
   </way>
   <way id="70241074" visible="true" version="12">
     <tag k="name" v="Frazier Street"/>
