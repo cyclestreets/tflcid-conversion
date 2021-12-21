@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9351212625" lat="51.4980109" lon="-0.1151346" version="1" visible="true"/>
+  <node id="9351212619" lat="51.498317" lon="-0.1149896" version="1" visible="true"/>
+  <node id="9351212617" lat="51.4982802" lon="-0.1149963" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+  </node>
   <node id="9348641639" lat="51.418313" lon="-0.1348886" version="1" visible="true"/>
   <node id="9348641638" lat="51.4182098" lon="-0.1347292" version="1" visible="true"/>
   <node id="9342283937" lat="51.4925357" lon="-0.2287162" version="1" visible="true"/>
@@ -169,7 +175,7 @@
   <node id="9120059220" lat="51.3706187" lon="-0.1016938" version="1" visible="true"/>
   <node id="9120059219" lat="51.3707247" lon="-0.1011382" version="1" visible="true"/>
   <node id="9120059218" lat="51.3707406" lon="-0.1010506" version="1" visible="true"/>
-  <node id="9116928230" lat="51.4983378" lon="-0.1149989" version="1" visible="true"/>
+  <node id="9116928230" lat="51.4983381" lon="-0.1149917" version="2" visible="true"/>
   <node id="9106409685" lat="51.4743067" lon="-0.0146485" version="1" visible="true"/>
   <node id="9092918246" lat="51.525757" lon="-0.1255731" version="2" visible="true">
     <tag k="cycleway" v="asl"/>
@@ -2478,7 +2484,7 @@
   <node id="1262612945" lat="51.5425073" lon="-0.1601671" version="2" visible="true"/>
   <node id="1261962909" lat="51.5398058" lon="-0.150046" version="5" visible="true"/>
   <node id="1261962788" lat="51.5398375" lon="-0.150073" version="3" visible="true"/>
-  <node id="1237044463" lat="51.4981713" lon="-0.1150644" version="2" visible="true"/>
+  <node id="1237044463" lat="51.4981761" lon="-0.1150707" version="3" visible="true"/>
   <node id="1232221094" lat="51.5005718" lon="-0.1120133" version="3" visible="true"/>
   <node id="1232048712" lat="51.4990282" lon="-0.1379759" version="4" visible="true"/>
   <node id="1231977848" lat="51.4934059" lon="-0.1396738" version="3" visible="true"/>
@@ -3237,9 +3243,9 @@
   <node id="25475663" lat="51.5131598" lon="-0.0767008" version="2" visible="true"/>
   <node id="25473536" lat="51.5070002" lon="-0.0913559" version="10" visible="true"/>
   <node id="25473424" lat="51.5125964" lon="-0.1333511" version="13" visible="true"/>
-  <node id="25473420" lat="51.4979623" lon="-0.1151544" version="3" visible="true"/>
+  <node id="25473420" lat="51.4979431" lon="-0.115161" version="4" visible="true"/>
   <node id="25473403" lat="51.4984254" lon="-0.1149892" version="3" visible="true"/>
-  <node id="25473402" lat="51.498227" lon="-0.1150466" version="3" visible="true"/>
+  <node id="25473402" lat="51.4982277" lon="-0.1150312" version="4" visible="true"/>
   <node id="25473339" lat="51.5277876" lon="-0.1101613" version="6" visible="true"/>
   <node id="25472986" lat="51.5269972" lon="-0.1115882" version="5" visible="true"/>
   <node id="25472045" lat="51.5194266" lon="-0.132478" version="7" visible="true"/>
@@ -13727,7 +13733,7 @@
     <nd ref="18239820"/>
     <nd ref="7720662907"/>
   </way>
-  <way id="107674706" visible="true" version="16">
+  <way id="107674706" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Carlisle Lane"/>
     <tag k="oneway" v="no"/>
@@ -13738,8 +13744,11 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG135158"/>
     <nd ref="25473420"/>
+    <nd ref="9351212625"/>
     <nd ref="1237044463"/>
     <nd ref="25473402"/>
+    <nd ref="9351212617"/>
+    <nd ref="9351212619"/>
     <nd ref="9116928230"/>
     <nd ref="25471792"/>
   </way>
