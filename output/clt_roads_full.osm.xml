@@ -1045,7 +1045,7 @@
   <node id="8643637434" lat="51.5943961" lon="0.1440948" version="1" visible="true"/>
   <node id="4077495964" lat="51.5171577" lon="-0.1047714" version="3" visible="true"/>
   <node id="7241419083" lat="51.5571945" lon="-0.0124489" version="1" visible="true"/>
-  <node id="7926974720" lat="51.497096" lon="-0.1117676" version="1" visible="true"/>
+  <node id="7926974720" lat="51.4970953" lon="-0.1117528" version="2" visible="true"/>
   <node id="4248822550" lat="51.54399" lon="-0.1403342" version="7" visible="true"/>
   <node id="1148561150" lat="51.4370447" lon="-0.4073117" version="5" visible="true"/>
   <node id="6088912696" lat="51.3940225" lon="-0.18123" version="1" visible="true"/>
@@ -1701,7 +1701,6 @@
   <node id="488584358" lat="51.5869495" lon="-0.3856705" version="4" visible="true"/>
   <node id="26243205" lat="51.5415785" lon="-0.1253251" version="4" visible="true"/>
   <node id="30479418" lat="51.4211505" lon="-0.2775893" version="6" visible="true"/>
-  <node id="1115184732" lat="51.4955576" lon="-0.1152887" version="8" visible="true"/>
   <node id="4461193081" lat="51.5222582" lon="-0.0437306" version="4" visible="true"/>
   <node id="8228650673" lat="51.4934368" lon="-0.2446578" version="2" visible="true"/>
   <node id="1759040745" lat="51.5256506" lon="-0.1049354" version="4" visible="true"/>
@@ -1715,7 +1714,6 @@
   <node id="6521887908" lat="51.5205029" lon="-0.1304708" version="2" visible="true"/>
   <node id="8780159379" lat="51.5737641" lon="-0.0977083" version="1" visible="true"/>
   <node id="17948279" lat="51.6277824" lon="-0.0454952" version="6" visible="true"/>
-  <node id="1132223436" lat="51.4955177" lon="-0.1154422" version="6" visible="true"/>
   <node id="7667637420" lat="51.4893859" lon="-0.1282402" version="1" visible="true"/>
   <node id="95092028" lat="51.3448902" lon="-0.104299" version="5" visible="true"/>
   <node id="2443109682" lat="51.491892" lon="-0.2264632" version="3" visible="true"/>
@@ -1939,7 +1937,7 @@
   <node id="3696361" lat="51.4794615" lon="0.026146" version="14" visible="true"/>
   <node id="3749192782" lat="51.3229001" lon="-0.1352154" version="1" visible="true"/>
   <node id="54073742" lat="51.5375216" lon="-0.1519946" version="3" visible="true"/>
-  <node id="90223106" lat="51.4954926" lon="-0.1155426" version="11" visible="true"/>
+  <node id="90223106" lat="51.4954804" lon="-0.1155401" version="12" visible="true"/>
   <node id="99301644" lat="51.475224" lon="-0.0390221" version="5" visible="true"/>
   <node id="7805128680" lat="51.5880219" lon="-0.1131517" version="1" visible="true"/>
   <node id="8098789797" lat="51.5240678" lon="-0.1293169" version="2" visible="true"/>
@@ -4126,6 +4124,20 @@
     <tag k="name" v="Newington Green / Mildmay Road"/>
     <tag k="local_ref" v="NJ"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="2448110824" lat="51.5459964" lon="-0.0081428" version="13" visible="true">
+    <tag k="kerb" v="lowered"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
+  </node>
+  <node id="5864341876" lat="51.5457336" lon="-0.0081519" version="5" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="3792083801" lat="51.545558" lon="-0.0090072" version="2" visible="true">
     <tag k="bus" v="yes"/>
@@ -10651,6 +10663,23 @@
     <nd ref="7715006209"/>
     <nd ref="7715006208"/>
   </way>
+  <way id="889413829" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Celebration Avenue"/>
+    <tag k="lanes" v="4"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="ref:GB:usrn" v="22208206"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="parking:lane:left" v="no_parking"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG155629"/>
+    <nd ref="2448110824"/>
+    <nd ref="5864341876"/>
+  </way>
   <way id="229699753" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
@@ -10908,11 +10937,13 @@
     <nd ref="9338635360"/>
     <nd ref="5592870148"/>
   </way>
-  <way id="638934332" visible="true" version="3">
+  <way id="638934332" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A207"/>
     <tag k="name" v="Bellegrove Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
@@ -22269,24 +22300,6 @@
     <nd ref="1844769521"/>
     <nd ref="90223106"/>
   </way>
-  <way id="371150114" visible="true" version="12">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A3203"/>
-    <tag k="name" v="Lambeth Road"/>
-    <tag k="lanes" v="3"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="postal_code" v="SE1"/>
-    <tag k="lanes:forward" v="2"/>
-    <tag k="cycleway:right" v="separate"/>
-    <tag k="lanes:backward" v="1"/>
-    <tag k="cycleway:left" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG055931,RWG055932"/>
-    <nd ref="90223106"/>
-    <nd ref="1132223436"/>
-  </way>
   <way id="204125039" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A202"/>
@@ -22402,23 +22415,6 @@
     <nd ref="6383762433"/>
     <nd ref="5972141968"/>
     <nd ref="2146004044"/>
-  </way>
-  <way id="841202831" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A3203"/>
-    <tag k="name" v="Lambeth Road"/>
-    <tag k="lanes" v="3"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="postal_code" v="SE1"/>
-    <tag k="lanes:forward" v="2"/>
-    <tag k="lanes:backward" v="1"/>
-    <tag k="cycleway:left" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG055932"/>
-    <nd ref="1132223436"/>
-    <nd ref="1115184732"/>
   </way>
   <way id="198764219" visible="true" version="17">
     <tag k="lit" v="yes"/>

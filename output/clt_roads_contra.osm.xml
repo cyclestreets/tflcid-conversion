@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9357955559" lat="51.4625977" lon="-0.140558" version="1" visible="true"/>
+  <node id="9357955558" lat="51.4626425" lon="-0.1405879" version="1" visible="true"/>
   <node id="9356469976" lat="51.5002331" lon="-0.1110173" version="1" visible="true">
     <tag k="highway" v="give_way"/>
   </node>
@@ -499,6 +501,7 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
+  <node id="7897106752" lat="51.4625499" lon="-0.1405497" version="2" visible="true"/>
   <node id="7891481597" lat="51.509027" lon="-0.2629929" version="2" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
@@ -1281,6 +1284,9 @@
   <node id="5914851721" lat="51.4933555" lon="-0.0938622" version="4" visible="true"/>
   <node id="5912890425" lat="51.4091072" lon="-0.300566" version="2" visible="true"/>
   <node id="5912890415" lat="51.4091683" lon="-0.3005665" version="2" visible="true"/>
+  <node id="5910011801" lat="51.4625362" lon="-0.1405627" version="2" visible="true">
+    <tag k="highway" v="give_way"/>
+  </node>
   <node id="5895330360" lat="51.5541247" lon="-0.0542863" version="1" visible="true"/>
   <node id="5895330359" lat="51.5541683" lon="-0.0541628" version="1" visible="true"/>
   <node id="5892966767" lat="51.5502131" lon="-0.0430634" version="5" visible="true">
@@ -1600,6 +1606,7 @@
     <tag k="direction" v="forward"/>
   </node>
   <node id="4959806199" lat="51.4181906" lon="-0.1346967" version="4" visible="true"/>
+  <node id="4958655121" lat="51.4626763" lon="-0.1406036" version="3" visible="true"/>
   <node id="4958553824" lat="51.4686152" lon="-0.1361222" version="2" visible="true"/>
   <node id="4957735651" lat="51.490575" lon="-0.1164726" version="2" visible="true"/>
   <node id="4957734363" lat="51.4865408" lon="-0.1192152" version="1" visible="true"/>
@@ -3491,6 +3498,7 @@
   <node id="432825" lat="51.4451585" lon="0.0012719" version="5" visible="true"/>
   <node id="297715" lat="51.4475278" lon="-0.3286177" version="5" visible="true"/>
   <node id="296323" lat="51.4089775" lon="-0.3051472" version="16" visible="true"/>
+  <node id="294704" lat="51.4625139" lon="-0.1405863" version="13" visible="true"/>
   <node id="292354" lat="51.4673822" lon="-0.1434506" version="6" visible="true"/>
   <node id="292296" lat="51.388414" lon="-0.2700503" version="6" visible="true"/>
   <node id="292291" lat="51.3876304" lon="-0.2716023" version="5" visible="true"/>
@@ -4439,9 +4447,10 @@
     <nd ref="8456984221"/>
     <nd ref="13808303"/>
   </way>
-  <way id="848686082" visible="true" version="3">
+  <way id="848686082" visible="true" version="4">
     <tag k="name" v="Chelmsford Road"/>
     <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG187639"/>
     <nd ref="7918760217"/>
@@ -12940,6 +12949,22 @@
     <nd ref="2570411422"/>
     <nd ref="2364918433"/>
     <nd ref="1754950894"/>
+  </way>
+  <way id="506080343" visible="true" version="5">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="B224"/>
+    <tag k="name" v="The Pavement"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG102385"/>
+    <nd ref="4958655121"/>
+    <nd ref="9357955558"/>
+    <nd ref="9357955559"/>
+    <nd ref="7897106752"/>
+    <nd ref="5910011801"/>
+    <nd ref="294704"/>
   </way>
   <way id="676940691" visible="true" version="4">
     <tag k="lit" v="yes"/>
