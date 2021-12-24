@@ -1,5 +1,17 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9360949724" lat="51.5237169" lon="0.0567726" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG181464"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="9360949723" lat="51.5234045" lon="0.0547703" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG181462"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="9360949722" lat="51.5235561" lon="0.055735" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG181463"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="9357955559" lat="51.4625977" lon="-0.140558" version="1" visible="true"/>
   <node id="9357955558" lat="51.4626425" lon="-0.1405879" version="1" visible="true"/>
   <node id="9356469976" lat="51.5002331" lon="-0.1110173" version="1" visible="true">
@@ -1626,7 +1638,7 @@
   </node>
   <node id="4920098345" lat="51.5124033" lon="-0.0778845" version="1" visible="true"/>
   <node id="4920098344" lat="51.5123823" lon="-0.0778607" version="1" visible="true"/>
-  <node id="4916772345" lat="51.5430538" lon="-0.110752" version="2" visible="true"/>
+  <node id="4916772345" lat="51.5430968" lon="-0.1107828" version="3" visible="true"/>
   <node id="4888691689" lat="51.5396396" lon="-0.1762909" version="2" visible="true"/>
   <node id="4882537496" lat="51.509492" lon="-0.3226425" version="5" visible="true"/>
   <node id="4882290443" lat="51.4631217" lon="-0.0818117" version="4" visible="true"/>
@@ -2827,7 +2839,7 @@
   <node id="243684167" lat="51.4743385" lon="-0.0145754" version="2" visible="true"/>
   <node id="224831921" lat="51.3855654" lon="-0.2742385" version="6" visible="true"/>
   <node id="224831908" lat="51.387065" lon="-0.272541" version="3" visible="true"/>
-  <node id="199316648" lat="51.5425875" lon="-0.113363" version="3" visible="true"/>
+  <node id="199316648" lat="51.5426088" lon="-0.1133737" version="4" visible="true"/>
   <node id="186371171" lat="51.5430628" lon="-0.0956503" version="8" visible="true"/>
   <node id="186370900" lat="51.5427018" lon="-0.096096" version="9" visible="true"/>
   <node id="186370899" lat="51.5421454" lon="-0.0973037" version="8" visible="true"/>
@@ -2887,8 +2899,7 @@
   <node id="150898075" lat="51.3707965" lon="-0.1021715" version="5" visible="true"/>
   <node id="147866657" lat="51.3879656" lon="-0.0647881" version="4" visible="true"/>
   <node id="147866654" lat="51.3880916" lon="-0.0644909" version="4" visible="true"/>
-  <node id="139335521" lat="51.542963" lon="-0.1113041" version="2" visible="true"/>
-  <node id="139335517" lat="51.5426769" lon="-0.1128449" version="3" visible="true"/>
+  <node id="139335521" lat="51.5429768" lon="-0.1114235" version="3" visible="true"/>
   <node id="135714670" lat="51.4215769" lon="-0.0788929" version="6" visible="true"/>
   <node id="130285788" lat="51.3861651" lon="-0.0987675" version="2" visible="true"/>
   <node id="130281718" lat="51.3864612" lon="-0.1106459" version="9" visible="true"/>
@@ -2923,8 +2934,8 @@
     <tag k="direction" v="clockwise"/>
   </node>
   <node id="116117797" lat="51.5432872" lon="0.0089945" version="7" visible="true"/>
-  <node id="116086532" lat="51.523574" lon="0.0559068" version="3" visible="true"/>
-  <node id="116086214" lat="51.5234405" lon="0.0550399" version="4" visible="true"/>
+  <node id="116086532" lat="51.5235917" lon="0.0559856" version="4" visible="true"/>
+  <node id="116086214" lat="51.5234465" lon="0.0550375" version="5" visible="true"/>
   <node id="116085832" lat="51.5260243" lon="0.0566998" version="15" visible="true"/>
   <node id="116085831" lat="51.5254833" lon="0.0531044" version="3" visible="true"/>
   <node id="116084406" lat="51.5238419" lon="0.0575319" version="15" visible="true"/>
@@ -6297,7 +6308,7 @@
     <nd ref="150899271"/>
     <nd ref="150899272"/>
   </way>
-  <way id="831758820" visible="true" version="1">
+  <way id="831758820" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Melford Road"/>
     <tag k="oneway" v="yes"/>
@@ -6308,10 +6319,12 @@
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG244301"/>
     <nd ref="116086532"/>
+    <nd ref="9360949722"/>
     <nd ref="116086214"/>
+    <nd ref="9360949723"/>
     <nd ref="21643449"/>
   </way>
-  <way id="5028153" visible="true" version="12">
+  <way id="5028153" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Melford Road"/>
     <tag k="highway" v="residential"/>
@@ -6322,6 +6335,7 @@
     <tag k="tiger:upload_uuid" v="RWG244301"/>
     <nd ref="116084406"/>
     <nd ref="6947977930"/>
+    <nd ref="9360949724"/>
     <nd ref="116086532"/>
   </way>
   <way id="314499889" visible="true" version="1">
@@ -10901,7 +10915,7 @@
     <nd ref="24950110"/>
     <nd ref="24660863"/>
   </way>
-  <way id="19208036" visible="true" version="7">
+  <way id="19208036" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Belitha Villas"/>
     <tag k="highway" v="residential"/>
@@ -10911,7 +10925,6 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG150948"/>
     <nd ref="199316648"/>
-    <nd ref="139335517"/>
     <nd ref="139335521"/>
     <nd ref="4916772345"/>
   </way>
