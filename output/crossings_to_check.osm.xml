@@ -1765,12 +1765,12 @@
     <tag k="traffic_calming" v="table"/>
     <tag k="tiger:upload_uuid" v="RWG291104"/>
   </node>
-  <node id="9325434760" lat="51.4946606947767" lon="0.00853839999881145" visible="true" version="1">
+  <node id="34814796" lat="51.4945737947767" lon="0.00840969999882936" visible="true" version="8">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184435"/>
   </node>
-  <node id="34814796" lat="51.4945737947767" lon="0.00840969999882936" visible="true" version="8">
+  <node id="9325434760" lat="51.4946606947767" lon="0.00853839999881145" visible="true" version="1">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184435"/>
@@ -1849,14 +1849,14 @@
     <tag k="crossing" v="uncontrolled"/>
     <tag k="tiger:upload_uuid" v="RWG999499"/>
   </node>
-  <node id="673407002" lat="51.4981516947766" lon="0.154674499978469" visible="true" version="6">
+  <node id="442693633" lat="51.4982532947766" lon="0.154551999978486" visible="true" version="7">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="toucan"/>
     <tag k="tiger:upload_uuid" v="RWG999500"/>
   </node>
-  <node id="442693633" lat="51.4982532947766" lon="0.154551999978486" visible="true" version="7">
+  <node id="673407002" lat="51.4981516947766" lon="0.154674499978469" visible="true" version="6">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
@@ -1885,12 +1885,12 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184479"/>
   </node>
-  <node id="-31885" lat="51.4638426988578" lon="0.182121194240179" visible="true">
+  <node id="-31885" lat="51.4637849233077" lon="0.182433999823251" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184406"/>
   </node>
-  <node id="-31884" lat="51.4637849233077" lon="0.182433999823251" visible="true">
+  <node id="-31884" lat="51.4638426988578" lon="0.182121194240179" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184406"/>
@@ -2557,17 +2557,6 @@
     <nd ref="2549814955"/>
     <nd ref="32440014"/>
   </way>
-  <way id="584807169" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A206"/>
-    <tag k="name" v="Northend Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="maxspeed" v="40 mph"/>
-    <nd ref="2478334595"/>
-    <nd ref="-31884"/>
-    <nd ref="4777477951"/>
-  </way>
   <way id="23095049" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
@@ -2580,11 +2569,22 @@
     <nd ref="4450728936"/>
     <nd ref="4450728937"/>
     <nd ref="2478334565"/>
-    <nd ref="-31885"/>
+    <nd ref="-31884"/>
     <nd ref="2478334577"/>
     <nd ref="32440010"/>
     <nd ref="32440011"/>
     <nd ref="36724694"/>
+  </way>
+  <way id="584807169" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A206"/>
+    <tag k="name" v="Northend Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="40 mph"/>
+    <nd ref="2478334595"/>
+    <nd ref="-31885"/>
+    <nd ref="4777477951"/>
   </way>
   <way id="38212045" visible="true" version="5">
     <tag k="lit" v="yes"/>
