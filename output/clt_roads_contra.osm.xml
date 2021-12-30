@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9375170325" lat="51.5210823" lon="-0.0814989" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="yes"/>
+  </node>
+  <node id="9375170321" lat="51.5211166" lon="-0.0814772" version="1" visible="true">
+    <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="backward"/>
+  </node>
+  <node id="9375170320" lat="51.5211597" lon="-0.0814558" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
   <node id="9371519575" lat="51.5046511" lon="-0.08323" version="1" visible="true">
     <tag k="traffic_calming" v="island"/>
   </node>
@@ -3367,9 +3380,7 @@
   <node id="21992363" lat="51.5109771" lon="-0.3367596" version="2" visible="true"/>
   <node id="21992361" lat="51.5104026" lon="-0.3359978" version="1" visible="true"/>
   <node id="21990621" lat="51.5212399" lon="-0.0814161" version="3" visible="true"/>
-  <node id="21990620" lat="51.5208744" lon="-0.0815973" version="3" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-  </node>
+  <node id="21990620" lat="51.5209345" lon="-0.0815922" version="4" visible="true"/>
   <node id="21669660" lat="51.4930227" lon="-0.139352" version="4" visible="true"/>
   <node id="21665578" lat="51.5128649" lon="-0.1309794" version="6" visible="true"/>
   <node id="21665577" lat="51.5125844" lon="-0.1317213" version="9" visible="true"/>
@@ -9624,7 +9635,7 @@
     <nd ref="3107461267"/>
     <nd ref="13675715"/>
   </way>
-  <way id="37854352" visible="true" version="9">
+  <way id="37854352" visible="true" version="10">
     <tag k="name" v="Appold Street"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
@@ -9634,6 +9645,9 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG152262"/>
     <nd ref="21990620"/>
+    <nd ref="9375170325"/>
+    <nd ref="9375170321"/>
+    <nd ref="9375170320"/>
     <nd ref="21990621"/>
   </way>
   <way id="1005746818" visible="true" version="1">
