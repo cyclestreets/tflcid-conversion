@@ -262,9 +262,9 @@
   <node id="6023450429" lat="51.4672634" lon="0.0675544" version="2" visible="true"/>
   <node id="6015241195" lat="51.5331529" lon="-0.0650685" version="1" visible="true"/>
   <node id="6015241194" lat="51.5331771" lon="-0.0649164" version="1" visible="true"/>
-  <node id="6015241193" lat="51.5331793" lon="-0.0648013" version="1" visible="true"/>
-  <node id="6015241192" lat="51.5331672" lon="-0.064635" version="1" visible="true"/>
-  <node id="6015241191" lat="51.5331727" lon="-0.0645023" version="1" visible="true"/>
+  <node id="6015241193" lat="51.5331876" lon="-0.0647906" version="2" visible="true"/>
+  <node id="6015241192" lat="51.5331789" lon="-0.0646363" version="2" visible="true"/>
+  <node id="6015241191" lat="51.5331835" lon="-0.0645023" version="2" visible="true"/>
   <node id="6015241190" lat="51.5332344" lon="-0.0638599" version="1" visible="true"/>
   <node id="6015241189" lat="51.5332652" lon="-0.0634848" version="1" visible="true"/>
   <node id="6015241188" lat="51.5333665" lon="-0.0626991" version="1" visible="true"/>
@@ -2709,11 +2709,13 @@
     <nd ref="7901360041"/>
     <nd ref="28419659"/>
   </way>
-  <way id="949557235" visible="true" version="1">
+  <way id="949557235" visible="true" version="3">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Ligonier Street"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="source" v="survey on 2007-09-08 with yahoo and gpx assistance"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="8790676046"/>
     <nd ref="-196"/>
     <nd ref="25775295"/>
@@ -3137,11 +3139,14 @@
     <nd ref="1517525596"/>
     <nd ref="23780658"/>
   </way>
-  <way id="108522631" visible="true" version="5">
+  <way id="108522631" visible="true" version="6">
     <tag k="highway" v="service"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="name" v="Cranbourne Road"/>
     <tag k="ref:GB:usrn" v="22200150"/>
+    <tag k="surface" v="paved"/>
     <nd ref="1244881476"/>
     <nd ref="9332762473"/>
     <nd ref="-224"/>
