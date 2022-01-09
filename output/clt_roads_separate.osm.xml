@@ -177,6 +177,7 @@
   <node id="9015577621" lat="51.5317869" lon="-0.0100043" version="1" visible="true"/>
   <node id="8984299278" lat="51.4490221" lon="-0.2377864" version="2" visible="true"/>
   <node id="8984299277" lat="51.4490664" lon="-0.2377616" version="2" visible="true"/>
+  <node id="8982713134" lat="51.482026" lon="-0.1123689" version="1" visible="true"/>
   <node id="8975122159" lat="51.5156761" lon="-0.0704109" version="1" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="forward"/>
@@ -185,6 +186,10 @@
   <node id="8963666193" lat="51.5312406" lon="-0.0106442" version="2" visible="true"/>
   <node id="8960609689" lat="51.48274" lon="-0.111453" version="1" visible="true"/>
   <node id="8960572191" lat="51.4824239" lon="-0.1115335" version="1" visible="true"/>
+  <node id="8960473837" lat="51.4825284" lon="-0.1119064" version="2" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="8955781833" lat="51.5209489" lon="-0.0503756" version="1" visible="true"/>
   <node id="8949536563" lat="51.544235" lon="-0.140704" version="1" visible="true"/>
   <node id="8933084042" lat="51.5027214" lon="-0.1585942" version="1" visible="true">
@@ -411,9 +416,16 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="6967968870" lat="51.4825366" lon="-0.1115552" version="3" visible="true"/>
+  <node id="6967968868" lat="51.482151" lon="-0.1122762" version="6" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+  </node>
   <node id="6967968866" lat="51.4823654" lon="-0.1114563" version="3" visible="true"/>
   <node id="6967968865" lat="51.4827003" lon="-0.1114497" version="3" visible="true"/>
+  <node id="6967968864" lat="51.4820792" lon="-0.1123276" version="4" visible="true"/>
   <node id="6967968861" lat="51.4825648" lon="-0.1115858" version="4" visible="true"/>
+  <node id="6967968858" lat="51.4821695" lon="-0.1122575" version="7" visible="true"/>
   <node id="6967968857" lat="51.482651" lon="-0.1114441" version="3" visible="true"/>
   <node id="6967968855" lat="51.4823959" lon="-0.1114592" version="3" visible="true"/>
   <node id="6967968853" lat="51.4824314" lon="-0.111415" version="3" visible="true"/>
@@ -422,7 +434,9 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
+  <node id="6967968846" lat="51.4826365" lon="-0.1118059" version="1" visible="true"/>
   <node id="6967968845" lat="51.482783" lon="-0.1114454" version="2" visible="true"/>
+  <node id="6967968844" lat="51.4826604" lon="-0.1117077" version="4" visible="true"/>
   <node id="6953312052" lat="51.5212442" lon="0.1718158" version="1" visible="true"/>
   <node id="6925827740" lat="51.4781301" lon="-0.1267136" version="1" visible="true"/>
   <node id="6839226246" lat="51.5757967" lon="-0.0298105" version="1" visible="true"/>
@@ -852,6 +866,12 @@
     <tag k="name" v="Shadwell Station"/>
     <tag k="local_ref" v="A"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="3818612784" lat="51.482557" lon="-0.1118782" version="8" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="3794273762" lat="51.5255737" lon="-0.0324527" version="4" visible="true">
     <tag k="bus" v="yes"/>
@@ -4584,7 +4604,20 @@
     <nd ref="9279437656"/>
     <nd ref="6384561968"/>
   </way>
-  <way id="681757489" visible="true" version="6">
+  <way id="1019450332" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Torrington Place"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG066106"/>
+    <nd ref="6384549780"/>
+    <nd ref="9279437656"/>
+  </way>
+  <way id="681757489" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="oneway" v="yes"/>
@@ -4595,7 +4628,6 @@
     <tag k="tiger:upload_uuid" v="RWG066106"/>
     <nd ref="6384542424"/>
     <nd ref="6384549780"/>
-    <nd ref="9279437656"/>
   </way>
   <way id="681757485" visible="true" version="3">
     <tag k="lit" v="yes"/>
@@ -5451,6 +5483,41 @@
     <nd ref="2751695457"/>
     <nd ref="6967968870"/>
     <nd ref="6967968861"/>
+  </way>
+  <way id="744514103" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A3"/>
+    <tag k="name" v="Kennington Park Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG056517"/>
+    <nd ref="8982713134"/>
+    <nd ref="6967968864"/>
+    <nd ref="6967968868"/>
+    <nd ref="6967968858"/>
+  </way>
+  <way id="744514108" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A3"/>
+    <tag k="name" v="Kennington Park Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="tiger:upload_uuid" v="RWG056517"/>
+    <nd ref="6967968858"/>
+    <nd ref="8960473837"/>
+    <nd ref="3818612784"/>
+    <nd ref="6967968846"/>
+    <nd ref="6967968844"/>
   </way>
   <way id="37308935" visible="true" version="19">
     <tag k="lit" v="yes"/>
