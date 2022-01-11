@@ -1503,7 +1503,8 @@
     <nd ref="702785631"/>
     <nd ref="702785632"/>
   </way>
-  <way id="585987980" visible="true" version="4">
+  <way id="585987980" visible="true" version="5">
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="asphalt"/>
     <tag k="tracktype" v="grade1"/>
@@ -1516,9 +1517,10 @@
     <nd ref="5599416187"/>
     <nd ref="5599416186"/>
   </way>
-  <way id="138576044" visible="true" version="6">
+  <way id="138576044" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="layer" v="-1"/>
+    <tag k="oneway" v="no"/>
     <tag k="tunnel" v="yes"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="asphalt"/>
@@ -3778,8 +3780,9 @@
     <nd ref="3031472417"/>
     <nd ref="1176804810"/>
   </way>
-  <way id="817733456" visible="true" version="2">
+  <way id="817733456" visible="true" version="3">
     <tag k="foot" v="designated"/>
+    <tag k="oneway" v="no"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="asphalt"/>
