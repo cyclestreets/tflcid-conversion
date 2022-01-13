@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9413022977" lat="51.4764688" lon="-0.1305325" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+  </node>
   <node id="9387178978" lat="51.5407536" lon="-0.1374176" version="1" visible="true"/>
   <node id="9387178976" lat="51.5413865" lon="-0.1379671" version="1" visible="true"/>
   <node id="9339208678" lat="51.4549647" lon="0.152675" version="1" visible="true">
@@ -410,7 +413,7 @@
   <node id="7089999208" lat="51.5133282" lon="-0.2974873" version="1" visible="true"/>
   <node id="7083403299" lat="51.5227763" lon="-0.131853" version="3" visible="true"/>
   <node id="7076645974" lat="51.5697896" lon="-0.0187614" version="1" visible="true"/>
-  <node id="7005160427" lat="51.4765239" lon="-0.1307718" version="1" visible="true"/>
+  <node id="7005160427" lat="51.4765353" lon="-0.1307667" version="2" visible="true"/>
   <node id="6981900056" lat="51.5368808" lon="-0.146343" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
@@ -1452,7 +1455,7 @@
   <node id="133188753" lat="51.5226697" lon="-0.0410772" version="17" visible="true"/>
   <node id="130237629" lat="51.5482577" lon="0.0129167" version="7" visible="true"/>
   <node id="110247143" lat="51.4821561" lon="-0.1114119" version="6" visible="true"/>
-  <node id="108035528" lat="51.4765378" lon="-0.1308618" version="1" visible="true"/>
+  <node id="108035528" lat="51.4765571" lon="-0.1308613" version="2" visible="true"/>
   <node id="98223424" lat="51.4808412" lon="-0.0282023" version="6" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
@@ -1499,7 +1502,7 @@
   <node id="33717254" lat="51.3614661" lon="-0.1484665" version="2" visible="true"/>
   <node id="33717239" lat="51.3615126" lon="-0.1481966" version="3" visible="true"/>
   <node id="33672998" lat="51.5010325" lon="-0.1105832" version="7" visible="true"/>
-  <node id="33228752" lat="51.4781736" lon="-0.1267105" version="1" visible="true"/>
+  <node id="33228752" lat="51.4781782" lon="-0.1266904" version="2" visible="true"/>
   <node id="33044927" lat="51.4764296" lon="-0.1304253" version="7" visible="true"/>
   <node id="33023742" lat="51.4548691" lon="-0.0833788" version="6" visible="true"/>
   <node id="33002249" lat="51.4476129" lon="-0.0855115" version="8" visible="true"/>
@@ -4928,7 +4931,7 @@
     <nd ref="1535256986"/>
     <nd ref="108785"/>
   </way>
-  <way id="749089529" visible="true" version="1">
+  <way id="749089529" visible="true" version="2">
     <tag k="name" v="Cowthorpe Road"/>
     <tag k="FIXME" v="Check name: OSM has Cawthorpe Road, OS has Cowthorpe Road."/>
     <tag k="oneway" v="yes"/>
@@ -4939,6 +4942,7 @@
     <tag k="tiger:upload_uuid" v="RWG056430"/>
     <nd ref="108035528"/>
     <nd ref="7005160427"/>
+    <nd ref="9413022977"/>
     <nd ref="33044927"/>
   </way>
   <way id="5148716" visible="true" version="24">
