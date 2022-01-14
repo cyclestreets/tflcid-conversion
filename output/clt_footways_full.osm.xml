@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9415695865" lat="51.4807448" lon="-0.2156034" version="1" visible="true"/>
   <node id="9393221679" lat="51.4201159" lon="-0.0386039" version="1" visible="true"/>
   <node id="9340107206" lat="51.4354362" lon="-0.3847215" version="1" visible="true"/>
   <node id="9340107205" lat="51.4353667" lon="-0.3849694" version="1" visible="true"/>
@@ -795,6 +796,7 @@
   <node id="517939093" lat="51.5005773" lon="0.1809705" version="1" visible="true"/>
   <node id="517939088" lat="51.5014318" lon="0.1802801" version="3" visible="true"/>
   <node id="517939079" lat="51.5017341" lon="0.1804061" version="3" visible="true"/>
+  <node id="513793402" lat="51.480692" lon="-0.2154526" version="2" visible="true"/>
   <node id="506426992" lat="51.4355677" lon="-0.2567678" version="4" visible="true"/>
   <node id="501578906" lat="51.5233989" lon="-0.3777417" version="5" visible="true"/>
   <node id="478867409" lat="51.4205876" lon="-0.0395241" version="1" visible="true">
@@ -883,6 +885,7 @@
   <node id="24952677" lat="51.490878" lon="-0.234644" version="1" visible="true"/>
   <node id="24952515" lat="51.4902262" lon="-0.2394971" version="3" visible="true"/>
   <node id="21552679" lat="51.6108237" lon="-0.156797" version="4" visible="true"/>
+  <node id="20992622" lat="51.480607" lon="-0.2172792" version="2" visible="true"/>
   <node id="20917291" lat="51.4824459" lon="-0.2240634" version="4" visible="true"/>
   <node id="20917270" lat="51.4907031" lon="-0.2345419" version="2" visible="true"/>
   <node id="20913264" lat="51.4799009" lon="-0.2491269" version="5" visible="true"/>
@@ -3227,6 +3230,17 @@
     <tag k="tiger:upload_uuid" v="RWG117930"/>
     <nd ref="4808275429"/>
     <nd ref="4808275430"/>
+  </way>
+  <way id="41731465" visible="true" version="2">
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG152971"/>
+    <nd ref="513793402"/>
+    <nd ref="9415695865"/>
+    <nd ref="20992622"/>
   </way>
   <way id="864169212" visible="true" version="2">
     <tag k="highway" v="footway"/>
