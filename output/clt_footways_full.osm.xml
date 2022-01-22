@@ -1,5 +1,21 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9437013396" lat="51.6112161" lon="-0.1560954" version="1" visible="true">
+    <tag k="barrier" v="cycle_barrier"/>
+    <tag k="bicycle" v="dismount"/>
+    <tag k="material" v="metal"/>
+    <tag k="cycle_barrier" v="double"/>
+  </node>
+  <node id="9437013395" lat="51.6108987" lon="-0.1566629" version="1" visible="true">
+    <tag k="barrier" v="cycle_barrier"/>
+    <tag k="bicycle" v="dismount"/>
+    <tag k="material" v="metal"/>
+    <tag k="cycle_barrier" v="double"/>
+  </node>
+  <node id="9437013394" lat="51.6108544" lon="-0.1567422" version="1" visible="true">
+    <tag k="barrier" v="bollard"/>
+    <tag k="bollard" v="fixed"/>
+  </node>
   <node id="9424226413" lat="51.5608525" lon="-0.2532906" version="1" visible="true"/>
   <node id="9415695865" lat="51.4807448" lon="-0.2156034" version="1" visible="true"/>
   <node id="9393221679" lat="51.4201159" lon="-0.0386039" version="1" visible="true"/>
@@ -2561,14 +2577,18 @@
     <nd ref="2308842113"/>
     <nd ref="573213327"/>
   </way>
-  <way id="44952053" visible="true" version="1">
+  <way id="44952053" visible="true" version="2">
+    <tag k="lit" v="yes"/>
     <tag k="foot" v="yes"/>
-    <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="footway"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG279947"/>
     <nd ref="569947146"/>
+    <nd ref="9437013396"/>
+    <nd ref="9437013395"/>
+    <nd ref="9437013394"/>
     <nd ref="21552679"/>
   </way>
   <way id="188282738" visible="true" version="1">
