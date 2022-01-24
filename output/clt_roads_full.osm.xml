@@ -4547,10 +4547,13 @@
     <tag k="local_ref" v="KE"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="6094267288" lat="51.5464087" lon="-0.0808469" version="6" visible="true">
+  <node id="6094267288" lat="51.5464087" lon="-0.0808469" version="9" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="8089969565" lat="51.546415" lon="-0.0809141" version="3" visible="true">
     <tag k="cycleway" v="asl"/>
@@ -20141,7 +20144,7 @@
     <nd ref="6319249284"/>
     <nd ref="7309197114"/>
   </way>
-  <way id="197197482" visible="true" version="11">
+  <way id="197197482" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Balls Pond Road"/>
@@ -20152,6 +20155,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="postal_code" v="N1"/>
     <tag k="lanes:psv:forward" v="1"/>
+    <tag k="check_date:surface" v="2022-01-23"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG003404"/>
     <nd ref="1190064576"/>
@@ -22053,7 +22057,7 @@
     <nd ref="6441022360"/>
     <nd ref="1937919751"/>
   </way>
-  <way id="363409828" visible="true" version="1">
+  <way id="363409828" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Balls Pond Road"/>
@@ -22065,6 +22069,7 @@
     <tag k="postal_code" v="N1"/>
     <tag k="lanes:forward" v="1"/>
     <tag k="lanes:backward" v="2"/>
+    <tag k="check_date:surface" v="2022-01-23"/>
     <tag k="lanes:psv:backward" v="1"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG030411"/>
