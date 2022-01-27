@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
-  <node id="9430852731" lat="51.4448684" lon="-0.1114031" version="1" visible="true"/>
+  <node id="9445946134" lat="51.4448747" lon="-0.1113089" version="1" visible="true"/>
+  <node id="9430852731" lat="51.4448553" lon="-0.1113755" version="2" visible="true"/>
   <node id="9426706674" lat="51.4910312" lon="0.0813338" version="1" visible="true"/>
   <node id="9426706671" lat="51.4910798" lon="0.077105" version="1" visible="true"/>
   <node id="9426706664" lat="51.4911488" lon="0.0785859" version="1" visible="true"/>
@@ -141,8 +142,9 @@
   <node id="9197395385" lat="51.5108347" lon="-0.053435" version="1" visible="true"/>
   <node id="9197395383" lat="51.5108247" lon="-0.0533006" version="1" visible="true"/>
   <node id="9197395382" lat="51.5108781" lon="-0.0536305" version="1" visible="true"/>
-  <node id="9197395380" lat="51.5109039" lon="-0.0537219" version="1" visible="true">
+  <node id="9197395380" lat="51.5109039" lon="-0.0537219" version="2" visible="true">
     <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="9197395379" lat="51.5110062" lon="-0.0540754" version="1" visible="true"/>
   <node id="9197395346" lat="51.5110683" lon="-0.0622281" version="1" visible="true"/>
@@ -292,8 +294,7 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="8433541672" lat="51.4448922" lon="-0.1113073" version="1" visible="true"/>
-  <node id="8433541670" lat="51.4448728" lon="-0.1113811" version="2" visible="true"/>
+  <node id="8433541672" lat="51.4448912" lon="-0.1112944" version="2" visible="true"/>
   <node id="8225225525" lat="51.538681" lon="-0.1357402" version="1" visible="true"/>
   <node id="8207358002" lat="51.5349976" lon="-0.131343" version="2" visible="true"/>
   <node id="8194784425" lat="51.5932082" lon="-0.3303253" version="1" visible="true"/>
@@ -348,9 +349,11 @@
   </node>
   <node id="7799623264" lat="51.5443352" lon="-0.14079" version="3" visible="true"/>
   <node id="7799235863" lat="51.5343385" lon="-0.1298124" version="2" visible="true"/>
-  <node id="7797489843" lat="51.4448796" lon="-0.1113558" version="5" visible="true">
+  <node id="7797489843" lat="51.4448658" lon="-0.1113373" version="7" visible="true">
     <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="unmarked"/>
+    <tag k="crossing" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="7763497144" lat="51.5932042" lon="-0.330991" version="1" visible="true"/>
   <node id="7687961532" lat="51.5110378" lon="-0.0611479" version="2" visible="true">
@@ -1243,9 +1246,10 @@
   <node id="1382081287" lat="51.3959704" lon="-0.3119551" version="3" visible="true"/>
   <node id="1382081285" lat="51.3976054" lon="-0.3105231" version="4" visible="true"/>
   <node id="1382081284" lat="51.399284" lon="-0.3091825" version="3" visible="true"/>
-  <node id="1365138602" lat="51.5349062" lon="-0.1311248" version="4" visible="true">
+  <node id="1365138602" lat="51.5349062" lon="-0.1311248" version="5" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="no"/>
   </node>
   <node id="1363707528" lat="51.5329059" lon="-0.1302901" version="3" visible="true">
@@ -1616,7 +1620,7 @@
   <node id="424613" lat="51.5108173" lon="-0.0685333" version="8" visible="true"/>
   <node id="304391" lat="51.4003448" lon="-0.3046027" version="9" visible="true"/>
   <node id="243776" lat="51.5755474" lon="-0.0297889" version="3" visible="true"/>
-  <node id="227790" lat="51.4448536" lon="-0.1115114" version="7" visible="true"/>
+  <node id="227790" lat="51.4448429" lon="-0.1114942" version="8" visible="true"/>
   <node id="224688" lat="51.502646" lon="-0.2139858" version="10" visible="true"/>
   <node id="152241" lat="51.5398868" lon="-0.1367368" version="9" visible="true"/>
   <node id="152219" lat="51.5374538" lon="-0.1347672" version="10" visible="true"/>
@@ -5585,7 +5589,7 @@
     <nd ref="310698347"/>
     <nd ref="1237957495"/>
   </way>
-  <way id="908256269" visible="true" version="2">
+  <way id="908256269" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Trinity Rise"/>
     <tag k="lanes" v="1"/>
@@ -5597,8 +5601,8 @@
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG102308"/>
     <nd ref="8433541672"/>
+    <nd ref="9445946134"/>
     <nd ref="7797489843"/>
-    <nd ref="8433541670"/>
     <nd ref="9430852731"/>
     <nd ref="227790"/>
   </way>
