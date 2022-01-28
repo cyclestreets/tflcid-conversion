@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9449457096" lat="51.5821385" lon="-0.0630993" version="1" visible="true"/>
   <node id="9398692356" lat="51.5070283" lon="-0.0151284" version="1" visible="true"/>
   <node id="9398692355" lat="51.5069019" lon="-0.0151571" version="1" visible="true"/>
   <node id="9388058198" lat="51.5333034" lon="-0.0631888" version="1" visible="true"/>
@@ -792,7 +793,7 @@
     <tag k="barrier" v="gate"/>
   </node>
   <node id="243458783" lat="51.5105879" lon="-0.4348021" version="4" visible="true"/>
-  <node id="242553362" lat="51.5821407" lon="-0.0630063" version="1" visible="true"/>
+  <node id="242553362" lat="51.5821264" lon="-0.0630098" version="2" visible="true"/>
   <node id="236863201" lat="51.5060301" lon="-0.1691715" version="5" visible="true"/>
   <node id="236853726" lat="51.5060377" lon="-0.1692843" version="4" visible="true"/>
   <node id="221323071" lat="51.6031383" lon="0.0270068" version="3" visible="true"/>
@@ -1733,13 +1734,6 @@
     <tag k="bicycle" v="yes"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG148071"/>
-  </node>
-  <node id="6642143721" lat="51.5785107375" lon="-0.0381036454" visible="true" version="1">
-    <tag k="barrier" v="yes"/>
-    <tag k="access" v="no"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG148081"/>
   </node>
   <node id="-219" lat="51.6445638747227" lon="-0.14594062219399" visible="true">
     <tag k="barrier" v="yes"/>
@@ -3860,7 +3854,7 @@
     <nd ref="-279"/>
     <nd ref="21676324"/>
   </way>
-  <way id="700668097" visible="true" version="3">
+  <way id="700668097" visible="true" version="4">
     <tag k="highway" v="unclassified"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -3872,6 +3866,7 @@
     <nd ref="8672343195"/>
     <nd ref="-280"/>
     <nd ref="53334989"/>
+    <nd ref="9449457096"/>
     <nd ref="242553362"/>
   </way>
   <way id="27833220" visible="true" version="10">
