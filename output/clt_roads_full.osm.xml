@@ -1575,7 +1575,6 @@
   <node id="253258724" lat="51.4807714" lon="-0.4387597" version="3" visible="true"/>
   <node id="25259470" lat="51.4671304" lon="-0.0222052" version="16" visible="true"/>
   <node id="7950798180" lat="51.5058624" lon="-0.469922" version="1" visible="true"/>
-  <node id="5859981865" lat="51.5740047" lon="0.0798696" version="1" visible="true"/>
   <node id="6243228153" lat="51.5653351" lon="-0.0382199" version="4" visible="true"/>
   <node id="4465463669" lat="51.5114411" lon="-0.4504399" version="3" visible="true"/>
   <node id="28795988" lat="51.5768073" lon="-0.0110117" version="14" visible="true"/>
@@ -1720,6 +1719,7 @@
   <node id="135529340" lat="51.5132049" lon="0.0611965" version="4" visible="true"/>
   <node id="244209732" lat="51.5629775" lon="-0.2793265" version="8" visible="true"/>
   <node id="8023223808" lat="51.4339337" lon="-0.2607534" version="1" visible="true"/>
+  <node id="7967002910" lat="51.5745154" lon="0.0788729" version="2" visible="true"/>
   <node id="6369780714" lat="51.5282806" lon="-0.0193236" version="5" visible="true"/>
   <node id="8915067751" lat="51.4324645" lon="-0.3287281" version="1" visible="true"/>
   <node id="8031777575" lat="51.5101725" lon="-0.0724756" version="2" visible="true"/>
@@ -2460,7 +2460,6 @@
   <node id="4809681180" lat="51.4008405" lon="-0.1602863" version="4" visible="true"/>
   <node id="2433764013" lat="51.6010138" lon="-0.3194666" version="4" visible="true"/>
   <node id="13858219" lat="51.5088507" lon="-0.3772521" version="5" visible="true"/>
-  <node id="873734595" lat="51.45636" lon="-0.1142046" version="3" visible="true"/>
   <node id="1305563695" lat="51.4992761" lon="-0.2042106" version="3" visible="true"/>
   <node id="7838396455" lat="51.4212328" lon="-0.1751656" version="2" visible="true"/>
   <node id="25676243" lat="51.5116105" lon="-0.4493251" version="6" visible="true"/>
@@ -2967,7 +2966,7 @@
   <node id="4725091014" lat="51.4750895" lon="-0.0395207" version="3" visible="true"/>
   <node id="6375953722" lat="51.5522418" lon="-0.3120566" version="3" visible="true"/>
   <node id="197936" lat="51.5511686" lon="-0.1086307" version="7" visible="true"/>
-  <node id="5859982220" lat="51.5761164" lon="0.0693786" version="1" visible="true"/>
+  <node id="5859982220" lat="51.5761396" lon="0.0693891" version="2" visible="true"/>
   <node id="9294989279" lat="51.5243692" lon="-0.1286601" version="1" visible="true"/>
   <node id="7602710987" lat="51.4857678" lon="-0.1486856" version="1" visible="true"/>
   <node id="7589943263" lat="51.5863739" lon="0.0065636" version="2" visible="true"/>
@@ -3108,8 +3107,8 @@
   <node id="6272019061" lat="51.6432418" lon="-0.0801949" version="4" visible="true"/>
   <node id="1609966653" lat="51.515721" lon="-0.100048" version="5" visible="true"/>
   <node id="667387843" lat="51.5501099" lon="-0.0846335" version="2" visible="true"/>
-  <node id="11947085" lat="51.5740462" lon="0.0798868" version="6" visible="true"/>
   <node id="5972141967" lat="51.4928835" lon="-0.0839583" version="3" visible="true"/>
+  <node id="7967002911" lat="51.5761986" lon="0.0694138" version="2" visible="true"/>
   <node id="197969" lat="51.5601115" lon="-0.1098348" version="13" visible="true"/>
   <node id="9324734580" lat="51.6030568" lon="-0.3570986" version="1" visible="true"/>
   <node id="9260175372" lat="51.4645938" lon="-0.0657761" version="1" visible="true"/>
@@ -3602,6 +3601,7 @@
   <node id="411015034" lat="51.471341" lon="0.1936643" version="6" visible="true"/>
   <node id="2592356089" lat="51.5529045" lon="-0.1049362" version="3" visible="true"/>
   <node id="4085381516" lat="51.4730476" lon="0.0554123" version="1" visible="true"/>
+  <node id="7967002909" lat="51.5762188" lon="0.0694225" version="1" visible="true"/>
   <node id="4986024987" lat="51.5209442" lon="-0.1388931" version="1" visible="true"/>
   <node id="4414000545" lat="51.4932343" lon="-0.047145" version="3" visible="true"/>
   <node id="310944595" lat="51.3893991" lon="-0.1961963" version="6" visible="true"/>
@@ -3728,6 +3728,10 @@
     <tag k="bus" v="yes"/>
     <tag k="name" v="Thamesmead Town Centre / Central Way"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="5859981863" lat="51.574461" lon="0.0788492" version="3" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
   </node>
   <node id="1576921563" lat="51.5582078" lon="0.0747311" version="4" visible="true">
     <tag k="highway" v="crossing"/>
@@ -4312,7 +4316,7 @@
     <tag k="local_ref" v="NJ"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="2448110824" lat="51.5459964" lon="-0.0081428" version="13" visible="true">
+  <node id="2448110824" lat="51.545995" lon="-0.0081291" version="14" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -4322,7 +4326,7 @@
     <tag k="traffic_signals:sound" v="yes"/>
     <tag k="traffic_signals:vibration" v="yes"/>
   </node>
-  <node id="5864341876" lat="51.5457336" lon="-0.0081519" version="5" visible="true">
+  <node id="5864341876" lat="51.5457364" lon="-0.0081382" version="6" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
@@ -6055,12 +6059,6 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="forward"/>
-  </node>
-  <node id="4598589336" lat="51.4562715" lon="-0.114174" version="3" visible="true">
-    <tag k="bus" v="yes"/>
-    <tag k="name" v="Morval Road"/>
-    <tag k="local_ref" v="B"/>
-    <tag k="public_transport" v="stop_position"/>
   </node>
   <node id="7823795780" lat="51.4375607" lon="-0.1668364" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -14057,6 +14055,25 @@
     <nd ref="5859982220"/>
     <nd ref="7967002913"/>
   </way>
+  <way id="854303174" visible="true" version="2">
+    <tag k="name" v="Parham Drive"/>
+    <tag k="highway" v="residential"/>
+    <tag k="was:highway" v="cycleway"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG221162"/>
+    <nd ref="7967002913"/>
+    <nd ref="7967002911"/>
+    <nd ref="7967002909"/>
+  </way>
+  <way id="620209278" visible="true" version="3">
+    <tag k="name" v="Cantley Gardens"/>
+    <tag k="highway" v="residential"/>
+    <tag k="was:highway" v="cycleway"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG221173"/>
+    <nd ref="5859981863"/>
+    <nd ref="7967002910"/>
+  </way>
   <way id="239939416" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
@@ -14148,15 +14165,6 @@
     <nd ref="1815410110"/>
     <nd ref="1724712908"/>
     <nd ref="7418121058"/>
-  </way>
-  <way id="620209573" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Quebec Road"/>
-    <tag k="highway" v="residential"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG221209"/>
-    <nd ref="5859981865"/>
-    <nd ref="11947085"/>
   </way>
   <way id="375401122" visible="true" version="5">
     <tag k="lit" v="yes"/>
@@ -26250,20 +26258,6 @@
     <tag k="tiger:upload_uuid" v="RWG107799"/>
     <nd ref="119614789"/>
     <nd ref="5975551037"/>
-  </way>
-  <way id="1011838343" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A204"/>
-    <tag k="name" v="Effra Road"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG107799,RWG107495"/>
-    <nd ref="873734595"/>
-    <nd ref="4598589336"/>
-    <nd ref="119614789"/>
   </way>
   <way id="141489975" visible="true" version="9">
     <tag k="lit" v="yes"/>
