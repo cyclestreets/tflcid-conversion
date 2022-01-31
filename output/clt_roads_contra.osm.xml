@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9456821073" lat="51.4585497" lon="-0.1904333" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+  </node>
   <node id="9451513401" lat="51.4527227" lon="-0.2140923" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -3358,7 +3361,7 @@
   <node id="25258282" lat="51.4488831" lon="-0.0351254" version="3" visible="true"/>
   <node id="25258280" lat="51.4489014" lon="-0.0356995" version="3" visible="true"/>
   <node id="25248126" lat="51.512248" lon="-0.0862621" version="9" visible="true"/>
-  <node id="25231554" lat="51.4585564" lon="-0.1903759" version="5" visible="true"/>
+  <node id="25231554" lat="51.4585547" lon="-0.1903839" version="6" visible="true"/>
   <node id="25161370" lat="51.5142788" lon="-0.0908623" version="3" visible="true"/>
   <node id="25067727" lat="51.5107274" lon="-0.0892719" version="4" visible="true"/>
   <node id="25067636" lat="51.5109865" lon="-0.0888087" version="4" visible="true"/>
@@ -13810,7 +13813,7 @@
     <nd ref="4959806199"/>
     <nd ref="9348641638"/>
   </way>
-  <way id="670972146" visible="true" version="3">
+  <way id="670972146" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Barchard Street"/>
     <tag k="oneway" v="yes"/>
@@ -13824,6 +13827,7 @@
     <nd ref="6283316262"/>
     <nd ref="9330577523"/>
     <nd ref="9330577520"/>
+    <nd ref="9456821073"/>
     <nd ref="25231554"/>
   </way>
   <way id="3678340" visible="true" version="10">
