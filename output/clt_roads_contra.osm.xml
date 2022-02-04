@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9472284911" lat="51.5819036" lon="-0.0847314" version="1" visible="true"/>
+  <node id="9472244986" lat="51.5823183" lon="-0.0846739" version="1" visible="true"/>
+  <node id="9472244984" lat="51.5824299" lon="-0.0846585" version="1" visible="true"/>
+  <node id="9472244970" lat="51.5827396" lon="-0.0846156" version="1" visible="true"/>
+  <node id="9471767972" lat="51.5855304" lon="-0.0842351" version="1" visible="true"/>
+  <node id="9471710697" lat="51.5817059" lon="-0.0847588" version="1" visible="true"/>
   <node id="9456821073" lat="51.4585497" lon="-0.1904333" version="1" visible="true">
     <tag k="highway" v="give_way"/>
   </node>
@@ -8218,7 +8224,7 @@
     <nd ref="38890395"/>
     <nd ref="38890407"/>
   </way>
-  <way id="4341817" visible="true" version="5">
+  <way id="4341817" visible="true" version="8">
     <tag k="name" v="Avenue Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -8226,10 +8232,15 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG279061"/>
     <nd ref="26434987"/>
+    <nd ref="9471710697"/>
+    <nd ref="9472284911"/>
+    <nd ref="9472244986"/>
+    <nd ref="9472244984"/>
+    <nd ref="9472244970"/>
     <nd ref="6824402181"/>
     <nd ref="6824402180"/>
   </way>
-  <way id="728250378" visible="true" version="2">
+  <way id="728250378" visible="true" version="3">
     <tag k="name" v="Avenue Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -8243,6 +8254,7 @@
     <nd ref="26434988"/>
     <nd ref="3795021066"/>
     <nd ref="613466792"/>
+    <nd ref="9471767972"/>
     <nd ref="26434993"/>
   </way>
   <way id="744499257" visible="true" version="2">
