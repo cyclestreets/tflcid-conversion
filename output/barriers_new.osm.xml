@@ -2209,18 +2209,18 @@
     <nd ref="4895317407"/>
   </way>
   <way id="326008335" visible="true" version="2">
+    <tag k="highway" v="living_street"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Raveley Street"/>
-    <tag k="highway" v="living_street"/>
     <tag k="source:highway" v="Home Zone sign at west"/>
     <nd ref="3326237017"/>
     <nd ref="-163"/>
     <nd ref="248927952"/>
   </way>
   <way id="326008335" visible="true" version="2">
+    <tag k="highway" v="living_street"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Raveley Street"/>
-    <tag k="highway" v="living_street"/>
     <tag k="source:highway" v="Home Zone sign at west"/>
     <nd ref="3326237017"/>
     <nd ref="-164"/>
@@ -2345,13 +2345,13 @@
     <nd ref="25495769"/>
   </way>
   <way id="656458595" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="rcn" v="proposed"/>
-    <tag k="name" v="Mark Lane"/>
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Mark Lane"/>
+    <tag k="rcn" v="proposed"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="wikipedia" v="en:Mark Lane, London"/>
     <nd ref="6149398572"/>
     <nd ref="-173"/>
@@ -2363,11 +2363,11 @@
     <nd ref="1547013754"/>
   </way>
   <way id="4253442" visible="true" version="7">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Roscoe Street"/>
     <tag k="highway" v="unclassified"/>
-    <tag k="surface" v="paving_stones"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Roscoe Street"/>
+    <tag k="surface" v="paving_stones"/>
     <nd ref="25472206"/>
     <nd ref="-174"/>
     <nd ref="25472191"/>
@@ -2395,14 +2395,14 @@
     <nd ref="5633625189"/>
   </way>
   <way id="4258107" visible="true" version="19">
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="name" v="Strutton Ground"/>
     <tag k="oneway" v="no"/>
-    <tag k="highway" v="residential"/>
+    <tag k="postal_code" v="SW1"/>
     <tag k="surface" v="bricks"/>
     <tag k="vehicle" v="yes"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="postal_code" v="SW1"/>
-    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="vehicle:conditional" v="no @ (Mo-Fr 08:00-17:00)"/>
     <nd ref="24973090"/>
     <nd ref="1232048725"/>
@@ -2431,16 +2431,16 @@
     <nd ref="107793"/>
   </way>
   <way id="553792357" visible="true" version="3">
-    <tag k="name" v="Strutton Ground"/>
-    <tag k="oneway" v="yes"/>
     <tag k="amenity" v="marketplace"/>
     <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
+    <tag k="name" v="Strutton Ground"/>
+    <tag k="oneway" v="yes"/>
     <tag k="surface" v="sett"/>
     <tag k="vehicle" v="yes"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="wikidata" v="Q7625468"/>
-    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="vehicle:conditional" v="no @ (Mo-Fr 08:00-17:00)"/>
+    <tag k="wikidata" v="Q7625468"/>
     <nd ref="292252720"/>
     <nd ref="1165264579"/>
     <nd ref="-179"/>
@@ -2477,11 +2477,11 @@
     <nd ref="1614926285"/>
   </way>
   <way id="25536134" visible="true" version="5">
+    <tag k="highway" v="residential"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Orton Street"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="sett"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="surface" v="sett"/>
     <nd ref="6973771054"/>
     <nd ref="-182"/>
     <nd ref="2918846372"/>
@@ -2534,11 +2534,11 @@
     <nd ref="8672464658"/>
   </way>
   <way id="4422303" visible="true" version="4">
-    <tag k="name" v="Rewell Street"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="source:name" v="photograph"/>
+    <tag k="name" v="Rewell Street"/>
     <tag k="source:maxspeed" v="THE HAMMERSMITH AND FULHAM (20 MPH SPEED LIMIT) EXPERIMENTAL TRAFFIC ORDER 2016"/>
+    <tag k="source:name" v="photograph"/>
     <nd ref="719015171"/>
     <nd ref="-187"/>
     <nd ref="27091743"/>
@@ -2569,18 +2569,18 @@
     <nd ref="9398692356"/>
   </way>
   <way id="98866315" visible="true" version="2">
-    <tag k="source" v="Bing"/>
     <tag k="highway" v="service"/>
+    <tag k="source" v="Bing"/>
     <nd ref="1685947983"/>
     <nd ref="-190"/>
     <nd ref="1143756006"/>
     <nd ref="1143756004"/>
   </way>
   <way id="173295283" visible="true" version="6">
-    <tag k="name" v="Toynbee Street"/>
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Toynbee Street"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="1736734324"/>
     <nd ref="-191"/>
     <nd ref="1490928695"/>
@@ -2658,17 +2658,17 @@
     <nd ref="25775295"/>
   </way>
   <way id="71799573" visible="true" version="20">
-    <tag k="car" v="no"/>
-    <tag k="lit" v="yes"/>
-    <tag k="foot" v="yes"/>
-    <tag k="name" v="Serpentine Road"/>
     <tag k="bicycle" v="yes"/>
+    <tag k="car" v="no"/>
+    <tag k="foot" v="yes"/>
     <tag k="highway" v="pedestrian"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="15"/>
-    <tag k="motorcar" v="private"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="motorcycle" v="private"/>
     <tag k="motor_vehicle" v="private"/>
+    <tag k="motorcar" v="private"/>
+    <tag k="motorcycle" v="private"/>
+    <tag k="name" v="Serpentine Road"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="usability:skate" v="excellent"/>
     <nd ref="60852813"/>
     <nd ref="-198"/>
@@ -2806,11 +2806,11 @@
     <nd ref="250285708"/>
   </way>
   <way id="26948866" visible="true" version="8">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Burma Court"/>
     <tag k="highway" v="service"/>
-    <tag k="service" v="driveway"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Burma Court"/>
+    <tag k="service" v="driveway"/>
     <nd ref="295288549"/>
     <nd ref="5803156912"/>
     <nd ref="295288734"/>
@@ -2856,19 +2856,19 @@
     <nd ref="8082558962"/>
   </way>
   <way id="100874379" visible="true" version="3">
-    <tag k="name" v="Ainsty Street"/>
     <tag k="highway" v="unclassified"/>
-    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Ainsty Street"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="1165756043"/>
     <nd ref="-207"/>
     <nd ref="1165756048"/>
   </way>
   <way id="8117388" visible="true" version="6">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Bergholt Crescent"/>
     <tag k="highway" v="residential"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Bergholt Crescent"/>
     <nd ref="26658656"/>
     <nd ref="-208"/>
     <nd ref="26658655"/>
@@ -2894,19 +2894,19 @@
     <nd ref="25498997"/>
   </way>
   <way id="26148037" visible="true" version="2">
-    <tag k="name" v="Ablett Street"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="maxwidth" v="2.2"/>
+    <tag k="name" v="Ablett Street"/>
     <nd ref="104284801"/>
     <nd ref="-210"/>
     <nd ref="286349935"/>
   </way>
   <way id="19798230" visible="true" version="5">
-    <tag k="name" v="Waite Street"/>
     <tag k="access" v="private"/>
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Waite Street"/>
     <tag k="postal_code" v="SE15"/>
     <nd ref="104274625"/>
     <nd ref="7480201694"/>
@@ -2916,12 +2916,12 @@
     <nd ref="104274626"/>
   </way>
   <way id="24887397" visible="true" version="10">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Rotherhithe Street"/>
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="maxspeed:type" v="sign"/>
+    <tag k="name" v="Rotherhithe Street"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="270420487"/>
     <nd ref="-212"/>
     <nd ref="27513877"/>
@@ -3042,8 +3042,8 @@
     <nd ref="27605010"/>
   </way>
   <way id="162782543" visible="true" version="3">
-    <tag k="name" v="Coleshill Road"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Coleshill Road"/>
     <nd ref="1212005187"/>
     <nd ref="1746043441"/>
     <nd ref="-222"/>
@@ -3061,8 +3061,8 @@
     <nd ref="3956296666"/>
   </way>
   <way id="5406008" visible="true" version="9">
-    <tag k="name" v="Lenelby Road"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Lenelby Road"/>
     <nd ref="304440"/>
     <nd ref="7185668879"/>
     <nd ref="244005889"/>
@@ -3124,10 +3124,10 @@
     <nd ref="88297708"/>
   </way>
   <way id="13713014" visible="true" version="5">
-    <tag k="name" v="Waghorn Road"/>
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Waghorn Road"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="126556743"/>
     <nd ref="126559197"/>
     <nd ref="126559198"/>
@@ -3197,8 +3197,8 @@
     <nd ref="4169897179"/>
   </way>
   <way id="20616660" visible="true" version="8">
-    <tag k="name" v="Fairlawn Drive"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Fairlawn Drive"/>
     <nd ref="221319306"/>
     <nd ref="1433423537"/>
     <nd ref="-233"/>
@@ -3214,9 +3214,9 @@
     <nd ref="221323071"/>
   </way>
   <way id="11154452" visible="true" version="6">
-    <tag k="name" v="Benbow Street"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Benbow Street"/>
     <nd ref="99331054"/>
     <nd ref="446099338"/>
     <nd ref="99331136"/>
@@ -3224,8 +3224,8 @@
     <nd ref="446096939"/>
   </way>
   <way id="20616362" visible="true" version="8">
-    <tag k="name" v="Cavendish Avenue"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Cavendish Avenue"/>
     <nd ref="221319814"/>
     <nd ref="7156414596"/>
     <nd ref="7156414593"/>
@@ -3257,19 +3257,19 @@
     <nd ref="26840527"/>
   </way>
   <way id="9949072" visible="true" version="3">
-    <tag k="name" v="Eynsford Close"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Eynsford Close"/>
     <nd ref="81668472"/>
     <nd ref="5640132927"/>
     <nd ref="-237"/>
     <nd ref="81669301"/>
   </way>
   <way id="11150187" visible="true" version="4">
-    <tag k="name" v="Monson Road"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="pedestrian"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="motor_vehicle" v="private"/>
+    <tag k="name" v="Monson Road"/>
     <nd ref="99294706"/>
     <nd ref="342498796"/>
     <nd ref="342498806"/>
@@ -3279,9 +3279,9 @@
     <nd ref="99294708"/>
   </way>
   <way id="232067468" visible="true" version="2">
-    <tag k="lit" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="service"/>
+    <tag k="lit" v="no"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="2404105602"/>
     <nd ref="2404105595"/>
@@ -3293,8 +3293,8 @@
   </way>
   <way id="24442259" visible="true" version="2">
     <tag k="foot" v="yes"/>
-    <tag k="note" v="no signage allowing or disallowing cycling"/>
     <tag k="highway" v="cycleway"/>
+    <tag k="note" v="no signage allowing or disallowing cycling"/>
     <nd ref="150608050"/>
     <nd ref="-240"/>
     <nd ref="55218098"/>
@@ -3315,9 +3315,9 @@
     <nd ref="2120274124"/>
   </way>
   <way id="2955918" visible="true" version="7">
-    <tag k="name" v="Waters Road"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Waters Road"/>
     <nd ref="623511"/>
     <nd ref="-242"/>
     <nd ref="622843"/>
@@ -3335,32 +3335,32 @@
     <nd ref="5319649309"/>
   </way>
   <way id="5064330" visible="true" version="10">
-    <tag k="name" v="Kelvin Grove"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Kelvin Grove"/>
     <nd ref="34097954"/>
     <nd ref="-244"/>
     <nd ref="34097955"/>
     <nd ref="34097956"/>
   </way>
   <way id="784122327" visible="true" version="1">
-    <tag k="name" v="Mayfield Crescent"/>
     <tag k="access" v="no"/>
-    <tag k="source" v="OS OpenData StreetView"/>
-    <tag k="highway" v="service"/>
-    <tag k="service" v="emergency_access"/>
-    <tag k="maxspeed" v="20 mph"/>
     <tag k="emergency" v="yes"/>
+    <tag k="highway" v="service"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Mayfield Crescent"/>
+    <tag k="service" v="emergency_access"/>
+    <tag k="source" v="OS OpenData StreetView"/>
     <nd ref="7324646042"/>
     <nd ref="-245"/>
     <nd ref="7324646041"/>
   </way>
   <way id="8011954" visible="true" version="6">
-    <tag k="name" v="Keswick Road"/>
     <tag k="access" v="private"/>
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="unpaved"/>
+    <tag k="name" v="Keswick Road"/>
     <tag k="source:name" v="OS OpenData Locator"/>
+    <tag k="surface" v="unpaved"/>
     <nd ref="59942148"/>
     <nd ref="59942141"/>
     <nd ref="59942137"/>
@@ -3373,11 +3373,11 @@
     <nd ref="25475863"/>
   </way>
   <way id="8011954" visible="true" version="6">
-    <tag k="name" v="Keswick Road"/>
     <tag k="access" v="private"/>
     <tag k="highway" v="residential"/>
-    <tag k="surface" v="unpaved"/>
+    <tag k="name" v="Keswick Road"/>
     <tag k="source:name" v="OS OpenData Locator"/>
+    <tag k="surface" v="unpaved"/>
     <nd ref="59942148"/>
     <nd ref="59942141"/>
     <nd ref="-247"/>
@@ -3390,9 +3390,9 @@
     <nd ref="25475863"/>
   </way>
   <way id="8395852" visible="true" version="6">
-    <tag k="name" v="Richmond Green"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Richmond Green"/>
     <tag k="source:maxspeed" v="The Sutton (Speed Limit) (20mph) (Beddington North Area) (No. 1) (Amendment No. 1) Order 2016"/>
     <nd ref="26461694"/>
     <nd ref="26461699"/>
@@ -3403,9 +3403,9 @@
     <nd ref="181556720"/>
   </way>
   <way id="4823675" visible="true" version="2">
-    <tag k="name" v="Pears Road"/>
-    <tag k="highway" v="cycleway"/>
     <tag k="created_by" v="JOSM"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Pears Road"/>
     <nd ref="31002140"/>
     <nd ref="-249"/>
     <nd ref="31002141"/>
@@ -3430,9 +3430,9 @@
     <nd ref="245439028"/>
   </way>
   <way id="33200434" visible="true" version="1">
-    <tag k="name" v="Edwin Road"/>
-    <tag k="highway" v="cycleway"/>
     <tag k="created_by" v="Merkaartor 0.13"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="name" v="Edwin Road"/>
     <nd ref="376429289"/>
     <nd ref="-252"/>
     <nd ref="376429331"/>
@@ -3464,8 +3464,8 @@
     <nd ref="1920524037"/>
   </way>
   <way id="10277653" visible="true" version="3">
-    <tag k="highway" v="cycleway"/>
     <tag k="created_by" v="Potlatch alpha"/>
+    <tag k="highway" v="cycleway"/>
     <nd ref="304687808"/>
     <nd ref="936295562"/>
     <nd ref="936295579"/>
@@ -3528,16 +3528,16 @@
     <nd ref="20917253"/>
   </way>
   <way id="38754976" visible="true" version="2">
-    <tag k="name" v="Long Drive"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Long Drive"/>
     <nd ref="30775281"/>
     <nd ref="-261"/>
     <nd ref="30775282"/>
   </way>
   <way id="224644044" visible="true" version="3">
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="oneway" v="yes"/>
     <nd ref="269336933"/>
     <nd ref="2448718674"/>
     <nd ref="2448718673"/>
@@ -3672,11 +3672,11 @@
     <nd ref="3729863991"/>
   </way>
   <way id="4014433" visible="true" version="8">
-    <tag k="name" v="Christ Church Lane"/>
-    <tag k="highway" v="residential"/>
     <tag k="abutters" v="residential"/>
+    <tag k="highway" v="residential"/>
     <tag k="loc_name" v="Christchurch Lane"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="Christ Church Lane"/>
     <tag k="source:maxspeed" v="GB:urban"/>
     <nd ref="1285347919"/>
     <nd ref="21264450"/>
@@ -3825,8 +3825,8 @@
     <nd ref="60240670"/>
   </way>
   <way id="23655215" visible="true" version="8">
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="service"/>
+    <tag k="oneway" v="yes"/>
     <nd ref="7737741641"/>
     <nd ref="7737875335"/>
     <nd ref="-281"/>
@@ -3834,8 +3834,8 @@
     <nd ref="256299603"/>
   </way>
   <way id="9171697" visible="true" version="5">
-    <tag k="name" v="Dunedin Way"/>
     <tag k="highway" v="residential"/>
+    <tag k="name" v="Dunedin Way"/>
     <tag k="source:name" v="OS OpenData Locator"/>
     <nd ref="68228240"/>
     <nd ref="-282"/>
@@ -3845,9 +3845,9 @@
     <nd ref="68228441"/>
   </way>
   <way id="26784773" visible="true" version="7">
-    <tag k="name" v="Parkway"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="name" v="Parkway"/>
     <tag k="source:name" v="OS OpenData StreetView"/>
     <nd ref="2304296368"/>
     <nd ref="6345272734"/>
@@ -3907,9 +3907,9 @@
     <nd ref="60240670"/>
   </way>
   <way id="5405044" visible="true" version="4">
-    <tag k="name" v="Peabody Cottages"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Peabody Cottages"/>
     <nd ref="38891351"/>
     <nd ref="2267357236"/>
     <nd ref="-286"/>
@@ -3972,10 +3972,10 @@
     <nd ref="243459016"/>
   </way>
   <way id="313090230" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Denzil Road"/>
     <tag k="highway" v="residential"/>
+    <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="Denzil Road"/>
     <nd ref="305173652"/>
     <nd ref="-289"/>
     <nd ref="87302969"/>
