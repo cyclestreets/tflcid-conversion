@@ -699,7 +699,7 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
-  <node id="7703848018" lat="51.4408382" lon="-0.1061677" version="1" visible="true"/>
+  <node id="7703848018" lat="51.4408382" lon="-0.1061737" version="2" visible="true"/>
   <node id="7692024524" lat="51.5360933" lon="-0.0854801" version="1" visible="true"/>
   <node id="7692024506" lat="51.5360806" lon="-0.0848408" version="1" visible="true"/>
   <node id="7674238703" lat="51.4407014" lon="-0.1061626" version="2" visible="true"/>
@@ -1425,7 +1425,6 @@
   <node id="5750400365" lat="51.4837119" lon="-0.0028191" version="1" visible="true"/>
   <node id="5750398416" lat="51.4835166" lon="-0.0034276" version="1" visible="true"/>
   <node id="5750398414" lat="51.4834796" lon="-0.0035512" version="1" visible="true"/>
-  <node id="5750398413" lat="51.4835356" lon="-0.003402" version="1" visible="true"/>
   <node id="5739837615" lat="51.5223945" lon="-0.132816" version="4" visible="true"/>
   <node id="5739257305" lat="51.487595" lon="-0.1122837" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -2795,7 +2794,7 @@
   <node id="282828889" lat="51.5375671" lon="-0.0421419" version="4" visible="true"/>
   <node id="280423558" lat="51.4474111" lon="-0.3290668" version="4" visible="true"/>
   <node id="277031996" lat="51.5046241" lon="-0.0831626" version="12" visible="true"/>
-  <node id="271121942" lat="51.4405604" lon="-0.1061558" version="7" visible="true"/>
+  <node id="271121942" lat="51.4405561" lon="-0.1061584" version="8" visible="true"/>
   <node id="269336774" lat="51.5312692" lon="-0.2983906" version="3" visible="true"/>
   <node id="269336773" lat="51.531563" lon="-0.2981198" version="5" visible="true"/>
   <node id="269336772" lat="51.5318207" lon="-0.2968058" version="3" visible="true"/>
@@ -4534,26 +4533,62 @@
     <nd ref="7079766568"/>
     <nd ref="30426698"/>
   </way>
-  <way id="606512101" visible="true" version="4">
+  <way id="606512101" visible="true" version="5">
     <tag k="name" v="Old Woolwich Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG244324"/>
-    <nd ref="5750398413"/>
+    <nd ref="5300244111"/>
     <nd ref="5750398416"/>
     <nd ref="5750398414"/>
     <nd ref="35121813"/>
   </way>
-  <way id="606512101" visible="true" version="4">
+  <way id="606512101" visible="true" version="5">
+    <tag k="name" v="Old Woolwich Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG244325"/>
+    <nd ref="5300244111"/>
+    <nd ref="5750398416"/>
+    <nd ref="5750398414"/>
+    <nd ref="35121813"/>
+  </way>
+  <way id="606512101" visible="true" version="5">
+    <tag k="name" v="Old Woolwich Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG244326"/>
+    <nd ref="5300244111"/>
+    <nd ref="5750398416"/>
+    <nd ref="5750398414"/>
+    <nd ref="35121813"/>
+  </way>
+  <way id="606512101" visible="true" version="5">
+    <tag k="name" v="Old Woolwich Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG244327"/>
+    <nd ref="5300244111"/>
+    <nd ref="5750398416"/>
+    <nd ref="5750398414"/>
+    <nd ref="35121813"/>
+  </way>
+  <way id="606512101" visible="true" version="5">
     <tag k="name" v="Old Woolwich Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG244358"/>
-    <nd ref="5750398413"/>
+    <nd ref="5300244111"/>
     <nd ref="5750398416"/>
     <nd ref="5750398414"/>
     <nd ref="35121813"/>
