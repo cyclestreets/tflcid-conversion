@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9521395679" lat="51.5997228" lon="-0.1037819" version="1" visible="true"/>
+  <node id="9521395673" lat="51.6002715" lon="-0.1043746" version="1" visible="true"/>
+  <node id="9521395657" lat="51.60071" lon="-0.1048625" version="1" visible="true"/>
+  <node id="9521395651" lat="51.6009763" lon="-0.1051416" version="1" visible="true"/>
+  <node id="9521340019" lat="51.6000146" lon="-0.1040939" version="1" visible="true"/>
+  <node id="9521291016" lat="51.5999361" lon="-0.10401" version="1" visible="true">
+    <tag k="traffic_calming" v="table"/>
+  </node>
   <node id="9517372351" lat="51.4553677" lon="-0.1291715" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="marked"/>
@@ -1227,7 +1235,7 @@
   <node id="6275529417" lat="51.5363046" lon="0.1174577" version="1" visible="true"/>
   <node id="6275529416" lat="51.5362755" lon="0.1171837" version="1" visible="true"/>
   <node id="6258724521" lat="51.4298203" lon="0.0656396" version="2" visible="true"/>
-  <node id="6256533672" lat="51.4560958" lon="-0.1254083" version="2" visible="true"/>
+  <node id="6256533672" lat="51.4561049" lon="-0.1254095" version="3" visible="true"/>
   <node id="6256533668" lat="51.4590696" lon="-0.1256617" version="2" visible="true"/>
   <node id="6256533666" lat="51.4592604" lon="-0.1256962" version="3" visible="true"/>
   <node id="6256533665" lat="51.4595961" lon="-0.12573" version="3" visible="true"/>
@@ -3011,7 +3019,7 @@
   <node id="116085832" lat="51.5260243" lon="0.0566998" version="15" visible="true"/>
   <node id="116085831" lat="51.5254833" lon="0.0531044" version="3" visible="true"/>
   <node id="116084406" lat="51.5238419" lon="0.0575319" version="15" visible="true"/>
-  <node id="114273467" lat="51.4552953" lon="-0.1278848" version="5" visible="true"/>
+  <node id="114273467" lat="51.4552949" lon="-0.1278896" version="6" visible="true"/>
   <node id="114272530" lat="51.4566505" lon="-0.1254248" version="4" visible="true"/>
   <node id="114272426" lat="51.457113" lon="-0.1254609" version="6" visible="true"/>
   <node id="114272267" lat="51.4575403" lon="-0.1254904" version="5" visible="true"/>
@@ -3155,7 +3163,7 @@
   <node id="38889678" lat="51.5912384" lon="-0.0813461" version="3" visible="true"/>
   <node id="38889677" lat="51.5923823" lon="-0.0782965" version="2" visible="true"/>
   <node id="38889671" lat="51.5917025" lon="-0.0824339" version="2" visible="true"/>
-  <node id="38458877" lat="51.6002901" lon="-0.1043886" version="5" visible="true"/>
+  <node id="38458877" lat="51.6003022" lon="-0.104408" version="6" visible="true"/>
   <node id="38458798" lat="51.6009661" lon="-0.1051288" version="3" visible="true"/>
   <node id="38458797" lat="51.6011327" lon="-0.1053024" version="5" visible="true"/>
   <node id="38458796" lat="51.6013484" lon="-0.1051964" version="4" visible="true"/>
@@ -3434,7 +3442,7 @@
   <node id="21508108" lat="51.4561505" lon="-0.1254195" version="6" visible="true"/>
   <node id="21505286" lat="51.4874823" lon="-0.1120973" version="14" visible="true"/>
   <node id="21504112" lat="51.4578171" lon="-0.1255123" version="3" visible="true"/>
-  <node id="21504105" lat="51.4552404" lon="-0.1278923" version="23" visible="true"/>
+  <node id="21504105" lat="51.4552479" lon="-0.1279037" version="24" visible="true"/>
   <node id="21504097" lat="51.4553854" lon="-0.1292779" version="19" visible="true"/>
   <node id="21494282" lat="51.5003172" lon="-0.3764571" version="7" visible="true"/>
   <node id="21411585" lat="51.4347568" lon="-0.1989617" version="5" visible="true"/>
@@ -8215,7 +8223,7 @@
     <nd ref="5603199061"/>
     <nd ref="5603199056"/>
   </way>
-  <way id="5368631" visible="true" version="10">
+  <way id="5368631" visible="true" version="12">
     <tag k="hgv" v="no"/>
     <tag k="name" v="Winkfield Road"/>
     <tag k="highway" v="residential"/>
@@ -8226,9 +8234,15 @@
     <nd ref="6824441153"/>
     <nd ref="918398053"/>
     <nd ref="305594512"/>
+    <nd ref="9521395679"/>
+    <nd ref="9521291016"/>
+    <nd ref="9521340019"/>
+    <nd ref="9521395673"/>
     <nd ref="38458877"/>
+    <nd ref="9521395657"/>
     <nd ref="43658198"/>
     <nd ref="38458798"/>
+    <nd ref="9521395651"/>
     <nd ref="38458797"/>
     <nd ref="613578682"/>
     <nd ref="38458796"/>

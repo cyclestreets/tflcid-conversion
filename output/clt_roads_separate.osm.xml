@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9521840210" lat="51.6022501" lon="-0.0901526" version="1" visible="true"/>
+  <node id="9521840205" lat="51.6025903" lon="-0.0892765" version="1" visible="true"/>
   <node id="9488314669" lat="51.5116102" lon="-0.0426619" version="1" visible="true"/>
   <node id="9488314668" lat="51.5116102" lon="-0.0424872" version="1" visible="true"/>
   <node id="9488314667" lat="51.5116127" lon="-0.0425798" version="1" visible="true"/>
@@ -3410,7 +3412,7 @@
     <nd ref="30444878"/>
     <nd ref="8194784425"/>
   </way>
-  <way id="595141520" visible="true" version="4">
+  <way id="595141520" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1080"/>
     <tag k="name" v="The Roundway"/>
@@ -3428,9 +3430,11 @@
     <nd ref="38456662"/>
     <nd ref="1643721531"/>
     <nd ref="38456661"/>
+    <nd ref="9521840210"/>
     <nd ref="38456660"/>
     <nd ref="38456659"/>
     <nd ref="1643721555"/>
+    <nd ref="9521840205"/>
     <nd ref="38456658"/>
     <nd ref="6222636137"/>
     <nd ref="38457400"/>
@@ -5464,7 +5468,7 @@
     <nd ref="6967968870"/>
     <nd ref="6967968861"/>
   </way>
-  <way id="744514103" visible="true" version="4">
+  <way id="744514103" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
     <tag k="name" v="Kennington Park Road"/>
@@ -5473,7 +5477,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
-    <tag k="sidewalk" v="both"/>
+    <tag k="sidewalk" v="left"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG056517"/>
     <nd ref="8982713134"/>
@@ -5481,7 +5485,7 @@
     <nd ref="6967968868"/>
     <nd ref="6967968858"/>
   </way>
-  <way id="744514108" visible="true" version="4">
+  <way id="744514108" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
     <tag k="name" v="Kennington Park Road"/>
@@ -5490,7 +5494,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
-    <tag k="sidewalk" v="both"/>
+    <tag k="sidewalk" v="left"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG056517"/>
     <nd ref="6967968858"/>
