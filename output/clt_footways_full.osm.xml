@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9524142086" lat="51.5962822" lon="-0.2105775" version="1" visible="true"/>
   <node id="9451247310" lat="51.5108415" lon="-0.3706373" version="1" visible="true"/>
   <node id="9451239613" lat="51.5108678" lon="-0.3705036" version="1" visible="true"/>
   <node id="9437013396" lat="51.6112161" lon="-0.1560954" version="1" visible="true">
@@ -843,6 +844,7 @@
   <node id="257453723" lat="51.50893" lon="-0.0568869" version="3" visible="true">
     <tag k="highway" v="steps"/>
   </node>
+  <node id="251400622" lat="51.5962848" lon="-0.2104836" version="3" visible="true"/>
   <node id="249140538" lat="51.5079446" lon="-0.0538927" version="2" visible="true"/>
   <node id="249140537" lat="51.5076923" lon="-0.0538076" version="2" visible="true"/>
   <node id="249140536" lat="51.5076321" lon="-0.0536503" version="3" visible="true"/>
@@ -2173,6 +2175,19 @@
     <nd ref="7096033483"/>
     <nd ref="7096033484"/>
     <nd ref="7096033476"/>
+  </way>
+  <way id="653375630" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG280177"/>
+    <nd ref="251400622"/>
+    <nd ref="9524142086"/>
+    <nd ref="6123419057"/>
   </way>
   <way id="3991917" visible="true" version="11">
     <tag k="name" v="Thames Tow Path"/>
