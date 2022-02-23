@@ -3008,7 +3008,7 @@
   <node id="126605814" lat="51.5196823" lon="0.0165076" version="1" visible="true"/>
   <node id="126605811" lat="51.519677" lon="0.0160098" version="1" visible="true"/>
   <node id="126605619" lat="51.5196045" lon="0.0145053" version="6" visible="true"/>
-  <node id="119616467" lat="51.4553319" lon="-0.128903" version="9" visible="true"/>
+  <node id="119616467" lat="51.4553208" lon="-0.1287928" version="10" visible="true"/>
   <node id="119605472" lat="51.445195" lon="-0.1100987" version="5" visible="true"/>
   <node id="119022002" lat="51.5372744" lon="0.0264738" version="12" visible="true"/>
   <node id="117944139" lat="51.5366797" lon="0.0654586" version="18" visible="true">
@@ -13696,47 +13696,31 @@
     <nd ref="25481520"/>
     <nd ref="4750070072"/>
   </way>
-  <way id="758016852" visible="true" version="3">
+  <way id="758016852" visible="true" version="4">
     <tag k="name" v="Crescent Lane"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG102340"/>
     <nd ref="119616467"/>
     <nd ref="7079011451"/>
     <nd ref="7888424655"/>
-    <nd ref="9517372351"/>
-    <nd ref="21504097"/>
   </way>
-  <way id="758016852" visible="true" version="3">
+  <way id="758016852" visible="true" version="4">
     <tag k="name" v="Crescent Lane"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG119572"/>
     <nd ref="119616467"/>
     <nd ref="7079011451"/>
     <nd ref="7888424655"/>
-    <nd ref="9517372351"/>
-    <nd ref="21504097"/>
-  </way>
-  <way id="758016852" visible="true" version="3">
-    <tag k="name" v="Crescent Lane"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG119573"/>
-    <nd ref="119616467"/>
-    <nd ref="7079011451"/>
-    <nd ref="7888424655"/>
-    <nd ref="9517372351"/>
-    <nd ref="21504097"/>
   </way>
   <way id="505954458" visible="true" version="3">
     <tag k="lit" v="yes"/>
@@ -14851,6 +14835,30 @@
     <nd ref="9517347971"/>
     <nd ref="114273467"/>
     <nd ref="21504105"/>
+  </way>
+  <way id="1034110145" visible="true" version="1">
+    <tag k="name" v="Crescent Lane"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG119572"/>
+    <nd ref="7888424655"/>
+    <nd ref="9517372351"/>
+    <nd ref="21504097"/>
+  </way>
+  <way id="1034110145" visible="true" version="1">
+    <tag k="name" v="Crescent Lane"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG119573"/>
+    <nd ref="7888424655"/>
+    <nd ref="9517372351"/>
+    <nd ref="21504097"/>
   </way>
   <way id="671168297" visible="true" version="4">
     <tag k="lit" v="yes"/>
