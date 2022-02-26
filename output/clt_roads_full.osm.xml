@@ -889,6 +889,7 @@
   <node id="488584358" lat="51.5869495" lon="-0.3856705" version="4" visible="true"/>
   <node id="26243205" lat="51.5415785" lon="-0.1253251" version="4" visible="true"/>
   <node id="4461193081" lat="51.5222582" lon="-0.0437306" version="4" visible="true"/>
+  <node id="9533435973" lat="51.446622" lon="-0.1494322" version="1" visible="true"/>
   <node id="8228650673" lat="51.4934368" lon="-0.2446578" version="2" visible="true"/>
   <node id="7490944538" lat="51.5271831" lon="-0.058156" version="1" visible="true"/>
   <node id="9206770085" lat="51.5406647" lon="-0.1355196" version="1" visible="true"/>
@@ -1661,6 +1662,7 @@
   <node id="2251098593" lat="51.5018125" lon="-0.1677643" version="3" visible="true"/>
   <node id="8909700491" lat="51.562639" lon="-0.2798899" version="2" visible="true"/>
   <node id="1938953358" lat="51.5093434" lon="-0.1174776" version="9" visible="true"/>
+  <node id="9533435974" lat="51.4462052" lon="-0.1497551" version="1" visible="true"/>
   <node id="8781118030" lat="51.5068552" lon="-0.1153969" version="1" visible="true"/>
   <node id="27494030" lat="51.486398" lon="0.0178322" version="14" visible="true"/>
   <node id="6370374264" lat="51.5316179" lon="-0.0105313" version="4" visible="true"/>
@@ -1851,6 +1853,7 @@
   <node id="8064033790" lat="51.6439914" lon="-0.0807581" version="1" visible="true"/>
   <node id="7741543313" lat="51.4284175" lon="-0.2706874" version="1" visible="true"/>
   <node id="9077039551" lat="51.5494921" lon="-0.482914" version="2" visible="true"/>
+  <node id="9533435976" lat="51.4460408" lon="-0.1499362" version="1" visible="true"/>
   <node id="2131769469" lat="51.507861" lon="-0.0877888" version="5" visible="true"/>
   <node id="8568415407" lat="51.4174977" lon="-0.2815568" version="1" visible="true"/>
   <node id="1271778546" lat="51.4840304" lon="-0.1766714" version="9" visible="true"/>
@@ -2049,7 +2052,7 @@
   <node id="3085109063" lat="51.5265504" lon="-0.1124979" version="2" visible="true"/>
   <node id="3729157216" lat="51.4367956" lon="-0.4074797" version="4" visible="true"/>
   <node id="292668" lat="51.4124646" lon="-0.2894193" version="9" visible="true"/>
-  <node id="4374570678" lat="51.4462764" lon="-0.1496919" version="3" visible="true"/>
+  <node id="4374570678" lat="51.4462977" lon="-0.1496718" version="4" visible="true"/>
   <node id="9342283918" lat="51.4933493" lon="-0.2377821" version="1" visible="true"/>
   <node id="6022363753" lat="51.4370529" lon="-0.0880956" version="2" visible="true"/>
   <node id="7489235810" lat="51.4674555" lon="-0.0227493" version="1" visible="true"/>
@@ -2283,7 +2286,6 @@
   <node id="8865878650" lat="51.5264659" lon="0.1258315" version="2" visible="true"/>
   <node id="33229064" lat="51.4843307" lon="-0.1239939" version="7" visible="true"/>
   <node id="6271893817" lat="51.6363588" lon="-0.0909994" version="5" visible="true"/>
-  <node id="4374584487" lat="51.4461011" lon="-0.1498598" version="4" visible="true"/>
   <node id="9761204" lat="51.5691782" lon="-0.3217872" version="6" visible="true"/>
   <node id="9335745071" lat="51.49347" lon="-0.2437446" version="3" visible="true"/>
   <node id="8064033800" lat="51.641031" lon="-0.0789665" version="1" visible="true"/>
@@ -2395,6 +2397,7 @@
   <node id="8064033794" lat="51.6438718" lon="-0.0806488" version="2" visible="true"/>
   <node id="7725484095" lat="51.5874524" lon="-0.0551596" version="3" visible="true"/>
   <node id="8385470990" lat="51.5036216" lon="-0.0804565" version="1" visible="true"/>
+  <node id="9533435972" lat="51.4466405" lon="-0.1494193" version="1" visible="true"/>
   <node id="382952001" lat="51.4452725" lon="0.153642" version="9" visible="true"/>
   <node id="598974518" lat="51.5443262" lon="0.1479588" version="5" visible="true"/>
   <node id="8915067759" lat="51.4300025" lon="-0.3252231" version="1" visible="true"/>
@@ -3140,7 +3143,6 @@
   <node id="6967968861" lat="51.4825648" lon="-0.1115858" version="4" visible="true"/>
   <node id="7638981098" lat="51.5067269" lon="-0.1288643" version="1" visible="true"/>
   <node id="3227827168" lat="51.5381786" lon="0.0789801" version="3" visible="true"/>
-  <node id="33138919" lat="51.4461796" lon="-0.1497779" version="5" visible="true"/>
   <node id="659503731" lat="51.5269954" lon="-0.0748613" version="4" visible="true"/>
   <node id="26200288" lat="51.4244293" lon="0.0656013" version="2" visible="true"/>
   <node id="9419590225" lat="51.5027654" lon="-0.4274329" version="1" visible="true"/>
@@ -24216,11 +24218,13 @@
     <nd ref="8228650673"/>
     <nd ref="9344985563"/>
   </way>
-  <way id="1012917600" visible="true" version="2">
+  <way id="1012917600" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="King Street"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="share_busway"/>
@@ -24230,11 +24234,13 @@
     <nd ref="9335745071"/>
     <nd ref="185727512"/>
   </way>
-  <way id="842000675" visible="true" version="7">
+  <way id="842000675" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="King Street"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="share_busway"/>
@@ -26204,7 +26210,7 @@
     <nd ref="4839279235"/>
     <nd ref="4839279234"/>
   </way>
-  <way id="982039285" visible="true" version="2">
+  <way id="1034922185" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A24"/>
     <tag k="name" v="Balham High Road"/>
@@ -26214,14 +26220,40 @@
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG171208,RWG109740,RWG171206,RWG171209"/>
-    <nd ref="9082422646"/>
-    <nd ref="4374584486"/>
-    <nd ref="4374584487"/>
-    <nd ref="33138919"/>
+    <tag k="tiger:upload_uuid" v="RWG171202,RWG171201,RWG999606"/>
+    <nd ref="9533435974"/>
+    <nd ref="4374570678"/>
+  </way>
+  <way id="1034922186" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A24"/>
+    <tag k="name" v="Balham High Road"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="track"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG171202,RWG109740,RWG171206"/>
     <nd ref="4374570678"/>
     <nd ref="4374570679"/>
     <nd ref="9082422640"/>
+  </way>
+  <way id="982039286" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A24"/>
+    <tag k="name" v="Balham High Road"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="track"/>
+    <tag k="cycleway:right" v="shared"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG171202,RWG171203,RWG171206"/>
+    <nd ref="9082422640"/>
+    <nd ref="9533435973"/>
   </way>
   <way id="205409179" visible="true" version="7">
     <tag k="lit" v="yes"/>
@@ -26475,6 +26507,20 @@
     <nd ref="27034221"/>
     <nd ref="388598206"/>
   </way>
+  <way id="1034922184" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A24"/>
+    <tag k="name" v="Balham High Road"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG171206"/>
+    <nd ref="9533435973"/>
+    <nd ref="9533435972"/>
+  </way>
   <way id="438454651" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B118"/>
@@ -26490,6 +26536,21 @@
     <nd ref="486477660"/>
     <nd ref="96102689"/>
     <nd ref="486477666"/>
+  </way>
+  <way id="1034922188" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A24"/>
+    <tag k="name" v="Balham High Road"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG171209"/>
+    <nd ref="9082422646"/>
+    <nd ref="4374584486"/>
+    <nd ref="9533435976"/>
   </way>
   <way id="968326239" visible="true" version="1">
     <tag k="lit" v="yes"/>
