@@ -2047,6 +2047,7 @@
   <node id="156674884" lat="51.5324036" lon="-0.127822" version="9" visible="true"/>
   <node id="2584020694" lat="51.5226446" lon="-0.0778268" version="4" visible="true"/>
   <node id="8796756491" lat="51.5190205" lon="-0.0601632" version="1" visible="true"/>
+  <node id="9538971613" lat="51.5441159" lon="-0.0112701" version="1" visible="true"/>
   <node id="6327282339" lat="51.4925162" lon="-0.2643246" version="3" visible="true"/>
   <node id="6821577566" lat="51.6181158" lon="-0.0631467" version="2" visible="true"/>
   <node id="241784087" lat="51.6195289" lon="3.65e-05" version="5" visible="true"/>
@@ -2478,6 +2479,7 @@
   <node id="9072290193" lat="51.5378969" lon="-0.0022442" version="1" visible="true"/>
   <node id="8281172947" lat="51.485597" lon="-0.0344274" version="2" visible="true"/>
   <node id="6563418179" lat="51.4042171" lon="-0.1614714" version="1" visible="true"/>
+  <node id="2485072554" lat="51.5440965" lon="-0.0112787" version="1" visible="true"/>
   <node id="9482369010" lat="51.5886849" lon="-0.0731001" version="1" visible="true"/>
   <node id="5483811202" lat="51.5364056" lon="-0.0170068" version="2" visible="true"/>
   <node id="3865505181" lat="51.4937261" lon="-0.2239273" version="4" visible="true"/>
@@ -9920,6 +9922,20 @@
     <nd ref="8245582126"/>
     <nd ref="29991892"/>
     <nd ref="356353969"/>
+  </way>
+  <way id="1035507141" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="International Way"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="ref:GB:usrn" v="22208215"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG155549"/>
+    <nd ref="2485072554"/>
+    <nd ref="9538971613"/>
   </way>
   <way id="903599960" visible="true" version="3">
     <tag k="lit" v="yes"/>
