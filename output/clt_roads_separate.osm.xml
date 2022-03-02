@@ -489,10 +489,10 @@
   <node id="6423538774" lat="51.5679278" lon="-0.0318481" version="3" visible="true"/>
   <node id="6423538770" lat="51.568041" lon="-0.0315523" version="3" visible="true"/>
   <node id="6403039471" lat="51.5718221" lon="-0.0205217" version="1" visible="true"/>
-  <node id="6402930902" lat="51.5797179" lon="-0.0034479" version="1" visible="true"/>
-  <node id="6402930900" lat="51.579761" lon="-0.0034834" version="1" visible="true"/>
-  <node id="6402930898" lat="51.5797748" lon="-0.0035041" version="1" visible="true"/>
-  <node id="6402930897" lat="51.5797426" lon="-0.0034635" version="1" visible="true"/>
+  <node id="6402930902" lat="51.5797243" lon="-0.0034581" version="2" visible="true"/>
+  <node id="6402930900" lat="51.5797645" lon="-0.003488" version="2" visible="true"/>
+  <node id="6402930898" lat="51.5797826" lon="-0.0035098" version="2" visible="true"/>
+  <node id="6402930897" lat="51.579749" lon="-0.0034715" version="2" visible="true"/>
   <node id="6391501622" lat="51.4820497" lon="-0.1113834" version="3" visible="true"/>
   <node id="6391501610" lat="51.4816314" lon="-0.1111118" version="5" visible="true"/>
   <node id="6384561968" lat="51.521591" lon="-0.1348388" version="2" visible="true"/>
@@ -2327,17 +2327,16 @@
     <nd ref="6402930897"/>
     <nd ref="6402930902"/>
   </way>
-  <way id="683600133" visible="true" version="2">
+  <way id="683600133" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Peterborough Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="opposite"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="postal_code" v="E10"/>
-    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
-    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG187575"/>
     <nd ref="6382242988"/>
     <nd ref="5935753893"/>

@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9545885289" lat="51.4472817" lon="-0.315471" version="1" visible="true">
+    <tag k="foot" v="no"/>
+    <tag k="access" v="permit"/>
+    <tag k="barrier" v="gate"/>
+    <tag k="material" v="wood"/>
+  </node>
   <node id="9537483974" lat="51.5911051" lon="-0.1377708" version="1" visible="true"/>
   <node id="9521975551" lat="51.5977527" lon="-0.0649578" version="1" visible="true"/>
   <node id="9521975550" lat="51.5978999" lon="-0.0649541" version="1" visible="true"/>
@@ -1312,7 +1318,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG231794"/>
   </node>
-  <node id="-262" lat="51.4474415982627" lon="-0.315638944495687" visible="true">
+  <node id="-262" lat="51.4474415740733" lon="-0.315638952252707" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -3586,7 +3592,7 @@
     <nd ref="-261"/>
     <nd ref="2119106863"/>
   </way>
-  <way id="23608792" visible="true" version="5">
+  <way id="23608792" visible="true" version="6">
     <tag k="bicycle" v="designated"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="cycleway"/>
@@ -3595,6 +3601,7 @@
     <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="207610274"/>
+    <nd ref="9545885289"/>
     <nd ref="-262"/>
     <nd ref="30863497"/>
   </way>
