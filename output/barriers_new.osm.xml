@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9550659345" lat="51.6586013" lon="-0.2008459" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+  </node>
   <node id="9545885289" lat="51.4472817" lon="-0.315471" version="1" visible="true">
     <tag k="foot" v="no"/>
     <tag k="access" v="permit"/>
@@ -525,7 +529,7 @@
     <tag k="motor_vehicle" v="no"/>
   </node>
   <node id="1634679995" lat="51.5356589" lon="-0.0152088" version="3" visible="true"/>
-  <node id="1629047876" lat="51.658617" lon="-0.2010905" version="1" visible="true"/>
+  <node id="1629047876" lat="51.6586149" lon="-0.2011021" version="2" visible="true"/>
   <node id="1628982644" lat="51.6595066" lon="-0.2032847" version="2" visible="true">
     <tag k="barrier" v="cycle_barrier"/>
     <tag k="bicycle" v="yes"/>
@@ -533,7 +537,7 @@
   </node>
   <node id="1628982533" lat="51.6598608" lon="-0.2032865" version="1" visible="true"/>
   <node id="1628944777" lat="51.6586365" lon="-0.2016768" version="3" visible="true"/>
-  <node id="1628944728" lat="51.6586112" lon="-0.2009729" version="1" visible="true"/>
+  <node id="1628944728" lat="51.6586083" lon="-0.2009712" version="2" visible="true"/>
   <node id="1614926285" lat="51.5115207" lon="-0.1193943" version="6" visible="true"/>
   <node id="1598016064" lat="51.5352887" lon="-0.014749" version="4" visible="true"/>
   <node id="1598016042" lat="51.5359397" lon="-0.015432" version="5" visible="true"/>
@@ -1010,7 +1014,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="bollard" v="fixed"/>
   </node>
-  <node id="21264458" lat="51.6585875" lon="-0.200774" version="7" visible="true"/>
+  <node id="21264458" lat="51.6585852" lon="-0.2007738" version="8" visible="true"/>
   <node id="21264455" lat="51.6586253" lon="-0.2017329" version="3" visible="true"/>
   <node id="21264454" lat="51.6586291" lon="-0.2034672" version="3" visible="true"/>
   <node id="21264451" lat="51.6591511" lon="-0.2033761" version="2" visible="true"/>
@@ -2231,22 +2235,24 @@
     <nd ref="-160"/>
     <nd ref="4895317407"/>
   </way>
-  <way id="326008335" visible="true" version="3">
+  <way id="326008335" visible="true" version="4">
     <tag k="highway" v="living_street"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Raveley Street"/>
     <tag k="source:highway" v="Home Zone sign at west"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="width" v="6.7"/>
     <nd ref="3326237017"/>
     <nd ref="-161"/>
     <nd ref="248927952"/>
   </way>
-  <way id="326008335" visible="true" version="3">
+  <way id="326008335" visible="true" version="4">
     <tag k="highway" v="living_street"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Raveley Street"/>
     <tag k="source:highway" v="Home Zone sign at west"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="width" v="6.7"/>
     <nd ref="3326237017"/>
     <nd ref="-162"/>
     <nd ref="248927952"/>
@@ -3700,7 +3706,7 @@
     <nd ref="3729864014"/>
     <nd ref="3729863991"/>
   </way>
-  <way id="4014433" visible="true" version="8">
+  <way id="4014433" visible="true" version="9">
     <tag k="abutters" v="residential"/>
     <tag k="highway" v="residential"/>
     <tag k="loc_name" v="Christchurch Lane"/>
@@ -3721,6 +3727,7 @@
     <nd ref="6696225039"/>
     <nd ref="1629047876"/>
     <nd ref="1628944728"/>
+    <nd ref="9550659345"/>
     <nd ref="21264458"/>
   </way>
   <way id="397998573" visible="true" version="6">
