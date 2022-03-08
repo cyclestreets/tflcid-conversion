@@ -4543,7 +4543,7 @@
     <tag k="description" v="30 mph, 20 Zone ENDS"/>
     <tag k="traffic_sign" v="GB:675A"/>
   </node>
-  <node id="18064187" lat="51.5465331" lon="-0.0528941" version="11" visible="true">
+  <node id="18064187" lat="51.5465331" lon="-0.0529135" version="12" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Morning Lane / Trelawney Estate"/>
     <tag k="local_ref" v="D"/>
@@ -10330,12 +10330,14 @@
     <nd ref="1279651401"/>
     <nd ref="32569662"/>
   </way>
-  <way id="680079068" visible="true" version="1">
+  <way id="680079068" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A240"/>
     <tag k="name" v="Penrhyn Road"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG124032"/>
     <nd ref="76520424"/>
