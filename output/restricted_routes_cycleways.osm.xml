@@ -221,7 +221,6 @@
   <node id="6035970864" lat="51.3723451" lon="-0.1074229" version="1" visible="true"/>
   <node id="6035970861" lat="51.372316" lon="-0.1073745" version="1" visible="true"/>
   <node id="6035970860" lat="51.3723195" lon="-0.1072436" version="1" visible="true"/>
-  <node id="6035970857" lat="51.372324" lon="-0.1071725" version="2" visible="true"/>
   <node id="6034865796" lat="51.4135094" lon="-0.113723" version="3" visible="true">
     <tag k="foot" v="yes"/>
     <tag k="barrier" v="gate"/>
@@ -251,15 +250,12 @@
     <tag k="barrier" v="gate"/>
   </node>
   <node id="5828990056" lat="51.5025636" lon="-0.0806276" version="1" visible="true"/>
-  <node id="5759647667" lat="51.3990737" lon="-0.1878005" version="1" visible="true"/>
   <node id="5759647666" lat="51.3992622" lon="-0.187663" version="1" visible="true"/>
-  <node id="5759647659" lat="51.3991224" lon="-0.1877357" version="1" visible="true"/>
   <node id="5759647654" lat="51.3992105" lon="-0.1876503" version="1" visible="true"/>
   <node id="5759647651" lat="51.3993289" lon="-0.1876924" version="1" visible="true"/>
   <node id="5759647648" lat="51.3994917" lon="-0.1878113" version="1" visible="true"/>
   <node id="5759647647" lat="51.3991698" lon="-0.1876718" version="1" visible="true"/>
   <node id="5759647643" lat="51.3998822" lon="-0.188185" version="1" visible="true"/>
-  <node id="5759647642" lat="51.3990611" lon="-0.1878974" version="1" visible="true"/>
   <node id="5759647633" lat="51.3994218" lon="-0.1877612" version="1" visible="true"/>
   <node id="5609695460" lat="51.5738919" lon="0.0660148" version="1" visible="true"/>
   <node id="5600025016" lat="51.5676079" lon="0.0697328" version="2" visible="true">
@@ -866,7 +862,6 @@
   <node id="1539873486" lat="51.3978629" lon="-0.1828015" version="2" visible="true"/>
   <node id="1539873445" lat="51.3968894" lon="-0.1800161" version="3" visible="true"/>
   <node id="1539762079" lat="51.3723223" lon="-0.1072062" version="5" visible="true"/>
-  <node id="1539762041" lat="51.372342" lon="-0.1071738" version="5" visible="true"/>
   <node id="1533173220" lat="51.5649785" lon="0.0664675" version="2" visible="true"/>
   <node id="1533173171" lat="51.5650065" lon="0.0666794" version="2" visible="true"/>
   <node id="1533173169" lat="51.5650733" lon="0.0668886" version="2" visible="true"/>
@@ -1694,13 +1689,12 @@
     <nd ref="1894248846"/>
     <nd ref="25947633"/>
   </way>
-  <way id="140557838" visible="true" version="5">
+  <way id="140557838" visible="true" version="6">
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="footway"/>
     <tag k="segregated" v="no"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG220091"/>
-    <nd ref="1539762041"/>
-    <nd ref="6035970857"/>
     <nd ref="1539762079"/>
     <nd ref="6035970860"/>
     <nd ref="6035970861"/>
@@ -1908,8 +1902,10 @@
     <nd ref="2120835505"/>
     <nd ref="2120830726"/>
   </way>
-  <way id="607824511" visible="true" version="3">
+  <way id="607824511" visible="true" version="4">
     <tag k="lit" v="yes"/>
+    <tag k="name" v="Morden Hall Road"/>
+    <tag k="oneway" v="no"/>
     <tag k="footway" v="sidewalk"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="paved"/>
@@ -1917,9 +1913,6 @@
     <tag k="segregated" v="yes"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG220221"/>
-    <nd ref="5759647642"/>
-    <nd ref="5759647667"/>
-    <nd ref="5759647659"/>
     <nd ref="5759647647"/>
     <nd ref="5759647654"/>
     <nd ref="5759647666"/>
@@ -2463,7 +2456,9 @@
     <nd ref="5335657913"/>
     <nd ref="5335657912"/>
   </way>
-  <way id="506132507" visible="true" version="5">
+  <way id="506132507" visible="true" version="7">
+    <tag k="name" v="Oldfields Road"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG220208"/>
@@ -2622,7 +2617,9 @@
     <nd ref="3202983430"/>
     <nd ref="3202983433"/>
   </way>
-  <way id="959766204" visible="true" version="1">
+  <way id="959766204" visible="true" version="3">
+    <tag k="name" v="Oldfields Road"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG220243"/>
@@ -4630,7 +4627,8 @@
     <nd ref="281841827"/>
     <nd ref="281841820"/>
   </way>
-  <way id="10498534" visible="true" version="9">
+  <way id="10498534" visible="true" version="10">
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="asphalt"/>
     <tag k="bikeability:level" v="1"/>
