@@ -1370,7 +1370,7 @@
   <node id="818847" lat="51.573359" lon="-0.0993042" version="8" visible="true"/>
   <node id="818836" lat="51.5733895" lon="-0.1034445" version="5" visible="true"/>
   <node id="818831" lat="51.573494" lon="-0.0995821" version="5" visible="true"/>
-  <node id="409173" lat="51.5916087" lon="-0.2110541" version="4" visible="true"/>
+  <node id="409173" lat="51.5916065" lon="-0.211051" version="5" visible="true"/>
   <node id="199308" lat="51.5601941" lon="-0.150036" version="8" visible="true"/>
   <node id="198648" lat="51.6052607" lon="-0.2011414" version="3" visible="true"/>
   <way id="3625274" visible="true" version="6">
@@ -1462,9 +1462,10 @@
     <nd ref="2428040507"/>
     <nd ref="2433334430"/>
   </way>
-  <way id="732228429" visible="true" version="2">
+  <way id="732228429" visible="true" version="3">
     <tag k="foot" v="designated"/>
     <tag k="name" v="Robin Hood Way"/>
+    <tag k="oneway" v="no"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="footway" v="sidewalk"/>
     <tag k="highway" v="footway"/>
@@ -1754,7 +1755,8 @@
     <nd ref="1783626081"/>
     <nd ref="1941892403"/>
   </way>
-  <way id="640165327" visible="true" version="4">
+  <way id="640165327" visible="true" version="5">
+    <tag k="oneway" v="no"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="highway" v="footway"/>
     <tag k="segregated" v="yes"/>
@@ -2684,8 +2686,9 @@
     <nd ref="2145558570"/>
     <nd ref="242700039"/>
   </way>
-  <way id="30098472" visible="true" version="5">
+  <way id="30098472" visible="true" version="6">
     <tag k="layer" v="-1"/>
+    <tag k="oneway" v="no"/>
     <tag k="tunnel" v="yes"/>
     <tag k="highway" v="footway"/>
     <tag k="segregated" v="no"/>

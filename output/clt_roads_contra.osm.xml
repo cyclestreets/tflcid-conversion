@@ -643,7 +643,6 @@
   </node>
   <node id="8324695578" lat="51.5111767" lon="-0.337105" version="2" visible="true"/>
   <node id="8317049094" lat="51.5478281" lon="-0.1023299" version="1" visible="true"/>
-  <node id="8307846111" lat="51.3808652" lon="-0.0898614" version="1" visible="true"/>
   <node id="8303168594" lat="51.4685786" lon="-0.0399992" version="1" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
@@ -742,10 +741,6 @@
   <node id="7840392480" lat="51.5006787" lon="-0.1121647" version="1" visible="true"/>
   <node id="7840392479" lat="51.5007601" lon="-0.1122767" version="1" visible="true"/>
   <node id="7833075903" lat="51.3783763" lon="-0.0902895" version="1" visible="true">
-    <tag k="highway" v="give_way"/>
-    <tag k="direction" v="forward"/>
-  </node>
-  <node id="7833075902" lat="51.3809244" lon="-0.0898031" version="1" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
@@ -2214,7 +2209,6 @@
   <node id="2684347234" lat="51.4972793" lon="-0.1002901" version="2" visible="true"/>
   <node id="2684347230" lat="51.4975623" lon="-0.1002358" version="3" visible="true"/>
   <node id="2683449617" lat="51.516096" lon="-0.1207811" version="4" visible="true"/>
-  <node id="2666053136" lat="51.3809384" lon="-0.0897892" version="3" visible="true"/>
   <node id="2659436232" lat="51.547266" lon="-0.1289696" version="2" visible="true"/>
   <node id="2659436222" lat="51.5471735" lon="-0.1290979" version="2" visible="true">
     <tag k="highway" v="crossing"/>
@@ -6812,19 +6806,6 @@
     <nd ref="2406445673"/>
     <nd ref="7078929509"/>
     <nd ref="245439202"/>
-  </way>
-  <way id="893868119" visible="true" version="1">
-    <tag k="name" v="Cross Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="track"/>
-    <tag k="cycleway:right:track" v="hybrid"/>
-    <tag k="tiger:upload_uuid" v="RWG219764"/>
-    <nd ref="8307846111"/>
-    <nd ref="7833075902"/>
-    <nd ref="2666053136"/>
   </way>
   <way id="232282143" visible="true" version="6">
     <tag k="name" v="Stanley Road"/>
