@@ -263,7 +263,7 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="8674948529" lat="51.511586" lon="-0.0432446" version="1" visible="true"/>
-  <node id="8671044438" lat="51.5705448" lon="-0.0194213" version="1" visible="true"/>
+  <node id="8671044438" lat="51.5705331" lon="-0.0194121" version="2" visible="true"/>
   <node id="8626514865" lat="51.5350536" lon="-0.1314804" version="1" visible="true"/>
   <node id="8626388726" lat="51.5358416" lon="-0.1334338" version="1" visible="true"/>
   <node id="8626388725" lat="51.5359709" lon="-0.1335395" version="1" visible="true"/>
@@ -940,10 +940,13 @@
   <node id="3502507840" lat="51.4908825" lon="-0.1499044" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
-  <node id="3502507837" lat="51.4908709" lon="-0.1498584" version="4" visible="true">
+  <node id="3502507837" lat="51.4908709" lon="-0.1498584" version="7" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
   </node>
   <node id="3502507834" lat="51.4908563" lon="-0.1498068" version="3" visible="true"/>
   <node id="3502507830" lat="51.4908364" lon="-0.1497466" version="3" visible="true"/>
