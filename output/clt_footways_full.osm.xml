@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9598430311" lat="51.4705826" lon="0.180973" version="1" visible="true"/>
+  <node id="9598430263" lat="51.4701945" lon="0.1810117" version="1" visible="true"/>
   <node id="9567324964" lat="51.4184046" lon="0.0969183" version="1" visible="true"/>
   <node id="9567324963" lat="51.4184196" lon="0.0966541" version="1" visible="true"/>
   <node id="9567324962" lat="51.418438" lon="0.0963336" version="1" visible="true"/>
@@ -849,8 +851,9 @@
   <node id="420060478" lat="51.4875888" lon="-0.2311741" version="4" visible="true"/>
   <node id="419585826" lat="51.549757" lon="-0.4389428" version="5" visible="true"/>
   <node id="419349490" lat="51.5499276" lon="-0.4389292" version="3" visible="true"/>
-  <node id="392769219" lat="51.4701676" lon="0.1810133" version="3" visible="true"/>
-  <node id="392769217" lat="51.4705599" lon="0.1810109" version="3" visible="true"/>
+  <node id="392769222" lat="51.4701415" lon="0.1810135" version="4" visible="true"/>
+  <node id="392769219" lat="51.4702369" lon="0.1810103" version="4" visible="true"/>
+  <node id="392769217" lat="51.4705821" lon="0.1810162" version="4" visible="true"/>
   <node id="331600605" lat="51.4973377" lon="-0.3763625" version="3" visible="true"/>
   <node id="325253441" lat="51.3562213" lon="-0.0336014" version="1" visible="true"/>
   <node id="325253439" lat="51.3562081" lon="-0.0338116" version="1" visible="true"/>
@@ -1340,7 +1343,19 @@
     <nd ref="2949376715"/>
     <nd ref="3012342185"/>
   </way>
-  <way id="34247989" visible="true" version="4">
+  <way id="34248017" visible="true" version="5">
+    <tag k="highway" v="steps"/>
+    <tag k="incline" v="up"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG185261"/>
+    <nd ref="392769219"/>
+    <nd ref="9598430263"/>
+    <nd ref="392769222"/>
+  </way>
+  <way id="34247989" visible="true" version="5">
     <tag k="ramp" v="yes"/>
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
@@ -1348,6 +1363,7 @@
     <tag k="segregated" v="no"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG185261"/>
+    <nd ref="9598430311"/>
     <nd ref="392769217"/>
     <nd ref="392769219"/>
   </way>

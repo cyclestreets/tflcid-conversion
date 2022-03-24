@@ -2149,10 +2149,11 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="3085109059" lat="51.5264385" lon="-0.1127582" version="5" visible="true">
+  <node id="3085109059" lat="51.5264385" lon="-0.1127582" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="3085005068" lat="51.5179563" lon="-0.1238045" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -11523,10 +11524,11 @@
     <nd ref="811891607"/>
     <nd ref="8881479138"/>
   </way>
-  <way id="6022183" visible="true" version="20">
+  <way id="6022183" visible="true" version="21">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Bentham Road"/>
     <tag k="lanes" v="1"/>
+    <tag k="width" v="5.6"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
