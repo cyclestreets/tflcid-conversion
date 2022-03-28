@@ -1283,7 +1283,7 @@
   <node id="9176675613" lat="51.4931523" lon="-0.2203342" version="1" visible="true"/>
   <node id="1141261171" lat="51.4934013" lon="-0.245475" version="5" visible="true"/>
   <node id="6271893586" lat="51.6470424" lon="-0.0797238" version="4" visible="true"/>
-  <node id="55120124" lat="51.4913641" lon="-0.2276826" version="5" visible="true"/>
+  <node id="55120124" lat="51.4913697" lon="-0.2276946" version="6" visible="true"/>
   <node id="6215339755" lat="51.5804104" lon="-0.3249187" version="1" visible="true"/>
   <node id="8067610072" lat="51.6178203" lon="-0.1089462" version="1" visible="true"/>
   <node id="7929919360" lat="51.5503616" lon="-0.2820615" version="1" visible="true"/>
@@ -10831,25 +10831,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="502884278" visible="true" version="4">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="maxwidth" v="7'0&quot;"/>
-    <tag k="cycleway" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369865484"/>
-    <nd ref="4369866905"/>
-    <nd ref="4369866910"/>
-    <nd ref="7851494286"/>
-    <nd ref="4369866906"/>
-    <nd ref="8865878648"/>
-    <nd ref="4369866896"/>
-  </way>
   <way id="841518206" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -10868,6 +10849,25 @@
     <nd ref="7851494300"/>
     <nd ref="7851494293"/>
     <nd ref="4369865484"/>
+  </way>
+  <way id="502884278" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxwidth" v="7'0&quot;"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369865484"/>
+    <nd ref="4369866905"/>
+    <nd ref="4369866910"/>
+    <nd ref="7851494286"/>
+    <nd ref="4369866906"/>
+    <nd ref="8865878648"/>
+    <nd ref="4369866896"/>
   </way>
   <way id="619916680" visible="true" version="11">
     <tag k="lit" v="yes"/>
@@ -11598,7 +11598,7 @@
     <nd ref="6245856713"/>
     <nd ref="445376295"/>
   </way>
-  <way id="925391783" visible="true" version="1">
+  <way id="925391783" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A112"/>
     <tag k="name" v="High Road"/>
@@ -11607,7 +11607,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="alt_name" v="Leyton High Road"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="postal_code" v="E10"/>
     <tag k="cycleway:right" v="lane"/>
