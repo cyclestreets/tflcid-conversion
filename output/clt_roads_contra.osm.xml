@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9611292793" lat="51.4457874" lon="-0.1982038" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
+  <node id="9611292789" lat="51.4457829" lon="-0.1982291" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+  </node>
   <node id="9594265822" lat="51.4669282" lon="-0.3651905" version="1" visible="true"/>
   <node id="9591196828" lat="51.5942217" lon="-0.0700234" version="1" visible="true">
     <tag k="highway" v="give_way"/>
@@ -9960,7 +9967,7 @@
     <nd ref="9279437656"/>
     <nd ref="6384561968"/>
   </way>
-  <way id="264966078" visible="true" version="8">
+  <way id="264966078" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Charing Cross Road"/>
@@ -9968,7 +9975,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="wikidata" v="Q1063230"/>
     <tag k="wikimedia_commons" v="Category:Charing_Cross_Road"/>
@@ -9982,7 +9989,7 @@
     <nd ref="9175574662"/>
     <nd ref="5932899700"/>
   </way>
-  <way id="264966078" visible="true" version="8">
+  <way id="264966078" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A400"/>
     <tag k="name" v="Charing Cross Road"/>
@@ -9990,7 +9997,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="wikidata" v="Q1063230"/>
     <tag k="wikimedia_commons" v="Category:Charing_Cross_Road"/>
@@ -13961,7 +13968,7 @@
     <nd ref="9188711141"/>
     <nd ref="9188711145"/>
   </way>
-  <way id="758131795" visible="true" version="1">
+  <way id="758131795" visible="true" version="2">
     <tag k="name" v="Burr Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
@@ -13970,6 +13977,8 @@
     <tag k="tiger:upload_uuid" v="RWG089269"/>
     <nd ref="882215106"/>
     <nd ref="7080016095"/>
+    <nd ref="9611292793"/>
+    <nd ref="9611292789"/>
     <nd ref="26756581"/>
   </way>
   <way id="3595872" visible="true" version="4">

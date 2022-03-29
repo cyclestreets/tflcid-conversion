@@ -951,7 +951,7 @@
   <node id="8939181797" lat="51.393532" lon="-0.2986975" version="2" visible="true"/>
   <node id="55120123" lat="51.4912458" lon="-0.228475" version="7" visible="true"/>
   <node id="2453899763" lat="51.5403062" lon="-0.0074538" version="5" visible="true"/>
-  <node id="4729448869" lat="51.511906" lon="-0.0972003" version="3" visible="true"/>
+  <node id="4729448869" lat="51.5119155" lon="-0.0971464" version="4" visible="true"/>
   <node id="4100397983" lat="51.4515735" lon="0.0667522" version="4" visible="true"/>
   <node id="419810177" lat="51.488158" lon="-0.1299656" version="3" visible="true"/>
   <node id="8981506614" lat="51.3777094" lon="-0.0958074" version="1" visible="true"/>
@@ -7213,7 +7213,7 @@
     <nd ref="8085224581"/>
     <nd ref="8085224607"/>
   </way>
-  <way id="865172217" visible="true" version="3">
+  <way id="865172217" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="London Road"/>
@@ -7221,6 +7221,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="track"/>
+    <tag k="shoulder" v="no"/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:left:track" v="hybrid"/>
@@ -7230,7 +7231,7 @@
     <nd ref="3196150454"/>
     <nd ref="6271893588"/>
   </way>
-  <way id="865172158" visible="true" version="2">
+  <way id="865172158" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="London Road"/>
@@ -7238,6 +7239,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="track"/>
+    <tag k="shoulder" v="no"/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:left:track" v="hybrid"/>
@@ -7261,13 +7263,14 @@
     <nd ref="25972432"/>
     <nd ref="8064033802"/>
   </way>
-  <way id="865172163" visible="true" version="3">
+  <way id="865172163" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="London Road"/>
     <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="shoulder" v="no"/>
     <tag k="cycleway:left" v=""/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
     <tag k="cycleway:right" v="separate"/>
@@ -7293,7 +7296,7 @@
     <nd ref="8064033701"/>
     <nd ref="8064033789"/>
   </way>
-  <way id="865172192" visible="true" version="3">
+  <way id="865172192" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="London Road"/>
@@ -7301,6 +7304,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="track"/>
+    <tag k="shoulder" v="no"/>
     <tag k="sidewalk" v="both"/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
     <tag k="cycleway:left" v=""/>
@@ -7353,7 +7357,7 @@
     <nd ref="6583041550"/>
     <nd ref="6821577566"/>
   </way>
-  <way id="865172127" visible="true" version="3">
+  <way id="865172127" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="London Road"/>
@@ -7361,6 +7365,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="lane"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway:left:track" v="hybrid"/>
@@ -7407,13 +7412,14 @@
     <nd ref="7981105593"/>
     <nd ref="8084647555"/>
   </way>
-  <way id="865514940" visible="true" version="3">
+  <way id="865514940" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A105"/>
     <tag k="name" v="London Road"/>
     <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="shoulder" v="no"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
     <tag k="cycleway:right" v="separate"/>
@@ -10831,25 +10837,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="841518206" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="oneway:bus" v="no"/>
-    <tag k="busway:right" v="lane"/>
-    <tag k="busway:right:oneway" v="-1"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369866896"/>
-    <nd ref="8865878649"/>
-    <nd ref="7851494300"/>
-    <nd ref="7851494293"/>
-    <nd ref="4369865484"/>
-  </way>
   <way id="502884278" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -10868,6 +10855,25 @@
     <nd ref="4369866906"/>
     <nd ref="8865878648"/>
     <nd ref="4369866896"/>
+  </way>
+  <way id="841518206" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="oneway:bus" v="no"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="busway:right:oneway" v="-1"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369866896"/>
+    <nd ref="8865878649"/>
+    <nd ref="7851494300"/>
+    <nd ref="7851494293"/>
+    <nd ref="4369865484"/>
   </way>
   <way id="619916680" visible="true" version="11">
     <tag k="lit" v="yes"/>
