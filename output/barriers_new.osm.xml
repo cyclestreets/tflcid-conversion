@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9617195725" lat="51.4702405" lon="-0.0089877" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+  </node>
   <node id="9596044087" lat="51.6054444" lon="-0.0636472" version="1" visible="true"/>
   <node id="9596044086" lat="51.6053905" lon="-0.0630562" version="1" visible="true"/>
   <node id="9550659345" lat="51.6586013" lon="-0.2008459" version="1" visible="true">
@@ -814,7 +818,7 @@
   <node id="26840548" lat="51.4700543" lon="-0.0102453" version="4" visible="true"/>
   <node id="26840547" lat="51.4698413" lon="-0.010941" version="3" visible="true"/>
   <node id="26840545" lat="51.4694614" lon="-0.0118843" version="7" visible="true"/>
-  <node id="26840527" lat="51.4702409" lon="-0.0090039" version="8" visible="true"/>
+  <node id="26840527" lat="51.4702473" lon="-0.0089399" version="9" visible="true"/>
   <node id="26799664" lat="51.5588615" lon="-0.0986124" version="8" visible="true"/>
   <node id="26799663" lat="51.5585648" lon="-0.1010197" version="3" visible="true"/>
   <node id="26799611" lat="51.5583971" lon="-0.1021989" version="7" visible="true"/>
@@ -1900,6 +1904,13 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG006365"/>
   </node>
+  <node id="9619832848" lat="51.5502110634" lon="-0.1076916263" visible="true" version="1">
+    <tag k="barrier" v="yes"/>
+    <tag k="access" v="no"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG008496"/>
+  </node>
   <node id="-142" lat="51.555437615342" lon="-0.112779799519158" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
@@ -2286,7 +2297,7 @@
     <nd ref="484890539"/>
     <nd ref="59765390"/>
   </way>
-  <way id="71799573" visible="true" version="20">
+  <way id="71799573" visible="true" version="21">
     <tag k="bicycle" v="yes"/>
     <tag k="car" v="no"/>
     <tag k="foot" v="yes"/>
@@ -2298,6 +2309,7 @@
     <tag k="motorcycle" v="private"/>
     <tag k="name" v="Serpentine Road"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="usability:skate" v="excellent"/>
     <nd ref="60852813"/>
     <nd ref="-160"/>
@@ -2782,7 +2794,7 @@
     <nd ref="7156414573"/>
     <nd ref="221319816"/>
   </way>
-  <way id="5027890" visible="true" version="11">
+  <way id="5027890" visible="true" version="12">
     <tag k="highway" v="residential"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -2797,6 +2809,7 @@
     <nd ref="8004964522"/>
     <nd ref="26840548"/>
     <nd ref="26840549"/>
+    <nd ref="9617195725"/>
     <nd ref="26840527"/>
   </way>
   <way id="9949072" visible="true" version="3">
