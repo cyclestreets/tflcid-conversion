@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9625208644" lat="51.5082897" lon="-0.2745555" version="1" visible="true"/>
+  <node id="9625208642" lat="51.5082716" lon="-0.2744898" version="1" visible="true"/>
   <node id="9576830003" lat="51.5102224" lon="-0.0719321" version="1" visible="true"/>
   <node id="9568925922" lat="51.5034141" lon="-0.0923494" version="1" visible="true"/>
   <node id="9568925919" lat="51.5034502" lon="-0.0925189" version="1" visible="true"/>
@@ -842,7 +844,7 @@
     <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="4384343113" lat="51.5021694" lon="-0.1742711" version="1" visible="true"/>
-  <node id="4368134286" lat="51.5082858" lon="-0.2745117" version="3" visible="true"/>
+  <node id="4368134286" lat="51.5082795" lon="-0.2745279" version="4" visible="true"/>
   <node id="4337162062" lat="51.54274" lon="-0.1391957" version="8" visible="true"/>
   <node id="4322519841" lat="51.5021752" lon="-0.173813" version="2" visible="true"/>
   <node id="4320993842" lat="51.5384931" lon="-0.1355859" version="2" visible="true"/>
@@ -903,9 +905,9 @@
     <tag k="crossing_ref" v="zebra"/>
     <tag k="traffic_calming" v="table"/>
   </node>
-  <node id="3717117962" lat="51.5083395" lon="-0.2748219" version="3" visible="true"/>
-  <node id="3717117957" lat="51.5083332" lon="-0.2747463" version="3" visible="true"/>
-  <node id="3717117953" lat="51.5083229" lon="-0.2746719" version="3" visible="true"/>
+  <node id="3717117962" lat="51.5083183" lon="-0.2748304" version="4" visible="true"/>
+  <node id="3717117957" lat="51.5083094" lon="-0.2747612" version="4" visible="true"/>
+  <node id="3717117953" lat="51.5083034" lon="-0.274672" version="4" visible="true"/>
   <node id="3716875502" lat="51.5306009" lon="-0.1220693" version="3" visible="true"/>
   <node id="3716875501" lat="51.5305993" lon="-0.122323" version="4" visible="true"/>
   <node id="3716875500" lat="51.5305914" lon="-0.1219785" version="3" visible="true"/>
@@ -953,15 +955,15 @@
   <node id="3393316085" lat="51.5368576" lon="-0.1463311" version="6" visible="true">
     <tag k="highway" v="crossing"/>
   </node>
-  <node id="3256109212" lat="51.5083086" lon="-0.2745992" version="4" visible="true"/>
+  <node id="3256109212" lat="51.5083007" lon="-0.274629" version="5" visible="true"/>
   <node id="3256080576" lat="51.5411441" lon="-0.1377828" version="4" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Camden Road Station"/>
     <tag k="local_ref" v="H"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="3252823706" lat="51.5082905" lon="-0.2745287" version="6" visible="true"/>
-  <node id="3252823704" lat="51.508278" lon="-0.2744831" version="6" visible="true"/>
+  <node id="3252823706" lat="51.5083022" lon="-0.2745781" version="7" visible="true"/>
+  <node id="3252823704" lat="51.5082696" lon="-0.2744552" version="7" visible="true"/>
   <node id="3224130795" lat="51.5402012" lon="0.0005177" version="4" visible="true"/>
   <node id="3224130793" lat="51.540144" lon="0.0004513" version="4" visible="true"/>
   <node id="3224128136" lat="51.5380194" lon="-0.0018379" version="4" visible="true"/>
@@ -3151,7 +3153,7 @@
     <nd ref="25789560"/>
     <nd ref="2156782193"/>
   </way>
-  <way id="319195785" visible="true" version="3">
+  <way id="319195785" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4020"/>
     <tag k="name" v="High Street"/>
@@ -3163,6 +3165,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="no"/>
     <tag k="smoothness" v="excellent"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG234423"/>
     <nd ref="3252823706"/>
     <nd ref="3256109212"/>
@@ -3171,7 +3174,7 @@
     <nd ref="3717117962"/>
     <nd ref="288041044"/>
   </way>
-  <way id="319195787" visible="true" version="5">
+  <way id="319195787" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="yes"/>
@@ -3183,9 +3186,12 @@
     <tag k="sidewalk" v="no"/>
     <tag k="smoothness" v="excellent"/>
     <tag k="turn:lanes" v="left|right"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG234423"/>
     <nd ref="3252823704"/>
+    <nd ref="9625208642"/>
     <nd ref="4368134286"/>
+    <nd ref="9625208644"/>
     <nd ref="3252823706"/>
   </way>
   <way id="640612907" visible="true" version="4">
@@ -4670,7 +4676,7 @@
     <nd ref="1535256986"/>
     <nd ref="108785"/>
   </way>
-  <way id="10370860" visible="true" version="15">
+  <way id="10370860" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4680,7 +4686,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="lane_markings" v="no"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066954"/>
     <nd ref="107435"/>
@@ -4692,7 +4698,7 @@
     <nd ref="9197395403"/>
     <nd ref="18041884"/>
   </way>
-  <way id="232178248" visible="true" version="8">
+  <way id="232178248" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4701,7 +4707,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="left"/>
     <tag k="lane_markings" v="no"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066955"/>
     <nd ref="2030035701"/>
@@ -4716,7 +4722,7 @@
     <nd ref="9488314668"/>
     <nd ref="2030035730"/>
   </way>
-  <way id="226429029" visible="true" version="12">
+  <way id="226429029" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4725,7 +4731,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066961"/>
     <nd ref="106969"/>
@@ -4756,7 +4762,7 @@
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
-  <way id="232178248" visible="true" version="8">
+  <way id="232178248" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4765,7 +4771,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="left"/>
     <tag k="lane_markings" v="no"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG108351"/>
     <nd ref="2030035701"/>
@@ -4780,7 +4786,7 @@
     <nd ref="9488314668"/>
     <nd ref="2030035730"/>
   </way>
-  <way id="226429029" visible="true" version="12">
+  <way id="226429029" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4789,7 +4795,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066030"/>
     <nd ref="106969"/>
@@ -4820,7 +4826,7 @@
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
-  <way id="226429031" visible="true" version="10">
+  <way id="226429031" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4830,7 +4836,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="lane_markings" v="no"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066664"/>
     <nd ref="18041884"/>
@@ -4853,7 +4859,7 @@
     <nd ref="9197395385"/>
     <nd ref="18041883"/>
   </way>
-  <way id="226429031" visible="true" version="10">
+  <way id="226429031" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4863,7 +4869,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="lane_markings" v="no"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG108314"/>
     <nd ref="18041884"/>
@@ -5198,7 +5204,7 @@
     <nd ref="4310096904"/>
     <nd ref="740384613"/>
   </way>
-  <way id="226429031" visible="true" version="10">
+  <way id="226429031" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -5208,7 +5214,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="lane_markings" v="no"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066024"/>
     <nd ref="18041884"/>
@@ -5231,7 +5237,7 @@
     <nd ref="9197395385"/>
     <nd ref="18041883"/>
   </way>
-  <way id="226429029" visible="true" version="12">
+  <way id="226429029" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -5240,7 +5246,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066951"/>
     <nd ref="106969"/>
@@ -5271,7 +5277,7 @@
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
-  <way id="1040103742" visible="true" version="2">
+  <way id="1040103742" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1202"/>
     <tag k="foot" v="yes"/>
@@ -5283,7 +5289,6 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
     <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:left:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066953"/>
@@ -5307,7 +5312,7 @@
     <nd ref="694189997"/>
     <nd ref="48776950"/>
   </way>
-  <way id="243510987" visible="true" version="11">
+  <way id="243510987" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1202"/>
     <tag k="name" v="Royal Mint Street"/>
@@ -5316,7 +5321,6 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
     <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:left:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066953"/>
     <nd ref="48776950"/>
@@ -5366,7 +5370,7 @@
     <nd ref="1535256986"/>
     <nd ref="108785"/>
   </way>
-  <way id="226429029" visible="true" version="12">
+  <way id="226429029" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -5375,7 +5379,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG135094"/>
     <nd ref="106969"/>
@@ -5718,7 +5722,7 @@
     <nd ref="319635941"/>
     <nd ref="108702"/>
   </way>
-  <way id="37136556" visible="true" version="32">
+  <way id="37136556" visible="true" version="33">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
@@ -5727,7 +5731,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v="track"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG073630"/>
     <nd ref="9170614213"/>
@@ -5746,7 +5750,7 @@
     <nd ref="4516549643"/>
     <nd ref="6632005507"/>
   </way>
-  <way id="37136556" visible="true" version="32">
+  <way id="37136556" visible="true" version="33">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
@@ -5755,7 +5759,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v="track"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG073630"/>
     <nd ref="9170614213"/>
