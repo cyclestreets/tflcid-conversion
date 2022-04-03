@@ -612,13 +612,6 @@
   <node id="8456984221" lat="51.3767522" lon="-0.0353158" version="1" visible="true"/>
   <node id="8456984220" lat="51.3763985" lon="-0.0352505" version="1" visible="true"/>
   <node id="8456984219" lat="51.3762433" lon="-0.0352122" version="2" visible="true"/>
-  <node id="8449105563" lat="51.5043345" lon="-0.2690332" version="1" visible="true">
-    <tag k="highway" v="give_way"/>
-    <tag k="direction" v="backward"/>
-  </node>
-  <node id="8449105555" lat="51.5043561" lon="-0.2690336" version="1" visible="true">
-    <tag k="highway" v="crossing"/>
-  </node>
   <node id="8433541673" lat="51.4449723" lon="-0.1109735" version="1" visible="true"/>
   <node id="8403985757" lat="51.4838916" lon="-0.1652866" version="1" visible="true"/>
   <node id="8401998384" lat="51.4736732" lon="-0.0868039" version="1" visible="true"/>
@@ -3200,11 +3193,6 @@
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="71005309" lat="51.5160435" lon="-0.265247" version="4" visible="true"/>
-  <node id="69000346" lat="51.50386" lon="-0.2690043" version="5" visible="true"/>
-  <node id="68999870" lat="51.5035742" lon="-0.2689796" version="4" visible="true"/>
-  <node id="68999640" lat="51.50441" lon="-0.2690368" version="5" visible="true"/>
-  <node id="68999638" lat="51.502788" lon="-0.2689839" version="4" visible="true"/>
-  <node id="68999158" lat="51.5020939" lon="-0.268969" version="7" visible="true"/>
   <node id="68998629" lat="51.5061265" lon="-0.2743904" version="4" visible="true"/>
   <node id="68998628" lat="51.5063863" lon="-0.2744186" version="5" visible="true"/>
   <node id="68998625" lat="51.506712" lon="-0.2743263" version="5" visible="true">
@@ -7078,36 +7066,6 @@
     <nd ref="6576824743"/>
     <nd ref="6969206370"/>
     <nd ref="2258931281"/>
-  </way>
-  <way id="9228237" visible="true" version="8">
-    <tag k="name" v="Newton Avenue"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG234435"/>
-    <nd ref="68999640"/>
-    <nd ref="8449105555"/>
-    <nd ref="8449105563"/>
-    <nd ref="69000346"/>
-    <nd ref="68999870"/>
-    <nd ref="68999638"/>
-    <nd ref="68999158"/>
-  </way>
-  <way id="9228237" visible="true" version="8">
-    <tag k="name" v="Newton Avenue"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG233949"/>
-    <nd ref="68999640"/>
-    <nd ref="8449105555"/>
-    <nd ref="8449105563"/>
-    <nd ref="69000346"/>
-    <nd ref="68999870"/>
-    <nd ref="68999638"/>
-    <nd ref="68999158"/>
   </way>
   <way id="814610587" visible="true" version="2">
     <tag k="lit" v="yes"/>

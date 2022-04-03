@@ -3877,9 +3877,13 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
-  <node id="8948735418" lat="51.4749654" lon="0.0097256" version="1" visible="true">
+  <node id="8948735418" lat="51.4749654" lon="0.0097256" version="5" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
   </node>
   <node id="3362734647" lat="51.4728995" lon="0.0091029" version="3" visible="true">
     <tag k="highway" v="crossing"/>

@@ -843,10 +843,8 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tactile_paving" v="yes"/>
   </node>
-  <node id="4384343113" lat="51.5021694" lon="-0.1742711" version="1" visible="true"/>
   <node id="4368134286" lat="51.5082795" lon="-0.2745279" version="4" visible="true"/>
   <node id="4337162062" lat="51.54274" lon="-0.1391957" version="8" visible="true"/>
-  <node id="4322519841" lat="51.5021752" lon="-0.173813" version="2" visible="true"/>
   <node id="4320993842" lat="51.5384931" lon="-0.1355859" version="2" visible="true"/>
   <node id="4310096904" lat="51.5009634" lon="-0.1263011" version="1" visible="true"/>
   <node id="4306484318" lat="51.5031003" lon="-0.1544656" version="3" visible="true"/>
@@ -1315,12 +1313,6 @@
   </node>
   <node id="740384613" lat="51.5009303" lon="-0.1261451" version="10" visible="true"/>
   <node id="740384609" lat="51.5009795" lon="-0.1264043" version="13" visible="true"/>
-  <node id="735391283" lat="51.5021844" lon="-0.1704078" version="9" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="uncontrolled"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="crossing:island" v="yes"/>
-  </node>
   <node id="720900903" lat="51.5257258" lon="-0.0318352" version="8" visible="true"/>
   <node id="694189997" lat="51.5102686" lon="-0.0715674" version="5" visible="true"/>
   <node id="650932560" lat="51.4795697" lon="-0.1652503" version="6" visible="true">
@@ -1614,7 +1606,6 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="yes"/>
   </node>
-  <node id="20947333" lat="51.502179" lon="-0.1712379" version="12" visible="true"/>
   <node id="18239821" lat="51.4488799" lon="-0.2379958" version="8" visible="true"/>
   <node id="18066953" lat="51.5761812" lon="-0.0298113" version="8" visible="true">
     <tag k="traffic_calming" v="table"/>
@@ -5973,28 +5964,6 @@
     <nd ref="1504499942"/>
     <nd ref="20947339"/>
     <nd ref="12196664"/>
-  </way>
-  <way id="323060773" visible="true" version="13">
-    <tag k="bus" v="no"/>
-    <tag k="hgv" v="no"/>
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="South Carriage Drive"/>
-    <tag k="goods" v="destination"/>
-    <tag k="horse" v="yes"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="maxspeed:type" v="GB:zone20"/>
-    <tag k="cycleway:right" v="separate"/>
-    <tag k="cycleway:right:oneway" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG056493"/>
-    <nd ref="12196664"/>
-    <nd ref="735391283"/>
-    <nd ref="20947333"/>
-    <nd ref="4322519841"/>
-    <nd ref="4384343113"/>
   </way>
   <way id="4946699" visible="true" version="7">
     <tag k="lit" v="yes"/>
