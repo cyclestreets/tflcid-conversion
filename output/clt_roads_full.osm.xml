@@ -992,6 +992,7 @@
   <node id="9023864636" lat="51.5274413" lon="-0.1185559" version="1" visible="true"/>
   <node id="5718385737" lat="51.5791608" lon="-0.241393" version="3" visible="true"/>
   <node id="3079462286" lat="51.5216766" lon="-0.1397582" version="1" visible="true"/>
+  <node id="6344660117" lat="51.4621348" lon="-0.3318664" version="3" visible="true"/>
   <node id="250668764" lat="51.5469319" lon="-0.0515013" version="8" visible="true"/>
   <node id="2094944255" lat="51.5317259" lon="-0.0103695" version="3" visible="true"/>
   <node id="1461007300" lat="51.4464079" lon="0.1559473" version="4" visible="true"/>
@@ -3455,6 +3456,7 @@
   <node id="7418121058" lat="51.3221477" lon="-0.1348165" version="3" visible="true"/>
   <node id="3190918044" lat="51.5262386" lon="-0.2762858" version="2" visible="true"/>
   <node id="8742067133" lat="51.5097601" lon="-0.1178676" version="1" visible="true"/>
+  <node id="36496998" lat="51.4619339" lon="-0.3318841" version="4" visible="true"/>
   <node id="8425286989" lat="51.5272144" lon="-0.1834628" version="1" visible="true"/>
   <node id="6272019029" lat="51.6386716" lon="-0.0800256" version="4" visible="true"/>
   <node id="90415365" lat="51.5520176" lon="-0.3112697" version="9" visible="true"/>
@@ -15793,6 +15795,19 @@
     <tag k="tiger:upload_uuid" v="RWG234052,RWG234051"/>
     <nd ref="6548275196"/>
     <nd ref="6548275195"/>
+  </way>
+  <way id="1047842726" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A310"/>
+    <tag k="name" v="Twickenham Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG233790,RWG233744"/>
+    <nd ref="6344660117"/>
+    <nd ref="36496998"/>
   </way>
   <way id="297664697" visible="true" version="6">
     <tag k="name" v="Clayponds Avenue"/>
