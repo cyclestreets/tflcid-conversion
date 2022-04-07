@@ -1189,11 +1189,13 @@
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
   </node>
-  <node id="1511438757" lat="51.5305917" lon="-0.1223973" version="6" visible="true">
+  <node id="1511438757" lat="51.5305917" lon="-0.1223973" version="8" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
   </node>
   <node id="1504499986" lat="51.5022297" lon="-0.1659874" version="6" visible="true"/>
   <node id="1504499969" lat="51.5032504" lon="-0.1533236" version="6" visible="true"/>
@@ -4477,7 +4479,7 @@
     <nd ref="6250491144"/>
     <nd ref="6355365939"/>
   </way>
-  <way id="367808661" visible="true" version="1">
+  <way id="367808661" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A501"/>
     <tag k="foot" v="yes"/>
@@ -4490,6 +4492,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="shoulder" v="no"/>
     <tag k="sidewalk" v="no"/>
     <tag k="smoothness" v="excellent"/>
     <tag k="tiger:upload_uuid" v="RWG066712"/>
@@ -4497,7 +4500,7 @@
     <nd ref="2440676404"/>
     <nd ref="3716875470"/>
   </way>
-  <way id="36814928" visible="true" version="19">
+  <way id="36814928" visible="true" version="20">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A501"/>
     <tag k="foot" v="yes"/>
@@ -4510,6 +4513,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="shoulder" v="no"/>
     <tag k="sidewalk" v="no"/>
     <tag k="smoothness" v="excellent"/>
     <tag k="tiger:upload_uuid" v="RWG066712"/>

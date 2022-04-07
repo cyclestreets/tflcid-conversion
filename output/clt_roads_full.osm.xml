@@ -929,7 +929,6 @@
   <node id="9351729898" lat="51.5183462" lon="0.1114548" version="1" visible="true"/>
   <node id="286372988" lat="51.3915862" lon="-0.2983264" version="4" visible="true"/>
   <node id="5627814913" lat="51.5409796" lon="-0.3698519" version="3" visible="true"/>
-  <node id="4901582023" lat="51.4821565" lon="-0.1364046" version="3" visible="true"/>
   <node id="17899647" lat="51.4592508" lon="-0.217587" version="8" visible="true"/>
   <node id="1699816067" lat="51.3571308" lon="-0.3114948" version="2" visible="true"/>
   <node id="5718932000" lat="51.5907096" lon="-0.3635873" version="4" visible="true"/>
@@ -999,7 +998,6 @@
   <node id="234715042" lat="51.5508644" lon="-0.1381478" version="9" visible="true"/>
   <node id="25894522" lat="51.5804939" lon="0.1805377" version="4" visible="true"/>
   <node id="1448530562" lat="51.5799613" lon="0.1778581" version="4" visible="true"/>
-  <node id="60907675" lat="51.4827046" lon="-0.1349804" version="7" visible="true"/>
   <node id="3696361" lat="51.4794615" lon="0.026146" version="14" visible="true"/>
   <node id="54073742" lat="51.5375304" lon="-0.1520851" version="4" visible="true"/>
   <node id="90223106" lat="51.4954804" lon="-0.1155401" version="12" visible="true"/>
@@ -2221,7 +2219,6 @@
   <node id="5141354331" lat="51.5110368" lon="-0.0872455" version="5" visible="true"/>
   <node id="9166152652" lat="51.493098" lon="-0.2207685" version="3" visible="true"/>
   <node id="7195929689" lat="51.5222537" lon="-0.1384329" version="1" visible="true"/>
-  <node id="1937730424" lat="51.482543" lon="-0.135449" version="2" visible="true"/>
   <node id="305588028" lat="51.5983267" lon="-0.1193096" version="5" visible="true"/>
   <node id="383426004" lat="51.4646994" lon="0.0937881" version="3" visible="true"/>
   <node id="3397696665" lat="51.5780321" lon="-0.0072828" version="9" visible="true"/>
@@ -2536,6 +2533,7 @@
   <node id="9136151133" lat="51.4874245" lon="0.0274761" version="1" visible="true"/>
   <node id="105680190" lat="51.4739503" lon="-0.0905633" version="7" visible="true"/>
   <node id="9001500208" lat="51.4990756" lon="-0.0709301" version="1" visible="true"/>
+  <node id="9645740983" lat="51.4822361" lon="-0.1362109" version="1" visible="true"/>
   <node id="1665352260" lat="51.4099283" lon="-0.2280093" version="4" visible="true"/>
   <node id="4937779198" lat="51.5620867" lon="-0.0458783" version="4" visible="true"/>
   <node id="8812992824" lat="51.4656892" lon="-0.2142158" version="1" visible="true"/>
@@ -2601,7 +2599,6 @@
   <node id="21494340" lat="51.4851176" lon="-0.3731292" version="3" visible="true"/>
   <node id="7468295841" lat="51.575917" lon="-0.3830692" version="1" visible="true"/>
   <node id="2418753080" lat="51.5697739" lon="-0.3222147" version="3" visible="true"/>
-  <node id="60907677" lat="51.4823289" lon="-0.1359867" version="5" visible="true"/>
   <node id="8915067748" lat="51.4326058" lon="-0.3289701" version="1" visible="true"/>
   <node id="6444359906" lat="51.5221481" lon="-0.1361268" version="1" visible="true"/>
   <node id="9030155757" lat="51.5170318" lon="-0.0888214" version="1" visible="true"/>
@@ -27174,25 +27171,7 @@
     <nd ref="3891364789"/>
     <nd ref="385375994"/>
   </way>
-  <way id="925859529" visible="true" version="5">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A3205"/>
-    <tag k="name" v="Nine Elms Lane"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="trunk"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="cycleway:left" v="track"/>
-    <tag k="cycleway" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG056082"/>
-    <nd ref="4901582023"/>
-    <nd ref="9550352204"/>
-    <nd ref="8666148116"/>
-    <nd ref="60907677"/>
-  </way>
-  <way id="31280293" visible="true" version="13">
+  <way id="1049609644" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3205"/>
     <tag k="name" v="Nine Elms Lane"/>
@@ -27202,13 +27181,11 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="separate"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG056082"/>
-    <nd ref="60907677"/>
-    <nd ref="1937730424"/>
-    <nd ref="60907675"/>
+    <nd ref="9550352204"/>
+    <nd ref="8666148116"/>
+    <nd ref="9645740983"/>
   </way>
   <way id="182676888" visible="true" version="12">
     <tag k="lit" v="yes"/>
