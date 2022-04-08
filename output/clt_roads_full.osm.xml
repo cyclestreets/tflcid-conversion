@@ -339,6 +339,7 @@
   <node id="1700917802" lat="51.5513615" lon="-0.2835234" version="5" visible="true"/>
   <node id="2161042590" lat="51.4182072" lon="-0.2803063" version="4" visible="true"/>
   <node id="2965707250" lat="51.4263008" lon="-0.0789624" version="4" visible="true"/>
+  <node id="32550363" lat="51.5288445" lon="-0.0481918" version="9" visible="true"/>
   <node id="469074151" lat="51.5495522" lon="-0.4830247" version="7" visible="true"/>
   <node id="9398268015" lat="51.5122947" lon="-0.1399828" version="1" visible="true"/>
   <node id="721105039" lat="51.4802674" lon="-0.192263" version="5" visible="true"/>
@@ -612,6 +613,7 @@
   <node id="3140135323" lat="51.3688962" lon="-0.2857764" version="5" visible="true"/>
   <node id="5220704626" lat="51.5990903" lon="-0.1209017" version="3" visible="true"/>
   <node id="9393044837" lat="51.5120983" lon="-0.0730918" version="1" visible="true"/>
+  <node id="9647397455" lat="51.5288008" lon="-0.0483704" version="1" visible="true"/>
   <node id="316022636" lat="51.5697936" lon="-0.0266437" version="8" visible="true"/>
   <node id="6422207133" lat="51.5452975" lon="-0.1032378" version="4" visible="true"/>
   <node id="1163837590" lat="51.4613027" lon="-0.1872271" version="3" visible="true"/>
@@ -787,6 +789,7 @@
   <node id="7767808086" lat="51.598892" lon="0.1616088" version="1" visible="true"/>
   <node id="8085242351" lat="51.6296198" lon="-0.0974209" version="1" visible="true"/>
   <node id="273784" lat="51.5326326" lon="-0.1113867" version="8" visible="true"/>
+  <node id="9647397454" lat="51.5287696" lon="-0.0484099" version="1" visible="true"/>
   <node id="221865" lat="51.5529859" lon="-0.1049153" version="5" visible="true"/>
   <node id="25481322" lat="51.5014028" lon="-0.208429" version="4" visible="true"/>
   <node id="6521887911" lat="51.5216325" lon="-0.1317098" version="2" visible="true"/>
@@ -25420,6 +25423,21 @@
     <nd ref="4951341217"/>
     <nd ref="8691058267"/>
     <nd ref="36712231"/>
+  </way>
+  <way id="1049794683" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="B119"/>
+    <tag k="name" v="Roman Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG073534"/>
+    <nd ref="9647397454"/>
+    <nd ref="9647397455"/>
+    <nd ref="32550363"/>
   </way>
   <way id="538137720" visible="true" version="7">
     <tag k="name" v="Mapleton Road"/>

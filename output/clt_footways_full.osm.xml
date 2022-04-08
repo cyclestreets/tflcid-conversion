@@ -473,8 +473,14 @@
   <node id="4958531759" lat="51.4792542" lon="-0.2491293" version="2" visible="true"/>
   <node id="4953675629" lat="51.4745589" lon="-0.2732096" version="1" visible="true"/>
   <node id="4873083104" lat="51.5262501" lon="0.0770868" version="2" visible="true"/>
-  <node id="4837662848" lat="51.5267788" lon="-0.1318315" version="1" visible="true"/>
-  <node id="4837662847" lat="51.5264896" lon="-0.1315748" version="1" visible="true"/>
+  <node id="4837662848" lat="51.5267788" lon="-0.1318315" version="2" visible="true">
+    <tag k="barrier" v="gate"/>
+    <tag k="material" v="metal"/>
+  </node>
+  <node id="4837662847" lat="51.5264896" lon="-0.1315748" version="2" visible="true">
+    <tag k="barrier" v="gate"/>
+    <tag k="material" v="metal"/>
+  </node>
   <node id="4837662846" lat="51.5264728" lon="-0.1315591" version="3" visible="true"/>
   <node id="4830278977" lat="51.4603123" lon="-0.312803" version="1" visible="true"/>
   <node id="4808275440" lat="51.4901481" lon="-0.2405884" version="2" visible="true"/>
@@ -3207,7 +3213,8 @@
     <nd ref="7006871014"/>
     <nd ref="7006871015"/>
   </way>
-  <way id="491691717" visible="true" version="3">
+  <way id="491691717" visible="true" version="4">
+    <tag k="access" v="permissive"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="paving_stones"/>
     <tag k="bicycle" v="yes"/>
