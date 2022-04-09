@@ -3364,6 +3364,7 @@
   <node id="26635342" lat="51.5394962" lon="-0.1739135" version="3" visible="true"/>
   <node id="26625327" lat="51.57194" lon="-0.1321874" version="3" visible="true"/>
   <node id="26625320" lat="51.5714367" lon="-0.1317442" version="3" visible="true"/>
+  <node id="26547256" lat="51.5553462" lon="0.0688744" version="12" visible="true"/>
   <node id="26546062" lat="51.4930669" lon="-0.0988104" version="12" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -5410,7 +5411,7 @@
     <nd ref="5843761993"/>
     <nd ref="171857390"/>
   </way>
-  <way id="813645868" visible="true" version="2">
+  <way id="813645868" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Riverdene Road"/>
     <tag k="oneway" v="no"/>
@@ -5418,6 +5419,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG155928"/>
+    <nd ref="26547256"/>
     <nd ref="6707689938"/>
     <nd ref="9624774630"/>
   </way>
@@ -10057,7 +10059,7 @@
     <nd ref="8603578708"/>
     <nd ref="237481"/>
   </way>
-  <way id="25799956" visible="true" version="18">
+  <way id="25799956" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Homerton Grove"/>
     <tag k="highway" v="residential"/>
@@ -10066,6 +10068,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="20900532"/>
     <tag k="cycleway:both" v="no"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG151612"/>
     <nd ref="2811568443"/>
