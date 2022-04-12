@@ -4856,7 +4856,7 @@
     <tag k="continuous" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG106827"/>
   </node>
-  <node id="8328059307" lat="51.441247994778" lon="-0.154542199978488" visible="true" version="1">
+  <node id="8328059307" lat="51.441253694778" lon="-0.154543499978487" visible="true" version="2">
     <tag k="surface" v="paving_stones"/>
     <tag k="traffic_calming" v="table"/>
     <tag k="sidewalk" v="yes"/>
@@ -5014,8 +5014,10 @@
     <tag k="continuous" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG117352"/>
   </node>
-  <node id="8328190317" lat="51.441879894778" lon="-0.154387899978509" visible="true" version="1">
+  <node id="8328190317" lat="51.441874794778" lon="-0.154373199978511" visible="true" version="2">
+    <tag k="highway" v="crossing"/>
     <tag k="surface" v="paving_stones"/>
+    <tag k="crossing" v="unmarked"/>
     <tag k="traffic_calming" v="table"/>
     <tag k="sidewalk" v="yes"/>
     <tag k="continuous" v="yes"/>
@@ -7632,6 +7634,15 @@
     <tag k="continuous" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG071994"/>
   </node>
+  <node id="9659011810" lat="51.4964781947766" lon="-0.15093039997899" visible="true" version="1">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="sidewalk" v="yes"/>
+    <tag k="continuous" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG055264"/>
+  </node>
   <node id="8019722029" lat="51.5139230947762" lon="-0.0145640999979727" visible="true" version="2">
     <tag k="kerb" v="flush"/>
     <tag k="highway" v="crossing"/>
@@ -7938,10 +7949,11 @@
     <tag k="continuous" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG072862"/>
   </node>
-  <node id="5171949703" lat="51.4902191947768" lon="-0.156977499978149" visible="true" version="5">
+  <node id="5171949703" lat="51.4902191947768" lon="-0.156977499978149" visible="true" version="6">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
     <tag k="traffic_calming" v="table"/>
     <tag k="sidewalk" v="yes"/>
     <tag k="continuous" v="yes"/>

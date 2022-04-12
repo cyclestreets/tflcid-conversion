@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9657285816" lat="51.5891979" lon="-0.0665519" version="1" visible="true">
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="9657285815" lat="51.5891664" lon="-0.0663768" version="1" visible="true"/>
   <node id="9654182677" lat="51.5484925" lon="-0.0534084" version="1" visible="true"/>
   <node id="9647007941" lat="51.5128921" lon="-0.0275781" version="1" visible="true"/>
   <node id="9644414030" lat="51.6078765" lon="-0.2407869" version="1" visible="true"/>
@@ -4646,6 +4650,17 @@
     <nd ref="3626462344"/>
     <nd ref="7872820047"/>
     <nd ref="8041736160"/>
+  </way>
+  <way id="1050901341" visible="true" version="1">
+    <tag k="access" v="no"/>
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG279548"/>
+    <nd ref="9657285815"/>
+    <nd ref="9657285816"/>
   </way>
   <way id="222011643" visible="true" version="4">
     <tag k="name" v="Welland Gardens"/>
