@@ -887,7 +887,6 @@
   <node id="9206770085" lat="51.5406647" lon="-0.1355196" version="1" visible="true"/>
   <node id="7805234085" lat="51.5881246" lon="-0.1128561" version="1" visible="true"/>
   <node id="8780159379" lat="51.5737641" lon="-0.0977083" version="1" visible="true"/>
-  <node id="17948279" lat="51.6277824" lon="-0.0454952" version="6" visible="true"/>
   <node id="7667637420" lat="51.4893859" lon="-0.1282402" version="1" visible="true"/>
   <node id="2443109682" lat="51.491892" lon="-0.2264632" version="3" visible="true"/>
   <node id="6215339753" lat="51.5806583" lon="-0.3255315" version="1" visible="true"/>
@@ -1849,7 +1848,6 @@
   <node id="8568415407" lat="51.4174977" lon="-0.2815568" version="1" visible="true"/>
   <node id="1271778546" lat="51.4840304" lon="-0.1766714" version="9" visible="true"/>
   <node id="720900903" lat="51.5257258" lon="-0.0318352" version="8" visible="true"/>
-  <node id="1445777661" lat="51.6279083" lon="-0.0454297" version="2" visible="true"/>
   <node id="8085224607" lat="51.6304411" lon="-0.0968518" version="1" visible="true"/>
   <node id="8916851554" lat="51.4398852" lon="-0.1770688" version="1" visible="true"/>
   <node id="198272" lat="51.5350945" lon="-0.0769289" version="6" visible="true"/>
@@ -2272,7 +2270,6 @@
   <node id="8064033800" lat="51.641031" lon="-0.0789665" version="1" visible="true"/>
   <node id="303369" lat="51.4813317" lon="-0.4540569" version="6" visible="true"/>
   <node id="1832469435" lat="51.6197988" lon="-0.3038523" version="5" visible="true"/>
-  <node id="6840097201" lat="51.6278479" lon="-0.0454611" version="1" visible="true"/>
   <node id="156674885" lat="51.5328736" lon="-0.1281866" version="7" visible="true"/>
   <node id="9445415388" lat="51.4015764" lon="-0.2682604" version="1" visible="true"/>
   <node id="247117702" lat="51.406124" lon="-0.2810553" version="28" visible="true"/>
@@ -4529,6 +4526,19 @@
     <tag k="local_ref" v="A"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
+  <node id="6897158325" lat="51.5192061" lon="-0.0593756" version="2" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
+  <node id="1279268447" lat="51.5191778" lon="-0.0595016" version="6" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+  </node>
+  <node id="6897158326" lat="51.5191567" lon="-0.0595952" version="2" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="4517317258" lat="51.5166215" lon="-0.0684852" version="4" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Altab Ali Park"/>
@@ -6527,18 +6537,6 @@
     <tag k="tiger:upload_uuid" v="RWG149150"/>
     <nd ref="201195"/>
     <nd ref="8080138443"/>
-  </way>
-  <way id="609320348" visible="true" version="5">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="B137"/>
-    <tag k="name" v="Montagu Road"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG149173"/>
-    <nd ref="1445777661"/>
-    <nd ref="6840097201"/>
-    <nd ref="17948279"/>
   </way>
   <way id="865172159" visible="true" version="1">
     <tag k="lit" v="yes"/>
@@ -18905,13 +18903,14 @@
     <nd ref="251336156"/>
     <nd ref="25500407"/>
   </way>
-  <way id="1018387285" visible="true" version="3">
+  <way id="1018387285" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1210"/>
     <tag k="name" v="Mansell Street"/>
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
@@ -18923,13 +18922,14 @@
     <nd ref="9576829999"/>
     <nd ref="9576829998"/>
   </way>
-  <way id="1051182853" visible="true" version="1">
+  <way id="1051182853" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1210"/>
     <tag k="name" v="Mansell Street"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
@@ -20196,13 +20196,14 @@
     <nd ref="2440634917"/>
     <nd ref="9287381293"/>
   </way>
-  <way id="1018387287" visible="true" version="6">
+  <way id="1018387287" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1210"/>
     <tag k="name" v="Mansell Street"/>
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
@@ -21779,7 +21780,7 @@
     <nd ref="667387843"/>
     <nd ref="1684964845"/>
   </way>
-  <way id="662524513" visible="true" version="7">
+  <way id="662524513" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Whitechapel High Street"/>
@@ -21788,11 +21789,12 @@
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="commercial"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
     <tag k="turn:lanes" v="left;through|right"/>
     <tag k="cycleway:left" v="separate"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG066698,RWG108350"/>
     <nd ref="6202402704"/>
@@ -23496,6 +23498,22 @@
     <nd ref="8379910820"/>
     <nd ref="25497445"/>
     <nd ref="102022"/>
+  </way>
+  <way id="1052345086" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A11"/>
+    <tag k="name" v="Whitechapel Road"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="wikipedia" v="en:Whitechapel Road"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG066778"/>
+    <nd ref="6897158326"/>
+    <nd ref="1279268447"/>
+    <nd ref="6897158325"/>
   </way>
   <way id="247518517" visible="true" version="4">
     <tag k="lit" v="yes"/>
@@ -25702,7 +25720,7 @@
     <nd ref="6991416095"/>
     <nd ref="108186"/>
   </way>
-  <way id="1051898010" visible="true" version="1">
+  <way id="1051898010" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Whitechapel High Street"/>
@@ -25711,7 +25729,7 @@
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="retail"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:left" v="track"/>

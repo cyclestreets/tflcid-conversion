@@ -831,10 +831,12 @@
   <node id="7713352373" lat="51.4675902" lon="-0.1429362" version="2" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
-  <node id="7711687432" lat="51.5670008" lon="-0.1221539" version="1" visible="true">
+  <node id="7711687432" lat="51.5670008" lon="-0.1221539" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="7711687423" lat="51.5669846" lon="-0.1221896" version="1" visible="true">
     <tag k="cycleway" v="asl"/>
@@ -11362,10 +11364,11 @@
     <nd ref="26373934"/>
     <nd ref="6366409154"/>
   </way>
-  <way id="4471649" visible="true" version="14">
+  <way id="4471649" visible="true" version="15">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Marlborough Road"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="maxwidth" v="2.13"/>
     <tag k="sidewalk" v="both"/>
