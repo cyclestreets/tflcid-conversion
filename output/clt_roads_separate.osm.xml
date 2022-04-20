@@ -19,9 +19,7 @@
   <node id="9568925919" lat="51.5034502" lon="-0.0925189" version="1" visible="true"/>
   <node id="9521840210" lat="51.6022501" lon="-0.0901526" version="1" visible="true"/>
   <node id="9521840205" lat="51.6025903" lon="-0.0892765" version="1" visible="true"/>
-  <node id="9488314669" lat="51.5116102" lon="-0.0426619" version="1" visible="true"/>
-  <node id="9488314668" lat="51.5116102" lon="-0.0424872" version="1" visible="true"/>
-  <node id="9488314667" lat="51.5116127" lon="-0.0425798" version="1" visible="true"/>
+  <node id="9488314669" lat="51.511611" lon="-0.0426379" version="2" visible="true"/>
   <node id="9445946134" lat="51.4448747" lon="-0.1113089" version="1" visible="true"/>
   <node id="9430852731" lat="51.4448553" lon="-0.1113755" version="2" visible="true"/>
   <node id="9426706674" lat="51.4910312" lon="0.0813338" version="1" visible="true"/>
@@ -265,7 +263,7 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="8674948529" lat="51.511586" lon="-0.0432446" version="1" visible="true"/>
-  <node id="8671044438" lat="51.5705331" lon="-0.0194121" version="2" visible="true"/>
+  <node id="8671044438" lat="51.5705298" lon="-0.0194081" version="3" visible="true"/>
   <node id="8626514865" lat="51.5350536" lon="-0.1314804" version="1" visible="true"/>
   <node id="8626388726" lat="51.5358416" lon="-0.1334338" version="1" visible="true"/>
   <node id="8626388725" lat="51.5359709" lon="-0.1335395" version="1" visible="true"/>
@@ -1025,7 +1023,7 @@
     <tag k="highway" v="crossing"/>
   </node>
   <node id="2517133988" lat="51.537064" lon="-0.0030946" version="4" visible="true"/>
-  <node id="2509053291" lat="51.5101579" lon="-0.0726362" version="9" visible="true">
+  <node id="2509053291" lat="51.5101547" lon="-0.0726774" version="10" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="crossing:island" v="no"/>
@@ -1099,7 +1097,6 @@
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
   </node>
-  <node id="2030035730" lat="51.5116048" lon="-0.0424127" version="3" visible="true"/>
   <node id="2030035709" lat="51.5115337" lon="-0.043976" version="3" visible="true"/>
   <node id="2030035701" lat="51.5115293" lon="-0.0447524" version="2" visible="true"/>
   <node id="2010655632" lat="51.4045714" lon="-0.3079847" version="5" visible="true"/>
@@ -4643,7 +4640,7 @@
     <nd ref="9197395403"/>
     <nd ref="18041884"/>
   </way>
-  <way id="232178248" visible="true" version="9">
+  <way id="232178248" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4663,9 +4660,6 @@
     <nd ref="8674948529"/>
     <nd ref="59367009"/>
     <nd ref="9488314669"/>
-    <nd ref="9488314667"/>
-    <nd ref="9488314668"/>
-    <nd ref="2030035730"/>
   </way>
   <way id="226429029" visible="true" version="13">
     <tag k="lit" v="yes"/>
@@ -4707,7 +4701,7 @@
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
-  <way id="232178248" visible="true" version="9">
+  <way id="232178248" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4727,9 +4721,6 @@
     <nd ref="8674948529"/>
     <nd ref="59367009"/>
     <nd ref="9488314669"/>
-    <nd ref="9488314667"/>
-    <nd ref="9488314668"/>
-    <nd ref="2030035730"/>
   </way>
   <way id="226429029" visible="true" version="13">
     <tag k="lit" v="yes"/>
