@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9686818475" lat="51.4603613" lon="-0.1419964" version="1" visible="true"/>
+  <node id="9686818464" lat="51.4602684" lon="-0.1422527" version="1" visible="true"/>
+  <node id="9686818406" lat="51.4600766" lon="-0.1421961" version="1" visible="true"/>
   <node id="9683598158" lat="51.4540754" lon="-0.1474739" version="1" visible="true"/>
   <node id="9683598140" lat="51.4541101" lon="-0.1474781" version="1" visible="true"/>
   <node id="9683598042" lat="51.4566743" lon="-0.1477641" version="1" visible="true"/>
@@ -396,10 +399,6 @@
   <node id="4958993846" lat="51.377493" lon="-0.2023656" version="1" visible="true"/>
   <node id="4958993842" lat="51.3780319" lon="-0.2017542" version="1" visible="true"/>
   <node id="4958993839" lat="51.3759616" lon="-0.2033275" version="1" visible="true"/>
-  <node id="4958785251" lat="51.4602033" lon="-0.1424008" version="1" visible="true">
-    <tag k="barrier" v="bollard"/>
-    <tag k="bicycle" v="yes"/>
-  </node>
   <node id="4958785250" lat="51.4600599" lon="-0.1422498" version="1" visible="true">
     <tag k="barrier" v="gate"/>
   </node>
@@ -433,7 +432,7 @@
   <node id="4944059641" lat="51.5988882" lon="-0.226071" version="2" visible="true"/>
   <node id="4944058116" lat="51.5988729" lon="-0.2260096" version="2" visible="true"/>
   <node id="4944058106" lat="51.5989539" lon="-0.2260336" version="1" visible="true"/>
-  <node id="4892109326" lat="51.4611414" lon="-0.1407834" version="1" visible="true"/>
+  <node id="4892109323" lat="51.4611245" lon="-0.140806" version="2" visible="true"/>
   <node id="4730073615" lat="51.4181335" lon="-0.0492867" version="1" visible="true"/>
   <node id="4730073614" lat="51.4185307" lon="-0.0491092" version="1" visible="true"/>
   <node id="4730073613" lat="51.4180247" lon="-0.0487744" version="1" visible="true"/>
@@ -569,7 +568,7 @@
   <node id="2969529326" lat="51.5203613" lon="-0.1789841" version="2" visible="true"/>
   <node id="2969529321" lat="51.5203373" lon="-0.1788912" version="2" visible="true"/>
   <node id="2892514461" lat="51.5671771" lon="-0.1650504" version="1" visible="true"/>
-  <node id="2751869349" lat="51.4611051" lon="-0.140832" version="1" visible="true"/>
+  <node id="2751869349" lat="51.4610703" lon="-0.1408846" version="2" visible="true"/>
   <node id="2751869339" lat="51.4610397" lon="-0.1409282" version="1" visible="true"/>
   <node id="2751869298" lat="51.4561827" lon="-0.144557" version="2" visible="true"/>
   <node id="2704382606" lat="51.6833606" lon="-0.0481522" version="1" visible="true"/>
@@ -1190,11 +1189,6 @@
   </node>
   <node id="281841787" lat="51.458062" lon="-0.1454105" version="3" visible="true"/>
   <node id="281841646" lat="51.4575253" lon="-0.1460893" version="3" visible="true"/>
-  <node id="281840897" lat="51.4602437" lon="-0.1423115" version="3" visible="true">
-    <tag k="proposed:highway" v="crossing"/>
-    <tag k="proposed:crossing" v="uncontrolled"/>
-    <tag k="proposed:crossing_ref" v="zebra"/>
-  </node>
   <node id="281840893" lat="51.4586726" lon="-0.1445956" version="3" visible="true"/>
   <node id="281839685" lat="51.4581716" lon="-0.1480829" version="5" visible="true"/>
   <node id="281619109" lat="51.4597895" lon="-0.1483573" version="16" visible="true"/>
@@ -4804,18 +4798,19 @@
     <nd ref="7734416283"/>
     <nd ref="281840893"/>
   </way>
-  <way id="506096604" visible="true" version="3">
+  <way id="506096604" visible="true" version="4">
     <tag k="highway" v="service"/>
     <tag k="surface" v="asphalt"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG119536"/>
     <nd ref="4958785248"/>
+    <nd ref="9686818406"/>
     <nd ref="4958785250"/>
     <nd ref="5251849040"/>
     <nd ref="5251849041"/>
     <nd ref="4958785249"/>
   </way>
-  <way id="497689525" visible="true" version="13">
+  <way id="497689525" visible="true" version="14">
     <tag k="foot" v="designated"/>
     <tag k="oneway" v="no"/>
     <tag k="bicycle" v="dismount"/>
@@ -4823,13 +4818,12 @@
     <tag k="surface" v="asphalt"/>
     <tag k="segregated" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG119536"/>
-    <nd ref="4892109326"/>
+    <nd ref="4892109323"/>
     <nd ref="2751869349"/>
     <nd ref="2751869339"/>
     <nd ref="408481990"/>
-    <nd ref="281840897"/>
-    <nd ref="4958785251"/>
-    <nd ref="7060417564"/>
+    <nd ref="9686818475"/>
+    <nd ref="9686818464"/>
   </way>
   <way id="29578512" visible="true" version="12">
     <tag k="name" v="Wildwood Terrace"/>
