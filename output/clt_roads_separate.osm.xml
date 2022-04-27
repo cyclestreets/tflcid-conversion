@@ -1023,11 +1023,11 @@
     <tag k="highway" v="crossing"/>
   </node>
   <node id="2517133988" lat="51.537064" lon="-0.0030946" version="4" visible="true"/>
-  <node id="2509053291" lat="51.5101547" lon="-0.0726774" version="10" visible="true">
+  <node id="2509053291" lat="51.5101547" lon="-0.0726774" version="11" visible="true">
     <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="crossing:island" v="no"/>
-    <tag k="proposed:crossing" v="traffic_signals"/>
   </node>
   <node id="2477093245" lat="51.5383693" lon="-0.0013997" version="6" visible="true"/>
   <node id="2477093223" lat="51.5308246" lon="-0.011227" version="4" visible="true"/>
@@ -5175,7 +5175,7 @@
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
-  <way id="1040103742" visible="true" version="6">
+  <way id="1040103742" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1202"/>
     <tag k="foot" v="yes"/>
@@ -5189,7 +5189,6 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
     <tag k="cycleway:left" v="separate"/>
-    <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:left:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066953"/>
     <nd ref="9659774623"/>
@@ -5199,16 +5198,16 @@
     <nd ref="9265033857"/>
     <nd ref="9576830003"/>
   </way>
-  <way id="1040103743" visible="true" version="1">
+  <way id="1040103743" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1202"/>
     <tag k="name" v="Royal Mint Street"/>
+    <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="motor_vehicle" v="destination"/>
-    <tag k="proposed:oneway" v="yes"/>
     <tag k="cycleway:left:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG066953"/>
     <nd ref="9576830003"/>
