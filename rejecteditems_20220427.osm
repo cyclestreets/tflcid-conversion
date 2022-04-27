@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' generator='JOSM'>
+  <node id='106980' visible='true' version='6' lat='51.5319602' lon='-0.0443947' />
+  <node id='198330' visible='true' version='4' lat='51.5316723' lon='-0.0447316' />
+  <node id='96112224' visible='true' version='21' lat='51.5221996' lon='-0.0443065' />
+  <node id='279847377' visible='true' version='3' lat='51.5318126' lon='-0.0445237' />
+  <node id='638649381' visible='true' version='6' lat='51.5040586' lon='-0.0077316' />
+  <node id='638649390' visible='true' version='6' lat='51.5044135' lon='-0.0075417' />
+  <node id='3687582869' visible='true' version='4' lat='51.5039897' lon='-0.0077686' />
+  <node id='3800082874' visible='true' version='3' lat='51.5043457' lon='-0.007578'>
+    <tag k='bus' v='yes' />
+    <tag k='local_ref' v='F' />
+    <tag k='name' v='Coldharbour' />
+    <tag k='public_transport' v='stop_position' />
+  </node>
+  <node id='6015241251' visible='true' version='1' lat='51.5317355' lon='-0.0446266' />
+  <node id='9167922658' visible='true' version='2' lat='51.5222487' lon='-0.0438774' />
+  <node id='9173729690' visible='true' version='1' lat='51.5222434' lon='-0.0439201' />
+  <way id='25670225' visible='true' version='8'>
+    <nd ref='106980' />
+    <nd ref='279847377' />
+    <tag k='bridge' v='yes' />
+    <tag k='cycleway:left' v='lane' />
+    <tag k='highway' v='secondary' />
+    <tag k='lanes' v='2' />
+    <tag k='layer' v='1' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='20 mph' />
+    <tag k='maxweight' v='7.5' />
+    <tag k='name' v='Old Ford Road' />
+    <tag k='ref' v='B118' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='asphalt' />
+    <tag k='tiger:upload_uuid' v='RWG073248' />
+  </way>
+  <way id='25670226' visible='true' version='9'>
+    <nd ref='279847377' />
+    <nd ref='6015241251' />
+    <nd ref='198330' />
+    <tag k='cycleway:both' v='no' />
+    <tag k='cycleway:right' v='lane' />
+    <tag k='highway' v='secondary' />
+    <tag k='lanes' v='2' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='20 mph' />
+    <tag k='name' v='Old Ford Road' />
+    <tag k='ref' v='B118' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='asphalt' />
+    <tag k='tiger:upload_uuid' v='RWG073247' />
+  </way>
+  <way id='188086882' visible='true' version='15'>
+    <nd ref='638649390' />
+    <nd ref='3800082874' />
+    <nd ref='638649381' />
+    <nd ref='3687582869' />
+    <tag k='alt_name' v='Preston&apos;s Road' />
+    <tag k='cycleway' v='lane' />
+    <tag k='cycleway:right' v='share_busway' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='lanes' v='3' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='20 mph' />
+    <tag k='name' v='Prestons Road' />
+    <tag k='ref' v='A1206' />
+    <tag k='sidewalk' v='both' />
+    <tag k='surface' v='asphalt' />
+    <tag k='tiger:upload_uuid' v='RWG073243' />
+  </way>
+  <way id='992271267' visible='true' version='4'>
+    <nd ref='96112224' />
+    <nd ref='9173729690' />
+    <nd ref='9167922658' />
+    <tag k='busway:right' v='lane' />
+    <tag k='cycleway' v='lane' />
+    <tag k='cycleway:right' v='share_busway' />
+    <tag k='highway' v='trunk' />
+    <tag k='lit' v='yes' />
+    <tag k='maxspeed' v='30 mph' />
+    <tag k='name' v='Mile End Road' />
+    <tag k='operator' v='Transport for London' />
+    <tag k='ref' v='A11' />
+    <tag k='sidewalk' v='both' />
+    <tag k='tiger:upload_uuid' v='RWG073416' />
+  </way>
+</osm>
