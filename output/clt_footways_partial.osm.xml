@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
   <node id="9689996578" lat="51.4860746" lon="-0.2448818" version="1" visible="true"/>
+  <node id="9678522986" lat="51.510266" lon="-0.0725845" version="2" visible="true">
+    <tag k="tactile_paving" v="yes"/>
+  </node>
+  <node id="9678522985" lat="51.5102742" lon="-0.0725652" version="2" visible="true"/>
+  <node id="9678522984" lat="51.5103036" lon="-0.0725912" version="1" visible="true"/>
+  <node id="9678522983" lat="51.5103392" lon="-0.0726126" version="1" visible="true"/>
+  <node id="9678522982" lat="51.5103749" lon="-0.0726262" version="1" visible="true"/>
   <node id="9666309807" lat="51.5485466" lon="-0.0533093" version="1" visible="true"/>
   <node id="9657285816" lat="51.5891979" lon="-0.0665519" version="1" visible="true">
     <tag k="tactile_paving" v="yes"/>
@@ -20,6 +27,7 @@
   <node id="9644244618" lat="51.6043055" lon="-0.2390376" version="1" visible="true"/>
   <node id="9644244617" lat="51.6043234" lon="-0.2391009" version="1" visible="true"/>
   <node id="9644244616" lat="51.6044683" lon="-0.2392335" version="1" visible="true"/>
+  <node id="9619940384" lat="51.5104722" lon="-0.0726322" version="1" visible="true"/>
   <node id="9562499999" lat="51.4483266" lon="0.0235013" version="1" visible="true"/>
   <node id="9562499998" lat="51.4481889" lon="0.0230735" version="1" visible="true"/>
   <node id="9562499997" lat="51.4481652" lon="0.0229998" version="1" visible="true"/>
@@ -5621,6 +5629,22 @@
     <nd ref="3069487532"/>
     <nd ref="3069487531"/>
     <nd ref="6250303376"/>
+  </way>
+  <way id="93462440" visible="true" version="15">
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="was:highway" v="cycleway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG066422"/>
+    <nd ref="9619940384"/>
+    <nd ref="9678522982"/>
+    <nd ref="9678522983"/>
+    <nd ref="9678522984"/>
+    <nd ref="9678522985"/>
+    <nd ref="9678522986"/>
   </way>
   <way id="117047228" visible="true" version="2">
     <tag k="name" v="The Queen's Walk"/>

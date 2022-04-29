@@ -966,6 +966,8 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="traffic_calming" v="table"/>
   </node>
+  <node id="7416112505" lat="51.5175735" lon="-0.0593307" version="1" visible="true"/>
+  <node id="7416112499" lat="51.5176644" lon="-0.0581296" version="1" visible="true"/>
   <node id="7399343223" lat="51.5467209" lon="-0.0509702" version="1" visible="true"/>
   <node id="7394644494" lat="51.4822967" lon="-0.0134343" version="2" visible="true">
     <tag k="highway" v="give_way"/>
@@ -1422,6 +1424,7 @@
   <node id="6244495279" lat="51.5871055" lon="-0.0362745" version="1" visible="true"/>
   <node id="6231076134" lat="51.5360614" lon="-0.0842246" version="1" visible="true"/>
   <node id="6229140904" lat="51.5081209" lon="-0.1050615" version="1" visible="true"/>
+  <node id="6225162149" lat="51.5175888" lon="-0.0591029" version="4" visible="true"/>
   <node id="6174593770" lat="51.6443324" lon="-0.052845" version="2" visible="true"/>
   <node id="6149398572" lat="51.5111991" lon="-0.0800998" version="2" visible="true"/>
   <node id="6149398571" lat="51.5111706" lon="-0.0801045" version="2" visible="true"/>
@@ -2100,6 +2103,7 @@
   <node id="3704225379" lat="51.5114361" lon="-0.0964186" version="3" visible="true"/>
   <node id="3704225376" lat="51.5113903" lon="-0.0963728" version="4" visible="true"/>
   <node id="3704225375" lat="51.5113278" lon="-0.0963758" version="3" visible="true"/>
+  <node id="3686342955" lat="51.5176724" lon="-0.0580492" version="6" visible="true"/>
   <node id="3680533167" lat="51.4226978" lon="-0.2099723" version="2" visible="true"/>
   <node id="3654005559" lat="51.4849286" lon="-0.1105577" version="3" visible="true"/>
   <node id="3625957379" lat="51.4138914" lon="-0.191945" version="1" visible="true"/>
@@ -2572,6 +2576,7 @@
   </node>
   <node id="1909881869" lat="51.4448199" lon="0.0045403" version="2" visible="true"/>
   <node id="1904140685" lat="51.4456123" lon="0.0108281" version="2" visible="true"/>
+  <node id="1880932407" lat="51.5176849" lon="-0.0579393" version="5" visible="true"/>
   <node id="1876722099" lat="51.4408756" lon="-0.1061958" version="5" visible="true"/>
   <node id="1846241635" lat="51.5747159" lon="-0.0206032" version="1" visible="true"/>
   <node id="1845926414" lat="51.4088477" lon="-0.2942966" version="4" visible="true"/>
@@ -2842,6 +2847,7 @@
   <node id="671697215" lat="51.5670059" lon="-0.0178348" version="1" visible="true"/>
   <node id="669193004" lat="51.5055821" lon="-0.0854162" version="4" visible="true"/>
   <node id="666226750" lat="51.3990348" lon="-0.0929491" version="2" visible="true"/>
+  <node id="664243596" lat="51.517641" lon="-0.0584176" version="9" visible="true"/>
   <node id="654181237" lat="51.5440869" lon="-0.0752629" version="3" visible="true"/>
   <node id="654181236" lat="51.5440621" lon="-0.0749094" version="3" visible="true"/>
   <node id="654181232" lat="51.5441384" lon="-0.0760518" version="4" visible="true"/>
@@ -3674,6 +3680,8 @@
   <node id="18064232" lat="51.5443869" lon="-0.0431656" version="6" visible="true"/>
   <node id="18064224" lat="51.5464918" lon="-0.0509354" version="3" visible="true"/>
   <node id="18064189" lat="51.5455897" lon="-0.0507734" version="4" visible="true"/>
+  <node id="18045507" lat="51.5176194" lon="-0.0586786" version="6" visible="true"/>
+  <node id="18045505" lat="51.5175577" lon="-0.0594025" version="6" visible="true"/>
   <node id="18037517" lat="51.5098254" lon="-0.0378747" version="10" visible="true"/>
   <node id="17916424" lat="51.4900048" lon="-0.2801986" version="2" visible="true"/>
   <node id="17916422" lat="51.4899969" lon="-0.2804224" version="2" visible="true"/>
@@ -13326,6 +13334,59 @@
     <nd ref="181327901"/>
     <nd ref="2365611812"/>
     <nd ref="2365608747"/>
+  </way>
+  <way id="793090523" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Stepney Way"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG108432"/>
+    <nd ref="18045505"/>
+    <nd ref="7416112505"/>
+    <nd ref="6225162149"/>
+  </way>
+  <way id="177669794" visible="true" version="11">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Stepney Way"/>
+    <tag k="level" v="0"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="tunnel" v="building_passage"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG108432"/>
+    <nd ref="6225162149"/>
+    <nd ref="18045507"/>
+    <nd ref="664243596"/>
+    <nd ref="7416112499"/>
+  </way>
+  <way id="364595447" visible="true" version="5">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Stepney Way"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG108432"/>
+    <nd ref="3686342955"/>
+    <nd ref="1880932407"/>
+  </way>
+  <way id="364595447" visible="true" version="5">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Stepney Way"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG108433"/>
+    <nd ref="3686342955"/>
+    <nd ref="1880932407"/>
   </way>
   <way id="151906289" visible="true" version="10">
     <tag k="lit" v="yes"/>
