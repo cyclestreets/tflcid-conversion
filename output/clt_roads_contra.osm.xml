@@ -15,7 +15,7 @@
   <node id="9693920801" lat="51.5120458" lon="-0.087119" version="1" visible="true"/>
   <node id="9693920797" lat="51.5120255" lon="-0.0871273" version="1" visible="true"/>
   <node id="9691053981" lat="51.4552801" lon="-0.1279072" version="1" visible="true"/>
-  <node id="9690974277" lat="51.512636" lon="-0.0766337" version="1" visible="true"/>
+  <node id="9690974277" lat="51.5126386" lon="-0.0765914" version="2" visible="true"/>
   <node id="9686818247" lat="51.4674152" lon="-0.1433849" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -1390,9 +1390,9 @@
   </node>
   <node id="6275529417" lat="51.5363046" lon="0.1174577" version="1" visible="true"/>
   <node id="6275529416" lat="51.5362755" lon="0.1171837" version="1" visible="true"/>
-  <node id="6266867113" lat="51.5126697" lon="-0.0766383" version="2" visible="true"/>
-  <node id="6266867112" lat="51.5127453" lon="-0.0766361" version="2" visible="true"/>
-  <node id="6266867111" lat="51.5127721" lon="-0.0766166" version="2" visible="true"/>
+  <node id="6266867113" lat="51.5126692" lon="-0.0765917" version="3" visible="true"/>
+  <node id="6266867112" lat="51.5127306" lon="-0.0765912" version="3" visible="true"/>
+  <node id="6266867111" lat="51.5127784" lon="-0.0765954" version="3" visible="true"/>
   <node id="6258724521" lat="51.4298203" lon="0.0656396" version="2" visible="true"/>
   <node id="6256533672" lat="51.4561049" lon="-0.1254095" version="3" visible="true"/>
   <node id="6256533668" lat="51.4590696" lon="-0.1256617" version="2" visible="true"/>
@@ -10869,11 +10869,12 @@
     <nd ref="6332565144"/>
     <nd ref="6332565140"/>
   </way>
-  <way id="4254047" visible="true" version="12">
+  <way id="4254047" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Jewry Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="wikidata" v="Q65767555"/>
@@ -10885,11 +10886,12 @@
     <nd ref="6266867112"/>
     <nd ref="6266867111"/>
   </way>
-  <way id="4254047" visible="true" version="12">
+  <way id="4254047" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Jewry Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="wikidata" v="Q65767555"/>
