@@ -154,7 +154,10 @@
   <node id="7323306888" lat="51.6034834" lon="0.2373678" version="1" visible="true"/>
   <node id="7287710728" lat="51.4906881" lon="-0.2985073" version="1" visible="true"/>
   <node id="7281165315" lat="51.5647369" lon="-0.099658" version="1" visible="true"/>
-  <node id="7185668879" lat="51.3828475" lon="-0.2874839" version="1" visible="true"/>
+  <node id="7185668879" lat="51.3828526" lon="-0.2874972" version="2" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="backward"/>
+  </node>
   <node id="7161303679" lat="51.5104534" lon="-0.3050467" version="1" visible="true"/>
   <node id="7157032982" lat="51.6025018" lon="0.0264496" version="1" visible="true"/>
   <node id="7157032979" lat="51.6023784" lon="0.0262015" version="1" visible="true"/>
@@ -639,7 +642,7 @@
     <tag k="motor_vehicle" v="no"/>
   </node>
   <node id="244427417" lat="51.4695177" lon="-0.0117603" version="2" visible="true"/>
-  <node id="244005889" lat="51.382795" lon="-0.287524" version="3" visible="true"/>
+  <node id="244005889" lat="51.382795" lon="-0.287539" version="4" visible="true"/>
   <node id="243760298" lat="51.4696477" lon="-0.0114874" version="3" visible="true">
     <tag k="barrier" v="gate"/>
   </node>
@@ -879,7 +882,7 @@
   <node id="9512915" lat="51.510432" lon="-0.1314738" version="10" visible="true"/>
   <node id="623511" lat="51.4320234" lon="-0.0018223" version="3" visible="true"/>
   <node id="622843" lat="51.4322647" lon="-0.0007538" version="3" visible="true"/>
-  <node id="304440" lat="51.3829006" lon="-0.2874451" version="7" visible="true"/>
+  <node id="304440" lat="51.3829056" lon="-0.2874616" version="8" visible="true"/>
   <node id="220868" lat="51.5648854" lon="-0.0998892" version="8" visible="true"/>
   <node id="196860" lat="51.644544" lon="-0.1460399" version="6" visible="true"/>
   <node id="109398" lat="51.5255549" lon="-0.0938288" version="5" visible="true"/>
@@ -1491,7 +1494,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG169889"/>
   </node>
-  <node id="-180" lat="51.3823591295669" lon="-0.287917463190571" visible="true">
+  <node id="-180" lat="51.3823604809801" lon="-0.287919961080526" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>

@@ -860,10 +860,11 @@
     <tag k="public_transport" v="stop_position"/>
   </node>
   <node id="3782968646" lat="51.5420365" lon="-0.1385733" version="4" visible="true"/>
-  <node id="3779914712" lat="51.5109754" lon="-0.0664441" version="4" visible="true">
+  <node id="3779914712" lat="51.5109754" lon="-0.0664441" version="5" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="3717117962" lat="51.5083183" lon="-0.2748304" version="4" visible="true"/>
@@ -1020,10 +1021,11 @@
     <tag k="highway" v="crossing"/>
   </node>
   <node id="2517133988" lat="51.537064" lon="-0.0030946" version="4" visible="true"/>
-  <node id="2509053291" lat="51.5101547" lon="-0.0726774" version="11" visible="true">
+  <node id="2509053291" lat="51.5101547" lon="-0.0726774" version="12" visible="true">
+    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing_ref" v="toucan"/>
     <tag k="crossing:island" v="no"/>
   </node>
   <node id="2477093245" lat="51.5383693" lon="-0.0013997" version="6" visible="true"/>
@@ -1058,10 +1060,11 @@
     <tag k="name" v="King David Lane"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="2405527187" lat="51.510829" lon="-0.0683774" version="4" visible="true">
+  <node id="2405527187" lat="51.510829" lon="-0.0683774" version="5" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="button_operated" v="yes"/>
   </node>
   <node id="2314780177" lat="51.5034672" lon="-0.1528336" version="13" visible="true">
     <tag k="kerb" v="flush"/>
