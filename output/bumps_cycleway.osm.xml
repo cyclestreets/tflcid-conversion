@@ -168,10 +168,12 @@
   <node id="5967958906" lat="51.5066661" lon="-0.2743507" version="1" visible="true"/>
   <node id="5967958904" lat="51.5067694" lon="-0.274207" version="1" visible="true"/>
   <node id="5967958898" lat="51.5075936" lon="-0.2731148" version="1" visible="true"/>
-  <node id="5880186833" lat="51.5142756" lon="-0.1045071" version="4" visible="true">
+  <node id="5880186833" lat="51.5142756" lon="-0.1045071" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="5880186831" lat="51.5140016" lon="-0.1044791" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -189,11 +191,12 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
-  <node id="5374174119" lat="51.5140361" lon="-0.1044854" version="6" visible="true">
+  <node id="5374174119" lat="51.5140361" lon="-0.1044854" version="7" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
     <tag k="traffic_signals:sound" v="no"/>
     <tag k="traffic_signals:vibration" v="yes"/>
   </node>
@@ -274,9 +277,10 @@
   <node id="3972566715" lat="51.5131625" lon="-0.1043147" version="3" visible="true"/>
   <node id="3972566713" lat="51.5135571" lon="-0.1043779" version="3" visible="true"/>
   <node id="3972566710" lat="51.5119963" lon="-0.1043235" version="6" visible="true"/>
-  <node id="3972566707" lat="51.5151992" lon="-0.1047152" version="6" visible="true">
+  <node id="3972566707" lat="51.5151992" lon="-0.1047152" version="7" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="marked"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="3911044741" lat="51.5096833" lon="-0.1184958" version="3" visible="true"/>
   <node id="3911044738" lat="51.5108369" lon="-0.1133472" version="7" visible="true">
