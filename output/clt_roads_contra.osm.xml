@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9708055863" lat="51.5417708" lon="-0.0978153" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
   <node id="9694091982" lat="51.5111517" lon="-0.0801102" version="1" visible="true"/>
   <node id="9694091981" lat="51.5110573" lon="-0.0801385" version="1" visible="true"/>
   <node id="9694091978" lat="51.5109246" lon="-0.0801797" version="1" visible="true"/>
@@ -2376,8 +2380,9 @@
   <node id="2460356320" lat="51.5308723" lon="-0.0854438" version="2" visible="true"/>
   <node id="2454411460" lat="51.5442968" lon="-0.0990796" version="1" visible="true"/>
   <node id="2454411455" lat="51.5442675" lon="-0.0990474" version="1" visible="true"/>
-  <node id="2454409310" lat="51.541752" lon="-0.0978366" version="1" visible="true">
+  <node id="2454409310" lat="51.541755" lon="-0.0978309" version="2" visible="true">
     <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="2449187621" lat="51.5481112" lon="-0.1277909" version="4" visible="true">
     <tag k="highway" v="crossing"/>
@@ -3044,7 +3049,7 @@
   <node id="250856350" lat="51.3666863" lon="-0.1003007" version="5" visible="true"/>
   <node id="250661905" lat="51.5110256" lon="-0.3207789" version="4" visible="true"/>
   <node id="250367692" lat="51.5398221" lon="-0.1369681" version="5" visible="true"/>
-  <node id="250361690" lat="51.5417159" lon="-0.0978764" version="6" visible="true"/>
+  <node id="250361690" lat="51.5417336" lon="-0.0978512" version="7" visible="true"/>
   <node id="249666678" lat="51.5256115" lon="-0.0838557" version="5" visible="true"/>
   <node id="249607705" lat="51.4004492" lon="-0.2540377" version="3" visible="true"/>
   <node id="249573040" lat="51.4899859" lon="-0.2803114" version="3" visible="true">
@@ -12286,7 +12291,7 @@
     <nd ref="2570411434"/>
     <nd ref="336383370"/>
   </way>
-  <way id="163718531" visible="true" version="7">
+  <way id="163718531" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Canonbury Grove"/>
     <tag k="oneway" v="yes"/>
@@ -12298,6 +12303,7 @@
     <tag k="tiger:upload_uuid" v="RWG151013"/>
     <nd ref="339842960"/>
     <nd ref="4705909823"/>
+    <nd ref="9708055863"/>
     <nd ref="2454409310"/>
     <nd ref="250361690"/>
   </way>
