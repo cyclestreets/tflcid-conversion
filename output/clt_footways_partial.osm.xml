@@ -1305,6 +1305,12 @@
   <node id="513793402" lat="51.480692" lon="-0.2154526" version="2" visible="true"/>
   <node id="497038030" lat="51.5058068" lon="-0.1180863" version="7" visible="true"/>
   <node id="497038029" lat="51.505749" lon="-0.1181403" version="6" visible="true"/>
+  <node id="487111326" lat="51.448752" lon="0.1598616" version="4" visible="true">
+    <tag k="barrier" v="gate"/>
+    <tag k="description" v="end of Official Shuttle Riverway"/>
+  </node>
+  <node id="487111265" lat="51.4487033" lon="0.1599083" version="3" visible="true"/>
+  <node id="487111097" lat="51.4488892" lon="0.1597957" version="4" visible="true"/>
   <node id="444685580" lat="51.6470822" lon="-0.1181859" version="1" visible="true"/>
   <node id="444685578" lat="51.646827" lon="-0.1177083" version="1" visible="true"/>
   <node id="442130475" lat="51.5484426" lon="-0.0534817" version="3" visible="true">
@@ -2058,6 +2064,18 @@
     <nd ref="6329714604"/>
     <nd ref="6329714603"/>
     <nd ref="6329714602"/>
+  </way>
+  <way id="1056874860" visible="true" version="1">
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG185699"/>
+    <nd ref="487111097"/>
+    <nd ref="487111326"/>
+    <nd ref="487111265"/>
   </way>
   <way id="440254756" visible="true" version="1">
     <tag k="highway" v="footway"/>
@@ -5744,10 +5762,11 @@
     <nd ref="3224608325"/>
     <nd ref="3224608326"/>
   </way>
-  <way id="4338129" visible="true" version="16">
+  <way id="4338129" visible="true" version="18">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="The Queen's Walk"/>
     <tag k="highway" v="footway"/>
-    <tag k="surface" v="paved"/>
+    <tag k="surface" v="concrete"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
