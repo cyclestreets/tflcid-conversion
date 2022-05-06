@@ -1527,6 +1527,7 @@
   <node id="3360276809" lat="51.4727016" lon="0.0094143" version="4" visible="true"/>
   <node id="2093182593" lat="51.3914124" lon="-0.2982832" version="4" visible="true"/>
   <node id="6282977678" lat="51.5257992" lon="0.1680448" version="1" visible="true"/>
+  <node id="8250354855" lat="51.4863203" lon="0.0093336" version="1" visible="true"/>
   <node id="6581893414" lat="51.5969405" lon="-0.1174082" version="3" visible="true"/>
   <node id="1230490746" lat="51.5406089" lon="-0.0014937" version="8" visible="true"/>
   <node id="43663521" lat="51.6052197" lon="-0.0749739" version="4" visible="true"/>
@@ -2260,6 +2261,7 @@
   <node id="9008018852" lat="51.5508259" lon="-0.1367015" version="2" visible="true"/>
   <node id="8244943208" lat="51.5911818" lon="-0.0073658" version="2" visible="true"/>
   <node id="9643338814" lat="51.524088" lon="-0.0374128" version="1" visible="true"/>
+  <node id="8250354845" lat="51.4863113" lon="0.0096232" version="1" visible="true"/>
   <node id="26464527" lat="51.3864516" lon="-0.1657558" version="9" visible="true"/>
   <node id="1584091373" lat="51.4204003" lon="-0.2065715" version="4" visible="true"/>
   <node id="2311539181" lat="51.5090495" lon="-0.3483299" version="4" visible="true"/>
@@ -3344,6 +3346,7 @@
   <node id="6174767433" lat="51.4282442" lon="-0.2710271" version="4" visible="true"/>
   <node id="8688597910" lat="51.4074033" lon="-0.1921568" version="1" visible="true"/>
   <node id="9259825401" lat="51.6362874" lon="-0.0894682" version="1" visible="true"/>
+  <node id="5657564944" lat="51.5708849" lon="0.0115672" version="4" visible="true"/>
   <node id="8436204421" lat="51.4857374" lon="-0.0346129" version="1" visible="true"/>
   <node id="3785986523" lat="51.4795376" lon="0.0280774" version="3" visible="true"/>
   <node id="6313712930" lat="51.5138807" lon="0.0607908" version="4" visible="true"/>
@@ -3812,6 +3815,10 @@
     <tag k="traffic_signals" v="traffic_lights"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
+  <node id="9712747121" lat="51.5707979" lon="0.0117125" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="195953161" lat="51.53823" lon="0.0790744" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
@@ -4008,6 +4015,10 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="crossing:island" v="yes"/>
+  </node>
+  <node id="7965296822" lat="51.4863162" lon="0.0095235" version="2" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
   </node>
   <node id="4617106068" lat="51.4848591" lon="0.003691" version="4" visible="true">
     <tag k="bus" v="yes"/>
@@ -4470,7 +4481,7 @@
     <tag k="crossing:island" v="no"/>
     <tag k="traffic_calming" v="table"/>
   </node>
-  <node id="9695544856" lat="51.5182058" lon="-0.0140446" version="1" visible="true">
+  <node id="9695544856" lat="51.5182062" lon="-0.0140449" version="2" visible="true">
     <tag k="traffic_calming" v="choker"/>
   </node>
   <node id="6005094217" lat="51.5088058" lon="-0.0096206" version="4" visible="true">
@@ -12335,6 +12346,20 @@
     <nd ref="249298051"/>
     <nd ref="6243228153"/>
   </way>
+  <way id="1057041236" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A106"/>
+    <tag k="name" v="Gainsborough Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="tiger:upload_uuid" v="RWG149705"/>
+    <nd ref="5657564944"/>
+    <nd ref="9712747121"/>
+  </way>
   <way id="886679386" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A503"/>
@@ -13264,6 +13289,23 @@
     <tag k="tiger:upload_uuid" v="RWG291809,RWG291805"/>
     <nd ref="702785622"/>
     <nd ref="13808420"/>
+  </way>
+  <way id="852590553" visible="true" version="7">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A206"/>
+    <tag k="name" v="Woolwich Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:oneway" v="no"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184971,RWG184864"/>
+    <nd ref="8250354845"/>
+    <nd ref="7965296822"/>
+    <nd ref="8250354855"/>
   </way>
   <way id="707951394" visible="true" version="1">
     <tag k="lit" v="yes"/>
