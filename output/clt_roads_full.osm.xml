@@ -834,6 +834,7 @@
   <node id="1448684236" lat="51.5798565" lon="0.1778773" version="3" visible="true"/>
   <node id="25161347" lat="51.5131998" lon="-0.0924072" version="4" visible="true"/>
   <node id="9260176751" lat="51.4635754" lon="-0.0652035" version="3" visible="true"/>
+  <node id="6208530237" lat="51.4669407" lon="-0.3626921" version="4" visible="true"/>
   <node id="9064834662" lat="51.5864764" lon="-0.0476378" version="1" visible="true"/>
   <node id="128651843" lat="51.3781651" lon="-0.1028139" version="6" visible="true"/>
   <node id="7090742458" lat="51.4529067" lon="-0.3405317" version="1" visible="true"/>
@@ -3679,6 +3680,7 @@
   <node id="2330049692" lat="51.5507401" lon="-0.1333373" version="3" visible="true"/>
   <node id="7593155228" lat="51.5463916" lon="-0.1467043" version="3" visible="true"/>
   <node id="25894924" lat="51.5781741" lon="0.1769912" version="4" visible="true"/>
+  <node id="6208530231" lat="51.4667379" lon="-0.3627144" version="4" visible="true"/>
   <node id="8279054423" lat="51.5893565" lon="-0.0760985" version="1" visible="true"/>
   <node id="411015034" lat="51.471341" lon="0.1936643" version="6" visible="true"/>
   <node id="2592356089" lat="51.5529045" lon="-0.1049362" version="3" visible="true"/>
@@ -4831,7 +4833,7 @@
     <tag k="check_date" v="2021-07-10"/>
     <tag k="traffic_calming" v="cushion"/>
   </node>
-  <node id="2143540772" lat="51.5487209" lon="-0.0917307" version="6" visible="true">
+  <node id="2143540772" lat="51.548721" lon="-0.0917307" version="7" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="tactile_paving" v="yes"/>
@@ -11448,28 +11450,28 @@
     <nd ref="4580650511"/>
     <nd ref="6402981903"/>
   </way>
-  <way id="979897734" visible="true" version="2">
+  <way id="979897734" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A503"/>
     <tag k="name" v="Forest Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v="share_busway"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG149639"/>
     <nd ref="9064834663"/>
     <nd ref="9064834662"/>
   </way>
-  <way id="25971746" visible="true" version="25">
+  <way id="25971746" visible="true" version="26">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A503"/>
     <tag k="name" v="Forest Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v="share_busway"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG149639"/>
     <nd ref="283326582"/>
     <nd ref="9064834663"/>
@@ -16226,6 +16228,21 @@
     <nd ref="3610864712"/>
     <nd ref="3610864711"/>
   </way>
+  <way id="663268346" visible="true" version="5">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A314"/>
+    <tag k="name" v="Hanworth Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG233833"/>
+    <nd ref="6208530231"/>
+    <nd ref="6208530237"/>
+  </way>
   <way id="523304751" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A236"/>
@@ -19667,7 +19684,7 @@
     <nd ref="8474252668"/>
     <nd ref="6384542421"/>
   </way>
-  <way id="303559641" visible="true" version="7">
+  <way id="303559641" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Maple Street"/>
     <tag k="lanes" v="1"/>
@@ -19677,6 +19694,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="postal_code" v="W1"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG152240,RWG152241,RWG152242,RWG152243,RWG152244,RWG152245,RWG152170,RWG152171,RWG152173,RWG152174"/>
     <nd ref="3079462286"/>
