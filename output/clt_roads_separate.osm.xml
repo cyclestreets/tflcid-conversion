@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9723211548" lat="51.5227031" lon="-0.0409419" version="1" visible="true"/>
   <node id="9712770056" lat="51.5577322" lon="-0.0087015" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
@@ -13,7 +14,6 @@
   <node id="9643183821" lat="51.5208715" lon="-0.0509122" version="1" visible="true"/>
   <node id="9643183820" lat="51.5206506" lon="-0.0519829" version="1" visible="true"/>
   <node id="9643183819" lat="51.5206072" lon="-0.0522191" version="1" visible="true"/>
-  <node id="9641876501" lat="51.5228256" lon="-0.0405029" version="1" visible="true"/>
   <node id="9625208644" lat="51.5082897" lon="-0.2745555" version="1" visible="true"/>
   <node id="9625208642" lat="51.5082716" lon="-0.2744898" version="1" visible="true"/>
   <node id="9576830006" lat="51.5101636" lon="-0.0725659" version="2" visible="true"/>
@@ -834,12 +834,6 @@
   </node>
   <node id="4085791617" lat="51.5108508" lon="-0.0680951" version="2" visible="true"/>
   <node id="4020768416" lat="51.5405245" lon="0.0009905" version="6" visible="true"/>
-  <node id="4013592740" lat="51.5227464" lon="-0.0407663" version="6" visible="true">
-    <tag k="bus" v="yes"/>
-    <tag k="name" v="Queen Mary / University of London"/>
-    <tag k="local_ref" v="D"/>
-    <tag k="public_transport" v="stop_position"/>
-  </node>
   <node id="4009478567" lat="51.4807457" lon="-0.0291141" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
@@ -5570,7 +5564,7 @@
     <nd ref="9661950324"/>
     <nd ref="6370969505"/>
   </way>
-  <way id="57725387" visible="true" version="23">
+  <way id="57725387" visible="true" version="24">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
@@ -5579,13 +5573,13 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v="lane"/>
+    <tag k="busway:left" v="lane"/>
+    <tag k="busway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG073388"/>
     <nd ref="108701"/>
     <nd ref="8723303391"/>
     <nd ref="133188753"/>
-    <nd ref="4013592740"/>
-    <nd ref="9641876501"/>
+    <nd ref="9723211548"/>
   </way>
   <way id="1049311871" visible="true" version="1">
     <tag k="lit" v="yes"/>
