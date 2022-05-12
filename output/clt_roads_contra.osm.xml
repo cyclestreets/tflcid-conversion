@@ -2031,7 +2031,7 @@
   <node id="4213477739" lat="51.4821906" lon="0.0006481" version="4" visible="true"/>
   <node id="4192665528" lat="51.5743256" lon="-0.077318" version="3" visible="true"/>
   <node id="4174200026" lat="51.5100182" lon="-0.1187791" version="3" visible="true"/>
-  <node id="4174200022" lat="51.5097522" lon="-0.1185588" version="1" visible="true"/>
+  <node id="4174200022" lat="51.5097654" lon="-0.1185653" version="2" visible="true"/>
   <node id="4087644122" lat="51.5050282" lon="-0.0841273" version="5" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Hay's Galleria"/>
@@ -10554,7 +10554,7 @@
     <nd ref="2440633802"/>
     <nd ref="2440633800"/>
   </way>
-  <way id="884363124" visible="true" version="4">
+  <way id="884363124" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Marchmont Street"/>
     <tag k="lanes" v="2"/>
@@ -10565,6 +10565,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:both" v="no"/>
     <tag k="traffic_calming" v="table"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG108345"/>
     <nd ref="107878"/>

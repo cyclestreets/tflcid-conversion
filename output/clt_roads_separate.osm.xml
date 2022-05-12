@@ -457,7 +457,6 @@
     <tag k="crossing" v="unmarked"/>
   </node>
   <node id="6632005507" lat="51.5209689" lon="-0.0504523" version="4" visible="true"/>
-  <node id="6632005499" lat="51.5210094" lon="-0.0500902" version="3" visible="true"/>
   <node id="6632005486" lat="51.5209735" lon="-0.0502632" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
@@ -1604,7 +1603,6 @@
   <node id="106969" lat="51.5110419" lon="-0.0609999" version="12" visible="true"/>
   <node id="106940" lat="51.5115598" lon="-0.0436059" version="6" visible="true"/>
   <node id="106935" lat="51.5115235" lon="-0.0442755" version="8" visible="true"/>
-  <node id="106801" lat="51.5210667" lon="-0.0500496" version="18" visible="true"/>
   <node id="104387" lat="51.5006999" lon="-0.1177675" version="11" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
@@ -5509,16 +5507,16 @@
     <nd ref="4738129864"/>
     <nd ref="25473407"/>
   </way>
-  <way id="362227171" visible="true" version="2">
+  <way id="362227171" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG073269"/>
     <nd ref="961587776"/>
     <nd ref="961587760"/>
@@ -5526,11 +5524,12 @@
     <nd ref="961587768"/>
     <nd ref="961587771"/>
   </way>
-  <way id="379089136" visible="true" version="2">
+  <way id="379089136" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
     <tag k="highway" v="trunk"/>
+    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
@@ -5538,11 +5537,12 @@
     <nd ref="961587771"/>
     <nd ref="246860043"/>
   </way>
-  <way id="82626051" visible="true" version="11">
+  <way id="82626051" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
     <tag k="highway" v="trunk"/>
+    <tag k="cycleway" v="separate"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
@@ -5649,19 +5649,17 @@
     <nd ref="9643183822"/>
     <nd ref="6632005507"/>
   </way>
-  <way id="705809124" visible="true" version="4">
+  <way id="1058688537" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
-    <tag k="cycleway" v="lane"/>
+    <tag k="cycleway" v="no"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
     <tag k="tiger:upload_uuid" v="RWG073630"/>
-    <nd ref="106801"/>
-    <nd ref="6632005499"/>
     <nd ref="6632005486"/>
     <nd ref="6631996460"/>
     <nd ref="8955781833"/>
