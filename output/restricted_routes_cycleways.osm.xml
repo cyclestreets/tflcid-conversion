@@ -453,7 +453,7 @@
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="4077401372" lat="51.5684145" lon="-0.1895827" version="1" visible="true"/>
-  <node id="3855578040" lat="51.5628614" lon="-0.1901316" version="2" visible="true">
+  <node id="3855578040" lat="51.5628317" lon="-0.1901697" version="3" visible="true">
     <tag k="barrier" v="lift_gate"/>
   </node>
   <node id="3811606787" lat="51.5716897" lon="-0.103496" version="2" visible="true">
@@ -3083,8 +3083,10 @@
     <nd ref="7131589877"/>
     <nd ref="7131589881"/>
   </way>
-  <way id="677467607" visible="true" version="4">
+  <way id="677467607" visible="true" version="6">
+    <tag k="lit" v="yes"/>
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
     <tag k="bicycle:conditional" v="yes @ (Mo-Fr 10:30-17:00; Sa-Su 09:30-17:00)"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG237915"/>
@@ -3681,8 +3683,9 @@
     <nd ref="2969529321"/>
     <nd ref="27334921"/>
   </way>
-  <way id="700878137" visible="true" version="6">
+  <way id="700878137" visible="true" version="7">
     <tag k="lit" v="yes"/>
+    <tag k="foot" v="yes"/>
     <tag k="width" v="3.5"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="footway"/>
@@ -3703,8 +3706,9 @@
     <nd ref="2395054155"/>
     <nd ref="2395054152"/>
   </way>
-  <way id="700878137" visible="true" version="6">
+  <way id="700878137" visible="true" version="7">
     <tag k="lit" v="yes"/>
+    <tag k="foot" v="yes"/>
     <tag k="width" v="3.5"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="footway"/>
@@ -3725,8 +3729,9 @@
     <nd ref="2395054155"/>
     <nd ref="2395054152"/>
   </way>
-  <way id="700878137" visible="true" version="6">
+  <way id="700878137" visible="true" version="7">
     <tag k="lit" v="yes"/>
+    <tag k="foot" v="yes"/>
     <tag k="width" v="3.5"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="footway"/>
@@ -3747,8 +3752,9 @@
     <nd ref="2395054155"/>
     <nd ref="2395054152"/>
   </way>
-  <way id="700878137" visible="true" version="6">
+  <way id="700878137" visible="true" version="7">
     <tag k="lit" v="yes"/>
+    <tag k="foot" v="yes"/>
     <tag k="width" v="3.5"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="footway"/>
