@@ -381,7 +381,6 @@
   <node id="5045011018" lat="51.4334165" lon="-0.1016439" version="1" visible="true"/>
   <node id="5001535585" lat="51.5909409" lon="-0.1383633" version="1" visible="true"/>
   <node id="5001535584" lat="51.5909924" lon="-0.1385488" version="1" visible="true"/>
-  <node id="4995788855" lat="51.5723364" lon="-0.10465" version="1" visible="true"/>
   <node id="4978239411" lat="51.6062478" lon="-0.1858266" version="2" visible="true"/>
   <node id="4978239410" lat="51.6065135" lon="-0.1862645" version="3" visible="true"/>
   <node id="4972321612" lat="51.5707306" lon="0.0667493" version="1" visible="true"/>
@@ -1258,11 +1257,6 @@
   <node id="248454566" lat="51.5572989" lon="-0.150888" version="3" visible="true"/>
   <node id="243209730" lat="51.5008192" lon="-0.3183267" version="4" visible="true"/>
   <node id="242700039" lat="51.6022846" lon="-0.2352834" version="3" visible="true"/>
-  <node id="242337161" lat="51.5723197" lon="-0.1045601" version="5" visible="true">
-    <tag k="name" v="Hornsey Gate"/>
-    <tag k="place" v="locality"/>
-    <tag k="barrier" v="gate"/>
-  </node>
   <node id="206276396" lat="51.3855567" lon="-0.0679592" version="2" visible="true"/>
   <node id="206145272" lat="51.5728952" lon="-0.1659894" version="11" visible="true"/>
   <node id="206145255" lat="51.5726208" lon="-0.1661174" version="4" visible="true"/>
@@ -4446,15 +4440,6 @@
     <nd ref="8592391242"/>
     <nd ref="8592391243"/>
     <nd ref="8592391244"/>
-  </way>
-  <way id="132727221" visible="true" version="6">
-    <tag k="highway" v="service"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="bicycle" v="dismount"/>
-    <tag k="tiger:upload_uuid" v="RWG280818"/>
-    <nd ref="186029484"/>
-    <nd ref="242337161"/>
-    <nd ref="4995788855"/>
   </way>
   <way id="17972371" visible="true" version="14">
     <tag k="oneway" v="yes"/>
