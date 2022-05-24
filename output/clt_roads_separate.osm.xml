@@ -274,7 +274,7 @@
   <node id="8723303391" lat="51.5225431" lon="-0.0417117" version="1" visible="true"/>
   <node id="8719705901" lat="51.5678973" lon="-0.0319257" version="1" visible="true"/>
   <node id="8719705900" lat="51.5678424" lon="-0.0320655" version="1" visible="true"/>
-  <node id="8703263210" lat="51.5369606" lon="-0.1466349" version="2" visible="true">
+  <node id="8703263210" lat="51.5369637" lon="-0.1466462" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
@@ -299,8 +299,10 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="8518294522" lat="51.5351085" lon="-0.1316035" version="2" visible="true"/>
-  <node id="8474048117" lat="51.5583855" lon="-0.0071227" version="1" visible="true">
+  <node id="8474048117" lat="51.5583832" lon="-0.0071037" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="crossing" v="no"/>
+    <tag k="traffic_signals" v="traffic_lights"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="8433541672" lat="51.4448912" lon="-0.1112944" version="2" visible="true"/>
@@ -421,7 +423,7 @@
   <node id="7083403299" lat="51.5227763" lon="-0.131853" version="3" visible="true"/>
   <node id="7076645974" lat="51.5697896" lon="-0.0187614" version="1" visible="true"/>
   <node id="7005160427" lat="51.4765353" lon="-0.1307667" version="2" visible="true"/>
-  <node id="6981900056" lat="51.5368778" lon="-0.1463655" version="6" visible="true">
+  <node id="6981900056" lat="51.53688" lon="-0.1463718" version="7" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
@@ -669,7 +671,7 @@
   <node id="5595507647" lat="51.5718623" lon="-0.0205798" version="3" visible="true"/>
   <node id="5595507645" lat="51.5719115" lon="-0.0206194" version="6" visible="true"/>
   <node id="5589536445" lat="51.4556294" lon="0.1427338" version="5" visible="true"/>
-  <node id="5534944005" lat="51.558197" lon="-0.0075683" version="4" visible="true"/>
+  <node id="5534944005" lat="51.5581949" lon="-0.0075616" version="5" visible="true"/>
   <node id="5534942456" lat="51.5576331" lon="-0.0089299" version="5" visible="true"/>
   <node id="5452431593" lat="51.5731141" lon="-0.0280375" version="3" visible="true"/>
   <node id="5452431587" lat="51.5754306" lon="-0.0297476" version="6" visible="true">
@@ -2406,16 +2408,19 @@
     <nd ref="354428750"/>
     <nd ref="5534944005"/>
   </way>
-  <way id="912213366" visible="true" version="1">
+  <way id="912213366" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A106"/>
     <tag k="name" v="Ruckholt Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="turn:lanes" v="left;through|through;right"/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149674"/>
     <nd ref="5534944005"/>
     <nd ref="8474048117"/>
