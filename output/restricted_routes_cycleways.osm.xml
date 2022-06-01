@@ -212,11 +212,10 @@
   <node id="6582045949" lat="51.5930552" lon="-0.1347677" version="1" visible="true"/>
   <node id="6582045947" lat="51.5934463" lon="-0.1350848" version="1" visible="true"/>
   <node id="6582045929" lat="51.592075" lon="-0.1355165" version="1" visible="true"/>
-  <node id="6582045928" lat="51.5925659" lon="-0.1343445" version="1" visible="true"/>
-  <node id="6582045911" lat="51.5927804" lon="-0.1343868" version="1" visible="true"/>
+  <node id="6582045911" lat="51.5927606" lon="-0.1343307" version="2" visible="true"/>
   <node id="6582045900" lat="51.5921085" lon="-0.1354987" version="1" visible="true"/>
-  <node id="6582045885" lat="51.5924238" lon="-0.1347906" version="1" visible="true"/>
-  <node id="6582016484" lat="51.5928319" lon="-0.1345744" version="1" visible="true"/>
+  <node id="6582045885" lat="51.5923869" lon="-0.1347545" version="2" visible="true"/>
+  <node id="6582016484" lat="51.5928441" lon="-0.1345633" version="2" visible="true"/>
   <node id="6581893431" lat="51.5969252" lon="-0.1175549" version="1" visible="true"/>
   <node id="6561682307" lat="51.4972282" lon="-0.1689833" version="2" visible="true"/>
   <node id="6474805734" lat="51.6063636" lon="-0.1859943" version="1" visible="true"/>
@@ -490,15 +489,11 @@
   </node>
   <node id="3735156131" lat="51.5590912" lon="-0.1527318" version="1" visible="true"/>
   <node id="3735156127" lat="51.55884" lon="-0.1531993" version="1" visible="true"/>
-  <node id="3734757116" lat="51.5924914" lon="-0.1345588" version="2" visible="true"/>
-  <node id="3729864014" lat="51.5923979" lon="-0.1348576" version="1" visible="true">
-    <tag k="barrier" v="gate"/>
-  </node>
-  <node id="3729863991" lat="51.592367" lon="-0.1349203" version="1" visible="true"/>
-  <node id="3709914552" lat="51.5928479" lon="-0.1351966" version="1" visible="true"/>
+  <node id="3734757116" lat="51.5924545" lon="-0.1345265" version="3" visible="true"/>
+  <node id="3729863991" lat="51.5923581" lon="-0.1349316" version="2" visible="true"/>
   <node id="3709914550" lat="51.5928959" lon="-0.1349191" version="3" visible="true"/>
   <node id="3709914549" lat="51.5928111" lon="-0.1351464" version="3" visible="true"/>
-  <node id="3709913031" lat="51.5929349" lon="-0.135287" version="1" visible="true"/>
+  <node id="3709913031" lat="51.5928774" lon="-0.1352218" version="2" visible="true"/>
   <node id="3709912723" lat="51.5931121" lon="-0.1354427" version="1" visible="true"/>
   <node id="3709912721" lat="51.5931312" lon="-0.1354595" version="1" visible="true">
     <tag k="barrier" v="gate"/>
@@ -628,9 +623,9 @@
   <node id="2428040512" lat="51.6247594" lon="-0.0814128" version="2" visible="true"/>
   <node id="2428040507" lat="51.6251929" lon="-0.0808392" version="2" visible="true"/>
   <node id="2398933598" lat="51.4970054" lon="-0.1688106" version="2" visible="true"/>
-  <node id="2395054161" lat="51.5928646" lon="-0.1346275" version="2" visible="true"/>
+  <node id="2395054161" lat="51.5928982" lon="-0.1346614" version="3" visible="true"/>
   <node id="2395054155" lat="51.5907937" lon="-0.1390749" version="2" visible="true"/>
-  <node id="2395054152" lat="51.5906694" lon="-0.1393019" version="1" visible="true"/>
+  <node id="2395054152" lat="51.5906296" lon="-0.1393964" version="2" visible="true"/>
   <node id="2364451496" lat="51.5755013" lon="0.0453056" version="1" visible="true"/>
   <node id="2358344737" lat="51.5706808" lon="0.0666468" version="3" visible="true">
     <tag k="foot" v="yes"/>
@@ -1299,10 +1294,8 @@
   <node id="60242936" lat="51.5909644" lon="-0.1389144" version="6" visible="true"/>
   <node id="60242935" lat="51.5910489" lon="-0.1379135" version="7" visible="true"/>
   <node id="60242934" lat="51.5912779" lon="-0.1373321" version="5" visible="true"/>
-  <node id="60242933" lat="51.5921662" lon="-0.1355506" version="7" visible="true"/>
-  <node id="60239811" lat="51.5925503" lon="-0.1343881" version="11" visible="true"/>
-  <node id="60239770" lat="51.5925987" lon="-0.1342299" version="8" visible="true"/>
-  <node id="60231219" lat="51.5927374" lon="-0.1341887" version="7" visible="true"/>
+  <node id="60242933" lat="51.5921885" lon="-0.1355395" version="8" visible="true"/>
+  <node id="60231219" lat="51.5927185" lon="-0.1342057" version="8" visible="true"/>
   <node id="54069985" lat="51.5595977" lon="-0.1515156" version="7" visible="true"/>
   <node id="54069927" lat="51.5585972" lon="-0.1537034" version="10" visible="true"/>
   <node id="34784091" lat="51.4332374" lon="-0.1020512" version="2" visible="true"/>
@@ -3779,24 +3772,22 @@
     <nd ref="2395054155"/>
     <nd ref="2395054152"/>
   </way>
-  <way id="367015304" visible="true" version="3">
+  <way id="367015304" visible="true" version="4">
     <tag k="highway" v="service"/>
     <tag k="surface" v="asphalt"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG280753"/>
     <nd ref="3709914549"/>
-    <nd ref="3709914552"/>
     <nd ref="3709913031"/>
     <nd ref="3709912723"/>
     <nd ref="3709912721"/>
   </way>
-  <way id="367015304" visible="true" version="3">
+  <way id="367015304" visible="true" version="4">
     <tag k="highway" v="service"/>
     <tag k="surface" v="asphalt"/>
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG280753"/>
     <nd ref="3709914549"/>
-    <nd ref="3709914552"/>
     <nd ref="3709913031"/>
     <nd ref="3709912723"/>
     <nd ref="3709912721"/>
@@ -3850,19 +3841,6 @@
     <nd ref="6582016484"/>
     <nd ref="6582045911"/>
     <nd ref="60231219"/>
-  </way>
-  <way id="27791127" visible="true" version="7">
-    <tag k="highway" v="service"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="bicycle" v="dismount"/>
-    <tag k="tiger:upload_uuid" v="RWG280753"/>
-    <nd ref="60239770"/>
-    <nd ref="6582045928"/>
-    <nd ref="60239811"/>
-    <nd ref="3734757116"/>
-    <nd ref="6582045885"/>
-    <nd ref="3729864014"/>
-    <nd ref="3729863991"/>
   </way>
   <way id="97815259" visible="true" version="1">
     <tag k="name" v="Eagle Place"/>
