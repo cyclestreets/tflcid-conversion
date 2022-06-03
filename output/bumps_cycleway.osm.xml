@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9757482515" lat="51.515569" lon="-0.3430378" version="2" visible="true">
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="9591205336" lat="51.5812103" lon="-0.0606568" version="1" visible="true"/>
   <node id="9423647195" lat="51.5842383" lon="-0.0562686" version="1" visible="true"/>
   <node id="9423647194" lat="51.584058" lon="-0.0563316" version="1" visible="true"/>
@@ -605,7 +608,7 @@
     <nd ref="-121"/>
     <nd ref="6804973580"/>
   </way>
-  <way id="814396546" visible="true" version="5">
+  <way id="814396546" visible="true" version="6">
     <tag k="highway" v="cycleway"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="High Lane"/>
@@ -616,6 +619,7 @@
     <nd ref="7607267349"/>
     <nd ref="32551180"/>
     <nd ref="7607267347"/>
+    <nd ref="9757482515"/>
     <nd ref="32551179"/>
     <nd ref="-122"/>
     <nd ref="32551177"/>
