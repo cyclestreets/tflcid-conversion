@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9791558660" lat="51.593119" lon="-0.0733475" version="1" visible="true"/>
   <node id="9787667036" lat="51.5196927" lon="0.0165332" version="1" visible="true"/>
   <node id="9787667033" lat="51.5196438" lon="0.0166577" version="1" visible="true">
     <tag k="highway" v="give_way"/>
@@ -60,6 +61,7 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
+  <node id="9684062098" lat="51.5927232" lon="-0.0712305" version="1" visible="true"/>
   <node id="9675004223" lat="51.5116107" lon="-0.0425145" version="1" visible="true"/>
   <node id="9674775540" lat="51.5099049" lon="-0.0378931" version="1" visible="true"/>
   <node id="9674726107" lat="51.509862" lon="-0.0378873" version="1" visible="true"/>
@@ -105,6 +107,7 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
+  <node id="9591164922" lat="51.5934288" lon="-0.0732304" version="1" visible="true"/>
   <node id="9581565287" lat="51.4350476" lon="-0.1990823" version="1" visible="true"/>
   <node id="9567472004" lat="51.3660263" lon="-0.1942703" version="1" visible="true"/>
   <node id="9558995723" lat="51.5270185" lon="-0.1115456" version="1" visible="true"/>
@@ -3265,6 +3268,7 @@
   <node id="38890326" lat="51.5937734" lon="-0.0703784" version="2" visible="true"/>
   <node id="38890324" lat="51.5936227" lon="-0.0706417" version="3" visible="true"/>
   <node id="38890323" lat="51.5932058" lon="-0.0710497" version="1" visible="true"/>
+  <node id="38890321" lat="51.5926654" lon="-0.07124" version="3" visible="true"/>
   <node id="38889678" lat="51.5912384" lon="-0.0813461" version="3" visible="true"/>
   <node id="38889677" lat="51.5923823" lon="-0.0782965" version="2" visible="true"/>
   <node id="38889671" lat="51.5917025" lon="-0.0824339" version="2" visible="true"/>
@@ -8254,6 +8258,18 @@
     <nd ref="6824482783"/>
     <nd ref="6824482763"/>
   </way>
+  <way id="5404901" visible="true" version="7">
+    <tag k="name" v="Clacton Road"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="traffic_intervention" v="school_street"/>
+    <tag k="motor_vehicle:conditional" v="permit @ (Mo-Fr 08:15-09:15,15:00-16:00; SH off)"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG279225"/>
+    <nd ref="9591164922"/>
+    <nd ref="9791558660"/>
+  </way>
   <way id="4341817" visible="true" version="8">
     <tag k="name" v="Avenue Road"/>
     <tag k="oneway" v="yes"/>
@@ -8287,6 +8303,20 @@
     <nd ref="613466792"/>
     <nd ref="9471767972"/>
     <nd ref="26434993"/>
+  </way>
+  <way id="1041843250" visible="true" version="3">
+    <tag k="name" v="Moorefield Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="emergency" v="yes"/>
+    <tag k="proposed:oneway" v="no"/>
+    <tag k="proposed:traffic_intervention" v="school_street"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG279160"/>
+    <nd ref="38890321"/>
+    <nd ref="9684062098"/>
+    <nd ref="38890323"/>
   </way>
   <way id="5404887" visible="true" version="10">
     <tag k="name" v="Moorefield Road"/>
