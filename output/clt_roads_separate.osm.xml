@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9807210260" lat="51.5034309" lon="-0.1529084" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
   <node id="9799897523" lat="51.5396409" lon="-0.1760178" version="1" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="forward"/>
@@ -1090,13 +1094,11 @@
     <tag k="crossing_ref" v="pelican"/>
     <tag k="button_operated" v="yes"/>
   </node>
-  <node id="2314780177" lat="51.5034672" lon="-0.1528336" version="13" visible="true">
-    <tag k="kerb" v="flush"/>
+  <node id="2314780177" lat="51.5034822" lon="-0.1528347" version="14" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
-    <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
     <tag k="crossing:island" v="no"/>
   </node>
@@ -1427,7 +1429,7 @@
   <node id="211649456" lat="51.5033873" lon="-0.1529724" version="6" visible="true"/>
   <node id="207640134" lat="51.5033115" lon="-0.1531332" version="7" visible="true"/>
   <node id="207640121" lat="51.5031329" lon="-0.1541792" version="10" visible="true"/>
-  <node id="203043798" lat="51.5007334" lon="-0.1186125" version="20" visible="true">
+  <node id="203043798" lat="51.5007367" lon="-0.1186108" version="21" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -5834,7 +5836,7 @@
     <nd ref="9121310671"/>
     <nd ref="6069524533"/>
   </way>
-  <way id="965628477" visible="true" version="1">
+  <way id="965628477" visible="true" version="2">
     <tag k="bus" v="no"/>
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
@@ -5849,6 +5851,7 @@
     <tag k="cycleway:right:oneway" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG056344"/>
     <nd ref="2314780177"/>
+    <nd ref="9807210260"/>
     <nd ref="211649456"/>
     <nd ref="207640134"/>
     <nd ref="6493189301"/>
