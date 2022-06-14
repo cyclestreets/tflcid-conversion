@@ -1082,13 +1082,16 @@
     <tag k="crossing_ref" v="pelican"/>
     <tag k="button_operated" v="yes"/>
   </node>
-  <node id="2314780177" lat="51.5034822" lon="-0.1528347" version="14" visible="true">
+  <node id="2314780177" lat="51.5034822" lon="-0.1528347" version="17" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
     <tag k="crossing:island" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
   </node>
   <node id="2211033268" lat="51.4816763" lon="-0.1111499" version="5" visible="true"/>
   <node id="2211033266" lat="51.4818254" lon="-0.111251" version="4" visible="true"/>
@@ -1269,10 +1272,11 @@
   <node id="881944008" lat="51.5106423" lon="-0.0697591" version="5" visible="true"/>
   <node id="820429417" lat="51.5712455" lon="-0.0200516" version="2" visible="true"/>
   <node id="743005268" lat="51.5029942" lon="-0.1556341" version="5" visible="true"/>
-  <node id="743005255" lat="51.5025728" lon="-0.1606196" version="11" visible="true">
+  <node id="743005255" lat="51.5025728" lon="-0.1606196" version="12" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
   </node>
   <node id="740384613" lat="51.5009303" lon="-0.1261451" version="10" visible="true"/>
   <node id="740384609" lat="51.5009795" lon="-0.1264043" version="13" visible="true"/>
@@ -4495,12 +4499,13 @@
     <nd ref="1797684636"/>
     <nd ref="4888691689"/>
   </way>
-  <way id="497285546" visible="true" version="8">
+  <way id="497285546" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Boundary Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="City of Westminster"/>
     <tag k="sidewalk" v="left"/>
