@@ -597,6 +597,7 @@
   <node id="1448692415" lat="51.5803102" lon="0.1835891" version="3" visible="true"/>
   <node id="21494388" lat="51.5325184" lon="-0.3703161" version="5" visible="true"/>
   <node id="256236585" lat="51.5584241" lon="0.0757201" version="3" visible="true"/>
+  <node id="3193336815" lat="51.4806263" lon="-0.2474304" version="3" visible="true"/>
   <node id="2440630567" lat="51.5260402" lon="-0.1239515" version="7" visible="true"/>
   <node id="6481824008" lat="51.5315531" lon="-0.1273268" version="1" visible="true"/>
   <node id="9445415393" lat="51.4000475" lon="-0.2631935" version="2" visible="true"/>
@@ -1849,6 +1850,7 @@
   <node id="419810186" lat="51.4875447" lon="-0.1304267" version="3" visible="true"/>
   <node id="399040913" lat="51.4737447" lon="-0.0817604" version="5" visible="true"/>
   <node id="6755695130" lat="51.5115755" lon="-0.2057715" version="2" visible="true"/>
+  <node id="20915180" lat="51.4800262" lon="-0.2477007" version="4" visible="true"/>
   <node id="5260195361" lat="51.3774415" lon="-0.0142224" version="2" visible="true"/>
   <node id="5808279569" lat="51.5329631" lon="-0.0085907" version="5" visible="true"/>
   <node id="13808426" lat="51.3837295" lon="-0.0202515" version="6" visible="true"/>
@@ -2433,6 +2435,7 @@
   <node id="9782448854" lat="51.5274209" lon="-0.096875" version="1" visible="true"/>
   <node id="3610864717" lat="51.4402755" lon="-0.36384" version="3" visible="true"/>
   <node id="6306624838" lat="51.532806" lon="-0.1281298" version="2" visible="true"/>
+  <node id="6632647209" lat="51.4811893" lon="-0.2471817" version="3" visible="true"/>
   <node id="256236589" lat="51.5576902" lon="0.0736777" version="4" visible="true"/>
   <node id="31387917" lat="51.5746061" lon="0.1813828" version="2" visible="true"/>
   <node id="60913640" lat="51.5917524" lon="-0.3295742" version="9" visible="true"/>
@@ -3337,9 +3340,9 @@
     <tag k="local_ref" v="A"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="4737194581" lat="51.4912929" lon="0.0713712" version="4" visible="true">
+  <node id="4737194581" lat="51.4912929" lon="0.0713712" version="5" visible="true">
     <tag k="bus" v="yes"/>
-    <tag k="name" v="Plumstead Road / Woolwich Public Market"/>
+    <tag k="name" v="Woolwich Station"/>
     <tag k="local_ref" v="K"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
@@ -8637,25 +8640,6 @@
     <nd ref="13808427"/>
     <nd ref="13808425"/>
   </way>
-  <way id="502884278" visible="true" version="4">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="maxwidth" v="7'0&quot;"/>
-    <tag k="cycleway" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369865484"/>
-    <nd ref="4369866905"/>
-    <nd ref="4369866910"/>
-    <nd ref="7851494286"/>
-    <nd ref="4369866906"/>
-    <nd ref="8865878648"/>
-    <nd ref="4369866896"/>
-  </way>
   <way id="841518206" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -8674,6 +8658,25 @@
     <nd ref="7851494300"/>
     <nd ref="7851494293"/>
     <nd ref="4369865484"/>
+  </way>
+  <way id="502884278" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxwidth" v="7'0&quot;"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369865484"/>
+    <nd ref="4369866905"/>
+    <nd ref="4369866910"/>
+    <nd ref="7851494286"/>
+    <nd ref="4369866906"/>
+    <nd ref="8865878648"/>
+    <nd ref="4369866896"/>
   </way>
   <way id="839168378" visible="true" version="2">
     <tag k="lit" v="yes"/>
@@ -9476,7 +9479,7 @@
     <nd ref="3698522"/>
     <nd ref="3785917949"/>
   </way>
-  <way id="238648134" visible="true" version="4">
+  <way id="238648134" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A2"/>
     <tag k="name" v="Shooters Hill Road"/>
@@ -9485,7 +9488,9 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk:left" v="separate"/>
     <tag k="cycleway:right" v="lane"/>
+    <tag k="sidewalk:right" v="no"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG198143"/>
     <nd ref="2623998114"/>
@@ -12742,6 +12747,24 @@
     <nd ref="8141661544"/>
     <nd ref="1559478942"/>
     <nd ref="30426603"/>
+  </way>
+  <way id="1074165926" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="B350"/>
+    <tag k="name" v="Lonsdale Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG233624"/>
+    <nd ref="20915180"/>
+    <nd ref="3193336815"/>
+    <nd ref="6632647209"/>
   </way>
   <way id="879299375" visible="true" version="1">
     <tag k="lit" v="yes"/>
@@ -16327,7 +16350,7 @@
     <nd ref="109401"/>
     <nd ref="8256227547"/>
   </way>
-  <way id="484421099" visible="true" version="3">
+  <way id="484421099" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="foot" v="no"/>
     <tag k="name" v="Prince Charles Road"/>
@@ -16337,6 +16360,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="no"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="separate"/>
     <tag k="overtaking" v="yes"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG198183"/>
@@ -16347,7 +16371,7 @@
     <nd ref="3692311"/>
     <nd ref="226287"/>
   </way>
-  <way id="329397007" visible="true" version="7">
+  <way id="329397007" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="foot" v="no"/>
     <tag k="name" v="Prince Charles Road"/>
@@ -16358,6 +16382,8 @@
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk:left" v="separate"/>
+    <tag k="sidewalk:right" v="no"/>
     <tag k="tiger:upload_uuid" v="RWG198183"/>
     <nd ref="226287"/>
     <nd ref="3362734642"/>
