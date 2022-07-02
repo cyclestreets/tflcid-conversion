@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9858858177" lat="51.4987205" lon="0.0608187" version="1" visible="true"/>
   <node id="9852917885" lat="51.4640656" lon="-0.2336813" version="1" visible="true"/>
   <node id="9850945613" lat="51.5349131" lon="-0.2048547" version="1" visible="true"/>
   <node id="9850747934" lat="51.6469815" lon="-0.0797681" version="1" visible="true"/>
@@ -21,6 +22,7 @@
   <node id="9841059534" lat="51.5841233" lon="-0.1161193" version="1" visible="true"/>
   <node id="9839107493" lat="51.5797993" lon="0.1152007" version="1" visible="true"/>
   <node id="9838997822" lat="51.4724138" lon="0.1198678" version="1" visible="true"/>
+  <node id="9838446300" lat="51.5320662" lon="0.0486691" version="1" visible="true"/>
   <node id="9838446280" lat="51.5645886" lon="0.0999878" version="1" visible="true"/>
   <node id="9838333250" lat="51.5727038" lon="0.0235846" version="1" visible="true"/>
   <node id="9836637940" lat="51.4581807" lon="-0.3408071" version="1" visible="true"/>
@@ -229,6 +231,7 @@
   </node>
   <node id="9385076006" lat="51.5803284" lon="0.1154759" version="1" visible="true"/>
   <node id="9383554918" lat="51.5286724" lon="-0.1635249" version="1" visible="true"/>
+  <node id="9380240178" lat="51.532139" lon="0.0490785" version="2" visible="true"/>
   <node id="9371519544" lat="51.5048988" lon="-0.083814" version="1" visible="true"/>
   <node id="9311222920" lat="51.486642" lon="0.0073531" version="2" visible="true"/>
   <node id="9284351562" lat="51.4782925" lon="-0.1034096" version="1" visible="true">
@@ -1880,6 +1883,7 @@
   <node id="668373468" lat="51.5591001" lon="-0.3350046" version="3" visible="true"/>
   <node id="652813947" lat="51.5570086" lon="-0.0918728" version="3" visible="true"/>
   <node id="648222892" lat="51.4103311" lon="-0.0868233" version="2" visible="true"/>
+  <node id="640080678" lat="51.498678" lon="0.0607075" version="6" visible="true"/>
   <node id="623136974" lat="51.4639508" lon="-0.038445" version="2" visible="true"/>
   <node id="623136973" lat="51.4640491" lon="-0.0383546" version="3" visible="true"/>
   <node id="621392904" lat="51.592638" lon="-0.1734508" version="4" visible="true"/>
@@ -2036,6 +2040,7 @@
   <node id="130202731" lat="51.5049444" lon="-0.0839183" version="9" visible="true"/>
   <node id="130202712" lat="51.5056632" lon="-0.0856468" version="9" visible="true"/>
   <node id="129994355" lat="51.5373378" lon="0.0060805" version="10" visible="true"/>
+  <node id="126549534" lat="51.5320859" lon="0.0487743" version="40" visible="true"/>
   <node id="110091227" lat="51.4776602" lon="-0.1296201" version="10" visible="true"/>
   <node id="110090282" lat="51.4810803" lon="-0.1277588" version="11" visible="true">
     <tag k="cycleway" v="asl"/>
@@ -2867,6 +2872,25 @@
     <tag k="tiger:upload_uuid" v="RWG155374"/>
     <nd ref="9838446280"/>
     <nd ref="26451146"/>
+  </way>
+  <way id="1071657848" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A124"/>
+    <tag k="name" v="Barking Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="parking:condition:left" v="no_parking"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG154969"/>
+    <nd ref="9380240178"/>
+    <nd ref="126549534"/>
+    <nd ref="9838446300"/>
   </way>
   <way id="655488400" visible="true" version="9">
     <tag k="lit" v="yes"/>
@@ -4566,6 +4590,26 @@
     <nd ref="32551149"/>
     <nd ref="25752041"/>
     <nd ref="1252826"/>
+  </way>
+  <way id="1074905977" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A117"/>
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="Pier Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="no"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="no"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG184624"/>
+    <nd ref="640080678"/>
+    <nd ref="9858858177"/>
   </way>
   <way id="826004212" visible="true" version="4">
     <tag k="lit" v="yes"/>
