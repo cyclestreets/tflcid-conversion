@@ -299,7 +299,7 @@
   <node id="33082400" lat="51.5658687" lon="-0.2838608" version="2" visible="true"/>
   <node id="765182733" lat="51.5131815" lon="-0.3902731" version="5" visible="true"/>
   <node id="31386200" lat="51.5656352" lon="0.1858041" version="4" visible="true"/>
-  <node id="88793279" lat="51.4867167" lon="0.0193522" version="16" visible="true"/>
+  <node id="88793279" lat="51.4867116" lon="0.0193698" version="17" visible="true"/>
   <node id="1759040743" lat="51.5256372" lon="-0.1055993" version="4" visible="true"/>
   <node id="4884127202" lat="51.5308732" lon="-0.1018442" version="4" visible="true"/>
   <node id="9451461644" lat="51.452491" lon="-0.2213797" version="1" visible="true"/>
@@ -787,7 +787,7 @@
   <node id="53330841" lat="51.588608" lon="-0.0728594" version="3" visible="true"/>
   <node id="8891238720" lat="51.5504259" lon="0.0469135" version="2" visible="true"/>
   <node id="305048949" lat="51.5508739" lon="-0.1387811" version="6" visible="true"/>
-  <node id="3782984850" lat="51.4867378" lon="0.0197673" version="5" visible="true"/>
+  <node id="3782984850" lat="51.4867361" lon="0.0198049" version="6" visible="true"/>
   <node id="9709664033" lat="51.4506033" lon="0.1550098" version="1" visible="true"/>
   <node id="25676494" lat="51.5077286" lon="-0.4727344" version="7" visible="true"/>
   <node id="124006536" lat="51.4281102" lon="-0.0773958" version="2" visible="true"/>
@@ -1600,6 +1600,7 @@
   <node id="7797257467" lat="51.5258307" lon="-0.0644599" version="2" visible="true"/>
   <node id="702785632" lat="51.3828534" lon="-0.0189681" version="2" visible="true"/>
   <node id="9836255027" lat="51.5432762" lon="-0.1996476" version="1" visible="true"/>
+  <node id="8076201917" lat="51.4866926" lon="0.0191813" version="3" visible="true"/>
   <node id="105916868" lat="51.4759376" lon="-0.0977074" version="5" visible="true"/>
   <node id="178964196" lat="51.5397052" lon="0.1005938" version="11" visible="true"/>
   <node id="1643721381" lat="51.5724516" lon="-0.1046356" version="5" visible="true"/>
@@ -2234,7 +2235,7 @@
   <node id="8568415412" lat="51.4178155" lon="-0.2810162" version="1" visible="true"/>
   <node id="4204662696" lat="51.5756011" lon="-0.1046391" version="2" visible="true"/>
   <node id="9738697938" lat="51.5453468" lon="-0.1553777" version="1" visible="true"/>
-  <node id="3698514" lat="51.4867267" lon="0.0194763" version="7" visible="true"/>
+  <node id="3698514" lat="51.486722" lon="0.0194787" version="8" visible="true"/>
   <node id="28800231" lat="51.5231474" lon="-0.0641422" version="7" visible="true"/>
   <node id="7734828035" lat="51.3756335" lon="-0.0946619" version="1" visible="true"/>
   <node id="6302460462" lat="51.4262794" lon="-0.0798903" version="3" visible="true"/>
@@ -2519,7 +2520,6 @@
   <node id="8250354855" lat="51.4863203" lon="0.0093336" version="1" visible="true"/>
   <node id="16573936" lat="51.4370801" lon="-0.4067953" version="7" visible="true"/>
   <node id="4305985585" lat="51.5067756" lon="-0.0880457" version="3" visible="true"/>
-  <node id="443828340" lat="51.4806615" lon="-0.0232333" version="17" visible="true"/>
   <node id="1333892245" lat="51.5599223" lon="-0.3340896" version="3" visible="true"/>
   <node id="6581893414" lat="51.5969405" lon="-0.1174082" version="3" visible="true"/>
   <node id="8796724488" lat="51.5066618" lon="-0.2667588" version="1" visible="true"/>
@@ -4420,18 +4420,6 @@
   <node id="9669471117" lat="51.486646" lon="-0.0359089" version="1" visible="true">
     <tag k="proposed:highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
-  </node>
-  <node id="2375118879" lat="51.4806407" lon="-0.0232332" version="6" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
-  </node>
-  <node id="9458053320" lat="51.480615" lon="-0.0232304" version="1" visible="true">
-    <tag k="traffic_calming" v="island"/>
-  </node>
-  <node id="5302772104" lat="51.4805962" lon="-0.0232284" version="3" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="5960269011" lat="51.4796671" lon="-0.0231312" version="1" visible="true">
     <tag k="bus" v="yes"/>
@@ -9469,7 +9457,24 @@
     <nd ref="8797033727"/>
     <nd ref="8797033726"/>
   </way>
-  <way id="374915465" visible="true" version="6">
+  <way id="238315233" visible="true" version="10">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A206"/>
+    <tag k="name" v="Woolwich Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="ref:GB:usrn" v="20801725"/>
+    <tag k="cycleway:left" v="track"/>
+    <tag k="cycleway:left:oneway" v="no"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG184687,RWG184676"/>
+    <nd ref="8076201917"/>
+    <nd ref="88793279"/>
+  </way>
+  <way id="374915465" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A206"/>
     <tag k="name" v="Woolwich Road"/>
@@ -10255,7 +10260,7 @@
     <nd ref="629255"/>
     <nd ref="7686156397"/>
   </way>
-  <way id="823280824" visible="true" version="3">
+  <way id="1075223603" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A2209"/>
     <tag k="name" v="Deptford Church Street"/>
@@ -10267,10 +10272,6 @@
     <tag k="tiger:upload_uuid" v="RWG198413"/>
     <nd ref="7686156397"/>
     <nd ref="7686127627"/>
-    <nd ref="5302772104"/>
-    <nd ref="9458053320"/>
-    <nd ref="2375118879"/>
-    <nd ref="443828340"/>
   </way>
   <way id="494303768" visible="true" version="3">
     <tag k="lit" v="yes"/>
