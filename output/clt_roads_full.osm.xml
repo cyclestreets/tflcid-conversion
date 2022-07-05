@@ -816,6 +816,7 @@
   <node id="45218535" lat="51.4237955" lon="0.0663811" version="4" visible="true"/>
   <node id="25676490" lat="51.5065431" lon="-0.470238" version="6" visible="true"/>
   <node id="5778121788" lat="51.6010882" lon="-0.3191076" version="5" visible="true"/>
+  <node id="9834000222" lat="51.5711759" lon="0.0235173" version="1" visible="true"/>
   <node id="32438605" lat="51.4908175" lon="0.0742828" version="11" visible="true"/>
   <node id="1937820043" lat="51.468821" lon="-0.1773043" version="4" visible="true"/>
   <node id="7756191435" lat="51.4373401" lon="-0.0248381" version="1" visible="true"/>
@@ -1006,6 +1007,7 @@
   <node id="5197360408" lat="51.4779132" lon="-0.1478725" version="3" visible="true"/>
   <node id="1490010877" lat="51.5819905" lon="-0.3339317" version="4" visible="true"/>
   <node id="779188529" lat="51.4805187" lon="-0.4285288" version="6" visible="true"/>
+  <node id="9834000223" lat="51.5710101" lon="0.0235096" version="1" visible="true"/>
   <node id="9555478248" lat="51.3741851" lon="-0.0966656" version="2" visible="true"/>
   <node id="6279835272" lat="51.5395655" lon="-0.1757033" version="3" visible="true"/>
   <node id="8563520084" lat="51.4428981" lon="-0.0295028" version="1" visible="true"/>
@@ -7573,6 +7575,24 @@
     <nd ref="9808298705"/>
     <nd ref="9808298704"/>
   </way>
+  <way id="1071676760" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A1008"/>
+    <tag k="name" v="Blake Hall Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="cycleway:both:lane" v="exclusive"/>
+    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG155230,RWG155240"/>
+    <nd ref="9834000223"/>
+    <nd ref="9834000222"/>
+  </way>
   <way id="886679392" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A503"/>
@@ -8658,25 +8678,6 @@
     <nd ref="13808427"/>
     <nd ref="13808425"/>
   </way>
-  <way id="841518206" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="oneway:bus" v="no"/>
-    <tag k="busway:right" v="lane"/>
-    <tag k="busway:right:oneway" v="-1"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369866896"/>
-    <nd ref="8865878649"/>
-    <nd ref="7851494300"/>
-    <nd ref="7851494293"/>
-    <nd ref="4369865484"/>
-  </way>
   <way id="502884278" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -8695,6 +8696,25 @@
     <nd ref="4369866906"/>
     <nd ref="8865878648"/>
     <nd ref="4369866896"/>
+  </way>
+  <way id="841518206" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="oneway:bus" v="no"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="busway:right:oneway" v="-1"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369866896"/>
+    <nd ref="8865878649"/>
+    <nd ref="7851494300"/>
+    <nd ref="7851494293"/>
+    <nd ref="4369865484"/>
   </way>
   <way id="839168378" visible="true" version="2">
     <tag k="lit" v="yes"/>

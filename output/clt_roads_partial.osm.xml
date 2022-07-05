@@ -1901,6 +1901,7 @@
   <node id="721151094" lat="51.4901612" lon="-0.2132179" version="6" visible="true"/>
   <node id="712706492" lat="51.5322764" lon="-0.1959572" version="3" visible="true"/>
   <node id="712706463" lat="51.5324937" lon="-0.1995147" version="6" visible="true"/>
+  <node id="703119491" lat="51.5194058" lon="-0.0100703" version="4" visible="true"/>
   <node id="698057474" lat="51.4937777" lon="-0.3195111" version="6" visible="true"/>
   <node id="694189997" lat="51.5102686" lon="-0.0715674" version="5" visible="true"/>
   <node id="685829799" lat="51.4570541" lon="-0.0242175" version="1" visible="true"/>
@@ -1917,6 +1918,8 @@
   <node id="652813947" lat="51.5570086" lon="-0.0918728" version="3" visible="true"/>
   <node id="648222892" lat="51.4103311" lon="-0.0868233" version="2" visible="true"/>
   <node id="641481577" lat="51.5229514" lon="-0.0102923" version="6" visible="true"/>
+  <node id="641481571" lat="51.5191788" lon="-0.0101162" version="5" visible="true"/>
+  <node id="641481569" lat="51.5196514" lon="-0.0100333" version="5" visible="true"/>
   <node id="640080678" lat="51.498678" lon="0.0607075" version="6" visible="true"/>
   <node id="623136974" lat="51.4639508" lon="-0.038445" version="2" visible="true"/>
   <node id="623136973" lat="51.4640491" lon="-0.0383546" version="3" visible="true"/>
@@ -9198,11 +9201,25 @@
     <nd ref="496128255"/>
     <nd ref="8655676705"/>
   </way>
-  <way id="204336544" visible="true" version="9">
+  <way id="204336229" visible="true" version="11">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Gillender Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="tiger:upload_uuid" v="RWG073420"/>
+    <nd ref="641481569"/>
+    <nd ref="703119491"/>
+    <nd ref="641481571"/>
+  </way>
+  <way id="204336544" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Gillender Street"/>
     <tag k="oneway" v="yes"/>
-    <tag k="bicycle" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
