@@ -55,6 +55,8 @@
   <node id="9823131292" lat="51.5313544" lon="-0.1209226" version="1" visible="true"/>
   <node id="9823131291" lat="51.5311211" lon="-0.1209659" version="1" visible="true"/>
   <node id="9823131285" lat="51.5132268" lon="-0.2069828" version="1" visible="true"/>
+  <node id="9822793449" lat="51.3874223" lon="-0.2579819" version="1" visible="true"/>
+  <node id="9822793448" lat="51.3872279" lon="-0.257674" version="1" visible="true"/>
   <node id="9822267114" lat="51.4688667" lon="-0.1060392" version="1" visible="true"/>
   <node id="9814224935" lat="51.4370441" lon="-0.1806977" version="1" visible="true"/>
   <node id="9814224934" lat="51.4367648" lon="-0.1802928" version="1" visible="true"/>
@@ -360,6 +362,9 @@
   <node id="8952854736" lat="51.4905033" lon="-0.2132213" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="8930812877" lat="51.3896423" lon="-0.2617516" version="1" visible="true">
+    <tag k="traffic_calming" v="hump"/>
   </node>
   <node id="8907540633" lat="51.528648" lon="-0.1634862" version="1" visible="true">
     <tag k="cycleway" v="asl"/>
@@ -798,6 +803,11 @@
     <tag k="direction" v="backward"/>
   </node>
   <node id="7676726226" lat="51.4431335" lon="-0.1892318" version="2" visible="true"/>
+  <node id="7659424310" lat="51.3897884" lon="-0.2619378" version="2" visible="true"/>
+  <node id="7659420121" lat="51.3870886" lon="-0.2574787" version="1" visible="true"/>
+  <node id="7659420120" lat="51.3872777" lon="-0.2577482" version="2" visible="true">
+    <tag k="traffic_calming" v="table"/>
+  </node>
   <node id="7609419146" lat="51.4928767" lon="-0.3697416" version="1" visible="true"/>
   <node id="7609419130" lat="51.4927954" lon="-0.3698809" version="1" visible="true"/>
   <node id="7608796793" lat="51.5112274" lon="-0.3663932" version="1" visible="true"/>
@@ -1810,6 +1820,7 @@
   <node id="1559478913" lat="51.4620732" lon="-0.2918504" version="7" visible="true"/>
   <node id="1550589717" lat="51.4620955" lon="-0.2920507" version="11" visible="true"/>
   <node id="1550589633" lat="51.4620505" lon="-0.291639" version="10" visible="true"/>
+  <node id="1539280388" lat="51.3871658" lon="-0.2575815" version="4" visible="true"/>
   <node id="1531593359" lat="51.530555" lon="-0.1652038" version="2" visible="true"/>
   <node id="1531593357" lat="51.5320247" lon="-0.1646458" version="3" visible="true"/>
   <node id="1517525696" lat="51.3839143" lon="-0.2908792" version="2" visible="true"/>
@@ -2063,6 +2074,7 @@
   <node id="242708609" lat="51.5876499" lon="-0.2357284" version="2" visible="true"/>
   <node id="242708608" lat="51.5874102" lon="-0.2347567" version="2" visible="true"/>
   <node id="242708583" lat="51.5878659" lon="-0.2373795" version="3" visible="true"/>
+  <node id="241717757" lat="51.3896936" lon="-0.2618241" version="4" visible="true"/>
   <node id="240009868" lat="51.4163987" lon="-0.2551224" version="5" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
@@ -2764,6 +2776,19 @@
     <nd ref="227420283"/>
     <nd ref="9550419130"/>
   </way>
+  <way id="1070322356" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="South Lane"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG206865"/>
+    <nd ref="7659424310"/>
+    <nd ref="241717757"/>
+    <nd ref="8930812877"/>
+  </way>
   <way id="1073109231" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Lower Ham Road"/>
@@ -2853,6 +2878,32 @@
     <nd ref="7741543455"/>
     <nd ref="240009454"/>
   </way>
+  <way id="1073092449" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="South Lane"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG123768"/>
+    <nd ref="9822793448"/>
+    <nd ref="1539280388"/>
+    <nd ref="7659420121"/>
+  </way>
+  <way id="1073092449" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="South Lane"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG277974"/>
+    <nd ref="9822793448"/>
+    <nd ref="1539280388"/>
+    <nd ref="7659420121"/>
+  </way>
   <way id="634307656" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1008"/>
@@ -2910,6 +2961,19 @@
     <nd ref="8392333571"/>
     <nd ref="6879971719"/>
     <nd ref="9814224919"/>
+  </way>
+  <way id="1070322352" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="South Lane"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG277974"/>
+    <nd ref="9822793449"/>
+    <nd ref="7659420120"/>
+    <nd ref="9822793448"/>
   </way>
   <way id="1072262328" visible="true" version="1">
     <tag k="lit" v="yes"/>
