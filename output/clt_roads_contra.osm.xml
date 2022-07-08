@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9873179200" lat="51.5425236" lon="-0.1598369" version="1" visible="true"/>
   <node id="9856119641" lat="51.5142838" lon="-0.0947149" version="1" visible="true">
     <tag k="sidewalk" v="yes"/>
     <tag k="continuous" v="yes"/>
@@ -12,10 +13,11 @@
     <tag k="sidewalk" v="yes"/>
     <tag k="continuous" v="yes"/>
   </node>
-  <node id="9848206871" lat="51.5432606" lon="0.0089122" version="1" visible="true">
+  <node id="9848206871" lat="51.5432606" lon="0.0089122" version="2" visible="true">
     <tag k="kerb" v="flush"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="no"/>
     <tag k="crossing:island" v="no"/>
     <tag k="traffic_calming" v="table"/>
   </node>
@@ -2784,7 +2786,7 @@
   <node id="723053993" lat="51.5408743" lon="-0.1736559" version="1" visible="true"/>
   <node id="702278274" lat="51.5406503" lon="-0.1736986" version="1" visible="true"/>
   <node id="702278264" lat="51.5409058" lon="-0.17365" version="1" visible="true"/>
-  <node id="702271794" lat="51.5425226" lon="-0.15986" version="3" visible="true"/>
+  <node id="702271794" lat="51.5425234" lon="-0.159841" version="4" visible="true"/>
   <node id="701744562" lat="51.545347" lon="-0.0507412" version="2" visible="true"/>
   <node id="701445905" lat="51.5469148" lon="-0.051005" version="3" visible="true"/>
   <node id="701445848" lat="51.5466908" lon="-0.0509639" version="6" visible="true"/>
@@ -5539,7 +5541,7 @@
     <nd ref="649796"/>
     <nd ref="6250854103"/>
   </way>
-  <way id="604354007" visible="true" version="3">
+  <way id="604354007" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Deanery Road"/>
     <tag k="oneway" v="yes"/>
@@ -5547,6 +5549,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="ref:GB:usrn" v="22201371"/>
+    <tag k="lane_markings" v="no"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG156245"/>
@@ -8367,7 +8370,7 @@
     <nd ref="227803"/>
     <nd ref="5383984932"/>
   </way>
-  <way id="797261133" visible="true" version="3">
+  <way id="797261133" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="King Henry's Road"/>
     <tag k="lanes" v="2"/>
@@ -8389,6 +8392,7 @@
     <nd ref="1262613161"/>
     <nd ref="80839101"/>
     <nd ref="1262613088"/>
+    <nd ref="9873179200"/>
     <nd ref="702271794"/>
     <nd ref="1262612945"/>
     <nd ref="877105292"/>
@@ -9636,16 +9640,17 @@
     <nd ref="9693974377"/>
     <nd ref="9846850973"/>
   </way>
-  <way id="1046709714" visible="true" version="2">
+  <way id="1046709714" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Powerscroft Road"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="shared"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:left" v="shared_lane"/>
+    <tag k="cycleway:left:lane" v="pictogram"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG097850"/>
     <nd ref="282832077"/>
@@ -10906,7 +10911,7 @@
     <nd ref="5211220848"/>
     <nd ref="10529810"/>
   </way>
-  <way id="30692658" visible="true" version="19">
+  <way id="30692658" visible="true" version="20">
     <tag k="lit" v="yes"/>
     <tag k="rcn" v="proposed"/>
     <tag k="name" v="Compton Road"/>
@@ -10919,6 +10924,7 @@
     <tag k="postal_code" v="N1"/>
     <tag k="cycleway:left" v="no"/>
     <tag k="cycleway:left:width" v="1.25"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG150955"/>
     <nd ref="6431788482"/>
