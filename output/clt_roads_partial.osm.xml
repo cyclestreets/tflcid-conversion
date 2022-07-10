@@ -46,6 +46,7 @@
   <node id="9835697367" lat="51.6714219" lon="-0.0629162" version="1" visible="true"/>
   <node id="9833282452" lat="51.5460953" lon="-0.1226161" version="1" visible="true"/>
   <node id="9833282451" lat="51.5459165" lon="-0.1232423" version="1" visible="true"/>
+  <node id="9832985752" lat="51.4932398" lon="-0.2483083" version="1" visible="true"/>
   <node id="9829161734" lat="51.5723571" lon="0.0235728" version="1" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="direction" v="backward"/>
@@ -254,6 +255,7 @@
   <node id="9383554918" lat="51.5286724" lon="-0.1635249" version="1" visible="true"/>
   <node id="9380240178" lat="51.532139" lon="0.0490785" version="2" visible="true"/>
   <node id="9371519544" lat="51.5048988" lon="-0.083814" version="1" visible="true"/>
+  <node id="9335745063" lat="51.4932053" lon="-0.2485456" version="1" visible="true"/>
   <node id="9311222920" lat="51.486642" lon="0.0073531" version="2" visible="true"/>
   <node id="9284351562" lat="51.4782925" lon="-0.1034096" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -352,6 +354,9 @@
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="backward"/>
   </node>
+  <node id="9061296836" lat="51.4931637" lon="-0.2488028" version="1" visible="true"/>
+  <node id="9061296833" lat="51.4931123" lon="-0.2491662" version="1" visible="true"/>
+  <node id="9061296831" lat="51.4931218" lon="-0.2491043" version="1" visible="true"/>
   <node id="9044472699" lat="51.5801229" lon="0.1153494" version="1" visible="true"/>
   <node id="9019430851" lat="51.4735095" lon="-0.1606166" version="2" visible="true">
     <tag k="highway" v="crossing"/>
@@ -2068,6 +2073,7 @@
   <node id="243832567" lat="51.4541291" lon="0.0220369" version="5" visible="true"/>
   <node id="243832564" lat="51.45393" lon="0.0233546" version="4" visible="true"/>
   <node id="243715258" lat="51.4163855" lon="-0.2549301" version="3" visible="true"/>
+  <node id="243464130" lat="51.4932131" lon="-0.2484866" version="7" visible="true"/>
   <node id="242711545" lat="51.5873503" lon="-0.2345141" version="2" visible="true"/>
   <node id="242708611" lat="51.5878427" lon="-0.2368699" version="2" visible="true"/>
   <node id="242708610" lat="51.5877896" lon="-0.2364358" version="4" visible="true"/>
@@ -2139,6 +2145,7 @@
   <node id="71117488" lat="51.5255238" lon="-0.3739204" version="2" visible="true"/>
   <node id="71116517" lat="51.5262218" lon="-0.373708" version="4" visible="true"/>
   <node id="71115606" lat="51.5220065" lon="-0.3747347" version="6" visible="true"/>
+  <node id="68372749" lat="51.4931701" lon="-0.248765" version="8" visible="true"/>
   <node id="68368458" lat="51.4929438" lon="-0.2697193" version="10" visible="true"/>
   <node id="64694456" lat="51.5053528" lon="-0.0848803" version="11" visible="true"/>
   <node id="64640379" lat="51.4641207" lon="-0.0382846" version="7" visible="true"/>
@@ -5793,6 +5800,24 @@
     <nd ref="33228328"/>
     <nd ref="2137918470"/>
   </way>
+  <way id="1011895744" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A315"/>
+    <tag k="name" v="Chiswick High Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="separate"/>
+    <tag k="cycleway:right:oneway" v="no"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG234231"/>
+    <nd ref="9061296833"/>
+    <nd ref="9061296831"/>
+    <nd ref="9061296836"/>
+    <nd ref="68372749"/>
+    <nd ref="9335745063"/>
+  </way>
   <way id="1068563485" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B466"/>
@@ -5860,6 +5885,22 @@
     <nd ref="7765754074"/>
     <nd ref="7120432140"/>
     <nd ref="5600677458"/>
+  </way>
+  <way id="1071541954" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A315"/>
+    <tag k="name" v="Chiswick High Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="separate"/>
+    <tag k="cycleway:right:oneway" v="no"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG234231"/>
+    <nd ref="9335745063"/>
+    <nd ref="243464130"/>
+    <nd ref="9832985752"/>
   </way>
   <way id="635839006" visible="true" version="3">
     <tag k="name" v="Nestle's Avenue"/>
