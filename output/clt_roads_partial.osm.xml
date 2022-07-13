@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9881542820" lat="51.4986151" lon="-0.1117147" version="1" visible="true"/>
   <node id="9861530233" lat="51.3675767" lon="-0.1215769" version="1" visible="true"/>
   <node id="9861530232" lat="51.3675868" lon="-0.1212112" version="1" visible="true"/>
   <node id="9861530112" lat="51.3676688" lon="-0.1158881" version="1" visible="true">
@@ -255,6 +256,8 @@
   <node id="9383554918" lat="51.5286724" lon="-0.1635249" version="1" visible="true"/>
   <node id="9380240178" lat="51.532139" lon="0.0490785" version="2" visible="true"/>
   <node id="9371519544" lat="51.5048988" lon="-0.083814" version="1" visible="true"/>
+  <node id="9356469984" lat="51.4983137" lon="-0.1103968" version="1" visible="true"/>
+  <node id="9356469983" lat="51.4983189" lon="-0.1105141" version="1" visible="true"/>
   <node id="9335745063" lat="51.4932053" lon="-0.2485456" version="1" visible="true"/>
   <node id="9311222920" lat="51.486642" lon="0.0073531" version="2" visible="true"/>
   <node id="9284351562" lat="51.4782925" lon="-0.1034096" version="1" visible="true">
@@ -451,6 +454,7 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="8891192327" lat="51.5022709" lon="-0.1650941" version="1" visible="true"/>
+  <node id="8883436070" lat="51.4984769" lon="-0.1112331" version="1" visible="true"/>
   <node id="8836125438" lat="51.5294478" lon="-0.1646649" version="1" visible="true"/>
   <node id="8807202570" lat="51.5636853" lon="-0.3662993" version="1" visible="true"/>
   <node id="8797033720" lat="51.4845728" lon="0.0027707" version="1" visible="true"/>
@@ -1062,9 +1066,12 @@
   </node>
   <node id="6368163959" lat="51.4589377" lon="-0.2094082" version="2" visible="true"/>
   <node id="6368163945" lat="51.4588856" lon="-0.2092742" version="2" visible="true"/>
+  <node id="6367876329" lat="51.4983029" lon="-0.1101011" version="3" visible="true"/>
   <node id="6336583354" lat="51.4925735" lon="-0.3180028" version="3" visible="true"/>
   <node id="6298271529" lat="51.4866564" lon="0.0223857" version="4" visible="true"/>
   <node id="6292547107" lat="51.610031" lon="-0.2785977" version="5" visible="true"/>
+  <node id="6280097547" lat="51.4984155" lon="-0.1110113" version="3" visible="true"/>
+  <node id="6280097545" lat="51.4985541" lon="-0.1115124" version="3" visible="true"/>
   <node id="6276155079" lat="51.552606" lon="-0.1679687" version="4" visible="true"/>
   <node id="6272019013" lat="51.6358376" lon="-0.0853944" version="3" visible="true"/>
   <node id="6272019012" lat="51.6358375" lon="-0.0860372" version="5" visible="true"/>
@@ -1085,6 +1092,7 @@
   </node>
   <node id="6214472387" lat="51.552636" lon="-0.1680307" version="7" visible="true"/>
   <node id="6210408387" lat="51.5110048" lon="-0.2053551" version="3" visible="true"/>
+  <node id="6143363879" lat="51.4983092" lon="-0.1102675" version="5" visible="true"/>
   <node id="6040231519" lat="51.4551542" lon="0.0168947" version="3" visible="true"/>
   <node id="6027844306" lat="51.5754564" lon="-0.0297552" version="4" visible="true">
     <tag k="highway" v="crossing"/>
@@ -1204,6 +1212,18 @@
     <tag k="name" v="Barnby Street"/>
     <tag k="direction" v="backward"/>
     <tag k="local_ref" v="H"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="5424175767" lat="51.4985364" lon="-0.1114484" version="3" visible="true">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Lambeth North Station"/>
+    <tag k="local_ref" v="B"/>
+    <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="5424175766" lat="51.4984678" lon="-0.1112003" version="3" visible="true">
+    <tag k="bus" v="yes"/>
+    <tag k="name" v="Lambeth North Station"/>
+    <tag k="local_ref" v="C"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
   <node id="5411246583" lat="51.4928823" lon="-0.271038" version="3" visible="true"/>
@@ -1591,6 +1611,10 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
     <tag k="crossing:island" v="no"/>
+  </node>
+  <node id="2493745781" lat="51.4986874" lon="-0.1120025" version="7" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="2483507591" lat="51.5295343" lon="-0.0148777" version="9" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -2042,6 +2066,8 @@
     <tag k="crossing:island" v="no"/>
   </node>
   <node id="267339187" lat="51.4629445" lon="-0.1347772" version="8" visible="true"/>
+  <node id="264837596" lat="51.4983579" lon="-0.1107594" version="6" visible="true"/>
+  <node id="264836658" lat="51.4986298" lon="-0.1117634" version="8" visible="true"/>
   <node id="262556482" lat="51.5648426" lon="-0.3625723" version="4" visible="true"/>
   <node id="261348563" lat="51.4778839" lon="-0.1294865" version="7" visible="true"/>
   <node id="261348560" lat="51.4792211" lon="-0.1286916" version="5" visible="true"/>
@@ -5489,16 +5515,6 @@
     <nd ref="32351879"/>
     <nd ref="9801367268"/>
   </way>
-  <way id="222900708" visible="true" version="4">
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG237811"/>
-    <nd ref="32341348"/>
-    <nd ref="2318443337"/>
-    <nd ref="2338440319"/>
-  </way>
   <way id="222900707" visible="true" version="4">
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
@@ -5515,6 +5531,16 @@
     <tag k="tiger:upload_uuid" v="RWG237811"/>
     <nd ref="32341348"/>
     <nd ref="2878610316"/>
+    <nd ref="2338440319"/>
+  </way>
+  <way id="222900708" visible="true" version="4">
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG237811"/>
+    <nd ref="32341348"/>
+    <nd ref="2318443337"/>
     <nd ref="2338440319"/>
   </way>
   <way id="226747963" visible="true" version="8">
@@ -8803,6 +8829,141 @@
     <tag k="tiger:upload_uuid" v="RWG042706"/>
     <nd ref="1106127150"/>
     <nd ref="9844473506"/>
+  </way>
+  <way id="241783928" visible="true" version="13">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A302"/>
+    <tag k="name" v="Westminster Bridge Road"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="share_busway"/>
+    <tag k="lanes:forward" v="2"/>
+    <tag k="lanes:backward" v="2"/>
+    <tag k="bus:lanes:forward" v="designated|"/>
+    <tag k="lanes:bus:forward" v="1"/>
+    <tag k="bus:lanes:backward" v="designated|"/>
+    <tag k="lanes:bus:backward" v="1"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG055933"/>
+    <nd ref="9881542820"/>
+    <nd ref="6280097545"/>
+    <nd ref="5424175767"/>
+    <nd ref="8883436070"/>
+    <nd ref="5424175766"/>
+    <nd ref="6280097547"/>
+    <nd ref="264837596"/>
+    <nd ref="9356469983"/>
+    <nd ref="9356469984"/>
+    <nd ref="6143363879"/>
+    <nd ref="6367876329"/>
+  </way>
+  <way id="241783928" visible="true" version="13">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A302"/>
+    <tag k="name" v="Westminster Bridge Road"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="share_busway"/>
+    <tag k="lanes:forward" v="2"/>
+    <tag k="lanes:backward" v="2"/>
+    <tag k="bus:lanes:forward" v="designated|"/>
+    <tag k="lanes:bus:forward" v="1"/>
+    <tag k="bus:lanes:backward" v="designated|"/>
+    <tag k="lanes:bus:backward" v="1"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG055933"/>
+    <nd ref="9881542820"/>
+    <nd ref="6280097545"/>
+    <nd ref="5424175767"/>
+    <nd ref="8883436070"/>
+    <nd ref="5424175766"/>
+    <nd ref="6280097547"/>
+    <nd ref="264837596"/>
+    <nd ref="9356469983"/>
+    <nd ref="9356469984"/>
+    <nd ref="6143363879"/>
+    <nd ref="6367876329"/>
+  </way>
+  <way id="241783928" visible="true" version="13">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A302"/>
+    <tag k="name" v="Westminster Bridge Road"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="share_busway"/>
+    <tag k="lanes:forward" v="2"/>
+    <tag k="lanes:backward" v="2"/>
+    <tag k="bus:lanes:forward" v="designated|"/>
+    <tag k="lanes:bus:forward" v="1"/>
+    <tag k="bus:lanes:backward" v="designated|"/>
+    <tag k="lanes:bus:backward" v="1"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG055935"/>
+    <nd ref="9881542820"/>
+    <nd ref="6280097545"/>
+    <nd ref="5424175767"/>
+    <nd ref="8883436070"/>
+    <nd ref="5424175766"/>
+    <nd ref="6280097547"/>
+    <nd ref="264837596"/>
+    <nd ref="9356469983"/>
+    <nd ref="9356469984"/>
+    <nd ref="6143363879"/>
+    <nd ref="6367876329"/>
+  </way>
+  <way id="241783928" visible="true" version="13">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A302"/>
+    <tag k="name" v="Westminster Bridge Road"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="share_busway"/>
+    <tag k="lanes:forward" v="2"/>
+    <tag k="lanes:backward" v="2"/>
+    <tag k="bus:lanes:forward" v="designated|"/>
+    <tag k="lanes:bus:forward" v="1"/>
+    <tag k="bus:lanes:backward" v="designated|"/>
+    <tag k="lanes:bus:backward" v="1"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG055935"/>
+    <nd ref="9881542820"/>
+    <nd ref="6280097545"/>
+    <nd ref="5424175767"/>
+    <nd ref="8883436070"/>
+    <nd ref="5424175766"/>
+    <nd ref="6280097547"/>
+    <nd ref="264837596"/>
+    <nd ref="9356469983"/>
+    <nd ref="9356469984"/>
+    <nd ref="6143363879"/>
+    <nd ref="6367876329"/>
+  </way>
+  <way id="1077749705" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A302"/>
+    <tag k="name" v="Westminster Bridge Road"/>
+    <tag k="lanes" v="4"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="lanes:forward" v="2"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="lanes:backward" v="2"/>
+    <tag k="bus:lanes:forward" v="designated|"/>
+    <tag k="lanes:bus:forward" v="1"/>
+    <tag k="tiger:upload_uuid" v="RWG055935"/>
+    <nd ref="2493745781"/>
+    <nd ref="264836658"/>
+    <nd ref="9881542820"/>
   </way>
   <way id="853099406" visible="true" version="2">
     <tag k="lit" v="yes"/>
