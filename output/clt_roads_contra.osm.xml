@@ -1960,10 +1960,11 @@
   <node id="4598956657" lat="51.5392682" lon="-0.1410875" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
   </node>
-  <node id="4534666471" lat="51.5431526" lon="-0.0426359" version="5" visible="true">
+  <node id="4534666471" lat="51.5431526" lon="-0.0426359" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="button_operated" v="yes"/>
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="4476093325" lat="51.5439457" lon="-0.1825052" version="1" visible="true"/>
@@ -11610,30 +11611,34 @@
     <nd ref="5492447663"/>
     <nd ref="5492447668"/>
   </way>
-  <way id="584351058" visible="true" version="7">
+  <way id="584351058" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Northdown Street"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:both" v="no"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG003521"/>
     <nd ref="23050059"/>
     <nd ref="23050095"/>
   </way>
-  <way id="824211199" visible="true" version="2">
+  <way id="824211199" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Northdown Street"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG003521"/>
     <nd ref="23050095"/>
     <nd ref="427575188"/>
   </way>
-  <way id="36776003" visible="true" version="10">
+  <way id="36776003" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Northdown Street"/>
     <tag k="lanes" v="2"/>
@@ -11641,6 +11646,8 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG003521"/>
     <nd ref="23050059"/>
