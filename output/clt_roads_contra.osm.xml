@@ -6129,12 +6129,16 @@
     <nd ref="1763989868"/>
     <nd ref="60307044"/>
   </way>
-  <way id="8758610" visible="true" version="6">
+  <way id="8758610" visible="true" version="10">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Bisenden Road"/>
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="smoothness" v="good"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG219505"/>
@@ -8840,9 +8844,10 @@
     <nd ref="6071938171"/>
     <nd ref="5348457827"/>
   </way>
-  <way id="1006641974" visible="true" version="1">
+  <way id="1006641974" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Tavistock Place"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
@@ -8854,9 +8859,10 @@
     <nd ref="9287381293"/>
     <nd ref="9287381295"/>
   </way>
-  <way id="1006641976" visible="true" version="1">
+  <way id="1006641976" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Tavistock Place"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
