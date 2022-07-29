@@ -75,11 +75,12 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="9339208677" lat="51.4550093" lon="0.1527146" version="1" visible="true">
+  <node id="9339208677" lat="51.4550093" lon="0.1527146" version="2" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+    <tag k="button_operated" v="yes"/>
     <tag k="crossing:island" v="no"/>
   </node>
   <node id="9338855692" lat="51.4545848" lon="0.1504484" version="1" visible="true"/>
@@ -5041,7 +5042,7 @@
     <nd ref="1535256986"/>
     <nd ref="108785"/>
   </way>
-  <way id="245380686" visible="true" version="11">
+  <way id="245380686" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A302"/>
     <tag k="name" v="Great George Street"/>
