@@ -238,6 +238,7 @@
   <node id="9550970988" lat="51.4566436" lon="-0.0141456" version="1" visible="true"/>
   <node id="9550419130" lat="51.4061692" lon="-0.270099" version="1" visible="true"/>
   <node id="9550419127" lat="51.4061616" lon="-0.2711663" version="1" visible="true"/>
+  <node id="9488064380" lat="51.485688" lon="-0.1453565" version="2" visible="true"/>
   <node id="9488014455" lat="51.4830763" lon="-0.1495102" version="2" visible="true"/>
   <node id="9487922779" lat="51.4709047" lon="-0.164618" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -937,6 +938,11 @@
   <node id="7609419146" lat="51.4928767" lon="-0.3697416" version="1" visible="true"/>
   <node id="7609419130" lat="51.4927954" lon="-0.3698809" version="1" visible="true"/>
   <node id="7608796793" lat="51.5112274" lon="-0.3663932" version="1" visible="true"/>
+  <node id="7602731090" lat="51.4856973" lon="-0.1454487" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
   <node id="7567658781" lat="51.5458811" lon="-0.1339646" version="3" visible="true"/>
   <node id="7474741050" lat="51.3936927" lon="-0.2531992" version="1" visible="true"/>
   <node id="7473386458" lat="51.3908521" lon="-0.252922" version="2" visible="true">
@@ -10830,6 +10836,21 @@
     <nd ref="12197627"/>
     <nd ref="8899534246"/>
     <nd ref="12197628"/>
+  </way>
+  <way id="1029127199" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A3212"/>
+    <tag k="name" v="Grosvenor Road"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="track"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG056194"/>
+    <nd ref="7602731090"/>
+    <nd ref="9488064380"/>
   </way>
   <way id="1070252743" visible="true" version="1">
     <tag k="lit" v="yes"/>
