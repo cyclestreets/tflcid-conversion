@@ -4,6 +4,8 @@
 
 These scripts compare Transport for London's Cycle Infrastructure Database with existing OpenStreetMap data, and output the differences in variously categorised files.
 
+The [TfL_Cycling_Infrastructure_Database OSM Wiki page](https://wiki.openstreetmap.org/wiki/TfL_Cycling_Infrastructure_Database) has full details about the CID and the conversion project.
+
 The readers work by comparing against existing OSM data, as loaded into a PostGIS database. There is a separate Ruby script for each type of data. In turn, most scripts write out several files, organised by the type of editing work that needs doing.
 
 Currently all output is in GeoJSON format, for easy visualisation in packages like QGIS. It's envisaged that this may change depending on the choice of conflation/editing tool.
