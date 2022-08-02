@@ -825,7 +825,7 @@
   <node id="4253563711" lat="51.5676151" lon="-0.0326446" version="5" visible="true"/>
   <node id="4253563710" lat="51.5674762" lon="-0.033003" version="5" visible="true"/>
   <node id="4253563709" lat="51.5671928" lon="-0.033691" version="7" visible="true"/>
-  <node id="4112540071" lat="51.5007096" lon="-0.1180364" version="3" visible="true">
+  <node id="4112540071" lat="51.5007255" lon="-0.118025" version="4" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="London Eye"/>
     <tag k="public_transport" v="stop_position"/>
@@ -952,8 +952,7 @@
   </node>
   <node id="3085109067" lat="51.52658" lon="-0.1124072" version="1" visible="true"/>
   <node id="3085109065" lat="51.5265654" lon="-0.112444" version="1" visible="true"/>
-  <node id="3070670618" lat="51.5007208" lon="-0.118333" version="3" visible="true"/>
-  <node id="3070670617" lat="51.500718" lon="-0.118271" version="3" visible="true"/>
+  <node id="3070670617" lat="51.5007334" lon="-0.1182656" version="4" visible="true"/>
   <node id="3062596145" lat="51.5049235" lon="-0.1031047" version="2" visible="true"/>
   <node id="3062596141" lat="51.504839" lon="-0.1030981" version="1" visible="true"/>
   <node id="3018806129" lat="51.5368028" lon="-0.1463881" version="9" visible="true">
@@ -979,10 +978,6 @@
   <node id="2701969935" lat="51.5109406" lon="-0.0668125" version="3" visible="true"/>
   <node id="2638606914" lat="51.5111146" lon="-0.0640526" version="3" visible="true"/>
   <node id="2638606860" lat="51.5110746" lon="-0.0652153" version="3" visible="true"/>
-  <node id="2623951853" lat="51.5007313" lon="-0.1185033" version="6" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="forward"/>
-  </node>
   <node id="2592919475" lat="51.5385441" lon="-0.1356286" version="1" visible="true">
     <tag k="traffic_calming" v="cushion"/>
   </node>
@@ -1401,12 +1396,6 @@
   <node id="211649456" lat="51.5033873" lon="-0.1529724" version="6" visible="true"/>
   <node id="207640134" lat="51.5033115" lon="-0.1531332" version="7" visible="true"/>
   <node id="207640121" lat="51.5031329" lon="-0.1541792" version="10" visible="true"/>
-  <node id="203043798" lat="51.5007367" lon="-0.1186108" version="21" visible="true">
-    <tag k="bicycle" v="yes"/>
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="toucan"/>
-  </node>
   <node id="194614133" lat="51.3676359" lon="-0.1270808" version="5" visible="true"/>
   <node id="194614094" lat="51.3676757" lon="-0.1252368" version="4" visible="true"/>
   <node id="194613922" lat="51.3676336" lon="-0.1278231" version="5" visible="true"/>
@@ -1596,11 +1585,12 @@
   <node id="106969" lat="51.5110419" lon="-0.0609999" version="12" visible="true"/>
   <node id="106940" lat="51.5115598" lon="-0.0436059" version="6" visible="true"/>
   <node id="106935" lat="51.5115235" lon="-0.0442755" version="8" visible="true"/>
-  <node id="104387" lat="51.5006999" lon="-0.1177675" version="11" visible="true">
+  <node id="104387" lat="51.5007103" lon="-0.1177729" version="12" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <way id="867311262" visible="true" version="4">
     <tag k="lit" v="yes"/>
@@ -5300,23 +5290,6 @@
     <nd ref="7530393606"/>
     <nd ref="1618016684"/>
     <nd ref="224688"/>
-  </way>
-  <way id="524789884" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A302"/>
-    <tag k="name" v="Westminster Bridge Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="separate"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="tiger:upload_uuid" v="RWG153735"/>
-    <nd ref="3070670617"/>
-    <nd ref="3070670618"/>
-    <nd ref="2623951853"/>
-    <nd ref="203043798"/>
   </way>
   <way id="216997282" visible="true" version="11">
     <tag k="lit" v="yes"/>

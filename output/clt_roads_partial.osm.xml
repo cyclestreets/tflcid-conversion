@@ -2002,6 +2002,8 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
   </node>
+  <node id="1960741963" lat="51.4971782" lon="-0.1196679" version="3" visible="true"/>
+  <node id="1960741960" lat="51.4958285" lon="-0.1205608" version="3" visible="true"/>
   <node id="1959257352" lat="51.4848194" lon="-0.2553315" version="4" visible="true"/>
   <node id="1955532150" lat="51.4832648" lon="-0.1495506" version="6" visible="true"/>
   <node id="1936062451" lat="51.501483" lon="-0.124077" version="5" visible="true"/>
@@ -2140,6 +2142,7 @@
   <node id="1153946250" lat="51.5260883" lon="-0.1065561" version="3" visible="true"/>
   <node id="1138944241" lat="51.4771585" lon="-0.216169" version="5" visible="true"/>
   <node id="1137945268" lat="51.5272004" lon="-0.1612222" version="3" visible="true"/>
+  <node id="1132182330" lat="51.4956389" lon="-0.1206534" version="6" visible="true"/>
   <node id="1106127150" lat="51.4757418" lon="-0.1937235" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing:island" v="yes"/>
@@ -2488,6 +2491,7 @@
   </node>
   <node id="33964481" lat="51.4924434" lon="-0.3178624" version="4" visible="true"/>
   <node id="33826839" lat="51.4725275" lon="-0.3849435" version="4" visible="true"/>
+  <node id="33674199" lat="51.4970171" lon="-0.1197774" version="7" visible="true"/>
   <node id="33381476" lat="51.4613223" lon="-0.393133" version="2" visible="true"/>
   <node id="33229909" lat="51.4734534" lon="-0.1607744" version="8" visible="true"/>
   <node id="33228753" lat="51.4786665" lon="-0.1290204" version="6" visible="true"/>
@@ -2609,6 +2613,7 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
+  <node id="25473018" lat="51.4960161" lon="-0.1204472" version="5" visible="true"/>
   <node id="25471075" lat="51.4584919" lon="-0.3406556" version="1" visible="true"/>
   <node id="25471058" lat="51.4590821" lon="-0.3402826" version="5" visible="true"/>
   <node id="25454059" lat="51.55144" lon="-0.1662876" version="6" visible="true"/>
@@ -2862,6 +2867,8 @@
   <node id="109170" lat="51.5361226" lon="-0.1467423" version="9" visible="true"/>
   <node id="108383" lat="51.5063539" lon="-0.1023327" version="6" visible="true"/>
   <node id="108137" lat="51.4889917" lon="-0.0404149" version="14" visible="true"/>
+  <node id="108115" lat="51.4973599" lon="-0.1195043" version="8" visible="true"/>
+  <node id="108114" lat="51.4962812" lon="-0.1202663" version="9" visible="true"/>
   <node id="107973" lat="51.5316815" lon="-0.1208481" version="11" visible="true"/>
   <node id="107941" lat="51.5425951" lon="-0.1155786" version="5" visible="true"/>
   <node id="107876" lat="51.5267575" lon="-0.1209209" version="6" visible="true"/>
@@ -6306,16 +6313,6 @@
     <nd ref="32351879"/>
     <nd ref="9801367268"/>
   </way>
-  <way id="222900708" visible="true" version="4">
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG237811"/>
-    <nd ref="32341348"/>
-    <nd ref="2318443337"/>
-    <nd ref="2338440319"/>
-  </way>
   <way id="222900707" visible="true" version="4">
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
@@ -6332,6 +6329,16 @@
     <tag k="tiger:upload_uuid" v="RWG237811"/>
     <nd ref="32341348"/>
     <nd ref="2878610316"/>
+    <nd ref="2338440319"/>
+  </way>
+  <way id="222900708" visible="true" version="4">
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG237811"/>
+    <nd ref="32341348"/>
+    <nd ref="2318443337"/>
     <nd ref="2338440319"/>
   </way>
   <way id="226747963" visible="true" version="8">
@@ -9455,6 +9462,28 @@
     <nd ref="8796756491"/>
     <nd ref="6631996482"/>
     <nd ref="6897158326"/>
+  </way>
+  <way id="1070252750" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A3036"/>
+    <tag k="name" v="Lambeth Palace Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG055930"/>
+    <nd ref="108115"/>
+    <nd ref="1960741963"/>
+    <nd ref="33674199"/>
+    <nd ref="108114"/>
+    <nd ref="25473018"/>
+    <nd ref="1960741960"/>
+    <nd ref="1132182330"/>
   </way>
   <way id="1070598999" visible="true" version="1">
     <tag k="lit" v="yes"/>
