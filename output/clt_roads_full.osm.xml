@@ -146,7 +146,6 @@
   <node id="8865878649" lat="51.5265505" lon="0.1251012" version="2" visible="true"/>
   <node id="820319" lat="51.5226168" lon="-0.1376073" version="10" visible="true"/>
   <node id="30484024" lat="51.434271" lon="-0.2599699" version="8" visible="true"/>
-  <node id="7667637424" lat="51.4895206" lon="-0.1278673" version="3" visible="true"/>
   <node id="8981506615" lat="51.3779049" lon="-0.0957902" version="1" visible="true"/>
   <node id="9170849308" lat="51.5898208" lon="0.2085112" version="1" visible="true"/>
   <node id="21652806" lat="51.5773087" lon="-0.3363276" version="6" visible="true"/>
@@ -1031,7 +1030,7 @@
   <node id="9676841935" lat="51.4208591" lon="-0.2778297" version="1" visible="true"/>
   <node id="1363774796" lat="51.510825" lon="0.0689245" version="8" visible="true"/>
   <node id="8397391424" lat="51.5070449" lon="-0.4709223" version="3" visible="true"/>
-  <node id="419809799" lat="51.4902007" lon="-0.126844" version="6" visible="true"/>
+  <node id="419809799" lat="51.4901926" lon="-0.126847" version="7" visible="true"/>
   <node id="3195845028" lat="51.5053552" lon="-0.2257546" version="4" visible="true"/>
   <node id="4062569211" lat="51.5713247" lon="-0.1391441" version="1" visible="true"/>
   <node id="7556825541" lat="51.5151754" lon="-0.071817" version="1" visible="true"/>
@@ -1742,7 +1741,6 @@
   <node id="5481067694" lat="51.5002313" lon="-0.1404441" version="1" visible="true"/>
   <node id="444520802" lat="51.4445813" lon="-0.3976474" version="6" visible="true"/>
   <node id="9379323811" lat="51.4931438" lon="-0.2204043" version="1" visible="true"/>
-  <node id="8461187386" lat="51.4895391" lon="-0.1278186" version="1" visible="true"/>
   <node id="1759040765" lat="51.5257997" lon="-0.1058499" version="5" visible="true"/>
   <node id="7342416726" lat="51.5097286" lon="-0.2044252" version="1" visible="true"/>
   <node id="26625320" lat="51.5714367" lon="-0.1317442" version="3" visible="true"/>
@@ -1844,7 +1842,6 @@
   <node id="2481551495" lat="51.536124" lon="-0.0045984" version="7" visible="true"/>
   <node id="5746030702" lat="51.6361417" lon="-0.0912051" version="6" visible="true"/>
   <node id="7693198704" lat="51.5408959" lon="-0.1250128" version="1" visible="true"/>
-  <node id="7667637421" lat="51.4894139" lon="-0.1281442" version="1" visible="true"/>
   <node id="316333095" lat="51.4283606" lon="-0.0776842" version="2" visible="true"/>
   <node id="8244960824" lat="51.5939123" lon="0.0087998" version="2" visible="true"/>
   <node id="5529513338" lat="51.5781571" lon="-0.3285139" version="3" visible="true"/>
@@ -4642,13 +4639,16 @@
     <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
+  <node id="9933210686" lat="51.4900718" lon="-0.1269738" version="1" visible="true">
+    <tag k="traffic_calming" v="table"/>
+  </node>
   <node id="6023092053" lat="51.489468" lon="-0.1280106" version="6" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Vauxhall Bridge Road"/>
     <tag k="local_ref" v="T"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="564089100" lat="51.488771" lon="-0.1292101" version="13" visible="true">
+  <node id="564089100" lat="51.488752" lon="-0.1292396" version="14" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tactile_paving" v="yes"/>
@@ -19898,17 +19898,17 @@
     <nd ref="18239821"/>
     <nd ref="8984299274"/>
   </way>
-  <way id="44383707" visible="true" version="18">
+  <way id="44383707" visible="true" version="20">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3212"/>
-    <tag k="foot" v="no"/>
     <tag k="name" v="Millbank"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="lane"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="separate"/>
     <tag k="postal_code" v="SW1"/>
     <tag k="tiger:upload_uuid" v="RWG056332"/>
     <nd ref="564089100"/>
@@ -20259,7 +20259,7 @@
     <nd ref="43414138"/>
     <nd ref="5388234735"/>
   </way>
-  <way id="821216921" visible="true" version="3">
+  <way id="821216921" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3212"/>
     <tag k="name" v="Millbank"/>
@@ -20269,6 +20269,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="separate"/>
     <tag k="postal_code" v="SW1"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway" v="lane"/>
@@ -20277,6 +20278,7 @@
     <nd ref="419809644"/>
     <nd ref="7667639186"/>
     <nd ref="419809640"/>
+    <nd ref="9933210686"/>
     <nd ref="419809799"/>
   </way>
   <way id="838297057" visible="true" version="1">
@@ -20446,7 +20448,7 @@
     <nd ref="3675217031"/>
     <nd ref="792630419"/>
   </way>
-  <way id="821216922" visible="true" version="3">
+  <way id="821216922" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3212"/>
     <tag k="name" v="Millbank"/>
@@ -20455,6 +20457,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="separate"/>
     <tag k="postal_code" v="SW1"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway" v="lane"/>
@@ -20534,7 +20537,7 @@
     <nd ref="8812992824"/>
     <nd ref="1702271287"/>
   </way>
-  <way id="320729113" visible="true" version="8">
+  <way id="320729113" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3212"/>
     <tag k="name" v="Millbank"/>
@@ -20543,6 +20546,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="separate"/>
     <tag k="postal_code" v="SW1"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway" v="lane"/>
@@ -20584,7 +20588,7 @@
     <nd ref="9488064380"/>
     <nd ref="1268731742"/>
   </way>
-  <way id="821216531" visible="true" version="3">
+  <way id="821216531" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3212"/>
     <tag k="name" v="Millbank"/>
@@ -20593,14 +20597,13 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="separate"/>
     <tag k="postal_code" v="SW1"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG135690,RWG135167"/>
     <nd ref="7667637420"/>
-    <nd ref="7667637421"/>
     <nd ref="6023092053"/>
-    <nd ref="7667637424"/>
-    <nd ref="8461187386"/>
     <nd ref="7667637425"/>
   </way>
   <way id="223054400" visible="true" version="21">
