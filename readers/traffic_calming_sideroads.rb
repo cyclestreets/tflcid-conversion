@@ -23,7 +23,7 @@ output = { existing: [], at_junctions: [], new: [], to_check: [] }
 data['features'].each do |f|
 	lon,lat = f['geometry']['coordinates'].map(&:to_f)
 	next unless f['properties']['TRF_ENTRY'] == 'TRUE'
-	osm_tags = { "sidewalk"=> "yes", "continuous"=>"yes", "tfl_id"=> f['properties']['FEATURE_ID'] }
+	osm_tags = { "highway"=>"crossing", "traffic_calming"=>"table", "sidewalk"=>"yes", "foot:sideroad_continuity"=>"yes", "tfl_id"=> f['properties']['FEATURE_ID'] }
 
 	ways = collect_ways(lat,lon,15,true)
 	# debug_ways(ways,lat,lon)
