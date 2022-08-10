@@ -156,6 +156,7 @@ LANGUAGE 'plpgsql';
 			if    bus then cw='share_busway'
 			elsif light || stepped then cw='track'; additional={':track'=>'hybrid'}
 			end
+			if pr['CLT_COLOUR']!='NONE' then additional[':surface:colour']=pr['CLT_COLOUR'].downcase end
 
 			# Do we have anything in that direction at all?
 			one_way = pr['CLT_BIDIRE']=='FALSE'

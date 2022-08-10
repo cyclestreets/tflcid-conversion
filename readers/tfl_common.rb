@@ -277,6 +277,7 @@
 		# common tags
 		tags['oneway'] = pr['CLT_BIDIRE']=='TRUE' ? 'no' : 'yes'
 		tags['segregated'] = pr['CLT_SEGREG']=='TRUE' ? 'yes' : 'no'
+		if pr['CLT_COLOUR']!="NONE" then tags['surface:colour'] = pr['CLT_COLOUR'].downcase end
 		if pr['CLT_SHARED']=='TRUE' then tags.merge!("foot"=>"yes", "bicycle"=>"yes") end
 		if pr['CLT_PARSEG']=='TRUE' then tags.merge!("foot"=>"yes", "bicycle"=>"yes") end
 		if pr['CLT_ACCESS'] then tags["fixme:opening_hours"]=pr['CLT_ACCESS'] end

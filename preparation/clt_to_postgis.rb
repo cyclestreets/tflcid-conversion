@@ -46,6 +46,7 @@
 		waterr BOOLEAN DEFAULT FALSE,
 		ptime  BOOLEAN DEFAULT FALSE,
 		access TEXT,
+		colour VARCHAR(20),
 		geom GEOMETRY(MultiLineString, 3857))
 	SQL
 	# could do photos too
@@ -55,8 +56,8 @@
 		pr = f['properties']
 		sql = <<-SQL
 		INSERT INTO cycle_lane_track
-		VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,
-			ST_Multi(ST_Transform(ST_SetSRID(ST_GeomFromGeoJSON($19),4326),3857)))
+		VALUES($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,
+			ST_Multi(ST_Transform(ST_SetSRID(ST_GeomFromGeoJSON($20),4326),3857)))
 		SQL
 		$conn.exec_params(sql,[ id, pr['FEATURE_ID'],
 			pr['CLT_CARR'  ]=='TRUE',
@@ -74,6 +75,8 @@
 			pr['CLT_PARKR' ]=='TRUE',
 			pr['CLT_WATERR']=='TRUE',
 			pr['CLT_PTIME' ]=='TRUE',
-			pr['CLT_ACCESS'], f['geometry'].to_json ])
+			pr['CLT_ACCESS'], 
+			pr['CLT_COLOUR']=='NONE' ? nil : pr['CLT_COLOUR'].downcase,
+			f['geometry'].to_json ])
 	end
 	$conn.exec "CREATE INDEX clt_geom_idx ON cycle_lane_track USING GIST(geom)"
