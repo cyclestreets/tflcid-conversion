@@ -2198,10 +2198,13 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="3085005049" lat="51.5173128" lon="-0.121819" version="3" visible="true">
+  <node id="3085005049" lat="51.5173128" lon="-0.121819" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
   </node>
   <node id="3085005044" lat="51.5172917" lon="-0.1218072" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
