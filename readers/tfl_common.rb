@@ -236,6 +236,8 @@
 			next if !ot[k]
 			next if ot[k]==v
 			case "#{ot[k]}->#{v}"
+				when "designated->yes";				next
+				when "yes->designated";				next
 				when "unmarked->uncontrolled";		next
 				when "pelican->traffic_signals";	next
 			end

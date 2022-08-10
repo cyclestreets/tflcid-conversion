@@ -31,7 +31,7 @@ data['features'].each do |f|
 	osm_tags = { "highway"=> "crossing", "tfl_id"=>attrs['FEATURE_ID'] }
 	osm_tags['crossing'] = attrs['CRS_SIGNAL'] ? "traffic_signals" : "uncontrolled"
 	if attrs['CRS_SEGREG'] then osm_tags['segregated'] = "yes" end
-	if attrs['CRS_PEDEST'] then osm_tags['bicycle']="dismount" end
+	osm_tags['bicycle'] = attrs['CRS_PEDEST'] ? "dismount" : "yes"
 	if attrs['CRS_LEVEL'] then 
 		output[:railways] << { type: "Feature", properties: osm_tags, geometry: f['geometry'] }
 		next
