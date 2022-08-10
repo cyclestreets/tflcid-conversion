@@ -93,7 +93,6 @@ BEGIN {
 			if tfl['wheel']  then tags['bicycle_parking']='upright_stands' end
 			if tfl['hangar'] then tags['bicycle_parking']='lockers' end
 			if tfl['tier']   then tags['bicycle_parking']='two_tier' end
-			if tfl['other']  then tags['fixme']='Check bike parking type' end
 			if tfl['cpt']    then tags['capacity']=tfl['cpt'] end
 			tags['tfl_id'] = tfl['feature_id']
 
