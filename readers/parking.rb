@@ -85,8 +85,8 @@ BEGIN {
 			if tfl['secure'] then tags['bicycle_parking']='lockers'; tags['note']='Shared lock' end
 			if tfl['locker'] then tags['bicycle_parking']='lockers'; tags['note']='Own lock' end
 			if tfl['sheff']  then tags['bicycle_parking']='stands' end
-			if tfl['mstand'] then tags['bicycle_parking']='stands' end
-			if tfl['pstand'] then tags['bicycle_parking']='stands' end
+			if tfl['mstand'] then tags['bicycle_parking']='stands'; tags['bicycle_parking:stands']='m_stand' end
+			if tfl['pstand'] then tags['bicycle_parking']='stands'; tags['bicycle_parking:stands']='p_stand' end
 			if tfl['hoop']   then tags['bicycle_parking']='hoop' end
 			if tfl['post']   then tags['bicycle_parking']='bollard' end
 			if tfl['buterf'] then tags['bicycle_parking']='wall_loops' end
