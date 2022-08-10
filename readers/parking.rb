@@ -82,8 +82,8 @@ BEGIN {
 			tags = {}
 			if tfl['carr']   then tags['on_carriageway']='yes' end
 			if tfl['cover']  then tags['covered']='yes' end
-			if tfl['secure'] then tags['bicycle_parking']='lockers'; tags['note']='Shared lock' end
-			if tfl['locker'] then tags['bicycle_parking']='lockers'; tags['note']='Own lock' end
+			if tfl['secure'] then tags['bicycle_parking']='shed'; tags['bicycle_lock']='provided' end
+			if tfl['locker'] then tags['bicycle_parking']='lockers'; tags['bicycle_lock']='bring_own' end
 			if tfl['sheff']  then tags['bicycle_parking']='stands' end
 			if tfl['mstand'] then tags['bicycle_parking']='stands'; tags['bicycle_parking:stands']='m_stand' end
 			if tfl['pstand'] then tags['bicycle_parking']='stands'; tags['bicycle_parking:stands']='p_stand' end
