@@ -9,6 +9,41 @@
 	VMINOR_ROADS= ['unclassified','residential','service','living_street','track']
 	PATHS = ['cycleway','footway','path']
 
+	# note that keys are forced downcase with trailing spaces removed
+	ACCESS_REWRITE = {"mon-sat 7-10am 4-7pm" => "Mo-Sa 07:00-10:00,16:00-19:00",
+					  "mon-sat 7am-7pm" => "Mo-Sa 07:00-19:00",
+					  "mon-sun 7am-7pm" => "Mo-Su 07:00-19:00",
+					  "mon-fri 7-10am 4-7pm" => "Mo-Fr 07:00-10:00,16:00-19:00",
+					  "mon-fri 4-7pm" => "Mo-Fr 16:00-19:00",
+					  "7am-7pm" => "07:00-19:00",
+					  "mon-sat 7am-10am 4-7pm" => "Mo-Sa 07:00-10:00,16:00-19:00",
+					  "mon-fri 7-10am" => "Mo-Fr 07:00-10:00",
+					  "mon-sat 7-10am" => "Mo-Sa 07:00-10:00",
+					  "mon to sat 7am-10am and 4pm to 7pm" => "Mo-Sa 07:00-10:00,16:00-19:00",
+					  "mon-fri 7am-7pm" => "Mo-Fr 07:00-19:00",
+					  "mon - sun 7am - 7pm" => "Mo-Su 07:00-19:00",
+					  "at any time" => true,
+					  "none" => true,
+					  "anytime" => true,
+					  "mon-fri 7-10am 4-7pm sat 10am-7pm" => "Mo-Fr 07:00-10:00,16:00-19:00;Sa 10:00-19:00",
+					  "mon-sat 7am -7pm" => "Mo-Sa 07:00-19:00",
+					  "mon-fri 7am-7pm sat-sun 10am-6pm" => "Mo-Fr 07:00-19:00;Sa-Su 10:00-18:00",
+					  "mon-sat 7-10am and 4-7pm" => "Mo-Sa 07:00-10:00,16:00-19:00",
+					  "mon-sat 7am-10am 4pm-7pm" => "Mo-Sa 07:00-10:00,16:00-19:00",
+					  "5am-dusk" => "05:00-dusk",
+					  "mon-sat 7am- 7pm" => "Mo-Sa 07:00-19:00",
+					  "mon-sat 7am-10am" => "Mo-Sa 07:00-10:00",
+					  "24/7" => true,
+					  "mon to sun 7am to 7pm" => "Mo-Su 07:00-19:00",
+					  "mon - sat 7am - 7pm" => "Mo-Sa 07:00-19:00",
+					  "mon-sat 4-7pm" => "Mo-Sa 16:00-19:00",
+					  "mon-sun 8am-7pm" => "Mo-Su 08:00-19:00",
+					  "mon to sat 7am to 7pm" => "Mo-Sa 07:00-19:00",
+					  "mon-fri 7am10am" => "Mo-Fr 07:00-10:00",
+					  "mon-fri 4pm-7pm" => "Mo-Fr 16:00-19:00",
+					  "mon - fri, 7 - 10 am, 4 - 7 pm" => "Mo-Fr 07:00-10:00,16:00-19:00" }
+
+
 	# ==============================================================================================================
 	# Fetch geometries from database
 	# ==============================================================================================================
@@ -265,6 +300,7 @@
 	end
 
 	# Convert tags from CLT
+	# used for tracks and footways, but not roads
 
 	def clt_osm_tags(pr,existing={})
 		tags = existing.dup
@@ -282,7 +318,11 @@
 		if pr['CLT_COLOUR']!="NONE" then tags['surface:colour'] = pr['CLT_COLOUR'].downcase end
 		if pr['CLT_SHARED']=='TRUE' then tags.merge!("foot"=>"yes", "bicycle"=>"yes") end
 		if pr['CLT_PARSEG']=='TRUE' then tags.merge!("foot"=>"yes", "bicycle"=>"yes") end
-		if pr['CLT_ACCESS'] then tags["fixme:opening_hours"]=pr['CLT_ACCESS'] end
+		if pr['CLT_ACCESS'] && (tags['highway']=='cycleway' || ['yes','permissive','designated'].include?(tags['bicycle']) )
+			v,found = hours_tag(pr['CLT_ACCESS'])
+			k = found ? "bicycle:conditional" : "fixme:bicycle:conditional"
+			tags[k] = v
+		end
 		# rare tags
 		if pr['CLT_STEPP' ]=='TRUE' then puts "#{pr['FEATURE_ID']} stepped track"; tags['cycleway:track']='hybrid' end # only 4
 		if pr['CLT_PRIORI']=='TRUE' then puts "#{pr['FEATURE_ID']} priority track"; tags['cycleway:sideroad_continuity']='yes' end # [none]
@@ -292,6 +332,21 @@
 		tags
 	end
 
+	# Find an opening_hours-type syntax for common tags
+	# returns the new value, and a true (found)/false (not found) boolean
+
+	def hours_tag(str)
+		v = str.downcase.sub(/\s+$/,'')
+		return (ACCESS_REWRITE[v] || v), ACCESS_REWRITE.key?(v)
+	end
+	
+	# Apply an additional tag with special fixme handling
+	
+	def apply_additional(tags,k,v)
+		return if v==true # special value for 24/7, which is implicit so we don't need to tag it
+		if k.include?('!') then tags["fixme:"+k.sub('!','')]=v
+		else tags[k]=v end
+	end
 
 
 	# ==============================================================================================================

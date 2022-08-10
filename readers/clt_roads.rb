@@ -159,6 +159,10 @@ LANGUAGE 'plpgsql';
 			if pr['CLT_COLOUR']!='NONE' then additional[':surface:colour']=pr['CLT_COLOUR'].downcase end
 			if pr['CLT_ADVIS' ]=='TRUE' then additional[':lane']='advisory' end
 			if pr['CLT_MANDAT']=='TRUE' then additional[':lane']='exclusive' end
+			if pr['CLT_ACCESS']
+				v, found = hours_tag(pr['CLT_ACCESS'])
+				if found then additional[':conditional']=v else additional['!:conditional']=v end # tidied later
+			end
 
 			# Do we have anything in that direction at all?
 			one_way = pr['CLT_BIDIRE']=='FALSE'
@@ -253,16 +257,16 @@ LANGUAGE 'plpgsql';
 				if forward_pc>85 && reverse_pc>85 && forwards[0][:tag]==reverses[0][:tag]
 					# apply same tag to each
 					tags['cycleway'] = forwards[0][:tag]
-					forwards[0][:additional].each { |k,v| tags["cycleway#{k}"]=v }
+					forwards[0][:additional].each { |k,v| apply_additional(tags,"cycleway#{k}",v) }
 				else
 					if forward_pc>85 # apply tag to forward
 						prefix = tags['oneway']=='yes' ? 'cycleway' : 'cycleway:left'
 						tags[prefix] = forwards[0][:tag]
-						forwards[0][:additional].each { |k,v| tags["#{prefix}#{k}"]=v }
+						forwards[0][:additional].each { |k,v| apply_additional(tags,"#{prefix}#{k}",v) }
 					end
 					if reverse_pc>85 # apply tag to reverse
 						tags['cycleway:right'] = reverses[0][:tag]
-						reverses[0][:additional].each { |k,v| tags["cycleway:right#{k}"]=v }
+						reverses[0][:additional].each { |k,v| apply_additional(tags,"cycleway:right#{k}",v) }
 					end
 				end
 
@@ -279,10 +283,10 @@ LANGUAGE 'plpgsql';
 			if seg[:dir]==:forward
 				prefix = tags['oneway']=='yes' ? 'cycleway' : 'cycleway:left'
 				tags[prefix] = seg[:tag]
-				seg[:additional].each { |k,v| tags["#{prefix}#{k}"]=v }
+				seg[:additional].each { |k,v| apply_additional(tags,"#{prefix}#{k}",v) }
 			else
 				tags['cycleway:right'] = seg[:tag]
-				seg[:additional].each { |k,v| tags["cycleway:right#{k}"]=v }
+				seg[:additional].each { |k,v| apply_additional(tags,"cycleway:right#{k}",v) }
 			end
 			target = seg[:contra] ? :contra : :partial
 			output[target] << { type: "Feature", properties: tags, geometry: seg[:overlap_geom] }
