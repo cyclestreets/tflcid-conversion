@@ -91,7 +91,7 @@ BEGIN {
 			if tfl['post']   then tags['bicycle_parking']='bollard' end
 			if tfl['buterf'] then tags['bicycle_parking']='wall_loops' end
 			if tfl['wheel']  then tags['bicycle_parking']='upright_stands' end
-			if tfl['hangar'] then tags['bicycle_parking']='lockers' end
+			if tfl['hangar'] then tags['bicycle_parking']='shed'; tags['access']='private'; tags['covered']='yes'; tags['operator']='Cyclehoop Rentals' end
 			if tfl['tier']   then tags['bicycle_parking']='two_tier' end
 			if tfl['cpt']    then tags['capacity']=tfl['cpt'] end
 			tags['tfl_id'] = tfl['feature_id']
