@@ -38425,7 +38425,7 @@
     <nd ref="319616656"/>
     <nd ref="237482"/>
   </way>
-  <way id="896794983" visible="true" version="1">
+  <way id="896794983" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Saint Paul's Church Yard"/>
     <tag k="lanes" v="3"/>
@@ -40410,7 +40410,7 @@
     <nd ref="7339659689"/>
     <nd ref="8674531905"/>
   </way>
-  <way id="736320534" visible="true" version="5">
+  <way id="736320534" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="foot" v="yes"/>
@@ -40422,6 +40422,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:surface:colour" v="red"/>
     <tag k="fixme:cycleway:right:conditional" v="mon-sat 7-10am 4-7pm."/>
@@ -42907,7 +42908,7 @@
     <nd ref="9707965985"/>
     <nd ref="26814988"/>
   </way>
-  <way id="610336733" visible="true" version="3">
+  <way id="610336733" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Lea Bridge Road"/>
@@ -42917,18 +42918,16 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="busway:left" v="lane"/>
-    <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="sidewalk:left" v="separate"/>
-    <tag k="cycleway:left:surface:colour" v="red"/>
-    <tag k="cycleway:left:conditional" v="Mo-Fr 07:00-19:00"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="cycleway:right:surface:colour" v="red"/>
-    <tag k="fixme:cycleway:right:conditional" v="mon-fri 7am -7pm"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="cycleway:surface:colour" v="red"/>
+    <tag k="cycleway:conditional" v="Mo-Fr 07:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG008930,RWG149667"/>
     <nd ref="5780518839"/>
     <nd ref="4937779191"/>
   </way>
-  <way id="503478501" visible="true" version="4">
+  <way id="503478501" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Lea Bridge Road"/>
@@ -42939,19 +42938,17 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="busway:left" v="lane"/>
-    <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="sidewalk:left" v="separate"/>
     <tag k="sidewalk:right" v="yes"/>
-    <tag k="cycleway:left:surface:colour" v="red"/>
-    <tag k="cycleway:left:conditional" v="Mo-Fr 07:00-19:00"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="cycleway:right:surface:colour" v="red"/>
-    <tag k="fixme:cycleway:right:conditional" v="mon-fri 7am -7pm"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="cycleway:surface:colour" v="red"/>
+    <tag k="cycleway:conditional" v="Mo-Fr 07:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG008930,RWG149667"/>
     <nd ref="4937779191"/>
     <nd ref="4937779198"/>
   </way>
-  <way id="371263416" visible="true" version="10">
+  <way id="371263416" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Lea Bridge"/>
@@ -42963,21 +42960,18 @@
     <tag k="alt_name" v="Lea Bridge Road"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="busway:left" v="lane"/>
-    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="cycleway:left" v="separate"/>
     <tag k="sidewalk:left" v="separate"/>
     <tag k="sidewalk:right" v="yes"/>
-    <tag k="cycleway" v=""/>
+    <tag k="cycleway" v="share_busway"/>
     <tag k="cycleway:surface:colour" v="red"/>
     <tag k="cycleway:conditional" v="Mo-Fr 07:00-19:00"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="cycleway:right:surface:colour" v="red"/>
-    <tag k="fixme:cycleway:right:conditional" v="mon-fri 7am -7pm"/>
     <tag k="tiger:upload_uuid" v="RWG008930,RWG149667"/>
     <nd ref="4937779198"/>
     <nd ref="4937779187"/>
     <nd ref="9839284112"/>
   </way>
-  <way id="276538549" visible="true" version="8">
+  <way id="276538549" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="foot" v="yes"/>
@@ -42990,7 +42984,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="busway:left" v="lane"/>
-    <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:left" v="share_busway"/>
     <tag k="cycleway:left:surface:colour" v="red"/>
     <tag k="fixme:cycleway:left:conditional" v="mon-fri 7am -7pm"/>
     <tag k="tiger:upload_uuid" v="RWG244671,RWG149667"/>
@@ -42999,7 +42993,7 @@
     <nd ref="254994974"/>
     <nd ref="18061220"/>
   </way>
-  <way id="610336730" visible="true" version="4">
+  <way id="610336730" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="foot" v="yes"/>
@@ -43012,7 +43006,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="busway:left" v="lane"/>
-    <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:left" v="share_busway"/>
     <tag k="cycleway:left:surface:colour" v="red"/>
     <tag k="fixme:cycleway:left:conditional" v="mon-fri 7am -7pm"/>
     <tag k="tiger:upload_uuid" v="RWG244671,RWG149667"/>
@@ -53503,7 +53497,7 @@
     <nd ref="4339915580"/>
     <nd ref="4339915579"/>
   </way>
-  <way id="614651974" visible="true" version="1">
+  <way id="614651974" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="foot" v="yes"/>
@@ -53522,7 +53516,7 @@
     <nd ref="5813896232"/>
     <nd ref="5784606278"/>
   </way>
-  <way id="610846349" visible="true" version="1">
+  <way id="610846349" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="foot" v="yes"/>
@@ -53541,7 +53535,7 @@
     <nd ref="5784606278"/>
     <nd ref="3748437560"/>
   </way>
-  <way id="503478500" visible="true" version="4">
+  <way id="503478500" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Lea Bridge Road"/>
@@ -53557,7 +53551,7 @@
     <nd ref="3748437560"/>
     <nd ref="5784610769"/>
   </way>
-  <way id="610846625" visible="true" version="3">
+  <way id="610846625" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Lea Bridge Road"/>
@@ -53567,7 +53561,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="busway:left" v="lane"/>
-    <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:left" v="share_busway"/>
     <tag k="cycleway:left:surface:colour" v="red"/>
     <tag k="cycleway:left:conditional" v="Mo-Fr 07:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG149667"/>
