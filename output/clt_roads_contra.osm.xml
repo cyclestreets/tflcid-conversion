@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9949610933" lat="51.5057356" lon="-0.2118667" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
+  <node id="9949610922" lat="51.5080248" lon="-0.2130827" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
   <node id="9945950026" lat="51.5081257" lon="-0.1056192" version="1" visible="true"/>
   <node id="9873179200" lat="51.5425236" lon="-0.1598369" version="1" visible="true"/>
   <node id="9856119641" lat="51.5142838" lon="-0.0947149" version="1" visible="true">
@@ -12246,7 +12254,7 @@
     <nd ref="1941093567"/>
     <nd ref="26840494"/>
   </way>
-  <way id="67253880" visible="true" version="5">
+  <way id="67253880" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Addison Avenue"/>
     <tag k="oneway" v="yes"/>
@@ -12259,9 +12267,10 @@
     <nd ref="812149206"/>
     <nd ref="8955478275"/>
     <nd ref="8955478277"/>
+    <nd ref="9949610933"/>
     <nd ref="812149215"/>
   </way>
-  <way id="8364137" visible="true" version="8">
+  <way id="8364137" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Addison Avenue"/>
     <tag k="highway" v="residential"/>
@@ -12270,6 +12279,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG042541"/>
     <nd ref="25482310"/>
+    <nd ref="9949610922"/>
     <nd ref="25481533"/>
     <nd ref="941090808"/>
     <nd ref="255594602"/>
