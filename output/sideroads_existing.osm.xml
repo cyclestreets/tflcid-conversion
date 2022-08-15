@@ -2433,7 +2433,7 @@
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG168177"/>
   </node>
-  <node id="6149503753" lat="51.4741941947772" lon="-0.0143015999980092" visible="true" version="1">
+  <node id="6149503753" lat="51.4741941947772" lon="-0.0143142999980074" visible="true" version="2">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="traffic_calming" v="table"/>
@@ -2441,7 +2441,7 @@
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG196989"/>
   </node>
-  <node id="5712576972" lat="51.4742433947772" lon="-0.0142539999980158" visible="true" version="2">
+  <node id="5712576972" lat="51.4742525947772" lon="-0.0142573999980154" visible="true" version="3">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="crossing:island" v="yes"/>
@@ -5733,10 +5733,11 @@
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG117548"/>
   </node>
-  <node id="3039346301" lat="51.4672210947774" lon="-0.162842799977332" visible="true" version="3">
+  <node id="3039346301" lat="51.4672210947774" lon="-0.162842799977332" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
     <tag k="check_date" v="2021-08-14"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="traffic_calming" v="table"/>
     <tag k="sidewalk" v="yes"/>
     <tag k="foot:sideroad_continuity" v="yes"/>
@@ -9779,9 +9780,14 @@
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG071025"/>
   </node>
-  <node id="3941791164" lat="51.4772799947771" lon="-0.201568899971941" visible="true" version="1">
+  <node id="3941791164" lat="51.4772799947771" lon="-0.201568899971941" visible="true" version="6">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
     <tag k="traffic_calming" v="table"/>
     <tag k="sidewalk" v="yes"/>
     <tag k="foot:sideroad_continuity" v="yes"/>
