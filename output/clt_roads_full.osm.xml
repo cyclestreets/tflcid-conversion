@@ -21813,25 +21813,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="841518206" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="oneway:bus" v="no"/>
-    <tag k="busway:right" v="lane"/>
-    <tag k="busway:right:oneway" v="-1"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369866896"/>
-    <nd ref="8865878649"/>
-    <nd ref="7851494300"/>
-    <nd ref="7851494293"/>
-    <nd ref="4369865484"/>
-  </way>
   <way id="502884278" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -21850,6 +21831,25 @@
     <nd ref="4369866906"/>
     <nd ref="8865878648"/>
     <nd ref="4369866896"/>
+  </way>
+  <way id="841518206" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="oneway:bus" v="no"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="busway:right:oneway" v="-1"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369866896"/>
+    <nd ref="8865878649"/>
+    <nd ref="7851494300"/>
+    <nd ref="7851494293"/>
+    <nd ref="4369865484"/>
   </way>
   <way id="236185317" visible="true" version="16">
     <tag k="lit" v="yes"/>
@@ -34006,7 +34006,7 @@
     <nd ref="454494880"/>
     <nd ref="6772330977"/>
   </way>
-  <way id="1072010387" visible="true" version="2">
+  <way id="1072010387" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B358"/>
     <tag k="name" v="Sixth Cross Road"/>
@@ -34014,7 +34014,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:left|lane" v="advisory"/>
+    <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="red"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
@@ -37145,7 +37145,7 @@
     <nd ref="3688348432"/>
     <nd ref="3688348431"/>
   </way>
-  <way id="1068558775" visible="true" version="3">
+  <way id="1068558775" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A106"/>
     <tag k="name" v="Well Street"/>
@@ -37153,8 +37153,9 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v=""/>
+    <tag k="sidewalk:left" v="separate"/>
+    <tag k="sidewalk:right" v="yes"/>
     <tag k="cycleway:left:conditional" v="Mo-Fr 16:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG008874"/>
     <nd ref="7779763198"/>
@@ -53562,7 +53563,7 @@
     <nd ref="3748437560"/>
     <nd ref="5784610769"/>
   </way>
-  <way id="610846625" visible="true" version="5">
+  <way id="1086779371" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Lea Bridge Road"/>
@@ -53576,7 +53577,6 @@
     <tag k="cycleway:left:surface:colour" v="red"/>
     <tag k="cycleway:left:conditional" v="Mo-Fr 07:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG149667"/>
-    <nd ref="5784610769"/>
     <nd ref="9950154529"/>
     <nd ref="5780518839"/>
   </way>
