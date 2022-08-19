@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9961630875" lat="51.5023589" lon="-0.2144471" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
   <node id="9843837767" lat="51.5405672" lon="0.0010561" version="1" visible="true"/>
   <node id="9841704667" lat="51.5577084" lon="-0.2818448" version="1" visible="true"/>
   <node id="9808288325" lat="51.4911365" lon="0.0781326" version="1" visible="true"/>
@@ -403,7 +407,7 @@
     <tag k="direction" v="backward"/>
   </node>
   <node id="7622101557" lat="51.5110824" lon="-0.0545641" version="4" visible="true"/>
-  <node id="7530393606" lat="51.5027422" lon="-0.2137691" version="1" visible="true">
+  <node id="7530393606" lat="51.5027381" lon="-0.2137637" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
   <node id="7368962431" lat="51.4636832" lon="-0.0361849" version="2" visible="true">
@@ -775,7 +779,7 @@
     <tag k="crossing_ref" v="tiger"/>
   </node>
   <node id="4797454173" lat="51.5036633" lon="-0.09341" version="2" visible="true"/>
-  <node id="4750070072" lat="51.5027777" lon="-0.213714" version="1" visible="true"/>
+  <node id="4750070072" lat="51.5027695" lon="-0.2137015" version="2" visible="true"/>
   <node id="4741045584" lat="51.4910395" lon="0.0811971" version="5" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Plumstead Bus Garage"/>
@@ -1143,7 +1147,7 @@
   <node id="1626997890" lat="51.4782164" lon="-0.148645" version="9" visible="true"/>
   <node id="1625673753" lat="51.5334063" lon="-0.2038686" version="5" visible="true"/>
   <node id="1625673719" lat="51.533261" lon="-0.2036371" version="4" visible="true"/>
-  <node id="1618016684" lat="51.5026747" lon="-0.21392" version="6" visible="true">
+  <node id="1618016684" lat="51.5026715" lon="-0.2138943" version="7" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -1551,7 +1555,7 @@
   <node id="304391" lat="51.4003448" lon="-0.3046027" version="9" visible="true"/>
   <node id="243776" lat="51.5755474" lon="-0.0297889" version="3" visible="true"/>
   <node id="227790" lat="51.4448429" lon="-0.1114942" version="8" visible="true"/>
-  <node id="224688" lat="51.502651" lon="-0.2140008" version="11" visible="true"/>
+  <node id="224688" lat="51.5026323" lon="-0.2139714" version="12" visible="true"/>
   <node id="152241" lat="51.5398889" lon="-0.1367522" version="10" visible="true"/>
   <node id="152219" lat="51.5374538" lon="-0.1347672" version="10" visible="true"/>
   <node id="108786" lat="51.5111182" lon="-0.0561943" version="9" visible="true"/>
@@ -4933,7 +4937,7 @@
     <nd ref="6967968853"/>
     <nd ref="6967968855"/>
   </way>
-  <way id="679610485" visible="true" version="7">
+  <way id="679610485" visible="true" version="8">
     <tag k="name" v="Elsham Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -4944,6 +4948,7 @@
     <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="tiger:upload_uuid" v="RWG153038"/>
     <nd ref="7657224167"/>
+    <nd ref="9961630875"/>
     <nd ref="7657224168"/>
     <nd ref="7657224171"/>
     <nd ref="7657224172"/>
