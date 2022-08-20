@@ -1405,12 +1405,13 @@
   <node id="6824482753" lat="51.5941922" lon="-0.0765037" version="1" visible="true"/>
   <node id="6824482752" lat="51.5941581" lon="-0.0764923" version="1" visible="true"/>
   <node id="6824441153" lat="51.5990999" lon="-0.1031677" version="1" visible="true"/>
-  <node id="6824402181" lat="51.5832446" lon="-0.0845456" version="1" visible="true">
+  <node id="6824402181" lat="51.5832446" lon="-0.0845456" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
+    <tag k="crossing:island" v="no"/>
   </node>
-  <node id="6824402180" lat="51.5833222" lon="-0.084534" version="1" visible="true"/>
+  <node id="6824402180" lat="51.5833279" lon="-0.084534" version="3" visible="true"/>
   <node id="6824335666" lat="51.5058002" lon="-0.3333891" version="2" visible="true"/>
   <node id="6824310852" lat="51.5109989" lon="-0.3207679" version="1" visible="true"/>
   <node id="6824310851" lat="51.510951" lon="-0.3207573" version="2" visible="true"/>
@@ -3623,6 +3624,7 @@
   <node id="26434988" lat="51.5850457" lon="-0.0843201" version="3" visible="true"/>
   <node id="26434987" lat="51.5809911" lon="-0.0848459" version="3" visible="true"/>
   <node id="26414896" lat="51.584279" lon="-0.0844166" version="3" visible="true"/>
+  <node id="26414876" lat="51.5833432" lon="-0.0845308" version="8" visible="true"/>
   <node id="26414875" lat="51.5836681" lon="-0.0844907" version="3" visible="true"/>
   <node id="26406635" lat="51.505709" lon="-0.0857813" version="6" visible="true"/>
   <node id="26396545" lat="51.5295984" lon="-0.0813011" version="4" visible="true"/>
@@ -8905,10 +8907,11 @@
     <nd ref="9591164922"/>
     <nd ref="9791558660"/>
   </way>
-  <way id="4341817" visible="true" version="8">
+  <way id="4341817" visible="true" version="9">
     <tag k="name" v="Avenue Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG279061"/>
@@ -8920,6 +8923,18 @@
     <nd ref="9472244970"/>
     <nd ref="6824402181"/>
     <nd ref="6824402180"/>
+  </way>
+  <way id="728250377" visible="true" version="4">
+    <tag k="name" v="Avenue Road"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG279061"/>
+    <nd ref="6824402180"/>
+    <nd ref="26414876"/>
   </way>
   <way id="728250378" visible="true" version="4">
     <tag k="name" v="Avenue Road"/>
@@ -15707,7 +15722,7 @@
     <nd ref="8593935201"/>
     <nd ref="8385470979"/>
   </way>
-  <way id="317711946" visible="true" version="11">
+  <way id="317711946" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Duke Street Hill"/>
@@ -15718,6 +15733,7 @@
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="track"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:right:track" v="hybrid"/>
     <tag k="cycleway:right:surface:colour" v="red"/>
