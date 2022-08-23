@@ -1793,7 +1793,7 @@
     <nd ref="6271893816"/>
     <nd ref="8084647518"/>
   </way>
-  <way id="674419461" visible="true" version="1">
+  <way id="674419461" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A406"/>
     <tag k="name" v="Bowes Road"/>
@@ -1803,6 +1803,7 @@
     <tag k="alt_name" v="North Circular Road"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="left"/>
     <tag k="tiger:upload_uuid" v="RWG149749"/>
     <nd ref="1745361196"/>
     <nd ref="1745285985"/>
@@ -3514,7 +3515,7 @@
     <nd ref="2592856885"/>
     <nd ref="5336117979"/>
   </way>
-  <way id="605078470" visible="true" version="10">
+  <way id="605078470" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="lanes" v="1"/>
@@ -3524,13 +3525,14 @@
     <tag k="cycleway" v="opposite"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
+    <tag k="smoothness" v="excellent"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="sidewalk:right:surface" v="paving_stones"/>
     <tag k="tiger:upload_uuid" v="RWG066115"/>
     <nd ref="3645264139"/>
     <nd ref="5610135603"/>
   </way>
-  <way id="758462266" visible="true" version="6">
+  <way id="758462266" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
     <tag k="lanes" v="1"/>
@@ -3539,6 +3541,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
+    <tag k="smoothness" v="excellent"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:est_width" v="2"/>
@@ -3549,53 +3552,62 @@
     <nd ref="362474930"/>
     <nd ref="7083403299"/>
   </way>
-  <way id="1007655985" visible="true" version="2">
+  <way id="1007655985" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
+    <tag k="smoothness" v="excellent"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:est_width" v="2"/>
     <tag k="cycleway:right:oneway" v="-1"/>
+    <tag k="sidewalk:right:surface" v="paving_stones"/>
     <tag k="tiger:upload_uuid" v="RWG066115"/>
     <nd ref="7083403299"/>
     <nd ref="185620597"/>
   </way>
-  <way id="758462268" visible="true" version="7">
+  <way id="758462268" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="right"/>
+    <tag k="smoothness" v="excellent"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:est_width" v="2"/>
     <tag k="cycleway:right:oneway" v="-1"/>
+    <tag k="sidewalk:right:surface" v="paving_stones"/>
     <tag k="tiger:upload_uuid" v="RWG066115"/>
     <nd ref="185620597"/>
     <nd ref="108006"/>
   </way>
-  <way id="1007655987" visible="true" version="2">
+  <way id="1007655987" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Torrington Place"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="mixed"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="smoothness" v="excellent"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:est_width" v="2"/>
     <tag k="cycleway:right:oneway" v="-1"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="tiger:upload_uuid" v="RWG066115"/>
     <nd ref="108006"/>
     <nd ref="9296371238"/>
