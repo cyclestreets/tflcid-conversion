@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9972039063" lat="51.5027743" lon="-0.220239" version="1" visible="true"/>
   <node id="9968607405" lat="51.503895" lon="-0.2689869" version="1" visible="true"/>
   <node id="9968607404" lat="51.5039503" lon="-0.2689883" version="1" visible="true"/>
   <node id="9968607403" lat="51.5039815" lon="-0.2690117" version="1" visible="true"/>
@@ -595,7 +596,6 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="9042294156" lat="51.5027743" lon="-0.220239" version="2" visible="true"/>
   <node id="9042027866" lat="51.5147162" lon="-0.0906482" version="1" visible="true"/>
   <node id="9042027865" lat="51.514891" lon="-0.0905694" version="1" visible="true">
     <tag k="highway" v="give_way"/>
@@ -12230,7 +12230,7 @@
     <nd ref="3714379365"/>
     <nd ref="7432098526"/>
   </way>
-  <way id="19803901" visible="true" version="24">
+  <way id="19803901" visible="true" version="25">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Colebrooke Row"/>
     <tag k="oneway" v="no"/>
@@ -12239,7 +12239,7 @@
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:both" v="shared"/>
+    <tag k="cycleway:both" v="shared_lane"/>
     <tag k="cycleway:both:lane" v="pictogram"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
@@ -13489,7 +13489,7 @@
     <nd ref="3451043895"/>
     <nd ref="2813743382"/>
   </way>
-  <way id="990622688" visible="true" version="1">
+  <way id="990622688" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Rockley Road"/>
     <tag k="lanes" v="1"/>
@@ -13503,7 +13503,7 @@
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG042707"/>
     <nd ref="9153562354"/>
-    <nd ref="9042294156"/>
+    <nd ref="9972039063"/>
     <nd ref="9153562355"/>
     <nd ref="9153562351"/>
   </way>
