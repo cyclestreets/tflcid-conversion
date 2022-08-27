@@ -143,8 +143,12 @@
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG270747"/>
   </node>
-  <node id="42403660" lat="51.5937136947743" lon="-0.110242199984654" visible="true" version="6">
+  <node id="42403660" lat="51.5937304947743" lon="-0.110232099984656" visible="true" version="8">
     <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="zebra"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="proposed:crossing_ref" v="parallel"/>
     <tag k="traffic_calming" v="table"/>
     <tag k="sidewalk" v="yes"/>
     <tag k="foot:sideroad_continuity" v="yes"/>
@@ -6479,11 +6483,12 @@
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG100494"/>
   </node>
-  <node id="9286232799" lat="51.4673236947774" lon="-0.132563499981547" visible="true" version="1">
+  <node id="7710972294" lat="51.4673394947773" lon="-0.13254369998155" visible="true" version="2">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
-    <tag k="traffic_calming" v="table"/>
     <tag k="sidewalk" v="yes"/>
+    <tag k="continuous" v="yes"/>
+    <tag k="traffic_calming" v="table"/>
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG100490"/>
   </node>
@@ -6495,6 +6500,16 @@
     <tag k="sidewalk" v="yes"/>
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG116786"/>
+  </node>
+  <node id="9977439004" lat="51.4666891947774" lon="-0.131388599981711" visible="true" version="2">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="traffic_calming" v="table"/>
+    <tag k="sidewalk" v="yes"/>
+    <tag k="foot:sideroad_continuity" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG100485"/>
   </node>
   <node id="2654858095" lat="51.4666862947774" lon="-0.148047599979392" visible="true" version="5">
     <tag k="highway" v="crossing"/>
