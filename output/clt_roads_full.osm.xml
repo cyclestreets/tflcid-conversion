@@ -3,6 +3,7 @@
   <node id="419809646" lat="51.4895889" lon="-0.1276936" version="8" visible="true"/>
   <node id="6241682825" lat="51.5359912" lon="0.1767897" version="1" visible="true"/>
   <node id="11728437" lat="51.5892376" lon="-0.0753821" version="3" visible="true"/>
+  <node id="4247304446" lat="51.5185124" lon="-0.1330434" version="4" visible="true"/>
   <node id="6618702663" lat="51.4129345" lon="-0.1615995" version="3" visible="true"/>
   <node id="57680058" lat="51.4924782" lon="-0.1892417" version="6" visible="true"/>
   <node id="6327578808" lat="51.5443345" lon="0.0150536" version="4" visible="true"/>
@@ -1375,6 +1376,7 @@
   <node id="9247385066" lat="51.5244742" lon="-0.4305861" version="1" visible="true"/>
   <node id="662838374" lat="51.4737855" lon="-0.0687181" version="3" visible="true"/>
   <node id="2679303551" lat="51.4680655" lon="-0.1780074" version="3" visible="true"/>
+  <node id="9981391181" lat="51.4935089" lon="-0.2403189" version="1" visible="true"/>
   <node id="13982968" lat="51.5794603" lon="0.0624564" version="7" visible="true"/>
   <node id="5264939524" lat="51.4927679" lon="-0.0937362" version="7" visible="true"/>
   <node id="8933175844" lat="51.4695341" lon="-0.177143" version="1" visible="true"/>
@@ -3089,6 +3091,7 @@
   <node id="5144892450" lat="51.5382861" lon="-0.0196542" version="4" visible="true"/>
   <node id="9756783012" lat="51.4923244" lon="-0.2761428" version="1" visible="true"/>
   <node id="254011736" lat="51.5315287" lon="0.1470403" version="4" visible="true"/>
+  <node id="9980824907" lat="51.5515635" lon="-0.1664599" version="1" visible="true"/>
   <node id="1685947963" lat="51.4873183" lon="-0.1515535" version="5" visible="true"/>
   <node id="7769508992" lat="51.4710936" lon="-0.121223" version="2" visible="true"/>
   <node id="27621349" lat="51.5820881" lon="-0.0281439" version="12" visible="true"/>
@@ -5864,6 +5867,7 @@
   <node id="1626997947" lat="51.4698692" lon="-0.1773062" version="3" visible="true"/>
   <node id="6198225443" lat="51.490498" lon="-0.1266009" version="3" visible="true"/>
   <node id="8023223823" lat="51.432379" lon="-0.2638106" version="1" visible="true"/>
+  <node id="9981391069" lat="51.4934587" lon="-0.2440551" version="1" visible="true"/>
   <node id="7859178492" lat="51.460524" lon="-0.2157423" version="3" visible="true"/>
   <node id="291899870" lat="51.3729472" lon="-0.0829875" version="5" visible="true"/>
   <node id="2218803099" lat="51.5347066" lon="-0.1389928" version="5" visible="true"/>
@@ -6472,7 +6476,6 @@
   <node id="31008684" lat="51.5801655" lon="0.179266" version="4" visible="true"/>
   <node id="7094934220" lat="51.5153446" lon="-0.409613" version="1" visible="true"/>
   <node id="6088912707" lat="51.3940518" lon="-0.1813588" version="1" visible="true"/>
-  <node id="25454059" lat="51.55144" lon="-0.1662876" version="6" visible="true"/>
   <node id="9350820888" lat="51.5581783" lon="-0.006061" version="1" visible="true"/>
   <node id="18239821" lat="51.4488799" lon="-0.2379958" version="8" visible="true"/>
   <node id="245053647" lat="51.5858915" lon="0.172863" version="2" visible="true"/>
@@ -10052,10 +10055,8 @@
     <tag k="crossing" v="unmarked"/>
     <tag k="tactile_paving" v="yes"/>
   </node>
-  <node id="4247304446" lat="51.5185124" lon="-0.1330434" version="3" visible="true">
-    <tag k="traffic_calming" v="table"/>
-  </node>
-  <node id="25495441" lat="51.5180299" lon="-0.1342984" version="9" visible="true">
+  <node id="25495441" lat="51.5180299" lon="-0.1342984" version="10" visible="true">
+    <tag k="check_date" v="2022-08-27"/>
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="4638404788" lat="51.5098465" lon="-0.1367526" version="4" visible="true">
@@ -36981,16 +36982,19 @@
     <nd ref="9775233296"/>
     <nd ref="9775233295"/>
   </way>
-  <way id="1065258327" visible="true" version="1">
+  <way id="1065258327" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4200"/>
     <tag k="name" v="Eversholt Street"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="old_name" v="Seymour Street"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="smoothness" v="good"/>
     <tag k="cycleway:right" v=""/>
+    <tag k="sidewalk:both:surface" v="asphalt"/>
     <tag k="cycleway:right:surface:colour" v="red"/>
     <tag k="fixme:cycleway:right:conditional" v="mon-fri  7-10am   4.00-7.00pm"/>
     <tag k="tiger:upload_uuid" v="RWG030523,RWG003593"/>
@@ -37669,7 +37673,7 @@
     <nd ref="6306624836"/>
     <nd ref="156674884"/>
   </way>
-  <way id="687471330" visible="true" version="3">
+  <way id="687471330" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Midland Road"/>
     <tag k="lanes" v="1"/>
@@ -37678,6 +37682,8 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="smoothness" v="excellent"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="cycleway:surface:colour" v="red"/>
     <tag k="tiger:upload_uuid" v="RWG003512,RWG003513,RWG003514,RWG003515"/>
@@ -38652,7 +38658,7 @@
     <nd ref="1326821579"/>
     <nd ref="20460697"/>
   </way>
-  <way id="50840357" visible="true" version="11">
+  <way id="50840357" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A502"/>
     <tag k="name" v="Haverstock Hill"/>
@@ -38663,11 +38669,12 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:both" v="lane"/>
-    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="busway:left" v="lane"/>
+    <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="fixme:cycleway:left:conditional" v="mon-fri 3-7pm"/>
     <tag k="tiger:upload_uuid" v="RWG000025"/>
-    <nd ref="25454059"/>
+    <nd ref="9980824907"/>
     <nd ref="1238550336"/>
     <nd ref="7799561212"/>
   </way>
@@ -44866,7 +44873,7 @@
     <nd ref="2622498687"/>
     <nd ref="2622498691"/>
   </way>
-  <way id="1012624388" visible="true" version="1">
+  <way id="1012624388" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="King Street"/>
@@ -44882,6 +44889,7 @@
     <nd ref="9342283002"/>
     <nd ref="18126579"/>
     <nd ref="9140905523"/>
+    <nd ref="9981391181"/>
     <nd ref="9140905520"/>
   </way>
   <way id="1012624390" visible="true" version="1">
@@ -45941,7 +45949,7 @@
     <nd ref="9289122745"/>
     <nd ref="9289142896"/>
   </way>
-  <way id="1012917600" visible="true" version="5">
+  <way id="1012917600" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="King Street"/>
@@ -45957,6 +45965,7 @@
     <tag k="cycleway:right:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG042651,RWG042653"/>
     <nd ref="8228650673"/>
+    <nd ref="9981391069"/>
     <nd ref="9335745071"/>
     <nd ref="185727512"/>
   </way>
