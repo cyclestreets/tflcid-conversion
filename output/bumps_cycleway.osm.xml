@@ -66,8 +66,6 @@
   <node id="6283502104" lat="51.4126509" lon="-0.2439111" version="2" visible="true"/>
   <node id="6068136171" lat="51.4125739" lon="-0.2436766" version="3" visible="true"/>
   <node id="6015240613" lat="51.5288876" lon="-0.06243" version="4" visible="true"/>
-  <node id="5772130053" lat="51.5387767" lon="-0.2522493" version="1" visible="true"/>
-  <node id="5772129351" lat="51.5394414" lon="-0.2524757" version="1" visible="true"/>
   <node id="5242734722" lat="51.5859057" lon="-0.0566322" version="1" visible="true"/>
   <node id="5242734721" lat="51.5858007" lon="-0.0566094" version="1" visible="true"/>
   <node id="5242734620" lat="51.5860132" lon="-0.056659" version="1" visible="true"/>
@@ -82,10 +80,6 @@
   <node id="1719180767" lat="51.5848091" lon="-0.0563471" version="2" visible="true"/>
   <node id="1719180756" lat="51.5835095" lon="-0.0572159" version="2" visible="true"/>
   <node id="1719180714" lat="51.5841799" lon="-0.0562761" version="3" visible="true"/>
-  <node id="1697813746" lat="51.5392901" lon="-0.2524316" version="1" visible="true"/>
-  <node id="1697813741" lat="51.5390167" lon="-0.2523579" version="1" visible="true"/>
-  <node id="1697813739" lat="51.538825" lon="-0.2522556" version="2" visible="true"/>
-  <node id="1697708840" lat="51.5387339" lon="-0.2522746" version="2" visible="true"/>
   <node id="1661014332" lat="51.5825401" lon="-0.0581462" version="2" visible="true"/>
   <node id="1661014113" lat="51.583904" lon="-0.0564905" version="2" visible="true"/>
   <node id="1661014029" lat="51.5844587" lon="-0.0562866" version="1" visible="true"/>
@@ -145,7 +139,7 @@
     <tag k="traffic_calming" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG289477"/>
   </node>
-  <node id="-131" lat="51.5853768480824" lon="-0.0564603968462184" visible="true">
+  <node id="-130" lat="51.5853768480824" lon="-0.0564603968462184" visible="true">
     <tag k="traffic_calming" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG289476"/>
   </node>
@@ -166,10 +160,6 @@
   <node id="970863744" lat="51.5938871" lon="-0.3282054" visible="true" version="2">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG269245"/>
-  </node>
-  <node id="-130" lat="51.539131005144" lon="-0.252388714427746" visible="true">
-    <tag k="traffic_calming" v="cushion"/>
-    <tag k="tiger:upload_uuid" v="RWG273648"/>
   </node>
   <node id="9774670202" lat="51.4691665" lon="-0.3608164" visible="true" version="1">
     <tag k="traffic_calming" v="yes"/>
@@ -216,10 +206,6 @@
   <node id="7243950810" lat="51.4792129" lon="-0.0220206" visible="true" version="1">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG195545"/>
-  </node>
-  <node id="6399846540" lat="51.549119" lon="-0.0022075" visible="true" version="1">
-    <tag k="traffic_calming" v="hump"/>
-    <tag k="tiger:upload_uuid" v="RWG169977"/>
   </node>
   <node id="874136096" lat="51.5473726" lon="0.0798229" visible="true" version="1">
     <tag k="traffic_calming" v="hump"/>
@@ -635,18 +621,6 @@
     <nd ref="32551168"/>
     <nd ref="7607282518"/>
   </way>
-  <way id="609377731" visible="true" version="2">
-    <tag k="highway" v="cycleway"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="segregated" v="yes"/>
-    <nd ref="5772129351"/>
-    <nd ref="1697813746"/>
-    <nd ref="-130"/>
-    <nd ref="1697813741"/>
-    <nd ref="1697813739"/>
-    <nd ref="5772130053"/>
-    <nd ref="1697708840"/>
-  </way>
   <way id="4987993" visible="true" version="28">
     <tag k="est_width" v="1.75"/>
     <tag k="foot" v="yes"/>
@@ -663,7 +637,7 @@
     <nd ref="5242734721"/>
     <nd ref="2567153062"/>
     <nd ref="2567153065"/>
-    <nd ref="-131"/>
+    <nd ref="-130"/>
     <nd ref="1719180767"/>
     <nd ref="12238262"/>
     <nd ref="1661014029"/>
