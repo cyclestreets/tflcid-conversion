@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="9999999631" lat="51.4641365" lon="-0.141164" version="1" visible="true"/>
+  <node id="9998816009" lat="51.5469995" lon="-0.0510151" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="traffic_calming" v="table"/>
+  </node>
   <node id="9995372456" lat="51.5337357" lon="-0.2259459" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -1733,8 +1741,9 @@
   <node id="5914851721" lat="51.4933555" lon="-0.0938622" version="4" visible="true"/>
   <node id="5912890425" lat="51.4091072" lon="-0.300566" version="2" visible="true"/>
   <node id="5912890415" lat="51.4091683" lon="-0.3005665" version="2" visible="true"/>
-  <node id="5910011801" lat="51.4625362" lon="-0.1405627" version="2" visible="true">
+  <node id="5910011801" lat="51.4625362" lon="-0.1405627" version="3" visible="true">
     <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="5895330360" lat="51.5541247" lon="-0.0542863" version="1" visible="true"/>
   <node id="5895330359" lat="51.5541683" lon="-0.0541628" version="1" visible="true"/>
@@ -2058,7 +2067,7 @@
     <tag k="direction" v="forward"/>
   </node>
   <node id="4959806199" lat="51.4181906" lon="-0.1346967" version="4" visible="true"/>
-  <node id="4958655121" lat="51.4626763" lon="-0.1406036" version="3" visible="true"/>
+  <node id="4958655121" lat="51.4626562" lon="-0.1405983" version="4" visible="true"/>
   <node id="4958553824" lat="51.4686152" lon="-0.1361222" version="2" visible="true"/>
   <node id="4957735651" lat="51.490575" lon="-0.1164726" version="2" visible="true"/>
   <node id="4957734363" lat="51.4865408" lon="-0.1192152" version="1" visible="true"/>
@@ -2666,7 +2675,7 @@
     <tag k="direction" v="forward"/>
   </node>
   <node id="2360980532" lat="51.383539" lon="-0.1036771" version="1" visible="true"/>
-  <node id="2349681141" lat="51.4640018" lon="-0.1411554" version="4" visible="true"/>
+  <node id="2349681141" lat="51.4640057" lon="-0.141135" version="5" visible="true"/>
   <node id="2337312816" lat="51.5766729" lon="0.0238596" version="3" visible="true"/>
   <node id="2337312664" lat="51.5764809" lon="0.0242186" version="2" visible="true"/>
   <node id="2313649185" lat="51.3763535" lon="-0.1049858" version="1" visible="true"/>
@@ -2992,7 +3001,7 @@
     <tag k="direction" v="forward"/>
   </node>
   <node id="1155414110" lat="51.5355555" lon="0.0669562" version="1" visible="true"/>
-  <node id="1149802765" lat="51.4641068" lon="-0.1411685" version="3" visible="true"/>
+  <node id="1149802765" lat="51.4641071" lon="-0.1411565" version="4" visible="true"/>
   <node id="1135825487" lat="51.5423215" lon="-0.4780466" version="1" visible="true"/>
   <node id="1127805145" lat="51.3796691" lon="-0.1561295" version="2" visible="true"/>
   <node id="1127805128" lat="51.3804711" lon="-0.1561088" version="2" visible="true"/>
@@ -9897,7 +9906,7 @@
     <nd ref="701445848"/>
     <nd ref="7399343223"/>
   </way>
-  <way id="446885215" visible="true" version="7">
+  <way id="446885215" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chatham Place"/>
     <tag k="width" v="3.1"/>
@@ -9912,6 +9921,7 @@
     <tag k="tiger:upload_uuid" v="RWG151597"/>
     <nd ref="701445905"/>
     <nd ref="4441055939"/>
+    <nd ref="9998816009"/>
     <nd ref="4441055941"/>
   </way>
   <way id="561132269" visible="true" version="6">
@@ -11592,7 +11602,7 @@
     <nd ref="49500593"/>
     <nd ref="108476"/>
   </way>
-  <way id="554184881" visible="true" version="8">
+  <way id="554184881" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Navarino Road"/>
     <tag k="oneway" v="yes"/>
@@ -11600,8 +11610,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk:left" v="yes"/>
-    <tag k="sidewalk:right" v="separate"/>
+    <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG199415"/>
     <nd ref="5348457828"/>
@@ -14179,12 +14188,13 @@
     <nd ref="2364918433"/>
     <nd ref="1754950894"/>
   </way>
-  <way id="506080343" visible="true" version="5">
+  <way id="506080343" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B224"/>
     <tag k="name" v="The Pavement"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:lane" v="advisory"/>
@@ -16317,16 +16327,29 @@
     <nd ref="4840726615"/>
     <nd ref="4840726617"/>
   </way>
-  <way id="506080334" visible="true" version="1">
+  <way id="506080334" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B224"/>
     <tag k="name" v="Old Town"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG999649"/>
     <nd ref="1149802765"/>
     <nd ref="2349681141"/>
+  </way>
+  <way id="1091887844" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="B224"/>
+    <tag k="name" v="Old Town"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG999649"/>
+    <nd ref="9999999631"/>
+    <nd ref="1149802765"/>
   </way>
   <way id="26225142" visible="true" version="8">
     <tag k="name" v="Pytchley Road"/>
