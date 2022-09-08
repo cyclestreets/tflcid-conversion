@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
-  <node id="10003960985" lat="51.4640641" lon="-0.1411459" version="1" visible="true"/>
+  <node id="10003960985" lat="51.464078" lon="-0.1411511" version="2" visible="true"/>
   <node id="10003807593" lat="51.4692864" lon="-0.1343087" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -2245,7 +2245,6 @@
     <tag k="public_transport" v="stop_position"/>
   </node>
   <node id="4076643819" lat="51.5080844" lon="-0.1044972" version="5" visible="true"/>
-  <node id="4073407564" lat="51.5337299" lon="-0.2260778" version="2" visible="true"/>
   <node id="4072083343" lat="51.5098898" lon="-0.0812095" version="3" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Great Tower Street"/>
@@ -2680,7 +2679,7 @@
     <tag k="direction" v="forward"/>
   </node>
   <node id="2360980532" lat="51.383539" lon="-0.1036771" version="1" visible="true"/>
-  <node id="2349681141" lat="51.4640195" lon="-0.1411379" version="6" visible="true"/>
+  <node id="2349681141" lat="51.4640383" lon="-0.1411474" version="7" visible="true"/>
   <node id="2337312816" lat="51.5766729" lon="0.0238596" version="3" visible="true"/>
   <node id="2337312664" lat="51.5764809" lon="0.0242186" version="2" visible="true"/>
   <node id="2313649185" lat="51.3763535" lon="-0.1049858" version="1" visible="true"/>
@@ -3967,7 +3966,7 @@
   </node>
   <node id="3409996" lat="51.4752006" lon="-0.0260321" version="10" visible="true"/>
   <node id="3202093" lat="51.4739914" lon="-0.0166713" version="5" visible="true"/>
-  <node id="2375123" lat="51.5337422" lon="-0.2257999" version="4" visible="true"/>
+  <node id="2375123" lat="51.5337518" lon="-0.225804" version="5" visible="true"/>
   <node id="1105852" lat="51.6471491" lon="-0.0518039" version="8" visible="true"/>
   <node id="819749" lat="51.5586131" lon="-0.0049699" version="15" visible="true">
     <tag k="ele" v="8.308594"/>
@@ -8206,7 +8205,7 @@
     <nd ref="6076786991"/>
     <nd ref="21381925"/>
   </way>
-  <way id="405120341" visible="true" version="2">
+  <way id="405120341" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Bathurst Gardens"/>
     <tag k="oneway" v="yes"/>
@@ -8214,20 +8213,6 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG275113"/>
-    <nd ref="4073407564"/>
-    <nd ref="9995372456"/>
-    <nd ref="2375123"/>
-  </way>
-  <way id="405120341" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Bathurst Gardens"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="cycleway:right:lane" v="advisory"/>
-    <tag k="tiger:upload_uuid" v="RWG275116"/>
-    <nd ref="4073407564"/>
     <nd ref="9995372456"/>
     <nd ref="2375123"/>
   </way>
