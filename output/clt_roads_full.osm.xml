@@ -1159,7 +1159,7 @@
   <node id="107389" lat="51.5431224" lon="-0.0553054" version="6" visible="true"/>
   <node id="2094983973" lat="51.5459002" lon="-0.0874623" version="3" visible="true"/>
   <node id="9206770089" lat="51.5409048" lon="-0.1354581" version="1" visible="true"/>
-  <node id="20472209" lat="51.3772783" lon="-0.014253" version="7" visible="true"/>
+  <node id="20472209" lat="51.3772802" lon="-0.014253" version="8" visible="true"/>
   <node id="267909101" lat="51.5347841" lon="-0.274955" version="3" visible="true"/>
   <node id="7264990118" lat="51.5652153" lon="-0.2863149" version="1" visible="true"/>
   <node id="6798161200" lat="51.4077042" lon="-0.1214902" version="1" visible="true"/>
@@ -1210,7 +1210,6 @@
   <node id="31387913" lat="51.5748797" lon="0.181386" version="1" visible="true"/>
   <node id="249693777" lat="51.6006568" lon="-0.0133887" version="4" visible="true"/>
   <node id="500012766" lat="51.5220152" lon="-0.1105757" version="10" visible="true"/>
-  <node id="5260195398" lat="51.3796299" lon="-0.0144503" version="3" visible="true"/>
   <node id="8096394839" lat="51.4471876" lon="-0.3825133" version="2" visible="true"/>
   <node id="227395477" lat="51.4007747" lon="-0.2655643" version="27" visible="true"/>
   <node id="9838446295" lat="51.519941" lon="0.0174559" version="1" visible="true"/>
@@ -1271,7 +1270,7 @@
   <node id="3401730479" lat="51.5683978" lon="0.0109924" version="4" visible="true"/>
   <node id="2793597143" lat="51.6030372" lon="-0.3571227" version="3" visible="true"/>
   <node id="3098863264" lat="51.5411688" lon="0.0794023" version="2" visible="true"/>
-  <node id="305175042" lat="51.5494513" lon="-0.2395391" version="4" visible="true"/>
+  <node id="305175042" lat="51.5494968" lon="-0.2396123" version="5" visible="true"/>
   <node id="8047640296" lat="51.4945713" lon="-0.0500486" version="1" visible="true"/>
   <node id="25894846" lat="51.5855363" lon="0.1727997" version="2" visible="true"/>
   <node id="1952799429" lat="51.4002868" lon="-0.1965509" version="3" visible="true"/>
@@ -1829,6 +1828,7 @@
   <node id="32446312" lat="51.4907397" lon="0.0742544" version="14" visible="true"/>
   <node id="3004839338" lat="51.5063993" lon="-0.0075951" version="3" visible="true"/>
   <node id="9838850620" lat="51.5101963" lon="-0.3239721" version="1" visible="true"/>
+  <node id="10008214042" lat="51.3772384" lon="-0.0142739" version="1" visible="true"/>
   <node id="247754114" lat="51.4942185" lon="-0.0901742" version="6" visible="true"/>
   <node id="9838834116" lat="51.5099682" lon="-0.2868338" version="1" visible="true"/>
   <node id="29991892" lat="51.5901519" lon="-0.0113851" version="6" visible="true"/>
@@ -4293,6 +4293,7 @@
   <node id="8456984239" lat="51.3798925" lon="-0.0278404" version="1" visible="true"/>
   <node id="9819709001" lat="51.481676" lon="0.0614576" version="1" visible="true"/>
   <node id="3339429791" lat="51.4551428" lon="-0.1927232" version="6" visible="true"/>
+  <node id="10008214044" lat="51.3773852" lon="-0.014197" version="1" visible="true"/>
   <node id="8023223805" lat="51.4201854" lon="-0.2782659" version="1" visible="true"/>
   <node id="3369519558" lat="51.5375985" lon="-0.0096172" version="4" visible="true"/>
   <node id="13808734" lat="51.3727171" lon="-0.0842681" version="5" visible="true"/>
@@ -7981,6 +7982,12 @@
     <tag k="traffic_signals" v="traffic_lights"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
+  <node id="9347944862" lat="51.511255" lon="0.0115894" version="2" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="crossing" v="no"/>
+    <tag k="traffic_signals" v="traffic_lights"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
   <node id="5376151731" lat="51.5094053" lon="0.0131488" version="2" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Charrington Steps"/>
@@ -11433,6 +11440,9 @@
     <tag k="name" v="Tooting Station"/>
     <tag k="local_ref" v="TT"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="5260195398" lat="51.3796299" lon="-0.0144503" version="4" visible="true">
+    <tag k="traffic_calming" v="island"/>
   </node>
   <node id="8518837144" lat="51.3864146" lon="-0.0240903" version="2" visible="true">
     <tag k="highway" v="crossing"/>
@@ -21879,25 +21889,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="841518206" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="oneway:bus" v="no"/>
-    <tag k="busway:right" v="lane"/>
-    <tag k="busway:right:oneway" v="-1"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369866896"/>
-    <nd ref="8865878649"/>
-    <nd ref="7851494300"/>
-    <nd ref="7851494293"/>
-    <nd ref="4369865484"/>
-  </way>
   <way id="502884278" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -21916,6 +21907,25 @@
     <nd ref="4369866906"/>
     <nd ref="8865878648"/>
     <nd ref="4369866896"/>
+  </way>
+  <way id="841518206" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="oneway:bus" v="no"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="busway:right:oneway" v="-1"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369866896"/>
+    <nd ref="8865878649"/>
+    <nd ref="7851494300"/>
+    <nd ref="7851494293"/>
+    <nd ref="4369865484"/>
   </way>
   <way id="236185317" visible="true" version="16">
     <tag k="lit" v="yes"/>
@@ -25308,7 +25318,7 @@
     <nd ref="1936597174"/>
     <nd ref="9784303513"/>
   </way>
-  <way id="3962555" visible="true" version="22">
+  <way id="3962555" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A214"/>
     <tag k="name" v="Station Road"/>
@@ -25349,7 +25359,9 @@
     <nd ref="5260195363"/>
     <nd ref="5260195362"/>
     <nd ref="5260195361"/>
+    <nd ref="10008214044"/>
     <nd ref="20472209"/>
+    <nd ref="10008214042"/>
     <nd ref="5260195360"/>
     <nd ref="5260195359"/>
   </way>
@@ -27259,6 +27271,22 @@
     <nd ref="183172401"/>
     <nd ref="385911857"/>
   </way>
+  <way id="1013236337" visible="true" version="6">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A1011"/>
+    <tag k="name" v="Silvertown Way"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="cycleway:left:surface:colour" v="red"/>
+    <tag k="tiger:upload_uuid" v="RWG184582"/>
+    <nd ref="9347944862"/>
+    <nd ref="183172401"/>
+  </way>
   <way id="307918861" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="oneway" v="yes"/>
@@ -28934,7 +28962,7 @@
     <nd ref="540002"/>
     <nd ref="8306979597"/>
   </way>
-  <way id="229699755" visible="true" version="6">
+  <way id="229699755" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1011"/>
     <tag k="name" v="Silvertown Way"/>
@@ -28943,25 +28971,25 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway" v=""/>
+    <tag k="cycleway:left" v="shared"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG184586"/>
     <nd ref="662143386"/>
     <nd ref="662143409"/>
     <nd ref="662143302"/>
   </way>
-  <way id="1069573101" visible="true" version="1">
+  <way id="1069573101" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1011"/>
     <tag k="name" v="Silvertown Way"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:left" v="shared"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG184586"/>
     <nd ref="662143302"/>
