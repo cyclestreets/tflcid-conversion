@@ -1125,7 +1125,7 @@
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG231357"/>
   </node>
-  <node id="9431431511" lat="51.5443588947755" lon="-0.235937799967157" visible="true" version="2">
+  <node id="9431431511" lat="51.5443531947755" lon="-0.235945999967156" visible="true" version="3">
     <tag k="kerb" v="flush"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -1313,16 +1313,6 @@
     <tag k="sidewalk" v="yes"/>
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG215223"/>
-  </node>
-  <node id="7720932136" lat="51.5477029947754" lon="-0.225708599968581" visible="true" version="2">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="uncontrolled"/>
-    <tag k="crossing_ref" v="zebra"/>
-    <tag k="crossing:island" v="yes"/>
-    <tag k="traffic_calming" v="table"/>
-    <tag k="sidewalk" v="yes"/>
-    <tag k="foot:sideroad_continuity" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG270151"/>
   </node>
   <node id="1059058782" lat="51.5103271947763" lon="-0.313882599956307" visible="true" version="3">
     <tag k="traffic_calming" v="table"/>
@@ -1683,26 +1673,6 @@
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG215100"/>
   </node>
-  <node id="408561644" lat="51.5469813947754" lon="-0.221056999969229" visible="true" version="3">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
-    <tag k="traffic_calming" v="table"/>
-    <tag k="sidewalk" v="yes"/>
-    <tag k="foot:sideroad_continuity" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG270271"/>
-  </node>
-  <node id="451733936" lat="51.5418704947755" lon="-0.226033799968536" visible="true" version="5">
-    <tag k="kerb" v="lowered"/>
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="unmarked"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="crossing:island" v="yes"/>
-    <tag k="traffic_calming" v="table"/>
-    <tag k="sidewalk" v="yes"/>
-    <tag k="foot:sideroad_continuity" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG270070"/>
-  </node>
   <node id="8306366086" lat="51.400929694779" lon="-0.117916899983586" visible="true" version="2">
     <tag k="surface" v="paving_stones"/>
     <tag k="traffic_calming" v="table"/>
@@ -1750,17 +1720,6 @@
     <tag k="sidewalk" v="yes"/>
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG215037"/>
-  </node>
-  <node id="9431431367" lat="51.5438174947755" lon="-0.235491899967219" visible="true" version="2">
-    <tag k="kerb" v="lowered"/>
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="unmarked"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="crossing:island" v="yes"/>
-    <tag k="traffic_calming" v="table"/>
-    <tag k="sidewalk" v="yes"/>
-    <tag k="foot:sideroad_continuity" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG273509"/>
   </node>
   <node id="9435093964" lat="51.4096858947788" lon="-0.171679099976102" visible="true" version="1">
     <tag k="highway" v="crossing"/>
@@ -6204,6 +6163,16 @@
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG106051"/>
   </node>
+  <node id="10010324295" lat="51.4547989947776" lon="-0.0834599999883823" visible="true" version="1">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="traffic_calming" v="table"/>
+    <tag k="sidewalk" v="yes"/>
+    <tag k="foot:sideroad_continuity" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG106021"/>
+  </node>
   <node id="9346640808" lat="51.442091094778" lon="-0.166210999976863" visible="true" version="2">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -8664,9 +8633,10 @@
     <tag k="foot:sideroad_continuity" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG041800"/>
   </node>
-  <node id="6907050024" lat="51.5393910947756" lon="-0.0703417999902083" visible="true" version="2">
+  <node id="6907050024" lat="51.5393910947756" lon="-0.0703417999902083" visible="true" version="3">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="no"/>
     <tag k="traffic_calming" v="table"/>
     <tag k="sidewalk" v="yes"/>

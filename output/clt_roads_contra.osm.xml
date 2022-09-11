@@ -1,5 +1,14 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10011630827" lat="51.4687057" lon="-0.1353836" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
+  <node id="10011630824" lat="51.4691187" lon="-0.134411" version="1" visible="true">
+    <tag k="surface" v="asphalt"/>
+    <tag k="direction" v="forward"/>
+    <tag k="traffic_calming" v="bump"/>
+  </node>
   <node id="10003960985" lat="51.464078" lon="-0.1411511" version="2" visible="true"/>
   <node id="10003807593" lat="51.4692864" lon="-0.1343087" version="2" visible="true">
     <tag k="highway" v="crossing"/>
@@ -2446,7 +2455,9 @@
   <node id="3049542535" lat="51.4610836" lon="-0.1190406" version="4" visible="true">
     <tag k="traffic_calming" v="cushion"/>
   </node>
-  <node id="3039346308" lat="51.4686437" lon="-0.1356256" version="1" visible="true">
+  <node id="3039346308" lat="51.4686437" lon="-0.1356256" version="2" visible="true">
+    <tag k="surface" v="asphalt"/>
+    <tag k="direction" v="both"/>
     <tag k="traffic_calming" v="cushion"/>
   </node>
   <node id="3017754454" lat="51.4916017" lon="-0.2926388" version="1" visible="true"/>
@@ -2781,7 +2792,7 @@
   <node id="1845926414" lat="51.4088477" lon="-0.2942966" version="4" visible="true"/>
   <node id="1844769510" lat="51.4887585" lon="-0.1221824" version="2" visible="true"/>
   <node id="1844769502" lat="51.4887984" lon="-0.1226339" version="2" visible="true"/>
-  <node id="1839216410" lat="51.4687486" lon="-0.1352161" version="3" visible="true"/>
+  <node id="1839216410" lat="51.4687423" lon="-0.1352288" version="4" visible="true"/>
   <node id="1839216409" lat="51.4776407" lon="-0.126948" version="3" visible="true"/>
   <node id="1838084510" lat="51.521663" lon="-0.0670709" version="1" visible="true"/>
   <node id="1838084505" lat="51.5216538" lon="-0.0671063" version="1" visible="true"/>
@@ -15298,7 +15309,7 @@
     <nd ref="7332166683"/>
     <nd ref="10869028"/>
   </way>
-  <way id="24209002" visible="true" version="18">
+  <way id="24209002" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Larkhall Rise"/>
     <tag k="highway" v="residential"/>
@@ -15310,10 +15321,12 @@
     <nd ref="10869028"/>
     <nd ref="7713352376"/>
     <nd ref="3039346308"/>
+    <nd ref="10011630827"/>
     <nd ref="6865992084"/>
     <nd ref="1839216410"/>
     <nd ref="4965102809"/>
     <nd ref="151022395"/>
+    <nd ref="10011630824"/>
     <nd ref="7714629490"/>
   </way>
   <way id="826266279" visible="true" version="4">
