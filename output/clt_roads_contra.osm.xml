@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10012744521" lat="51.5462409" lon="-0.0508917" version="1" visible="true"/>
   <node id="10011630827" lat="51.4687057" lon="-0.1353836" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -9897,7 +9898,7 @@
     <nd ref="18064189"/>
     <nd ref="701445795"/>
   </way>
-  <way id="953411326" visible="true" version="1">
+  <way id="1093296717" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chatham Place"/>
     <tag k="lanes" v="1"/>
@@ -9906,14 +9907,31 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="traffic_intervention" v="school_street"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
+    <tag k="sidewalk:right:surface" v="asphalt"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG151597"/>
     <nd ref="701445795"/>
+    <nd ref="10012744521"/>
+  </way>
+  <way id="953411326" visible="true" version="3">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Chatham Place"/>
+    <tag k="lanes" v="1"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="traffic_intervention" v="school_street"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG151597"/>
+    <nd ref="10012744521"/>
     <nd ref="18064224"/>
     <nd ref="701445848"/>
     <nd ref="7399343223"/>
   </way>
-  <way id="446885215" visible="true" version="8">
+  <way id="446885215" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chatham Place"/>
     <tag k="width" v="3.1"/>
@@ -9924,6 +9942,7 @@
     <tag k="sidewalk:left" v="separate"/>
     <tag k="sidewalk:right" v="yes"/>
     <tag k="traffic_intervention" v="school_street"/>
+    <tag k="sidewalk:right:surface" v="paving_stones"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG151597"/>
     <nd ref="701445905"/>

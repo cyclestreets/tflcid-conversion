@@ -8003,16 +8003,14 @@
     <tag k="name" v="Charrington Steps"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="2476562651" lat="51.5081177" lon="0.0163548" version="5" visible="true">
+  <node id="2476562651" lat="51.5081177" lon="0.0163548" version="6" visible="true">
     <tag k="highway" v="traffic_signals"/>
-    <tag k="crossing" v="no"/>
-    <tag k="traffic_signals" v="traffic_lights"/>
+    <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="183248729" lat="51.5081844" lon="0.0142255" version="8" visible="true">
+  <node id="183248729" lat="51.5081844" lon="0.0142255" version="9" visible="true">
     <tag k="highway" v="traffic_signals"/>
-    <tag k="crossing" v="no"/>
-    <tag k="traffic_signals" v="traffic_lights"/>
+    <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="5376151732" lat="51.509145" lon="0.0133692" version="2" visible="true">
@@ -9089,8 +9087,9 @@
     <tag k="local_ref" v="D"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="9666545775" lat="51.5162063" lon="-0.0693956" version="1" visible="true">
+  <node id="9666545775" lat="51.5162063" lon="-0.0693956" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="crossing"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="2282295838" lat="51.5159954" lon="-0.0699315" version="9" visible="true">
@@ -9098,13 +9097,13 @@
     <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="2282295841" lat="51.5157148" lon="-0.0706232" version="8" visible="true">
+  <node id="2282295841" lat="51.5157148" lon="-0.0706232" version="9" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
-    <tag k="supervised" v="no"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
-    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:island" v="yes"/>
   </node>
   <node id="1692431871" lat="51.520255" lon="-0.0741759" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -10894,11 +10893,13 @@
     <tag k="local_ref" v="T"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="564089100" lat="51.488752" lon="-0.1292396" version="14" visible="true">
+  <node id="564089100" lat="51.488752" lon="-0.1292396" version="15" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
     <tag k="traffic_signals:sound" v="no"/>
     <tag k="traffic_signals:vibration" v="yes"/>
   </node>
@@ -10907,11 +10908,13 @@
     <tag k="name" v="Vauxhall Bridge"/>
     <tag k="rcn_name" v="Vauxhall Bridge"/>
   </node>
-  <node id="564089146" lat="51.4884423" lon="-0.1296467" version="10" visible="true">
+  <node id="564089146" lat="51.4884423" lon="-0.1296467" version="11" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
     <tag k="traffic_signals:sound" v="no"/>
     <tag k="traffic_signals:vibration" v="yes"/>
   </node>
@@ -11031,8 +11034,9 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="backward"/>
   </node>
-  <node id="9650524569" lat="51.5002194" lon="-0.1405822" version="1" visible="true">
+  <node id="9650524569" lat="51.5002194" lon="-0.1405822" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="5481067695" lat="51.5002135" lon="-0.1406505" version="1" visible="true">
@@ -11773,10 +11777,11 @@
   <node id="5624158800" lat="51.4684851" lon="-0.3293681" version="1" visible="true">
     <tag k="highway" v="crossing"/>
   </node>
-  <node id="249564363" lat="51.4759973" lon="-0.332026" version="5" visible="true">
+  <node id="249564363" lat="51.4759973" lon="-0.332026" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="yes"/>
   </node>
   <node id="6474122725" lat="51.4279156" lon="-0.2716231" version="4" visible="true">
@@ -11901,7 +11906,7 @@
     <tag k="button_operated" v="yes"/>
     <tag k="crossing:island" v="no"/>
   </node>
-  <node id="7185554281" lat="51.3996208" lon="-0.2612544" version="3" visible="true">
+  <node id="7185554281" lat="51.3996208" lon="-0.2612543" version="4" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
@@ -30118,15 +30123,18 @@
     <nd ref="4588557327"/>
     <nd ref="25948006"/>
   </way>
-  <way id="172806605" visible="true" version="12">
+  <way id="172806605" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="London Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v=""/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG233937,RWG233942"/>
     <nd ref="1674331984"/>
@@ -30137,10 +30145,11 @@
     <nd ref="808864777"/>
     <nd ref="34816119"/>
   </way>
-  <way id="491577595" visible="true" version="8">
+  <way id="491577595" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="London Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
@@ -31677,13 +31686,17 @@
     <nd ref="249179608"/>
     <nd ref="94595152"/>
   </way>
-  <way id="172806594" visible="true" version="15">
+  <way id="172806594" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="London Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
-    <tag k="cycleway" v=""/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="exclusive"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG234040,RWG234041,RWG234053,RWG234056"/>
     <nd ref="303125"/>
