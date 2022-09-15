@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10023127802" lat="51.4987168" lon="-0.0899424" version="1" visible="true"/>
+  <node id="10023127800" lat="51.4987348" lon="-0.089971" version="1" visible="true"/>
+  <node id="10023127796" lat="51.4995244" lon="-0.0909798" version="1" visible="true"/>
+  <node id="10023127794" lat="51.4994087" lon="-0.0907174" version="1" visible="true"/>
   <node id="10012744521" lat="51.5462409" lon="-0.0508917" version="1" visible="true"/>
   <node id="10011630827" lat="51.4687057" lon="-0.1353836" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -323,14 +327,17 @@
     <tag k="crossing" v="unmarked"/>
   </node>
   <node id="9437426287" lat="51.4678172" lon="-0.1406737" version="1" visible="true"/>
-  <node id="9437426269" lat="51.4677739" lon="-0.1424246" version="1" visible="true">
+  <node id="9437426269" lat="51.4677739" lon="-0.1424246" version="2" visible="true">
     <tag k="highway" v="give_way"/>
+    <tag k="direction" v="backward"/>
   </node>
-  <node id="9437426268" lat="51.4677435" lon="-0.1425377" version="1" visible="true">
+  <node id="9437426268" lat="51.4677435" lon="-0.1425377" version="2" visible="true">
     <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
   </node>
-  <node id="9437426267" lat="51.4674021" lon="-0.1434185" version="1" visible="true">
+  <node id="9437426267" lat="51.4674021" lon="-0.1434185" version="2" visible="true">
     <tag k="highway" v="give_way"/>
+    <tag k="direction" v="backward"/>
   </node>
   <node id="9409999631" lat="51.5565406" lon="-0.2118778" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
@@ -415,10 +422,6 @@
   </node>
   <node id="9357955559" lat="51.4625977" lon="-0.140558" version="1" visible="true"/>
   <node id="9357955558" lat="51.4626425" lon="-0.1405879" version="1" visible="true"/>
-  <node id="9356469976" lat="51.5002331" lon="-0.1110173" version="2" visible="true">
-    <tag k="highway" v="give_way"/>
-    <tag k="direction" v="backward"/>
-  </node>
   <node id="9351212625" lat="51.4980109" lon="-0.1151346" version="1" visible="true"/>
   <node id="9351212619" lat="51.498317" lon="-0.1149896" version="1" visible="true"/>
   <node id="9351212617" lat="51.4982802" lon="-0.1149963" version="1" visible="true">
@@ -1076,7 +1079,7 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="7650879412" lat="51.5002364" lon="-0.1110317" version="3" visible="true"/>
+  <node id="7650879412" lat="51.5002317" lon="-0.1110115" version="4" visible="true"/>
   <node id="7650823286" lat="51.5328893" lon="-0.1031213" version="1" visible="true"/>
   <node id="7618981108" lat="51.5911244" lon="-0.0698153" version="2" visible="true">
     <tag k="highway" v="crossing"/>
@@ -1366,8 +1369,9 @@
   <node id="7013470693" lat="51.4692266" lon="-0.3708047" version="3" visible="true"/>
   <node id="6988576676" lat="51.5393474" lon="-0.3098194" version="1" visible="true"/>
   <node id="6988568048" lat="51.4154671" lon="0.0054938" version="1" visible="true"/>
-  <node id="6988558772" lat="51.4992864" lon="-0.0914858" version="2" visible="true">
+  <node id="6988558772" lat="51.4992864" lon="-0.0914858" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="6988528039" lat="51.5152798" lon="-0.1022374" version="1" visible="true"/>
   <node id="6986348705" lat="51.533391" lon="-0.2340275" version="1" visible="true"/>
@@ -1513,10 +1517,13 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="6463354945" lat="51.4950707" lon="-0.0816251" version="1" visible="true"/>
-  <node id="6463348779" lat="51.4958835" lon="-0.082759" version="3" visible="true"/>
-  <node id="6463348765" lat="51.4959345" lon="-0.0828322" version="2" visible="true">
+  <node id="6463348779" lat="51.4958704" lon="-0.082756" version="4" visible="true"/>
+  <node id="6463348765" lat="51.4959345" lon="-0.0828322" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="traffic_calming" v="table"/>
   </node>
   <node id="6443787914" lat="51.4761914" lon="-0.1275533" version="2" visible="true"/>
   <node id="6431923715" lat="51.5179454" lon="-0.1042267" version="2" visible="true"/>
@@ -3065,7 +3072,7 @@
   <node id="698057469" lat="51.4952212" lon="-0.3241154" version="2" visible="true"/>
   <node id="687941378" lat="51.5625596" lon="0.0921222" version="4" visible="true"/>
   <node id="687158192" lat="51.5595707" lon="-0.1193508" version="1" visible="true"/>
-  <node id="675439512" lat="51.4988689" lon="-0.0901454" version="3" visible="true"/>
+  <node id="675439512" lat="51.4988764" lon="-0.0901243" version="4" visible="true"/>
   <node id="672965174" lat="51.4837508" lon="-0.1131257" version="3" visible="true"/>
   <node id="671697215" lat="51.5670059" lon="-0.0178348" version="1" visible="true"/>
   <node id="669193004" lat="51.5055821" lon="-0.0854162" version="4" visible="true"/>
@@ -3618,8 +3625,7 @@
   </node>
   <node id="31511241" lat="51.5690381" lon="0.1444128" version="6" visible="true"/>
   <node id="31472873" lat="51.5575539" lon="-0.3223979" version="6" visible="true"/>
-  <node id="31350992" lat="51.4995625" lon="-0.0908751" version="5" visible="true"/>
-  <node id="31350991" lat="51.4986271" lon="-0.0898587" version="3" visible="true"/>
+  <node id="31350992" lat="51.4995662" lon="-0.0908631" version="6" visible="true"/>
   <node id="31046865" lat="51.4686725" lon="-0.3709073" version="6" visible="true"/>
   <node id="31046861" lat="51.4698119" lon="-0.3707542" version="2" visible="true"/>
   <node id="30863438" lat="51.4550546" lon="-0.3127434" version="4" visible="true"/>
@@ -14372,7 +14378,21 @@
     <nd ref="4087644121"/>
     <nd ref="8385470980"/>
   </way>
-  <way id="26248224" visible="true" version="10">
+  <way id="1094378591" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Tabard Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="paving_stones"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG153856"/>
+    <nd ref="10023127794"/>
+    <nd ref="1811918559"/>
+    <nd ref="31350992"/>
+  </way>
+  <way id="26248224" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Tabard Street"/>
     <tag k="oneway" v="yes"/>
@@ -14382,10 +14402,10 @@
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG153856"/>
-    <nd ref="31350991"/>
+    <nd ref="10023127802"/>
+    <nd ref="10023127800"/>
     <nd ref="675439512"/>
-    <nd ref="1811918559"/>
-    <nd ref="31350992"/>
+    <nd ref="10023127794"/>
   </way>
   <way id="379017485" visible="true" version="7">
     <tag k="name" v="Pilgrimage Street"/>
@@ -14402,7 +14422,7 @@
     <nd ref="6988558772"/>
     <nd ref="287453577"/>
   </way>
-  <way id="26248225" visible="true" version="9">
+  <way id="26248225" visible="true" version="10">
     <tag k="name" v="Pilgrimage Street"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
@@ -14410,10 +14430,21 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG108041"/>
-    <nd ref="31350992"/>
+    <nd ref="10023127796"/>
     <nd ref="3823665763"/>
     <nd ref="1703297552"/>
     <nd ref="1703297545"/>
+  </way>
+  <way id="1094378593" visible="true" version="1">
+    <tag k="name" v="Pilgrimage Street"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="paving_stones"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG108041"/>
+    <nd ref="31350992"/>
+    <nd ref="10023127796"/>
   </way>
   <way id="771171243" visible="true" version="1">
     <tag k="name" v="Munton Road"/>
@@ -15585,14 +15616,13 @@
     <nd ref="7330327067"/>
     <nd ref="8489557022"/>
   </way>
-  <way id="819280046" visible="true" version="2">
+  <way id="819280046" visible="true" version="3">
     <tag k="name" v="Frazier Street"/>
     <tag k="highway" v="unclassified"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG135141"/>
     <nd ref="7650879412"/>
-    <nd ref="9356469976"/>
     <nd ref="4848599176"/>
     <nd ref="1641763090"/>
     <nd ref="254343340"/>
@@ -16091,11 +16121,12 @@
     <nd ref="7791466559"/>
     <nd ref="9643709501"/>
   </way>
-  <way id="10430404" visible="true" version="16">
+  <way id="10430404" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Turret Grove"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG199442"/>

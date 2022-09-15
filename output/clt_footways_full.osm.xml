@@ -526,6 +526,7 @@
   <node id="3926088830" lat="51.479674" lon="-0.1654227" version="2" visible="true"/>
   <node id="3891536826" lat="51.4254709" lon="0.0002857" version="4" visible="true"/>
   <node id="3891536804" lat="51.4260298" lon="-0.0001206" version="3" visible="true"/>
+  <node id="3885464812" lat="51.4970218" lon="-0.0849031" version="2" visible="true"/>
   <node id="3678643421" lat="51.4356252" lon="-0.2564573" version="1" visible="true"/>
   <node id="3654378955" lat="51.3954114" lon="-0.1889813" version="1" visible="true"/>
   <node id="3377946341" lat="51.4901281" lon="-0.2404741" version="2" visible="true"/>
@@ -696,6 +697,7 @@
   <node id="1762416620" lat="51.601632" lon="-0.0497686" version="5" visible="true"/>
   <node id="1745361183" lat="51.6125107" lon="-0.1133992" version="3" visible="true"/>
   <node id="1734348793" lat="51.5050471" lon="-0.2174035" version="2" visible="true"/>
+  <node id="1714130108" lat="51.49723" lon="-0.0853092" version="4" visible="true"/>
   <node id="1687330381" lat="51.6330968" lon="-0.1655448" version="1" visible="true"/>
   <node id="1687330361" lat="51.6331969" lon="-0.1646839" version="1" visible="true"/>
   <node id="1675595871" lat="51.4587293" lon="-0.1920094" version="3" visible="true"/>
@@ -819,6 +821,7 @@
   <node id="325253434" lat="51.356006" lon="-0.0345437" version="1" visible="true"/>
   <node id="308419792" lat="51.5051389" lon="-0.2173603" version="6" visible="true"/>
   <node id="301543266" lat="51.6085744" lon="-0.2409735" version="3" visible="true"/>
+  <node id="283218349" lat="51.4970548" lon="-0.084847" version="4" visible="true"/>
   <node id="269336158" lat="51.531204" lon="-0.2921072" version="3" visible="true"/>
   <node id="269192427" lat="51.6426907" lon="-0.1959814" version="1" visible="true"/>
   <node id="269149674" lat="51.6433309" lon="-0.1950864" version="5" visible="true"/>
@@ -855,6 +858,7 @@
   <node id="30149881" lat="51.4684463" lon="-0.0162791" version="6" visible="true"/>
   <node id="27295178" lat="51.4603426" lon="-0.3129596" version="3" visible="true"/>
   <node id="27026492" lat="51.4643907" lon="-0.1841238" version="4" visible="true"/>
+  <node id="25499865" lat="51.4973322" lon="-0.0854928" version="2" visible="true"/>
   <node id="24952515" lat="51.4902262" lon="-0.2394971" version="3" visible="true"/>
   <node id="21552679" lat="51.6108237" lon="-0.156797" version="4" visible="true"/>
   <node id="16473932" lat="51.4463681" lon="-0.417907" version="1" visible="true"/>
@@ -3230,6 +3234,19 @@
     <tag k="tiger:upload_uuid" v="RWG153784"/>
     <nd ref="1318614706"/>
     <nd ref="1318614711"/>
+  </way>
+  <way id="25961668" visible="true" version="6">
+    <tag k="name" v="Wild's Rents"/>
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG082122"/>
+    <nd ref="283218349"/>
+    <nd ref="3885464812"/>
+    <nd ref="1714130108"/>
+    <nd ref="25499865"/>
   </way>
   <way id="966037188" visible="true" version="1">
     <tag k="footway" v="sidewalk"/>
