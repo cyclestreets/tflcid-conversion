@@ -371,9 +371,11 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="9375170325" lat="51.5210823" lon="-0.0814989" version="1" visible="true">
+  <node id="9375170325" lat="51.5210823" lon="-0.0814989" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
     <tag k="crossing:island" v="yes"/>
   </node>
   <node id="9375170321" lat="51.5211166" lon="-0.0814772" version="1" visible="true">
@@ -10656,11 +10658,13 @@
     <nd ref="6332638634"/>
     <nd ref="106867"/>
   </way>
-  <way id="37854352" visible="true" version="10">
+  <way id="37854352" visible="true" version="12">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Appold Street"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="proposed:oneway" v="yes"/>
     <tag k="proposed:oneway:bicycle" v="no"/>
     <tag k="cycleway:right" v="lane"/>
