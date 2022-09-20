@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10034881510" lat="51.4128903" lon="-0.2961143" version="1" visible="true"/>
+  <node id="10034881508" lat="51.4127594" lon="-0.2960618" version="1" visible="true"/>
   <node id="10025653967" lat="51.5478478" lon="-0.1023174" version="1" visible="true">
     <tag k="access:motor_vehicle" v="private"/>
   </node>
@@ -1997,10 +1999,10 @@
   </node>
   <node id="5380474867" lat="51.5398658" lon="-0.150102" version="1" visible="true"/>
   <node id="5374045901" lat="51.4758135" lon="-0.1048593" version="1" visible="true"/>
-  <node id="5367382942" lat="51.4127343" lon="-0.2960378" version="4" visible="true"/>
+  <node id="5367382942" lat="51.412728" lon="-0.2960398" version="5" visible="true"/>
   <node id="5367382939" lat="51.4127122" lon="-0.2960349" version="3" visible="true"/>
-  <node id="5367382937" lat="51.4127888" lon="-0.2960681" version="3" visible="true"/>
-  <node id="5367382935" lat="51.4128598" lon="-0.2960974" version="3" visible="true"/>
+  <node id="5367382937" lat="51.4127746" lon="-0.2960735" version="4" visible="true"/>
+  <node id="5367382935" lat="51.4128577" lon="-0.2961028" version="4" visible="true"/>
   <node id="5366065709" lat="51.5430686" lon="0.0067294" version="1" visible="true"/>
   <node id="5363098681" lat="51.5445815" lon="0.0030423" version="1" visible="true"/>
   <node id="5360013220" lat="51.5296421" lon="-0.080215" version="1" visible="true"/>
@@ -4254,7 +4256,7 @@
     <nd ref="5367382939"/>
     <nd ref="5367382942"/>
   </way>
-  <way id="648783628" visible="true" version="10">
+  <way id="648783628" visible="true" version="11">
     <tag k="name" v="Queen Elizabeth Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="bicycle" v="yes"/>
@@ -4266,10 +4268,11 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG123998"/>
     <nd ref="5367382942"/>
+    <nd ref="10034881508"/>
     <nd ref="5367382937"/>
     <nd ref="5367382935"/>
   </way>
-  <way id="556394880" visible="true" version="11">
+  <way id="556394880" visible="true" version="12">
     <tag k="name" v="Queen Elizabeth Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="bicycle" v="yes"/>
@@ -4279,6 +4282,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG123998"/>
     <nd ref="5367382935"/>
+    <nd ref="10034881510"/>
     <nd ref="6090298494"/>
   </way>
   <way id="23120406" visible="true" version="7">
