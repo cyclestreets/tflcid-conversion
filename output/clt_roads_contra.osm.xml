@@ -165,6 +165,9 @@
   <node id="9693920797" lat="51.5120255" lon="-0.0871273" version="1" visible="true"/>
   <node id="9691053981" lat="51.4552801" lon="-0.1279072" version="1" visible="true"/>
   <node id="9690974277" lat="51.5126386" lon="-0.0765914" version="2" visible="true"/>
+  <node id="9690915271" lat="51.5134658" lon="-0.0767569" version="1" visible="true"/>
+  <node id="9690915267" lat="51.5132229" lon="-0.0766617" version="2" visible="true"/>
+  <node id="9690915259" lat="51.5133435" lon="-0.0766881" version="2" visible="true"/>
   <node id="9686818247" lat="51.4674152" lon="-0.1433849" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -1706,6 +1709,10 @@
   <node id="6024546591" lat="51.4998408" lon="-0.0936468" version="1" visible="true"/>
   <node id="6023334485" lat="51.4555249" lon="-0.1279263" version="3" visible="true"/>
   <node id="6023328083" lat="51.4555599" lon="-0.1279448" version="3" visible="true"/>
+  <node id="6014302223" lat="51.5134413" lon="-0.0767266" version="3" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="6006034179" lat="51.4639703" lon="-0.1308738" version="3" visible="true"/>
   <node id="6006034176" lat="51.4640061" lon="-0.1308948" version="4" visible="true"/>
   <node id="6006034175" lat="51.4640331" lon="-0.1309203" version="4" visible="true"/>
@@ -2083,9 +2090,7 @@
   <node id="5017119992" lat="51.5571699" lon="-0.212456" version="1" visible="true"/>
   <node id="5014243570" lat="51.483484" lon="-0.2237028" version="3" visible="true"/>
   <node id="4986000108" lat="51.5138381" lon="-0.18699" version="2" visible="true"/>
-  <node id="4972951619" lat="51.5066505" lon="-0.1002839" version="3" visible="true">
-    <tag k="proposed:traffic_calming" v="island"/>
-  </node>
+  <node id="4972951619" lat="51.5066505" lon="-0.1002839" version="4" visible="true"/>
   <node id="4967088335" lat="51.4895433" lon="-0.1148372" version="1" visible="true"/>
   <node id="4965120679" lat="51.4678269" lon="-0.1408846" version="3" visible="true"/>
   <node id="4965120678" lat="51.4678312" lon="-0.1414153" version="1" visible="true"/>
@@ -2266,6 +2271,12 @@
   <node id="4225998685" lat="51.4845108" lon="-0.1114568" version="2" visible="true"/>
   <node id="4213477739" lat="51.4821906" lon="0.0006481" version="4" visible="true"/>
   <node id="4192665528" lat="51.5743256" lon="-0.077318" version="3" visible="true"/>
+  <node id="4136137529" lat="51.5134826" lon="-0.0767887" version="4" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="crossing:island" v="no"/>
+  </node>
   <node id="4087644122" lat="51.5050282" lon="-0.0841273" version="5" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Hay's Galleria"/>
@@ -3769,6 +3780,8 @@
   </node>
   <node id="25481520" lat="51.5034478" lon="-0.2122142" version="5" visible="true"/>
   <node id="25475669" lat="51.5245478" lon="-0.1028324" version="3" visible="true"/>
+  <node id="25475664" lat="51.5135049" lon="-0.0768496" version="8" visible="true"/>
+  <node id="25475663" lat="51.513205" lon="-0.0766573" version="4" visible="true"/>
   <node id="25475053" lat="51.5109622" lon="-0.0801671" version="5" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
@@ -11186,6 +11199,27 @@
     <nd ref="3704225379"/>
     <nd ref="1938819282"/>
     <nd ref="4962956931"/>
+  </way>
+  <way id="478293201" visible="true" version="8">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Jewry Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="wikidata" v="Q65767555"/>
+    <tag k="postal_code" v="EC3"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:oneway" v="no"/>
+    <tag k="cycleway:right:lane" v="exclusive"/>
+    <tag k="tiger:upload_uuid" v="RWG066150"/>
+    <nd ref="25475663"/>
+    <nd ref="9690915267"/>
+    <nd ref="9690915259"/>
+    <nd ref="6014302223"/>
+    <nd ref="9690915271"/>
+    <nd ref="4136137529"/>
+    <nd ref="25475664"/>
   </way>
   <way id="17513379" visible="true" version="15">
     <tag k="lit" v="yes"/>
