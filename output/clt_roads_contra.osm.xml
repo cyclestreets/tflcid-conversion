@@ -119,6 +119,7 @@
     <tag k="crossing:island" v="no"/>
     <tag k="traffic_calming" v="table"/>
   </node>
+  <node id="9846926484" lat="51.5366813" lon="-0.0437434" version="1" visible="true"/>
   <node id="9846850973" lat="51.5180997" lon="-0.1037633" version="1" visible="true"/>
   <node id="9822919130" lat="51.5249221" lon="-0.0906251" version="1" visible="true"/>
   <node id="9822793452" lat="51.3945583" lon="-0.2958252" version="1" visible="true"/>
@@ -2354,6 +2355,7 @@
     <tag k="crossing" v="unmarked"/>
   </node>
   <node id="3865505294" lat="51.4992241" lon="-0.2204103" version="3" visible="true"/>
+  <node id="3864126666" lat="51.5377205" lon="-0.0419725" version="1" visible="true"/>
   <node id="3823665767" lat="51.4993057" lon="-0.091467" version="1" visible="true"/>
   <node id="3823665763" lat="51.4994488" lon="-0.091183" version="2" visible="true">
     <tag k="traffic_calming" v="cushion"/>
@@ -2462,6 +2464,10 @@
   <node id="3134593812" lat="51.4894546" lon="0.0855654" version="2" visible="true"/>
   <node id="3134593808" lat="51.4893845" lon="0.0855327" version="3" visible="true"/>
   <node id="3134593806" lat="51.4893485" lon="0.0855445" version="3" visible="true"/>
+  <node id="3107461267" lat="51.5366713" lon="-0.0437627" version="3" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+  </node>
   <node id="3089162049" lat="51.5806553" lon="0.1274882" version="2" visible="true"/>
   <node id="3086399831" lat="51.5104898" lon="-0.3136089" version="3" visible="true"/>
   <node id="3086399829" lat="51.51045" lon="-0.3138377" version="8" visible="true"/>
@@ -3220,6 +3226,7 @@
   <node id="330023152" lat="51.5811326" lon="0.1275795" version="4" visible="true"/>
   <node id="330023145" lat="51.5813071" lon="0.1276096" version="4" visible="true"/>
   <node id="329789161" lat="51.5750329" lon="0.123831" version="3" visible="true"/>
+  <node id="318099062" lat="51.5379279" lon="-0.0417808" version="4" visible="true"/>
   <node id="316763561" lat="51.5165479" lon="-0.0940054" version="2" visible="true"/>
   <node id="316763559" lat="51.5163993" lon="-0.0942158" version="6" visible="true"/>
   <node id="313826657" lat="51.3877539" lon="-0.2713808" version="9" visible="true"/>
@@ -3265,6 +3272,9 @@
     <tag k="crossing" v="unmarked"/>
     <tag k="crossing:island" v="no"/>
   </node>
+  <node id="282828891" lat="51.5370192" lon="-0.0430906" version="4" visible="true"/>
+  <node id="282828890" lat="51.5373191" lon="-0.0425273" version="3" visible="true"/>
+  <node id="282828889" lat="51.5375671" lon="-0.0421419" version="4" visible="true"/>
   <node id="280423558" lat="51.4473999" lon="-0.3290788" version="5" visible="true"/>
   <node id="277031996" lat="51.5046241" lon="-0.0831626" version="12" visible="true"/>
   <node id="274343560" lat="51.5130181" lon="-0.0159303" version="3" visible="true"/>
@@ -3998,6 +4008,7 @@
     <tag k="rcn_name" v="Crystal Palace"/>
   </node>
   <node id="13808303" lat="51.3768494" lon="-0.0353293" version="2" visible="true"/>
+  <node id="13675715" lat="51.536639" lon="-0.0438121" version="16" visible="true"/>
   <node id="13565527" lat="51.4679164" lon="-0.1912742" version="2" visible="true"/>
   <node id="13565520" lat="51.4675558" lon="-0.1921569" version="2" visible="true"/>
   <node id="13565519" lat="51.466976" lon="-0.1935611" version="5" visible="true"/>
@@ -6224,13 +6235,14 @@
     <nd ref="649796"/>
     <nd ref="6250854103"/>
   </way>
-  <way id="604354007" visible="true" version="4">
+  <way id="604354007" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Deanery Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="22201371"/>
     <tag k="lane_markings" v="no"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
@@ -6242,7 +6254,7 @@
     <nd ref="5734767364"/>
     <nd ref="5734767369"/>
   </way>
-  <way id="604354005" visible="true" version="5">
+  <way id="604354005" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Deanery Road"/>
     <tag k="lanes" v="1"/>
@@ -6250,6 +6262,7 @@
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="22201371"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:right" v="lane"/>
@@ -10702,6 +10715,26 @@
     <nd ref="5360013220"/>
     <nd ref="6332638634"/>
     <nd ref="106867"/>
+  </way>
+  <way id="426255837" visible="true" version="9">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Wetherell Road"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="shared_lane"/>
+    <tag k="cycleway:both:lane" v="pictogram"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG151463"/>
+    <nd ref="318099062"/>
+    <nd ref="3864126666"/>
+    <nd ref="282828889"/>
+    <nd ref="282828890"/>
+    <nd ref="282828891"/>
+    <nd ref="9846926484"/>
+    <nd ref="3107461267"/>
+    <nd ref="13675715"/>
   </way>
   <way id="37854352" visible="true" version="12">
     <tag k="lit" v="yes"/>
