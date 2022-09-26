@@ -2038,7 +2038,7 @@
   <node id="1714747597" lat="51.5800571" lon="-0.0312072" version="2" visible="true"/>
   <node id="8999533685" lat="51.5879526" lon="-0.0579574" version="2" visible="true"/>
   <node id="80429949" lat="51.3865493" lon="-0.1921811" version="8" visible="true"/>
-  <node id="6991416095" lat="51.4939559" lon="-0.0857808" version="2" visible="true"/>
+  <node id="6991416095" lat="51.4939559" lon="-0.0857681" version="3" visible="true"/>
   <node id="2144885266" lat="51.4573443" lon="-0.1953622" version="5" visible="true"/>
   <node id="1941178484" lat="51.4740405" lon="-0.0645309" version="4" visible="true"/>
   <node id="8899498342" lat="51.5601791" lon="0.154934" version="2" visible="true"/>
@@ -5990,7 +5990,7 @@
   <node id="8445774750" lat="51.3780572" lon="-0.0140503" version="2" visible="true"/>
   <node id="2918007754" lat="51.474061" lon="-0.0639098" version="3" visible="true"/>
   <node id="9306779189" lat="51.5027831" lon="-0.0967831" version="1" visible="true"/>
-  <node id="158860935" lat="51.4941193" lon="-0.091807" version="7" visible="true"/>
+  <node id="158860935" lat="51.4941171" lon="-0.0917677" version="8" visible="true"/>
   <node id="6332798931" lat="51.52297" lon="0.1374879" version="3" visible="true"/>
   <node id="3099013903" lat="51.5411652" lon="0.0792511" version="1" visible="true"/>
   <node id="258885627" lat="51.4017767" lon="-0.1975391" version="3" visible="true"/>
@@ -49365,7 +49365,7 @@
     <nd ref="1274273782"/>
     <nd ref="8047640321"/>
   </way>
-  <way id="747181872" visible="true" version="3">
+  <way id="747181872" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A2"/>
     <tag k="name" v="Bricklayers Arms Roundabout"/>
@@ -49379,10 +49379,11 @@
     <tag k="wikipedia" v="en:Bricklayers Arms"/>
     <tag k="turn:lanes" v="left|left|left|right|right|right|right"/>
     <tag k="bicycle:lanes" v="designated|yes|yes|designated|yes|yes|yes"/>
+    <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:lanes" v="lane|none|none|lane|none|none|none"/>
     <tag k="motor_vehicle:lanes" v="no|yes|yes|no|yes|yes|yes"/>
     <tag k="class:bicycle:commute" v="1"/>
-    <tag k="cycleway" v="lane"/>
+    <tag k="cycleway" v=""/>
     <tag k="cycleway:surface:colour" v="green"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG082274"/>
@@ -50113,11 +50114,12 @@
     <nd ref="2362862377"/>
     <nd ref="4972585143"/>
   </way>
-  <way id="1074165936" visible="true" version="1">
+  <way id="1074165936" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A205"/>
     <tag k="foot" v="yes"/>
     <tag k="name" v="Upper Richmond Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="maxspeed" v="30 mph"/>

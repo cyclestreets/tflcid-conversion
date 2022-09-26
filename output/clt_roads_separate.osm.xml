@@ -878,8 +878,11 @@
   <node id="3502507834" lat="51.4908563" lon="-0.1498068" version="3" visible="true"/>
   <node id="3502507830" lat="51.4908364" lon="-0.1497466" version="3" visible="true"/>
   <node id="3397713903" lat="51.5798708" lon="-0.0036018" version="6" visible="true"/>
-  <node id="3393316085" lat="51.5368576" lon="-0.1463311" version="6" visible="true">
+  <node id="3393316085" lat="51.5368576" lon="-0.1463311" version="7" visible="true">
     <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="3256109212" lat="51.5083007" lon="-0.274629" version="5" visible="true"/>
   <node id="3256080576" lat="51.5411441" lon="-0.1377828" version="4" visible="true">
@@ -918,8 +921,11 @@
   <node id="3070670617" lat="51.5007334" lon="-0.1182656" version="4" visible="true"/>
   <node id="3062596145" lat="51.5049235" lon="-0.1031047" version="2" visible="true"/>
   <node id="3062596141" lat="51.504839" lon="-0.1030981" version="1" visible="true"/>
-  <node id="3018806129" lat="51.5368028" lon="-0.1463881" version="9" visible="true">
+  <node id="3018806129" lat="51.5368028" lon="-0.1463881" version="10" visible="true">
     <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="2837762814" lat="51.5027838" lon="-0.1578006" version="3" visible="true"/>
   <node id="2837762804" lat="51.5027289" lon="-0.1585085" version="13" visible="true">
@@ -4396,11 +4402,12 @@
     <nd ref="3716875499"/>
     <nd ref="427931762"/>
   </way>
-  <way id="764111181" visible="true" version="2">
+  <way id="764111181" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Boundary Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="City of Westminster"/>
     <tag k="sidewalk" v="both"/>
