@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10052580992" lat="51.4422512" lon="-0.0511164" version="1" visible="true"/>
+  <node id="10052580991" lat="51.4422066" lon="-0.05117" version="1" visible="true"/>
+  <node id="10052580990" lat="51.4419135" lon="-0.0513004" version="1" visible="true"/>
+  <node id="10052580989" lat="51.4416185" lon="-0.0513792" version="1" visible="true"/>
+  <node id="10052580988" lat="51.4417647" lon="-0.0513459" version="1" visible="true"/>
+  <node id="10052580983" lat="51.4401218" lon="-0.0513984" version="1" visible="true"/>
   <node id="10048479311" lat="51.4837759" lon="-0.1130466" version="1" visible="true"/>
   <node id="10045732908" lat="51.3664018" lon="-0.1009035" version="1" visible="true">
     <tag k="highway" v="give_way"/>
@@ -1903,12 +1909,8 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
   </node>
-  <node id="5620945592" lat="51.4400751" lon="-0.0514563" version="2" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="unmarked"/>
-  </node>
-  <node id="5620945589" lat="51.4401927" lon="-0.0514433" version="1" visible="true"/>
-  <node id="5620945585" lat="51.4402397" lon="-0.0514356" version="2" visible="true"/>
+  <node id="5620945589" lat="51.4401962" lon="-0.0513979" version="2" visible="true"/>
+  <node id="5620945585" lat="51.4402432" lon="-0.0513868" version="3" visible="true"/>
   <node id="5618615535" lat="51.4823659" lon="-0.0146681" version="2" visible="true"/>
   <node id="5618615523" lat="51.4823696" lon="-0.0146399" version="2" visible="true"/>
   <node id="5612690538" lat="51.5441847" lon="-0.0446428" version="2" visible="true">
@@ -3926,7 +3928,7 @@
   <node id="21590855" lat="51.4336124" lon="0.0115076" version="2" visible="true"/>
   <node id="21590845" lat="51.4343692" lon="0.0135176" version="3" visible="true"/>
   <node id="21590844" lat="51.4343814" lon="0.0138896" version="2" visible="true"/>
-  <node id="21583260" lat="51.4422669" lon="-0.0510522" version="1" visible="true"/>
+  <node id="21583260" lat="51.4422846" lon="-0.0510433" version="2" visible="true"/>
   <node id="21583259" lat="51.442093" lon="-0.0512131" version="1" visible="true"/>
   <node id="21583258" lat="51.4413507" lon="-0.0514063" version="1" visible="true"/>
   <node id="21583257" lat="51.4408706" lon="-0.0514084" version="1" visible="true"/>
@@ -5304,37 +5306,47 @@
     <nd ref="1942727016"/>
     <nd ref="24665431"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG278551"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG278552"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -5343,90 +5355,226 @@
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG278533"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG278553"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
+    <tag k="name" v="Stanstead Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:surface:colour" v="green"/>
+    <tag k="cycleway:right:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG278532"/>
+    <nd ref="10052580983"/>
+    <nd ref="5620945589"/>
+    <nd ref="5620945585"/>
+    <nd ref="21583257"/>
+    <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
+    <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
+    <nd ref="21583260"/>
+  </way>
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG278548"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG278549"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
+    <tag k="name" v="Stanstead Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:surface:colour" v="green"/>
+    <tag k="cycleway:right:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG278531"/>
+    <nd ref="10052580983"/>
+    <nd ref="5620945589"/>
+    <nd ref="5620945585"/>
+    <nd ref="21583257"/>
+    <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
+    <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
+    <nd ref="21583260"/>
+  </way>
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG278550"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
+    <tag k="name" v="Stanstead Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:surface:colour" v="green"/>
+    <tag k="cycleway:right:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG278530"/>
+    <nd ref="10052580983"/>
+    <nd ref="5620945589"/>
+    <nd ref="5620945585"/>
+    <nd ref="21583257"/>
+    <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
+    <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
+    <nd ref="21583260"/>
+  </way>
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG278547"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
+    <tag k="name" v="Stanstead Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG278544"/>
+    <nd ref="10052580983"/>
+    <nd ref="5620945589"/>
+    <nd ref="5620945585"/>
+    <nd ref="21583257"/>
+    <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
+    <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
+    <nd ref="21583260"/>
+  </way>
+  <way id="588515232" visible="true" version="2">
+    <tag k="name" v="Stanstead Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG278545"/>
+    <nd ref="10052580983"/>
+    <nd ref="5620945589"/>
+    <nd ref="5620945585"/>
+    <nd ref="21583257"/>
+    <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
+    <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
+    <nd ref="21583260"/>
+  </way>
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -5435,15 +5583,20 @@
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG278534"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -5452,15 +5605,20 @@
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG278536"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -5469,15 +5627,20 @@
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG278537"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
-  <way id="588515232" visible="true" version="1">
+  <way id="588515232" visible="true" version="2">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -5486,12 +5649,37 @@
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG278538"/>
-    <nd ref="5620945592"/>
+    <nd ref="10052580983"/>
     <nd ref="5620945589"/>
     <nd ref="5620945585"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
     <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
+    <nd ref="21583260"/>
+  </way>
+  <way id="588515232" visible="true" version="2">
+    <tag k="name" v="Stanstead Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG278546"/>
+    <nd ref="10052580983"/>
+    <nd ref="5620945589"/>
+    <nd ref="5620945585"/>
+    <nd ref="21583257"/>
+    <nd ref="21583258"/>
+    <nd ref="10052580989"/>
+    <nd ref="10052580988"/>
+    <nd ref="10052580990"/>
+    <nd ref="21583259"/>
+    <nd ref="10052580991"/>
+    <nd ref="10052580992"/>
     <nd ref="21583260"/>
   </way>
   <way id="586001024" visible="true" version="2">
