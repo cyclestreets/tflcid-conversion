@@ -687,6 +687,7 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="no"/>
   </node>
+  <node id="9023329974" lat="51.5100004" lon="-0.1187501" version="1" visible="true"/>
   <node id="9002108728" lat="51.3773213" lon="-0.0856158" version="2" visible="true"/>
   <node id="8999530395" lat="51.3752197" lon="-0.0856989" version="2" visible="true"/>
   <node id="8999501763" lat="51.3751236" lon="-0.0841335" version="2" visible="true"/>
@@ -1570,6 +1571,10 @@
   <node id="6414252446" lat="51.49851" lon="-0.1094731" version="1" visible="true"/>
   <node id="6414252444" lat="51.4984879" lon="-0.1095018" version="1" visible="true"/>
   <node id="6414252443" lat="51.4988674" lon="-0.1092276" version="1" visible="true"/>
+  <node id="6392533092" lat="51.5099402" lon="-0.1187033" version="4" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="6390779444" lat="51.4089347" lon="-0.3044604" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
@@ -2583,7 +2588,7 @@
   <node id="2817081445" lat="51.5515156" lon="-0.0490437" version="2" visible="true"/>
   <node id="2817081438" lat="51.5515232" lon="-0.0489864" version="2" visible="true"/>
   <node id="2813743382" lat="51.4682408" lon="-0.1905058" version="6" visible="true"/>
-  <node id="2811568447" lat="51.5501565" lon="-0.043225" version="4" visible="true"/>
+  <node id="2811568447" lat="51.5501675" lon="-0.0432014" version="5" visible="true"/>
   <node id="2811568443" lat="51.5502282" lon="-0.0430286" version="4" visible="true"/>
   <node id="2780691959" lat="51.5265737" lon="-0.1080226" version="3" visible="true">
     <tag k="highway" v="give_way"/>
@@ -13532,6 +13537,20 @@
     <nd ref="21665578"/>
     <nd ref="5932856687"/>
     <nd ref="5932856691"/>
+  </way>
+  <way id="1065112869" visible="true" version="2">
+    <tag k="lit" v="no"/>
+    <tag k="name" v="Savoy Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
+    <tag k="was:cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG108405"/>
+    <nd ref="9023329974"/>
+    <nd ref="6392533092"/>
   </way>
   <way id="997519485" visible="true" version="1">
     <tag k="lit" v="yes"/>
