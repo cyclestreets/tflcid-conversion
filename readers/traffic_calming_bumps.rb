@@ -29,7 +29,7 @@
 		next unless ["TRF_CUSHI","TRF_HUMP","TRF_CALM"].include?(type)
 		osm_tags =	type=='TRF_CUSHI' ? { traffic_calming: 'cushion' } :
 					type=='TRF_HUMP'  ? { traffic_calming: 'hump' } : { traffic_calming: 'yes' }
-		if attrs['TRF_SINUSO'] then osm_tags[:sinusoidal]=='yes' end
+		if attrs['TRF_SINUSO'] then osm_tags[:sinusoidal]='yes' end
 		osm_tags[:tfl_id] = attrs['FEATURE_ID']
 		
 		ways = collect_ways(lat,lon,100)
