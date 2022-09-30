@@ -17,6 +17,7 @@
 	data = JSON.parse(File.read("#{__dir__}/../tfl_data/traffic_calming.json"))
 	$conn = PG::Connection.new(dbname: "osm_london")
 	output = { road: [], cycleway: [], to_check: [] }
+	skipped = 0
 	nodes_created = 0
 	new_features = 0
 
@@ -51,9 +52,7 @@
 				# if it's bump/hump/table/cushion, we're fine
 				# (could consider adding sinusoidal tag but really not significant!)
 				puts "Already mapped"
-				output[:road] << { type: "Feature", 
-					properties: c[:tags].merge(osm_id: c[:id], tfl_id: attrs['FEATURE_ID']),
-					geometry: { type: "Point", coordinates: [c[:lon],c[:lat]] } }
+				skipped += 1
 			elsif c[:tags]['traffic_calming']=='yes'
 				# if it's "yes", promote to correct type
 				puts "Currently tc=yes, set type"
@@ -123,6 +122,7 @@
 
 	puts "Totals: #{output[:road].count} on roads, #{output[:cycleway].count} on cycleways, #{output[:to_check].count} to check"
 	puts "New: any features #{new_features}, OSM nodes #{nodes_created}"
+	puts "#{skipped} skipped (existing traffic calming with no significant tag conflict/change)"
 	write_output(output,
 		road: "bumps_road.geojson",
 		cycleway: "bumps_cycleway.geojson",
