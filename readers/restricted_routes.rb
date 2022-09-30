@@ -56,7 +56,10 @@ data['features'].each_with_index do |f,id|
 	if res.nil? || res[0].nil? then skipped+=1; next end
 	geo = JSON.parse(res[0])
 	if geo['geometries']==[] then skipped+=1; next end
-	output[:new] << { type: "Feature", properties: { highway: 'footway', bicycle: 'dismount', tfl_id: f['properties']['FEATURE_ID'] }, geometry: geo }
+	tags = { highway: 'footway', bicycle: 'dismount', tfl_id: f['properties']['FEATURE_ID'] }
+	tags['highway'] = 'steps' if f['properties']['RES_STEPS']=='TRUE'
+	tags['tunnel'] = 'yes' if f['properties']['RES_TUNNEL']=='TRUE'
+	output[:new] << { type: "Feature", properties: tags, geometry: geo }
 end
 
 # Look for existing paths currently tagged as cycle-accessible, where the tagging may need changing
@@ -85,6 +88,8 @@ data['features'].each_with_index do |f,id|
 		next if res['overlap'].to_f<20
 		tags = JSON.parse(res['tags'])
 		if tags['highway']=='cycleway' then tags['highway']='footway' end
+		tags['highway'] = 'steps' if f['properties']['RES_STEPS']=='TRUE'
+		tags['tunnel'] = 'yes' if f['properties']['RES_TUNNEL']=='TRUE'
 		tags['bicycle']='dismount'
 		output[:cycleways] << { type: "Feature",
 			properties: tags.merge( tfl_id: f['properties']['FEATURE_ID'], osm_id: res['osm_id'].to_i ),
