@@ -118,13 +118,15 @@ LANGUAGE 'plpgsql';
 				tags['oneway'] = 'yes'
 				tags['oneway:bicycle'] = 'no'
 			else
-				cl = (tags['CLT_PARSEG'] || tags['CLT_STEPP']) ? 'track' : 'lane'
+				cl = (attrs['CLT_PARSEG'] || attrs['CLT_STEPP']) ? 'track' : 'lane'
 				if attrs['CLT_BIDIRE']
 					tags['cycleway']=cl
-					if cl=='track' then tags['cycleway:track']='hybrid' end
+					if attrs['CLT_PARSEG'] then tags['cycleway:separation']='light'
+					elsif attrs['CLT_STEPP'] then tags['cycleway:track']='stepped'; tags['cycleway:separation']='step' end
 				else
 					tags['cycleway:left']=cl
-					if cl=='track' then tags['cycleway:left:track']='hybrid' end
+					if attrs['CLT_PARSEG'] then tags['cycleway:left:separation']='light'
+					elsif attrs['CLT_STEPP'] then tags['cycleway:left:track']='stepped'; tags['cycleway:left:separation']='step' end
 				end
 			end
 			output[:unmatched] << { type: "Feature",
@@ -154,7 +156,8 @@ LANGUAGE 'plpgsql';
 
 			cw = 'lane'; additional = {}
 			if    bus then cw='share_busway'
-			elsif light || stepped then cw='track'; additional={':track'=>'hybrid'}
+			elsif stepped then cw='track'; additional={':track'=>'stepped', ':separation'=>'step'}
+			elsif light then cw='track'; additional={':separation'=>'light'}
 			end
 			if pr['CLT_COLOUR']!='NONE' then additional[':surface:colour']=pr['CLT_COLOUR'].downcase end
 			if pr['CLT_ADVIS' ]=='TRUE' then additional[':lane']='advisory' end
