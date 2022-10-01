@@ -50,15 +50,16 @@
 
 	# Fetch OSM objects near a lat/lon
 
-	def collect_ways(lat,lon,radius,include_foot=false)
+	def collect_ways(lat,lon,radius,include_foot=false,include_cycleway=true)
 		sql = <<-SQL
 		SELECT ST_Distance( way, ST_Transform(ST_SetSRID(ST_MakePoint($1,$2),4326),3857) ) AS dist,
 			   ST_Length(way) AS length,
 			   ST_Azimuth(ST_StartPoint(way),ST_EndPoint(way)) AS angle,
 			   hstore_to_json(tags) AS tags, osm_id
 		  FROM planet_osm_line
-		 WHERE highway IN (#{ROADS.collect {|r| "'"+r+"'"}.join(',') },
-			 'cycleway' #{ include_foot ? ",'footway','path','track'" : "" })
+		 WHERE highway IN (#{ROADS.collect {|r| "'"+r+"'"}.join(',') }
+			   #{ include_cycleway ? ",'cycleway'" : "" }
+			   #{ include_foot ? ",'footway','path','track'" : "" })
 		   AND ST_DWithin( way, ST_Transform(ST_SetSRID(ST_MakePoint($1,$2),4326),3857), $3 ) AND osm_id>0
 	  ORDER BY dist
 		SQL
@@ -104,6 +105,19 @@
 
 	end
 	
+	def collect_asls(lat1,lon1,lat2,lon2,radius)
+		sql = <<-SQL
+		SELECT ST_Distance( way, ST_Transform(ST_SetSRID(ST_GeomFromText('LINESTRING(#{lon1} #{lat1}, #{lon2} #{lat2})'),4326),3857) ) AS dist, hstore_to_json(tags) AS tags, osm_id,
+		       ST_X(ST_Transform(way,4326)) AS lon,
+		       ST_Y(ST_Transform(way,4326)) AS lat
+		  FROM planet_osm_point
+		 WHERE tags->'cycleway'='asl'
+		   AND ST_DWithin( way, ST_Transform(ST_SetSRID(ST_GeomFromText('LINESTRING(#{lon1} #{lat1}, #{lon2} #{lat2})'),4326),3857), $1 )
+		ORDER BY dist
+		SQL
+		$conn.exec_params(sql,[radius]).collect { |res| { id: res['osm_id'].to_i, tags: JSON.parse(res['tags'] || '{}'), dist: res['dist'].to_f, lat: res['lat'].to_f, lon: res['lon'].to_f } }
+	end
+	
 	def collect_crossings(lat,lon,radius)
 		sql = <<-SQL
 		SELECT ST_Distance( way, ST_Transform(ST_SetSRID(ST_MakePoint($1,$2),4326),3857) ) AS dist, hstore_to_json(tags) AS tags, osm_id,
@@ -125,6 +139,13 @@
 		# could potentially get tags here too (from planet_osm_point) - though we'd need version to be able to write back to the database (and does it preserve everything like 'source'?)
 		nodes.map! { |n| n.merge(dist: FasterHaversine.distance(n[:lat],n[:lon],lat,lon)*1000) }
 		nodes.sort_by { |n| n[:dist] }
+	end
+
+	# Is a node a junction?
+	
+	def is_junction?(id,way_ids)
+		sql = "SELECT COUNT(*) FROM planet_osm_ways WHERE #{id}=ANY(nodes) AND id IN (#{way_ids.join(',')})"
+		$conn.exec(sql)[0]['count'].to_i > 1
 	end
 
 	# Snap to the nearest point on the given way
