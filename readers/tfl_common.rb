@@ -90,6 +90,20 @@
 		$conn.exec_params(sql,[lon,lat,radius]).collect { |res| { id: res['osm_id'].to_i, type: res['barrier'], tags: JSON.parse(res['tags'] || '{}'), dist: res['dist'].to_f, lat: res['lat'].to_f, lon: res['lon'].to_f } }
 	end
 	
+	def collect_signals(lat,lon,radius)
+		sql = <<-SQL
+		SELECT ST_Distance( way, ST_Transform(ST_SetSRID(ST_MakePoint($1,$2),4326),3857) ) AS dist, 
+			   barrier, hstore_to_json(tags) AS tags, osm_id,
+			   ST_X(ST_Transform(way,4326)) AS lon,
+			   ST_Y(ST_Transform(way,4326)) AS lat
+		  FROM planet_osm_point
+		 WHERE highway='traffic_signals'
+		   AND ST_DWithin( way, ST_Transform(ST_SetSRID(ST_MakePoint($1,$2),4326),3857), $3 )
+	  ORDER BY dist
+		SQL
+		$conn.exec_params(sql,[lon,lat,radius]).collect { |res| { id: res['osm_id'].to_i, tags: JSON.parse(res['tags'] || '{}'), dist: res['dist'].to_f, lat: res['lat'].to_f, lon: res['lon'].to_f } }
+	end
+	
 	def collect_calming(lat,lon,radius)
 		sql = <<-SQL
 		SELECT ST_Distance( way, ST_Transform(ST_SetSRID(ST_MakePoint($1,$2),4326),3857) ) AS dist,

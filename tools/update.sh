@@ -25,6 +25,7 @@ ruby readers/traffic_calming_chicanes.rb
 ruby readers/traffic_calming_sideroads.rb
 ruby readers/traffic_calming_tables.rb
 ruby readers/advanced_stop_lines.rb
+ruby readers/signals.rb
 
 # Create .osm files
 rm output/parking_osm_unique.geojson
