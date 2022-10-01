@@ -733,7 +733,6 @@
   <node id="18061219" lat="51.5603657" lon="-0.04983" version="4" visible="true"/>
   <node id="348533385" lat="51.5553071" lon="0.0614511" version="10" visible="true"/>
   <node id="6021217848" lat="51.4650887" lon="0.091305" version="3" visible="true"/>
-  <node id="3298636318" lat="51.5037625" lon="-0.1150484" version="3" visible="true"/>
   <node id="8456984247" lat="51.3857035" lon="-0.0248283" version="2" visible="true"/>
   <node id="3265436688" lat="51.5112208" lon="-0.1052463" version="2" visible="true"/>
   <node id="48705205" lat="51.5270273" lon="-0.064792" version="3" visible="true"/>
@@ -1531,10 +1530,8 @@
   <node id="8529100141" lat="51.4290386" lon="-0.1349594" version="1" visible="true"/>
   <node id="9380142896" lat="51.5310937" lon="0.0431969" version="2" visible="true"/>
   <node id="3696366" lat="51.4794971" lon="0.0270535" version="10" visible="true"/>
-  <node id="729896113" lat="51.5032459" lon="-0.1155382" version="7" visible="true"/>
   <node id="3532937165" lat="51.4549615" lon="-0.1927167" version="4" visible="true"/>
   <node id="2264550063" lat="51.5248411" lon="-0.0351985" version="6" visible="true"/>
-  <node id="4285804392" lat="51.5036994" lon="-0.1151092" version="3" visible="true"/>
   <node id="5147201268" lat="51.5504119" lon="-0.020858" version="3" visible="true"/>
   <node id="101307741" lat="51.486303" lon="-0.0353779" version="11" visible="true"/>
   <node id="6021718189" lat="51.4819294" lon="-0.1275014" version="4" visible="true"/>
@@ -10907,25 +10904,6 @@
     <tag k="local_ref" v="Y"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="3560401456" lat="51.5035537" lon="-0.1152412" version="5" visible="true">
-    <tag k="bus" v="yes"/>
-    <tag k="name" v="Waterloo Station / York Road"/>
-    <tag k="local_ref" v="W"/>
-    <tag k="public_transport" v="stop_position"/>
-  </node>
-  <node id="3560401458" lat="51.5029937" lon="-0.1157862" version="5" visible="true">
-    <tag k="bus" v="yes"/>
-    <tag k="name" v="Waterloo Station"/>
-    <tag k="public_transport" v="stop_position"/>
-  </node>
-  <node id="2567779121" lat="51.5027958" lon="-0.1159841" version="3" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="forward"/>
-  </node>
-  <node id="2567779148" lat="51.5027559" lon="-0.1160204" version="4" visible="true">
-    <tag k="cycleway" v="asl"/>
-    <tag k="direction" v="forward"/>
-  </node>
   <node id="5424175765" lat="51.4975161" lon="-0.1119456" version="7" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Lambeth North Station"/>
@@ -13467,7 +13445,7 @@
     <tag k="cycleway" v="track"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v=""/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149201"/>
     <nd ref="8064033770"/>
@@ -13495,7 +13473,7 @@
     <tag k="cycleway:left" v="track"/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
     <tag k="cycleway:right" v="lane"/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149202,RWG187331,RWG149204"/>
     <nd ref="8064025780"/>
@@ -13534,7 +13512,7 @@
     <tag k="cycleway" v="track"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v=""/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149156,RWG149154,RWG149155"/>
     <nd ref="8064033776"/>
@@ -13758,7 +13736,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v=""/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149230,RWG187333"/>
     <nd ref="8084647540"/>
@@ -13772,7 +13750,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149230,RWG149231"/>
     <nd ref="6272019014"/>
@@ -13787,7 +13765,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="track"/>
     <tag k="cycleway:left" v=""/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:lane" v="advisory"/>
@@ -13805,7 +13783,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v=""/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149232,RWG149226"/>
     <nd ref="9259825402"/>
@@ -13981,7 +13959,7 @@
     <tag k="segregated" v="yes"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG149228,RWG149220,RWG149222,RWG187333,RWG149229,RWG149227"/>
@@ -14001,7 +13979,7 @@
     <tag k="cycleway:left" v="track"/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
     <tag k="cycleway:right" v="lane"/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149218,RWG149217"/>
     <nd ref="8064025783"/>
@@ -14015,7 +13993,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v=""/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149220,RWG149227"/>
     <nd ref="8084647534"/>
@@ -14029,9 +14007,9 @@
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG187333,RWG149229"/>
     <nd ref="8084647570"/>
@@ -14048,7 +14026,7 @@
     <tag k="lanes:forward" v="2"/>
     <tag k="cycleway:right" v=""/>
     <tag k="lanes:backward" v="1"/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149178"/>
     <nd ref="2237823402"/>
@@ -14064,7 +14042,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149178"/>
     <nd ref="5307659381"/>
@@ -14081,7 +14059,7 @@
     <tag k="cycleway" v="track"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149178"/>
     <nd ref="8084743174"/>
@@ -14126,7 +14104,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG276330,RWG276331,RWG276290,RWG276347"/>
     <nd ref="6813224214"/>
@@ -14223,7 +14201,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="separate"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG187372,RWG149458"/>
     <nd ref="5558121740"/>
@@ -14240,7 +14218,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG276317"/>
     <nd ref="6271893817"/>
@@ -14256,7 +14234,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway:right" v="track"/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG276317"/>
     <nd ref="3982646816"/>
@@ -14342,7 +14320,7 @@
     <tag k="cycleway:left" v="track"/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
     <tag k="cycleway:right" v="track"/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG149274,RWG149275"/>
     <nd ref="8086362586"/>
@@ -14358,7 +14336,7 @@
     <tag k="cycleway" v=""/>
     <tag k="sidewalk" v="both"/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149276,RWG149280"/>
     <nd ref="8064033728"/>
@@ -14374,7 +14352,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:right" v="separate"/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149318"/>
     <nd ref="8085224599"/>
@@ -14391,7 +14369,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:right" v="lane"/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149318"/>
     <nd ref="8080147918"/>
@@ -14443,7 +14421,7 @@
     <tag k="shoulder" v="no"/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
     <tag k="cycleway:left" v=""/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG187668,RWG276340"/>
     <nd ref="8064033719"/>
@@ -14463,7 +14441,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="maxspeed:type" v="GB:nsl_single"/>
     <tag k="cycleway:left" v=""/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG187670,RWG187654"/>
     <nd ref="8064033766"/>
@@ -20971,7 +20949,7 @@
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149255,RWG149257,RWG149309"/>
     <nd ref="5534938313"/>
@@ -24107,7 +24085,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:right" v="shared"/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG187335"/>
     <nd ref="6111906886"/>
@@ -24125,7 +24103,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="track"/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG187335"/>
     <nd ref="5976387033"/>
@@ -25818,7 +25796,7 @@
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="fixme:cycleway:left:conditional" v="mon-fri 7-10am 3-7pm"/>
     <tag k="cycleway:right" v="track"/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG198141,RWG184822"/>
@@ -33968,6 +33946,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG219663,RWG218790"/>
     <nd ref="249486478"/>
@@ -34188,6 +34167,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG219661,RWG219659"/>
@@ -34913,7 +34893,7 @@
     <tag k="highway" v="secondary"/>
     <tag k="cycleway" v=""/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG275483,RWG275458"/>
     <nd ref="776779037"/>
@@ -35227,7 +35207,7 @@
     <tag k="maxweight" v="7.5"/>
     <tag k="smoothness" v="excellent"/>
     <tag k="cycleway:right" v="track"/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="tiger:upload_uuid" v="RWG279410"/>
     <nd ref="21551388"/>
     <nd ref="1541641242"/>
@@ -36569,7 +36549,7 @@
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway" v=""/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG274694,RWG274695"/>
     <nd ref="9841704669"/>
@@ -36586,7 +36566,7 @@
     <tag k="motor_vehicle" v="permissive"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway" v=""/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG274694,RWG274695"/>
     <nd ref="2976515746"/>
@@ -37842,7 +37822,7 @@
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway" v="track"/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG003561"/>
     <nd ref="4931754286"/>
@@ -37859,7 +37839,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway" v="track"/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG003561"/>
     <nd ref="2592933733"/>
@@ -42244,7 +42224,7 @@
     <tag k="cycleway:left:surface:colour" v="green"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="cycleway:right" v="track"/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG003617,RWG003616"/>
@@ -45355,7 +45335,7 @@
     <tag k="operator" v="City of Westminster"/>
     <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway" v="track"/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:surface:colour" v="red"/>
     <tag k="tiger:upload_uuid" v="RWG066041"/>
     <nd ref="7638981098"/>
@@ -45371,34 +45351,12 @@
     <tag k="operator" v="City of Westminster"/>
     <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway" v="track"/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:surface:colour" v="red"/>
     <tag k="tiger:upload_uuid" v="RWG066041"/>
     <nd ref="7638981101"/>
     <nd ref="7638981102"/>
     <nd ref="7638981099"/>
-  </way>
-  <way id="323063156" visible="true" version="9">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A3200"/>
-    <tag k="name" v="York Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="share_busway"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="busway:left" v="lane"/>
-    <tag k="cycleway:left" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG056228,RWG056229"/>
-    <nd ref="3298636318"/>
-    <nd ref="4285804392"/>
-    <nd ref="3560401456"/>
-    <nd ref="729896113"/>
-    <nd ref="3560401458"/>
-    <nd ref="2567779121"/>
-    <nd ref="2567779148"/>
   </way>
   <way id="1064384191" visible="true" version="1">
     <tag k="lit" v="yes"/>
@@ -49097,7 +49055,7 @@
     <tag k="wikipedia" v="en:Whitechapel High Street"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway" v=""/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:surface:colour" v="blue"/>
     <tag k="tiger:upload_uuid" v="RWG152807"/>
     <nd ref="9666545787"/>
@@ -52011,7 +51969,7 @@
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="cycleway" v="track"/>
-    <tag k="cycleway:track" v="hybrid"/>
+    <tag k="cycleway:separation" v="light"/>
     <tag k="cycleway:surface:colour" v="blue"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG073462"/>
@@ -54424,7 +54382,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v=""/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG107455"/>
     <nd ref="6069524533"/>
@@ -54439,7 +54397,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="track"/>
-    <tag k="cycleway:left:track" v="hybrid"/>
+    <tag k="cycleway:left:separation" v="light"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG107455"/>
     <nd ref="10010324298"/>
@@ -55277,7 +55235,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG107458"/>
     <nd ref="1296162476"/>
@@ -55294,7 +55252,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="track"/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG107458"/>
     <nd ref="3623416486"/>
@@ -55311,7 +55269,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="cycleway:right:track" v="hybrid"/>
+    <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG107458"/>
     <nd ref="7887305752"/>
