@@ -2708,11 +2708,13 @@
   <node id="420491073" lat="51.47916" lon="-0.063199" version="3" visible="true"/>
   <node id="415689749" lat="51.4776744" lon="-0.0686263" version="6" visible="true"/>
   <node id="412205620" lat="51.4507593" lon="0.0570408" version="9" visible="true"/>
-  <node id="395865883" lat="51.5071528" lon="-0.2056589" version="7" visible="true">
+  <node id="395865883" lat="51.5071528" lon="-0.2056589" version="9" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tactile_paving" v="no"/>
+    <tag k="button_operated" v="yes"/>
     <tag k="crossing:island" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
   </node>
   <node id="391596009" lat="51.5014443" lon="-0.180612" version="7" visible="true"/>
   <node id="383023587" lat="51.6115819" lon="-0.4243483" version="4" visible="true"/>
@@ -3092,7 +3094,7 @@
   <node id="60029878" lat="51.5401924" lon="-0.3167907" version="3" visible="true"/>
   <node id="54652060" lat="51.4145294" lon="-0.1792839" version="5" visible="true"/>
   <node id="53437133" lat="51.5049832" lon="-0.4693068" version="4" visible="true"/>
-  <node id="46230688" lat="51.4086919" lon="0.0149132" version="9" visible="true"/>
+  <node id="46230688" lat="51.4086902" lon="0.0149239" version="10" visible="true"/>
   <node id="43694388" lat="51.5987606" lon="-0.0650556" version="3" visible="true"/>
   <node id="43694304" lat="51.5989837" lon="-0.0622644" version="5" visible="true"/>
   <node id="43693979" lat="51.5989606" lon="-0.062548" version="4" visible="true"/>
@@ -7135,7 +7137,7 @@
     <nd ref="1247440690"/>
     <nd ref="1600943179"/>
   </way>
-  <way id="578269464" visible="true" version="2">
+  <way id="578269464" visible="true" version="3">
     <tag k="cycleway:left" v="lane"/>
     <tag k="highway" v="trunk"/>
     <tag k="lanes" v="2"/>
@@ -7145,6 +7147,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="ref" v="A243"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="source" v="Bing;interpolation"/>
     <nd ref="5541508670"/>
     <nd ref="1670610092"/>
@@ -7316,7 +7319,7 @@
     <nd ref="-23"/>
     <nd ref="32919369"/>
   </way>
-  <way id="578273592" visible="true" version="1">
+  <way id="578273592" visible="true" version="2">
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="highway" v="trunk"/>
@@ -7326,6 +7329,7 @@
     <tag k="name" v="Leatherhead Road"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="ref" v="A243"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="source:name" v="OS OpenData StreetView"/>
     <nd ref="303989"/>
     <nd ref="26464995"/>
@@ -9528,9 +9532,9 @@
     <nd ref="29511490"/>
     <nd ref="33968044"/>
   </way>
-  <way id="950218289" visible="true" version="3">
-    <tag k="cycleway" v="no"/>
-    <tag k="cycleway:right" v="lane"/>
+  <way id="950218289" visible="true" version="4">
+    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="primary"/>
     <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
@@ -9582,9 +9586,10 @@
     <nd ref="36477511"/>
     <nd ref="1252951"/>
   </way>
-  <way id="40521148" visible="true" version="13">
+  <way id="40521148" visible="true" version="14">
     <tag k="cycleway" v="no"/>
     <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="New Broadway"/>
@@ -9670,7 +9675,8 @@
     <nd ref="-154"/>
     <nd ref="1252826"/>
   </way>
-  <way id="453529991" visible="true" version="4">
+  <way id="453529991" visible="true" version="5">
+    <tag k="cycleway:both" v="no"/>
     <tag k="highway" v="secondary"/>
     <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
@@ -12695,8 +12701,8 @@
     <nd ref="-324"/>
     <nd ref="6987848318"/>
   </way>
-  <way id="605441050" visible="true" version="3">
-    <tag k="cycleway:left" v="lane"/>
+  <way id="605441050" visible="true" version="4">
+    <tag k="cycleway:both" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
