@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10076588329" lat="51.5160915" lon="0.0752143" version="1" visible="true"/>
+  <node id="10076588328" lat="51.5158235" lon="0.0754385" version="1" visible="true"/>
+  <node id="10076588327" lat="51.51575" lon="0.0754626" version="1" visible="true"/>
+  <node id="10076588326" lat="51.5156778" lon="0.0754405" version="1" visible="true"/>
+  <node id="10076588325" lat="51.5156161" lon="0.0753533" version="1" visible="true"/>
   <node id="10037872886" lat="51.51424" lon="-0.2459943" version="1" visible="true"/>
   <node id="10037872885" lat="51.5142233" lon="-0.2459917" version="1" visible="true"/>
   <node id="10035324571" lat="51.522644" lon="0.1067436" version="1" visible="true"/>
@@ -37,6 +42,7 @@
   <node id="9973466869" lat="51.556578" lon="0.1762708" version="1" visible="true"/>
   <node id="9973466853" lat="51.5565997" lon="0.1763009" version="1" visible="true"/>
   <node id="9969899678" lat="51.5049415" lon="-0.2156418" version="2" visible="true"/>
+  <node id="9807547468" lat="51.5155958" lon="0.0752397" version="1" visible="true"/>
   <node id="9770053560" lat="51.6125022" lon="-0.1132272" version="1" visible="true"/>
   <node id="9769776477" lat="51.5186598" lon="-0.4437678" version="1" visible="true"/>
   <node id="9745083474" lat="51.5392989" lon="-0.0271761" version="1" visible="true"/>
@@ -1879,6 +1885,22 @@
     <tag k="tiger:upload_uuid" v="RWG154952"/>
     <nd ref="2334494398"/>
     <nd ref="2334502407"/>
+  </way>
+  <way id="1101024863" visible="true" version="1">
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="surface:colour" v="red"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG185178"/>
+    <nd ref="9807547468"/>
+    <nd ref="10076588325"/>
+    <nd ref="10076588326"/>
+    <nd ref="10076588327"/>
+    <nd ref="10076588328"/>
+    <nd ref="10076588329"/>
   </way>
   <way id="446317586" visible="true" version="2">
     <tag k="highway" v="footway"/>
