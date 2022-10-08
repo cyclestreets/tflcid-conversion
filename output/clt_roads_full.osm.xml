@@ -2612,6 +2612,7 @@
   <node id="9274367803" lat="51.4114981" lon="-0.2254135" version="1" visible="true"/>
   <node id="3840066544" lat="51.5346156" lon="-0.1390006" version="5" visible="true"/>
   <node id="7005332230" lat="51.4592872" lon="-0.2175396" version="1" visible="true"/>
+  <node id="10079881846" lat="51.5309192" lon="-0.1202116" version="1" visible="true"/>
   <node id="1687077672" lat="51.5255129" lon="-0.1873021" version="3" visible="true"/>
   <node id="9211312702" lat="51.5199453" lon="-0.0564806" version="1" visible="true"/>
   <node id="3334147756" lat="51.5592004" lon="-0.2846481" version="4" visible="true"/>
@@ -3649,7 +3650,6 @@
   <node id="8084743173" lat="51.6331961" lon="-0.0944148" version="1" visible="true"/>
   <node id="196508" lat="51.6151416" lon="-0.086891" version="5" visible="true"/>
   <node id="26919632" lat="51.4341063" lon="0.0373568" version="4" visible="true"/>
-  <node id="195859747" lat="51.5264637" lon="0.1168056" version="11" visible="true"/>
   <node id="8919045685" lat="51.546814" lon="-0.0518779" version="1" visible="true"/>
   <node id="3982646797" lat="51.6364408" lon="-0.0908582" version="7" visible="true"/>
   <node id="30426603" lat="51.4629448" lon="-0.2835775" version="7" visible="true"/>
@@ -7702,6 +7702,9 @@
   </node>
   <node id="6329713784" lat="51.5285072" lon="0.1168264" version="1" visible="true">
     <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="195859747" lat="51.5264637" lon="0.1168056" version="12" visible="true">
+    <tag k="restriction:conditional" v="no_right_turn @ (Mo-Fr 6:00-10:00)"/>
   </node>
   <node id="9664866370" lat="51.5238502" lon="0.1165819" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -39992,7 +39995,7 @@
     <nd ref="6250491144"/>
     <nd ref="6355365939"/>
   </way>
-  <way id="839400071" visible="true" version="2">
+  <way id="839400071" visible="true" version="4">
     <tag k="hgv" v="destination"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Englefield Road"/>
@@ -40003,6 +40006,9 @@
     <tag k="sidewalk" v="both"/>
     <tag k="maxweight" v="7.5"/>
     <tag k="cycleway:both" v="no"/>
+    <tag k="parking:lane:both" v="no"/>
+    <tag k="sidewalk:both:surface" v="asphalt"/>
+    <tag k="parking:condition:both" v="no_stopping"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG150949"/>
@@ -40791,7 +40797,7 @@
     <nd ref="2514948612"/>
     <nd ref="14959003"/>
   </way>
-  <way id="235063379" visible="true" version="7">
+  <way id="235063379" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Richmond Road"/>
     <tag k="highway" v="unclassified"/>
@@ -40799,6 +40805,8 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:both" v="no"/>
+    <tag k="parking:lane:both" v="no"/>
+    <tag k="parking:condition:both" v="no_stopping"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG042380"/>
@@ -42850,6 +42858,26 @@
     <tag k="tiger:upload_uuid" v="RWG030504"/>
     <nd ref="6800424770"/>
     <nd ref="6800424768"/>
+  </way>
+  <way id="1101475691" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A501"/>
+    <tag k="name" v="Pentonville Road"/>
+    <tag k="lanes" v="3"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="cycleway:left:width" v="1.25"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="exclusive"/>
+    <tag k="tiger:upload_uuid" v="RWG003499"/>
+    <nd ref="10079881846"/>
+    <nd ref="10703711"/>
   </way>
   <way id="379356932" visible="true" version="2">
     <tag k="lit" v="yes"/>
