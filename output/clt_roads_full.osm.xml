@@ -74,6 +74,7 @@
   <node id="9806904444" lat="51.4862988" lon="-0.0724444" version="1" visible="true"/>
   <node id="9661587951" lat="51.5878251" lon="-0.0567071" version="1" visible="true"/>
   <node id="126606881" lat="51.5199849" lon="0.017554" version="16" visible="true"/>
+  <node id="10083041269" lat="51.4878287" lon="0.063261" version="1" visible="true"/>
   <node id="1692209251" lat="51.4369772" lon="-0.356951" version="1" visible="true"/>
   <node id="9772459578" lat="51.3796475" lon="-0.0999569" version="1" visible="true"/>
   <node id="223659411" lat="51.399037" lon="-0.2584117" version="24" visible="true"/>
@@ -5017,7 +5018,7 @@
   <node id="848260693" lat="51.5433641" lon="0.0003115" version="5" visible="true"/>
   <node id="9621133605" lat="51.5366182" lon="-0.1478817" version="1" visible="true"/>
   <node id="5737564840" lat="51.38261" lon="-0.2486721" version="3" visible="true"/>
-  <node id="7953415002" lat="51.4325196" lon="0.0338723" version="2" visible="true"/>
+  <node id="7953415002" lat="51.4325071" lon="0.0338495" version="3" visible="true"/>
   <node id="983860073" lat="51.5220052" lon="-0.1107898" version="7" visible="true"/>
   <node id="9010204725" lat="51.5323958" lon="-0.0092034" version="1" visible="true"/>
   <node id="36487127" lat="51.5893683" lon="-0.3572175" version="7" visible="true"/>
@@ -5616,6 +5617,7 @@
   <node id="248872302" lat="51.5883748" lon="0.0217633" version="8" visible="true"/>
   <node id="27624890" lat="51.5890893" lon="-0.0195318" version="9" visible="true"/>
   <node id="2584020698" lat="51.5226092" lon="-0.0778457" version="6" visible="true"/>
+  <node id="10083060947" lat="51.4875341" lon="0.0633089" version="1" visible="true"/>
   <node id="21408596" lat="51.4559147" lon="-0.2049865" version="8" visible="true"/>
   <node id="1584091367" lat="51.4206088" lon="-0.2054466" version="5" visible="true"/>
   <node id="9780150334" lat="51.4172194" lon="-0.0443751" version="1" visible="true"/>
@@ -24320,7 +24322,32 @@
     <nd ref="9426706694"/>
     <nd ref="6151790952"/>
   </way>
-  <way id="997150546" visible="true" version="1">
+  <way id="997150546" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A205"/>
+    <tag k="name" v="John Wilson Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="turn:lanes" v="left;through|right"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="parking:lane:left" v="no_stopping"/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG184840"/>
+    <nd ref="10083041269"/>
+    <nd ref="90119637"/>
+    <nd ref="9207335399"/>
+    <nd ref="2316548022"/>
+  </way>
+  <way id="1101862300" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A205"/>
     <tag k="name" v="John Wilson Street"/>
@@ -24341,11 +24368,9 @@
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG184840"/>
     <nd ref="9207574897"/>
-    <nd ref="90119637"/>
-    <nd ref="9207335399"/>
-    <nd ref="2316548022"/>
+    <nd ref="10083041269"/>
   </way>
-  <way id="997150547" visible="true" version="1">
+  <way id="997150547" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A205"/>
     <tag k="name" v="John Wilson Street"/>
@@ -24367,6 +24392,28 @@
     <nd ref="2316548010"/>
     <nd ref="2316548020"/>
     <nd ref="90119673"/>
+    <nd ref="10083060947"/>
+  </way>
+  <way id="1101864275" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A205"/>
+    <tag k="name" v="John Wilson Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="abutters" v="mixed"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="parking:lane:left" v="no_stopping"/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG184841"/>
+    <nd ref="10083060947"/>
     <nd ref="9207574899"/>
   </way>
   <way id="37788481" visible="true" version="20">
