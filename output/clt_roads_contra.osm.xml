@@ -10923,7 +10923,7 @@
     <nd ref="9693974377"/>
     <nd ref="9846850973"/>
   </way>
-  <way id="1046709714" visible="true" version="4">
+  <way id="1046709714" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Powerscroft Road"/>
     <tag k="lanes" v="1"/>
@@ -10933,7 +10933,9 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:left" v="shared"/>
+    <tag k="parking:lane:both" v="no"/>
     <tag k="cycleway:left:lane" v="pictogram"/>
+    <tag k="parking:condition:both" v="no_parking"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG097850"/>
     <nd ref="282832077"/>
@@ -11719,13 +11721,15 @@
     <nd ref="427931762"/>
     <nd ref="3716875477"/>
   </way>
-  <way id="775137459" visible="true" version="2">
+  <way id="775137459" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Gascoyne Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="parking:lane:both" v="no"/>
+    <tag k="parking:condition:both" v="no_parking"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG151517"/>
     <nd ref="7231653832"/>
