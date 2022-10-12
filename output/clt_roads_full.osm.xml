@@ -11917,12 +11917,15 @@
     <tag k="crossing_ref" v="zebra"/>
     <tag k="crossing:island" v="no"/>
   </node>
-  <node id="10069617548" lat="51.449897" lon="-0.33073" version="1" visible="true">
+  <node id="10069617548" lat="51.449897" lon="-0.33073" version="4" visible="true">
     <tag k="kerb" v="no"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="supervised" v="no"/>
     <tag k="crossing_ref" v="zebra"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="traffic_signals:sound" v="yes"/>
   </node>
   <node id="3625739280" lat="51.445351" lon="-0.335203" version="5" visible="true">
     <tag k="highway" v="crossing"/>
@@ -33145,7 +33148,7 @@
     <nd ref="3629067537"/>
     <nd ref="3629067510"/>
   </way>
-  <way id="357774225" visible="true" version="8">
+  <way id="357774225" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A310"/>
     <tag k="name" v="London Road"/>
@@ -33158,6 +33161,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="maxweight:signed" v="no"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:surface:colour" v="red"/>
     <tag k="cycleway:lane" v="exclusive"/>
@@ -33577,11 +33581,12 @@
     <nd ref="6088912696"/>
     <nd ref="6088912708"/>
   </way>
-  <way id="754429834" visible="true" version="1">
+  <way id="754429834" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="rcn" v="proposed"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Brentford High Street"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>

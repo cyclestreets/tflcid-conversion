@@ -36,15 +36,6 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG107380"/>
   </node>
-  <node id="2449187621" lat="51.5481111947754" lon="-0.127790899982211" visible="true" version="5">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
-    <tag k="crossing:island" v="no"/>
-    <tag k="segregated" v="yes"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG003326"/>
-  </node>
   <node id="9777183357" lat="51.5482527947753" lon="-0.127688899982226" visible="true" version="1">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -54,15 +45,14 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG003326"/>
   </node>
-  <node id="3716875521" lat="51.5306838947758" lon="-0.122500399982948" visible="true" version="5">
+  <node id="2449187621" lat="51.5481111947754" lon="-0.127790899982211" visible="true" version="5">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
     <tag k="segregated" v="yes"/>
     <tag k="bicycle" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG065992"/>
+    <tag k="tiger:upload_uuid" v="RWG003326"/>
   </node>
   <node id="3716875521" lat="51.5306838947758" lon="-0.122500399982948" visible="true" version="5">
     <tag k="highway" v="crossing"/>
@@ -81,6 +71,16 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
     <tag k="traffic_signals:vibration" v="yes"/>
+    <tag k="segregated" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG065992"/>
+  </node>
+  <node id="3716875521" lat="51.5306838947758" lon="-0.122500399982948" visible="true" version="5">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
     <tag k="segregated" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065992"/>
@@ -151,16 +151,6 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG150947"/>
   </node>
-  <node id="3716875521" lat="51.5306838947758" lon="-0.122500399982948" visible="true" version="5">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="button_operated" v="yes"/>
-    <tag k="segregated" v="yes"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG150947"/>
-  </node>
   <node id="1511438757" lat="51.5305916947758" lon="-0.122397299982962" visible="true" version="8">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -168,6 +158,16 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
     <tag k="traffic_signals:vibration" v="yes"/>
+    <tag k="segregated" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG150947"/>
+  </node>
+  <node id="3716875521" lat="51.5306838947758" lon="-0.122500399982948" visible="true" version="5">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
     <tag k="segregated" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG150947"/>
@@ -385,21 +385,21 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG055860"/>
   </node>
+  <node id="4194445842" lat="51.5009775947765" lon="-0.127275499982283" visible="true" version="5">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="segregated" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG065988"/>
+  </node>
   <node id="6327543545" lat="51.5010131947765" lon="-0.127331799982275" visible="true" version="6">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
     <tag k="traffic_signals:vibration" v="yes"/>
-    <tag k="segregated" v="yes"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG065988"/>
-  </node>
-  <node id="4194445842" lat="51.5009775947765" lon="-0.127275499982283" visible="true" version="5">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="button_operated" v="yes"/>
     <tag k="segregated" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065988"/>
@@ -728,7 +728,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG135340"/>
   </node>
-  <node id="6070564778" lat="51.5065678947764" lon="-0.010589299998526" visible="true" version="5">
+  <node id="6070564987" lat="51.5065619947764" lon="-0.010409499998551" visible="true" version="5">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="segregated" v="yes"/>
@@ -736,7 +736,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG073180"/>
   </node>
-  <node id="6070564987" lat="51.5065619947764" lon="-0.010409499998551" visible="true" version="5">
+  <node id="6070564778" lat="51.5065678947764" lon="-0.010589299998526" visible="true" version="5">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="segregated" v="yes"/>
@@ -948,7 +948,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065968"/>
   </node>
-  <node id="8908572779" lat="51.5106469947763" lon="-0.115434999983931" visible="true" version="3">
+  <node id="4174200032" lat="51.5105855947763" lon="-0.115406399983935" visible="true" version="6">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -958,7 +958,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG065968"/>
   </node>
-  <node id="4174200032" lat="51.5105855947763" lon="-0.115406399983935" visible="true" version="6">
+  <node id="8908572779" lat="51.5106469947763" lon="-0.115434999983931" visible="true" version="3">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -1366,7 +1366,7 @@
     <tag k="segregated" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG042166"/>
   </node>
-  <node id="5408928773" lat="51.5401783947756" lon="-0.0555781999922635" visible="true" version="9">
+  <node id="5408928770" lat="51.5402051947756" lon="-0.0556814999922491" visible="true" version="8">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -1376,7 +1376,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG151441"/>
   </node>
-  <node id="5408928770" lat="51.5402051947756" lon="-0.0556814999922491" visible="true" version="8">
+  <node id="5408928773" lat="51.5401783947756" lon="-0.0555781999922635" visible="true" version="9">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -1443,7 +1443,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG108133"/>
   </node>
-  <node id="3195055541" lat="51.5153554947762" lon="-0.226546899968464" visible="true" version="4">
+  <node id="5862418347" lat="51.5153021947762" lon="-0.226511599968469" visible="true" version="3">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -1451,7 +1451,7 @@
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG102604"/>
   </node>
-  <node id="5862418347" lat="51.5153021947762" lon="-0.226511599968469" visible="true" version="3">
+  <node id="3195055541" lat="51.5153554947762" lon="-0.226546899968464" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -1849,14 +1849,14 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG236623"/>
   </node>
-  <node id="7393829856" lat="51.6016469947741" lon="-0.0495034999931091" visible="true" version="3">
+  <node id="1762423368" lat="51.6016377947741" lon="-0.0496770999930849" visible="true" version="7">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="segregated" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG278946"/>
   </node>
-  <node id="1762423368" lat="51.6016377947741" lon="-0.0496770999930849" visible="true" version="7">
+  <node id="7393829856" lat="51.6016469947741" lon="-0.0495034999931091" visible="true" version="3">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="segregated" v="yes"/>
@@ -1871,7 +1871,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG273887"/>
   </node>
-  <node id="3146836875" lat="51.5320037947757" lon="-0.294833699958959" visible="true" version="5">
+  <node id="3146836868" lat="51.5319795947758" lon="-0.29497199995894" visible="true" version="5">
     <tag k="foot" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
@@ -1879,7 +1879,7 @@
     <tag k="segregated" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG273907"/>
   </node>
-  <node id="3146836868" lat="51.5319795947758" lon="-0.29497199995894" visible="true" version="5">
+  <node id="3146836875" lat="51.5320037947757" lon="-0.294833699958959" visible="true" version="5">
     <tag k="foot" v="no"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
@@ -2161,7 +2161,7 @@
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG292621"/>
   </node>
-  <node id="2330023791" lat="51.5893789947744" lon="-0.19604529997271" visible="true" version="4">
+  <node id="2330023798" lat="51.5892957947744" lon="-0.196358099972667" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tactile_paving" v="yes"/>
@@ -2169,7 +2169,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG278949"/>
   </node>
-  <node id="2330023798" lat="51.5892957947744" lon="-0.196358099972667" visible="true" version="4">
+  <node id="2330023791" lat="51.5893789947744" lon="-0.19604529997271" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tactile_paving" v="yes"/>
@@ -2449,14 +2449,14 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG236108"/>
   </node>
-  <node id="2010515709" lat="51.480836494777" lon="-0.434518799939515" visible="true" version="5">
+  <node id="3134969638" lat="51.480810594777" lon="-0.434389299939533" visible="true" version="8">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="button_operated" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG236108"/>
   </node>
-  <node id="3134969638" lat="51.480810594777" lon="-0.434389299939533" visible="true" version="8">
+  <node id="2010515709" lat="51.480836494777" lon="-0.434518799939515" visible="true" version="5">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="button_operated" v="yes"/>
@@ -2554,7 +2554,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG218338"/>
   </node>
-  <node id="9555528154" lat="51.3724647947797" lon="-0.0970438999864914" visible="true" version="1">
+  <node id="9555528152" lat="51.3724061947797" lon="-0.0970339999864928" visible="true" version="1">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
@@ -2563,7 +2563,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG218288"/>
   </node>
-  <node id="9555528152" lat="51.3724061947797" lon="-0.0970339999864928" visible="true" version="1">
+  <node id="9555528154" lat="51.3724647947797" lon="-0.0970438999864914" visible="true" version="1">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
@@ -2821,13 +2821,13 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG220935"/>
   </node>
-  <node id="5194273586" lat="51.5765010947747" lon="0.0653604999909018" visible="true" version="4">
+  <node id="5194273587" lat="51.5765915947747" lon="0.0655830999908708" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG220934"/>
   </node>
-  <node id="5194273587" lat="51.5765915947747" lon="0.0655830999908708" visible="true" version="4">
+  <node id="5194273586" lat="51.5765010947747" lon="0.0653604999909018" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="bicycle" v="yes"/>
@@ -2942,17 +2942,6 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG154549"/>
   </node>
-  <node id="7053767409" lat="51.5428888947755" lon="-0.00393689999945198" visible="true" version="5">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="puffin"/>
-    <tag k="tactile_paving" v="no"/>
-    <tag k="button_operated" v="yes"/>
-    <tag k="crossing:island" v="no"/>
-    <tag k="traffic_signals:vibration" v="yes"/>
-    <tag k="bicycle" v="dismount"/>
-    <tag k="tiger:upload_uuid" v="RWG154542"/>
-  </node>
   <node id="2453878217" lat="51.5428596947755" lon="-0.00382589999946743" visible="true" version="14">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -2965,14 +2954,25 @@
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG154542"/>
   </node>
-  <node id="5482434876" lat="51.5768378947747" lon="0.0671057999906588" visible="true" version="5">
+  <node id="7053767409" lat="51.5428888947755" lon="-0.00393689999945198" visible="true" version="5">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="puffin"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
+    <tag k="bicycle" v="dismount"/>
+    <tag k="tiger:upload_uuid" v="RWG154542"/>
+  </node>
+  <node id="5482434873" lat="51.5766742947747" lon="0.0669913999906747" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG220932"/>
   </node>
-  <node id="5482434873" lat="51.5766742947747" lon="0.0669913999906747" visible="true" version="4">
+  <node id="5482434876" lat="51.5768378947747" lon="0.0671057999906588" visible="true" version="5">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -2996,14 +2996,14 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG999441"/>
   </node>
-  <node id="32650561" lat="51.5335355947757" lon="-0.00761189999894041" visible="true" version="16">
+  <node id="262299638" lat="51.5336880947757" lon="-0.00766539999893297" visible="true" version="9">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG154552"/>
   </node>
-  <node id="262299638" lat="51.5336880947757" lon="-0.00766539999893297" visible="true" version="9">
+  <node id="32650561" lat="51.5335355947757" lon="-0.00761189999894041" visible="true" version="16">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -3152,7 +3152,7 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184442"/>
   </node>
-  <node id="2353104851" lat="51.4863406947769" lon="0.0167063999976745" visible="true" version="8">
+  <node id="2353104837" lat="51.4864201947769" lon="0.0167834999976637" visible="true" version="9">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
@@ -3161,7 +3161,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG244590"/>
   </node>
-  <node id="2353104837" lat="51.4864201947769" lon="0.0167834999976637" visible="true" version="9">
+  <node id="2353104851" lat="51.4863406947769" lon="0.0167063999976745" visible="true" version="8">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
@@ -3304,7 +3304,7 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="tiger:upload_uuid" v="RWG184353"/>
   </node>
-  <node id="6304288193" lat="51.5302745947758" lon="0.138401599980734" visible="true" version="2">
+  <node id="6304288193" lat="51.5303058947758" lon="0.138388199980736" visible="true" version="3">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -4108,14 +4108,14 @@
     <tag k="segregated" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG206467"/>
   </node>
-  <node id="1937660932" lat="51.5764582947747" lon="0.18699219997397" visible="true" version="2">
+  <node id="1937660915" lat="51.5765423947747" lon="0.18713789997395" visible="true" version="2">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="segregated" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG123184"/>
   </node>
-  <node id="1937660915" lat="51.5765423947747" lon="0.18713789997395" visible="true" version="2">
+  <node id="1937660932" lat="51.5764582947747" lon="0.18699219997397" visible="true" version="2">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="segregated" v="yes"/>
@@ -4209,24 +4209,6 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG150484"/>
   </node>
-  <node id="3194426681" lat="51.6496438947729" lon="-0.0601250999916305" visible="true" version="4">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="toucan"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="crossing:island" v="yes"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG150483"/>
-  </node>
-  <node id="3194426680" lat="51.6496417947729" lon="-0.0600171999916455" visible="true" version="4">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="toucan"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="crossing:island" v="yes"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG150483"/>
-  </node>
   <node id="3194426680" lat="51.6496417947729" lon="-0.0600171999916455" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -4237,6 +4219,24 @@
     <tag k="tiger:upload_uuid" v="RWG150483"/>
   </node>
   <node id="3194426681" lat="51.6496438947729" lon="-0.0601250999916305" visible="true" version="4">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="toucan"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG150483"/>
+  </node>
+  <node id="3194426681" lat="51.6496438947729" lon="-0.0601250999916305" visible="true" version="4">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="toucan"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG150483"/>
+  </node>
+  <node id="3194426680" lat="51.6496417947729" lon="-0.0600171999916455" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
@@ -4359,24 +4359,6 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG187272"/>
   </node>
-  <node id="3194426452" lat="51.6494435947729" lon="-0.0597573999916817" visible="true" version="2">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="toucan"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="crossing:island" v="yes"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG150478"/>
-  </node>
-  <node id="3194426452" lat="51.6494435947729" lon="-0.0597573999916817" visible="true" version="2">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="toucan"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="crossing:island" v="yes"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG150478"/>
-  </node>
   <node id="3194426434" lat="51.6493521947729" lon="-0.0598942999916626" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
@@ -4387,6 +4369,24 @@
     <tag k="tiger:upload_uuid" v="RWG150478"/>
   </node>
   <node id="3194426434" lat="51.6493521947729" lon="-0.0598942999916626" visible="true" version="4">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="toucan"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG150478"/>
+  </node>
+  <node id="3194426452" lat="51.6494435947729" lon="-0.0597573999916817" visible="true" version="2">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="toucan"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG150478"/>
+  </node>
+  <node id="3194426452" lat="51.6494435947729" lon="-0.0597573999916817" visible="true" version="2">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="toucan"/>
@@ -4529,7 +4529,7 @@
     <tag k="bicycle" v="dismount"/>
     <tag k="tiger:upload_uuid" v="RWG187264"/>
   </node>
-  <node id="6651584519" lat="51.6708204947724" lon="-0.019159499997333" visible="true" version="4">
+  <node id="6651584520" lat="51.6707296947724" lon="-0.019216799997325" visible="true" version="7">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -4538,7 +4538,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG150510"/>
   </node>
-  <node id="6651584520" lat="51.6707296947724" lon="-0.019216799997325" visible="true" version="7">
+  <node id="6651584519" lat="51.6708204947724" lon="-0.019159499997333" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -4575,14 +4575,14 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG150559"/>
   </node>
-  <node id="256776488" lat="51.6651078947725" lon="-0.0564615999921405" visible="true" version="2">
+  <node id="256776490" lat="51.6650246947725" lon="-0.0564816999921377" visible="true" version="2">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="segregated" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG150557"/>
   </node>
-  <node id="256776490" lat="51.6650246947725" lon="-0.0564816999921377" visible="true" version="2">
+  <node id="256776488" lat="51.6651078947725" lon="-0.0564615999921405" visible="true" version="2">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
