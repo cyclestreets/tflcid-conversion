@@ -45893,23 +45893,7 @@
     <nd ref="33208519"/>
     <nd ref="9584193395"/>
   </way>
-  <way id="1040972625" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A315"/>
-    <tag k="name" v="Hammersmith Road"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v=""/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="cycleway:left:lane" v="advisory"/>
-    <tag k="cycleway:right:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
-    <tag k="tiger:upload_uuid" v="RWG152974,RWG153011,RWG153023"/>
-    <nd ref="9176675614"/>
-    <nd ref="21662667"/>
-    <nd ref="9584099621"/>
-  </way>
-  <way id="1040972624" visible="true" version="1">
+  <way id="1040972625" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
@@ -45918,13 +45902,29 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="share_busway"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG152974,RWG153011,RWG153023"/>
+    <nd ref="9176675614"/>
+    <nd ref="21662667"/>
+    <nd ref="9584099621"/>
+  </way>
+  <way id="1040972624" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A315"/>
+    <tag k="name" v="Hammersmith Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v=""/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:right:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG152974,RWG153023"/>
     <nd ref="9584099621"/>
     <nd ref="829468570"/>
   </way>
-  <way id="69147486" visible="true" version="12">
+  <way id="69147486" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
@@ -45932,25 +45932,24 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="cycleway:right" v=""/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:right:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG152974,RWG153023"/>
     <nd ref="829468570"/>
     <nd ref="9379323813"/>
   </way>
-  <way id="1016889011" visible="true" version="1">
+  <way id="1016889011" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v=""/>
-    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="share_busway"/>
-    <tag k="cycleway:right:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG152974,RWG153023"/>
     <nd ref="9379323813"/>
     <nd ref="9379323812"/>
@@ -46023,18 +46022,17 @@
     <nd ref="1937709615"/>
     <nd ref="1795462018"/>
   </way>
-  <way id="1016889008" visible="true" version="1">
+  <way id="1016889008" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v=""/>
-    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="share_busway"/>
-    <tag k="cycleway:right:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG153000,RWG153005,RWG153023,RWG042884"/>
     <nd ref="9379323808"/>
     <nd ref="6933365836"/>
@@ -46324,7 +46322,7 @@
     <nd ref="104393"/>
     <nd ref="9210978153"/>
   </way>
-  <way id="1016889009" visible="true" version="1">
+  <way id="1016889009" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
@@ -46332,7 +46330,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="cycleway:right" v=""/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:right:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG153005,RWG153023"/>
@@ -46340,24 +46338,7 @@
     <nd ref="9166152652"/>
     <nd ref="9379323810"/>
   </way>
-  <way id="1016889010" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A315"/>
-    <tag k="name" v="Hammersmith Road"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v=""/>
-    <tag k="cycleway:left:lane" v="advisory"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="cycleway:right:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
-    <tag k="tiger:upload_uuid" v="RWG153005,RWG153023"/>
-    <nd ref="9379323810"/>
-    <nd ref="9176637231"/>
-    <nd ref="9379323811"/>
-  </way>
-  <way id="24538743" visible="true" version="19">
+  <way id="1016889010" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
@@ -46366,6 +46347,22 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="share_busway"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG153005,RWG153023"/>
+    <nd ref="9379323810"/>
+    <nd ref="9176637231"/>
+    <nd ref="9379323811"/>
+  </way>
+  <way id="24538743" visible="true" version="20">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A315"/>
+    <tag k="name" v="Hammersmith Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v=""/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:right:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG153005,RWG153023"/>
