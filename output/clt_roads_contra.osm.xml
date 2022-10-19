@@ -12725,7 +12725,7 @@
     <nd ref="811891607"/>
     <nd ref="8881479138"/>
   </way>
-  <way id="6022183" visible="true" version="22">
+  <way id="6022183" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Bentham Road"/>
     <tag k="lanes" v="1"/>
@@ -12735,7 +12735,11 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="parking:lane:left" v="parallel"/>
+    <tag k="parking:lane:right" v="no"/>
     <tag k="sidewalk:both:surface" v="paving_stones"/>
+    <tag k="parking:condition:right" v="no_parking"/>
+    <tag k="parking:lane:left:parallel" v="painted_area_only"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG097859"/>
     <nd ref="18064234"/>
