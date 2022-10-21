@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10114355674" lat="51.3815252" lon="-0.2876884" version="1" visible="true"/>
+  <node id="10114355673" lat="51.3814825" lon="-0.2876656" version="1" visible="true"/>
   <node id="9991705824" lat="51.5167957" lon="-0.0170045" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -10,7 +12,7 @@
   <node id="9790239829" lat="51.4875519" lon="-0.3976359" version="1" visible="true"/>
   <node id="9790239828" lat="51.4876841" lon="-0.3978362" version="1" visible="true"/>
   <node id="9790239827" lat="51.4878415" lon="-0.3978284" version="1" visible="true"/>
-  <node id="9764630193" lat="51.3823037" lon="-0.2879697" version="1" visible="true">
+  <node id="9764630193" lat="51.3822995" lon="-0.287957" version="2" visible="true">
     <tag k="traffic_calming" v="choker"/>
   </node>
   <node id="9756815108" lat="51.5336179" lon="0.006639" version="2" visible="true">
@@ -287,9 +289,9 @@
   <node id="30863497" lat="51.4475649" lon="-0.3157685" version="2" visible="true"/>
   <node id="25105956" lat="51.558377" lon="-0.3454781" version="3" visible="true"/>
   <node id="23780658" lat="51.380939" lon="-0.2879392" version="5" visible="true"/>
-  <node id="23780649" lat="51.3814854" lon="-0.287667" version="3" visible="true"/>
+  <node id="23780649" lat="51.3814461" lon="-0.2876657" version="4" visible="true"/>
   <node id="23780614" lat="51.3816595" lon="-0.2877874" version="4" visible="true"/>
-  <node id="23780570" lat="51.3822173" lon="-0.2880455" version="3" visible="true"/>
+  <node id="23780570" lat="51.3821939" lon="-0.2880549" version="4" visible="true"/>
   <node id="21382014" lat="51.3698184" lon="-0.1174064" version="5" visible="true"/>
   <node id="20921513" lat="51.5729108" lon="-0.2687027" version="1" visible="true"/>
   <node id="20921512" lat="51.5722081" lon="-0.2691233" version="1" visible="true"/>
@@ -506,7 +508,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG169889"/>
   </node>
-  <node id="-491" lat="51.3823604577408" lon="-0.28791993849554" visible="true">
+  <node id="-491" lat="51.3823527055284" lon="-0.2879121117802" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -765,7 +767,7 @@
     <nd ref="8515900409"/>
     <nd ref="8515938940"/>
   </way>
-  <way id="5406008" visible="true" version="11">
+  <way id="5406008" visible="true" version="12">
     <tag k="highway" v="residential"/>
     <tag k="name" v="Lenelby Road"/>
     <nd ref="9709023287"/>
@@ -777,6 +779,8 @@
     <nd ref="1517525639"/>
     <nd ref="2067068307"/>
     <nd ref="23780614"/>
+    <nd ref="10114355674"/>
+    <nd ref="10114355673"/>
     <nd ref="23780649"/>
     <nd ref="1517539619"/>
     <nd ref="1517525596"/>

@@ -3308,6 +3308,7 @@
   <node id="1312453970" lat="51.5078509" lon="-0.0876371" version="6" visible="true"/>
   <node id="8023223832" lat="51.421371" lon="-0.2774199" version="2" visible="true"/>
   <node id="8944345922" lat="51.5063109" lon="-0.4701" version="1" visible="true"/>
+  <node id="5808269974" lat="51.5342766" lon="-0.006665" version="4" visible="true"/>
   <node id="26975001" lat="51.5494728" lon="-0.4833544" version="4" visible="true"/>
   <node id="9809051945" lat="51.5333222" lon="-0.0876294" version="1" visible="true"/>
   <node id="299219" lat="51.4736245" lon="-0.2128776" version="10" visible="true"/>
@@ -21283,10 +21284,11 @@
     <nd ref="5534944005"/>
     <nd ref="8474048117"/>
   </way>
-  <way id="32269791" visible="true" version="4">
+  <way id="32269791" visible="true" version="5">
     <tag k="name" v="Larkshall Road"/>
     <tag k="lanes" v="2"/>
     <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="postal_code" v="E4"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:lane" v="advisory"/>
@@ -22693,25 +22695,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="502884278" visible="true" version="4">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="maxwidth" v="7'0&quot;"/>
-    <tag k="cycleway" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369865484"/>
-    <nd ref="4369866905"/>
-    <nd ref="4369866910"/>
-    <nd ref="7851494286"/>
-    <nd ref="4369866906"/>
-    <nd ref="8865878648"/>
-    <nd ref="4369866896"/>
-  </way>
   <way id="841518206" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -22730,6 +22713,25 @@
     <nd ref="7851494300"/>
     <nd ref="7851494293"/>
     <nd ref="4369865484"/>
+  </way>
+  <way id="502884278" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxwidth" v="7'0&quot;"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369865484"/>
+    <nd ref="4369866905"/>
+    <nd ref="4369866910"/>
+    <nd ref="7851494286"/>
+    <nd ref="4369866906"/>
+    <nd ref="8865878648"/>
+    <nd ref="4369866896"/>
   </way>
   <way id="236185317" visible="true" version="16">
     <tag k="lit" v="yes"/>
@@ -29275,6 +29277,27 @@
     <nd ref="1815410109"/>
     <nd ref="7418121057"/>
   </way>
+  <way id="1105184891" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A118"/>
+    <tag k="name" v="High Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="old_ref" v="A11"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="maxweight" v="7.5"/>
+    <tag k="was:maxspeed" v="30 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:surface:colour" v="blue"/>
+    <tag k="cycleway:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG156012"/>
+    <nd ref="129993091"/>
+    <nd ref="5808269974"/>
+  </way>
   <way id="1063999840" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Station Road"/>
@@ -35137,12 +35160,15 @@
     <nd ref="1768129379"/>
     <nd ref="30441067"/>
   </way>
-  <way id="5022899" visible="true" version="29">
+  <way id="5022899" visible="true" version="32">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B2230"/>
     <tag k="name" v="St. Nicholas Way"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG219355"/>
     <nd ref="33500448"/>
