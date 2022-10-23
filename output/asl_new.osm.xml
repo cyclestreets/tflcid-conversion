@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10119173615" lat="51.4589207" lon="-0.2430463" version="1" visible="true"/>
+  <node id="10119140111" lat="51.536269" lon="-0.2454419" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
   <node id="10074201279" lat="51.5008222" lon="-0.2860039" version="1" visible="true"/>
   <node id="10066673797" lat="51.592188" lon="-0.2576084" version="1" visible="true"/>
   <node id="10052651925" lat="51.6048303" lon="-0.0164749" version="1" visible="true"/>
@@ -1140,7 +1145,7 @@
     <tag k="crossing_ref" v="pelican"/>
   </node>
   <node id="6211515768" lat="51.4620901" lon="-0.2986183" version="3" visible="true"/>
-  <node id="6210848062" lat="51.5363045" lon="-0.2454863" version="3" visible="true">
+  <node id="6210848062" lat="51.5363019" lon="-0.2454738" version="4" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -5217,7 +5222,7 @@
     <tag k="cycleway" v="asl"/>
     <tag k="tiger:upload_uuid" v="RWG273795"/>
   </node>
-  <node id="-220" lat="51.5363756824743" lon="-0.24555367529843" visible="true">
+  <node id="-220" lat="51.5363788162195" lon="-0.245549133061275" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="tiger:upload_uuid" v="RWG999227"/>
   </node>
@@ -5671,7 +5676,7 @@
     <tag k="asl:feeder" v="left"/>
     <tag k="tiger:upload_uuid" v="RWG235849"/>
   </node>
-  <node id="251286320" lat="51.5127397" lon="-0.3194907" visible="true" version="4">
+  <node id="251286320" lat="51.5127639" lon="-0.3194592" visible="true" version="5">
     <tag k="cycleway" v="asl"/>
     <tag k="asl:feeder" v="left"/>
     <tag k="tiger:upload_uuid" v="RWG235814"/>
@@ -10800,7 +10805,7 @@
     <nd ref="-219"/>
     <nd ref="9842151322"/>
   </way>
-  <way id="50217558" visible="true" version="12">
+  <way id="50217558" visible="true" version="13">
     <tag k="highway" v="primary"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="30 mph"/>
@@ -10817,6 +10822,7 @@
     <nd ref="1010802660"/>
     <nd ref="-220"/>
     <nd ref="6210848062"/>
+    <nd ref="10119140111"/>
     <nd ref="2375888"/>
   </way>
   <way id="42311614" visible="true" version="8">
@@ -13390,7 +13396,7 @@
     <nd ref="-364"/>
     <nd ref="1937820049"/>
   </way>
-  <way id="763392451" visible="true" version="6">
+  <way id="763392451" visible="true" version="7">
     <tag k="foot" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="lanes" v="2"/>
@@ -13418,6 +13424,7 @@
     <nd ref="25631788"/>
     <nd ref="6205896633"/>
     <nd ref="3461330317"/>
+    <nd ref="10119173615"/>
     <nd ref="2951577723"/>
     <nd ref="8678643301"/>
     <nd ref="-365"/>
@@ -13496,7 +13503,7 @@
     <nd ref="1280427892"/>
     <nd ref="25305532"/>
   </way>
-  <way id="763392451" visible="true" version="6">
+  <way id="763392451" visible="true" version="7">
     <tag k="foot" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="lanes" v="2"/>
@@ -13524,6 +13531,7 @@
     <nd ref="25631788"/>
     <nd ref="6205896633"/>
     <nd ref="3461330317"/>
+    <nd ref="10119173615"/>
     <nd ref="2951577723"/>
     <nd ref="8678643301"/>
     <nd ref="299317"/>
