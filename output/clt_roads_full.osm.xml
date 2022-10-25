@@ -41201,7 +41201,7 @@
     <nd ref="9785674714"/>
     <nd ref="9785674713"/>
   </way>
-  <way id="199514520" visible="true" version="10">
+  <way id="199514520" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A104"/>
     <tag k="name" v="Essex Road"/>
@@ -41209,6 +41209,7 @@
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="separate"/>
     <tag k="postal_code" v="N1"/>
     <tag k="busway:right" v="lane"/>
     <tag k="cycleway:right" v=""/>
@@ -43957,7 +43958,7 @@
     <nd ref="2053205018"/>
     <nd ref="6422207133"/>
   </way>
-  <way id="1018951432" visible="true" version="1">
+  <way id="1018951432" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4201"/>
     <tag k="name" v="Regent Street"/>
@@ -43971,6 +43972,7 @@
     <tag k="sidewalk" v="left"/>
     <tag k="wikipedia" v="en:Regent Street"/>
     <tag k="maxspeed:type" v="GB:zone20"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="fixme:cycleway:conditional" v="11am- midnight"/>
     <tag k="tiger:upload_uuid" v="RWG066284,RWG066594"/>
@@ -44227,7 +44229,7 @@
     <nd ref="5650663958"/>
     <nd ref="5933049455"/>
   </way>
-  <way id="313508694" visible="true" version="5">
+  <way id="313508694" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A219"/>
     <tag k="name" v="Wood Lane"/>
@@ -44239,6 +44241,7 @@
     <tag k="sidewalk" v="left"/>
     <tag k="turn:lanes" v="left;through|through"/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:surface:colour" v="green"/>
     <tag k="cycleway:lane" v="exclusive"/>
@@ -45700,7 +45703,7 @@
     <nd ref="9725814361"/>
     <nd ref="9666545772"/>
   </way>
-  <way id="1067635381" visible="true" version="1">
+  <way id="1067635381" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4201"/>
     <tag k="name" v="Regent Street"/>
@@ -45717,6 +45720,7 @@
     <tag k="cycleway:left" v="lane"/>
     <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
     <tag k="fixme:cycleway:conditional" v="11am-midnight"/>
     <tag k="tiger:upload_uuid" v="RWG066595"/>
     <nd ref="4347844136"/>
@@ -46751,7 +46755,7 @@
     <nd ref="8960473847"/>
     <nd ref="8960473846"/>
   </way>
-  <way id="1018951418" visible="true" version="1">
+  <way id="1018951418" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4201"/>
     <tag k="name" v="Regent Street"/>
@@ -46767,6 +46771,7 @@
     <tag k="cycleway:left" v="lane"/>
     <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="fixme:cycleway:conditional" v="11am-midnight"/>
     <tag k="tiger:upload_uuid" v="RWG066598"/>
