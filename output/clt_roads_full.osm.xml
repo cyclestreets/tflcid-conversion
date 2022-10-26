@@ -1140,6 +1140,7 @@
   <node id="9549708376" lat="51.4339268" lon="0.0369585" version="1" visible="true"/>
   <node id="31511655" lat="51.570621" lon="0.1427279" version="3" visible="true"/>
   <node id="6255704843" lat="51.4662798" lon="0.0286755" version="1" visible="true"/>
+  <node id="18008338" lat="51.5040009" lon="-0.3333416" version="4" visible="true"/>
   <node id="28800260" lat="51.5226265" lon="-0.0642722" version="6" visible="true"/>
   <node id="6846516351" lat="51.4770243" lon="-0.3740677" version="2" visible="true"/>
   <node id="9061353420" lat="51.3935889" lon="-0.0937093" version="1" visible="true"/>
@@ -1348,6 +1349,7 @@
   <node id="31502462" lat="51.5612335" lon="0.1538222" version="6" visible="true"/>
   <node id="7734828035" lat="51.3756335" lon="-0.0946619" version="1" visible="true"/>
   <node id="9805966435" lat="51.4109928" lon="-0.086253" version="1" visible="true"/>
+  <node id="6619791888" lat="51.5040789" lon="-0.333493" version="3" visible="true"/>
   <node id="364295" lat="51.5026046" lon="-0.0972824" version="4" visible="true"/>
   <node id="9646951877" lat="51.5168868" lon="-0.0295773" version="1" visible="true"/>
   <node id="106189381" lat="51.5806431" lon="-0.3264452" version="4" visible="true"/>
@@ -31433,6 +31435,22 @@
     <nd ref="469787295"/>
     <nd ref="9244995075"/>
   </way>
+  <way id="1072978231" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A3002"/>
+    <tag k="name" v="Boston Road"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG234129"/>
+    <nd ref="6619791888"/>
+    <nd ref="18008338"/>
+  </way>
   <way id="47046955" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
@@ -49520,11 +49538,12 @@
     <nd ref="7569454870"/>
     <nd ref="18129863"/>
   </way>
-  <way id="226111702" visible="true" version="6">
+  <way id="226111702" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B303"/>
     <tag k="name" v="Old Town"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:lane" v="advisory"/>
@@ -49536,11 +49555,12 @@
     <nd ref="10003960986"/>
     <nd ref="2349681140"/>
   </way>
-  <way id="226111697" visible="true" version="7">
+  <way id="226111697" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B303"/>
     <tag k="name" v="Old Town"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:lane" v="advisory"/>
