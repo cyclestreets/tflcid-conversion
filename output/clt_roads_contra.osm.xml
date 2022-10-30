@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10134254405" lat="51.5936571" lon="-0.0705816" version="1" visible="true"/>
   <node id="10121899866" lat="51.4685728" lon="-0.1360794" version="1" visible="true">
     <tag k="highway" v="crossing"/>
   </node>
@@ -9318,7 +9319,7 @@
     <nd ref="9684062098"/>
     <nd ref="38890323"/>
   </way>
-  <way id="5404887" visible="true" version="10">
+  <way id="1107595136" visible="true" version="1">
     <tag k="name" v="Moorefield Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -9332,6 +9333,18 @@
     <nd ref="7465538443"/>
     <nd ref="7465538444"/>
     <nd ref="38890324"/>
+  </way>
+  <way id="5404887" visible="true" version="11">
+    <tag k="name" v="Moorefield Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="emergency" v="yes"/>
+    <tag k="proposed:oneway" v="no"/>
+    <tag k="proposed:traffic_intervention" v="school_street"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG279160"/>
+    <nd ref="10134254405"/>
     <nd ref="38890326"/>
     <nd ref="7465538445"/>
     <nd ref="38890327"/>
