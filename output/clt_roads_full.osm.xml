@@ -2399,7 +2399,7 @@
   <node id="7833561217" lat="51.5636839" lon="-0.443919" version="1" visible="true"/>
   <node id="155316" lat="51.5463835" lon="-0.1467508" version="6" visible="true"/>
   <node id="21269089" lat="51.4901497" lon="-0.1267137" version="11" visible="true"/>
-  <node id="25592556" lat="51.5072398" lon="-0.3375109" version="6" visible="true"/>
+  <node id="25592556" lat="51.5072398" lon="-0.3374988" version="7" visible="true"/>
   <node id="97920775" lat="51.3818987" lon="-0.0983866" version="6" visible="true"/>
   <node id="6372951652" lat="51.4452164" lon="-0.384787" version="3" visible="true"/>
   <node id="6074895707" lat="51.3847011" lon="-0.1906552" version="3" visible="true"/>
@@ -6206,7 +6206,7 @@
   <node id="15657652" lat="51.4287025" lon="-0.1349786" version="4" visible="true"/>
   <node id="3007021000" lat="51.5455753" lon="-0.1781334" version="3" visible="true"/>
   <node id="9170761830" lat="51.5857757" lon="0.1959373" version="1" visible="true"/>
-  <node id="3086267134" lat="51.5068128" lon="-0.3373714" version="2" visible="true"/>
+  <node id="3086267134" lat="51.5067769" lon="-0.3373634" version="3" visible="true"/>
   <node id="1722268388" lat="51.5169244" lon="-0.0854197" version="4" visible="true"/>
   <node id="1937740190" lat="51.4751076" lon="-0.1519755" version="5" visible="true"/>
   <node id="5725851358" lat="51.4753906" lon="-0.0964453" version="3" visible="true"/>
@@ -28315,7 +28315,7 @@
     <nd ref="2483251723"/>
     <nd ref="1975149458"/>
   </way>
-  <way id="257481037" visible="true" version="4">
+  <way id="257481037" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A2"/>
     <tag k="foot" v="yes"/>
@@ -28328,6 +28328,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="shoulder" v="no"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="cycleway" v=""/>
@@ -34342,14 +34343,17 @@
     <nd ref="1768850099"/>
     <nd ref="1696527608"/>
   </way>
-  <way id="663633185" visible="true" version="2">
+  <way id="663633185" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Church Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v=""/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="red"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG233929,RWG233913"/>
