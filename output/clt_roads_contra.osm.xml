@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10141830590" lat="51.495213" lon="-0.3241244" version="1" visible="true"/>
   <node id="10134254405" lat="51.5936571" lon="-0.0705816" version="1" visible="true"/>
   <node id="10121899866" lat="51.4685728" lon="-0.1360794" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -8293,7 +8294,7 @@
     <nd ref="7013470693"/>
     <nd ref="31046861"/>
   </way>
-  <way id="552014587" visible="true" version="3">
+  <way id="552014587" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Boston Gardens"/>
     <tag k="highway" v="residential"/>
@@ -8304,6 +8305,7 @@
     <tag k="tiger:upload_uuid" v="RWG234173"/>
     <nd ref="5330301568"/>
     <nd ref="698057469"/>
+    <nd ref="10141830590"/>
     <nd ref="36509072"/>
   </way>
   <way id="758164973" visible="true" version="2">
@@ -11212,7 +11214,7 @@
     <nd ref="8603578708"/>
     <nd ref="237481"/>
   </way>
-  <way id="25799956" visible="true" version="19">
+  <way id="25799956" visible="true" version="20">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Homerton Grove"/>
     <tag k="highway" v="residential"/>
@@ -11221,7 +11223,10 @@
     <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="20900532"/>
     <tag k="cycleway:both" v="no"/>
+    <tag k="parking:lane:left" v="no"/>
+    <tag k="parking:lane:right" v="parallel"/>
     <tag k="sidewalk:both:surface" v="paving_stones"/>
+    <tag k="parking:lane:right:parallel" v="on_street"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG151612"/>
     <nd ref="2811568443"/>
