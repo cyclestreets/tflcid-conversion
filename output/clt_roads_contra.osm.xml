@@ -257,6 +257,7 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
+  <node id="9591164928" lat="51.5937231" lon="-0.0783247" version="1" visible="true"/>
   <node id="9591164922" lat="51.5934288" lon="-0.0732304" version="1" visible="true"/>
   <node id="9581565287" lat="51.4350476" lon="-0.1990823" version="1" visible="true"/>
   <node id="9577704196" lat="51.5120508" lon="-0.0156756" version="3" visible="true">
@@ -1170,7 +1171,6 @@
     <tag k="traffic_calming" v="hump"/>
   </node>
   <node id="7468704954" lat="51.4887069" lon="0.0672751" version="1" visible="true"/>
-  <node id="7465538446" lat="51.5941861" lon="-0.0700644" version="1" visible="true"/>
   <node id="7465538445" lat="51.5938588" lon="-0.0702659" version="1" visible="true"/>
   <node id="7465538444" lat="51.5935274" lon="-0.0707768" version="1" visible="true"/>
   <node id="7465538443" lat="51.5934059" lon="-0.0708965" version="1" visible="true"/>
@@ -1478,6 +1478,11 @@
   <node id="6831901850" lat="51.5913321" lon="-0.0813472" version="1" visible="true"/>
   <node id="6831901849" lat="51.5917842" lon="-0.082482" version="1" visible="true"/>
   <node id="6831841603" lat="51.5245578" lon="-0.0874419" version="3" visible="true"/>
+  <node id="6824527305" lat="51.5936526" lon="-0.0783189" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="zebra"/>
+  </node>
   <node id="6824527304" lat="51.5924948" lon="-0.0782888" version="1" visible="true"/>
   <node id="6824527300" lat="51.5924627" lon="-0.0782724" version="1" visible="true"/>
   <node id="6824527299" lat="51.5924289" lon="-0.0782739" version="1" visible="true"/>
@@ -2305,6 +2310,8 @@
   <node id="4225998793" lat="51.4845721" lon="-0.1113246" version="1" visible="true"/>
   <node id="4225998685" lat="51.4845108" lon="-0.1114568" version="2" visible="true"/>
   <node id="4213477739" lat="51.4821906" lon="0.0006481" version="4" visible="true"/>
+  <node id="4192685062" lat="51.5943973" lon="-0.0755843" version="5" visible="true"/>
+  <node id="4192685060" lat="51.5950023" lon="-0.0756139" version="3" visible="true"/>
   <node id="4192665528" lat="51.5743256" lon="-0.077318" version="3" visible="true"/>
   <node id="4136137529" lat="51.5134826" lon="-0.0767887" version="4" visible="true">
     <tag k="highway" v="crossing"/>
@@ -3642,6 +3649,7 @@
   <node id="38891150" lat="51.5956956" lon="-0.0769953" version="2" visible="true"/>
   <node id="38891147" lat="51.5940803" lon="-0.0764828" version="3" visible="true"/>
   <node id="38891144" lat="51.5956776" lon="-0.0775096" version="2" visible="true"/>
+  <node id="38891141" lat="51.5956992" lon="-0.0756514" version="6" visible="true"/>
   <node id="38890692" lat="51.5957185" lon="-0.0783301" version="3" visible="true"/>
   <node id="38890330" lat="51.5942623" lon="-0.0699634" version="5" visible="true"/>
   <node id="38890329" lat="51.5941193" lon="-0.0701048" version="2" visible="true"/>
@@ -3650,6 +3658,8 @@
   <node id="38890324" lat="51.5936227" lon="-0.0706417" version="3" visible="true"/>
   <node id="38890323" lat="51.5932058" lon="-0.0710497" version="1" visible="true"/>
   <node id="38890321" lat="51.59266" lon="-0.0712427" version="4" visible="true"/>
+  <node id="38889789" lat="51.5934301" lon="-0.0783058" version="2" visible="true"/>
+  <node id="38889788" lat="51.5926105" lon="-0.0782677" version="2" visible="true"/>
   <node id="38889678" lat="51.5912384" lon="-0.0813461" version="3" visible="true"/>
   <node id="38889677" lat="51.5923823" lon="-0.0782965" version="2" visible="true"/>
   <node id="38889671" lat="51.5917025" lon="-0.0824339" version="2" visible="true"/>
@@ -8815,6 +8825,19 @@
     <nd ref="7079017432"/>
     <nd ref="71005309"/>
   </way>
+  <way id="728258181" visible="true" version="5">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Broadwater Road"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="was:oneway" v="yes"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG279173"/>
+    <nd ref="4192685062"/>
+    <nd ref="4192685060"/>
+    <nd ref="38891141"/>
+  </way>
   <way id="4746965" visible="true" version="11">
     <tag k="name" v="Federal Road"/>
     <tag k="highway" v="residential"/>
@@ -8956,12 +8979,11 @@
     <nd ref="3225717602"/>
     <nd ref="30759365"/>
   </way>
-  <way id="728260287" visible="true" version="2">
+  <way id="728260287" visible="true" version="3">
     <tag k="name" v="Mount Pleasant Road"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG279178"/>
     <nd ref="6824527304"/>
@@ -8969,18 +8991,45 @@
     <nd ref="6824527299"/>
     <nd ref="38889677"/>
   </way>
-  <way id="728260287" visible="true" version="2">
+  <way id="728260287" visible="true" version="3">
     <tag k="name" v="Mount Pleasant Road"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="proposed:oneway" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG279421"/>
     <nd ref="6824527304"/>
     <nd ref="6824527300"/>
     <nd ref="6824527299"/>
     <nd ref="38889677"/>
+  </way>
+  <way id="728254975" visible="true" version="4">
+    <tag k="name" v="Mount Pleasant Road"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="was:oneway" v="yes"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG279178"/>
+    <nd ref="9591164928"/>
+    <nd ref="6824527305"/>
+    <nd ref="38889789"/>
+    <nd ref="38889788"/>
+    <nd ref="6824527304"/>
+  </way>
+  <way id="728254975" visible="true" version="4">
+    <tag k="name" v="Mount Pleasant Road"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="was:oneway" v="yes"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG279178"/>
+    <nd ref="9591164928"/>
+    <nd ref="6824527305"/>
+    <nd ref="38889789"/>
+    <nd ref="38889788"/>
+    <nd ref="6824527304"/>
   </way>
   <way id="220631476" visible="true" version="5">
     <tag k="name" v="Leaver Gardens"/>
@@ -9307,13 +9356,12 @@
     <nd ref="9973538656"/>
     <nd ref="26434993"/>
   </way>
-  <way id="1041843250" visible="true" version="3">
+  <way id="1041843250" visible="true" version="4">
     <tag k="name" v="Moorefield Road"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="emergency" v="yes"/>
-    <tag k="proposed:oneway" v="no"/>
+    <tag k="was:oneway" v="yes"/>
     <tag k="proposed:traffic_intervention" v="school_street"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG279160"/>
@@ -9321,13 +9369,12 @@
     <nd ref="9684062098"/>
     <nd ref="38890323"/>
   </way>
-  <way id="1107595136" visible="true" version="1">
+  <way id="1107595136" visible="true" version="2">
     <tag k="name" v="Moorefield Road"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="emergency" v="yes"/>
-    <tag k="proposed:oneway" v="no"/>
+    <tag k="was:oneway" v="yes"/>
     <tag k="proposed:traffic_intervention" v="school_street"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG279160"/>
@@ -9336,13 +9383,12 @@
     <nd ref="7465538444"/>
     <nd ref="38890324"/>
   </way>
-  <way id="5404887" visible="true" version="11">
+  <way id="5404887" visible="true" version="12">
     <tag k="name" v="Moorefield Road"/>
-    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="emergency" v="yes"/>
-    <tag k="proposed:oneway" v="no"/>
+    <tag k="was:oneway" v="yes"/>
     <tag k="proposed:traffic_intervention" v="school_street"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG279160"/>
@@ -9351,19 +9397,6 @@
     <nd ref="7465538445"/>
     <nd ref="38890327"/>
     <nd ref="38890329"/>
-    <nd ref="7465538446"/>
-  </way>
-  <way id="1041843256" visible="true" version="3">
-    <tag k="name" v="Moorefield Road"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="emergency" v="yes"/>
-    <tag k="proposed:oneway" v="no"/>
-    <tag k="proposed:highway" v="cycleway"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG279160"/>
-    <nd ref="7465538446"/>
     <nd ref="9657341934"/>
     <nd ref="9591196828"/>
     <nd ref="38890330"/>
@@ -12294,13 +12327,16 @@
     <nd ref="106867"/>
     <nd ref="6332638633"/>
   </way>
-  <way id="457298602" visible="true" version="11">
+  <way id="457298602" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Gascoyne Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="parking:lane:both" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG042304"/>
     <nd ref="4534666471"/>
