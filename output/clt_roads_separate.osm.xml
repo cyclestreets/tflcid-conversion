@@ -1,5 +1,14 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10151640317" lat="51.482504" lon="-0.1114096" version="1" visible="true"/>
+  <node id="10151585805" lat="51.4825936" lon="-0.1114296" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="10151585796" lat="51.482491" lon="-0.1115324" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
   <node id="10100641693" lat="51.4807739" lon="-0.0288127" version="1" visible="true"/>
   <node id="10058776813" lat="51.3976692" lon="-0.3104717" version="1" visible="true"/>
   <node id="10058776812" lat="51.3977098" lon="-0.3104476" version="1" visible="true"/>
@@ -60,7 +69,7 @@
   <node id="9756586068" lat="51.4782244" lon="-0.1486393" version="1" visible="true"/>
   <node id="9754243272" lat="51.4824073" lon="-0.1114978" version="1" visible="true"/>
   <node id="9754243271" lat="51.4824014" lon="-0.111479" version="1" visible="true"/>
-  <node id="9754243270" lat="51.4824134" lon="-0.1115118" version="1" visible="true"/>
+  <node id="9754243270" lat="51.4824116" lon="-0.1115165" version="2" visible="true"/>
   <node id="9754243269" lat="51.4824191" lon="-0.1115209" version="1" visible="true"/>
   <node id="9754243268" lat="51.4825529" lon="-0.1115688" version="1" visible="true"/>
   <node id="9754243267" lat="51.4825609" lon="-0.1115786" version="1" visible="true"/>
@@ -266,7 +275,6 @@
   <node id="8963666194" lat="51.5314626" lon="-0.0104063" version="1" visible="true"/>
   <node id="8963666193" lat="51.5312406" lon="-0.0106442" version="2" visible="true"/>
   <node id="8960609689" lat="51.48274" lon="-0.111453" version="1" visible="true"/>
-  <node id="8960572191" lat="51.4824277" lon="-0.1115291" version="2" visible="true"/>
   <node id="8960473837" lat="51.4825284" lon="-0.1119064" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
@@ -449,14 +457,14 @@
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
   </node>
-  <node id="6967968866" lat="51.4823654" lon="-0.1114563" version="3" visible="true"/>
+  <node id="6967968866" lat="51.482363" lon="-0.1114478" version="4" visible="true"/>
   <node id="6967968865" lat="51.4827003" lon="-0.1114497" version="3" visible="true"/>
   <node id="6967968864" lat="51.4820792" lon="-0.1123276" version="4" visible="true"/>
   <node id="6967968861" lat="51.4825648" lon="-0.1115858" version="4" visible="true"/>
   <node id="6967968858" lat="51.4821695" lon="-0.1122575" version="7" visible="true"/>
   <node id="6967968857" lat="51.482651" lon="-0.1114441" version="3" visible="true"/>
-  <node id="6967968855" lat="51.4823959" lon="-0.1114592" version="3" visible="true"/>
-  <node id="6967968853" lat="51.4824314" lon="-0.111415" version="3" visible="true"/>
+  <node id="6967968855" lat="51.4823841" lon="-0.1114497" version="4" visible="true"/>
+  <node id="6967968853" lat="51.4824338" lon="-0.1113989" version="4" visible="true"/>
   <node id="6967968848" lat="51.4829243" lon="-0.1114319" version="4" visible="true"/>
   <node id="6967968847" lat="51.4828689" lon="-0.1114195" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -944,7 +952,7 @@
   <node id="2837762803" lat="51.5027193" lon="-0.1586119" version="5" visible="true"/>
   <node id="2837762802" lat="51.5026144" lon="-0.1599952" version="3" visible="true"/>
   <node id="2780691954" lat="51.5264832" lon="-0.1078855" version="2" visible="true"/>
-  <node id="2751695457" lat="51.4824379" lon="-0.1115348" version="8" visible="true">
+  <node id="2751695457" lat="51.4824277" lon="-0.1115196" version="9" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
@@ -4784,7 +4792,7 @@
     <nd ref="6967968855"/>
     <nd ref="6967968866"/>
   </way>
-  <way id="4061599" visible="true" version="39">
+  <way id="4061599" visible="true" version="40">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A23"/>
     <tag k="name" v="Brixton Road"/>
@@ -4803,6 +4811,8 @@
     <nd ref="8960609689"/>
     <nd ref="6967968865"/>
     <nd ref="6967968857"/>
+    <nd ref="10151585805"/>
+    <nd ref="10151640317"/>
     <nd ref="6967968853"/>
     <nd ref="6967968855"/>
   </way>
@@ -5169,7 +5179,7 @@
     <nd ref="4112540071"/>
     <nd ref="3070670617"/>
   </way>
-  <way id="744514111" visible="true" version="5">
+  <way id="744514111" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A23"/>
     <tag k="name" v="Brixton Road"/>
@@ -5187,8 +5197,8 @@
     <nd ref="9754243272"/>
     <nd ref="9754243270"/>
     <nd ref="9754243269"/>
-    <nd ref="8960572191"/>
     <nd ref="2751695457"/>
+    <nd ref="10151585796"/>
     <nd ref="6967968870"/>
     <nd ref="9754243268"/>
     <nd ref="9754243266"/>
