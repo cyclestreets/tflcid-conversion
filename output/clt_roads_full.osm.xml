@@ -11921,12 +11921,12 @@
     <tag k="crossing_ref" v="zebra"/>
     <tag k="crossing:island" v="no"/>
   </node>
-  <node id="10069617548" lat="51.449897" lon="-0.33073" version="4" visible="true">
+  <node id="10069617548" lat="51.44991" lon="-0.3307412" version="5" visible="true">
     <tag k="kerb" v="no"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="supervised" v="no"/>
-    <tag k="crossing_ref" v="zebra"/>
+    <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
     <tag k="traffic_signals:sound" v="yes"/>
@@ -46695,7 +46695,7 @@
     <nd ref="18055033"/>
     <nd ref="9725814361"/>
   </way>
-  <way id="46729604" visible="true" version="22">
+  <way id="46729604" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
     <tag k="foot" v="yes"/>
@@ -46708,6 +46708,8 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="busway:left" v="lane"/>
+    <tag k="busway:right" v="lane"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="cycleway" v="lane"/>
