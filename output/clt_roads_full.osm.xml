@@ -2382,7 +2382,6 @@
   <node id="247488576" lat="51.5014358" lon="-0.2839612" version="4" visible="true"/>
   <node id="8211509653" lat="51.4159621" lon="-0.2525079" version="1" visible="true"/>
   <node id="25743593" lat="51.5978155" lon="0.1548541" version="3" visible="true"/>
-  <node id="30179265" lat="51.4869985" lon="-0.0096376" version="10" visible="true"/>
   <node id="36727186" lat="51.4690323" lon="0.1591351" version="5" visible="true"/>
   <node id="304775539" lat="51.3690935" lon="-0.2900999" version="14" visible="true"/>
   <node id="7087821581" lat="51.5619068" lon="0.0876052" version="1" visible="true"/>
@@ -10583,6 +10582,13 @@
     <tag k="name" v="Trafalgar Estate"/>
     <tag k="local_ref" v="S"/>
     <tag k="public_transport" v="stop_position"/>
+  </node>
+  <node id="30179265" lat="51.4869985" lon="-0.0096376" version="14" visible="true">
+    <tag k="kerb" v="flush"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="10000821400" lat="51.4855207" lon="-0.0343224" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
