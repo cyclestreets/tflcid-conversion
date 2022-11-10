@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10169626555" lat="51.4905895" lon="-0.11645" version="1" visible="true">
+    <tag k="traffic_calming" v="choker"/>
+  </node>
   <node id="10154414459" lat="51.4837693" lon="-0.1130675" version="1" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
@@ -964,6 +967,10 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="marked"/>
   </node>
+  <node id="8013569055" lat="51.4906589" lon="-0.1163989" version="3" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+  </node>
   <node id="8013559885" lat="51.4849168" lon="-0.1155899" version="3" visible="true"/>
   <node id="8008294341" lat="51.4866319" lon="-0.1164324" version="4" visible="true"/>
   <node id="7986895215" lat="51.5571533" lon="-0.0914906" version="1" visible="true"/>
@@ -1265,9 +1272,7 @@
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="7330281379" lat="51.4906008" lon="-0.1164751" version="1" visible="true"/>
-  <node id="7330281378" lat="51.4906225" lon="-0.1164587" version="1" visible="true"/>
-  <node id="7330281376" lat="51.4906407" lon="-0.1164295" version="1" visible="true"/>
+  <node id="7330281378" lat="51.4906172" lon="-0.1164325" version="2" visible="true"/>
   <node id="7330177877" lat="51.5165381" lon="-0.1213212" version="3" visible="true"/>
   <node id="7330177876" lat="51.5165039" lon="-0.1212894" version="3" visible="true"/>
   <node id="7330165058" lat="51.5138506" lon="-0.1869017" version="1" visible="true">
@@ -2160,7 +2165,7 @@
   <node id="4959806199" lat="51.4181906" lon="-0.1346967" version="4" visible="true"/>
   <node id="4958655121" lat="51.4626562" lon="-0.1405983" version="4" visible="true"/>
   <node id="4958553824" lat="51.4686152" lon="-0.1361222" version="2" visible="true"/>
-  <node id="4957735651" lat="51.490575" lon="-0.1164726" version="2" visible="true"/>
+  <node id="4957735651" lat="51.4905735" lon="-0.116461" version="3" visible="true"/>
   <node id="4957734363" lat="51.4865408" lon="-0.1192152" version="1" visible="true"/>
   <node id="4957721088" lat="51.4887635" lon="-0.1206623" version="1" visible="true"/>
   <node id="4957721086" lat="51.488886" lon="-0.1206221" version="3" visible="true"/>
@@ -14443,7 +14448,7 @@
     <nd ref="9379780779"/>
     <nd ref="26706586"/>
   </way>
-  <way id="784643056" visible="true" version="3">
+  <way id="784643056" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Vauxhall Street"/>
     <tag k="lanes" v="1"/>
@@ -14456,9 +14461,26 @@
     <tag k="cycleway:right:separation" v="light"/>
     <tag k="tiger:upload_uuid" v="RWG056130"/>
     <nd ref="4957735651"/>
-    <nd ref="7330281379"/>
+    <nd ref="10169626555"/>
     <nd ref="7330281378"/>
-    <nd ref="7330281376"/>
+    <nd ref="8013569055"/>
+  </way>
+  <way id="784643056" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Vauxhall Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:surface:colour" v="buff/yellow"/>
+    <tag k="tiger:upload_uuid" v="RWG056072"/>
+    <nd ref="4957735651"/>
+    <nd ref="10169626555"/>
+    <nd ref="7330281378"/>
+    <nd ref="8013569055"/>
   </way>
   <way id="1052754531" visible="true" version="2">
     <tag k="lit" v="yes"/>
