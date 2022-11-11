@@ -22728,25 +22728,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="841518206" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="oneway:bus" v="no"/>
-    <tag k="busway:right" v="lane"/>
-    <tag k="busway:right:oneway" v="-1"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369866896"/>
-    <nd ref="8865878649"/>
-    <nd ref="7851494300"/>
-    <nd ref="7851494293"/>
-    <nd ref="4369865484"/>
-  </way>
   <way id="502884278" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -22765,6 +22746,25 @@
     <nd ref="4369866906"/>
     <nd ref="8865878648"/>
     <nd ref="4369866896"/>
+  </way>
+  <way id="841518206" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="oneway:bus" v="no"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="busway:right:oneway" v="-1"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369866896"/>
+    <nd ref="8865878649"/>
+    <nd ref="7851494300"/>
+    <nd ref="7851494293"/>
+    <nd ref="4369865484"/>
   </way>
   <way id="236185317" visible="true" version="16">
     <tag k="lit" v="yes"/>
@@ -46440,7 +46440,7 @@
     <nd ref="4225998613"/>
     <nd ref="9288710211"/>
   </way>
-  <way id="997564736" visible="true" version="1">
+  <way id="997564736" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3036"/>
     <tag k="name" v="Albert Embankment"/>
@@ -46451,14 +46451,14 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="postal_code" v="SE1"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway" v="share_busway"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="cycleway" v=""/>
     <tag k="fixme:cycleway:conditional" v="mon-sat  7am-7pm"/>
     <tag k="tiger:upload_uuid" v="RWG135184"/>
     <nd ref="2146058902"/>
     <nd ref="104393"/>
   </way>
-  <way id="997564735" visible="true" version="1">
+  <way id="997564735" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3036"/>
     <tag k="name" v="Albert Embankment"/>
@@ -46469,7 +46469,8 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="postal_code" v="SE1"/>
-    <tag k="cycleway" v="share_busway"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="cycleway" v=""/>
     <tag k="fixme:cycleway:conditional" v="mon-sat  7am-7pm"/>
     <tag k="tiger:upload_uuid" v="RWG135184"/>
     <nd ref="104393"/>
@@ -52335,10 +52336,11 @@
     <nd ref="3781134797"/>
     <nd ref="419853720"/>
   </way>
-  <way id="44383707" visible="true" version="20">
+  <way id="44383707" visible="true" version="21">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3212"/>
     <tag k="name" v="Millbank"/>
+    <tag k="lanes" v="4"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
@@ -52723,25 +52725,29 @@
     <nd ref="5197360408"/>
     <nd ref="5197360402"/>
   </way>
-  <way id="740780566" visible="true" version="3">
+  <way id="740780566" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3213"/>
     <tag k="name" v="Bessborough Street"/>
+    <tag k="lanes" v="3"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="no"/>
+    <tag k="lanes:forward" v="2"/>
     <tag k="maxspeed:type" v="GB:zone20"/>
     <tag k="cycleway:right" v=""/>
+    <tag k="lanes:backward" v="1"/>
     <tag k="cycleway:right:lane" v="advisory"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="tiger:upload_uuid" v="RWG056533"/>
     <nd ref="677555518"/>
     <nd ref="1754724833"/>
     <nd ref="1754724862"/>
     <nd ref="21036407"/>
   </way>
-  <way id="4562280" visible="true" version="21">
+  <way id="4562280" visible="true" version="22">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3213"/>
     <tag k="name" v="Drummond Gate"/>
@@ -52756,6 +52762,7 @@
     <tag k="lanes:backward" v="1"/>
     <tag k="parking:lane:both" v="no_parking"/>
     <tag k="cycleway:both:lane" v="exclusive"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG056533"/>
@@ -54057,16 +54064,18 @@
     <nd ref="3287720029"/>
     <nd ref="8975760350"/>
   </way>
-  <way id="64442707" visible="true" version="11">
+  <way id="64442707" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A202"/>
     <tag k="name" v="Vauxhall Bridge Road"/>
+    <tag k="lanes" v="3"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
     <tag k="postal_code" v="SW1"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG056336,RWG056310"/>
