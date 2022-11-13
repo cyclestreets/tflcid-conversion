@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10177435856" lat="51.4994139" lon="-0.0943222" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+  </node>
   <node id="10169626555" lat="51.4905895" lon="-0.11645" version="1" visible="true">
     <tag k="traffic_calming" v="choker"/>
   </node>
@@ -1762,7 +1765,7 @@
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="6024546591" lat="51.4998408" lon="-0.0936468" version="1" visible="true"/>
+  <node id="6024546591" lat="51.4998335" lon="-0.093648" version="2" visible="true"/>
   <node id="6023334485" lat="51.4555249" lon="-0.1279263" version="3" visible="true"/>
   <node id="6023328083" lat="51.4555599" lon="-0.1279448" version="3" visible="true"/>
   <node id="6014302223" lat="51.5134413" lon="-0.0767266" version="3" visible="true">
@@ -3316,7 +3319,7 @@
   <node id="271121942" lat="51.4405561" lon="-0.1061584" version="8" visible="true"/>
   <node id="266820202" lat="51.3661893" lon="-0.1943365" version="4" visible="true"/>
   <node id="264835751" lat="51.4999017" lon="-0.1097681" version="7" visible="true"/>
-  <node id="264781814" lat="51.4997933" lon="-0.093733" version="5" visible="true"/>
+  <node id="264781814" lat="51.4997889" lon="-0.0937295" version="6" visible="true"/>
   <node id="264781812" lat="51.5003169" lon="-0.0927953" version="4" visible="true"/>
   <node id="261348580" lat="51.4763354" lon="-0.1274933" version="3" visible="true"/>
   <node id="261348566" lat="51.4774197" lon="-0.1270416" version="2" visible="true"/>
@@ -3701,7 +3704,7 @@
   <node id="33778756" lat="51.543739" lon="-0.0501765" version="9" visible="true"/>
   <node id="33778716" lat="51.5438727" lon="-0.0553367" version="8" visible="true"/>
   <node id="33747290" lat="51.4917882" lon="-0.2933816" version="5" visible="true"/>
-  <node id="33658177" lat="51.4998834" lon="-0.0935693" version="6" visible="true"/>
+  <node id="33658177" lat="51.4998878" lon="-0.0935471" version="7" visible="true"/>
   <node id="33657939" lat="51.4919313" lon="-0.098059" version="8" visible="true"/>
   <node id="33228986" lat="51.4840716" lon="-0.1123948" version="2" visible="true"/>
   <node id="33228769" lat="51.4761671" lon="-0.127564" version="2" visible="true"/>
@@ -16393,7 +16396,7 @@
     <nd ref="7108815878"/>
     <nd ref="3183951947"/>
   </way>
-  <way id="5034985" visible="true" version="10">
+  <way id="5034985" visible="true" version="11">
     <tag k="name" v="Swan Street"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
@@ -16405,6 +16408,7 @@
     <nd ref="33658177"/>
     <nd ref="6024546591"/>
     <nd ref="264781814"/>
+    <nd ref="10177435856"/>
     <nd ref="25498991"/>
   </way>
   <way id="826967950" visible="true" version="2">
