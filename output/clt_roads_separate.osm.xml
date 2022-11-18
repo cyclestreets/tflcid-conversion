@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10196823542" lat="51.4405173" lon="-0.0514029" version="1" visible="true"/>
   <node id="10185838287" lat="51.5218743" lon="-0.1341145" version="1" visible="true"/>
   <node id="10151640317" lat="51.482504" lon="-0.1114096" version="1" visible="true"/>
   <node id="10151585805" lat="51.4825936" lon="-0.1114296" version="1" visible="true">
@@ -526,7 +527,7 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="6355365939" lat="51.522923" lon="-0.1368501" version="2" visible="true"/>
+  <node id="6355365939" lat="51.5229096" lon="-0.1368474" version="3" visible="true"/>
   <node id="6329027869" lat="51.4795647" lon="-0.1652669" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals" v="signal"/>
@@ -544,7 +545,7 @@
   <node id="6272019000" lat="51.6353803" lon="-0.0921922" version="4" visible="true"/>
   <node id="6271893816" lat="51.6360351" lon="-0.0913162" version="5" visible="true"/>
   <node id="6250877942" lat="51.5386203" lon="-0.3872156" version="1" visible="true"/>
-  <node id="6250491144" lat="51.5229101" lon="-0.1369021" version="3" visible="true"/>
+  <node id="6250491144" lat="51.5229053" lon="-0.1368733" version="4" visible="true"/>
   <node id="6243228148" lat="51.5671452" lon="-0.0338067" version="3" visible="true"/>
   <node id="6228425166" lat="51.5354365" lon="-0.1324335" version="3" visible="true"/>
   <node id="6228425157" lat="51.535563" lon="-0.13319" version="3" visible="true">
@@ -664,8 +665,7 @@
   <node id="5668113815" lat="51.6017322" lon="-0.0909877" version="5" visible="true">
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="5620945589" lat="51.4401962" lon="-0.0513979" version="2" visible="true"/>
-  <node id="5620945585" lat="51.4402432" lon="-0.0513868" version="3" visible="true"/>
+  <node id="5620945585" lat="51.4401962" lon="-0.0513979" version="4" visible="true"/>
   <node id="5610135603" lat="51.5225302" lon="-0.1324797" version="4" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
@@ -2683,15 +2683,15 @@
     <nd ref="9338635380"/>
     <nd ref="9338635379"/>
   </way>
-  <way id="588515232" visible="true" version="2">
+  <way id="588515232" visible="true" version="3">
     <tag k="name" v="Stanstead Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="tiger:upload_uuid" v="RWG278535"/>
     <nd ref="10052580983"/>
-    <nd ref="5620945589"/>
     <nd ref="5620945585"/>
+    <nd ref="10196823542"/>
     <nd ref="21583257"/>
     <nd ref="21583258"/>
     <nd ref="10052580989"/>
