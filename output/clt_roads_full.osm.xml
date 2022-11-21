@@ -1185,7 +1185,6 @@
   <node id="9561907809" lat="51.5231367" lon="0.1801532" version="1" visible="true"/>
   <node id="107389" lat="51.5431224" lon="-0.0553054" version="6" visible="true"/>
   <node id="2094983973" lat="51.5459002" lon="-0.0874623" version="3" visible="true"/>
-  <node id="5229385955" lat="51.4156359" lon="-0.1912433" version="4" visible="true"/>
   <node id="9206770089" lat="51.5409048" lon="-0.1354581" version="1" visible="true"/>
   <node id="20472209" lat="51.3772802" lon="-0.014253" version="8" visible="true"/>
   <node id="267909101" lat="51.5347841" lon="-0.274955" version="3" visible="true"/>
@@ -6081,7 +6080,6 @@
   <node id="2238131539" lat="51.5098725" lon="-0.2333787" version="3" visible="true"/>
   <node id="7215342705" lat="51.417766" lon="-0.28111" version="3" visible="true"/>
   <node id="25582792" lat="51.5706812" lon="0.1117103" version="10" visible="true"/>
-  <node id="6518677379" lat="51.4156351" lon="-0.1916214" version="3" visible="true"/>
   <node id="410967530" lat="51.5305717" lon="-0.0122965" version="5" visible="true"/>
   <node id="9163857905" lat="51.551283" lon="-0.3736383" version="1" visible="true"/>
   <node id="9385076006" lat="51.5803284" lon="0.1154759" version="1" visible="true"/>
@@ -11911,6 +11909,13 @@
   </node>
   <node id="9766798746" lat="51.4767684" lon="-0.2698033" version="1" visible="true">
     <tag k="traffic_calming" v="choker"/>
+  </node>
+  <node id="10201852564" lat="51.476749" lon="-0.269776" version="1" visible="true">
+    <tag k="bus" v="yes"/>
+    <tag k="access" v="yes"/>
+    <tag k="traffic_calming" v="choker"/>
+    <tag k="bicycle_bypass:forward" v="yes"/>
+    <tag k="motor_vehicle:conditional" v="no@Mo-Sa 08:00-19:00"/>
   </node>
   <node id="9632281946" lat="51.4768234" lon="-0.2698807" version="1" visible="true">
     <tag k="highway" v="give_way"/>
@@ -18169,23 +18174,6 @@
     <nd ref="9063461009"/>
     <nd ref="4258499064"/>
   </way>
-  <way id="540557493" visible="true" version="3">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A238"/>
-    <tag k="name" v="Merton High Street"/>
-    <tag k="lanes" v="3"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v=""/>
-    <tag k="turn:lanes:backward" v="left|through"/>
-    <tag k="cycleway:left:surface:colour" v="red"/>
-    <tag k="cycleway:left:lane" v="advisory"/>
-    <tag k="tiger:upload_uuid" v="RWG124394"/>
-    <nd ref="6518677379"/>
-    <nd ref="5229385955"/>
-  </way>
   <way id="978577974" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A2043"/>
@@ -22766,25 +22754,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="841518206" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="oneway:bus" v="no"/>
-    <tag k="busway:right" v="lane"/>
-    <tag k="busway:right:oneway" v="-1"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369866896"/>
-    <nd ref="8865878649"/>
-    <nd ref="7851494300"/>
-    <nd ref="7851494293"/>
-    <nd ref="4369865484"/>
-  </way>
   <way id="502884278" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -22803,6 +22772,25 @@
     <nd ref="4369866906"/>
     <nd ref="8865878648"/>
     <nd ref="4369866896"/>
+  </way>
+  <way id="841518206" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="oneway:bus" v="no"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="busway:right:oneway" v="-1"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369866896"/>
+    <nd ref="8865878649"/>
+    <nd ref="7851494300"/>
+    <nd ref="7851494293"/>
+    <nd ref="4369865484"/>
   </way>
   <way id="236185317" visible="true" version="16">
     <tag k="lit" v="yes"/>
@@ -32131,7 +32119,7 @@
     <nd ref="9632281952"/>
     <nd ref="9632281947"/>
   </way>
-  <way id="1047517063" visible="true" version="2">
+  <way id="1047517063" visible="true" version="3">
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Hartington Road"/>
@@ -32142,6 +32130,7 @@
     <tag k="tiger:upload_uuid" v="RWG233591,RWG291654,RWG233587"/>
     <nd ref="9632281946"/>
     <nd ref="9766798746"/>
+    <nd ref="10201852564"/>
     <nd ref="9632281948"/>
   </way>
   <way id="1047517066" visible="true" version="1">
