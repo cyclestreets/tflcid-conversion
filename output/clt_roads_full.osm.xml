@@ -3863,7 +3863,7 @@
   <node id="150613589" lat="51.3808926" lon="-0.0274837" version="3" visible="true"/>
   <node id="1696527581" lat="51.4638752" lon="-0.3001486" version="5" visible="true"/>
   <node id="7452577611" lat="51.4236944" lon="-0.1585624" version="1" visible="true"/>
-  <node id="8975760344" lat="51.5118866" lon="-0.1734255" version="1" visible="true"/>
+  <node id="8975760344" lat="51.5119006" lon="-0.173403" version="2" visible="true"/>
   <node id="4973447313" lat="51.501878" lon="-0.1168564" version="5" visible="true"/>
   <node id="6283599353" lat="51.5085642" lon="0.2102637" version="1" visible="true"/>
   <node id="8308606535" lat="51.4067017" lon="-0.1209056" version="1" visible="true"/>
@@ -4636,7 +4636,7 @@
   <node id="2912564964" lat="51.4164299" lon="-0.0818185" version="1" visible="true"/>
   <node id="27625086" lat="51.5897185" lon="-0.0274896" version="15" visible="true"/>
   <node id="569594384" lat="51.5348426" lon="-0.4576187" version="6" visible="true"/>
-  <node id="4636409503" lat="51.5118733" lon="-0.1735968" version="5" visible="true"/>
+  <node id="4636409503" lat="51.5118883" lon="-0.173557" version="6" visible="true"/>
   <node id="4063543852" lat="51.4643126" lon="-0.1498504" version="5" visible="true"/>
   <node id="3085109045" lat="51.5260023" lon="-0.1135469" version="2" visible="true"/>
   <node id="8892294663" lat="51.5355634" lon="0.0960532" version="2" visible="true"/>
@@ -7137,7 +7137,7 @@
   <node id="9775351834" lat="51.550874" lon="-0.138803" version="1" visible="true"/>
   <node id="257596018" lat="51.4930283" lon="-0.2498735" version="8" visible="true"/>
   <node id="3865505197" lat="51.4959237" lon="-0.2239666" version="4" visible="true"/>
-  <node id="5838570405" lat="51.5118623" lon="-0.1737039" version="6" visible="true"/>
+  <node id="5838570405" lat="51.5118838" lon="-0.1736525" version="7" visible="true"/>
   <node id="31513284" lat="51.5783879" lon="0.1145287" version="4" visible="true"/>
   <node id="13808485" lat="51.375164" lon="-0.0580097" version="4" visible="true"/>
   <node id="32921258" lat="51.5398679" lon="0.0728101" version="1" visible="true"/>
@@ -34613,14 +34613,16 @@
     <nd ref="6348636049"/>
     <nd ref="6348636045"/>
   </way>
-  <way id="663633186" visible="true" version="3">
+  <way id="663633186" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Church Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v=""/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="red"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG233903"/>
@@ -35357,17 +35359,20 @@
     <nd ref="304464865"/>
     <nd ref="9842018116"/>
   </way>
-  <way id="72570829" visible="true" version="7">
+  <way id="72570829" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Salusbury Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="layer" v="1"/>
     <tag k="bridge" v="yes"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="cycleway" v=""/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="maxweight:signed" v="no"/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG275496,RWG275501"/>
     <nd ref="861371503"/>
@@ -35492,11 +35497,13 @@
     <nd ref="33869517"/>
     <nd ref="33869588"/>
   </way>
-  <way id="837802281" visible="true" version="1">
+  <way id="837802281" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B413"/>
     <tag k="name" v="Carlton Vale"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v=""/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:separation" v="light"/>
@@ -44479,6 +44486,22 @@
     <nd ref="7391598331"/>
     <nd ref="8955478272"/>
   </way>
+  <way id="617656536" visible="true" version="6">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A402"/>
+    <tag k="name" v="Bayswater Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="maxspeed:type" v="GB:zone20"/>
+    <tag k="cycleway:right" v="separate"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG102625,RWG055955"/>
+    <nd ref="5838570405"/>
+    <nd ref="4636409503"/>
+  </way>
   <way id="246019110" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1"/>
@@ -47182,13 +47205,13 @@
     <nd ref="18055033"/>
     <nd ref="9725814361"/>
   </way>
-  <way id="46729604" visible="true" version="23">
+  <way id="46729604" visible="true" version="24">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
     <tag k="foot" v="yes"/>
     <tag k="name" v="Kennington Park Road"/>
     <tag k="horse" v="yes"/>
-    <tag k="lanes" v="2"/>
+    <tag k="lanes" v="4"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
@@ -54349,21 +54372,6 @@
     <nd ref="806402756"/>
     <nd ref="419810192"/>
     <nd ref="3341579143"/>
-  </way>
-  <way id="617656536" visible="true" version="6">
-    <tag k="lit" v="yes"/>
-    <tag k="ref" v="A402"/>
-    <tag k="name" v="Bayswater Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="maxspeed:type" v="GB:zone20"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG055955"/>
-    <nd ref="5838570405"/>
-    <nd ref="4636409503"/>
   </way>
   <way id="474500481" visible="true" version="7">
     <tag k="lit" v="yes"/>
