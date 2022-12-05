@@ -279,11 +279,6 @@
   <node id="9659755666" lat="51.5245826" lon="-0.0888539" version="1" visible="true"/>
   <node id="9659755665" lat="51.5245732" lon="-0.0890126" version="1" visible="true"/>
   <node id="9659755662" lat="51.5245588" lon="-0.089262" version="2" visible="true"/>
-  <node id="9659731241" lat="51.5189164" lon="-0.1212318" version="1" visible="true"/>
-  <node id="9659731239" lat="51.5188705" lon="-0.1213366" version="2" visible="true">
-    <tag k="cycleway" v="asl"/>
-    <tag k="direction" v="forward"/>
-  </node>
   <node id="9657341934" lat="51.5941979" lon="-0.0700508" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -2884,12 +2879,6 @@
   <node id="2105133243" lat="51.4931834" lon="-0.0987249" version="4" visible="true"/>
   <node id="2097232596" lat="51.3763284" lon="-0.0979717" version="3" visible="true"/>
   <node id="2097232510" lat="51.3746745" lon="-0.0940218" version="5" visible="true"/>
-  <node id="2096450587" lat="51.5188917" lon="-0.1212885" version="6" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
-    <tag k="crossing:island" v="no"/>
-  </node>
   <node id="2069620510" lat="51.5125987" lon="-0.1211308" version="9" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
@@ -3194,7 +3183,6 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="1104473061" lat="51.518943" lon="-0.1211353" version="9" visible="true"/>
   <node id="1094124402" lat="51.5137156" lon="-0.1293938" version="12" visible="true"/>
   <node id="1086531278" lat="51.4915572" lon="-0.2924838" version="3" visible="true">
     <tag k="bicycle" v="yes"/>
@@ -12100,7 +12088,7 @@
     <nd ref="5517634781"/>
     <nd ref="12689155"/>
   </way>
-  <way id="4236993" visible="true" version="23">
+  <way id="4236993" visible="true" version="24">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A40"/>
     <tag k="name" v="Vernon Place"/>
@@ -12110,14 +12098,12 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="busway:left" v="lane"/>
+    <tag k="cycleway:left" v="share_busway"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG066363"/>
     <nd ref="5458472046"/>
     <nd ref="1104496295"/>
-    <nd ref="9659731239"/>
-    <nd ref="2096450587"/>
-    <nd ref="9659731241"/>
-    <nd ref="1104473061"/>
   </way>
   <way id="78073646" visible="true" version="14">
     <tag k="lit" v="yes"/>

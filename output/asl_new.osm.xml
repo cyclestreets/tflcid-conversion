@@ -1,5 +1,24 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10236566531" lat="51.5498833" lon="-0.0751952" version="1" visible="true">
+    <tag k="direction" v="backward"/>
+    <tag k="proposed:cycleway" v="asl"/>
+  </node>
+  <node id="10236566530" lat="51.549736" lon="-0.0752125" version="1" visible="true">
+    <tag k="direction" v="forward"/>
+    <tag k="proposed:cycleway" v="asl"/>
+  </node>
+  <node id="10236566529" lat="51.5499249" lon="-0.0751915" version="1" visible="true">
+    <tag k="proposed:highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
+  <node id="10236566528" lat="51.5497001" lon="-0.0752176" version="1" visible="true">
+    <tag k="proposed:highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="10236566527" lat="51.5498416" lon="-0.0751989" version="1" visible="true">
+    <tag k="proposed:highway" v="crossing"/>
+  </node>
   <node id="10230833938" lat="51.5411578" lon="-0.2569592" version="1" visible="true"/>
   <node id="10226302954" lat="51.5014375" lon="-0.2946732" version="1" visible="true">
     <tag k="kerb" v="lowered"/>
@@ -570,13 +589,6 @@
   <node id="8226000085" lat="51.5168774" lon="-0.1271024" version="2" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="forward"/>
-  </node>
-  <node id="8226000076" lat="51.5168914" lon="-0.1270124" version="4" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="button_operated" v="yes"/>
   </node>
   <node id="8213727680" lat="51.3895774" lon="-0.186716" version="1" visible="true"/>
   <node id="8209787958" lat="51.5273936" lon="-0.3516816" version="1" visible="true"/>
@@ -3840,7 +3852,6 @@
   <node id="108355" lat="51.4918291" lon="-0.1412764" version="8" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
-  <node id="107831" lat="51.5169129" lon="-0.1268914" version="17" visible="true"/>
   <node id="107797" lat="51.5092299" lon="-0.1324028" version="10" visible="true"/>
   <node id="105128" lat="51.4592759" lon="-0.0338911" version="4" visible="true"/>
   <node id="105127" lat="51.4604877" lon="-0.0341757" version="4" visible="true"/>
@@ -11535,7 +11546,7 @@
     <nd ref="-274"/>
     <nd ref="1843340120"/>
   </way>
-  <way id="443322182" visible="true" version="9">
+  <way id="443322182" visible="true" version="10">
     <tag k="busway:right" v="lane"/>
     <tag k="busway:right:oneway" v="-1"/>
     <tag k="cycleway:right" v="share_busway"/>
@@ -11561,8 +11572,6 @@
     <nd ref="-275"/>
     <nd ref="7593411641"/>
     <nd ref="8226000085"/>
-    <nd ref="8226000076"/>
-    <nd ref="107831"/>
   </way>
   <way id="620504399" visible="true" version="3">
     <tag k="highway" v="secondary"/>
@@ -11650,7 +11659,7 @@
     <nd ref="185716902"/>
     <nd ref="8597312555"/>
   </way>
-  <way id="299398156" visible="true" version="8">
+  <way id="299398156" visible="true" version="9">
     <tag k="abutters" v="commercial"/>
     <tag k="foot" v="yes"/>
     <tag k="highway" v="trunk"/>
@@ -11669,8 +11678,13 @@
     <nd ref="4058598910"/>
     <nd ref="25873657"/>
     <nd ref="658951648"/>
+    <nd ref="10236566528"/>
+    <nd ref="10236566530"/>
     <nd ref="7995685633"/>
     <nd ref="243087"/>
+    <nd ref="10236566527"/>
+    <nd ref="10236566531"/>
+    <nd ref="10236566529"/>
     <nd ref="4058598920"/>
     <nd ref="4058598921"/>
     <nd ref="-280"/>
