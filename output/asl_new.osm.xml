@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10244976828" lat="51.6193765" lon="-0.3429625" version="1" visible="true"/>
   <node id="10236566531" lat="51.5498833" lon="-0.0751952" version="1" visible="true">
     <tag k="direction" v="backward"/>
     <tag k="proposed:cycleway" v="asl"/>
@@ -3030,7 +3031,7 @@
   </node>
   <node id="33488926" lat="51.4425481" lon="-0.0570291" version="6" visible="true"/>
   <node id="33226270" lat="51.6197765" lon="-0.3430624" version="3" visible="true"/>
-  <node id="33226265" lat="51.6202748" lon="-0.3429362" version="3" visible="true"/>
+  <node id="33226265" lat="51.620152" lon="-0.3429974" version="4" visible="true"/>
   <node id="33116108" lat="51.4758134" lon="-0.3846433" version="3" visible="true"/>
   <node id="33043139" lat="51.5068513" lon="-0.2067381" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -3662,7 +3663,7 @@
   <node id="519193" lat="51.5666173" lon="-0.2333487" version="3" visible="true"/>
   <node id="519192" lat="51.5657841" lon="-0.2350965" version="4" visible="true"/>
   <node id="519123" lat="51.5297863" lon="-0.2685815" version="4" visible="true"/>
-  <node id="490152" lat="51.6189057" lon="-0.3427954" version="5" visible="true"/>
+  <node id="490152" lat="51.6189143" lon="-0.3427536" version="6" visible="true"/>
   <node id="490151" lat="51.6207737" lon="-0.3426136" version="6" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals" v="signal"/>
@@ -8560,7 +8561,7 @@
     <nd ref="-106"/>
     <nd ref="623783"/>
   </way>
-  <way id="37698961" visible="true" version="9">
+  <way id="37698961" visible="true" version="10">
     <tag k="bridge" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="layer" v="1"/>
@@ -8574,7 +8575,6 @@
     <nd ref="-107"/>
     <nd ref="686367174"/>
     <nd ref="4944946039"/>
-    <nd ref="423301336"/>
   </way>
   <way id="504115796" visible="true" version="4">
     <tag k="highway" v="primary"/>
@@ -8591,7 +8591,7 @@
     <nd ref="-108"/>
     <nd ref="502235737"/>
   </way>
-  <way id="37698961" visible="true" version="9">
+  <way id="1120191333" visible="true" version="1">
     <tag k="bridge" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="layer" v="1"/>
@@ -8601,8 +8601,6 @@
     <tag k="ref" v="A2212"/>
     <tag k="sidewalk" v="both"/>
     <tag k="surface" v="asphalt"/>
-    <nd ref="442055765"/>
-    <nd ref="686367174"/>
     <nd ref="4944946039"/>
     <nd ref="-109"/>
     <nd ref="423301336"/>
@@ -8889,7 +8887,7 @@
     <nd ref="-125"/>
     <nd ref="536645"/>
   </way>
-  <way id="8394095" visible="true" version="17">
+  <way id="8394095" visible="true" version="19">
     <tag k="highway" v="tertiary"/>
     <tag k="lit" v="yes"/>
     <tag k="name" v="Loxford Lane"/>
@@ -10904,7 +10902,7 @@
     <nd ref="379971"/>
     <nd ref="379970"/>
   </way>
-  <way id="1050103907" visible="true" version="1">
+  <way id="1050103907" visible="true" version="2">
     <tag k="highway" v="primary"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="30 mph"/>
@@ -10918,6 +10916,7 @@
     <nd ref="6239392789"/>
     <nd ref="33226265"/>
     <nd ref="33226270"/>
+    <nd ref="10244976828"/>
     <nd ref="490152"/>
   </way>
   <way id="23192185" visible="true" version="7">

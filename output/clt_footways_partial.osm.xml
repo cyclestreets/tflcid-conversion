@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10242335916" lat="51.4836636" lon="0.0003442" version="1" visible="true"/>
+  <node id="10242335915" lat="51.4836422" lon="0.0002213" version="1" visible="true"/>
+  <node id="10242335914" lat="51.4836419" lon="0.0002658" version="1" visible="true"/>
+  <node id="10242335913" lat="51.483686" lon="0.0003747" version="1" visible="true"/>
   <node id="10138713229" lat="51.4861218" lon="-0.1094104" version="2" visible="true"/>
   <node id="10138713219" lat="51.4864308" lon="-0.1090773" version="1" visible="true"/>
   <node id="10138713217" lat="51.4864357" lon="-0.1090532" version="1" visible="true"/>
@@ -70,6 +74,7 @@
   <node id="9769135436" lat="51.5554817" lon="0.1468031" version="1" visible="true"/>
   <node id="9735063780" lat="51.5159632" lon="0.0087163" version="1" visible="true"/>
   <node id="9730865857" lat="51.5047766" lon="-0.2176115" version="1" visible="true"/>
+  <node id="9701369239" lat="51.4838123" lon="0.0008" version="2" visible="true"/>
   <node id="9678522986" lat="51.510266" lon="-0.0725845" version="2" visible="true">
     <tag k="tactile_paving" v="yes"/>
   </node>
@@ -185,6 +190,7 @@
   </node>
   <node id="7399801081" lat="51.4897811" lon="-0.2874666" version="1" visible="true"/>
   <node id="7262596532" lat="51.5008244" lon="-0.4241996" version="2" visible="true"/>
+  <node id="7235307758" lat="51.4835121" lon="-0.0002343" version="3" visible="true"/>
   <node id="7056031123" lat="51.4728177" lon="-0.00805" version="2" visible="true"/>
   <node id="6746899447" lat="51.388432" lon="0.0363626" version="1" visible="true"/>
   <node id="6746899446" lat="51.3884709" lon="0.0364132" version="1" visible="true"/>
@@ -717,7 +723,7 @@
     <nd ref="9048055336"/>
     <nd ref="1564517266"/>
   </way>
-  <way id="122073553" visible="true" version="1">
+  <way id="122073553" visible="true" version="3">
     <tag k="highway" v="footway"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
@@ -802,6 +808,22 @@
     <nd ref="9966330558"/>
     <nd ref="9966330559"/>
     <nd ref="2144359507"/>
+  </way>
+  <way id="1119847883" visible="true" version="1">
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="segregated" v="no"/>
+    <tag k="surface:colour" v="green"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG185357"/>
+    <nd ref="9701369239"/>
+    <nd ref="10242335913"/>
+    <nd ref="10242335916"/>
+    <nd ref="10242335914"/>
+    <nd ref="10242335915"/>
+    <nd ref="7235307758"/>
   </way>
   <way id="1063784558" visible="true" version="4">
     <tag k="footway" v="sidewalk"/>
