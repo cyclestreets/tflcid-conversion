@@ -910,6 +910,7 @@
   <node id="5189846488" lat="51.5589171" lon="0.0414701" version="4" visible="true"/>
   <node id="8430304120" lat="51.5120078" lon="-0.0612178" version="3" visible="true"/>
   <node id="46628256" lat="51.5271727" lon="-0.0582418" version="7" visible="true"/>
+  <node id="1813690700" lat="51.5484521" lon="-0.0081441" version="4" visible="true"/>
   <node id="7291122808" lat="51.3690453" lon="-0.2930297" version="2" visible="true"/>
   <node id="4414750002" lat="51.5183463" lon="-0.0628361" version="7" visible="true"/>
   <node id="5214065364" lat="51.6049653" lon="-0.2419293" version="1" visible="true"/>
@@ -3653,6 +3654,7 @@
   <node id="32636809" lat="51.5481345" lon="0.0389664" version="30" visible="true"/>
   <node id="7830847460" lat="51.5931635" lon="0.0096762" version="1" visible="true"/>
   <node id="9346679402" lat="51.4421148" lon="-0.1707325" version="1" visible="true"/>
+  <node id="2442439640" lat="51.5486439" lon="-0.0081723" version="3" visible="true"/>
   <node id="180514940" lat="51.5476269" lon="0.1262152" version="5" visible="true"/>
   <node id="2045887422" lat="51.5109891" lon="-0.3742577" version="3" visible="true"/>
   <node id="130202844" lat="51.5037212" lon="-0.0808089" version="11" visible="true"/>
@@ -13231,7 +13233,7 @@
     <nd ref="180501549"/>
     <nd ref="1369479858"/>
   </way>
-  <way id="368262410" visible="true" version="5">
+  <way id="368262410" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Movers Lane"/>
     <tag k="lanes" v="2"/>
@@ -13244,7 +13246,7 @@
     <tag k="cycleway:both" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:both:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG155751,RWG155748"/>
@@ -17954,7 +17956,7 @@
     <nd ref="7741543362"/>
     <nd ref="8023223807"/>
   </way>
-  <way id="577622201" visible="true" version="8">
+  <way id="577622201" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1008"/>
     <tag k="name" v="Cambridge Park"/>
@@ -17966,7 +17968,7 @@
     <tag k="cycleway:both" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:both:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG155187,RWG155318"/>
@@ -19652,7 +19654,7 @@
     <nd ref="134080"/>
     <nd ref="5194835971"/>
   </way>
-  <way id="22617066" visible="true" version="18">
+  <way id="22617066" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Sidings Street"/>
     <tag k="lanes" v="2"/>
@@ -19666,7 +19668,7 @@
     <tag k="ref:GB:usrn" v="22208267"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="maxweight:signed" v="no"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="tiger:upload_uuid" v="RWG155689,RWG155703"/>
     <nd ref="242605141"/>
     <nd ref="7713949610"/>
@@ -19674,7 +19676,7 @@
     <nd ref="9966245543"/>
     <nd ref="1439767571"/>
   </way>
-  <way id="130803950" visible="true" version="18">
+  <way id="130803950" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Sidings Street"/>
     <tag k="lanes" v="2"/>
@@ -19685,7 +19687,7 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22208267"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="tiger:upload_uuid" v="RWG155689,RWG155703"/>
     <nd ref="1439767571"/>
     <nd ref="9966245517"/>
@@ -19901,7 +19903,7 @@
     <nd ref="10210024693"/>
     <nd ref="2410514452"/>
   </way>
-  <way id="1067204284" visible="true" version="3">
+  <way id="1067204284" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="High Road Leytonstone"/>
     <tag k="lanes" v="2"/>
@@ -19911,9 +19913,9 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22844950"/>
+    <tag k="parking:both" v="separate"/>
     <tag k="cycleway:both" v="lane"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="parking:lane:both" v="separate"/>
     <tag k="cycleway:both:lane" v="advisory"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:lane" v="advisory"/>
@@ -19946,7 +19948,7 @@
     <nd ref="2468523212"/>
     <nd ref="241783945"/>
   </way>
-  <way id="1032749806" visible="true" version="1">
+  <way id="1032749806" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Celebration Avenue"/>
     <tag k="lanes" v="1"/>
@@ -19955,13 +19957,14 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="old_name" v="North Avenue"/>
-    <tag k="sidewalk" v="separate"/>
     <tag k="postal_code" v="E20"/>
     <tag k="ref:GB:usrn" v="22208206"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
-    <tag k="parking:lane:left" v="no_parking"/>
+    <tag k="sidewalk:left" v="separate"/>
+    <tag k="sidewalk:right" v="no"/>
     <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="parking:left:restriction" v="no_parking"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG154858,RWG155610"/>
@@ -19970,7 +19973,7 @@
     <nd ref="8346131025"/>
     <nd ref="1311679818"/>
   </way>
-  <way id="898074564" visible="true" version="1">
+  <way id="898074564" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Celebration Avenue"/>
     <tag k="lanes" v="2"/>
@@ -19979,14 +19982,15 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="old_name" v="North Avenue"/>
-    <tag k="sidewalk" v="separate"/>
     <tag k="turn:lanes" v="left;through|right"/>
     <tag k="postal_code" v="E20"/>
     <tag k="ref:GB:usrn" v="22208206"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
-    <tag k="parking:lane:left" v="no_parking"/>
+    <tag k="sidewalk:left" v="separate"/>
+    <tag k="sidewalk:right" v="no"/>
     <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="parking:left:restriction" v="no_parking"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG154860,RWG155611"/>
@@ -20048,7 +20052,7 @@
     <nd ref="6198843165"/>
     <nd ref="6198843163"/>
   </way>
-  <way id="1067204280" visible="true" version="3">
+  <way id="1067204280" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="High Road Leytonstone"/>
     <tag k="lanes" v="2"/>
@@ -20058,9 +20062,9 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22844950"/>
+    <tag k="parking:both" v="separate"/>
     <tag k="cycleway:both" v="lane"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="parking:lane:both" v="separate"/>
     <tag k="cycleway:both:lane" v="advisory"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:lane" v="advisory"/>
@@ -20092,7 +20096,7 @@
     <nd ref="321375292"/>
     <nd ref="9380240177"/>
   </way>
-  <way id="1016981323" visible="true" version="2">
+  <way id="1016981323" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A124"/>
     <tag k="name" v="Barking Road"/>
@@ -20108,7 +20112,7 @@
     <tag k="lanes:backward" v="2"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="lanes:psv:backward" v="1"/>
-    <tag k="parking:condition:left" v="no_parking"/>
+    <tag k="parking:left:restriction" v="no_parking"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG155059,RWG154969"/>
@@ -20270,7 +20274,7 @@
     <nd ref="9839107495"/>
     <nd ref="173021316"/>
   </way>
-  <way id="53600426" visible="true" version="16">
+  <way id="53600426" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A112"/>
     <tag k="name" v="Angel Lane"/>
@@ -20286,12 +20290,12 @@
     <tag k="ref:GB:usrn" v="22201284"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="maxweight:signed" v="no"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="tiger:upload_uuid" v="RWG155481,RWG156133"/>
     <nd ref="677063038"/>
     <nd ref="2491637809"/>
   </way>
-  <way id="661619105" visible="true" version="4">
+  <way id="661619105" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A112"/>
     <tag k="name" v="Angel Lane"/>
@@ -20303,12 +20307,12 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22201284"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="tiger:upload_uuid" v="RWG155481,RWG156133"/>
     <nd ref="5941780703"/>
     <nd ref="848260693"/>
   </way>
-  <way id="629695170" visible="true" version="4">
+  <way id="629695170" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A112"/>
     <tag k="name" v="Angel Lane"/>
@@ -20320,12 +20324,12 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22201284"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="tiger:upload_uuid" v="RWG155481,RWG156133"/>
     <nd ref="848260693"/>
     <nd ref="8591587424"/>
   </way>
-  <way id="925780851" visible="true" version="2">
+  <way id="925780851" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A112"/>
     <tag k="name" v="Angel Lane"/>
@@ -20336,7 +20340,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22201284"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG155481,RWG156133"/>
     <nd ref="8591587424"/>
@@ -20990,7 +20994,7 @@
     <nd ref="241783663"/>
     <nd ref="6986316670"/>
   </way>
-  <way id="649291359" visible="true" version="8">
+  <way id="649291359" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Temple Mills Lane"/>
     <tag k="lanes" v="2"/>
@@ -21003,14 +21007,14 @@
     <tag k="ref:GB:usrn" v="22201738"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:lane" v="advisory"/>
-    <tag k="parking:condition:left" v="no_parking"/>
+    <tag k="parking:left:restriction" v="no_parking"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG154855"/>
     <nd ref="6093857071"/>
     <nd ref="6093857056"/>
   </way>
-  <way id="683695535" visible="true" version="8">
+  <way id="683695535" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Temple Mills Lane"/>
     <tag k="lanes" v="2"/>
@@ -21021,7 +21025,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="22201738"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG154855"/>
@@ -21029,7 +21033,7 @@
     <nd ref="2414811557"/>
     <nd ref="269236192"/>
   </way>
-  <way id="150574213" visible="true" version="24">
+  <way id="150574213" visible="true" version="25">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Temple Mills Lane"/>
     <tag k="lanes" v="2"/>
@@ -21040,7 +21044,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="22201738"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG154855"/>
@@ -21170,7 +21174,7 @@
     <nd ref="34595437"/>
     <nd ref="8474047819"/>
   </way>
-  <way id="127497584" visible="true" version="22">
+  <way id="127497584" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="name" v="High Road Leytonstone"/>
     <tag k="lanes" v="2"/>
@@ -21181,8 +21185,8 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22844950"/>
+    <tag k="parking:both" v="separate"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="parking:lane:both" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG149366,RWG149367,RWG149364"/>
     <nd ref="32894863"/>
     <nd ref="9151204927"/>
@@ -21195,7 +21199,7 @@
     <nd ref="279547987"/>
     <nd ref="2498848592"/>
   </way>
-  <way id="641216369" visible="true" version="5">
+  <way id="641216369" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="High Road Leytonstone"/>
     <tag k="lanes" v="3"/>
@@ -21212,12 +21216,12 @@
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:right:lane" v="pictogram"/>
     <tag k="turn:lanes:backward" v="left;through|right"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="tiger:upload_uuid" v="RWG149367"/>
     <nd ref="32894864"/>
     <nd ref="32894863"/>
   </way>
-  <way id="641216370" visible="true" version="7">
+  <way id="641216370" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B161"/>
     <tag k="name" v="High Road Leytonstone"/>
@@ -21231,14 +21235,14 @@
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:right" v="no"/>
     <tag k="cycleway:left:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="tiger:upload_uuid" v="RWG149367"/>
     <nd ref="32894865"/>
     <nd ref="6039222108"/>
     <nd ref="6979409896"/>
     <nd ref="32894864"/>
   </way>
-  <way id="592893587" visible="true" version="5">
+  <way id="592893587" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1199"/>
     <tag k="name" v="High Road Leytonstone"/>
@@ -21250,8 +21254,8 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22844950"/>
+    <tag k="parking:both" v="separate"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="parking:lane:both" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG149404,RWG149527"/>
     <nd ref="2751086028"/>
     <nd ref="283314606"/>
@@ -21378,7 +21382,7 @@
     <nd ref="8232632754"/>
     <nd ref="8232632760"/>
   </way>
-  <way id="1067204283" visible="true" version="3">
+  <way id="1067204283" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="High Road Leytonstone"/>
     <tag k="lanes" v="2"/>
@@ -21388,9 +21392,9 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22844950"/>
+    <tag k="parking:both" v="separate"/>
     <tag k="cycleway:both" v="lane"/>
     <tag k="cycleway:right" v=""/>
-    <tag k="parking:lane:both" v="separate"/>
     <tag k="cycleway:both:lane" v="advisory"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:lane" v="advisory"/>
@@ -21556,6 +21560,28 @@
     <nd ref="1438263210"/>
     <nd ref="241784092"/>
     <nd ref="241784093"/>
+  </way>
+  <way id="1120599093" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Celebration Avenue"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="old_name" v="North Avenue"/>
+    <tag k="postal_code" v="E20"/>
+    <tag k="ref:GB:usrn" v="22208206"/>
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="sidewalk:both" v="separate"/>
+    <tag k="cycleway:both:lane" v="advisory"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG155613"/>
+    <nd ref="2442439640"/>
+    <nd ref="1813690700"/>
   </way>
   <way id="1042793458" visible="true" version="1">
     <tag k="lit" v="yes"/>
@@ -22033,7 +22059,7 @@
     <nd ref="819749"/>
     <nd ref="707041617"/>
   </way>
-  <way id="242404451" visible="true" version="14">
+  <way id="242404451" visible="true" version="15">
     <tag k="lit" v="yes"/>
     <tag k="name" v="High Road Leytonstone"/>
     <tag k="lanes" v="2"/>
@@ -22044,8 +22070,8 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22844950"/>
+    <tag k="parking:both" v="separate"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="parking:lane:both" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG149340,RWG149342,RWG149341"/>
     <nd ref="6039222107"/>
     <nd ref="130236595"/>
@@ -22114,7 +22140,7 @@
     <nd ref="124255899"/>
     <nd ref="227314470"/>
   </way>
-  <way id="24779749" visible="true" version="17">
+  <way id="24779749" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A112"/>
     <tag k="name" v="Angel Lane"/>
@@ -22128,7 +22154,7 @@
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:right" v="no"/>
     <tag k="cycleway:left:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="tiger:upload_uuid" v="RWG155654"/>
     <nd ref="96162824"/>
     <nd ref="1783054871"/>
@@ -22527,7 +22553,7 @@
     <nd ref="18066890"/>
     <nd ref="9775090200"/>
   </way>
-  <way id="619506336" visible="true" version="7">
+  <way id="619506336" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1008"/>
     <tag k="name" v="Blake Hall Road"/>
@@ -22539,7 +22565,7 @@
     <tag k="cycleway:both" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:both:lane" v="exclusive"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:surface:colour" v="green"/>
     <tag k="cycleway:lane" v="advisory"/>
@@ -22926,7 +22952,7 @@
     <nd ref="9834000230"/>
     <nd ref="9834000231"/>
   </way>
-  <way id="535378099" visible="true" version="7">
+  <way id="535378099" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A112"/>
     <tag k="name" v="Leyton Road"/>
@@ -22939,7 +22965,7 @@
     <tag k="ref:GB:usrn" v="22201481"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="cycleway:right:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG155660,RWG155659,RWG155658"/>
     <nd ref="5189616495"/>
@@ -23100,7 +23126,7 @@
     <nd ref="7851494293"/>
     <nd ref="4369865484"/>
   </way>
-  <way id="236185317" visible="true" version="16">
+  <way id="236185317" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Celebration Avenue"/>
     <tag k="lanes" v="1"/>
@@ -23109,12 +23135,14 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="old_name" v="North Avenue"/>
-    <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22208206"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
-    <tag k="parking:lane:left" v="no_parking"/>
+    <tag k="sidewalk:left" v="separate"/>
+    <tag k="sidewalk:right" v="no"/>
+    <tag k="dual_carriageway" v="yes"/>
     <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="parking:left:restriction" v="no_parking"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG155614"/>
@@ -23167,7 +23195,7 @@
     <nd ref="173021316"/>
     <nd ref="9839107494"/>
   </way>
-  <way id="657455081" visible="true" version="8">
+  <way id="657455081" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
@@ -23177,7 +23205,7 @@
     <tag k="cycleway:left" v=""/>
     <tag k="lane_markings" v="no"/>
     <tag k="cycleway:left:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="tiger:upload_uuid" v="RWG155767"/>
     <nd ref="3369519551"/>
     <nd ref="1439767156"/>
@@ -23189,7 +23217,7 @@
     <nd ref="1436609986"/>
     <nd ref="1436610010"/>
   </way>
-  <way id="319124833" visible="true" version="7">
+  <way id="319124833" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1199"/>
     <tag k="name" v="Hollybush Hill"/>
@@ -23201,7 +23229,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:surface:colour" v="green"/>
     <tag k="tiger:upload_uuid" v="RWG155268,RWG154857"/>
     <nd ref="3255342152"/>
@@ -23328,7 +23356,7 @@
     <nd ref="130147521"/>
     <nd ref="1205452626"/>
   </way>
-  <way id="1069170112" visible="true" version="2">
+  <way id="1069170112" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1199"/>
     <tag k="name" v="Woodford Road"/>
@@ -23342,7 +23370,7 @@
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:right" v="no"/>
     <tag k="cycleway:left:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:left:surface:colour" v="green"/>
     <tag k="tiger:upload_uuid" v="RWG155590"/>
     <nd ref="9813992324"/>
@@ -23425,7 +23453,7 @@
     <nd ref="1722588211"/>
     <nd ref="9191958515"/>
   </way>
-  <way id="1016191717" visible="true" version="3">
+  <way id="1016191717" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A124"/>
     <tag k="name" v="Barking Road"/>
@@ -23441,7 +23469,7 @@
     <tag k="lanes:backward" v="1"/>
     <tag k="lanes:psv:forward" v="1"/>
     <tag k="cycleway:right:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway" v=""/>
     <tag k="fixme:cycleway:conditional" v="mon-fri 7am-10am 4pm-7pm sat10am-7pm"/>
     <tag k="tiger:upload_uuid" v="RWG154982,RWG155045"/>
@@ -23492,7 +23520,7 @@
     <nd ref="9838547158"/>
     <nd ref="9841333767"/>
   </way>
-  <way id="1032748488" visible="true" version="3">
+  <way id="1032748488" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Celebration Avenue"/>
     <tag k="lanes" v="2"/>
@@ -23501,8 +23529,10 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="ref:GB:usrn" v="22208206"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="sidewalk:left" v="separate"/>
     <tag k="sidewalk:right" v="no"/>
+    <tag k="dual_carriageway" v="yes"/>
     <tag k="was:cycleway:left" v="lane"/>
     <tag k="was:cycleway:left:lane" v="advisory"/>
     <tag k="cycleway" v="lane"/>
@@ -23687,7 +23717,7 @@
     <nd ref="9820136848"/>
     <nd ref="9820136847"/>
   </way>
-  <way id="125194835" visible="true" version="22">
+  <way id="125194835" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="foot" v="permissive"/>
     <tag k="name" v="Northwall Road"/>
@@ -23703,7 +23733,7 @@
     <tag k="ref:GB:usrn" v="22208253"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="motor_vehicle" v="private"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG154874,RWG008822"/>
@@ -24640,7 +24670,7 @@
     <nd ref="8474101317"/>
     <nd ref="6111906886"/>
   </way>
-  <way id="1069971649" visible="true" version="2">
+  <way id="1069971649" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B161"/>
     <tag k="name" v="Cathall Road"/>
@@ -24651,13 +24681,13 @@
     <tag k="cycleway:left" v="shared_lane"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:left:lane" v="pictogram"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG149373"/>
     <nd ref="9820303995"/>
     <nd ref="101556985"/>
   </way>
-  <way id="577338250" visible="true" version="4">
+  <way id="577338250" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B161"/>
     <tag k="name" v="Cathall Road"/>
@@ -24669,7 +24699,7 @@
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:left:lane" v="pictogram"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="tiger:upload_uuid" v="RWG149373"/>
     <nd ref="5534977043"/>
     <nd ref="9820303995"/>
@@ -26061,7 +26091,7 @@
     <nd ref="45451391"/>
     <nd ref="26200290"/>
   </way>
-  <way id="1015069242" visible="true" version="2">
+  <way id="1015069242" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A117"/>
     <tag k="name" v="Woolwich Manor Way"/>
@@ -26076,7 +26106,7 @@
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:surface:colour" v="green"/>
     <tag k="cycleway:lane" v="exclusive"/>
@@ -26085,7 +26115,7 @@
     <nd ref="135529341"/>
     <nd ref="9363924835"/>
   </way>
-  <way id="14179951" visible="true" version="22">
+  <way id="14179951" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A117"/>
     <tag k="name" v="Woolwich Manor Way"/>
@@ -26099,7 +26129,7 @@
     <tag k="cycleway:both" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:both:lane" v="exclusive"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:surface:colour" v="green"/>
     <tag k="cycleway:lane" v="exclusive"/>
@@ -26325,7 +26355,7 @@
     <nd ref="14599684"/>
     <nd ref="7206686309"/>
   </way>
-  <way id="193139405" visible="true" version="18">
+  <way id="193139405" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
     <tag k="name" v="High Street"/>
@@ -26336,14 +26366,14 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="cycleway:left" v=""/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
-    <tag k="parking:condition:left" v="no_stopping"/>
+    <tag k="parking:left:restriction" v="no_stopping"/>
     <tag k="cycleway:left:surface:colour" v="blue"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG156089,RWG156097"/>
     <nd ref="1356435521"/>
     <nd ref="1935702343"/>
   </way>
-  <way id="193134691" visible="true" version="18">
+  <way id="193134691" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
     <tag k="name" v="High Street"/>
@@ -26354,14 +26384,14 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="cycleway:left" v=""/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
-    <tag k="parking:condition:left" v="no_stopping"/>
+    <tag k="parking:left:restriction" v="no_stopping"/>
     <tag k="cycleway:left:surface:colour" v="blue"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG156089,RWG156100"/>
     <nd ref="1935702343"/>
     <nd ref="32654169"/>
   </way>
-  <way id="240639727" visible="true" version="13">
+  <way id="240639727" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
     <tag k="name" v="High Street"/>
@@ -26373,7 +26403,7 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
-    <tag k="parking:condition:left" v="no_stopping"/>
+    <tag k="parking:left:restriction" v="no_stopping"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:surface:colour" v="blue"/>
     <tag k="cycleway:lane" v="exclusive"/>
@@ -27004,7 +27034,7 @@
     <nd ref="32439211"/>
     <nd ref="2213487105"/>
   </way>
-  <way id="1025370801" visible="true" version="2">
+  <way id="1025370801" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="International Way"/>
     <tag k="lanes" v="2"/>
@@ -27014,7 +27044,7 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22208215"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="tiger:upload_uuid" v="RWG155969,RWG155966"/>
     <nd ref="9454229489"/>
     <nd ref="2414657086"/>
@@ -27307,7 +27337,7 @@
     <nd ref="2481551448"/>
     <nd ref="410978800"/>
   </way>
-  <way id="1015069241" visible="true" version="2">
+  <way id="1015069241" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A117"/>
     <tag k="name" v="Woolwich Manor Way"/>
@@ -27321,7 +27351,7 @@
     <tag k="cycleway:both" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:both:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:surface:colour" v="green"/>
     <tag k="cycleway:lane" v="advisory"/>
@@ -27479,7 +27509,7 @@
     <nd ref="5430060489"/>
     <nd ref="9843792447"/>
   </way>
-  <way id="1025370804" visible="true" version="2">
+  <way id="1025370804" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="International Way"/>
     <tag k="lanes" v="2"/>
@@ -27489,7 +27519,7 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22208215"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="tiger:upload_uuid" v="RWG155964,RWG155970"/>
     <nd ref="9454229492"/>
     <nd ref="9454257168"/>
@@ -27725,7 +27755,7 @@
     <nd ref="9779857010"/>
     <nd ref="129993132"/>
   </way>
-  <way id="22650721" visible="true" version="24">
+  <way id="22650721" visible="true" version="25">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
     <tag k="name" v="High Street"/>
@@ -27738,7 +27768,7 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="was:maxspeed" v="30 mph"/>
     <tag k="cycleway:left" v="separate"/>
-    <tag k="parking:condition:left" v="no_parking"/>
+    <tag k="parking:left:restriction" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:surface:colour" v="blue"/>
     <tag k="tiger:upload_uuid" v="RWG156026,RWG156027"/>
@@ -27930,7 +27960,7 @@
     <nd ref="32897492"/>
     <nd ref="6831125862"/>
   </way>
-  <way id="230560851" visible="true" version="8">
+  <way id="230560851" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A205"/>
     <tag k="name" v="Catford Road"/>
@@ -27943,7 +27973,7 @@
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:left:width" v="1.25"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="cycleway:left:surface:colour" v="green"/>
     <tag k="tiger:upload_uuid" v="RWG198054"/>
     <nd ref="650110"/>
@@ -28170,7 +28200,7 @@
     <nd ref="9806820060"/>
     <nd ref="1935702340"/>
   </way>
-  <way id="193134690" visible="true" version="16">
+  <way id="193134690" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A118"/>
     <tag k="name" v="High Street"/>
@@ -28182,7 +28212,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="cycleway:left" v="separate"/>
-    <tag k="parking:condition:left" v="no_stopping"/>
+    <tag k="parking:left:restriction" v="no_stopping"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:surface:colour" v="blue"/>
     <tag k="tiger:upload_uuid" v="RWG156040,RWG156039"/>
@@ -28190,7 +28220,7 @@
     <nd ref="8588450431"/>
     <nd ref="1596819631"/>
   </way>
-  <way id="889413833" visible="true" version="1">
+  <way id="889413833" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Celebration Avenue"/>
     <tag k="lanes" v="1"/>
@@ -28199,9 +28229,12 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="old_name" v="North Avenue"/>
-    <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22208206"/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="sidewalk:left" v="separate"/>
+    <tag k="sidewalk:right" v="no"/>
+    <tag k="dual_carriageway" v="yes"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:lane" v="advisory"/>
@@ -28209,7 +28242,7 @@
     <nd ref="6294640030"/>
     <nd ref="6147627743"/>
   </way>
-  <way id="656246194" visible="true" version="7">
+  <way id="656246194" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Celebration Avenue"/>
     <tag k="lanes" v="2"/>
@@ -28218,9 +28251,12 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="old_name" v="North Avenue"/>
-    <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22208206"/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="sidewalk:left" v="separate"/>
+    <tag k="sidewalk:right" v="no"/>
+    <tag k="dual_carriageway" v="yes"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:lane" v="advisory"/>
@@ -28711,7 +28747,7 @@
     <nd ref="521700112"/>
     <nd ref="1990169363"/>
   </way>
-  <way id="570398355" visible="true" version="5">
+  <way id="570398355" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Marshgate Lane"/>
     <tag k="lanes" v="2"/>
@@ -28722,7 +28758,7 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22201505"/>
     <tag k="maxspeed:type" v="sign"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG156055,RWG156051,RWG156047,RWG156054"/>
@@ -28826,7 +28862,7 @@
     <nd ref="2094944255"/>
     <nd ref="32654173"/>
   </way>
-  <way id="619497478" visible="true" version="7">
+  <way id="619497478" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A117"/>
     <tag k="name" v="Woolwich Manor Way"/>
@@ -28838,7 +28874,7 @@
     <tag k="cycleway:both" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:both:lane" v="exclusive"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:surface:colour" v="green"/>
     <tag k="cycleway:lane" v="exclusive"/>
@@ -28879,7 +28915,7 @@
     <nd ref="13964262"/>
     <nd ref="116099600"/>
   </way>
-  <way id="14179355" visible="true" version="12">
+  <way id="14179355" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A117"/>
     <tag k="name" v="Woolwich Manor Way"/>
@@ -28892,7 +28928,7 @@
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="sidewalk:surface" v="asphalt"/>
     <tag k="cycleway:both:lane" v="exclusive"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG184774,RWG184775"/>
@@ -28961,7 +28997,7 @@
     <nd ref="2476562752"/>
     <nd ref="2476562651"/>
   </way>
-  <way id="570398350" visible="true" version="7">
+  <way id="570398350" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Marshgate Lane"/>
     <tag k="lanes" v="2"/>
@@ -28974,7 +29010,7 @@
     <tag k="ref:GB:usrn" v="22201505"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="maxspeed:type" v="sign"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="tiger:upload_uuid" v="RWG156051,RWG156047"/>
     <nd ref="5483811202"/>
     <nd ref="320399855"/>
@@ -29022,7 +29058,7 @@
     <nd ref="1751778167"/>
     <nd ref="1751778171"/>
   </way>
-  <way id="1015069238" visible="true" version="2">
+  <way id="1015069238" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A117"/>
     <tag k="name" v="Woolwich Manor Way"/>
@@ -29035,7 +29071,7 @@
     <tag k="cycleway:both" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:both:lane" v="advisory"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
@@ -29043,7 +29079,7 @@
     <nd ref="9363924861"/>
     <nd ref="9363924830"/>
   </way>
-  <way id="226430718" visible="true" version="7">
+  <way id="226430718" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A117"/>
     <tag k="name" v="Woolwich Manor Way"/>
@@ -29056,7 +29092,7 @@
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:lane" v="exclusive"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="tiger:upload_uuid" v="RWG184765"/>
     <nd ref="9363924830"/>
@@ -29084,7 +29120,7 @@
     <nd ref="9033600243"/>
     <nd ref="6403197106"/>
   </way>
-  <way id="537535542" visible="true" version="4">
+  <way id="537535542" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A117"/>
     <tag k="name" v="Woolwich Manor Way"/>
@@ -29097,7 +29133,7 @@
     <tag k="cycleway:both" v="lane"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="cycleway:both:lane" v="exclusive"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG184777,RWG184776,RWG184778"/>
@@ -29113,7 +29149,7 @@
     <nd ref="9856692907"/>
     <nd ref="135528915"/>
   </way>
-  <way id="643892170" visible="true" version="7">
+  <way id="643892170" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Celebration Avenue"/>
     <tag k="lanes" v="2"/>
@@ -29122,9 +29158,12 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="old_name" v="North Avenue"/>
-    <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22208206"/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="sidewalk:left" v="separate"/>
+    <tag k="sidewalk:right" v="no"/>
+    <tag k="dual_carriageway" v="yes"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:lane" v="advisory"/>
@@ -29132,7 +29171,7 @@
     <nd ref="1391123212"/>
     <nd ref="6147627746"/>
   </way>
-  <way id="1032660596" visible="true" version="1">
+  <way id="1032660596" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Celebration Avenue"/>
     <tag k="lanes" v="1"/>
@@ -29141,9 +29180,12 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="old_name" v="North Avenue"/>
-    <tag k="sidewalk" v="separate"/>
     <tag k="ref:GB:usrn" v="22208206"/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="sidewalk:left" v="separate"/>
+    <tag k="sidewalk:right" v="no"/>
+    <tag k="dual_carriageway" v="yes"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:lane" v="advisory"/>
@@ -37590,13 +37632,15 @@
     <nd ref="249251409"/>
     <nd ref="1832469440"/>
   </way>
-  <way id="1072740887" visible="true" version="1">
+  <way id="1072740887" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A410"/>
     <tag k="name" v="Uxbridge Road"/>
     <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="alt_name" v="Uxbridge Road (Hatch End)"/>
     <tag k="maxspeed" v="30 mph"/>
+    <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway" v=""/>
@@ -49095,7 +49139,7 @@
     <nd ref="6800909336"/>
     <nd ref="25472893"/>
   </way>
-  <way id="369176227" visible="true" version="16">
+  <way id="369176227" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
@@ -49110,7 +49154,7 @@
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
     <tag k="lanes:psv:forward" v="1"/>
     <tag k="lanes:psv:backward" v="1"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="cycleway:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG073395,RWG073407"/>
@@ -49119,7 +49163,7 @@
     <nd ref="319635934"/>
     <nd ref="3725517803"/>
   </way>
-  <way id="1049334435" visible="true" version="4">
+  <way id="1049334435" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
@@ -49135,14 +49179,14 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="lanes:psv:forward" v="1"/>
     <tag k="lanes:psv:backward" v="1"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="cycleway:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG073395,RWG073407"/>
     <nd ref="3725517803"/>
     <nd ref="9643338816"/>
   </way>
-  <way id="368706606" visible="true" version="13">
+  <way id="368706606" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
@@ -49158,7 +49202,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="lanes:psv:forward" v="1"/>
     <tag k="lanes:psv:backward" v="1"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="cycleway:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG073395,RWG073407"/>
@@ -49897,7 +49941,7 @@
     <nd ref="5679420115"/>
     <nd ref="722619362"/>
   </way>
-  <way id="394994571" visible="true" version="12">
+  <way id="394994571" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
@@ -49915,7 +49959,7 @@
     <tag k="lanes:psv:forward" v="1"/>
     <tag k="lanes:psv:backward" v="1"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="cycleway:right:separation:left" v="flex_post"/>
     <tag k="cycleway:right:separation:right" v="kerb"/>
     <tag k="cycleway:left:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
@@ -49924,7 +49968,7 @@
     <nd ref="9723211550"/>
     <nd ref="319634953"/>
   </way>
-  <way id="29060135" visible="true" version="27">
+  <way id="29060135" visible="true" version="28">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A11"/>
     <tag k="name" v="Mile End Road"/>
@@ -49945,7 +49989,7 @@
     <tag k="lanes:psv:forward" v="1"/>
     <tag k="lanes:psv:backward" v="1"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="cycleway:right:separation:left" v="flex_post"/>
     <tag k="cycleway:right:separation:right" v="kerb"/>
     <tag k="cycleway" v="share_busway"/>
@@ -54284,7 +54328,7 @@
     <nd ref="8916851548"/>
     <nd ref="8916851546"/>
   </way>
-  <way id="119724182" visible="true" version="25">
+  <way id="119724182" visible="true" version="26">
     <tag k="hgv" v="no"/>
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3203"/>
@@ -54302,7 +54346,7 @@
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="cycleway:right:width" v="1.25"/>
-    <tag k="parking:condition:both" v="no_stopping"/>
+    <tag k="parking:both:restriction" v="no_stopping"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG999934,RWG055914,RWG055919"/>
@@ -54517,7 +54561,7 @@
     <nd ref="1597975980"/>
     <nd ref="9203477149"/>
   </way>
-  <way id="831343444" visible="true" version="3">
+  <way id="831343444" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="foot" v="permissive"/>
     <tag k="name" v="Northwall Road"/>
@@ -54532,7 +54576,7 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="motor_vehicle" v="private"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="tiger:upload_uuid" v="RWG008822,RWG008823"/>
     <nd ref="7762183114"/>
     <nd ref="1391123219"/>
@@ -56140,7 +56184,7 @@
     <nd ref="765182733"/>
     <nd ref="765182734"/>
   </way>
-  <way id="29123486" visible="true" version="20">
+  <way id="29123486" visible="true" version="21">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Marshgate Lane"/>
     <tag k="lanes" v="2"/>
@@ -56153,7 +56197,7 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="maxweight:signed" v="no"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG155719"/>
