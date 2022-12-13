@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10253253466" lat="51.3828286" lon="-0.2875146" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:island" v="no"/>
+  </node>
   <node id="10114355674" lat="51.3815252" lon="-0.2876884" version="1" visible="true"/>
   <node id="10114355673" lat="51.3814825" lon="-0.2876656" version="1" visible="true"/>
   <node id="9991705824" lat="51.5167957" lon="-0.0170045" version="1" visible="true">
@@ -811,11 +816,12 @@
     <nd ref="8515900409"/>
     <nd ref="8515938940"/>
   </way>
-  <way id="5406008" visible="true" version="12">
+  <way id="5406008" visible="true" version="13">
     <tag k="highway" v="residential"/>
     <tag k="name" v="Lenelby Road"/>
     <nd ref="9709023287"/>
     <nd ref="7185668879"/>
+    <nd ref="10253253466"/>
     <nd ref="244005889"/>
     <nd ref="-477"/>
     <nd ref="9764630193"/>
