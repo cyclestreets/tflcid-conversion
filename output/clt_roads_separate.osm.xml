@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10267789505" lat="51.477901" lon="-0.1268115" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG055226"/>
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
   <node id="10196823542" lat="51.4405173" lon="-0.0514029" version="1" visible="true"/>
   <node id="10185838287" lat="51.5218743" lon="-0.1341145" version="1" visible="true"/>
   <node id="10151640317" lat="51.482504" lon="-0.1114096" version="1" visible="true"/>
@@ -5314,7 +5318,7 @@
     <nd ref="9430852731"/>
     <nd ref="227790"/>
   </way>
-  <way id="739689730" visible="true" version="1">
+  <way id="739689730" visible="true" version="2">
     <tag k="name" v="Hartington Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -5322,6 +5326,7 @@
     <tag k="tiger:upload_uuid" v="RWG056095"/>
     <nd ref="33228752"/>
     <nd ref="6925827740"/>
+    <nd ref="10267789505"/>
     <nd ref="21393713"/>
     <nd ref="1839216409"/>
   </way>
