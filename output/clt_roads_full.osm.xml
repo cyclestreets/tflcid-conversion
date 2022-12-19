@@ -10790,7 +10790,7 @@
     <tag k="local_ref" v="T"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="445376295" lat="51.4745165" lon="-0.0238414" version="8" visible="true">
+  <node id="445376295" lat="51.474509" lon="-0.0237784" version="9" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
@@ -12170,9 +12170,9 @@
   <node id="6470075132" lat="51.4453534" lon="-0.3352399" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
   </node>
-  <node id="6989593629" lat="51.4290724" lon="-0.3242966" version="4" visible="true">
+  <node id="6989593629" lat="51.4290724" lon="-0.3242966" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="forward"/>
+    <tag k="traffic_signals:direction" v="backward"/>
   </node>
   <node id="1952799430" lat="51.4004142" lon="-0.1965945" version="3" visible="true">
     <tag k="highway" v="crossing"/>
@@ -19538,7 +19538,7 @@
     <nd ref="2012433610"/>
     <nd ref="8915067753"/>
   </way>
-  <way id="45406093" visible="true" version="21">
+  <way id="45406093" visible="true" version="22">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A310"/>
     <tag k="name" v="Manor Road"/>
@@ -19554,14 +19554,14 @@
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG123556,RWG123826,RWG123816"/>
-    <nd ref="8915067758"/>
-    <nd ref="248081002"/>
-    <nd ref="577381067"/>
-    <nd ref="8915067759"/>
-    <nd ref="8915067760"/>
-    <nd ref="4747901659"/>
-    <nd ref="4747901658"/>
     <nd ref="6989593629"/>
+    <nd ref="4747901658"/>
+    <nd ref="4747901659"/>
+    <nd ref="8915067760"/>
+    <nd ref="8915067759"/>
+    <nd ref="577381067"/>
+    <nd ref="248081002"/>
+    <nd ref="8915067758"/>
   </way>
   <way id="182317770" visible="true" version="7">
     <tag k="foot" v="yes"/>
@@ -23109,25 +23109,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="502884278" visible="true" version="4">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="maxwidth" v="7'0&quot;"/>
-    <tag k="cycleway" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369865484"/>
-    <nd ref="4369866905"/>
-    <nd ref="4369866910"/>
-    <nd ref="7851494286"/>
-    <nd ref="4369866906"/>
-    <nd ref="8865878648"/>
-    <nd ref="4369866896"/>
-  </way>
   <way id="841518206" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -23146,6 +23127,25 @@
     <nd ref="7851494300"/>
     <nd ref="7851494293"/>
     <nd ref="4369865484"/>
+  </way>
+  <way id="502884278" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxwidth" v="7'0&quot;"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369865484"/>
+    <nd ref="4369866905"/>
+    <nd ref="4369866910"/>
+    <nd ref="7851494286"/>
+    <nd ref="4369866906"/>
+    <nd ref="8865878648"/>
+    <nd ref="4369866896"/>
   </way>
   <way id="236185317" visible="true" version="17">
     <tag k="lit" v="yes"/>
@@ -24477,7 +24477,23 @@
     <nd ref="3939883217"/>
     <nd ref="9819709001"/>
   </way>
-  <way id="527537447" visible="true" version="2">
+  <way id="1123035265" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A2"/>
+    <tag k="name" v="Deptford Bridge"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="exclusive"/>
+    <tag k="tiger:upload_uuid" v="RWG198272"/>
+    <nd ref="6245856713"/>
+    <nd ref="445376295"/>
+  </way>
+  <way id="527537447" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A2"/>
     <tag k="name" v="Deptford Bridge"/>
@@ -24492,7 +24508,6 @@
     <nd ref="3137468066"/>
     <nd ref="4718428162"/>
     <nd ref="6245856713"/>
-    <nd ref="445376295"/>
   </way>
   <way id="590195264" visible="true" version="5">
     <tag k="lit" v="yes"/>
