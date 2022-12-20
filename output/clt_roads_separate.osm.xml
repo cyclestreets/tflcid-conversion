@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10273494280" lat="51.5016174" lon="-0.2134437" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG043716"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="10267789505" lat="51.477901" lon="-0.1268115" version="1" visible="true">
     <tag k="ref:GB:tflcid" v="RWG055226"/>
     <tag k="traffic_calming" v="cushion"/>
@@ -4827,7 +4831,7 @@
     <nd ref="6967968853"/>
     <nd ref="6967968855"/>
   </way>
-  <way id="679610485" visible="true" version="8">
+  <way id="679610485" visible="true" version="9">
     <tag k="name" v="Elsham Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -4840,6 +4844,7 @@
     <nd ref="7657224167"/>
     <nd ref="9961630875"/>
     <nd ref="7657224168"/>
+    <nd ref="10273494280"/>
     <nd ref="7657224171"/>
     <nd ref="7657224172"/>
     <nd ref="6363688697"/>

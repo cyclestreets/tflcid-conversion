@@ -1,5 +1,17 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10273621382" lat="51.5712399" lon="-0.2701132" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG270385"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="10273621379" lat="51.5709519" lon="-0.270775" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG270384"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="10273512139" lat="51.517023" lon="-0.0173673" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG071181"/>
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
   <node id="10253253466" lat="51.3828286" lon="-0.2875146" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -229,9 +241,15 @@
   <node id="1517525596" lat="51.3809794" lon="-0.2878843" version="3" visible="true"/>
   <node id="1302473548" lat="51.5618211" lon="-0.0458862" version="2" visible="true"/>
   <node id="1302473505" lat="51.561843" lon="-0.0459202" version="5" visible="true"/>
-  <node id="1228338409" lat="51.5317045" lon="-0.0468764" version="1" visible="true"/>
+  <node id="1228338409" lat="51.5317045" lon="-0.0468764" version="2" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG071840"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="1227761839" lat="51.5316381" lon="-0.0475852" version="1" visible="true"/>
-  <node id="1227761830" lat="51.5316846" lon="-0.0473635" version="1" visible="true"/>
+  <node id="1227761830" lat="51.5316846" lon="-0.0473635" version="2" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG071393"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="1187773356" lat="51.5616978" lon="-0.045712" version="2" visible="true"/>
   <node id="928833545" lat="51.5588169" lon="-0.3821133" version="2" visible="true"/>
   <node id="741189505" lat="51.5706792" lon="-0.2714013" version="2" visible="true"/>
@@ -241,10 +259,19 @@
   <node id="648215605" lat="51.5196204" lon="-0.0200332" version="3" visible="true"/>
   <node id="648215603" lat="51.5196552" lon="-0.0198541" version="4" visible="true"/>
   <node id="553073322" lat="51.4879106" lon="-0.3977741" version="2" visible="true"/>
-  <node id="484890539" lat="51.5316138" lon="-0.0477007" version="1" visible="true"/>
+  <node id="484890539" lat="51.5316138" lon="-0.0477007" version="2" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG071392"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="484889911" lat="51.5317472" lon="-0.0470655" version="1" visible="true"/>
-  <node id="484889900" lat="51.531614" lon="-0.0464748" version="3" visible="true"/>
-  <node id="484889863" lat="51.5315375" lon="-0.0460877" version="2" visible="true"/>
+  <node id="484889900" lat="51.531614" lon="-0.0464748" version="4" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG072647"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="484889863" lat="51.5315375" lon="-0.0460877" version="3" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG071838"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="484889587" lat="51.5313105" lon="-0.0459155" version="3" visible="true"/>
   <node id="336269025" lat="51.5552452" lon="-0.1126074" version="3" visible="true"/>
   <node id="336269021" lat="51.5558276" lon="-0.1131231" version="2" visible="true"/>
@@ -718,7 +745,7 @@
     <nd ref="484890539"/>
     <nd ref="59765390"/>
   </way>
-  <way id="227774276" visible="true" version="11">
+  <way id="227774276" visible="true" version="12">
     <tag k="cycleway:both" v="no"/>
     <tag k="highway" v="unclassified"/>
     <tag k="lit" v="yes"/>
@@ -730,6 +757,7 @@
     <nd ref="-466"/>
     <nd ref="9991705824"/>
     <nd ref="255880413"/>
+    <nd ref="10273512139"/>
     <nd ref="18065957"/>
     <nd ref="7255291129"/>
     <nd ref="18065956"/>
@@ -1033,7 +1061,7 @@
     <nd ref="9790239827"/>
     <nd ref="553073322"/>
   </way>
-  <way id="3992953" visible="true" version="11">
+  <way id="3992953" visible="true" version="12">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="name" v="Salmon Street"/>
@@ -1046,7 +1074,9 @@
     <nd ref="2761632820"/>
     <nd ref="8866102698"/>
     <nd ref="20857598"/>
+    <nd ref="10273621379"/>
     <nd ref="20921510"/>
+    <nd ref="10273621382"/>
     <nd ref="20857600"/>
     <nd ref="20921511"/>
     <nd ref="8246653906"/>
