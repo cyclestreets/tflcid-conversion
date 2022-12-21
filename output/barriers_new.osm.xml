@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10275690438" lat="51.4870742" lon="-0.3945572" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG230783"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="10273621382" lat="51.5712399" lon="-0.2701132" version="1" visible="true">
     <tag k="ref:GB:tflcid" v="RWG270385"/>
     <tag k="traffic_calming" v="hump"/>
@@ -254,7 +258,10 @@
   <node id="928833545" lat="51.5588169" lon="-0.3821133" version="2" visible="true"/>
   <node id="741189505" lat="51.5706792" lon="-0.2714013" version="2" visible="true"/>
   <node id="648215608" lat="51.5194317" lon="-0.0206427" version="3" visible="true"/>
-  <node id="648215607" lat="51.5195867" lon="-0.0204886" version="2" visible="true"/>
+  <node id="648215607" lat="51.5195867" lon="-0.0204886" version="3" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG072450"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="648215606" lat="51.51964" lon="-0.0202101" version="3" visible="true"/>
   <node id="648215605" lat="51.5196204" lon="-0.0200332" version="3" visible="true"/>
   <node id="648215603" lat="51.5196552" lon="-0.0198541" version="4" visible="true"/>
@@ -460,7 +467,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG218008"/>
   </node>
-  <node id="-484" lat="51.4870644980471" lon="-0.394490759375448" visible="true">
+  <node id="-484" lat="51.4870644928117" lon="-0.394490759905494" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -1048,11 +1055,12 @@
     <nd ref="9748865545"/>
     <nd ref="30863497"/>
   </way>
-  <way id="10575108" visible="true" version="3">
+  <way id="10575108" visible="true" version="4">
     <tag k="access" v="private"/>
     <tag k="highway" v="service"/>
     <nd ref="91698655"/>
     <nd ref="-484"/>
+    <nd ref="10275690438"/>
     <nd ref="91698658"/>
     <nd ref="9790239829"/>
     <nd ref="91698661"/>
