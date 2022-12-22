@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10278399487" lat="51.5034894" lon="-0.0926916" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG078829"/>
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
+  <node id="10278399486" lat="51.5038246" lon="-0.094127" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG078835"/>
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
   <node id="10273494280" lat="51.5016174" lon="-0.2134437" version="1" visible="true">
     <tag k="ref:GB:tflcid" v="RWG043716"/>
     <tag k="traffic_calming" v="hump"/>
@@ -5335,7 +5343,7 @@
     <nd ref="21393713"/>
     <nd ref="1839216409"/>
   </way>
-  <way id="147680889" visible="true" version="24">
+  <way id="147680889" visible="true" version="25">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Union Street"/>
     <tag k="oneway" v="yes"/>
@@ -5352,10 +5360,12 @@
     <tag k="tiger:upload_uuid" v="RWG082013"/>
     <nd ref="534966128"/>
     <nd ref="25473412"/>
+    <nd ref="10278399486"/>
     <nd ref="25473406"/>
     <nd ref="4797454173"/>
     <nd ref="1783426099"/>
     <nd ref="12239370"/>
+    <nd ref="10278399487"/>
     <nd ref="9568925919"/>
     <nd ref="4738129849"/>
     <nd ref="9568925922"/>

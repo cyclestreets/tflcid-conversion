@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10278926530" lat="51.4507554" lon="0.0576161" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG194276"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="10274514586" lat="51.6315524" lon="-0.0007528" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
@@ -2557,7 +2561,10 @@
     <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="691873371" lat="51.489892" lon="-0.0654069" version="3" visible="true"/>
-  <node id="690254158" lat="51.3671454" lon="-0.3081689" version="1" visible="true"/>
+  <node id="690254158" lat="51.3671454" lon="-0.3081689" version="2" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG133935"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="690254059" lat="51.3679908" lon="-0.31164" version="2" visible="true"/>
   <node id="688363852" lat="51.5406555" lon="0.0761276" version="2" visible="true"/>
   <node id="688360953" lat="51.5505875" lon="0.0914109" version="2" visible="true">
@@ -3345,7 +3352,10 @@
     <tag k="highway" v="traffic_signals"/>
   </node>
   <node id="26001810" lat="51.3673922" lon="-0.3088024" version="4" visible="true"/>
-  <node id="26001809" lat="51.3674899" lon="-0.3092067" version="4" visible="true"/>
+  <node id="26001809" lat="51.3674899" lon="-0.3092067" version="5" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG133937"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="25894966" lat="51.5682385" lon="-0.1112727" version="2" visible="true"/>
   <node id="25894059" lat="51.5865308" lon="0.1997046" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -7991,7 +8001,7 @@
     <nd ref="7953254212"/>
     <nd ref="4213477765"/>
   </way>
-  <way id="238195018" visible="true" version="8">
+  <way id="238195018" visible="true" version="9">
     <tag k="cycleway" v="lane"/>
     <tag k="highway" v="primary"/>
     <tag k="lit" v="yes"/>
@@ -8003,6 +8013,7 @@
     <tag k="surface" v="asphalt"/>
     <nd ref="412205620"/>
     <nd ref="88266853"/>
+    <nd ref="10278926530"/>
     <nd ref="88266490"/>
     <nd ref="6023459800"/>
     <nd ref="2452249382"/>
