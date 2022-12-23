@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10279075332" lat="51.5111131" lon="-0.0560389" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG064516"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="10279041283" lat="51.4806753" lon="-0.0297892" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG193900"/>
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
   <node id="10278399487" lat="51.5034894" lon="-0.0926916" version="1" visible="true">
     <tag k="ref:GB:tflcid" v="RWG078829"/>
     <tag k="traffic_calming" v="cushion"/>
@@ -1248,7 +1256,10 @@
     <tag k="motorcar" v="yes"/>
   </node>
   <node id="614490971" lat="51.5406607" lon="-0.1373644" version="5" visible="true"/>
-  <node id="584514537" lat="51.5265593" lon="-0.1078057" version="3" visible="true"/>
+  <node id="584514537" lat="51.5265593" lon="-0.1078057" version="4" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG065235"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="577397036" lat="51.3782242" lon="-0.1004104" version="4" visible="true"/>
   <node id="546240142" lat="51.5344048" lon="-0.1299645" version="3" visible="true"/>
   <node id="534966128" lat="51.5039664" lon="-0.0948262" version="5" visible="true"/>
@@ -2456,7 +2467,7 @@
     <nd ref="6198113579"/>
     <nd ref="6198113574"/>
   </way>
-  <way id="494303747" visible="true" version="6">
+  <way id="494303747" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Edward Street"/>
     <tag k="highway" v="tertiary"/>
@@ -2466,6 +2477,7 @@
     <nd ref="443870630"/>
     <nd ref="9771053622"/>
     <nd ref="10023158376"/>
+    <nd ref="10279041283"/>
     <nd ref="8757831598"/>
     <nd ref="4009478567"/>
     <nd ref="10100641693"/>
@@ -4428,7 +4440,7 @@
     <nd ref="6384542416"/>
     <nd ref="6384542424"/>
   </way>
-  <way id="5148716" visible="true" version="24">
+  <way id="5148716" visible="true" version="25">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4458,6 +4470,7 @@
     <nd ref="1163234012"/>
     <nd ref="3858008795"/>
     <nd ref="9068783987"/>
+    <nd ref="10279075332"/>
     <nd ref="108786"/>
     <nd ref="9068746510"/>
     <nd ref="35702016"/>
@@ -4674,7 +4687,7 @@
     <nd ref="9197395385"/>
     <nd ref="18041883"/>
   </way>
-  <way id="5148716" visible="true" version="24">
+  <way id="5148716" visible="true" version="25">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4704,6 +4717,7 @@
     <nd ref="1163234012"/>
     <nd ref="3858008795"/>
     <nd ref="9068783987"/>
+    <nd ref="10279075332"/>
     <nd ref="108786"/>
     <nd ref="9068746510"/>
     <nd ref="35702016"/>
@@ -4724,7 +4738,7 @@
     <nd ref="9413022977"/>
     <nd ref="33044927"/>
   </way>
-  <way id="5148716" visible="true" version="24">
+  <way id="5148716" visible="true" version="25">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4754,6 +4768,7 @@
     <nd ref="1163234012"/>
     <nd ref="3858008795"/>
     <nd ref="9068783987"/>
+    <nd ref="10279075332"/>
     <nd ref="108786"/>
     <nd ref="9068746510"/>
     <nd ref="35702016"/>
@@ -4892,7 +4907,7 @@
     <nd ref="584514537"/>
     <nd ref="1149458661"/>
   </way>
-  <way id="5148716" visible="true" version="24">
+  <way id="5148716" visible="true" version="25">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4922,6 +4937,7 @@
     <nd ref="1163234012"/>
     <nd ref="3858008795"/>
     <nd ref="9068783987"/>
+    <nd ref="10279075332"/>
     <nd ref="108786"/>
     <nd ref="9068746510"/>
     <nd ref="35702016"/>
@@ -5080,7 +5096,7 @@
     <nd ref="7686428596"/>
     <nd ref="424613"/>
   </way>
-  <way id="5148716" visible="true" version="24">
+  <way id="5148716" visible="true" version="25">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -5110,6 +5126,7 @@
     <nd ref="1163234012"/>
     <nd ref="3858008795"/>
     <nd ref="9068783987"/>
+    <nd ref="10279075332"/>
     <nd ref="108786"/>
     <nd ref="9068746510"/>
     <nd ref="35702016"/>
