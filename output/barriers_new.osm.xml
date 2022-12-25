@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10282567838" lat="51.5102384" lon="-0.4353086" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG242374"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="10282546296" lat="51.510308" lon="-0.4352078" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG242373"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="10275690438" lat="51.4870742" lon="-0.3945572" version="1" visible="true">
     <tag k="ref:GB:tflcid" v="RWG230783"/>
     <tag k="traffic_calming" v="hump"/>
@@ -392,7 +400,7 @@
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG243435"/>
   </node>
-  <node id="-489" lat="51.5102424515659" lon="-0.435302822425413" visible="true">
+  <node id="-489" lat="51.5102423968859" lon="-0.435302803780713" visible="true">
     <tag k="barrier" v="yes"/>
     <tag k="access" v="no"/>
     <tag k="bicycle" v="yes"/>
@@ -1201,7 +1209,7 @@
     <nd ref="60232470"/>
     <nd ref="60240670"/>
   </way>
-  <way id="22696509" visible="true" version="9">
+  <way id="22696509" visible="true" version="10">
     <tag k="access" v="no"/>
     <tag k="agricultural" v="no"/>
     <tag k="bicycle" v="no"/>
@@ -1218,7 +1226,9 @@
     <tag k="psv" v="designated"/>
     <tag k="vehicle" v="no"/>
     <nd ref="243458783"/>
+    <nd ref="10282546296"/>
     <nd ref="-489"/>
+    <nd ref="10282567838"/>
     <nd ref="243458936"/>
     <nd ref="243458937"/>
     <nd ref="243459016"/>
