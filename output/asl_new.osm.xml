@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10285234870" lat="51.5459505" lon="-0.1501278" version="1" visible="true"/>
   <node id="10282554756" lat="51.5288964" lon="0.0320829" version="1" visible="true">
     <tag k="ref:GB:tflcid" v="RWG181005"/>
     <tag k="traffic_calming" v="hump"/>
@@ -1047,10 +1048,7 @@
   <node id="7659420123" lat="51.3867655" lon="-0.2559645" version="1" visible="true"/>
   <node id="7655598972" lat="51.5008303" lon="-0.2859137" version="1" visible="true"/>
   <node id="7647033064" lat="51.5017534" lon="-0.3302148" version="1" visible="true"/>
-  <node id="7623240472" lat="51.5459661" lon="-0.1501126" version="3" visible="true">
-    <tag k="cycleway" v="asl"/>
-    <tag k="direction" v="forward"/>
-  </node>
+  <node id="7623240474" lat="51.5459663" lon="-0.1497336" version="4" visible="true"/>
   <node id="7619249275" lat="51.5161334" lon="-0.3376606" version="1" visible="true"/>
   <node id="7609419133" lat="51.492894" lon="-0.3699604" version="1" visible="true"/>
   <node id="7603317358" lat="51.5402449" lon="-0.0084446" version="3" visible="true">
@@ -2773,10 +2771,6 @@
   <node id="941090834" lat="51.5060262" lon="-0.2099147" version="4" visible="true"/>
   <node id="939605720" lat="51.5358245" lon="-0.2466622" version="4" visible="true"/>
   <node id="936793560" lat="51.4485172" lon="-0.0539243" version="4" visible="true"/>
-  <node id="931651839" lat="51.5459623" lon="-0.1501791" version="7" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="forward"/>
-  </node>
   <node id="927352651" lat="51.522072" lon="-0.1730012" version="11" visible="true"/>
   <node id="926988910" lat="51.5421378" lon="-0.2115991" version="2" visible="true"/>
   <node id="918948901" lat="51.5243224" lon="-0.1770298" version="6" visible="true"/>
@@ -4955,7 +4949,7 @@
     <tag k="asl:feeder" v="left"/>
     <tag k="tiger:upload_uuid" v="RWG008725"/>
   </node>
-  <node id="-269" lat="51.5459655134986" lon="-0.150122772324206" visible="true">
+  <node id="-269" lat="51.54595077127" lon="-0.150120901615284" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="asl:feeder" v="left"/>
     <tag k="tiger:upload_uuid" v="RWG000317"/>
@@ -11852,17 +11846,18 @@
     <nd ref="-268"/>
     <nd ref="5821593311"/>
   </way>
-  <way id="816237176" visible="true" version="1">
-    <tag k="cycleway:left" v="lane"/>
+  <way id="816237175" visible="true" version="3">
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="cycleway:right" v="track"/>
     <tag k="highway" v="tertiary"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Prince of Wales Road"/>
     <tag k="sidewalk" v="both"/>
     <tag k="surface" v="asphalt"/>
-    <nd ref="7623240472"/>
+    <nd ref="7623240474"/>
     <nd ref="-269"/>
-    <nd ref="931651839"/>
+    <nd ref="10285234870"/>
   </way>
   <way id="226539610" visible="true" version="6">
     <tag k="cycleway:both" v="no"/>

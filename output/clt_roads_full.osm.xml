@@ -1409,7 +1409,7 @@
   <node id="248860832" lat="51.5794253" lon="0.0178501" version="4" visible="true"/>
   <node id="2448418736" lat="51.5425413" lon="-0.1173161" version="4" visible="true"/>
   <node id="449203250" lat="51.4556983" lon="0.0141949" version="5" visible="true"/>
-  <node id="9212147325" lat="51.5463785" lon="-0.1439071" version="1" visible="true"/>
+  <node id="9212147325" lat="51.5463785" lon="-0.1439062" version="2" visible="true"/>
   <node id="8067144157" lat="51.5235189" lon="0.1784585" version="2" visible="true"/>
   <node id="338474265" lat="51.517072" lon="-0.1050011" version="8" visible="true"/>
   <node id="4414759959" lat="51.51536" lon="-0.0718347" version="7" visible="true"/>
@@ -3738,6 +3738,7 @@
   <node id="7579998397" lat="51.4646832" lon="-0.1499701" version="1" visible="true"/>
   <node id="7618142424" lat="51.488531" lon="-0.154088" version="1" visible="true"/>
   <node id="2033835938" lat="51.5193436" lon="-0.1659393" version="4" visible="true"/>
+  <node id="10285234908" lat="51.5463573" lon="-0.1468937" version="1" visible="true"/>
   <node id="60640992" lat="51.5296035" lon="-0.1333038" version="9" visible="true"/>
   <node id="8948600523" lat="51.4943651" lon="-0.0958586" version="2" visible="true"/>
   <node id="48747457" lat="51.5271653" lon="-0.0583032" version="6" visible="true"/>
@@ -5290,6 +5291,7 @@
   <node id="8915067717" lat="51.4350195" lon="-0.3298053" version="1" visible="true"/>
   <node id="9867950079" lat="51.52157" lon="-0.0102288" version="1" visible="true"/>
   <node id="258985941" lat="51.3904007" lon="-0.2518889" version="4" visible="true"/>
+  <node id="7593155227" lat="51.5463786" lon="-0.1467768" version="3" visible="true"/>
   <node id="1653312361" lat="51.5743246" lon="-0.0862335" version="6" visible="true"/>
   <node id="5078929163" lat="51.532992" lon="-0.2031589" version="4" visible="true"/>
   <node id="9838850627" lat="51.5370599" lon="-0.3242029" version="2" visible="true"/>
@@ -5464,6 +5466,7 @@
   <node id="21150286" lat="51.5500033" lon="-0.4839106" version="2" visible="true"/>
   <node id="31414735" lat="51.461056" lon="-0.0738112" version="2" visible="true"/>
   <node id="9842018098" lat="51.5342995" lon="-0.3714266" version="1" visible="true"/>
+  <node id="10285274424" lat="51.5463549" lon="-0.1439075" version="1" visible="true"/>
   <node id="25894519" lat="51.5806616" lon="0.1814892" version="4" visible="true"/>
   <node id="48695355" lat="51.5286043" lon="-0.0754609" version="13" visible="true"/>
   <node id="7098837887" lat="51.6062628" lon="-0.2433197" version="1" visible="true"/>
@@ -38405,6 +38408,20 @@
     <nd ref="2592922020"/>
     <nd ref="2592926772"/>
   </way>
+  <way id="1124719426" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Prince of Wales Road"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG038437"/>
+    <nd ref="155316"/>
+    <nd ref="7593155227"/>
+    <nd ref="10285234908"/>
+  </way>
   <way id="812922880" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Prince of Wales Road"/>
@@ -41735,6 +41752,18 @@
     <tag k="tiger:upload_uuid" v="RWG066809"/>
     <nd ref="2941549918"/>
     <nd ref="9681020156"/>
+  </way>
+  <way id="1124719431" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Castlehaven Road"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:surface:colour" v="green"/>
+    <tag k="cycleway:right:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG089442"/>
+    <nd ref="9212147325"/>
+    <nd ref="10285274424"/>
   </way>
   <way id="997699757" visible="true" version="1">
     <tag k="lit" v="yes"/>
