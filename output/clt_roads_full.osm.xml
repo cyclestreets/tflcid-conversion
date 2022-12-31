@@ -785,7 +785,6 @@
   <node id="105950871" lat="51.4870757" lon="-0.1072046" version="7" visible="true"/>
   <node id="2525086432" lat="51.5516918" lon="-0.108989" version="2" visible="true"/>
   <node id="3226794609" lat="51.5363738" lon="-0.0042343" version="4" visible="true"/>
-  <node id="9664866337" lat="51.5206797" lon="0.1160031" version="2" visible="true"/>
   <node id="7155102757" lat="51.4410021" lon="-0.1738113" version="3" visible="true"/>
   <node id="130240449" lat="51.5625593" lon="0.0092714" version="8" visible="true"/>
   <node id="4062567288" lat="51.5705041" lon="-0.1382987" version="1" visible="true"/>
@@ -4277,7 +4276,7 @@
   <node id="9820136848" lat="51.5750912" lon="0.1128948" version="1" visible="true"/>
   <node id="5460883204" lat="51.6272233" lon="-0.0452298" version="3" visible="true"/>
   <node id="25534754" lat="51.5333514" lon="-0.2037961" version="4" visible="true"/>
-  <node id="9763171904" lat="51.5205532" lon="0.1159669" version="1" visible="true"/>
+  <node id="9763171904" lat="51.5204464" lon="0.1159374" version="2" visible="true"/>
   <node id="9549983213" lat="51.433878" lon="0.0368515" version="1" visible="true"/>
   <node id="428594678" lat="51.5754876" lon="-0.3832192" version="3" visible="true"/>
   <node id="8474047817" lat="51.5582191" lon="-0.0059837" version="2" visible="true"/>
@@ -7883,12 +7882,6 @@
     <tag k="crossing_ref" v="zebra"/>
     <tag k="crossing:island" v="no"/>
     <tag k="traffic_calming" v="table"/>
-  </node>
-  <node id="9664866335" lat="51.5213796" lon="0.1161989" version="2" visible="true">
-    <tag k="traffic_calming" v="cushion"/>
-  </node>
-  <node id="9664866336" lat="51.5210082" lon="0.1160992" version="1" visible="true">
-    <tag k="traffic_calming" v="cushion"/>
   </node>
   <node id="9900017803" lat="51.5203915" lon="0.1159088" version="1" visible="true">
     <tag k="bicycle" v="yes"/>
@@ -20251,7 +20244,7 @@
     <nd ref="32895439"/>
     <nd ref="615170839"/>
   </way>
-  <way id="912217585" visible="true" version="2">
+  <way id="912217585" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A112"/>
     <tag k="name" v="High Road Leyton"/>
@@ -20261,9 +20254,10 @@
     <tag k="alt_name" v="Leyton High Road"/>
     <tag k="cycleway" v=""/>
     <tag k="maxspeed" v="30 mph"/>
-    <tag k="sidewalk" v="separate"/>
+    <tag k="ref:GB:usrn" v="22844900"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="maxspeed:type" v="GB:nsl_restricted"/>
+    <tag k="sidewalk:both" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG149312,RWG149313"/>
     <nd ref="34595448"/>
     <nd ref="8474081517"/>
@@ -21224,7 +21218,7 @@
     <nd ref="241783663"/>
     <nd ref="6986316670"/>
   </way>
-  <way id="649291359" visible="true" version="9">
+  <way id="649291359" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Temple Mills Lane"/>
     <tag k="lanes" v="2"/>
@@ -21232,10 +21226,11 @@
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
     <tag k="turn:lanes" v="left;through|right"/>
     <tag k="ref:GB:usrn" v="22201738"/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="sidewalk:left" v="separate"/>
+    <tag k="sidewalk:right" v="no"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="parking:left:restriction" v="no_parking"/>
     <tag k="cycleway" v=""/>
@@ -21244,7 +21239,7 @@
     <nd ref="6093857071"/>
     <nd ref="6093857056"/>
   </way>
-  <way id="683695535" visible="true" version="9">
+  <way id="683695535" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Temple Mills Lane"/>
     <tag k="lanes" v="2"/>
@@ -21252,9 +21247,9 @@
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="22201738"/>
     <tag k="cycleway:lane" v="advisory"/>
+    <tag k="sidewalk:both" v="separate"/>
     <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:left:lane" v="exclusive"/>
@@ -21263,7 +21258,7 @@
     <nd ref="2414811557"/>
     <nd ref="269236192"/>
   </way>
-  <way id="150574213" visible="true" version="25">
+  <way id="150574213" visible="true" version="26">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Temple Mills Lane"/>
     <tag k="lanes" v="2"/>
@@ -21271,9 +21266,9 @@
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="22201738"/>
     <tag k="cycleway:lane" v="advisory"/>
+    <tag k="sidewalk:both" v="separate"/>
     <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="cycleway:left" v=""/>
     <tag k="cycleway:left:lane" v="exclusive"/>
@@ -22716,26 +22711,6 @@
     <nd ref="6934752547"/>
     <nd ref="2660518311"/>
   </way>
-  <way id="1051723756" visible="true" version="6">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Renwick Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="postal_code" v="IG11 0XF"/>
-    <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:right" v="no"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="cycleway:lane" v="advisory"/>
-    <tag k="tiger:upload_uuid" v="RWG184566,RWG184568"/>
-    <nd ref="9763171904"/>
-    <nd ref="9664866337"/>
-    <nd ref="9664866336"/>
-    <nd ref="9664866335"/>
-    <nd ref="9763171896"/>
-  </way>
   <way id="1062767314" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Renwick Road"/>
@@ -23342,25 +23317,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="502884278" visible="true" version="4">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="maxwidth" v="7'0&quot;"/>
-    <tag k="cycleway" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369865484"/>
-    <nd ref="4369866905"/>
-    <nd ref="4369866910"/>
-    <nd ref="7851494286"/>
-    <nd ref="4369866906"/>
-    <nd ref="8865878648"/>
-    <nd ref="4369866896"/>
-  </way>
   <way id="841518206" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -23379,6 +23335,25 @@
     <nd ref="7851494300"/>
     <nd ref="7851494293"/>
     <nd ref="4369865484"/>
+  </way>
+  <way id="502884278" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxwidth" v="7'0&quot;"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369865484"/>
+    <nd ref="4369866905"/>
+    <nd ref="4369866910"/>
+    <nd ref="7851494286"/>
+    <nd ref="4369866906"/>
+    <nd ref="8865878648"/>
+    <nd ref="4369866896"/>
   </way>
   <way id="236185317" visible="true" version="17">
     <tag k="lit" v="yes"/>
@@ -36026,10 +36001,11 @@
     <nd ref="6563418179"/>
     <nd ref="1686542873"/>
   </way>
-  <way id="878478752" visible="true" version="2">
+  <way id="878478752" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A307"/>
     <tag k="name" v="Kew Road"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="cycleway" v=""/>

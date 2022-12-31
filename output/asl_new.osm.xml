@@ -2446,9 +2446,10 @@
   </node>
   <node id="1768596439" lat="51.5003488" lon="-0.3293332" version="1" visible="true"/>
   <node id="1768503570" lat="51.5095941" lon="-0.3278309" version="4" visible="true"/>
-  <node id="1768129396" lat="51.4705273" lon="-0.29352" version="5" visible="true">
+  <node id="1768129396" lat="51.4705273" lon="-0.29352" version="6" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="1767912449" lat="51.5042833" lon="-0.2436468" version="3" visible="true"/>
   <node id="1736096347" lat="51.3680924" lon="-0.3124056" version="1" visible="true"/>
@@ -10173,9 +10174,10 @@
     <nd ref="-174"/>
     <nd ref="9844473496"/>
   </way>
-  <way id="155320655" visible="true" version="19">
+  <way id="155320655" visible="true" version="20">
     <tag k="cycleway" v="lane"/>
     <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Kew Road"/>
