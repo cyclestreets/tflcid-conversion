@@ -2123,7 +2123,13 @@
   <node id="313228543" lat="51.5561424" lon="-0.3167572" version="1" visible="true"/>
   <node id="312411546" lat="51.449209" lon="-0.0518713" version="4" visible="true"/>
   <node id="309397339" lat="51.4275707" lon="-0.236674" version="9" visible="true"/>
-  <node id="309293526" lat="51.4374554" lon="-0.229683" version="12" visible="true"/>
+  <node id="309293526" lat="51.4374554" lon="-0.229683" version="16" visible="true">
+    <tag k="kerb" v="lowered"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="crossing:island" v="no"/>
+  </node>
   <node id="305442653" lat="51.5599984" lon="-0.3062705" version="2" visible="true"/>
   <node id="305442630" lat="51.5585384" lon="-0.3132483" version="2" visible="true"/>
   <node id="305442627" lat="51.5582554" lon="-0.3111795" version="1" visible="true"/>
@@ -27413,7 +27419,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG182394"/>
   </node>
-  <node id="1206413925" lat="51.4916777" lon="0.1094673" visible="true" version="2">
+  <node id="1206413925" lat="51.4916729" lon="0.1094676" visible="true" version="3">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG181788"/>
   </node>
@@ -29658,10 +29664,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG183400"/>
   </node>
-  <node id="3700126" lat="51.4918449947767" lon="0.0181835999974688" visible="true" version="8">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="uncontrolled"/>
-    <tag k="crossing_ref" v="zebra"/>
+  <node id="8248005870" lat="51.4919062" lon="0.0181981" visible="true" version="2">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG182629"/>
   </node>
@@ -55768,9 +55771,14 @@
     <nd ref="13328956"/>
     <nd ref="528596164"/>
   </way>
-  <way id="4005547" visible="true" version="15">
+  <way id="4005547" visible="true" version="20">
+    <tag k="cycleway:both" v="no"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lit" v="no"/>
     <tag k="name" v="Windmill Road"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="sidewalk:left:surface" v="dirt"/>
     <tag k="source:name" v="local_knowledge"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="21093590"/>
@@ -55890,9 +55898,14 @@
     <nd ref="9526457667"/>
     <nd ref="94908171"/>
   </way>
-  <way id="4005547" visible="true" version="15">
+  <way id="4005547" visible="true" version="20">
+    <tag k="cycleway:both" v="no"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lit" v="no"/>
     <tag k="name" v="Windmill Road"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="sidewalk:left:surface" v="dirt"/>
     <tag k="source:name" v="local_knowledge"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="21093590"/>
@@ -55909,9 +55922,14 @@
     <nd ref="1571264560"/>
     <nd ref="2933238647"/>
   </way>
-  <way id="4005547" visible="true" version="15">
+  <way id="4005547" visible="true" version="20">
+    <tag k="cycleway:both" v="no"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lit" v="no"/>
     <tag k="name" v="Windmill Road"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="sidewalk:left:surface" v="dirt"/>
     <tag k="source:name" v="local_knowledge"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="21093590"/>
