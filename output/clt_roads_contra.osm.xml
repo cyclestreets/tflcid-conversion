@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10298733540" lat="51.5054302" lon="-0.0913862" version="1" visible="true"/>
+  <node id="10298733539" lat="51.5054487" lon="-0.0913432" version="1" visible="true"/>
+  <node id="10298733536" lat="51.5054187" lon="-0.0914333" version="1" visible="true"/>
+  <node id="10298733535" lat="51.5052842" lon="-0.0918245" version="1" visible="true"/>
+  <node id="10298733534" lat="51.5053017" lon="-0.0917809" version="1" visible="true"/>
   <node id="10282608010" lat="51.5697841" lon="-0.346126" version="1" visible="true">
     <tag k="ref:GB:tflcid" v="RWG270411"/>
     <tag k="traffic_calming" v="hump"/>
@@ -3287,6 +3292,7 @@
   </node>
   <node id="1909881869" lat="51.4448199" lon="0.0045403" version="2" visible="true"/>
   <node id="1904140685" lat="51.4456123" lon="0.0108281" version="2" visible="true"/>
+  <node id="1903321514" lat="51.5052691" lon="-0.0918848" version="3" visible="true"/>
   <node id="1880932407" lat="51.5176849" lon="-0.0579393" version="5" visible="true"/>
   <node id="1876722141" lat="51.4411163" lon="-0.1063048" version="4" visible="true"/>
   <node id="1876722131" lat="51.4410046" lon="-0.106283" version="4" visible="true"/>
@@ -14147,7 +14153,7 @@
     <nd ref="9210728218"/>
     <nd ref="12198369"/>
   </way>
-  <way id="667552915" visible="true" version="2">
+  <way id="667552915" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Hanover Street"/>
     <tag k="lanes" v="1"/>
@@ -14165,7 +14171,7 @@
     <nd ref="6250340168"/>
     <nd ref="6250340171"/>
   </way>
-  <way id="667552915" visible="true" version="2">
+  <way id="667552915" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Hanover Street"/>
     <tag k="lanes" v="1"/>
@@ -16256,6 +16262,38 @@
     <nd ref="6463354945"/>
     <nd ref="287240194"/>
   </way>
+  <way id="1126251885" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="maxheight" v="3.5"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG153889"/>
+    <nd ref="10298733539"/>
+    <nd ref="10298733540"/>
+    <nd ref="10298733536"/>
+  </way>
+  <way id="1126251885" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="maxheight" v="3.5"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG154237"/>
+    <nd ref="10298733539"/>
+    <nd ref="10298733540"/>
+    <nd ref="10298733536"/>
+  </way>
   <way id="636993580" visible="true" version="2">
     <tag k="name" v="Aristotle Road"/>
     <tag k="oneway" v="yes"/>
@@ -16828,6 +16866,22 @@
     <nd ref="110300163"/>
     <nd ref="5350163637"/>
     <nd ref="5374045901"/>
+  </way>
+  <way id="1126251882" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Park Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="maxheight" v="3.5"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG154237"/>
+    <nd ref="10298733534"/>
+    <nd ref="10298733535"/>
+    <nd ref="1903321514"/>
   </way>
   <way id="496240603" visible="true" version="11">
     <tag k="name" v="Kerbey Street"/>

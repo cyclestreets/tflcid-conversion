@@ -23317,25 +23317,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="841518206" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="oneway:bus" v="no"/>
-    <tag k="busway:right" v="lane"/>
-    <tag k="busway:right:oneway" v="-1"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369866896"/>
-    <nd ref="8865878649"/>
-    <nd ref="7851494300"/>
-    <nd ref="7851494293"/>
-    <nd ref="4369865484"/>
-  </way>
   <way id="502884278" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -23354,6 +23335,25 @@
     <nd ref="4369866906"/>
     <nd ref="8865878648"/>
     <nd ref="4369866896"/>
+  </way>
+  <way id="841518206" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="oneway:bus" v="no"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="busway:right:oneway" v="-1"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369866896"/>
+    <nd ref="8865878649"/>
+    <nd ref="7851494300"/>
+    <nd ref="7851494293"/>
+    <nd ref="4369865484"/>
   </way>
   <way id="236185317" visible="true" version="17">
     <tag k="lit" v="yes"/>
@@ -26910,7 +26910,7 @@
     <nd ref="102964044"/>
     <nd ref="5764498029"/>
   </way>
-  <way id="343391000" visible="true" version="7">
+  <way id="343391000" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A202"/>
     <tag k="name" v="Queen's Road"/>
@@ -26923,6 +26923,7 @@
     <tag k="busway:right" v="lane"/>
     <tag k="cycleway:left" v="shared_lane"/>
     <tag k="cycleway:right" v=""/>
+    <tag k="cycleway:left:lane" v="pictogram"/>
     <tag k="cycleway:right:conditional" v="Mo-Sa 07:00-10:00,16:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG198111,RWG198336"/>
     <nd ref="5764498029"/>
@@ -39387,7 +39388,7 @@
     <nd ref="3688348432"/>
     <nd ref="3688348431"/>
   </way>
-  <way id="1068558775" visible="true" version="4">
+  <way id="1068558775" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A106"/>
     <tag k="name" v="Well Street"/>
@@ -39397,7 +39398,9 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:left" v=""/>
     <tag k="sidewalk:left" v="separate"/>
+    <tag k="cycleway:right" v="no"/>
     <tag k="sidewalk:right" v="yes"/>
+    <tag k="sidewalk:right:surface" v="paving_stones"/>
     <tag k="cycleway:left:conditional" v="Mo-Fr 16:00-19:00"/>
     <tag k="tiger:upload_uuid" v="RWG008874"/>
     <nd ref="7779763198"/>
@@ -40769,7 +40772,7 @@
     <nd ref="9406618038"/>
     <nd ref="3007020986"/>
   </way>
-  <way id="1072363414" visible="true" version="1">
+  <way id="1072363414" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A106"/>
     <tag k="name" v="Well Street"/>
@@ -40779,6 +40782,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:right" v="no"/>
     <tag k="fixme:cycleway:left:conditional" v="mon-fri 4pm- 7pm"/>
     <tag k="tiger:upload_uuid" v="RWG008884,RWG151506"/>
     <nd ref="9809051951"/>
@@ -41081,7 +41085,7 @@
     <nd ref="4236640051"/>
     <nd ref="1604752665"/>
   </way>
-  <way id="663373637" visible="true" version="2">
+  <way id="663373637" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="rcn" v="proposed"/>
     <tag k="ref" v="A503"/>
@@ -41093,6 +41097,7 @@
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
     <tag k="lanes:bus" v="1"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG008785"/>
     <nd ref="6209381252"/>
@@ -44861,11 +44866,13 @@
     <nd ref="1116225064"/>
     <nd ref="678341240"/>
   </way>
-  <way id="441379628" visible="true" version="4">
+  <way id="441379628" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B450"/>
     <tag k="name" v="Ladbroke Grove"/>
+    <tag k="lanes" v="2"/>
     <tag k="highway" v="secondary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:left" v="lane"/>
