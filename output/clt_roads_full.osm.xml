@@ -1752,6 +1752,7 @@
   <node id="3227827231" lat="51.5392629" lon="0.072023" version="1" visible="true"/>
   <node id="1751778098" lat="51.3754938" lon="-0.0911462" version="3" visible="true"/>
   <node id="7490588404" lat="51.5357031" lon="-0.0297341" version="1" visible="true"/>
+  <node id="10303568715" lat="51.4862765" lon="-0.2976434" version="1" visible="true"/>
   <node id="8904785286" lat="51.5120595" lon="0.0645043" version="2" visible="true"/>
   <node id="3691147" lat="51.4794184" lon="0.0252591" version="14" visible="true"/>
   <node id="519547867" lat="51.5968952" lon="-0.1118495" version="5" visible="true"/>
@@ -2744,6 +2745,7 @@
   <node id="9763171892" lat="51.5219413" lon="0.1163177" version="1" visible="true"/>
   <node id="1096599015" lat="51.4410147" lon="-0.0646515" version="5" visible="true"/>
   <node id="1559478932" lat="51.4639171" lon="-0.2802602" version="6" visible="true"/>
+  <node id="2142502090" lat="51.5096913" lon="-0.0870935" version="5" visible="true"/>
   <node id="9838850628" lat="51.5405891" lon="-0.3244519" version="1" visible="true"/>
   <node id="2463620459" lat="51.5224193" lon="-0.1380534" version="3" visible="true"/>
   <node id="96060397" lat="51.5633795" lon="-0.011746" version="5" visible="true"/>
@@ -7318,6 +7320,7 @@
   <node id="1333892283" lat="51.5609321" lon="-0.3329856" version="3" visible="true"/>
   <node id="9244995114" lat="51.5285637" lon="-0.4441678" version="1" visible="true"/>
   <node id="9814443315" lat="51.5260784" lon="0.1662044" version="1" visible="true"/>
+  <node id="25265077" lat="51.509601" lon="-0.0864045" version="9" visible="true"/>
   <node id="4916982558" lat="51.5349089" lon="-0.4577449" version="3" visible="true"/>
   <node id="1678452799" lat="51.5132941" lon="-0.0993043" version="7" visible="true"/>
   <node id="133189513" lat="51.5222881" lon="-0.0431567" version="18" visible="true"/>
@@ -7368,6 +7371,7 @@
   <node id="26451283" lat="51.5657674" lon="0.1057312" version="9" visible="true"/>
   <node id="13820493" lat="51.4308378" lon="-0.0740304" version="8" visible="true"/>
   <node id="9533435975" lat="51.4458513" lon="-0.150226" version="1" visible="true"/>
+  <node id="763372884" lat="51.5096598" lon="-0.0868267" version="6" visible="true"/>
   <node id="5706997437" lat="51.4689641" lon="-0.3561971" version="1" visible="true"/>
   <node id="149526207" lat="51.5763886" lon="0.0545829" version="9" visible="true"/>
   <node id="8250354840" lat="51.4861678" lon="0.0119237" version="2" visible="true"/>
@@ -9527,6 +9531,11 @@
   </node>
   <node id="1312932894" lat="51.513564" lon="-0.0768383" version="12" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="7911243861" lat="51.5096365" lon="-0.0866499" version="4" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="crossing" v="no"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="3644748773" lat="51.509503" lon="-0.0872224" version="3" visible="true">
@@ -34376,6 +34385,24 @@
     <nd ref="1684833461"/>
     <nd ref="7048022614"/>
   </way>
+  <way id="1126806853" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="rcn" v="proposed"/>
+    <tag k="ref" v="A315"/>
+    <tag k="name" v="Brentford High Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="not:name" v="High Street"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG233581"/>
+    <nd ref="10303568715"/>
+    <nd ref="1684833470"/>
+  </way>
   <way id="1038824346" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Royal Lane"/>
@@ -41454,6 +41481,34 @@
     <nd ref="1827389620"/>
     <nd ref="9680972178"/>
     <nd ref="700774224"/>
+  </way>
+  <way id="204238169" visible="true" version="17">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A3211"/>
+    <tag k="name" v="Lower Thames Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="wikidata" v="Q21031137"/>
+    <tag k="postal_code" v="EC3"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="operator:type" v="government"/>
+    <tag k="sidewalk:left" v="separate"/>
+    <tag k="sidewalk:right" v="no"/>
+    <tag k="dual_carriageway" v="yes"/>
+    <tag k="operator:wikidata" v="Q682520"/>
+    <tag k="cycleway:left:oneway" v="no"/>
+    <tag k="parking:left:restriction" v="no_stopping"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="cycleway:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG152199,RWG066636"/>
+    <nd ref="2142502090"/>
+    <nd ref="763372884"/>
+    <nd ref="7911243861"/>
+    <nd ref="25265077"/>
   </way>
   <way id="1069301590" visible="true" version="1">
     <tag k="lit" v="yes"/>

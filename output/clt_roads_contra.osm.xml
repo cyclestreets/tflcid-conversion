@@ -2841,12 +2841,14 @@
   <node id="3451043895" lat="51.4682153" lon="-0.1905574" version="1" visible="true"/>
   <node id="3398582616" lat="51.4926936" lon="-0.2330725" version="6" visible="true"/>
   <node id="3385387607" lat="51.5097705" lon="-0.0808975" version="5" visible="true"/>
-  <node id="3385387606" lat="51.5096102" lon="-0.0804187" version="6" visible="true">
+  <node id="3385387606" lat="51.5096102" lon="-0.0804187" version="7" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="yes"/>
+    <tag k="crossing:markings" v="dots"/>
   </node>
   <node id="3385387605" lat="51.5096541" lon="-0.080546" version="6" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -3100,11 +3102,15 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="2449187621" lat="51.5481112" lon="-0.1277909" version="5" visible="true">
+  <node id="2449187621" lat="51.5481112" lon="-0.1277909" version="9" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="no"/>
     <tag k="crossing:island" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
   </node>
   <node id="2449183897" lat="51.5472279" lon="-0.1290242" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -10651,11 +10657,12 @@
     <nd ref="9294989252"/>
     <nd ref="9294989255"/>
   </way>
-  <way id="2687406" visible="true" version="13">
+  <way id="2687406" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Cliff Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
@@ -10666,11 +10673,12 @@
     <nd ref="2449187621"/>
     <nd ref="4858754163"/>
   </way>
-  <way id="2687406" visible="true" version="13">
+  <way id="2687406" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Cliff Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="cycleway:right" v="lane"/>
