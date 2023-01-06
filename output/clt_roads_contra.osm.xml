@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10308724763" lat="51.3749807" lon="-0.1073479" version="1" visible="true"/>
+  <node id="10308724762" lat="51.3750041" lon="-0.1073105" version="1" visible="true"/>
   <node id="10298733540" lat="51.5054302" lon="-0.0913862" version="1" visible="true"/>
   <node id="10298733539" lat="51.5054487" lon="-0.0913432" version="1" visible="true"/>
   <node id="10298733536" lat="51.5054187" lon="-0.0914333" version="1" visible="true"/>
@@ -3276,7 +3278,7 @@
   </node>
   <node id="1954678370" lat="51.5308028" lon="-0.1018241" version="5" visible="true"/>
   <node id="1953676009" lat="51.527949" lon="-0.1275053" version="5" visible="true"/>
-  <node id="1949936634" lat="51.3750771" lon="-0.1069976" version="1" visible="true"/>
+  <node id="1949936634" lat="51.3750733" lon="-0.1069748" version="2" visible="true"/>
   <node id="1942727016" lat="51.4823188" lon="0.0013587" version="3" visible="true"/>
   <node id="1941093567" lat="51.4698642" lon="-0.0061575" version="4" visible="true">
     <tag k="kerb" v="raised"/>
@@ -3708,7 +3710,7 @@
   </node>
   <node id="291676057" lat="51.3842747" lon="-0.11394" version="1" visible="true"/>
   <node id="291675797" lat="51.3854123" lon="-0.1137706" version="2" visible="true"/>
-  <node id="291674072" lat="51.375016" lon="-0.1073156" version="3" visible="true"/>
+  <node id="291674072" lat="51.3750222" lon="-0.1072732" version="4" visible="true"/>
   <node id="290989394" lat="51.513651" lon="-0.3792111" version="5" visible="true"/>
   <node id="290989151" lat="51.5154263" lon="-0.3803818" version="3" visible="true"/>
   <node id="290989107" lat="51.512928" lon="-0.3807748" version="2" visible="true"/>
@@ -3905,8 +3907,8 @@
   <node id="151182414" lat="51.3940256" lon="-0.0671408" version="11" visible="true"/>
   <node id="151182413" lat="51.3947774" lon="-0.0644653" version="3" visible="true"/>
   <node id="151022395" lat="51.4688932" lon="-0.1348605" version="2" visible="true"/>
-  <node id="150899747" lat="51.3750534" lon="-0.1071798" version="4" visible="true"/>
-  <node id="150899746" lat="51.3750377" lon="-0.1072642" version="4" visible="true"/>
+  <node id="150899747" lat="51.3750463" lon="-0.1071646" version="5" visible="true"/>
+  <node id="150899746" lat="51.3750332" lon="-0.1072335" version="5" visible="true"/>
   <node id="150899745" lat="51.3748079" lon="-0.1075903" version="5" visible="true"/>
   <node id="150899273" lat="51.3700532" lon="-0.1032704" version="1" visible="true"/>
   <node id="150899272" lat="51.3701328" lon="-0.1030639" version="2" visible="true"/>
@@ -7883,7 +7885,7 @@
     <nd ref="150899745"/>
     <nd ref="1748004282"/>
   </way>
-  <way id="184497337" visible="true" version="5">
+  <way id="184497337" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
@@ -7894,6 +7896,8 @@
     <nd ref="150899747"/>
     <nd ref="150899746"/>
     <nd ref="291674072"/>
+    <nd ref="10308724762"/>
+    <nd ref="10308724763"/>
     <nd ref="150899745"/>
   </way>
   <way id="26597042" visible="true" version="2">
@@ -13040,10 +13044,11 @@
     <nd ref="7080433358"/>
     <nd ref="8254826207"/>
   </way>
-  <way id="758183879" visible="true" version="2">
+  <way id="758183879" visible="true" version="3">
     <tag k="name" v="Ladbroke Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
