@@ -306,8 +306,10 @@
     <tag k="traffic_signals:bicycle_early_release" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG064231"/>
   </node>
-  <node id="5521413548" lat="51.5013296947765" lon="-0.130166599981881" visible="true" version="3">
+  <node id="5521413548" lat="51.5013296947765" lon="-0.130166599981881" visible="true" version="4">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="crossing" v="no"/>
+    <tag k="traffic_signals" v="traffic_lights"/>
     <tag k="traffic_signals:direction" v="backward"/>
     <tag k="traffic_signals:bicycle_early_release" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG152587"/>
@@ -320,8 +322,10 @@
     <tag k="traffic_signals:bicycle_early_release" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG064228"/>
   </node>
-  <node id="9202656986" lat="51.5012744947765" lon="-0.130036299981899" visible="true" version="1">
+  <node id="9202656986" lat="51.5012744947765" lon="-0.130036299981899" visible="true" version="2">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="crossing" v="no"/>
+    <tag k="traffic_signals" v="pedestrian_crossing"/>
     <tag k="traffic_signals:direction" v="forward"/>
     <tag k="traffic_signals:bicycle_early_release" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG152588"/>

@@ -2027,6 +2027,7 @@
   <node id="7254299255" lat="51.4421429" lon="-0.1706867" version="3" visible="true"/>
   <node id="6976205" lat="51.5519432" lon="-0.3044401" version="4" visible="true"/>
   <node id="180501549" lat="51.5459119" lon="0.1478833" version="14" visible="true"/>
+  <node id="1825672963" lat="51.5515974" lon="0.1149551" version="5" visible="true"/>
   <node id="662564160" lat="51.5088461" lon="-0.0121406" version="3" visible="true"/>
   <node id="9501959898" lat="51.4005301" lon="-0.2647565" version="1" visible="true"/>
   <node id="3099720819" lat="51.5405955" lon="0.0758265" version="1" visible="true"/>
@@ -2104,6 +2105,7 @@
   <node id="638736277" lat="51.5088083" lon="-0.0095987" version="6" visible="true"/>
   <node id="18163328" lat="51.5599896" lon="-0.3340126" version="4" visible="true"/>
   <node id="3729157216" lat="51.4367956" lon="-0.4074797" version="4" visible="true"/>
+  <node id="32919074" lat="51.5515972" lon="0.1146729" version="5" visible="true"/>
   <node id="4374570678" lat="51.4462977" lon="-0.1496718" version="4" visible="true"/>
   <node id="7489235810" lat="51.4674555" lon="-0.0227493" version="1" visible="true"/>
   <node id="4304966994" lat="51.4698347" lon="-0.1716439" version="1" visible="true"/>
@@ -2146,7 +2148,6 @@
   <node id="4210749295" lat="51.4677668" lon="-0.1902632" version="3" visible="true"/>
   <node id="36487186" lat="51.5951926" lon="-0.3591752" version="4" visible="true"/>
   <node id="9782448851" lat="51.5266733" lon="-0.1138324" version="1" visible="true"/>
-  <node id="25507068" lat="51.5003661" lon="-0.1391254" version="7" visible="true"/>
   <node id="18064478" lat="51.5466502" lon="-0.0558703" version="6" visible="true"/>
   <node id="6302460453" lat="51.4263318" lon="-0.0788515" version="3" visible="true"/>
   <node id="5191379438" lat="51.5608971" lon="0.0713961" version="2" visible="true"/>
@@ -4500,7 +4501,6 @@
   <node id="9646951878" lat="51.5168018" lon="-0.0295278" version="1" visible="true"/>
   <node id="8479268173" lat="51.5053355" lon="-0.4696775" version="1" visible="true"/>
   <node id="8217861819" lat="51.4878728" lon="0.0304034" version="3" visible="true"/>
-  <node id="308728957" lat="51.5002789" lon="-0.1400326" version="11" visible="true"/>
   <node id="9170614213" lat="51.5201371" lon="-0.0547089" version="2" visible="true"/>
   <node id="8048236515" lat="51.4345872" lon="-0.2591997" version="4" visible="true"/>
   <node id="9244995081" lat="51.5252028" lon="-0.4333125" version="1" visible="true"/>
@@ -5378,7 +5378,7 @@
   <node id="8708038541" lat="51.4734307" lon="-0.0576293" version="1" visible="true"/>
   <node id="9207574899" lat="51.4876108" lon="0.0632701" version="1" visible="true"/>
   <node id="9395011544" lat="51.4760838" lon="-0.3317695" version="1" visible="true"/>
-  <node id="1825672966" lat="51.5517575" lon="0.1141309" version="5" visible="true"/>
+  <node id="1825672966" lat="51.5517519" lon="0.1140701" version="6" visible="true"/>
   <node id="9583998299" lat="51.4651638" lon="-0.2145232" version="1" visible="true"/>
   <node id="892543352" lat="51.5700286" lon="-0.4374448" version="5" visible="true"/>
   <node id="333731862" lat="51.5223513" lon="-0.1382104" version="7" visible="true"/>
@@ -7639,6 +7639,18 @@
   </node>
   <node id="180494877" lat="51.551268" lon="0.1302818" version="19" visible="true">
     <tag k="highway" v="mini_roundabout"/>
+  </node>
+  <node id="617376009" lat="51.5516315" lon="0.1142973" version="5" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
+  </node>
+  <node id="10312700732" lat="51.5517789" lon="0.1137855" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+  <node id="10312700722" lat="51.5517845" lon="0.1137266" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals" v="signal"/>
   </node>
   <node id="6868628627" lat="51.5377295" lon="0.1685856" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -13561,6 +13573,21 @@
     <nd ref="8653249693"/>
     <nd ref="8653249694"/>
   </way>
+  <way id="171555414" visible="true" version="8">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A124"/>
+    <tag k="name" v="Longbridge Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG155476"/>
+    <nd ref="1825672963"/>
+    <nd ref="32919074"/>
+    <nd ref="617376009"/>
+  </way>
   <way id="4877500" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A1112"/>
@@ -13912,7 +13939,7 @@
     <nd ref="3099720819"/>
     <nd ref="688363852"/>
   </way>
-  <way id="48728260" visible="true" version="10">
+  <way id="48728260" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A124"/>
     <tag k="name" v="Longbridge Road"/>
@@ -13932,6 +13959,8 @@
     <nd ref="1449428786"/>
     <nd ref="32919908"/>
     <nd ref="6280193410"/>
+    <nd ref="10312700722"/>
+    <nd ref="10312700732"/>
     <nd ref="32919911"/>
     <nd ref="1825672966"/>
   </way>
@@ -23365,25 +23394,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="502884278" visible="true" version="4">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="maxwidth" v="7'0&quot;"/>
-    <tag k="cycleway" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369865484"/>
-    <nd ref="4369866905"/>
-    <nd ref="4369866910"/>
-    <nd ref="7851494286"/>
-    <nd ref="4369866906"/>
-    <nd ref="8865878648"/>
-    <nd ref="4369866896"/>
-  </way>
   <way id="841518206" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -23402,6 +23412,25 @@
     <nd ref="7851494300"/>
     <nd ref="7851494293"/>
     <nd ref="4369865484"/>
+  </way>
+  <way id="502884278" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxwidth" v="7'0&quot;"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369865484"/>
+    <nd ref="4369866905"/>
+    <nd ref="4369866910"/>
+    <nd ref="7851494286"/>
+    <nd ref="4369866906"/>
+    <nd ref="8865878648"/>
+    <nd ref="4369866896"/>
   </way>
   <way id="236185317" visible="true" version="17">
     <tag k="lit" v="yes"/>
@@ -46633,7 +46662,7 @@
     <nd ref="4882596902"/>
     <nd ref="275525"/>
   </way>
-  <way id="570050976" visible="true" version="5">
+  <way id="570050976" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Birdcage Walk"/>
     <tag k="oneway" v="yes"/>
@@ -46641,7 +46670,12 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="City of Westminster"/>
-    <tag k="cycleway:left" v="separate"/>
+    <tag k="wikidata" v="Q938290"/>
+    <tag k="ref:GB:usrn" v="8401270"/>
+    <tag k="cycleway:both" v="separate"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="operator:wikidata" v="Q7989145"/>
     <tag k="cycleway" v="lane"/>
     <tag k="cycleway:surface:colour" v="red"/>
     <tag k="cycleway:lane" v="exclusive"/>
@@ -46650,38 +46684,26 @@
     <nd ref="9650524569"/>
     <nd ref="5481067695"/>
   </way>
-  <way id="570050978" visible="true" version="5">
+  <way id="570050978" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Birdcage Walk"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="City of Westminster"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:left" v="lane"/>
+    <tag k="wikidata" v="Q938290"/>
+    <tag k="ref:GB:usrn" v="8401270"/>
+    <tag k="cycleway:both" v="separate"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="operator:wikidata" v="Q7989145"/>
     <tag k="cycleway:left:est_width" v="1.5"/>
-    <tag k="cycleway" v=""/>
+    <tag k="cycleway" v="lane"/>
     <tag k="cycleway:surface:colour" v="red"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG152189"/>
     <nd ref="5481067701"/>
-    <nd ref="308728957"/>
     <nd ref="5481067694"/>
-  </way>
-  <way id="56460695" visible="true" version="16">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Birdcage Walk"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="operator" v="City of Westminster"/>
-    <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="cycleway:surface:colour" v="red"/>
-    <tag k="cycleway:lane" v="exclusive"/>
-    <tag k="tiger:upload_uuid" v="RWG152189,RWG152249"/>
-    <nd ref="25507068"/>
-    <nd ref="5481067701"/>
   </way>
   <way id="907904290" visible="true" version="1">
     <tag k="lit" v="yes"/>
