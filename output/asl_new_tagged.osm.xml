@@ -2002,8 +2002,13 @@
     <tag k="asl:feeder" v="left"/>
     <tag k="tiger:upload_uuid" v="RWG049375"/>
   </node>
-  <node id="2204176506" lat="51.5576292" lon="-0.1192721" visible="true" version="3">
-    <tag k="highway" v="traffic_signals"/>
+  <node id="2204176510" lat="51.5576567" lon="-0.1193123" visible="true" version="8">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="yes"/>
     <tag k="cycleway" v="asl"/>
     <tag k="tiger:upload_uuid" v="RWG030285"/>
   </node>
@@ -2013,8 +2018,9 @@
     <tag k="asl:feeder" v="left"/>
     <tag k="tiger:upload_uuid" v="RWG042483"/>
   </node>
-  <node id="2330061551" lat="51.5532199" lon="-0.1233851" visible="true" version="4">
+  <node id="2330061551" lat="51.5532199" lon="-0.1233851" visible="true" version="5">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
     <tag k="cycleway" v="asl"/>
     <tag k="tiger:upload_uuid" v="RWG003267"/>
   </node>
@@ -2343,13 +2349,6 @@
     <tag k="cycleway" v="asl"/>
     <tag k="tiger:upload_uuid" v="RWG008678"/>
   </node>
-  <node id="2488744936" lat="51.5660644" lon="-0.1359203" visible="true" version="4">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="cycleway" v="asl"/>
-    <tag k="tiger:upload_uuid" v="RWG025476"/>
-  </node>
   <node id="8964531517" lat="51.5252651" lon="-0.0909274" visible="true" version="1">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="backward"/>
@@ -2502,8 +2501,9 @@
     <tag k="direction" v="forward"/>
     <tag k="tiger:upload_uuid" v="RWG042492"/>
   </node>
-  <node id="2204176507" lat="51.5579831" lon="-0.1195839" visible="true" version="3">
+  <node id="2204176507" lat="51.5579831" lon="-0.1195839" visible="true" version="4">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
     <tag k="cycleway" v="asl"/>
     <tag k="tiger:upload_uuid" v="RWG025466"/>
   </node>
@@ -3658,7 +3658,7 @@
     <tag k="asl:feeder" v="left"/>
     <tag k="tiger:upload_uuid" v="RWG273816"/>
   </node>
-  <node id="9788341930" lat="51.5067316" lon="-0.268133" visible="true" version="1">
+  <node id="9788341930" lat="51.5067366" lon="-0.2681337" visible="true" version="2">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="cycleway" v="asl"/>
@@ -4173,7 +4173,7 @@
     <tag k="asl:feeder" v="left"/>
     <tag k="tiger:upload_uuid" v="RWG235798"/>
   </node>
-  <node id="8251844992" lat="51.4924607" lon="-0.2624556" visible="true" version="1">
+  <node id="8251844992" lat="51.4924557" lon="-0.2624549" visible="true" version="2">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
     <tag k="cycleway" v="asl"/>
