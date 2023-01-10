@@ -285,6 +285,10 @@
     <tag k="ref:GB:tflcid" v="RWG230150"/>
     <tag k="traffic_calming" v="hump"/>
   </node>
+  <node id="10273620225" lat="51.5016658" lon="-0.297115" version="2" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG230294"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="10273620220" lat="51.494038" lon="-0.2956802" version="1" visible="true">
     <tag k="ref:GB:tflcid" v="RWG230164"/>
     <tag k="traffic_calming" v="hump"/>
@@ -1903,12 +1907,6 @@
     <tag k="local_ref" v="B"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="3915505208" lat="51.5650623" lon="-0.1347398" version="4" visible="true">
-    <tag k="bus" v="yes"/>
-    <tag k="name" v="Archway Station"/>
-    <tag k="local_ref" v="U"/>
-    <tag k="public_transport" v="stop_position"/>
-  </node>
   <node id="3891524030" lat="51.4511134" lon="-0.242993" version="3" visible="true"/>
   <node id="3891509666" lat="51.4506412" lon="-0.2421955" version="3" visible="true"/>
   <node id="3891509664" lat="51.4499666" lon="-0.241142" version="5" visible="true">
@@ -2161,8 +2159,6 @@
     <tag k="local_ref" v="C"/>
     <tag k="public_transport" v="stop_position"/>
   </node>
-  <node id="2488694527" lat="51.5652119" lon="-0.1346597" version="4" visible="true"/>
-  <node id="2488694521" lat="51.5653117" lon="-0.1345987" version="6" visible="true"/>
   <node id="2478125050" lat="51.4611775" lon="0.0571414" version="3" visible="true"/>
   <node id="2467880040" lat="51.4849104" lon="-0.0691976" version="1" visible="true"/>
   <node id="2467880039" lat="51.4851135" lon="-0.0690113" version="4" visible="true"/>
@@ -9831,7 +9827,7 @@
     <nd ref="1061606282"/>
     <nd ref="234280"/>
   </way>
-  <way id="43666948" visible="true" version="9">
+  <way id="43666948" visible="true" version="10">
     <tag k="highway" v="residential"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -9842,6 +9838,7 @@
     <nd ref="243524378"/>
     <nd ref="10273278403"/>
     <nd ref="10258355231"/>
+    <nd ref="10273620225"/>
     <nd ref="1061653029"/>
     <nd ref="-160"/>
     <nd ref="234276"/>
@@ -11878,7 +11875,7 @@
     <nd ref="-271"/>
     <nd ref="2330086559"/>
   </way>
-  <way id="388339788" visible="true" version="7">
+  <way id="1128345667" visible="true" version="1">
     <tag k="highway" v="primary"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
@@ -11887,9 +11884,6 @@
     <tag k="sidewalk" v="both"/>
     <tag k="surface" v="paved"/>
     <tag k="wikidata" v="Q15030841"/>
-    <nd ref="3915505208"/>
-    <nd ref="2488694527"/>
-    <nd ref="2488694521"/>
     <nd ref="10314084535"/>
     <nd ref="-272"/>
     <nd ref="7688410954"/>
@@ -13000,13 +12994,14 @@
     <nd ref="-334"/>
     <nd ref="9806699397"/>
   </way>
-  <way id="1065921760" visible="true" version="1">
+  <way id="1065921760" visible="true" version="2">
     <tag k="highway" v="tertiary"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="maxweight" v="7.5"/>
     <tag k="name" v="Red Post Hill"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="29566150"/>
     <nd ref="-335"/>
     <nd ref="13824311"/>

@@ -261,6 +261,10 @@
     <tag k="ref:GB:tflcid" v="RWG193642"/>
     <tag k="traffic_calming" v="cushion"/>
   </node>
+  <node id="10279041298" lat="51.4758319" lon="-0.0280562" version="2" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG194650"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="10279029359" lat="51.5776173" lon="-0.2566556" version="1" visible="true">
     <tag k="ref:GB:tflcid" v="RWG270247"/>
     <tag k="traffic_calming" v="cushion"/>
@@ -1373,6 +1377,7 @@
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="6195193414" lat="51.6005601" lon="0.0148741" version="1" visible="true"/>
+  <node id="6115046031" lat="51.5812771" lon="-0.1909412" version="3" visible="true"/>
   <node id="6101434354" lat="51.4535558" lon="-0.0924097" version="1" visible="true"/>
   <node id="6101434353" lat="51.4533732" lon="-0.0919945" version="1" visible="true"/>
   <node id="6101434350" lat="51.4535959" lon="-0.0924644" version="1" visible="true"/>
@@ -1522,6 +1527,7 @@
   <node id="5364788152" lat="51.5807374" lon="0.0919251" version="1" visible="true"/>
   <node id="5354915663" lat="51.4305988" lon="0.042237" version="2" visible="true"/>
   <node id="5310556674" lat="51.6098081" lon="0.0303938" version="1" visible="true"/>
+  <node id="5220734647" lat="51.5815904" lon="-0.191213" version="5" visible="true"/>
   <node id="5198429465" lat="51.4421946" lon="0.02965" version="1" visible="true"/>
   <node id="5156892609" lat="51.4202553" lon="-0.2182779" version="1" visible="true"/>
   <node id="5156892608" lat="51.4200481" lon="-0.2178436" version="1" visible="true"/>
@@ -1678,7 +1684,8 @@
   <node id="3831844377" lat="51.4538511" lon="-0.0952797" version="1" visible="true"/>
   <node id="3831844374" lat="51.4534423" lon="-0.0923499" version="2" visible="true"/>
   <node id="3831844373" lat="51.4533733" lon="-0.0923875" version="2" visible="true"/>
-  <node id="3831844372" lat="51.4542274" lon="-0.0944663" version="1" visible="true">
+  <node id="3831844372" lat="51.4542274" lon="-0.0944663" version="2" visible="true">
+    <tag k="check_date" v="2023-01-09"/>
     <tag k="traffic_calming" v="bump"/>
   </node>
   <node id="3831844371" lat="51.453564" lon="-0.0936221" version="2" visible="true">
@@ -3451,6 +3458,10 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="sinusoidal" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG243900"/>
+  </node>
+  <node id="-1010" lat="51.5813976441987" lon="-0.191045781312354" visible="true">
+    <tag k="traffic_calming" v="hump"/>
+    <tag k="tiger:upload_uuid" v="RWG287343"/>
   </node>
   <node id="9878769191" lat="51.5921141" lon="-0.0685361" visible="true" version="1">
     <tag k="traffic_calming" v="cushion"/>
@@ -15894,7 +15905,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG203376"/>
   </node>
-  <node id="4967277445" lat="51.411511" lon="-0.0742785" visible="true" version="2">
+  <node id="4967277445" lat="51.4115079" lon="-0.0742666" visible="true" version="3">
     <tag k="ref:GB:tflcid" v="RWG203559"/>
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG203559"/>
@@ -28775,7 +28786,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG183466"/>
   </node>
-  <node id="10091845558" lat="51.485409" lon="0.0396369" visible="true" version="1">
+  <node id="10334915091" lat="51.4854879" lon="0.0396441" visible="true" version="1">
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG180627"/>
   </node>
@@ -29574,13 +29585,6 @@
   <node id="10104494837" lat="51.4906419" lon="0.0515214" visible="true" version="1">
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG180648"/>
-  </node>
-  <node id="5575801388" lat="51.5267580947759" lon="0.113733299984168" visible="true" version="5">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="uncontrolled"/>
-    <tag k="crossing_ref" v="zebra"/>
-    <tag k="traffic_calming" v="hump"/>
-    <tag k="tiger:upload_uuid" v="RWG180980"/>
   </node>
   <node id="180582049" lat="51.5303764" lon="0.135411" visible="true" version="4">
     <tag k="traffic_calming" v="hump"/>
@@ -36412,7 +36416,7 @@
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG144311"/>
   </node>
-  <node id="100416581" lat="51.5529282" lon="0.0095296" visible="true" version="3">
+  <node id="100416581" lat="51.552941" lon="0.0095508" visible="true" version="4">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG146945"/>
   </node>
@@ -42907,7 +42911,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG014168"/>
   </node>
-  <node id="2978329895" lat="51.5485715" lon="-0.0659432" visible="true" version="5">
+  <node id="2978329895" lat="51.548561" lon="-0.065942" visible="true" version="6">
     <tag k="ref:GB:tflcid" v="RWG014655"/>
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG014655"/>
@@ -47092,11 +47096,6 @@
     <tag k="sinusoidal" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG071964"/>
   </node>
-  <node id="48747509" lat="51.5281077" lon="-0.0584413" visible="true" version="3">
-    <tag k="ref:GB:tflcid" v="RWG071867"/>
-    <tag k="traffic_calming" v="hump"/>
-    <tag k="tiger:upload_uuid" v="RWG071867"/>
-  </node>
   <node id="9199278454" lat="51.5270104" lon="-0.073614" visible="true" version="1">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG071853"/>
@@ -47190,7 +47189,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG072945"/>
   </node>
-  <node id="659504184" lat="51.5283781" lon="-0.0602819" visible="true" version="3">
+  <node id="10427756518" lat="51.5283907" lon="-0.0602892" visible="true" version="1">
     <tag k="traffic_calming" v="hump"/>
     <tag k="sinusoidal" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG071806"/>
@@ -47986,11 +47985,6 @@
     <tag k="crossing:island" v="no"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG071259"/>
-  </node>
-  <node id="48747466" lat="51.5278978" lon="-0.0584062" visible="true" version="4">
-    <tag k="ref:GB:tflcid" v="RWG071868"/>
-    <tag k="traffic_calming" v="cushion"/>
-    <tag k="tiger:upload_uuid" v="RWG071868"/>
   </node>
   <node id="265906284" lat="51.5273429" lon="-0.0812227" visible="true" version="4">
     <tag k="ref:GB:tflcid" v="RWG072839"/>
@@ -48919,11 +48913,6 @@
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG043092"/>
   </node>
-  <node id="1125343200" lat="51.4672128" lon="-0.1982786" visible="true" version="4">
-    <tag k="traffic_calming" v="cushion"/>
-    <tag k="sinusoidal" v="yes"/>
-    <tag k="tiger:upload_uuid" v="RWG043711"/>
-  </node>
   <node id="7531748478" lat="51.4834336" lon="-0.2146743" visible="true" version="1">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG044037"/>
@@ -48944,17 +48933,13 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG043622"/>
   </node>
-  <node id="3953705943" lat="51.4653484" lon="-0.1943284" visible="true" version="3">
+  <node id="3953705943" lat="51.4653484" lon="-0.1943284" visible="true" version="4">
     <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="marked"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="zebra"/>
+    <tag k="crossing:island" v="no"/>
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG043881"/>
-  </node>
-  <node id="7972949676" lat="51.4658793947774" lon="-0.191480899973346" visible="true" version="1">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="marked"/>
-    <tag k="traffic_calming" v="hump"/>
-    <tag k="tiger:upload_uuid" v="RWG043885"/>
   </node>
   <node id="20963421" lat="51.4992799" lon="-0.1859435" visible="true" version="5">
     <tag k="traffic_calming" v="hump"/>
@@ -51417,7 +51402,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG007520"/>
   </node>
-  <node id="279654673" lat="51.5598869" lon="-0.1096887" visible="true" version="2">
+  <node id="279654673" lat="51.5598914" lon="-0.1096624" visible="true" version="3">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG007615"/>
   </node>
@@ -51455,7 +51440,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG032443"/>
   </node>
-  <node id="186242232" lat="51.5586207" lon="-0.1109875" visible="true" version="2">
+  <node id="186242232" lat="51.5586136" lon="-0.1109676" visible="true" version="3">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG007563"/>
   </node>
@@ -54521,10 +54506,11 @@
     <nd ref="9448666947"/>
     <nd ref="246846403"/>
   </way>
-  <way id="4970360" visible="true" version="9">
+  <way id="4970360" visible="true" version="10">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Holmdene Avenue"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="32928736"/>
     <nd ref="7713594548"/>
     <nd ref="1395947528"/>
@@ -54539,10 +54525,11 @@
     <nd ref="9415026913"/>
     <nd ref="32928739"/>
   </way>
-  <way id="4970360" visible="true" version="9">
+  <way id="4970360" visible="true" version="10">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Holmdene Avenue"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="32928736"/>
     <nd ref="7713594548"/>
     <nd ref="1395947528"/>
@@ -54589,10 +54576,11 @@
     <nd ref="3831844378"/>
     <nd ref="32928729"/>
   </way>
-  <way id="4970389" visible="true" version="4">
+  <way id="4970389" visible="true" version="5">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Frankfurt Road"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="32928880"/>
     <nd ref="9415026899"/>
     <nd ref="32928881"/>
@@ -54905,10 +54893,11 @@
     <nd ref="7391178131"/>
     <nd ref="7118760809"/>
   </way>
-  <way id="4970389" visible="true" version="4">
+  <way id="4970389" visible="true" version="5">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Frankfurt Road"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="32928880"/>
     <nd ref="9415026899"/>
     <nd ref="-529"/>
@@ -54917,10 +54906,11 @@
     <nd ref="279581216"/>
     <nd ref="32928757"/>
   </way>
-  <way id="4970389" visible="true" version="4">
+  <way id="4970389" visible="true" version="5">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Frankfurt Road"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="32928880"/>
     <nd ref="9415026899"/>
     <nd ref="32928881"/>
@@ -54929,10 +54919,11 @@
     <nd ref="279581216"/>
     <nd ref="32928757"/>
   </way>
-  <way id="4970389" visible="true" version="4">
+  <way id="4970389" visible="true" version="5">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Frankfurt Road"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="32928880"/>
     <nd ref="9415026899"/>
     <nd ref="32928881"/>
@@ -54941,10 +54932,11 @@
     <nd ref="279581216"/>
     <nd ref="32928757"/>
   </way>
-  <way id="4970389" visible="true" version="4">
+  <way id="4970389" visible="true" version="5">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Frankfurt Road"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="32928880"/>
     <nd ref="9415026899"/>
     <nd ref="32928881"/>
@@ -54986,11 +54978,12 @@
     <nd ref="-535"/>
     <nd ref="7203465696"/>
   </way>
-  <way id="24942125" visible="true" version="7">
+  <way id="24942125" visible="true" version="8">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Elmwood Road"/>
     <tag k="postal_code" v="SE24"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="32928757"/>
     <nd ref="32928758"/>
     <nd ref="32928759"/>
@@ -55182,11 +55175,12 @@
     <nd ref="3831844373"/>
     <nd ref="271049113"/>
   </way>
-  <way id="24942125" visible="true" version="7">
+  <way id="24942125" visible="true" version="8">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Elmwood Road"/>
     <tag k="postal_code" v="SE24"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="32928757"/>
     <nd ref="32928758"/>
     <nd ref="32928759"/>
@@ -55231,10 +55225,11 @@
     <nd ref="6101425491"/>
     <nd ref="33257403"/>
   </way>
-  <way id="4970360" visible="true" version="9">
+  <way id="4970360" visible="true" version="10">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Holmdene Avenue"/>
+    <tag k="surface" v="asphalt"/>
     <nd ref="32928736"/>
     <nd ref="7713594548"/>
     <nd ref="1395947528"/>
@@ -60410,7 +60405,7 @@
     <nd ref="675553044"/>
     <nd ref="675557444"/>
   </way>
-  <way id="11024495" visible="true" version="17">
+  <way id="11024495" visible="true" version="18">
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Watson's Street"/>
@@ -60418,6 +60413,7 @@
     <nd ref="10261266052"/>
     <nd ref="-815"/>
     <nd ref="10272263639"/>
+    <nd ref="10279041298"/>
     <nd ref="4037292255"/>
     <nd ref="669074760"/>
     <nd ref="98220379"/>
@@ -63895,5 +63891,12 @@
     <nd ref="31472776"/>
     <nd ref="2834825093"/>
     <nd ref="2834825094"/>
+  </way>
+  <way id="652220005" visible="true" version="3">
+    <tag k="highway" v="service"/>
+    <tag k="surface" v="asphalt"/>
+    <nd ref="5220734647"/>
+    <nd ref="-1010"/>
+    <nd ref="6115046031"/>
   </way>
 </osm>
