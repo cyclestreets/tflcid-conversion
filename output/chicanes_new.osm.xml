@@ -12,10 +12,6 @@
     <tag k="ref:GB:tflcid" v="RWG122349"/>
     <tag k="traffic_calming" v="hump"/>
   </node>
-  <node id="10282561672" lat="51.5214847" lon="0.0561961" version="1" visible="true">
-    <tag k="ref:GB:tflcid" v="RWG180974"/>
-    <tag k="traffic_calming" v="cushion"/>
-  </node>
   <node id="10282561638" lat="51.521257" lon="0.0580478" version="1" visible="true">
     <tag k="ref:GB:tflcid" v="RWG180975"/>
     <tag k="traffic_calming" v="cushion"/>
@@ -24,7 +20,8 @@
     <tag k="ref:GB:tflcid" v="RWG017584"/>
     <tag k="traffic_calming" v="cushion"/>
   </node>
-  <node id="10255501339" lat="51.5214838" lon="0.0561991" version="1" visible="true">
+  <node id="10255501339" lat="51.5214838" lon="0.0561991" version="2" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG180974"/>
     <tag k="traffic_calming" v="cushion"/>
   </node>
   <node id="10255501289" lat="51.5213254" lon="0.0574555" version="1" visible="true">
@@ -579,7 +576,7 @@
     <nd ref="3932026549"/>
     <nd ref="134055"/>
   </way>
-  <way id="5028155" visible="true" version="20">
+  <way id="5028155" visible="true" version="21">
     <tag k="cycleway:both" v="no"/>
     <tag k="highway" v="tertiary"/>
     <tag k="lanes" v="2"/>
@@ -596,7 +593,6 @@
     <nd ref="9767296441"/>
     <nd ref="-1346"/>
     <nd ref="10255501339"/>
-    <nd ref="10282561672"/>
     <nd ref="171276926"/>
   </way>
   <way id="22727344" visible="true" version="7">
