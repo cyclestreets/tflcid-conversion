@@ -5188,16 +5188,16 @@
     <nd ref="2405527187"/>
     <nd ref="424613"/>
   </way>
-  <way id="537863427" visible="true" version="6">
+  <way id="537863427" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chancel Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v="no"/>
+    <tag k="cycleway:left" v="shared_lane"/>
     <tag k="cycleway:right" v="separate"/>
-    <tag k="oneway:bicycle" v="no"/>
+    <tag k="cycleway:left:lane" v="pictogram"/>
     <tag k="tiger:upload_uuid" v="RWG082150"/>
     <nd ref="5207546645"/>
     <nd ref="6806740812"/>
@@ -5375,7 +5375,7 @@
     <nd ref="21393713"/>
     <nd ref="1839216409"/>
   </way>
-  <way id="147680889" visible="true" version="25">
+  <way id="147680889" visible="true" version="26">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Union Street"/>
     <tag k="oneway" v="yes"/>
@@ -5385,9 +5385,12 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="wikidata" v="Q2947639"/>
     <tag k="wikipedia" v="en:Union Street, London"/>
+    <tag k="cycleway:left" v="shared_lane"/>
     <tag k="lane_markings" v="no"/>
     <tag k="sidewalk:left" v="yes"/>
+    <tag k="cycleway:right" v="separate"/>
     <tag k="sidewalk:right" v="separate"/>
+    <tag k="cycleway:left:lane" v="pictogram"/>
     <tag k="sidewalk:left:surface" v="paving_stones"/>
     <tag k="tiger:upload_uuid" v="RWG082013"/>
     <nd ref="534966128"/>

@@ -2956,10 +2956,13 @@
   <node id="305148357" lat="51.5292413" lon="-0.2160221" version="3" visible="true"/>
   <node id="305082176" lat="51.5526388" lon="-0.1785577" version="9" visible="true"/>
   <node id="304690525" lat="51.5374733" lon="-0.2471331" version="5" visible="true"/>
-  <node id="304421997" lat="51.536148" lon="-0.24554" version="7" visible="true">
+  <node id="304421997" lat="51.536148" lon="-0.24554" version="8" visible="true">
     <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals;marked"/>
+    <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing:markings" v="dots"/>
   </node>
   <node id="303288295" lat="51.5284891" lon="-0.2679583" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -12435,12 +12438,12 @@
     <nd ref="5742487191"/>
     <nd ref="1664711764"/>
   </way>
-  <way id="761268461" visible="true" version="13">
+  <way id="761268461" visible="true" version="14">
     <tag k="busway:right" v="lane"/>
     <tag k="busway:right:oneway" v="-1"/>
     <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:left:oneway" v="no"/>
     <tag k="cycleway:right" v="share_busway"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
     <tag k="hazmat" v="designated"/>
     <tag k="highway" v="primary"/>
     <tag k="lit" v="yes"/>
@@ -12890,9 +12893,8 @@
     <nd ref="-328"/>
     <nd ref="3639342587"/>
   </way>
-  <way id="972543343" visible="true" version="2">
-    <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:left:oneway" v="no"/>
+  <way id="972543343" visible="true" version="4">
+    <tag k="cycleway:both" v="no"/>
     <tag k="hazmat" v="designated"/>
     <tag k="highway" v="primary"/>
     <tag k="lanes" v="2"/>
@@ -12901,6 +12903,7 @@
     <tag k="name" v="Jamaica Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="operator" v="Transport for London"/>
+    <tag k="parking:lane:both" v="no"/>
     <tag k="ref" v="A200"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="surface" v="asphalt"/>
@@ -13008,9 +13011,9 @@
     <nd ref="-335"/>
     <nd ref="13824311"/>
   </way>
-  <way id="856115888" visible="true" version="5">
-    <tag k="cycleway:left" v="no"/>
-    <tag k="cycleway:right" v="no"/>
+  <way id="856115888" visible="true" version="6">
+    <tag k="cycleway:both" v="lane"/>
+    <tag k="cycleway:both:lane" v="exclusive"/>
     <tag k="highway" v="primary"/>
     <tag k="lanes" v="3"/>
     <tag k="lanes:backward" v="1"/>
