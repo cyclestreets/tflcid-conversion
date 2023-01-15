@@ -2033,7 +2033,7 @@
   <node id="6332584784" lat="51.5407955" lon="-0.1063129" version="1" visible="true"/>
   <node id="6332565144" lat="51.5706604" lon="-0.078069" version="1" visible="true"/>
   <node id="6332565141" lat="51.5707231" lon="-0.0780707" version="1" visible="true"/>
-  <node id="6332565140" lat="51.5706386" lon="-0.0780805" version="1" visible="true"/>
+  <node id="6332565140" lat="51.5706386" lon="-0.0780862" version="2" visible="true"/>
   <node id="6325622621" lat="51.4933553" lon="-0.0938274" version="3" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
@@ -14365,16 +14365,19 @@
     <nd ref="2476805753"/>
     <nd ref="351771449"/>
   </way>
-  <way id="405587429" visible="true" version="13">
+  <way id="405587429" visible="true" version="15">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Paul Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="traffic_calming" v="cushion"/>
+    <tag k="cycleway:left" v="shared_lane"/>
+    <tag k="sidewalk:left" v="yes"/>
     <tag k="cycleway:right" v="lane"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="traffic_calming" v="cushion"/>
+    <tag k="cycleway:left:lane" v="pictogram"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG073511"/>
     <nd ref="473091606"/>
@@ -14386,16 +14389,19 @@
     <nd ref="6507301201"/>
     <nd ref="249666678"/>
   </way>
-  <way id="405587429" visible="true" version="13">
+  <way id="405587429" visible="true" version="15">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Paul Street"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
-    <tag k="traffic_calming" v="cushion"/>
+    <tag k="cycleway:left" v="shared_lane"/>
+    <tag k="sidewalk:left" v="yes"/>
     <tag k="cycleway:right" v="lane"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="traffic_calming" v="cushion"/>
+    <tag k="cycleway:left:lane" v="pictogram"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG073201"/>
     <nd ref="473091606"/>
@@ -17333,12 +17339,13 @@
     <nd ref="4965120676"/>
     <nd ref="7332103676"/>
   </way>
-  <way id="4004694" visible="true" version="16">
+  <way id="4004694" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
     <tag k="name" v="Clapham Common North Side"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="cycleway:right" v="share_busway"/>
