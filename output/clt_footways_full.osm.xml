@@ -789,7 +789,11 @@
   <node id="812149230" lat="51.5049689" lon="-0.2174995" version="6" visible="true"/>
   <node id="812149224" lat="51.5045759" lon="-0.2177681" version="3" visible="true"/>
   <node id="812149223" lat="51.5042199" lon="-0.2178101" version="8" visible="true"/>
-  <node id="812149207" lat="51.5040724" lon="-0.2190309" version="6" visible="true"/>
+  <node id="812149207" lat="51.5040724" lon="-0.2190309" version="8" visible="true">
+    <tag k="kerb" v="lowered"/>
+    <tag k="barrier" v="kerb"/>
+    <tag k="tactile_paving" v="yes"/>
+  </node>
   <node id="765955404" lat="51.4720307" lon="-0.2696239" version="5" visible="true"/>
   <node id="747012170" lat="51.5645309" lon="0.2051656" version="2" visible="true"/>
   <node id="685519170" lat="51.4683125" lon="-0.0161689" version="2" visible="true"/>

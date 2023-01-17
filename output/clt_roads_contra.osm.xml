@@ -9778,10 +9778,10 @@
     <nd ref="5603199056"/>
     <nd ref="5603199062"/>
   </way>
-  <way id="586435570" visible="true" version="4">
+  <way id="586435570" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Park Avenue South"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="abutters" v="residential"/>
@@ -11540,7 +11540,7 @@
     <nd ref="9693974377"/>
     <nd ref="9846850973"/>
   </way>
-  <way id="1046709714" visible="true" version="8">
+  <way id="1046709714" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Powerscroft Road"/>
     <tag k="lanes" v="1"/>
@@ -11548,13 +11548,13 @@
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
     <tag k="cycleway:left" v="shared_lane"/>
+    <tag k="sidewalk:left" v="separate"/>
     <tag k="cycleway:right" v="lane"/>
-    <tag k="parking:lane:both" v="no"/>
+    <tag k="sidewalk:right" v="no"/>
     <tag k="cycleway:left:lane" v="pictogram"/>
     <tag k="cycleway:left:oneway" v="yes"/>
-    <tag k="parking:condition:both" v="no_parking"/>
+    <tag k="parking:both:restriction" v="no_parking"/>
     <tag k="tiger:upload_uuid" v="RWG097850"/>
     <nd ref="282832077"/>
     <nd ref="9625296147"/>
@@ -11829,7 +11829,7 @@
     <nd ref="8603578708"/>
     <nd ref="237481"/>
   </way>
-  <way id="25799956" visible="true" version="22">
+  <way id="25799956" visible="true" version="23">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Homerton Grove"/>
     <tag k="highway" v="residential"/>
@@ -12762,7 +12762,7 @@
     <nd ref="7235619921"/>
     <nd ref="25894267"/>
   </way>
-  <way id="798870894" visible="true" version="9">
+  <way id="798870894" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Clifden Road"/>
     <tag k="oneway" v="yes"/>
@@ -12771,7 +12771,9 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="20900254"/>
+    <tag k="parking:both" v="lane"/>
     <tag k="cycleway:both" v="no"/>
+    <tag k="parking:both:markings" v="yes"/>
     <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG009007"/>
@@ -12786,7 +12788,7 @@
     <nd ref="2817081438"/>
     <nd ref="2817081445"/>
   </way>
-  <way id="526849614" visible="true" version="8">
+  <way id="526849614" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Clifden Road"/>
     <tag k="width" v="7"/>
@@ -12796,7 +12798,9 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
     <tag k="ref:GB:usrn" v="20900254"/>
+    <tag k="parking:both" v="lane"/>
     <tag k="cycleway:both" v="no"/>
+    <tag k="parking:both:markings" v="yes"/>
     <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG009007"/>
