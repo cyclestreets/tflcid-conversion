@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10562840283" lat="51.536438" lon="0.1026485" version="1" visible="true"/>
+  <node id="10562840282" lat="51.5364393" lon="0.1027822" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+  </node>
   <node id="10548936197" lat="51.5420406" lon="-0.0554853" version="1" visible="true">
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
@@ -1885,7 +1890,7 @@
   <node id="6925827740" lat="51.4781301" lon="-0.1267136" version="1" visible="true"/>
   <node id="6885386389" lat="51.395192" lon="-0.1196766" version="1" visible="true"/>
   <node id="6879037149" lat="51.498918" lon="-0.2100737" version="4" visible="true"/>
-  <node id="6871588710" lat="51.5364186" lon="0.1025435" version="1" visible="true"/>
+  <node id="6871588710" lat="51.5364372" lon="0.1025538" version="2" visible="true"/>
   <node id="6871185053" lat="51.5060721" lon="-0.103309" version="2" visible="true"/>
   <node id="6865992084" lat="51.4687373" lon="-0.1352601" version="1" visible="true"/>
   <node id="6840457289" lat="51.3874299" lon="-0.1132933" version="1" visible="true"/>
@@ -3897,7 +3902,7 @@
   <node id="181327926" lat="51.5556161" lon="-0.1115118" version="4" visible="true"/>
   <node id="181327902" lat="51.5551436" lon="-0.1145529" version="3" visible="true"/>
   <node id="181327901" lat="51.5555268" lon="-0.1128597" version="4" visible="true"/>
-  <node id="178965382" lat="51.5364179" lon="0.102936" version="8" visible="true"/>
+  <node id="178965382" lat="51.5364408" lon="0.1029452" version="9" visible="true"/>
   <node id="177731407" lat="51.5624257" lon="0.1755129" version="8" visible="true"/>
   <node id="177691993" lat="51.5519517" lon="0.1495876" version="1" visible="true"/>
   <node id="177691803" lat="51.5519838" lon="0.1504116" version="2" visible="true"/>
@@ -4578,7 +4583,7 @@
   <node id="227803" lat="51.5424473" lon="-0.1611247" version="6" visible="true"/>
   <node id="227802" lat="51.5425163" lon="-0.1576544" version="5" visible="true"/>
   <node id="224688" lat="51.5026323" lon="-0.2139714" version="12" visible="true"/>
-  <node id="224680" lat="51.5018026" lon="-0.2158273" version="5" visible="true">
+  <node id="224680" lat="51.5018003" lon="-0.2158571" version="6" visible="true">
     <tag k="highway" v="mini_roundabout"/>
     <tag k="direction" v="clockwise"/>
   </node>
@@ -5637,13 +5642,15 @@
     <nd ref="7079766568"/>
     <nd ref="30426698"/>
   </way>
-  <way id="733674485" visible="true" version="1">
+  <way id="733674485" visible="true" version="2">
     <tag k="name" v="Dawson Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG155276"/>
     <nd ref="6871588710"/>
+    <nd ref="10562840283"/>
+    <nd ref="10562840282"/>
     <nd ref="178965382"/>
   </way>
   <way id="4275714" visible="true" version="6">

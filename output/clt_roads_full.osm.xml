@@ -664,7 +664,7 @@
   <node id="6688032855" lat="51.3690884" lon="-0.2905999" version="2" visible="true"/>
   <node id="86107192" lat="51.4749244" lon="-0.0350084" version="7" visible="true"/>
   <node id="2001818049" lat="51.5453392" lon="-0.0125646" version="4" visible="true"/>
-  <node id="9804302876" lat="51.5353265" lon="0.1033638" version="1" visible="true"/>
+  <node id="9804302876" lat="51.5353328" lon="0.1033756" version="2" visible="true"/>
   <node id="6003276467" lat="51.5560049" lon="-0.1174381" version="4" visible="true"/>
   <node id="3007020958" lat="51.5439527" lon="-0.1753442" version="3" visible="true"/>
   <node id="9752805534" lat="51.5620263" lon="0.0350538" version="1" visible="true"/>
@@ -23420,25 +23420,6 @@
     <nd ref="8974736911"/>
     <nd ref="1416600557"/>
   </way>
-  <way id="502884278" visible="true" version="4">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="maxwidth" v="7'0&quot;"/>
-    <tag k="cycleway" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369865484"/>
-    <nd ref="4369866905"/>
-    <nd ref="4369866910"/>
-    <nd ref="7851494286"/>
-    <nd ref="4369866906"/>
-    <nd ref="8865878648"/>
-    <nd ref="4369866896"/>
-  </way>
   <way id="841518206" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -23457,6 +23438,25 @@
     <nd ref="7851494300"/>
     <nd ref="7851494293"/>
     <nd ref="4369865484"/>
+  </way>
+  <way id="502884278" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxwidth" v="7'0&quot;"/>
+    <tag k="cycleway" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369865484"/>
+    <nd ref="4369866905"/>
+    <nd ref="4369866910"/>
+    <nd ref="7851494286"/>
+    <nd ref="4369866906"/>
+    <nd ref="8865878648"/>
+    <nd ref="4369866896"/>
   </way>
   <way id="236185317" visible="true" version="17">
     <tag k="lit" v="yes"/>
@@ -30355,7 +30355,7 @@
     <nd ref="131971562"/>
     <nd ref="9061353421"/>
   </way>
-  <way id="670967505" visible="true" version="9">
+  <way id="670967505" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4020"/>
     <tag k="name" v="Uxbridge Road"/>
@@ -30364,15 +30364,15 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="turn:lanes:backward" v="left;through|right"/>
-    <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG233555"/>
     <nd ref="249793698"/>
     <nd ref="9081013663"/>
   </way>
-  <way id="1113132330" visible="true" version="1">
+  <way id="1113132330" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4020"/>
     <tag k="name" v="Uxbridge Road"/>
@@ -30380,11 +30380,11 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:right" v=""/>
     <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="share_busway"/>
     <tag k="cycleway:left:lane" v="advisory"/>
-    <tag k="cycleway:right:surface:colour" v="red"/>
-    <tag k="cycleway:right:conditional" v="Mo-Fr 07:00-19:00;Sa-Su 10:00-18:00"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG233555,RWG234253"/>
     <nd ref="34841961"/>
     <nd ref="10184073339"/>
@@ -31270,7 +31270,7 @@
     <nd ref="243178599"/>
     <nd ref="20349783"/>
   </way>
-  <way id="128406191" visible="true" version="10">
+  <way id="128406191" visible="true" version="11">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4020"/>
     <tag k="name" v="New Broadway"/>
@@ -31281,6 +31281,7 @@
     <tag k="busway:left" v="lane"/>
     <tag k="cycleway:left" v="share_busway"/>
     <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:conditional" v="Mo-Fr 07:00-19:00;Sa-Su 10:00-18:00"/>
     <tag k="tiger:upload_uuid" v="RWG233550,RWG234249"/>
@@ -31400,7 +31401,7 @@
     <nd ref="2311539235"/>
     <nd ref="5756701946"/>
   </way>
-  <way id="304105878" visible="true" version="6">
+  <way id="304105878" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A4020"/>
     <tag k="name" v="Uxbridge Road"/>
@@ -31414,6 +31415,7 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="lanes:backward" v="1"/>
     <tag k="lanes:psv:forward" v="1"/>
+    <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="cycleway" v=""/>
     <tag k="fixme:cycleway:conditional" v="mon-fri 7-10am 4-7pm sat-sun 10am-6pm"/>
     <tag k="tiger:upload_uuid" v="RWG234241,RWG233520"/>
