@@ -309,6 +309,7 @@
   <node id="3202372596" lat="51.5476387" lon="-0.1801567" version="3" visible="true"/>
   <node id="9910548281" lat="51.5344057" lon="0.117777" version="1" visible="true"/>
   <node id="9815317473" lat="51.5813355" lon="0.0199335" version="1" visible="true"/>
+  <node id="10564054189" lat="51.5114823" lon="-0.0259271" version="1" visible="true"/>
   <node id="26026556" lat="51.6294622" lon="-0.0974802" version="10" visible="true"/>
   <node id="2301891644" lat="51.5021087" lon="-0.4469714" version="3" visible="true"/>
   <node id="211540786" lat="51.6080989" lon="-0.3730553" version="11" visible="true"/>
@@ -1257,6 +1258,7 @@
   <node id="7765823595" lat="51.4820163" lon="-0.1244103" version="1" visible="true"/>
   <node id="8719396326" lat="51.5920159" lon="-0.3624556" version="1" visible="true"/>
   <node id="90101486" lat="51.4867384" lon="0.0203468" version="7" visible="true"/>
+  <node id="10564054192" lat="51.5114529" lon="-0.0257453" version="1" visible="true"/>
   <node id="536170361" lat="51.5774992" lon="-0.3315249" version="5" visible="true"/>
   <node id="31387913" lat="51.5748797" lon="0.181386" version="1" visible="true"/>
   <node id="249693777" lat="51.6006568" lon="-0.0133887" version="4" visible="true"/>
@@ -6616,6 +6618,7 @@
   <node id="9809089326" lat="51.5684415" lon="-0.4402192" version="1" visible="true"/>
   <node id="8034323957" lat="51.4392047" lon="-0.3327411" version="1" visible="true"/>
   <node id="8781118024" lat="51.5089529" lon="-0.1172638" version="1" visible="true"/>
+  <node id="10564054182" lat="51.5115349" lon="-0.0259795" version="1" visible="true"/>
   <node id="1710752580" lat="51.4130125" lon="-0.2884285" version="4" visible="true"/>
   <node id="108540" lat="51.5305655" lon="-0.1057835" version="15" visible="true"/>
   <node id="52690468" lat="51.5483384" lon="-0.0875965" version="8" visible="true"/>
@@ -47574,13 +47577,14 @@
     <nd ref="33208519"/>
     <nd ref="9584193395"/>
   </way>
-  <way id="1040972625" visible="true" version="2">
+  <way id="1040972625" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="21000411;21000005"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="cycleway" v=""/>
@@ -47590,13 +47594,14 @@
     <nd ref="21662667"/>
     <nd ref="9584099621"/>
   </way>
-  <way id="1040972624" visible="true" version="2">
+  <way id="1040972624" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="21000411;21000005"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:left:lane" v="advisory"/>
@@ -47605,13 +47610,14 @@
     <nd ref="9584099621"/>
     <nd ref="829468570"/>
   </way>
-  <way id="69147486" visible="true" version="13">
+  <way id="69147486" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="21000411;21000005"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:left:lane" v="advisory"/>
@@ -47620,13 +47626,14 @@
     <nd ref="829468570"/>
     <nd ref="9379323813"/>
   </way>
-  <way id="1016889011" visible="true" version="2">
+  <way id="1016889011" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="21000411;21000005"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="cycleway" v=""/>
@@ -47703,13 +47710,14 @@
     <nd ref="1937709615"/>
     <nd ref="1795462018"/>
   </way>
-  <way id="1016889008" visible="true" version="2">
+  <way id="1016889008" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="21000411;21000005"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="cycleway" v=""/>
@@ -48006,13 +48014,14 @@
     <nd ref="104393"/>
     <nd ref="9210978153"/>
   </way>
-  <way id="1016889009" visible="true" version="2">
+  <way id="1016889009" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="21000411;21000005"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:left:lane" v="advisory"/>
@@ -48022,13 +48031,14 @@
     <nd ref="9166152652"/>
     <nd ref="9379323810"/>
   </way>
-  <way id="1016889010" visible="true" version="2">
+  <way id="1016889010" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="21000411;21000005"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="share_busway"/>
     <tag k="cycleway" v=""/>
@@ -48038,13 +48048,14 @@
     <nd ref="9176637231"/>
     <nd ref="9379323811"/>
   </way>
-  <way id="24538743" visible="true" version="20">
+  <way id="24538743" visible="true" version="21">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="21000411;21000005"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:left:lane" v="advisory"/>
@@ -49438,13 +49449,14 @@
     <nd ref="8951745689"/>
     <nd ref="6329107343"/>
   </way>
-  <way id="1016889007" visible="true" version="6">
+  <way id="1016889007" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A315"/>
     <tag k="name" v="Hammersmith Road"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="21000411;21000005"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:left:lane" v="advisory"/>
@@ -49790,7 +49802,7 @@
     <nd ref="1841453467"/>
     <nd ref="10870251"/>
   </way>
-  <way id="8326480" visible="true" version="32">
+  <way id="8326480" visible="true" version="34">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A219"/>
     <tag k="name" v="Shepherds Bush Road"/>
@@ -49802,6 +49814,7 @@
     <tag k="not:name" v="Shepherd's Bush Road"/>
     <tag k="sidewalk" v="both"/>
     <tag k="smoothness" v="excellent"/>
+    <tag k="ref:GB:usrn" v="21000727"/>
     <tag k="lanes:forward" v="1"/>
     <tag k="cycleway:right" v=""/>
     <tag k="lanes:backward" v="2"/>
@@ -54329,6 +54342,27 @@
     <nd ref="3944960930"/>
     <nd ref="9346679402"/>
     <nd ref="7254299255"/>
+  </way>
+  <way id="1133026672" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A13"/>
+    <tag k="name" v="East India Dock Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="hazmat" v="designated"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="lanes:psv" v="1"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:conditional" v="Mo-Sa 07:00-19:00"/>
+    <tag k="tiger:upload_uuid" v="RWG073606"/>
+    <nd ref="10564054192"/>
+    <nd ref="10564054189"/>
+    <nd ref="10564054182"/>
   </way>
   <way id="395908556" visible="true" version="10">
     <tag k="lit" v="yes"/>
