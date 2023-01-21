@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10570421649" lat="51.4547061" lon="-0.4219527" version="1" visible="true"/>
   <node id="10566126278" lat="51.4994131" lon="-0.2202675" version="1" visible="true"/>
   <node id="10301553572" lat="51.4708769" lon="-0.3322523" version="1" visible="true"/>
   <node id="10095279246" lat="51.4721674" lon="-0.269761" version="1" visible="true"/>
@@ -335,7 +336,7 @@
   <node id="7095982978" lat="51.5369558" lon="-0.3916015" version="1" visible="true"/>
   <node id="7072074509" lat="51.4071065" lon="-0.3279068" version="2" visible="true"/>
   <node id="7072074503" lat="51.4071403" lon="-0.3275349" version="2" visible="true"/>
-  <node id="7070092171" lat="51.4547985" lon="-0.4221586" version="1" visible="true"/>
+  <node id="7070092171" lat="51.4547946" lon="-0.4221188" version="2" visible="true"/>
   <node id="7056031112" lat="51.4727115" lon="-0.0073981" version="2" visible="true"/>
   <node id="7056031106" lat="51.4731326" lon="-0.0050888" version="1" visible="true"/>
   <node id="7020225356" lat="51.3768971" lon="-0.2785577" version="1" visible="true"/>
@@ -401,8 +402,8 @@
   <node id="6434181012" lat="51.4800685" lon="-0.1656839" version="1" visible="true"/>
   <node id="6425583436" lat="51.4466898" lon="-0.4162769" version="1" visible="true"/>
   <node id="6425583426" lat="51.4465492" lon="-0.417271" version="2" visible="true"/>
-  <node id="6343280340" lat="51.4550601" lon="-0.4224362" version="2" visible="true"/>
-  <node id="6343199361" lat="51.4547214" lon="-0.4220034" version="3" visible="true"/>
+  <node id="6343280340" lat="51.4550562" lon="-0.4224176" version="3" visible="true"/>
+  <node id="6343199361" lat="51.4547054" lon="-0.4219291" version="4" visible="true"/>
   <node id="6324351759" lat="51.4669254" lon="-0.4219471" version="3" visible="true"/>
   <node id="6324351758" lat="51.4669225" lon="-0.4219695" version="1" visible="true"/>
   <node id="6304746776" lat="51.4976866" lon="0.0035581" version="2" visible="true"/>
@@ -838,8 +839,7 @@
   <node id="266980199" lat="51.5232823" lon="-0.3778081" version="5" visible="true"/>
   <node id="263010107" lat="51.4974278" lon="-0.3760084" version="2" visible="true"/>
   <node id="251400622" lat="51.5962848" lon="-0.2104836" version="3" visible="true"/>
-  <node id="247072959" lat="51.4549228" lon="-0.4223251" version="2" visible="true"/>
-  <node id="247072958" lat="51.4547192" lon="-0.4219631" version="3" visible="true"/>
+  <node id="247072959" lat="51.4550038" lon="-0.4223835" version="3" visible="true"/>
   <node id="243712164" lat="51.4732426" lon="-0.0057095" version="1" visible="true"/>
   <node id="243712163" lat="51.4732716" lon="-0.0058761" version="1" visible="true"/>
   <node id="243712162" lat="51.473294" lon="-0.0060541" version="1" visible="true"/>
@@ -871,6 +871,9 @@
   <node id="25499865" lat="51.4973322" lon="-0.0854928" version="2" visible="true"/>
   <node id="24952515" lat="51.4902262" lon="-0.2394971" version="3" visible="true"/>
   <node id="21552679" lat="51.6108237" lon="-0.156797" version="4" visible="true"/>
+  <node id="16707376" lat="51.4547375" lon="-0.4218613" version="3" visible="true">
+    <tag k="highway" v="turning_circle"/>
+  </node>
   <node id="16473932" lat="51.4463681" lon="-0.417907" version="1" visible="true"/>
   <node id="16473931" lat="51.4461818" lon="-0.4188724" version="1" visible="true"/>
   <node id="16473929" lat="51.4460687" lon="-0.4192334" version="2" visible="true"/>
@@ -1981,7 +1984,7 @@
     <nd ref="8445179409"/>
     <nd ref="8445179410"/>
   </way>
-  <way id="22936240" visible="true" version="12">
+  <way id="22936240" visible="true" version="13">
     <tag k="highway" v="footway"/>
     <tag k="surface" v="paved"/>
     <tag k="bicycle" v="yes"/>
@@ -1989,8 +1992,9 @@
     <tag k="segregated" v="no"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG235678"/>
-    <nd ref="247072958"/>
+    <nd ref="16707376"/>
     <nd ref="6343199361"/>
+    <nd ref="10570421649"/>
     <nd ref="7070092171"/>
     <nd ref="247072959"/>
     <nd ref="6343280340"/>

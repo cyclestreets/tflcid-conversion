@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10570155154" lat="51.545916" lon="0.0039296" version="1" visible="true"/>
   <node id="10564930130" lat="51.5021648" lon="-0.2150425" version="1" visible="true"/>
   <node id="10562840283" lat="51.536438" lon="0.1026485" version="1" visible="true"/>
   <node id="10562840282" lat="51.5364393" lon="0.1027822" version="1" visible="true">
@@ -2150,7 +2151,7 @@
   <node id="6049369333" lat="51.5389578" lon="-0.1360072" version="2" visible="true"/>
   <node id="6035939202" lat="51.3716609" lon="-0.1037178" version="1" visible="true"/>
   <node id="6035835567" lat="51.5456071" lon="0.0022178" version="1" visible="true"/>
-  <node id="6035835565" lat="51.5459163" lon="0.0039789" version="1" visible="true"/>
+  <node id="6035835565" lat="51.5459197" lon="0.0039922" version="2" visible="true"/>
   <node id="6035835564" lat="51.5456286" lon="0.0023276" version="1" visible="true"/>
   <node id="6035835556" lat="51.5455911" lon="0.002172" version="1" visible="true"/>
   <node id="6034323498" lat="51.4945569" lon="-0.1982605" version="3" visible="true"/>
@@ -2429,7 +2430,7 @@
   <node id="5492447666" lat="51.5288861" lon="-0.1105675" version="2" visible="true"/>
   <node id="5492447663" lat="51.5288238" lon="-0.11074" version="3" visible="true"/>
   <node id="5483081182" lat="51.5281723" lon="-0.0177709" version="3" visible="true"/>
-  <node id="5469302004" lat="51.5457182" lon="0.0028201" version="2" visible="true"/>
+  <node id="5469302004" lat="51.5457166" lon="0.0028214" version="3" visible="true"/>
   <node id="5458472046" lat="51.5186575" lon="-0.1217949" version="3" visible="true">
     <tag k="bus" v="yes"/>
     <tag k="name" v="Bloomsbury Square"/>
@@ -2610,7 +2611,7 @@
     <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="4875066795" lat="51.4933638" lon="-0.2676665" version="3" visible="true"/>
-  <node id="4872999826" lat="51.5459155" lon="0.0040579" version="4" visible="true"/>
+  <node id="4872999826" lat="51.5459204" lon="0.0040595" version="5" visible="true"/>
   <node id="4872820894" lat="51.5713124" lon="-0.0780666" version="2" visible="true"/>
   <node id="4872820893" lat="51.5707423" lon="-0.0780854" version="2" visible="true"/>
   <node id="4872735399" lat="51.5424407" lon="-0.1814446" version="1" visible="true"/>
@@ -6297,7 +6298,7 @@
     <nd ref="9216906544"/>
     <nd ref="171604274"/>
   </way>
-  <way id="640747132" visible="true" version="5">
+  <way id="640747132" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Windmill Lane"/>
     <tag k="lanes" v="1"/>
@@ -6320,6 +6321,7 @@
     <nd ref="5866293916"/>
     <nd ref="5399776218"/>
     <nd ref="5789782880"/>
+    <nd ref="10570155154"/>
     <nd ref="6035835565"/>
     <nd ref="4872999826"/>
   </way>
@@ -6499,11 +6501,12 @@
     <nd ref="151182894"/>
     <nd ref="151182895"/>
   </way>
-  <way id="220025693" visible="true" version="6">
+  <way id="220025693" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Griffin Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:lane" v="advisory"/>
@@ -6511,11 +6514,12 @@
     <nd ref="92716978"/>
     <nd ref="4759038810"/>
   </way>
-  <way id="483151869" visible="true" version="3">
+  <way id="483151869" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Griffin Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:lane" v="advisory"/>
@@ -6523,11 +6527,12 @@
     <nd ref="4759038810"/>
     <nd ref="3134593806"/>
   </way>
-  <way id="308168223" visible="true" version="4">
+  <way id="308168223" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Griffin Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
