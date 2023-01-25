@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10578822404" lat="51.3942826" lon="-0.1208951" version="1" visible="true"/>
   <node id="10570155154" lat="51.545916" lon="0.0039296" version="1" visible="true"/>
   <node id="10564930130" lat="51.5021648" lon="-0.2150425" version="1" visible="true"/>
   <node id="10562840283" lat="51.536438" lon="0.1026485" version="1" visible="true"/>
@@ -3884,7 +3885,7 @@
     <tag k="tfl_id" v="RWG217237"/>
     <tag k="traffic_calming" v="table"/>
   </node>
-  <node id="244161862" lat="51.3941988" lon="-0.1210516" version="2" visible="true"/>
+  <node id="244161862" lat="51.3941875" lon="-0.1210255" version="3" visible="true"/>
   <node id="244161860" lat="51.3947145" lon="-0.1203027" version="1" visible="true"/>
   <node id="244161399" lat="51.3950091" lon="-0.1199164" version="1" visible="true"/>
   <node id="243865399" lat="51.474225" lon="-0.0151144" version="4" visible="true"/>
@@ -4129,7 +4130,7 @@
   <node id="48697710" lat="51.5288263" lon="-0.0657655" version="5" visible="true"/>
   <node id="48697706" lat="51.5289321" lon="-0.0659128" version="5" visible="true"/>
   <node id="48697703" lat="51.5291817" lon="-0.0661513" version="5" visible="true"/>
-  <node id="45215795" lat="51.4318308" lon="0.0712741" version="2" visible="true"/>
+  <node id="45215795" lat="51.4318337" lon="0.0712772" version="3" visible="true"/>
   <node id="45213556" lat="51.4305188" lon="0.0673723" version="2" visible="true"/>
   <node id="45213285" lat="51.4326728" lon="0.0718582" version="2" visible="true"/>
   <node id="43658198" lat="51.6007721" lon="-0.1049317" version="5" visible="true"/>
@@ -4152,8 +4153,8 @@
   <node id="38890324" lat="51.5936227" lon="-0.0706417" version="3" visible="true"/>
   <node id="38890323" lat="51.5932058" lon="-0.0710497" version="1" visible="true"/>
   <node id="38890321" lat="51.59266" lon="-0.0712427" version="4" visible="true"/>
-  <node id="38889789" lat="51.5934301" lon="-0.0783058" version="2" visible="true"/>
-  <node id="38889788" lat="51.5926105" lon="-0.0782677" version="2" visible="true"/>
+  <node id="38889789" lat="51.5934336" lon="-0.0783148" version="3" visible="true"/>
+  <node id="38889788" lat="51.5926126" lon="-0.0782811" version="3" visible="true"/>
   <node id="38889678" lat="51.5912384" lon="-0.0813461" version="3" visible="true"/>
   <node id="38889677" lat="51.5923823" lon="-0.0782965" version="2" visible="true"/>
   <node id="38889671" lat="51.5917025" lon="-0.0824339" version="2" visible="true"/>
@@ -6980,9 +6981,10 @@
     <nd ref="6250854121"/>
     <nd ref="6250854102"/>
   </way>
-  <way id="31828241" visible="true" version="12">
+  <way id="31828241" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Ballast Quay"/>
+    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="cobblestone:flattened"/>
     <tag k="sidewalk" v="both"/>
@@ -8029,40 +8031,15 @@
     <nd ref="245438990"/>
     <nd ref="291675797"/>
   </way>
-  <way id="735160964" visible="true" version="1">
+  <way id="1134776075" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Blakemore Road"/>
+    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG219829"/>
-    <nd ref="6885386389"/>
-    <nd ref="244161399"/>
-    <nd ref="244161860"/>
-    <nd ref="244161862"/>
-  </way>
-  <way id="735160964" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Blakemore Road"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG219906"/>
-    <nd ref="6885386389"/>
-    <nd ref="244161399"/>
-    <nd ref="244161860"/>
-    <nd ref="244161862"/>
-  </way>
-  <way id="735160964" visible="true" version="1">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Blakemore Road"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG219908"/>
-    <nd ref="6885386389"/>
-    <nd ref="244161399"/>
-    <nd ref="244161860"/>
+    <nd ref="10578822404"/>
     <nd ref="244161862"/>
   </way>
   <way id="26597068" visible="true" version="2">
@@ -8108,6 +8085,30 @@
     <nd ref="5915108513"/>
     <nd ref="5915108512"/>
     <nd ref="244183325"/>
+  </way>
+  <way id="735160964" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Blakemore Road"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG219906"/>
+    <nd ref="6885386389"/>
+    <nd ref="244161399"/>
+    <nd ref="244161860"/>
+    <nd ref="10578822404"/>
+  </way>
+  <way id="735160964" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Blakemore Road"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG219908"/>
+    <nd ref="6885386389"/>
+    <nd ref="244161399"/>
+    <nd ref="244161860"/>
+    <nd ref="10578822404"/>
   </way>
   <way id="970503288" visible="true" version="1">
     <tag k="lit" v="yes"/>
@@ -9602,9 +9603,9 @@
     <nd ref="3225717602"/>
     <nd ref="30759365"/>
   </way>
-  <way id="728254975" visible="true" version="7">
+  <way id="728254975" visible="true" version="8">
     <tag k="name" v="Mount Pleasant Road"/>
-    <tag k="oneway" v="no"/>
+    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="was:oneway" v="yes"/>
@@ -9617,24 +9618,9 @@
     <nd ref="6824527304"/>
     <nd ref="38889677"/>
   </way>
-  <way id="728254975" visible="true" version="7">
+  <way id="728254975" visible="true" version="8">
     <tag k="name" v="Mount Pleasant Road"/>
-    <tag k="oneway" v="no"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="was:oneway" v="yes"/>
-    <tag k="cycleway:right" v="lane"/>
-    <tag k="tiger:upload_uuid" v="RWG279178"/>
-    <nd ref="9591164928"/>
-    <nd ref="38889789"/>
-    <nd ref="10279073925"/>
-    <nd ref="38889788"/>
-    <nd ref="6824527304"/>
-    <nd ref="38889677"/>
-  </way>
-  <way id="728254975" visible="true" version="7">
-    <tag k="name" v="Mount Pleasant Road"/>
-    <tag k="oneway" v="no"/>
+    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="was:oneway" v="yes"/>
@@ -11539,9 +11525,10 @@
     <nd ref="2659436222"/>
     <nd ref="198149"/>
   </way>
-  <way id="461747271" visible="true" version="11">
+  <way id="461747271" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="name" v="West Smithfield"/>
+    <tag k="access" v="no"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
@@ -11552,9 +11539,10 @@
     <nd ref="1360122937"/>
     <nd ref="6431923715"/>
   </way>
-  <way id="461747271" visible="true" version="11">
+  <way id="461747271" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="name" v="West Smithfield"/>
+    <tag k="access" v="no"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
@@ -11564,9 +11552,26 @@
     <nd ref="1360122937"/>
     <nd ref="6431923715"/>
   </way>
-  <way id="686215953" visible="true" version="4">
+  <way id="686215952" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="West Smithfield"/>
+    <tag k="access" v="no"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:right" v=""/>
+    <tag k="was:oneway:bicycle" v="no"/>
+    <tag k="cycleway:right:oneway" v="-1"/>
+    <tag k="cycleway:right:lane" v="exclusive"/>
+    <tag k="tiger:upload_uuid" v="RWG108383"/>
+    <nd ref="6431923715"/>
+    <nd ref="6431923714"/>
+  </way>
+  <way id="686215953" visible="true" version="5">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="West Smithfield"/>
+    <tag k="access" v="no"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
@@ -11578,9 +11583,10 @@
     <nd ref="9693974377"/>
     <nd ref="9846850973"/>
   </way>
-  <way id="686215953" visible="true" version="4">
+  <way id="686215953" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="name" v="West Smithfield"/>
+    <tag k="access" v="no"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
