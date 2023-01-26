@@ -447,8 +447,10 @@
     <tag k="direction" v="backward"/>
   </node>
   <node id="7622101557" lat="51.5110824" lon="-0.0545641" version="4" visible="true"/>
-  <node id="7530393606" lat="51.5027381" lon="-0.2137637" version="2" visible="true">
+  <node id="7530393606" lat="51.5027019" lon="-0.2138389" version="3" visible="true">
     <tag k="highway" v="traffic_signals"/>
+    <tag k="crossing" v="no"/>
+    <tag k="traffic_signals" v="traffic_lights"/>
   </node>
   <node id="7368962431" lat="51.4636832" lon="-0.0361849" version="2" visible="true">
     <tag k="highway" v="give_way"/>
@@ -1161,10 +1163,13 @@
   <node id="1626997890" lat="51.4782164" lon="-0.148645" version="9" visible="true"/>
   <node id="1625673753" lat="51.5334063" lon="-0.2038686" version="5" visible="true"/>
   <node id="1625673719" lat="51.533261" lon="-0.2036371" version="4" visible="true"/>
-  <node id="1618016684" lat="51.5026715" lon="-0.2138943" version="7" visible="true">
+  <node id="1618016684" lat="51.5026723" lon="-0.2138929" version="8" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
+    <tag k="button_operated" v="yes"/>
+    <tag k="crossing:island" v="separate"/>
+    <tag k="crossing:markings" v="dots"/>
   </node>
   <node id="1547235521" lat="51.5268915" lon="-0.1117976" version="3" visible="true"/>
   <node id="1541548277" lat="51.4477567" lon="-0.0855164" version="3" visible="true"/>
@@ -1550,7 +1555,7 @@
   <node id="304391" lat="51.4003448" lon="-0.3046027" version="9" visible="true"/>
   <node id="243776" lat="51.5755474" lon="-0.0297889" version="3" visible="true"/>
   <node id="227790" lat="51.4448429" lon="-0.1114942" version="8" visible="true"/>
-  <node id="224688" lat="51.5026323" lon="-0.2139714" version="12" visible="true"/>
+  <node id="224688" lat="51.5026253" lon="-0.2139849" version="13" visible="true"/>
   <node id="152241" lat="51.5398889" lon="-0.1367522" version="10" visible="true"/>
   <node id="152219" lat="51.5374538" lon="-0.1347672" version="11" visible="true">
     <tag k="tfl_id" v="RWG008417"/>
@@ -4877,12 +4882,13 @@
     <nd ref="6967968853"/>
     <nd ref="6967968855"/>
   </way>
-  <way id="679610485" visible="true" version="9">
+  <way id="679610485" visible="true" version="10">
     <tag k="name" v="Elsham Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="ref:GB:usrn" v="21700635"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:right:oneway" v="-1"/>
@@ -5226,14 +5232,15 @@
     <nd ref="6806740820"/>
     <nd ref="25472330"/>
   </way>
-  <way id="482142225" visible="true" version="5">
+  <way id="482142225" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Lower Addison Gardens"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="left"/>
+    <tag k="ref:GB:usrn" v="21700651;21701350"/>
+    <tag k="sidewalk:left" v="separate"/>
     <tag k="tiger:upload_uuid" v="RWG153006"/>
     <nd ref="4750070072"/>
     <nd ref="7530393606"/>

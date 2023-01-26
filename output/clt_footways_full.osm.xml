@@ -408,7 +408,6 @@
   <node id="6324351758" lat="51.4669225" lon="-0.4219695" version="1" visible="true"/>
   <node id="6304746776" lat="51.4976866" lon="0.0035581" version="2" visible="true"/>
   <node id="6300350723" lat="51.3155587" lon="-0.1398302" version="1" visible="true"/>
-  <node id="6250793169" lat="51.6155265" lon="-0.0866974" version="3" visible="true"/>
   <node id="6185713191" lat="51.6123087" lon="-0.1174271" version="1" visible="true"/>
   <node id="6185713190" lat="51.6123289" lon="-0.1170973" version="1" visible="true"/>
   <node id="6123441635" lat="51.5213288" lon="-0.4513951" version="2" visible="true"/>
@@ -1085,8 +1084,9 @@
     <nd ref="6447398511"/>
     <nd ref="747012170"/>
   </way>
-  <way id="667594136" visible="true" version="2">
+  <way id="667594136" visible="true" version="4">
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
@@ -1097,7 +1097,6 @@
     <nd ref="2026393221"/>
     <nd ref="2026393220"/>
     <nd ref="6715777883"/>
-    <nd ref="6250793169"/>
   </way>
   <way id="244891154" visible="true" version="2">
     <tag k="foot" v="yes"/>
