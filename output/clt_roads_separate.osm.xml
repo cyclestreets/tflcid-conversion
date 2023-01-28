@@ -1,5 +1,14 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10583051124" lat="51.3676736" lon="-0.1245673" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:island" v="yes"/>
+  </node>
+  <node id="10583051122" lat="51.367642" lon="-0.1304182" version="1" visible="true"/>
+  <node id="10583051120" lat="51.3676284" lon="-0.1280971" version="1" visible="true"/>
+  <node id="10583051115" lat="51.3676658" lon="-0.1242289" version="1" visible="true"/>
+  <node id="10583048201" lat="51.3676415" lon="-0.1302882" version="1" visible="true"/>
   <node id="10279075332" lat="51.5111131" lon="-0.0560389" version="1" visible="true">
     <tag k="ref:GB:tflcid" v="RWG064516"/>
     <tag k="traffic_calming" v="hump"/>
@@ -654,15 +663,9 @@
     <tag k="traffic_signals" v="pedestrian_crossing"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
-  <node id="5910780111" lat="51.3676556" lon="-0.1237875" version="4" visible="true"/>
   <node id="5910780089" lat="51.3676618" lon="-0.125788" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
-  </node>
-  <node id="5910779981" lat="51.3676469" lon="-0.1234365" version="4" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="unmarked"/>
-    <tag k="crossing:island" v="yes"/>
   </node>
   <node id="5846883051" lat="51.5027439" lon="-0.1583067" version="3" visible="true"/>
   <node id="5835485252" lat="51.5482366" lon="0.0128022" version="3" visible="true"/>
@@ -1394,11 +1397,10 @@
   <node id="207640121" lat="51.5031329" lon="-0.1541792" version="10" visible="true"/>
   <node id="194614133" lat="51.3676359" lon="-0.1270808" version="5" visible="true"/>
   <node id="194614094" lat="51.3676757" lon="-0.1252368" version="4" visible="true"/>
-  <node id="194613922" lat="51.3676336" lon="-0.1278231" version="5" visible="true"/>
+  <node id="194613922" lat="51.3676306" lon="-0.1278231" version="6" visible="true"/>
   <node id="194613876" lat="51.3676368" lon="-0.1291901" version="5" visible="true"/>
   <node id="185620597" lat="51.5227968" lon="-0.1317987" version="14" visible="true"/>
   <node id="185563937" lat="51.5338424" lon="-0.1308697" version="6" visible="true"/>
-  <node id="181559638" lat="51.3676435" lon="-0.1307643" version="7" visible="true"/>
   <node id="133188753" lat="51.5226697" lon="-0.0410772" version="17" visible="true"/>
   <node id="130237629" lat="51.5482577" lon="0.0129167" version="7" visible="true"/>
   <node id="110247143" lat="51.4821561" lon="-0.1114119" version="6" visible="true"/>
@@ -3002,7 +3004,7 @@
     <nd ref="27477192"/>
     <nd ref="7089999208"/>
   </way>
-  <way id="17530763" visible="true" version="11">
+  <way id="17530763" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A232"/>
     <tag k="name" v="Croydon Road"/>
@@ -3011,17 +3013,19 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="tiger:upload_uuid" v="RWG219778"/>
-    <nd ref="181559638"/>
+    <nd ref="10583051122"/>
+    <nd ref="10583048201"/>
     <nd ref="194613876"/>
     <nd ref="11080900"/>
+    <nd ref="10583051120"/>
     <nd ref="194613922"/>
     <nd ref="194614133"/>
     <nd ref="35537121"/>
     <nd ref="5910780089"/>
     <nd ref="194614094"/>
     <nd ref="11080895"/>
-    <nd ref="5910780111"/>
-    <nd ref="5910779981"/>
+    <nd ref="10583051124"/>
+    <nd ref="10583051115"/>
   </way>
   <way id="649600553" visible="true" version="2">
     <tag k="lit" v="yes"/>
