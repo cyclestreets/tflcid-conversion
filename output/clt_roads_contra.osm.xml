@@ -1,5 +1,17 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10592186885" lat="51.5074211" lon="-0.2081699" version="1" visible="true">
+    <tag k="kerb" v="flush"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="surface" v="paving_stones"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="check_date" v="2017-06-22"/>
+    <tag k="ref:GB:tflcid" v="RWG017597"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="separate"/>
+    <tag k="traffic_calming" v="table"/>
+    <tag k="crossing:markings" v="surface"/>
+  </node>
   <node id="10578822404" lat="51.3942826" lon="-0.1208951" version="1" visible="true"/>
   <node id="10570155154" lat="51.545916" lon="0.0039296" version="1" visible="true"/>
   <node id="10564930130" lat="51.5021648" lon="-0.2150425" version="1" visible="true"/>
@@ -1321,7 +1333,10 @@
     <tag k="direction" v="forward"/>
   </node>
   <node id="8277289616" lat="51.5812694" lon="-0.1157558" version="1" visible="true"/>
-  <node id="8254826207" lat="51.5074152" lon="-0.2081909" version="1" visible="true"/>
+  <node id="8254826207" lat="51.5074152" lon="-0.2081909" version="2" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+  </node>
   <node id="8246738135" lat="51.4765211" lon="-0.1036049" version="1" visible="true"/>
   <node id="8246738131" lat="51.4767182" lon="-0.1032546" version="1" visible="true"/>
   <node id="8244788994" lat="51.4343827" lon="0.0138688" version="1" visible="true">
@@ -13173,7 +13188,7 @@
     <nd ref="139335521"/>
     <nd ref="4916772345"/>
   </way>
-  <way id="758183881" visible="true" version="4">
+  <way id="758183881" visible="true" version="5">
     <tag k="name" v="Ladbroke Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -13185,6 +13200,7 @@
     <tag k="tiger:upload_uuid" v="RWG018137"/>
     <nd ref="7080433353"/>
     <nd ref="7080433358"/>
+    <nd ref="10592186885"/>
     <nd ref="8254826207"/>
   </way>
   <way id="758183879" visible="true" version="3">
@@ -15667,7 +15683,7 @@
     <nd ref="5917230044"/>
     <nd ref="5917230038"/>
   </way>
-  <way id="948327007" visible="true" version="1">
+  <way id="948327007" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Holland Street"/>
     <tag k="oneway" v="yes"/>
@@ -15675,7 +15691,9 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:left" v="shared_lane"/>
     <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:left:lane" v="pictogram"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG082138"/>
     <nd ref="8778040162"/>
@@ -16408,10 +16426,11 @@
     <nd ref="9116928230"/>
     <nd ref="25471792"/>
   </way>
-  <way id="1098706439" visible="true" version="1">
+  <way id="1098706439" visible="true" version="2">
     <tag k="name" v="Carlisle Lane"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG135158"/>
