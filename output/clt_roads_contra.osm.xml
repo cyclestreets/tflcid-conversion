@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10596880850" lat="51.4687181" lon="-0.3708952" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
+  </node>
+  <node id="10596880849" lat="51.468743" lon="-0.3708897" version="1" visible="true"/>
   <node id="10592186885" lat="51.5074211" lon="-0.2081699" version="1" visible="true">
     <tag k="kerb" v="flush"/>
     <tag k="highway" v="crossing"/>
@@ -808,6 +813,10 @@
   <node id="9451513401" lat="51.4527227" lon="-0.2140923" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+  </node>
+  <node id="9448666961" lat="51.5337396" lon="-0.0379017" version="2" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="9437426269" lat="51.4677739" lon="-0.1424246" version="2" visible="true">
     <tag k="highway" v="give_way"/>
@@ -3862,6 +3871,7 @@
     <tag k="traffic_signals:sound" v="yes"/>
     <tag k="traffic_signals:vibration" v="yes"/>
   </node>
+  <node id="246846407" lat="51.5337069" lon="-0.0379646" version="4" visible="true"/>
   <node id="245744440" lat="51.3716627" lon="-0.1036342" version="4" visible="true"/>
   <node id="245744439" lat="51.3716118" lon="-0.10515" version="4" visible="true"/>
   <node id="245735348" lat="51.3759288" lon="-0.1058674" version="3" visible="true"/>
@@ -4233,7 +4243,7 @@
   <node id="31511241" lat="51.5690381" lon="0.1444128" version="6" visible="true"/>
   <node id="31472873" lat="51.5575539" lon="-0.3223979" version="6" visible="true"/>
   <node id="31350992" lat="51.4995662" lon="-0.0908631" version="6" visible="true"/>
-  <node id="31046865" lat="51.4686725" lon="-0.3709073" version="6" visible="true"/>
+  <node id="31046865" lat="51.4686725" lon="-0.3709053" version="7" visible="true"/>
   <node id="31046861" lat="51.4698119" lon="-0.3707542" version="2" visible="true"/>
   <node id="30863438" lat="51.4550546" lon="-0.3127434" version="4" visible="true"/>
   <node id="30759365" lat="51.5501927" lon="-0.3477844" version="7" visible="true"/>
@@ -4299,7 +4309,7 @@
   <node id="26414875" lat="51.5836681" lon="-0.0844907" version="3" visible="true"/>
   <node id="26406635" lat="51.505709" lon="-0.0857813" version="6" visible="true"/>
   <node id="26396545" lat="51.5295984" lon="-0.0813011" version="4" visible="true"/>
-  <node id="26373935" lat="51.5076505" lon="-0.207354" version="6" visible="true"/>
+  <node id="26373935" lat="51.5076484" lon="-0.2073614" version="7" visible="true"/>
   <node id="26373934" lat="51.5080344" lon="-0.206046" version="8" visible="true"/>
   <node id="26345797" lat="51.5507527" lon="-0.1044928" version="4" visible="true"/>
   <node id="26345795" lat="51.5506457" lon="-0.1037929" version="3" visible="true"/>
@@ -9037,7 +9047,7 @@
     <nd ref="7090096564"/>
     <nd ref="7090096563"/>
   </way>
-  <way id="758135367" visible="true" version="2">
+  <way id="758135367" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Clipstone Road"/>
     <tag k="oneway" v="yes"/>
@@ -9047,6 +9057,8 @@
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG233670"/>
     <nd ref="7080020710"/>
+    <nd ref="10596880849"/>
+    <nd ref="10596880850"/>
     <nd ref="31046865"/>
   </way>
   <way id="558891488" visible="true" version="4">
@@ -14292,9 +14304,10 @@
     <nd ref="6053784939"/>
     <nd ref="25475669"/>
   </way>
-  <way id="4258087" visible="true" version="18">
+  <way id="4258087" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Petty France"/>
+    <tag k="width" v="7"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
@@ -14313,9 +14326,10 @@
     <nd ref="9210728218"/>
     <nd ref="12198369"/>
   </way>
-  <way id="4258087" visible="true" version="18">
+  <way id="4258087" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Petty France"/>
+    <tag k="width" v="7"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
@@ -14401,9 +14415,10 @@
     <nd ref="9023329974"/>
     <nd ref="6392533092"/>
   </way>
-  <way id="997519485" visible="true" version="1">
+  <way id="997519485" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Petty France"/>
+    <tag k="width" v="7"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
@@ -14421,9 +14436,10 @@
     <nd ref="9210633864"/>
     <nd ref="9210633863"/>
   </way>
-  <way id="997519485" visible="true" version="1">
+  <way id="997519485" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Petty France"/>
+    <tag k="width" v="7"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
@@ -17220,6 +17236,20 @@
     <nd ref="7294710470"/>
     <nd ref="7108815878"/>
     <nd ref="3183951947"/>
+  </way>
+  <way id="1024688673" visible="true" version="4">
+    <tag k="name" v="Chisenhale Road"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="no"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG073237"/>
+    <nd ref="9448666961"/>
+    <nd ref="246846407"/>
   </way>
   <way id="5034985" visible="true" version="11">
     <tag k="name" v="Swan Street"/>
