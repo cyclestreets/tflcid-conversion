@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10597830222" lat="51.5033456" lon="-0.0920823" version="1" visible="true"/>
+  <node id="10597830221" lat="51.5033113" lon="-0.0919484" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
   <node id="10583051124" lat="51.3676736" lon="-0.1245673" version="1" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
@@ -1317,7 +1322,10 @@
   <node id="388367322" lat="51.454903" lon="0.1526297" version="8" visible="true"/>
   <node id="362474930" lat="51.5225963" lon="-0.1323112" version="6" visible="true"/>
   <node id="354428750" lat="51.5577632" lon="-0.0086319" version="8" visible="true"/>
-  <node id="347412997" lat="51.5033066" lon="-0.0919301" version="2" visible="true"/>
+  <node id="347412997" lat="51.5032941" lon="-0.0918899" version="3" visible="true">
+    <tag k="cycleway" v="asl"/>
+    <tag k="direction" v="forward"/>
+  </node>
   <node id="333731862" lat="51.5223513" lon="-0.1382104" version="7" visible="true"/>
   <node id="333731860" lat="51.5224363" lon="-0.1380141" version="7" visible="true"/>
   <node id="313181117" lat="51.5227919" lon="-0.1371759" version="9" visible="true"/>
@@ -5405,7 +5413,7 @@
     <nd ref="21393713"/>
     <nd ref="1839216409"/>
   </way>
-  <way id="147680889" visible="true" version="27">
+  <way id="147680889" visible="true" version="28">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Union Street"/>
     <tag k="oneway" v="yes"/>
@@ -5415,12 +5423,10 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="wikidata" v="Q2947639"/>
     <tag k="wikipedia" v="en:Union Street, London"/>
-    <tag k="cycleway:left" v="shared"/>
     <tag k="lane_markings" v="no"/>
     <tag k="sidewalk:left" v="yes"/>
     <tag k="cycleway:right" v="separate"/>
     <tag k="sidewalk:right" v="separate"/>
-    <tag k="cycleway:left:lane" v="pictogram"/>
     <tag k="sidewalk:left:surface" v="paving_stones"/>
     <tag k="tiger:upload_uuid" v="RWG082013"/>
     <nd ref="534966128"/>
@@ -5434,6 +5440,43 @@
     <nd ref="9568925919"/>
     <nd ref="4738129849"/>
     <nd ref="9568925922"/>
+    <nd ref="10597830222"/>
+  </way>
+  <way id="1136877988" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Union Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="old_ref" v="B300"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="wikidata" v="Q2947639"/>
+    <tag k="wikipedia" v="en:Union Street, London"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
+    <tag k="tiger:upload_uuid" v="RWG082013"/>
+    <nd ref="10597830222"/>
+    <nd ref="10597830221"/>
+  </way>
+  <way id="1136877987" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Union Street"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="old_ref" v="B300"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="wikidata" v="Q2947639"/>
+    <tag k="wikipedia" v="en:Union Street, London"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="sidewalk:right" v="separate"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
+    <tag k="tiger:upload_uuid" v="RWG082013"/>
+    <nd ref="10597830221"/>
     <nd ref="347412997"/>
     <nd ref="4738129864"/>
     <nd ref="25473407"/>
