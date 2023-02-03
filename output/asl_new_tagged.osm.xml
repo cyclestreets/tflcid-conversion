@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
-  <node id="9051723254" lat="51.4247083" lon="-0.1304468" visible="true" version="1">
+  <node id="9051723254" lat="51.4247083" lon="-0.1304468" visible="true" version="2">
+    <tag k="direction" v="forward"/>
     <tag k="cycleway:left" v="asl"/>
     <tag k="cycleway" v="asl"/>
     <tag k="tiger:upload_uuid" v="RWG102039"/>
@@ -2695,6 +2696,12 @@
     <tag k="traffic_signals:vibration" v="yes"/>
     <tag k="cycleway" v="asl"/>
     <tag k="tiger:upload_uuid" v="RWG065895"/>
+  </node>
+  <node id="10600319228" lat="51.5504045" lon="-0.0751388" visible="true" version="1">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+    <tag k="cycleway" v="asl"/>
+    <tag k="tiger:upload_uuid" v="RWG008708"/>
   </node>
   <node id="8707436464" lat="51.5063926" lon="-0.2342524" visible="true" version="1">
     <tag k="barrier" v="gate"/>
