@@ -1,5 +1,11 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10611984461" lat="51.4780029" lon="-0.2905296" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="pelican"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
+  </node>
   <node id="10597685941" lat="51.4849427" lon="-0.0691705" version="1" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="forward"/>
@@ -9024,7 +9030,7 @@
     <nd ref="-152"/>
     <nd ref="9844473496"/>
   </way>
-  <way id="155320655" visible="true" version="20">
+  <way id="155320655" visible="true" version="21">
     <tag k="cycleway" v="lane"/>
     <tag k="highway" v="primary"/>
     <tag k="lanes" v="2"/>
@@ -9043,6 +9049,7 @@
     <nd ref="1333739497"/>
     <nd ref="295389"/>
     <nd ref="1333739514"/>
+    <nd ref="10611984461"/>
     <nd ref="295398"/>
     <nd ref="710274518"/>
     <nd ref="30439391"/>
