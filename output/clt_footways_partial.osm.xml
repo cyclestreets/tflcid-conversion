@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10615138076" lat="51.5214081" lon="0.0969305" version="1" visible="true"/>
+  <node id="10615138075" lat="51.5214475" lon="0.0969107" version="1" visible="true"/>
+  <node id="10615138072" lat="51.5215269" lon="0.096869" version="1" visible="true"/>
   <node id="10608356742" lat="51.5045098" lon="0.10471" version="1" visible="true"/>
   <node id="10608356741" lat="51.5045111" lon="0.1046621" version="1" visible="true"/>
   <node id="10608356740" lat="51.5045415" lon="0.1044166" version="1" visible="true"/>
@@ -538,6 +541,19 @@
     <nd ref="10587165321"/>
     <nd ref="10587165322"/>
     <nd ref="10587165323"/>
+  </way>
+  <way id="1138790435" visible="true" version="1">
+    <tag k="footway" v="crossing"/>
+    <tag k="highway" v="footway"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG185675"/>
+    <nd ref="10615138072"/>
+    <nd ref="10615138075"/>
+    <nd ref="10615138076"/>
   </way>
   <way id="440254756" visible="true" version="1">
     <tag k="highway" v="footway"/>
