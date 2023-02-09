@@ -345,6 +345,14 @@
     <tag k="ref:GB:tflcid" v="RWG215906"/>
     <tag k="traffic_calming" v="hump"/>
   </node>
+  <node id="10280293817" lat="51.5132895" lon="-0.472792" version="2" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG242282"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
+  <node id="10280289584" lat="51.513475" lon="-0.4729809" version="1" visible="true">
+    <tag k="ref:GB:tflcid" v="RWG243633"/>
+    <tag k="traffic_calming" v="hump"/>
+  </node>
   <node id="10280276644" lat="51.5477688" lon="-0.237951" version="2" visible="true">
     <tag k="ref:GB:tflcid" v="RWG273531"/>
     <tag k="traffic_calming" v="cushion"/>
@@ -2538,6 +2546,7 @@
     <tag k="crossing" v="unmarked"/>
   </node>
   <node id="254584228" lat="51.5185277" lon="-0.4663246" version="2" visible="true"/>
+  <node id="254577539" lat="51.5135824" lon="-0.4730903" version="5" visible="true"/>
   <node id="248951250" lat="51.6034181" lon="0.0182974" version="3" visible="true"/>
   <node id="248951249" lat="51.603476" lon="0.0180146" version="4" visible="true"/>
   <node id="248951248" lat="51.603203" lon="0.0178946" version="4" visible="true"/>
@@ -3830,7 +3839,7 @@
     <tag k="sinusoidal" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG243900"/>
   </node>
-  <node id="-974" lat="51.5813976441987" lon="-0.191045781312354" visible="true">
+  <node id="-975" lat="51.5813976441987" lon="-0.191045781312354" visible="true">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG287343"/>
   </node>
@@ -4116,6 +4125,10 @@
     <tag k="ref:GB:tflcid" v="RWG243302"/>
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG243302"/>
+  </node>
+  <node id="-974" lat="51.5133818946401" lon="-0.472886093380447" visible="true">
+    <tag k="traffic_calming" v="hump"/>
+    <tag k="tiger:upload_uuid" v="RWG242282"/>
   </node>
   <node id="9483764160" lat="51.5978781" lon="-0.0516731" visible="true" version="1">
     <tag k="traffic_calming" v="hump"/>
@@ -9054,9 +9067,10 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG273511"/>
   </node>
-  <node id="10011527840" lat="51.5418419947755" lon="-0.232953699967573" visible="true" version="1">
+  <node id="10011527840" lat="51.5418419947755" lon="-0.232953699967573" visible="true" version="2">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:island" v="yes"/>
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG273506"/>
   </node>
@@ -11544,10 +11558,6 @@
     <tag k="traffic_calming" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG231828"/>
   </node>
-  <node id="8831326759" lat="51.4722706" lon="-0.4023559" visible="true" version="2">
-    <tag k="traffic_calming" v="hump"/>
-    <tag k="tiger:upload_uuid" v="RWG230790"/>
-  </node>
   <node id="7327982992" lat="51.4896867" lon="-0.4313295" visible="true" version="1">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG230001"/>
@@ -12382,9 +12392,10 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG270397"/>
   </node>
-  <node id="10011527845" lat="51.5417333" lon="-0.2324863" visible="true" version="1">
+  <node id="10011527845" lat="51.5417333" lon="-0.2324863" visible="true" version="2">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:island" v="yes"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG272961"/>
   </node>
@@ -12428,9 +12439,10 @@
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG272760"/>
   </node>
-  <node id="10011527845" lat="51.5417332947755" lon="-0.232486299967638" visible="true" version="1">
+  <node id="10011527845" lat="51.5417332947755" lon="-0.232486299967638" visible="true" version="2">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:island" v="yes"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG272960"/>
   </node>
@@ -27293,7 +27305,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG181007"/>
   </node>
-  <node id="94945802" lat="51.4911978" lon="0.1043295" visible="true" version="8">
+  <node id="94945802" lat="51.4911987" lon="0.1043295" visible="true" version="9">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG181931"/>
   </node>
@@ -57064,13 +57076,16 @@
     <nd ref="25580911"/>
     <nd ref="149556983"/>
   </way>
-  <way id="3715900" visible="true" version="23">
+  <way id="3715900" visible="true" version="26">
     <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Chinbrook Road"/>
     <tag k="ref" v="B226"/>
-    <tag k="sidewalk" v="both"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
+    <tag k="sidewalk:right" v="separate"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="13854678"/>
     <nd ref="10593091665"/>
@@ -57097,13 +57112,16 @@
     <nd ref="82743136"/>
     <nd ref="18406542"/>
   </way>
-  <way id="3715900" visible="true" version="23">
+  <way id="3715900" visible="true" version="26">
     <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Chinbrook Road"/>
     <tag k="ref" v="B226"/>
-    <tag k="sidewalk" v="both"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
+    <tag k="sidewalk:right" v="separate"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="13854678"/>
     <nd ref="10593091665"/>
@@ -57130,13 +57148,16 @@
     <nd ref="82743136"/>
     <nd ref="18406542"/>
   </way>
-  <way id="3715900" visible="true" version="23">
+  <way id="3715900" visible="true" version="26">
     <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Chinbrook Road"/>
     <tag k="ref" v="B226"/>
-    <tag k="sidewalk" v="both"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
+    <tag k="sidewalk:right" v="separate"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="13854678"/>
     <nd ref="10593091665"/>
@@ -59577,13 +59598,16 @@
     <nd ref="227194047"/>
     <nd ref="5949779250"/>
   </way>
-  <way id="3715900" visible="true" version="23">
+  <way id="3715900" visible="true" version="26">
     <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Chinbrook Road"/>
     <tag k="ref" v="B226"/>
-    <tag k="sidewalk" v="both"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
+    <tag k="sidewalk:right" v="separate"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="13854678"/>
     <nd ref="10593091665"/>
@@ -59976,13 +60000,16 @@
     <nd ref="8755674570"/>
     <nd ref="25541090"/>
   </way>
-  <way id="3715900" visible="true" version="23">
+  <way id="3715900" visible="true" version="26">
     <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Chinbrook Road"/>
     <tag k="ref" v="B226"/>
-    <tag k="sidewalk" v="both"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
+    <tag k="sidewalk:right" v="separate"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="13854678"/>
     <nd ref="10593091665"/>
@@ -60295,13 +60322,16 @@
     <nd ref="149545053"/>
     <nd ref="149545055"/>
   </way>
-  <way id="3715900" visible="true" version="23">
+  <way id="3715900" visible="true" version="26">
     <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Chinbrook Road"/>
     <tag k="ref" v="B226"/>
-    <tag k="sidewalk" v="both"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
+    <tag k="sidewalk:right" v="separate"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="13854678"/>
     <nd ref="10593091665"/>
@@ -61274,13 +61304,16 @@
     <nd ref="7170120673"/>
     <nd ref="26919606"/>
   </way>
-  <way id="3715900" visible="true" version="23">
+  <way id="3715900" visible="true" version="26">
     <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="name" v="Chinbrook Road"/>
     <tag k="ref" v="B226"/>
-    <tag k="sidewalk" v="both"/>
+    <tag k="sidewalk:left" v="yes"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
+    <tag k="sidewalk:right" v="separate"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="13854678"/>
     <nd ref="10593091665"/>
@@ -64065,11 +64098,23 @@
     <nd ref="2834825093"/>
     <nd ref="2834825094"/>
   </way>
+  <way id="664180053" visible="true" version="4">
+    <tag k="highway" v="tertiary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="name" v="High Street"/>
+    <tag k="source:name" v="OS OpenData StreetView"/>
+    <nd ref="10280293817"/>
+    <nd ref="-974"/>
+    <nd ref="10280289584"/>
+    <nd ref="254577539"/>
+  </way>
   <way id="652220005" visible="true" version="3">
     <tag k="highway" v="service"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="5220734647"/>
-    <nd ref="-974"/>
+    <nd ref="-975"/>
     <nd ref="6115046031"/>
   </way>
 </osm>
