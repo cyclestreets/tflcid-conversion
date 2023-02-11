@@ -225,11 +225,11 @@
     <tag k="ref:GB:tflcid" v="RWG032677"/>
     <tag k="traffic_calming" v="hump"/>
   </node>
-  <node id="10279041520" lat="51.4336885" lon="0.0117094" version="1" visible="true">
+  <node id="10279041520" lat="51.4336693" lon="0.0117004" version="2" visible="true">
     <tag k="ref:GB:tflcid" v="RWG193228"/>
     <tag k="traffic_calming" v="cushion"/>
   </node>
-  <node id="10279035701" lat="51.4339656" lon="0.0124398" version="1" visible="true">
+  <node id="10279035701" lat="51.4339511" lon="0.0124142" version="2" visible="true">
     <tag k="ref:GB:tflcid" v="RWG193227"/>
     <tag k="traffic_calming" v="cushion"/>
   </node>
@@ -2231,10 +2231,10 @@
     <tag k="highway" v="give_way"/>
   </node>
   <node id="5955828413" lat="51.5787628" lon="-0.0267868" version="3" visible="true"/>
-  <node id="5955135266" lat="51.4343943" lon="0.0136949" version="2" visible="true"/>
-  <node id="5955135265" lat="51.4343496" lon="0.0134454" version="2" visible="true"/>
-  <node id="5955018718" lat="51.43439" lon="0.0136138" version="3" visible="true"/>
-  <node id="5955018715" lat="51.4343811" lon="0.0135691" version="3" visible="true"/>
+  <node id="5955135266" lat="51.4343902" lon="0.0137248" version="3" visible="true"/>
+  <node id="5955135265" lat="51.4343475" lon="0.0134468" version="3" visible="true"/>
+  <node id="5955018718" lat="51.4343838" lon="0.0136299" version="4" visible="true"/>
+  <node id="5955018715" lat="51.4343758" lon="0.0135724" version="4" visible="true"/>
   <node id="5937760091" lat="51.4683277" lon="-0.0308869" version="2" visible="true"/>
   <node id="5937760090" lat="51.4680004" lon="-0.0296308" version="2" visible="true"/>
   <node id="5937760088" lat="51.4683438" lon="-0.0309097" version="2" visible="true"/>
@@ -4277,7 +4277,7 @@
   <node id="28829159" lat="51.5825419" lon="-0.0353161" version="6" visible="true"/>
   <node id="28829054" lat="51.5870415" lon="-0.0362473" version="9" visible="true"/>
   <node id="27503953" lat="51.5130391" lon="-0.1666444" version="2" visible="true"/>
-  <node id="27010340" lat="51.4338391" lon="0.0121085" version="1" visible="true"/>
+  <node id="27010340" lat="51.4338397" lon="0.012146" version="2" visible="true"/>
   <node id="26980993" lat="51.6441577" lon="-0.0529097" version="7" visible="true"/>
   <node id="26980849" lat="51.6456382" lon="-0.0523497" version="4" visible="true">
     <tag k="traffic_calming" v="hump"/>
@@ -4496,8 +4496,8 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="no"/>
   </node>
-  <node id="21590855" lat="51.4336124" lon="0.0115076" version="2" visible="true"/>
-  <node id="21590845" lat="51.4343692" lon="0.0135176" version="3" visible="true"/>
+  <node id="21590855" lat="51.4335982" lon="0.0115199" version="3" visible="true"/>
+  <node id="21590845" lat="51.4343677" lon="0.0135342" version="4" visible="true"/>
   <node id="21590844" lat="51.4343814" lon="0.0138896" version="2" visible="true"/>
   <node id="21583260" lat="51.4422846" lon="-0.0510433" version="2" visible="true"/>
   <node id="21583259" lat="51.442093" lon="-0.0512131" version="1" visible="true"/>
@@ -6621,22 +6621,22 @@
     <nd ref="5843761993"/>
     <nd ref="171857390"/>
   </way>
-  <way id="3715951" visible="true" version="16">
+  <way id="3715951" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Reigate Road"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v="lane"/>
+    <tag k="parking:both" v="on_kerb"/>
+    <tag k="cycleway:left" v=""/>
+    <tag k="lane_markings" v="no"/>
     <tag k="sidewalk:left" v="separate"/>
-    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right" v="no"/>
     <tag k="sidewalk:right" v="yes"/>
-    <tag k="parking:lane:both" v="parallel"/>
-    <tag k="cycleway:left:width" v="1.25"/>
-    <tag k="cycleway:right:lane" v="advisory"/>
-    <tag k="sidewalk:right:surface" v="paving_stones"/>
-    <tag k="parking:lane:both:parallel" v="on_kerb"/>
     <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="cycleway:left:width" v="1.25"/>
+    <tag k="sidewalk:right:surface" v="paving_stones"/>
+    <tag k="parking:both:orientation" v="parallel"/>
     <tag k="tiger:upload_uuid" v="RWG198282"/>
     <nd ref="21590855"/>
     <nd ref="10279041520"/>
@@ -10927,7 +10927,7 @@
     <nd ref="7204799403"/>
     <nd ref="4872820894"/>
   </way>
-  <way id="446885216" visible="true" version="17">
+  <way id="446885216" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chatham Place"/>
     <tag k="lanes" v="1"/>
@@ -10935,8 +10935,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:both" v="shared_lane"/>
-    <tag k="cycleway:both:lane" v="pictogram"/>
+    <tag k="cycleway:both" v="shared"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG151597"/>
     <nd ref="33778756"/>
@@ -10950,7 +10949,7 @@
     <nd ref="18064189"/>
     <nd ref="701445795"/>
   </way>
-  <way id="1093296717" visible="true" version="5">
+  <way id="1093296717" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chatham Place"/>
     <tag k="lanes" v="1"/>
@@ -10958,8 +10957,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:both" v="shared_lane"/>
-    <tag k="cycleway:both:lane" v="pictogram"/>
+    <tag k="cycleway:both" v="shared"/>
     <tag k="traffic_intervention" v="school_street"/>
     <tag k="sidewalk:left:surface" v="paving_stones"/>
     <tag k="sidewalk:right:surface" v="asphalt"/>
@@ -10968,7 +10966,7 @@
     <nd ref="701445795"/>
     <nd ref="10012744521"/>
   </way>
-  <way id="953411326" visible="true" version="6">
+  <way id="953411326" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Chatham Place"/>
     <tag k="lanes" v="1"/>
@@ -10976,8 +10974,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
-    <tag k="cycleway:both" v="shared_lane"/>
-    <tag k="cycleway:both:lane" v="pictogram"/>
+    <tag k="cycleway:both" v="shared"/>
     <tag k="traffic_intervention" v="school_street"/>
     <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="cycleway:right" v="lane"/>

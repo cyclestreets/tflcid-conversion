@@ -999,6 +999,7 @@
   <node id="9836363082" lat="51.5493277" lon="-0.2393866" version="2" visible="true"/>
   <node id="9836363089" lat="51.559371" lon="-0.2185296" version="1" visible="true"/>
   <node id="32919908" lat="51.5519134" lon="0.1122512" version="7" visible="true"/>
+  <node id="5336080850" lat="51.5212509" lon="-0.1436731" version="1" visible="true"/>
   <node id="9061353421" lat="51.3933956" lon="-0.0937339" version="1" visible="true"/>
   <node id="3010494086" lat="51.5563374" lon="-0.194543" version="3" visible="true"/>
   <node id="9732938091" lat="51.4785098" lon="-0.1486272" version="1" visible="true"/>
@@ -2913,6 +2914,7 @@
   <node id="242930427" lat="51.5282542" lon="-0.0193164" version="12" visible="true"/>
   <node id="3679077746" lat="51.5313202" lon="0.1492232" version="1" visible="true"/>
   <node id="241784093" lat="51.621536" lon="0.0007215" version="6" visible="true"/>
+  <node id="5336080849" lat="51.5212722" lon="-0.1435319" version="1" visible="true"/>
   <node id="9814329922" lat="51.5351321" lon="0.1481854" version="1" visible="true"/>
   <node id="9803544188" lat="51.5912561" lon="-0.3807743" version="1" visible="true"/>
   <node id="9549708377" lat="51.4339819" lon="0.0370852" version="1" visible="true"/>
@@ -7052,6 +7054,7 @@
   <node id="10597814993" lat="51.5098542" lon="-0.2045202" version="1" visible="true"/>
   <node id="26974219" lat="51.5466476" lon="-0.483017" version="4" visible="true"/>
   <node id="251017035" lat="51.5285158" lon="-0.444083" version="5" visible="true"/>
+  <node id="5336080848" lat="51.5212778" lon="-0.143453" version="2" visible="true"/>
   <node id="10054952827" lat="51.4604358" lon="-0.3313456" version="1" visible="true"/>
   <node id="3227827255" lat="51.5394544" lon="0.0721608" version="1" visible="true"/>
   <node id="3231708916" lat="51.5152036" lon="-0.0717373" version="5" visible="true"/>
@@ -10795,6 +10798,10 @@
   <node id="25495441" lat="51.5180299" lon="-0.1342984" version="10" visible="true">
     <tag k="check_date" v="2022-08-27"/>
     <tag k="traffic_calming" v="table"/>
+  </node>
+  <node id="10628305549" lat="51.5212906" lon="-0.1433487" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="forward"/>
   </node>
   <node id="4638404788" lat="51.5098465" lon="-0.1367526" version="4" visible="true">
     <tag k="bus" v="yes"/>
@@ -48658,6 +48665,28 @@
     <nd ref="25258197"/>
     <nd ref="135765465"/>
   </way>
+  <way id="552718181" visible="true" version="6">
+    <tag k="bus" v="access"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Weymouth Street"/>
+    <tag k="lanes" v="1"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="City of Westminster"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:left:lane" v="exclusive"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
+    <tag k="cycleway" v=""/>
+    <tag k="cycleway:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG066416"/>
+    <nd ref="5336080850"/>
+    <nd ref="5336080849"/>
+    <nd ref="5336080848"/>
+    <nd ref="10628305549"/>
+  </way>
   <way id="970591111" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
@@ -53800,17 +53829,20 @@
     <nd ref="9900821914"/>
     <nd ref="9900821912"/>
   </way>
-  <way id="5904165" visible="true" version="14">
+  <way id="5904165" visible="true" version="15">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Virginia Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="shared_lane"/>
+    <tag k="cycleway:right" v="no"/>
     <tag k="oneway:bicycle" v="no"/>
+    <tag k="cycleway:left:lane" v="pictogram"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG073225"/>
     <nd ref="28800370"/>
     <nd ref="10278367228"/>
@@ -53818,34 +53850,40 @@
     <nd ref="4725902091"/>
     <nd ref="33053484"/>
   </way>
-  <way id="4984246" visible="true" version="18">
+  <way id="4984246" visible="true" version="19">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Virginia Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="shared_lane"/>
+    <tag k="cycleway:right" v="no"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="proposed:highway" v="cycleway"/>
+    <tag k="cycleway:left:lane" v="pictogram"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG073225"/>
     <nd ref="28800370"/>
     <nd ref="659503731"/>
   </way>
-  <way id="797754132" visible="true" version="7">
+  <way id="797754132" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Virginia Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="shared_lane"/>
+    <tag k="cycleway:right" v="no"/>
     <tag k="oneway:bicycle" v="no"/>
     <tag k="proposed:oneway" v="no"/>
+    <tag k="cycleway:left:lane" v="pictogram"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG073225"/>
     <nd ref="659503731"/>
     <nd ref="9199278444"/>

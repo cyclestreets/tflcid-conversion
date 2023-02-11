@@ -2910,10 +2910,12 @@
   </node>
   <node id="36478416" lat="51.5008977" lon="-0.3292924" version="3" visible="true"/>
   <node id="36478411" lat="51.5020338" lon="-0.3305359" version="3" visible="true"/>
-  <node id="36477511" lat="51.5126555" lon="-0.3369181" version="7" visible="true">
+  <node id="36477511" lat="51.5126555" lon="-0.3369181" version="8" visible="true">
+    <tag k="kerb" v="flush"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="36477510" lat="51.5128176" lon="-0.3369446" version="4" visible="true"/>
@@ -3008,8 +3010,9 @@
   <node id="32579154" lat="51.4632603" lon="-0.3662001" version="6" visible="true"/>
   <node id="32579103" lat="51.4624787" lon="-0.366993" version="8" visible="true"/>
   <node id="32552583" lat="51.5139071" lon="-0.337165" version="4" visible="true"/>
-  <node id="32552580" lat="51.5159927" lon="-0.3312758" version="6" visible="true">
+  <node id="32552580" lat="51.5159977" lon="-0.3312651" version="7" visible="true">
     <tag k="highway" v="mini_roundabout"/>
+    <tag k="traffic_calming" v="table"/>
   </node>
   <node id="32551155" lat="51.5188062" lon="-0.3383574" version="5" visible="true"/>
   <node id="32551149" lat="51.5150427" lon="-0.3384738" version="4" visible="true"/>
@@ -5475,10 +5478,6 @@
   <node id="-78" lat="51.4508202629675" lon="0.0605891427496681" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="tiger:upload_uuid" v="RWG199086"/>
-  </node>
-  <node id="10210303610" lat="51.42846" lon="-0.0129791" visible="true" version="1">
-    <tag k="cycleway" v="asl"/>
-    <tag k="tiger:upload_uuid" v="RWG199147"/>
   </node>
   <node id="-77" lat="51.4816027370319" lon="-0.0148278909773316" visible="true">
     <tag k="cycleway" v="asl"/>
