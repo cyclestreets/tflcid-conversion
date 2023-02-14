@@ -441,9 +441,11 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="10154314301" lat="51.4848555" lon="-0.1106751" version="1" visible="true">
+  <node id="10154314301" lat="51.4848555" lon="-0.1106751" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
   </node>
   <node id="10141830590" lat="51.495213" lon="-0.3241244" version="1" visible="true"/>
   <node id="10121899866" lat="51.4685728" lon="-0.1360794" version="1" visible="true">
@@ -1336,8 +1338,10 @@
     <tag k="highway" v="give_way"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="8328990972" lat="51.4348082" lon="-0.1989843" version="2" visible="true">
+  <node id="8328990972" lat="51.4348082" lon="-0.1989843" version="4" visible="true">
     <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="8327979623" lat="51.4264186" lon="-0.1376467" version="4" visible="true">
     <tag k="highway" v="crossing"/>
@@ -3348,11 +3352,7 @@
   <node id="1953676009" lat="51.527949" lon="-0.1275053" version="5" visible="true"/>
   <node id="1949936634" lat="51.3750733" lon="-0.1069748" version="2" visible="true"/>
   <node id="1942727016" lat="51.4823188" lon="0.0013587" version="3" visible="true"/>
-  <node id="1941093567" lat="51.4698642" lon="-0.0061575" version="4" visible="true">
-    <tag k="kerb" v="raised"/>
-    <tag k="barrier" v="kerb"/>
-    <tag k="tactile_paving" v="no"/>
-  </node>
+  <node id="1941093567" lat="51.4698642" lon="-0.0061575" version="5" visible="true"/>
   <node id="1938819282" lat="51.5114494" lon="-0.0964582" version="4" visible="true"/>
   <node id="1938278866" lat="51.362764" lon="-0.1986533" version="2" visible="true"/>
   <node id="1938278863" lat="51.3627974" lon="-0.1975933" version="2" visible="true"/>
@@ -5148,7 +5148,8 @@
     <nd ref="6836096592"/>
     <nd ref="1845926414"/>
   </way>
-  <way id="573348181" visible="true" version="3">
+  <way id="573348181" visible="true" version="4">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Melrose Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
@@ -5162,12 +5163,14 @@
     <nd ref="8328990986"/>
     <nd ref="21411585"/>
   </way>
-  <way id="633797511" visible="true" version="2">
+  <way id="633797511" visible="true" version="4">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Melrose Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk:right" v="separate"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="red"/>
     <tag k="tiger:upload_uuid" v="RWG277979"/>
@@ -5176,12 +5179,14 @@
     <nd ref="9581565287"/>
     <nd ref="5506946745"/>
   </way>
-  <way id="633797511" visible="true" version="2">
+  <way id="633797511" visible="true" version="4">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Melrose Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk:right" v="separate"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="red"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
@@ -5191,12 +5196,14 @@
     <nd ref="9581565287"/>
     <nd ref="5506946745"/>
   </way>
-  <way id="633797511" visible="true" version="2">
+  <way id="633797511" visible="true" version="4">
+    <tag k="lit" v="yes"/>
     <tag k="name" v="Melrose Avenue"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk:right" v="separate"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="red"/>
     <tag k="tiger:upload_uuid" v="RWG277981"/>
@@ -6970,24 +6977,26 @@
     <nd ref="26125364"/>
     <nd ref="2255609239"/>
   </way>
-  <way id="5782797" visible="true" version="12">
+  <way id="5782797" visible="true" version="13">
     <tag k="name" v="Domonic Drive"/>
+    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG198270"/>
-    <nd ref="45213285"/>
     <nd ref="45215795"/>
+    <nd ref="45213285"/>
   </way>
-  <way id="5782797" visible="true" version="12">
+  <way id="5782797" visible="true" version="13">
     <tag k="name" v="Domonic Drive"/>
+    <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG291015"/>
-    <nd ref="45213285"/>
     <nd ref="45215795"/>
+    <nd ref="45213285"/>
   </way>
   <way id="301677420" visible="true" version="3">
     <tag k="lit" v="yes"/>

@@ -1,5 +1,19 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10651427938" lat="51.615551" lon="-0.1614966" version="1" visible="true">
+    <tag k="barrier" v="cycle_barrier"/>
+    <tag k="bicycle" v="no"/>
+    <tag k="material" v="metal"/>
+    <tag k="cycle_barrier" v="triple"/>
+    <tag k="cycle_barrier:installation" v="fixed"/>
+  </node>
+  <node id="10651427937" lat="51.6158673" lon="-0.1615415" version="1" visible="true">
+    <tag k="barrier" v="cycle_barrier"/>
+    <tag k="bicycle" v="no"/>
+    <tag k="material" v="metal"/>
+    <tag k="cycle_barrier" v="triple"/>
+    <tag k="cycle_barrier:installation" v="fixed"/>
+  </node>
   <node id="10647804987" lat="51.5324068" lon="-0.1991349" version="1" visible="true">
     <tag k="tactile_paving" v="yes"/>
   </node>
@@ -2660,16 +2674,18 @@
     <nd ref="9437013394"/>
     <nd ref="21552679"/>
   </way>
-  <way id="188282738" visible="true" version="1">
-    <tag k="highway" v="footway"/>
+  <way id="188282738" visible="true" version="2">
     <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="footway"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
     <tag k="foot" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG279846"/>
     <nd ref="1989023214"/>
+    <nd ref="10651427938"/>
     <nd ref="1989023240"/>
     <nd ref="1989023315"/>
+    <nd ref="10651427937"/>
     <nd ref="1989023175"/>
     <nd ref="1989023272"/>
     <nd ref="56485671"/>
