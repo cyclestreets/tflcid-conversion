@@ -1,8 +1,17 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
-  <node id="10611984461" lat="51.4780029" lon="-0.2905296" version="1" visible="true">
+  <node id="10656685505" lat="51.478042" lon="-0.2905129" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="forward"/>
+  </node>
+  <node id="10656642204" lat="51.4779562" lon="-0.2905494" version="1" visible="true">
+    <tag k="highway" v="traffic_signals"/>
+    <tag k="traffic_signals:direction" v="backward"/>
+  </node>
+  <node id="10611984461" lat="51.4780029" lon="-0.2905296" version="2" visible="true">
     <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="pelican"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="no"/>
   </node>
@@ -8956,7 +8965,7 @@
     <nd ref="-150"/>
     <nd ref="9844473496"/>
   </way>
-  <way id="155320655" visible="true" version="21">
+  <way id="155320655" visible="true" version="22">
     <tag k="cycleway" v="lane"/>
     <tag k="highway" v="primary"/>
     <tag k="lanes" v="2"/>
@@ -8975,7 +8984,9 @@
     <nd ref="1333739497"/>
     <nd ref="295389"/>
     <nd ref="1333739514"/>
+    <nd ref="10656685505"/>
     <nd ref="10611984461"/>
+    <nd ref="10656642204"/>
     <nd ref="295398"/>
     <nd ref="710274518"/>
     <nd ref="30439391"/>
