@@ -2952,7 +2952,7 @@
   <node id="9549708380" lat="51.4342313" lon="0.0376145" version="1" visible="true"/>
   <node id="9643183823" lat="51.5208564" lon="-0.0509839" version="1" visible="true"/>
   <node id="3738719792" lat="51.4696168" lon="-0.1772009" version="1" visible="true"/>
-  <node id="5610161832" lat="51.5219683" lon="-0.1356541" version="5" visible="true"/>
+  <node id="5610161832" lat="51.521975" lon="-0.1356433" version="6" visible="true"/>
   <node id="25894060" lat="51.5862779" lon="0.1975241" version="3" visible="true"/>
   <node id="303990" lat="51.3581324" lon="-0.3113006" version="4" visible="true"/>
   <node id="2090570088" lat="51.6091608" lon="-0.2657732" version="1" visible="true"/>
@@ -3504,7 +3504,7 @@
   <node id="804264417" lat="51.5689959" lon="-0.4393681" version="4" visible="true"/>
   <node id="6327282340" lat="51.4925359" lon="-0.2647551" version="3" visible="true"/>
   <node id="7900307041" lat="51.5188518" lon="0.1897305" version="2" visible="true"/>
-  <node id="2556936809" lat="51.5220934" lon="-0.1357756" version="8" visible="true"/>
+  <node id="2556936809" lat="51.522099" lon="-0.1357612" version="9" visible="true"/>
   <node id="1448692428" lat="51.580578" lon="0.1811274" version="3" visible="true"/>
   <node id="9440999112" lat="51.4437298" lon="-0.1532718" version="1" visible="true"/>
   <node id="9294989263" lat="51.52378" lon="-0.1300018" version="1" visible="true"/>
@@ -3982,7 +3982,6 @@
   <node id="8308606535" lat="51.4067017" lon="-0.1209056" version="1" visible="true"/>
   <node id="9296371239" lat="51.5229169" lon="-0.1314964" version="1" visible="true"/>
   <node id="9445415394" lat="51.3998865" lon="-0.262624" version="2" visible="true"/>
-  <node id="185650679" lat="51.5222405" lon="-0.1359215" version="17" visible="true"/>
   <node id="7600391851" lat="51.387774" lon="-0.25323" version="1" visible="true"/>
   <node id="10213226643" lat="51.6180803" lon="0.0006267" version="1" visible="true"/>
   <node id="2453162765" lat="51.5248705" lon="-0.1274473" version="4" visible="true"/>
@@ -5178,6 +5177,7 @@
   <node id="8504709051" lat="51.4277217" lon="-0.0767178" version="1" visible="true"/>
   <node id="131971562" lat="51.3933372" lon="-0.0937414" version="8" visible="true"/>
   <node id="9705834168" lat="51.3875798" lon="-0.2970945" version="1" visible="true"/>
+  <node id="5683490019" lat="51.5243473" lon="-0.095345" version="4" visible="true"/>
   <node id="33469869" lat="51.5803699" lon="0.1801095" version="4" visible="true"/>
   <node id="333244895" lat="51.6057389" lon="-0.0250268" version="9" visible="true"/>
   <node id="9247385064" lat="51.5246597" lon="-0.4312582" version="1" visible="true"/>
@@ -5232,7 +5232,6 @@
   <node id="7341488970" lat="51.390355" lon="-0.2488567" version="1" visible="true"/>
   <node id="9590982505" lat="51.4637219" lon="-0.2321855" version="1" visible="true"/>
   <node id="3008411846" lat="51.5470697" lon="-0.1796096" version="5" visible="true"/>
-  <node id="108044" lat="51.5214559" lon="-0.1351892" version="17" visible="true"/>
   <node id="6749823764" lat="51.4018374" lon="-0.2691175" version="2" visible="true"/>
   <node id="6676694514" lat="51.4098698" lon="-0.0870085" version="1" visible="true"/>
   <node id="1138026740" lat="51.49303" lon="-0.2082346" version="5" visible="true"/>
@@ -7217,6 +7216,7 @@
   <node id="5732993680" lat="51.5367134" lon="0.1721647" version="1" visible="true"/>
   <node id="177692799" lat="51.5584824" lon="0.1475974" version="11" visible="true"/>
   <node id="8981524062" lat="51.3753584" lon="-0.0944837" version="1" visible="true"/>
+  <node id="10666144381" lat="51.5243742" lon="-0.095232" version="1" visible="true"/>
   <node id="9351729895" lat="51.5189654" lon="0.11108" version="1" visible="true"/>
   <node id="4571940315" lat="51.5197991" lon="-0.0983648" version="1" visible="true"/>
   <node id="9743008393" lat="51.5872045" lon="0.0213662" version="2" visible="true"/>
@@ -10743,11 +10743,11 @@
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
   </node>
-  <node id="7309197114" lat="51.5221368" lon="-0.1358141" version="4" visible="true">
+  <node id="7309197114" lat="51.5221424" lon="-0.1357997" version="5" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="direction" v="forward"/>
   </node>
-  <node id="6319249284" lat="51.522119" lon="-0.1357996" version="11" visible="true">
+  <node id="6319249284" lat="51.5221246" lon="-0.1357852" version="12" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
@@ -10758,24 +10758,6 @@
     <tag k="tactile_paving" v="yes"/>
     <tag k="button_operated" v="yes"/>
     <tag k="traffic_signals:sound" v="no"/>
-  </node>
-  <node id="6384542423" lat="51.5215231" lon="-0.1352454" version="10" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
-    <tag k="tactile_paving" v="yes"/>
-    <tag k="button_operated" v="yes"/>
-    <tag k="crossing:island" v="no"/>
-    <tag k="traffic_signals:sound" v="no"/>
-    <tag k="traffic_signals:vibration" v="yes"/>
-  </node>
-  <node id="6384542421" lat="51.5216003" lon="-0.1353119" version="6" visible="true">
-    <tag k="highway" v="traffic_signals"/>
-    <tag k="traffic_signals:direction" v="backward"/>
-  </node>
-  <node id="8474252668" lat="51.5215599" lon="-0.1352775" version="2" visible="true">
-    <tag k="cycleway" v="asl"/>
-    <tag k="direction" v="backward"/>
   </node>
   <node id="8474252664" lat="51.5249839" lon="-0.1376263" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -41405,113 +41387,6 @@
     <nd ref="435697"/>
     <nd ref="54073742"/>
   </way>
-  <way id="381411919" visible="true" version="23">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Tottenham Court Road"/>
-    <tag k="highway" v="primary"/>
-    <tag k="name:ja" v="&#x30C8;&#x30C3;&#x30C6;&#x30CA;&#x30E0;&#x30FB;&#x30B3;&#x30FC;&#x30C8;&#x30FB;&#x30ED;&#x30FC;&#x30C9;"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="both"/>
-    <tag k="wikipedia" v="en:Tottenham Court Road"/>
-    <tag k="bus:backward" v="yes"/>
-    <tag k="official_ref" v="A400"/>
-    <tag k="emergency:backward" v="yes"/>
-    <tag k="motor_vehicle:backward:conditional" v="no @ (Mo-Sa 08:00-19:00)"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:left:surface:colour" v="green"/>
-    <tag k="cycleway:left:lane" v="exclusive"/>
-    <tag k="fixme:cycleway:left:conditional" v="mon-fri 8.30-10.30am 4.30-6.30pm"/>
-    <tag k="tiger:upload_uuid" v="RWG066071"/>
-    <nd ref="108044"/>
-    <nd ref="6384542423"/>
-    <nd ref="8474252668"/>
-    <nd ref="6384542421"/>
-  </way>
-  <way id="587317657" visible="true" version="20">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Tottenham Court Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="wikipedia" v="en:Tottenham Court Road"/>
-    <tag k="bus:backward" v="yes"/>
-    <tag k="official_ref" v="A400"/>
-    <tag k="cycleway:left" v=""/>
-    <tag k="emergency:backward" v="yes"/>
-    <tag k="motor_vehicle:backward:conditional" v="no @ (Mo-Sa 08:00-19:00)"/>
-    <tag k="cycleway:left:surface:colour" v="green"/>
-    <tag k="cycleway:left:lane" v="exclusive"/>
-    <tag k="fixme:cycleway:left:conditional" v="mon-fri 8.30-10.30am 4.30-6.30pm"/>
-    <tag k="tiger:upload_uuid" v="RWG066071,RWG066846"/>
-    <nd ref="5610161832"/>
-    <nd ref="2556936809"/>
-  </way>
-  <way id="678745739" visible="true" version="13">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Tottenham Court Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="wikipedia" v="en:Tottenham Court Road"/>
-    <tag k="bus:backward" v="yes"/>
-    <tag k="official_ref" v="A400"/>
-    <tag k="cycleway:left" v=""/>
-    <tag k="emergency:backward" v="yes"/>
-    <tag k="motor_vehicle:backward:conditional" v="no @ (Mo-Sa 08:00-19:00)"/>
-    <tag k="cycleway:left:surface:colour" v="green"/>
-    <tag k="cycleway:left:lane" v="exclusive"/>
-    <tag k="fixme:cycleway:left:conditional" v="mon-fri 8.30-10.30am 4.30-6.30pm"/>
-    <tag k="tiger:upload_uuid" v="RWG066071,RWG066846"/>
-    <nd ref="2556936809"/>
-    <nd ref="6319249284"/>
-  </way>
-  <way id="913020667" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Tottenham Court Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="wikipedia" v="en:Tottenham Court Road"/>
-    <tag k="bus:backward" v="yes"/>
-    <tag k="official_ref" v="A400"/>
-    <tag k="emergency:backward" v="yes"/>
-    <tag k="motor_vehicle:backward:conditional" v="no @ (Mo-Sa 08:00-19:00)"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway:left:surface:colour" v="green"/>
-    <tag k="cycleway:left:lane" v="exclusive"/>
-    <tag k="fixme:cycleway:left:conditional" v="mon-fri 8.30-10.30am 4.30-6.30pm"/>
-    <tag k="tiger:upload_uuid" v="RWG066071,RWG066846"/>
-    <nd ref="6319249284"/>
-    <nd ref="7309197114"/>
-  </way>
-  <way id="996665163" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Tottenham Court Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="highway" v="primary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="wikipedia" v="en:Tottenham Court Road"/>
-    <tag k="bus:backward" v="yes"/>
-    <tag k="official_ref" v="A400"/>
-    <tag k="cycleway:left" v=""/>
-    <tag k="emergency:backward" v="yes"/>
-    <tag k="motor_vehicle:backward:conditional" v="no @ (Mo-Sa 08:00-19:00)"/>
-    <tag k="cycleway:left:surface:colour" v="green"/>
-    <tag k="cycleway:left:lane" v="exclusive"/>
-    <tag k="fixme:cycleway:left:conditional" v="mon-fri 8.30-10.30am 4.30-6.30pm"/>
-    <tag k="tiger:upload_uuid" v="RWG066071,RWG066846"/>
-    <nd ref="7309197114"/>
-    <nd ref="185650679"/>
-  </way>
   <way id="303559641" visible="true" version="8">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Maple Street"/>
@@ -43612,6 +43487,66 @@
     <tag k="tiger:upload_uuid" v="RWG153095,RWG153083"/>
     <nd ref="4034060015"/>
     <nd ref="419632906"/>
+  </way>
+  <way id="587317657" visible="true" version="20">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Tottenham Court Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="wikipedia" v="en:Tottenham Court Road"/>
+    <tag k="bus:backward" v="yes"/>
+    <tag k="official_ref" v="A400"/>
+    <tag k="cycleway:left" v=""/>
+    <tag k="emergency:backward" v="yes"/>
+    <tag k="motor_vehicle:backward:conditional" v="no @ (Mo-Sa 08:00-19:00)"/>
+    <tag k="cycleway:left:surface:colour" v="green"/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG066846"/>
+    <nd ref="5610161832"/>
+    <nd ref="2556936809"/>
+  </way>
+  <way id="913020667" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Tottenham Court Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="wikipedia" v="en:Tottenham Court Road"/>
+    <tag k="bus:backward" v="yes"/>
+    <tag k="official_ref" v="A400"/>
+    <tag k="emergency:backward" v="yes"/>
+    <tag k="motor_vehicle:backward:conditional" v="no @ (Mo-Sa 08:00-19:00)"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:left:surface:colour" v="green"/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG066846"/>
+    <nd ref="6319249284"/>
+    <nd ref="7309197114"/>
+  </way>
+  <way id="678745739" visible="true" version="13">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Tottenham Court Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="wikipedia" v="en:Tottenham Court Road"/>
+    <tag k="bus:backward" v="yes"/>
+    <tag k="official_ref" v="A400"/>
+    <tag k="cycleway:left" v=""/>
+    <tag k="emergency:backward" v="yes"/>
+    <tag k="motor_vehicle:backward:conditional" v="no @ (Mo-Sa 08:00-19:00)"/>
+    <tag k="cycleway:left:surface:colour" v="green"/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG066846"/>
+    <nd ref="2556936809"/>
+    <nd ref="6319249284"/>
   </way>
   <way id="49776814" visible="true" version="21">
     <tag k="lit" v="yes"/>
@@ -47649,6 +47584,25 @@
     <nd ref="6053784961"/>
     <nd ref="9707965985"/>
     <nd ref="26814988"/>
+  </way>
+  <way id="1146156714" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A5201"/>
+    <tag k="name" v="Old Street"/>
+    <tag k="toll" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="abutters" v="commercial"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:left" v="share_busway"/>
+    <tag k="cycleway:right" v=""/>
+    <tag k="cycleway:left:surface:colour" v="red"/>
+    <tag k="fixme:cycleway:left:conditional" v="mon-fri 7-10am 4-7pm sat 8am-1.30pm"/>
+    <tag k="cycleway:right:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG066181,RWG066183"/>
+    <nd ref="10666144381"/>
+    <nd ref="5683490019"/>
   </way>
   <way id="610336733" visible="true" version="5">
     <tag k="lit" v="yes"/>
