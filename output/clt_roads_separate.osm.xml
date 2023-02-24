@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10687174838" lat="51.5109536" lon="-0.0538675" version="1" visible="true"/>
   <node id="10597830222" lat="51.5033456" lon="-0.0920823" version="1" visible="true"/>
   <node id="10597830221" lat="51.5033113" lon="-0.0919484" version="1" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -334,9 +335,12 @@
     <tag k="crossing_ref" v="zebra"/>
     <tag k="crossing:island" v="no"/>
   </node>
-  <node id="8923042478" lat="51.4055729" lon="-0.3082319" version="1" visible="true">
+  <node id="8923042478" lat="51.4055596" lon="-0.3082239" version="2" visible="true">
     <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="marked"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="zebra"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="traffic_calming" v="table"/>
   </node>
   <node id="8905849756" lat="51.5764833" lon="-0.0298589" version="2" visible="true">
     <tag k="highway" v="traffic_signals"/>
@@ -788,11 +792,11 @@
     <tag k="crossing:island" v="no"/>
   </node>
   <node id="4888691689" lat="51.5396459" lon="-0.1762858" version="3" visible="true"/>
-  <node id="4812109003" lat="51.4055468" lon="-0.3082273" version="5" visible="true">
+  <node id="4812109003" lat="51.405533" lon="-0.3082162" version="6" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
-    <tag k="crossing_ref" v="tiger"/>
+    <tag k="crossing_ref" v="parallel"/>
   </node>
   <node id="4797454173" lat="51.5036633" lon="-0.09341" version="3" visible="true">
     <tag k="ref:GB:tflcid" v="RWG078828"/>
@@ -1449,7 +1453,7 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="35702026" lat="51.5109305" lon="-0.0537989" version="13" visible="true"/>
+  <node id="35702026" lat="51.5109368" lon="-0.0537929" version="14" visible="true"/>
   <node id="35702021" lat="51.5110936" lon="-0.0547315" version="9" visible="true"/>
   <node id="35702016" lat="51.5111255" lon="-0.056508" version="10" visible="true"/>
   <node id="35537121" lat="51.3676498" lon="-0.1262605" version="8" visible="true"/>
@@ -4480,7 +4484,7 @@
     <nd ref="6384542416"/>
     <nd ref="6384542424"/>
   </way>
-  <way id="5148716" visible="true" version="25">
+  <way id="5148716" visible="true" version="26">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4497,6 +4501,7 @@
     <nd ref="9197395382"/>
     <nd ref="9197395380"/>
     <nd ref="35702026"/>
+    <nd ref="10687174838"/>
     <nd ref="9197395379"/>
     <nd ref="107439"/>
     <nd ref="2414232078"/>
@@ -4727,7 +4732,7 @@
     <nd ref="9197395385"/>
     <nd ref="18041883"/>
   </way>
-  <way id="5148716" visible="true" version="25">
+  <way id="5148716" visible="true" version="26">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4744,6 +4749,7 @@
     <nd ref="9197395382"/>
     <nd ref="9197395380"/>
     <nd ref="35702026"/>
+    <nd ref="10687174838"/>
     <nd ref="9197395379"/>
     <nd ref="107439"/>
     <nd ref="2414232078"/>
@@ -4778,7 +4784,7 @@
     <nd ref="9413022977"/>
     <nd ref="33044927"/>
   </way>
-  <way id="5148716" visible="true" version="25">
+  <way id="5148716" visible="true" version="26">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4795,6 +4801,7 @@
     <nd ref="9197395382"/>
     <nd ref="9197395380"/>
     <nd ref="35702026"/>
+    <nd ref="10687174838"/>
     <nd ref="9197395379"/>
     <nd ref="107439"/>
     <nd ref="2414232078"/>
@@ -4951,7 +4958,7 @@
     <nd ref="584514537"/>
     <nd ref="1149458661"/>
   </way>
-  <way id="5148716" visible="true" version="25">
+  <way id="5148716" visible="true" version="26">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -4968,6 +4975,7 @@
     <nd ref="9197395382"/>
     <nd ref="9197395380"/>
     <nd ref="35702026"/>
+    <nd ref="10687174838"/>
     <nd ref="9197395379"/>
     <nd ref="107439"/>
     <nd ref="2414232078"/>
@@ -5152,7 +5160,7 @@
     <nd ref="7686428596"/>
     <nd ref="424613"/>
   </way>
-  <way id="5148716" visible="true" version="25">
+  <way id="5148716" visible="true" version="26">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="B126"/>
     <tag k="name" v="Cable Street"/>
@@ -5169,6 +5177,7 @@
     <nd ref="9197395382"/>
     <nd ref="9197395380"/>
     <nd ref="35702026"/>
+    <nd ref="10687174838"/>
     <nd ref="9197395379"/>
     <nd ref="107439"/>
     <nd ref="2414232078"/>
