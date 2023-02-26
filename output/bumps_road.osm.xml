@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10692211392" lat="51.6034405" lon="0.0165224" version="1" visible="true"/>
   <node id="10673933084" lat="51.432791" lon="0.0546328" version="1" visible="true"/>
   <node id="10673933050" lat="51.4321312" lon="0.0547015" version="1" visible="true"/>
   <node id="10673933049" lat="51.4318038" lon="0.0549428" version="1" visible="true"/>
@@ -2531,8 +2532,8 @@
   <node id="248951250" lat="51.6034181" lon="0.0182974" version="3" visible="true"/>
   <node id="248951249" lat="51.603476" lon="0.0180146" version="4" visible="true"/>
   <node id="248951248" lat="51.603203" lon="0.0178946" version="4" visible="true"/>
-  <node id="248951246" lat="51.6034646" lon="0.0164404" version="4" visible="true"/>
-  <node id="248951245" lat="51.6034186" lon="0.0166809" version="3" visible="true"/>
+  <node id="248951246" lat="51.6034646" lon="0.0164384" version="5" visible="true"/>
+  <node id="248951245" lat="51.6034136" lon="0.0166889" version="4" visible="true"/>
   <node id="248950401" lat="51.6132569" lon="0.0261525" version="4" visible="true"/>
   <node id="248949380" lat="51.6190312" lon="0.025312" version="3" visible="true"/>
   <node id="248948556" lat="51.6222533" lon="0.0230333" version="3" visible="true"/>
@@ -23128,7 +23129,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG166991"/>
   </node>
-  <node id="-644" lat="51.6033705750544" lon="0.0169512225100087" visible="true">
+  <node id="-644" lat="51.6033678626792" lon="0.0169507194978845" visible="true">
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG166426"/>
   </node>
@@ -57607,11 +57608,12 @@
     <nd ref="729594359"/>
     <nd ref="221312640"/>
   </way>
-  <way id="20616166" visible="true" version="9">
+  <way id="20616166" visible="true" version="10">
     <tag k="highway" v="residential"/>
     <tag k="name" v="Bunces Lane"/>
     <tag k="oneway" v="yes"/>
     <nd ref="248951246"/>
+    <nd ref="10692211392"/>
     <nd ref="248951245"/>
     <nd ref="-644"/>
     <nd ref="248951248"/>
