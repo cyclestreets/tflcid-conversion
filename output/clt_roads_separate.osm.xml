@@ -292,6 +292,8 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="9170849310" lat="51.5907292" lon="0.2095108" version="1" visible="true"/>
+  <node id="9168768762" lat="51.575375" lon="0.1838495" version="1" visible="true"/>
+  <node id="9168768758" lat="51.5754321" lon="0.1840076" version="1" visible="true"/>
   <node id="9068783987" lat="51.5111037" lon="-0.055752" version="3" visible="true"/>
   <node id="9068746510" lat="51.5111215" lon="-0.0563003" version="2" visible="true">
     <tag k="highway" v="crossing"/>
@@ -351,6 +353,7 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="8891192327" lat="51.5022709" lon="-0.1650941" version="1" visible="true"/>
+  <node id="8814546860" lat="51.4910559" lon="0.0814347" version="4" visible="true"/>
   <node id="8757831602" lat="51.4808041" lon="-0.0285165" version="2" visible="true"/>
   <node id="8757831600" lat="51.4807756" lon="-0.0287953" version="1" visible="true"/>
   <node id="8757831598" lat="51.4806959" lon="-0.0295926" version="2" visible="true"/>
@@ -520,6 +523,7 @@
   <node id="6953312052" lat="51.5212442" lon="0.1718158" version="1" visible="true"/>
   <node id="6925827740" lat="51.4781301" lon="-0.1267136" version="1" visible="true"/>
   <node id="6839226246" lat="51.5757967" lon="-0.0298105" version="1" visible="true"/>
+  <node id="6824203621" lat="51.575466" lon="0.1840939" version="2" visible="true"/>
   <node id="6806740820" lat="51.5048074" lon="-0.1030409" version="1" visible="true"/>
   <node id="6806740812" lat="51.5050956" lon="-0.1031097" version="1" visible="true"/>
   <node id="6773426886" lat="51.5419436" lon="-0.1385033" version="1" visible="true"/>
@@ -1860,6 +1864,22 @@
     <nd ref="7231547845"/>
     <nd ref="3678939554"/>
   </way>
+  <way id="992372498" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="psv" v="designated"/>
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="Eastern Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="motor_vehicle" v="destination"/>
+    <tag k="tiger:upload_uuid" v="RWG123024"/>
+    <nd ref="6824203621"/>
+    <nd ref="9168768758"/>
+    <nd ref="9168768762"/>
+  </way>
   <way id="1098571908" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A307"/>
@@ -2718,6 +2738,22 @@
     <tag k="tiger:upload_uuid" v="RWG244323"/>
     <nd ref="4741045584"/>
     <nd ref="9426706674"/>
+  </way>
+  <way id="1022112689" visible="true" version="3">
+    <tag k="bus" v="designated"/>
+    <tag k="lit" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="name" v="Plumstead Road"/>
+    <tag k="lanes" v="1"/>
+    <tag k="access" v="no"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="primary_link"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="cycleway:left" v="separate"/>
+    <tag k="tiger:upload_uuid" v="RWG244323"/>
+    <nd ref="9426706674"/>
+    <nd ref="8814546860"/>
   </way>
   <way id="925780848" visible="true" version="6">
     <tag k="lit" v="yes"/>
