@@ -3619,7 +3619,7 @@
   <node id="2284524884" lat="51.5067101" lon="-0.2908599" version="2" visible="true"/>
   <node id="1751778168" lat="51.3757093" lon="-0.0911203" version="2" visible="true"/>
   <node id="1416377741" lat="51.5883254" lon="-0.0205354" version="5" visible="true"/>
-  <node id="9763171896" lat="51.5213974" lon="0.1162004" version="1" visible="true"/>
+  <node id="9763171896" lat="51.5215231" lon="0.1162345" version="2" visible="true"/>
   <node id="8762945336" lat="51.602664" lon="-0.016515" version="1" visible="true"/>
   <node id="6849010071" lat="51.4856306" lon="-0.1042898" version="1" visible="true"/>
   <node id="444870398" lat="51.5352129" lon="-0.4615985" version="8" visible="true"/>
@@ -3899,6 +3899,7 @@
   <node id="7090742459" lat="51.4529416" lon="-0.3405528" version="1" visible="true"/>
   <node id="849946900" lat="51.49147" lon="-0.1257146" version="8" visible="true"/>
   <node id="700974682" lat="51.4452562" lon="-0.1050732" version="4" visible="true"/>
+  <node id="10698236740" lat="51.5208977" lon="0.1160669" version="1" visible="true"/>
   <node id="108195" lat="51.4827223" lon="-0.1116466" version="18" visible="true"/>
   <node id="4062569203" lat="51.570896" lon="-0.1386605" version="1" visible="true"/>
   <node id="4896445158" lat="51.4204975" lon="-0.1612372" version="3" visible="true"/>
@@ -4395,7 +4396,7 @@
   <node id="9820136848" lat="51.5750912" lon="0.1128948" version="1" visible="true"/>
   <node id="5460883204" lat="51.6272283" lon="-0.0452229" version="4" visible="true"/>
   <node id="25534754" lat="51.5333514" lon="-0.2037961" version="4" visible="true"/>
-  <node id="9763171904" lat="51.5204397" lon="0.1159285" version="3" visible="true"/>
+  <node id="9763171904" lat="51.5204337" lon="0.1159261" version="4" visible="true"/>
   <node id="9549983213" lat="51.433878" lon="0.0368515" version="1" visible="true"/>
   <node id="428594678" lat="51.5754876" lon="-0.3832192" version="3" visible="true"/>
   <node id="8474047817" lat="51.5582191" lon="-0.0059837" version="2" visible="true"/>
@@ -7396,7 +7397,7 @@
   <node id="7527824874" lat="51.6088523" lon="-0.0014339" version="1" visible="true"/>
   <node id="8084647568" lat="51.6359543" lon="-0.0875031" version="1" visible="true"/>
   <node id="9801367259" lat="51.56292" lon="-0.3688516" version="1" visible="true"/>
-  <node id="31507636" lat="51.537409" lon="0.169555" version="2" visible="true"/>
+  <node id="31507636" lat="51.5373937" lon="0.1696254" version="3" visible="true"/>
   <node id="249693767" lat="51.601167" lon="-0.0150331" version="3" visible="true"/>
   <node id="1701876713" lat="51.5937524" lon="0.143144" version="3" visible="true"/>
   <node id="4369865488" lat="51.5262018" lon="0.1272828" version="3" visible="true"/>
@@ -8211,7 +8212,13 @@
     <tag k="crossing:island" v="no"/>
     <tag k="traffic_calming" v="table"/>
   </node>
-  <node id="9900017803" lat="51.5203915" lon="0.1159088" version="1" visible="true">
+  <node id="9664866335" lat="51.5213796" lon="0.1161989" version="2" visible="true">
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
+  <node id="9664866336" lat="51.5210082" lon="0.1160992" version="1" visible="true">
+    <tag k="traffic_calming" v="cushion"/>
+  </node>
+  <node id="9900017803" lat="51.5203526" lon="0.1158968" version="2" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="marked"/>
@@ -12779,13 +12786,15 @@
     <tag k="crossing" v="unmarked"/>
     <tag k="crossing:island" v="yes"/>
   </node>
-  <node id="7005414147" lat="51.4594192" lon="-0.2174976" version="1" visible="true">
+  <node id="7005414147" lat="51.4594192" lon="-0.2174976" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
-  <node id="7005414146" lat="51.4594257" lon="-0.2175788" version="1" visible="true">
+  <node id="7005414146" lat="51.4594257" lon="-0.2175788" version="2" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
   </node>
   <node id="8392333575" lat="51.4173091" lon="-0.2157267" version="1" visible="true">
     <tag k="highway" v="crossing"/>
@@ -23955,6 +23964,25 @@
     <nd ref="6934761756"/>
     <nd ref="6934752547"/>
     <nd ref="2660518311"/>
+  </way>
+  <way id="1051723756" visible="true" version="7">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Renwick Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="postal_code" v="IG11 0XF"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v=""/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="cycleway:right:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG184566,RWG184568"/>
+    <nd ref="10698236740"/>
+    <nd ref="9664866336"/>
+    <nd ref="9664866335"/>
+    <nd ref="9763171896"/>
   </way>
   <way id="1062767314" visible="true" version="1">
     <tag k="lit" v="yes"/>

@@ -66,15 +66,6 @@
   <node id="9766529084" lat="51.4353155" lon="0.0232874" version="1" visible="true">
     <tag k="traffic_calming" v="choker"/>
   </node>
-  <node id="9763171904" lat="51.5204397" lon="0.1159285" version="3" visible="true"/>
-  <node id="9763171896" lat="51.5213974" lon="0.1162004" version="1" visible="true"/>
-  <node id="9664866337" lat="51.5206797" lon="0.1160031" version="2" visible="true"/>
-  <node id="9664866336" lat="51.5210082" lon="0.1160992" version="1" visible="true">
-    <tag k="traffic_calming" v="cushion"/>
-  </node>
-  <node id="9664866335" lat="51.5213796" lon="0.1161989" version="2" visible="true">
-    <tag k="traffic_calming" v="cushion"/>
-  </node>
   <node id="8861733656" lat="51.5249459" lon="0.1104119" version="2" visible="true">
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="crossing"/>
@@ -385,10 +376,6 @@
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG184098"/>
   </node>
-  <node id="-1282" lat="51.5206094931739" lon="0.11598127898586" visible="true">
-    <tag k="traffic_calming" v="choker"/>
-    <tag k="tiger:upload_uuid" v="RWG184095"/>
-  </node>
   <node id="23087805" lat="51.3809956" lon="-0.219621" visible="true" version="2">
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG133359"/>
@@ -437,7 +424,7 @@
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG122506"/>
   </node>
-  <node id="-1281" lat="51.5105732546943" lon="0.175827503448025" visible="true">
+  <node id="-1282" lat="51.5105732546943" lon="0.175827503448025" visible="true">
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG122514"/>
   </node>
@@ -445,7 +432,7 @@
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG199632"/>
   </node>
-  <node id="-1280" lat="51.4771774448146" lon="-0.121042213288856" visible="true">
+  <node id="-1281" lat="51.4771774448146" lon="-0.121042213288856" visible="true">
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG055532"/>
   </node>
@@ -489,7 +476,7 @@
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG102591"/>
   </node>
-  <node id="-1279" lat="51.5114070621781" lon="-0.23859531953615" visible="true">
+  <node id="-1280" lat="51.5114070621781" lon="-0.23859531953615" visible="true">
     <tag k="traffic_calming" v="choker"/>
     <tag k="tiger:upload_uuid" v="RWG017586"/>
   </node>
@@ -505,7 +492,7 @@
     <nd ref="276091893"/>
     <nd ref="3063729423"/>
     <nd ref="8565600809"/>
-    <nd ref="-1279"/>
+    <nd ref="-1280"/>
     <nd ref="8565642123"/>
     <nd ref="8565600815"/>
     <nd ref="276091894"/>
@@ -525,7 +512,7 @@
     <tag k="name" v="Aldebert Terrace"/>
     <tag k="surface" v="asphalt"/>
     <nd ref="5826266474"/>
-    <nd ref="-1280"/>
+    <nd ref="-1281"/>
     <nd ref="7713402279"/>
     <nd ref="10234472092"/>
     <nd ref="10234472101"/>
@@ -558,30 +545,12 @@
     <nd ref="9767296447"/>
     <nd ref="191076640"/>
     <nd ref="191076642"/>
-    <nd ref="-1281"/>
+    <nd ref="-1282"/>
     <nd ref="10282597699"/>
     <nd ref="191076644"/>
     <nd ref="191076645"/>
     <nd ref="9767296446"/>
     <nd ref="1912908523"/>
-  </way>
-  <way id="1051723756" visible="true" version="6">
-    <tag k="cycleway:left" v="separate"/>
-    <tag k="cycleway:right" v="no"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="lit" v="yes"/>
-    <tag k="maxspeed" v="20 mph"/>
-    <tag k="name" v="Renwick Road"/>
-    <tag k="postal_code" v="IG11 0XF"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="surface" v="asphalt"/>
-    <nd ref="9763171904"/>
-    <nd ref="-1282"/>
-    <nd ref="9664866337"/>
-    <nd ref="9664866336"/>
-    <nd ref="9664866335"/>
-    <nd ref="9763171896"/>
   </way>
   <way id="4263417" visible="true" version="19">
     <tag k="highway" v="tertiary"/>
