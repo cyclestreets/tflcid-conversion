@@ -14027,19 +14027,17 @@
     <nd ref="1761380805"/>
     <nd ref="9822919130"/>
   </way>
-  <way id="59207650" visible="true" version="21">
+  <way id="59207650" visible="true" version="22">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Soho Street"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="residential"/>
     <tag k="name:ja" v="&#x30BD;&#x30FC;&#x30DB;&#x30FC;&#x30FB;&#x30B9;&#x30C8;&#x30EA;&#x30FC;&#x30C8;"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="opposite"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="motorcar" v="yes"/>
     <tag k="sidewalk" v="both"/>
     <tag k="maxspeed:type" v="GB:zone20"/>
-    <tag k="oneway:bicycle" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG066163"/>
@@ -15436,7 +15434,7 @@
     <nd ref="6414252449"/>
     <nd ref="254339538"/>
   </way>
-  <way id="4791835" visible="true" version="19">
+  <way id="4791835" visible="true" version="20">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Hydethorpe Road"/>
     <tag k="lanes" v="1"/>
@@ -15446,7 +15444,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="traffic_intervention" v="school_street"/>
-    <tag k="motor_vehicle:conditional" v="permit @ (Mo-Fri 07:45-09:15; 14:15-15:45; SH off)"/>
+    <tag k="motor_vehicle:conditional" v="permit @ (Mo-Fr 07:45-09:15,14:15-15:45; SH off)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="advisory"/>
@@ -15457,7 +15455,7 @@
     <nd ref="7330431715"/>
     <nd ref="4960127935"/>
   </way>
-  <way id="4791835" visible="true" version="19">
+  <way id="4791835" visible="true" version="20">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Hydethorpe Road"/>
     <tag k="lanes" v="1"/>
@@ -15467,7 +15465,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="traffic_intervention" v="school_street"/>
-    <tag k="motor_vehicle:conditional" v="permit @ (Mo-Fri 07:45-09:15; 14:15-15:45; SH off)"/>
+    <tag k="motor_vehicle:conditional" v="permit @ (Mo-Fr 07:45-09:15,14:15-15:45; SH off)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="tiger:upload_uuid" v="RWG199470"/>
@@ -15477,7 +15475,7 @@
     <nd ref="7330431715"/>
     <nd ref="4960127935"/>
   </way>
-  <way id="784655978" visible="true" version="6">
+  <way id="784655978" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Hydethorpe Road"/>
     <tag k="lanes" v="1"/>
@@ -15486,7 +15484,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="traffic_intervention" v="school_street"/>
-    <tag k="motor_vehicle:conditional" v="permit @ (Mo-Fri 07:45-09:15; 14:15-15:45; SH off)"/>
+    <tag k="motor_vehicle:conditional" v="permit @ (Mo-Fr 07:45-09:15,14:15-15:45; SH off)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="advisory"/>
@@ -15497,7 +15495,7 @@
     <nd ref="7330431707"/>
     <nd ref="30737899"/>
   </way>
-  <way id="784655978" visible="true" version="6">
+  <way id="784655978" visible="true" version="7">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Hydethorpe Road"/>
     <tag k="lanes" v="1"/>
@@ -15506,7 +15504,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="traffic_intervention" v="school_street"/>
-    <tag k="motor_vehicle:conditional" v="permit @ (Mo-Fri 07:45-09:15; 14:15-15:45; SH off)"/>
+    <tag k="motor_vehicle:conditional" v="permit @ (Mo-Fr 07:45-09:15,14:15-15:45; SH off)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="tiger:upload_uuid" v="RWG199469"/>
@@ -16818,14 +16816,14 @@
     <nd ref="9456821073"/>
     <nd ref="25231554"/>
   </way>
-  <way id="3678340" visible="true" version="11">
+  <way id="3678340" visible="true" version="12">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Ponsonby Road"/>
     <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
-    <tag k="motor_vehicle:conditional" v="no @ (Mo-Fri 08:30-09:30,14:45-15:45)"/>
+    <tag k="motor_vehicle:conditional" v="no @ (Mo-Fr 08:30-09:30,14:45-15:45)"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG154113"/>
     <nd ref="18239800"/>
