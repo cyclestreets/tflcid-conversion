@@ -1563,7 +1563,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG184503"/>
   </node>
-  <node id="8014835397" lat="51.5083294947763" lon="0.0748746999895774" visible="true" version="6">
+  <node id="9363789501" lat="51.5083983947763" lon="0.0748789999895768" visible="true" version="4">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
@@ -1575,7 +1575,7 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG184501"/>
   </node>
-  <node id="9363789501" lat="51.5083983947763" lon="0.0748789999895768" visible="true" version="4">
+  <node id="8014835397" lat="51.5083294947763" lon="0.0748746999895774" visible="true" version="6">
     <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
@@ -1888,13 +1888,13 @@
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG123527"/>
   </node>
-  <node id="-8368" lat="51.3992525234348" lon="-0.243919987516801" visible="true">
+  <node id="-8368" lat="51.3990330195605" lon="-0.243630100088106" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="bicycle" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG123525"/>
   </node>
-  <node id="-8367" lat="51.3990330195605" lon="-0.243630100088106" visible="true">
+  <node id="-8367" lat="51.3992525234348" lon="-0.243919987516801" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="bicycle" v="yes"/>
@@ -2329,6 +2329,26 @@
     <nd ref="25743682"/>
     <nd ref="3214393784"/>
   </way>
+  <way id="689603864" visible="true" version="6">
+    <tag k="highway" v="trunk_link"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="postal_code" v="KT3"/>
+    <tag k="ref" v="A3"/>
+    <tag k="sidewalk" v="separate"/>
+    <tag k="source:ref" v="local knowledge"/>
+    <tag k="surface" v="asphalt"/>
+    <nd ref="1454296777"/>
+    <nd ref="1454296775"/>
+    <nd ref="1454296758"/>
+    <nd ref="-8367"/>
+    <nd ref="1454296769"/>
+    <nd ref="1454296776"/>
+    <nd ref="21389901"/>
+  </way>
   <way id="132150636" visible="true" version="11">
     <tag k="highway" v="trunk_link"/>
     <tag k="lanes" v="1"/>
@@ -2345,30 +2365,10 @@
     <tag k="surface" v="asphalt"/>
     <nd ref="3798427031"/>
     <nd ref="1798018158"/>
-    <nd ref="-8367"/>
+    <nd ref="-8368"/>
     <nd ref="6483082946"/>
     <nd ref="3798427033"/>
     <nd ref="248553299"/>
-  </way>
-  <way id="689603864" visible="true" version="6">
-    <tag k="highway" v="trunk_link"/>
-    <tag k="lanes" v="2"/>
-    <tag k="lit" v="yes"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="operator" v="Transport for London"/>
-    <tag k="postal_code" v="KT3"/>
-    <tag k="ref" v="A3"/>
-    <tag k="sidewalk" v="separate"/>
-    <tag k="source:ref" v="local knowledge"/>
-    <tag k="surface" v="asphalt"/>
-    <nd ref="1454296777"/>
-    <nd ref="1454296775"/>
-    <nd ref="1454296758"/>
-    <nd ref="-8368"/>
-    <nd ref="1454296769"/>
-    <nd ref="1454296776"/>
-    <nd ref="21389901"/>
   </way>
   <way id="37570580" visible="true" version="9">
     <tag k="highway" v="primary"/>
