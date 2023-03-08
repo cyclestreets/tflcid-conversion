@@ -1532,7 +1532,6 @@
   <node id="1759040749" lat="51.525704" lon="-0.1049427" version="4" visible="true"/>
   <node id="8025357547" lat="51.4347996" lon="-0.2586943" version="2" visible="true"/>
   <node id="25422235" lat="51.5963574" lon="-0.3572362" version="5" visible="true"/>
-  <node id="399040437" lat="51.4738771" lon="-0.0682928" version="8" visible="true"/>
   <node id="249693773" lat="51.6007723" lon="-0.0142616" version="4" visible="true"/>
   <node id="9844628526" lat="51.4493685" lon="-0.3802985" version="1" visible="true"/>
   <node id="9845400970" lat="51.5454063" lon="-0.0003891" version="1" visible="true"/>
@@ -1825,6 +1824,7 @@
   <node id="2143377754" lat="51.5214627" lon="-0.0102358" version="6" visible="true"/>
   <node id="1601416114" lat="51.3864934" lon="-0.1650033" version="3" visible="true"/>
   <node id="8067144147" lat="51.5232744" lon="0.1795456" version="2" visible="true"/>
+  <node id="10717797866" lat="51.4739374" lon="-0.0676651" version="1" visible="true"/>
   <node id="25477335" lat="51.517842" lon="-0.0800943" version="6" visible="true"/>
   <node id="25895249" lat="51.5698037" lon="0.1436982" version="2" visible="true"/>
   <node id="6266037850" lat="51.5239564" lon="0.1764713" version="2" visible="true"/>
@@ -2762,6 +2762,7 @@
   <node id="191083545" lat="51.5174878" lon="0.1910584" version="4" visible="true"/>
   <node id="5055364612" lat="51.5119994" lon="-0.1035487" version="3" visible="true"/>
   <node id="10587732916" lat="51.5709694" lon="0.0153155" version="1" visible="true"/>
+  <node id="10717797864" lat="51.473803" lon="-0.0686079" version="1" visible="true"/>
   <node id="240003816" lat="51.4158832" lon="-0.2523776" version="6" visible="true"/>
   <node id="2969227848" lat="51.4740315" lon="-0.1582997" version="4" visible="true"/>
   <node id="29463374" lat="51.5601288" lon="-0.283868" version="11" visible="true"/>
@@ -3128,7 +3129,7 @@
   <node id="3503217138" lat="51.5272408" lon="-0.2157595" version="2" visible="true"/>
   <node id="220882" lat="51.5742498" lon="-0.0863829" version="5" visible="true"/>
   <node id="9658505666" lat="51.4649998" lon="-0.01729" version="1" visible="true"/>
-  <node id="149525899" lat="51.5763437" lon="0.0533569" version="10" visible="true"/>
+  <node id="149525899" lat="51.5763438" lon="0.0533587" version="11" visible="true"/>
   <node id="25879233" lat="51.4520787" lon="0.0690451" version="13" visible="true"/>
   <node id="8067144168" lat="51.5236857" lon="0.1777046" version="2" visible="true"/>
   <node id="3214393588" lat="51.5800057" lon="0.1410312" version="1" visible="true"/>
@@ -3204,7 +3205,6 @@
   <node id="198242" lat="51.5295028" lon="-0.0748768" version="11" visible="true"/>
   <node id="183485075" lat="51.5624147" lon="0.089652" version="4" visible="true"/>
   <node id="641481586" lat="51.5222315" lon="-0.0101283" version="5" visible="true"/>
-  <node id="1936671454" lat="51.4739345" lon="-0.0677456" version="3" visible="true"/>
   <node id="5040168489" lat="51.5174711" lon="-0.0922264" version="3" visible="true"/>
   <node id="32921262" lat="51.5386976" lon="0.0719478" version="2" visible="true"/>
   <node id="7007180440" lat="51.4607948" lon="-0.4291272" version="1" visible="true"/>
@@ -5982,6 +5982,7 @@
   <node id="6327282339" lat="51.4925162" lon="-0.2643246" version="3" visible="true"/>
   <node id="9410427186" lat="51.4661999" lon="-0.0900723" version="1" visible="true"/>
   <node id="9426706689" lat="51.4904305" lon="0.084418" version="1" visible="true"/>
+  <node id="10717797867" lat="51.4739108" lon="-0.0670834" version="1" visible="true"/>
   <node id="2573438622" lat="51.5135291" lon="-0.3921867" version="3" visible="true"/>
   <node id="292668" lat="51.4124646" lon="-0.2894193" version="9" visible="true"/>
   <node id="9194536813" lat="51.4265078" lon="-0.1311352" version="1" visible="true"/>
@@ -7335,7 +7336,6 @@
   <node id="2385312692" lat="51.5612145" lon="0.0005115" version="4" visible="true"/>
   <node id="7714983232" lat="51.5404902" lon="-0.0090875" version="2" visible="true"/>
   <node id="1448496942" lat="51.5348552" lon="0.1787518" version="1" visible="true"/>
-  <node id="1549493661" lat="51.473922" lon="-0.0679191" version="5" visible="true"/>
   <node id="32920160" lat="51.5483837" lon="0.1270377" version="3" visible="true"/>
   <node id="249319243" lat="51.5116397" lon="-0.0611277" version="6" visible="true"/>
   <node id="129994355" lat="51.5373378" lon="0.0060805" version="10" visible="true"/>
@@ -11616,14 +11616,9 @@
     <tag k="crossing" v="unmarked"/>
     <tag k="crossing:island" v="no"/>
   </node>
-  <node id="3019966154" lat="51.4739221" lon="-0.0672694" version="4" visible="true">
+  <node id="3019966154" lat="51.473924" lon="-0.0672785" version="5" visible="true">
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
-  </node>
-  <node id="1936671435" lat="51.4738165" lon="-0.0685188" version="2" visible="true">
-    <tag k="highway" v="crossing"/>
-    <tag k="crossing" v="traffic_signals"/>
-    <tag k="crossing_ref" v="pelican"/>
   </node>
   <node id="662838369" lat="51.4649119" lon="-0.0659445" version="8" visible="true">
     <tag k="traffic_calming" v="table"/>
@@ -59577,24 +59572,22 @@
     <nd ref="13823698"/>
     <nd ref="13823699"/>
   </way>
-  <way id="78686301" visible="true" version="8">
+  <way id="1152266273" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A202"/>
     <tag k="name" v="Peckham High Street"/>
     <tag k="lanes" v="2"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway" v=""/>
     <tag k="cycleway:surface:colour" v="green"/>
     <tag k="cycleway:lane" v="advisory"/>
-    <tag k="tiger:upload_uuid" v="RWG107508,RWG107509,RWG107510"/>
+    <tag k="tiger:upload_uuid" v="RWG107508,RWG107509"/>
     <nd ref="303201374"/>
-    <nd ref="3019966154"/>
-    <nd ref="317490351"/>
+    <nd ref="10717797867"/>
   </way>
   <way id="940235768" visible="true" version="3">
     <tag k="lit" v="yes"/>
@@ -60401,7 +60394,24 @@
     <nd ref="5881061471"/>
     <nd ref="5881061472"/>
   </way>
-  <way id="51979124" visible="true" version="11">
+  <way id="1152266272" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A202"/>
+    <tag k="name" v="Peckham High Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:surface:colour" v="green"/>
+    <tag k="cycleway:lane" v="exclusive"/>
+    <tag k="tiger:upload_uuid" v="RWG107509,RWG107510"/>
+    <nd ref="3019966154"/>
+    <nd ref="317490351"/>
+  </way>
+  <way id="78686301" visible="true" version="9">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A202"/>
     <tag k="name" v="Peckham High Street"/>
@@ -60414,13 +60424,28 @@
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:surface:colour" v="green"/>
+    <tag k="cycleway:lane" v="exclusive"/>
+    <tag k="tiger:upload_uuid" v="RWG107509"/>
+    <nd ref="10717797867"/>
+    <nd ref="3019966154"/>
+  </way>
+  <way id="1152266271" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A202"/>
+    <tag k="name" v="Peckham High Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="trunk"/>
+    <tag k="cycleway" v="lane"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="operator" v="Transport for London"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:surface:colour" v="green"/>
     <tag k="cycleway:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG107510,RWG107513"/>
     <nd ref="317490351"/>
     <nd ref="669204563"/>
-    <nd ref="1936671454"/>
-    <nd ref="1549493661"/>
-    <nd ref="399040437"/>
+    <nd ref="10717797866"/>
   </way>
   <way id="1093028232" visible="true" version="1">
     <tag k="bus" v="yes"/>
@@ -60472,7 +60497,7 @@
     <nd ref="7887305752"/>
     <nd ref="3623416486"/>
   </way>
-  <way id="298071603" visible="true" version="2">
+  <way id="298071603" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A202"/>
     <tag k="name" v="Peckham High Street"/>
@@ -60483,12 +60508,12 @@
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
     <tag k="turn:lanes" v="through|merge_to_left"/>
-    <tag k="cycleway:left" v="lane"/>
-    <tag k="cycleway" v=""/>
+    <tag k="cycleway:left" v="track"/>
+    <tag k="cycleway" v="lane"/>
     <tag k="cycleway:surface:colour" v="green"/>
     <tag k="cycleway:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG107514"/>
-    <nd ref="1936671435"/>
+    <nd ref="10717797864"/>
     <nd ref="662838374"/>
     <nd ref="25423777"/>
   </way>
