@@ -71,6 +71,7 @@
   <node id="2581179427" lat="51.5095512" lon="-0.3554431" version="5" visible="true"/>
   <node id="9701544111" lat="51.4682535" lon="-0.1125275" version="1" visible="true"/>
   <node id="6802262392" lat="51.5205263" lon="-0.0526358" version="1" visible="true"/>
+  <node id="10723690271" lat="51.4612211" lon="-0.3934321" version="1" visible="true"/>
   <node id="299519" lat="51.4940817" lon="-0.2239237" version="7" visible="true"/>
   <node id="3369519548" lat="51.5376346" lon="-0.0096387" version="4" visible="true"/>
   <node id="201060" lat="51.5906517" lon="-0.1405001" version="12" visible="true"/>
@@ -5842,7 +5843,6 @@
   <node id="1145233939" lat="51.5261322" lon="-0.1019672" version="1" visible="true"/>
   <node id="1956811098" lat="51.4601235" lon="-0.1404756" version="6" visible="true"/>
   <node id="135544502" lat="51.5091277" lon="0.0149773" version="6" visible="true"/>
-  <node id="270420494" lat="51.4774247" lon="-0.0322946" version="4" visible="true"/>
   <node id="8915067744" lat="51.437221" lon="-0.3312179" version="1" visible="true"/>
   <node id="6243322396" lat="51.5767161" lon="-0.0111889" version="3" visible="true"/>
   <node id="254309230" lat="51.5520982" lon="-0.1179449" version="4" visible="true"/>
@@ -6749,6 +6749,7 @@
   <node id="8346131030" lat="51.5494654" lon="-0.0084918" version="1" visible="true"/>
   <node id="2660518315" lat="51.523158" lon="0.1019592" version="2" visible="true"/>
   <node id="4983981332" lat="51.5162175" lon="-0.2347197" version="4" visible="true"/>
+  <node id="33381476" lat="51.4613223" lon="-0.393133" version="2" visible="true"/>
   <node id="3678939311" lat="51.3940176" lon="-0.2035533" version="1" visible="true"/>
   <node id="7391598330" lat="51.5057171" lon="-0.2129924" version="1" visible="true"/>
   <node id="961587768" lat="51.5257892" lon="-0.0318049" version="8" visible="true"/>
@@ -7002,6 +7003,7 @@
   <node id="2378971475" lat="51.5520936" lon="-0.3115803" version="3" visible="true"/>
   <node id="291739920" lat="51.370918" lon="-0.0984005" version="3" visible="true"/>
   <node id="9641769533" lat="51.5289278" lon="-0.0167803" version="1" visible="true"/>
+  <node id="10723690269" lat="51.4614364" lon="-0.3928019" version="1" visible="true"/>
   <node id="8728691953" lat="51.5004463" lon="-0.2351246" version="3" visible="true"/>
   <node id="9072295506" lat="51.5360872" lon="-0.0046387" version="1" visible="true"/>
   <node id="9363924829" lat="51.5154694" lon="0.0605573" version="1" visible="true"/>
@@ -7735,6 +7737,7 @@
   <node id="8536530840" lat="51.4750904" lon="-0.1519082" version="2" visible="true"/>
   <node id="8279054423" lat="51.5893565" lon="-0.0760985" version="1" visible="true"/>
   <node id="8211509650" lat="51.4157735" lon="-0.2518755" version="1" visible="true"/>
+  <node id="10721897540" lat="51.4776005" lon="-0.032325" version="1" visible="true"/>
   <node id="1637999399" lat="51.4918994" lon="-0.4329356" version="4" visible="true"/>
   <node id="9215107185" lat="51.5909726" lon="0.1419825" version="1" visible="true"/>
   <node id="3891574558" lat="51.4565901" lon="0.0098606" version="3" visible="true"/>
@@ -11483,6 +11486,15 @@
     <tag k="crossing" v="unmarked"/>
     <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="no"/>
+  </node>
+  <node id="10721897537" lat="51.4774873" lon="-0.0323055" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:markings" v="no"/>
+  </node>
+  <node id="10721897539" lat="51.4774123" lon="-0.032292" version="1" visible="true">
+    <tag k="highway" v="give_way"/>
+    <tag k="direction" v="backward"/>
   </node>
   <node id="3137468066" lat="51.474447" lon="-0.0231876" version="4" visible="true">
     <tag k="bus" v="yes"/>
@@ -30112,7 +30124,7 @@
     <nd ref="2481551495"/>
     <nd ref="2481551377"/>
   </way>
-  <way id="238266143" visible="true" version="3">
+  <way id="238266143" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Amersham Vale"/>
     <tag k="highway" v="residential"/>
@@ -30121,8 +30133,19 @@
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:left:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG198076"/>
-    <nd ref="270420494"/>
+    <nd ref="10721897539"/>
+    <nd ref="10721897537"/>
     <nd ref="98219603"/>
+  </way>
+  <way id="1152740797" visible="true" version="1">
+    <tag k="name" v="Amersham Vale"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="cycleway:left" v=""/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG198076"/>
+    <nd ref="98219603"/>
+    <nd ref="10721897540"/>
   </way>
   <way id="80261812" visible="true" version="6">
     <tag k="lit" v="yes"/>
@@ -36136,6 +36159,22 @@
     <nd ref="8915067733"/>
     <nd ref="297738"/>
     <nd ref="8915067734"/>
+  </way>
+  <way id="1152959518" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="ref" v="A315"/>
+    <tag k="lanes" v="2"/>
+    <tag k="bicycle" v="designated"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="segregated" v="yes"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:left:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG234206,RWG234207,RWG234205"/>
+    <nd ref="10723690271"/>
+    <nd ref="33381476"/>
+    <nd ref="10723690269"/>
   </way>
   <way id="1005335385" visible="true" version="1">
     <tag k="lit" v="yes"/>
