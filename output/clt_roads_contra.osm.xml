@@ -3022,9 +3022,10 @@
     <tag k="traffic_calming" v="cushion"/>
   </node>
   <node id="3145798533" lat="51.5131364" lon="-0.0817772" version="4" visible="true"/>
-  <node id="3134732784" lat="51.4894091" lon="0.0855426" version="2" visible="true">
+  <node id="3134732784" lat="51.4894091" lon="0.0855426" version="3" visible="true">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="crossing:markings" v="no"/>
   </node>
   <node id="3134593812" lat="51.4894546" lon="0.0855654" version="2" visible="true"/>
   <node id="3134593808" lat="51.4893845" lon="0.0855327" version="3" visible="true"/>
@@ -7328,10 +7329,11 @@
     <nd ref="7236136515"/>
     <nd ref="5191379455"/>
   </way>
-  <way id="758006970" visible="true" version="1">
+  <way id="758006970" visible="true" version="2">
     <tag k="name" v="Pemdevon Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
@@ -7340,10 +7342,11 @@
     <nd ref="7078929510"/>
     <nd ref="21390706"/>
   </way>
-  <way id="758006970" visible="true" version="1">
+  <way id="758006970" visible="true" version="2">
     <tag k="name" v="Pemdevon Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="residential"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
     <tag k="cycleway:right" v="lane"/>
