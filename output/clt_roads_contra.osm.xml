@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10731907094" lat="51.5269056" lon="-0.1265314" version="1" visible="true">
+    <tag k="traffic_calming" v="table"/>
+  </node>
   <node id="10706724776" lat="51.4298748" lon="0.0657716" version="1" visible="true"/>
   <node id="10706724773" lat="51.4297855" lon="0.0655574" version="1" visible="true"/>
   <node id="10706724771" lat="51.4297108" lon="0.0653809" version="1" visible="true"/>
@@ -1378,7 +1381,10 @@
   <node id="8240081706" lat="51.5497952" lon="-0.064379" version="2" visible="true"/>
   <node id="8229638205" lat="51.4639508" lon="-0.0368157" version="1" visible="true"/>
   <node id="8229638201" lat="51.4640758" lon="-0.0369856" version="1" visible="true"/>
-  <node id="8224346801" lat="51.5263405" lon="-0.1260214" version="1" visible="true"/>
+  <node id="8224346801" lat="51.5264327" lon="-0.1261038" version="2" visible="true">
+    <tag k="direction" v="both"/>
+    <tag k="traffic_calming" v="choker"/>
+  </node>
   <node id="8224346800" lat="51.5261849" lon="-0.1258747" version="1" visible="true"/>
   <node id="8223138983" lat="51.5666304" lon="-0.1228788" version="1" visible="true"/>
   <node id="8179696245" lat="51.4054548" lon="-0.1641196" version="3" visible="true"/>
@@ -3114,7 +3120,8 @@
   <node id="2990806410" lat="51.516939" lon="-0.0939778" version="3" visible="true"/>
   <node id="2990780039" lat="51.516765" lon="-0.094077" version="1" visible="true"/>
   <node id="2990780037" lat="51.5167226" lon="-0.0939243" version="2" visible="true"/>
-  <node id="2963402599" lat="51.528329" lon="-0.1278332" version="6" visible="true">
+  <node id="2963402599" lat="51.528329" lon="-0.1278332" version="7" visible="true">
+    <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="traffic_signals"/>
     <tag k="crossing_ref" v="pelican"/>
@@ -3426,7 +3433,9 @@
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
   <node id="1954678370" lat="51.5308028" lon="-0.1018241" version="5" visible="true"/>
-  <node id="1953676009" lat="51.527949" lon="-0.1275053" version="5" visible="true"/>
+  <node id="1953676009" lat="51.5279594" lon="-0.1274953" version="6" visible="true">
+    <tag k="traffic_calming" v="table"/>
+  </node>
   <node id="1949936634" lat="51.3750733" lon="-0.1069748" version="2" visible="true"/>
   <node id="1942727016" lat="51.4823188" lon="0.0013587" version="3" visible="true"/>
   <node id="1941093567" lat="51.4698642" lon="-0.0061575" version="5" visible="true"/>
@@ -11033,22 +11042,36 @@
     <nd ref="2449187621"/>
     <nd ref="4858754163"/>
   </way>
-  <way id="260459333" visible="true" version="3">
+  <way id="1153936002" visible="true" version="1">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Cliff Road"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="abutters" v="residential"/>
-    <tag k="cycleway" v="lane"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="left"/>
-    <tag k="cycleway:right" v=""/>
+    <tag k="cycleway:right" v="lane"/>
+    <tag k="cycleway:right:surface:colour" v="green"/>
+    <tag k="cycleway:right:lane" v="advisory"/>
+    <tag k="tiger:upload_uuid" v="RWG003422"/>
+    <nd ref="2449183897"/>
+    <nd ref="2659436220"/>
+  </way>
+  <way id="260459333" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Cliff Road"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="abutters" v="residential"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="advisory"/>
     <tag k="tiger:upload_uuid" v="RWG003422"/>
     <nd ref="2659436232"/>
     <nd ref="2449183897"/>
-    <nd ref="2659436220"/>
   </way>
   <way id="2644766" visible="true" version="30">
     <tag k="lit" v="yes"/>
@@ -12583,7 +12606,7 @@
     <nd ref="4136137529"/>
     <nd ref="25475664"/>
   </way>
-  <way id="17513379" visible="true" version="15">
+  <way id="17513379" visible="true" version="16">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Cartwright Gardens"/>
     <tag k="lanes" v="2"/>
@@ -12599,6 +12622,7 @@
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG108345"/>
     <nd ref="107981"/>
+    <nd ref="10731907094"/>
     <nd ref="8224346801"/>
   </way>
   <way id="4253996" visible="true" version="18">
@@ -15965,7 +15989,7 @@
     <nd ref="7076670132"/>
     <nd ref="7076670128"/>
   </way>
-  <way id="19545035" visible="true" version="38">
+  <way id="19545035" visible="true" version="39">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Tooley Street"/>
@@ -15977,6 +16001,7 @@
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
     <tag k="segregated" v="yes"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:separation" v="light"/>
     <tag k="tiger:upload_uuid" v="RWG082151"/>
@@ -16001,7 +16026,7 @@
     <nd ref="4087644121"/>
     <nd ref="8385470980"/>
   </way>
-  <way id="19545035" visible="true" version="38">
+  <way id="19545035" visible="true" version="39">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Tooley Street"/>
@@ -16013,6 +16038,7 @@
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
     <tag k="segregated" v="yes"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway:right" v=""/>
     <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:surface:colour" v="red"/>
@@ -17400,7 +17426,7 @@
     <nd ref="7243856290"/>
     <nd ref="282879057"/>
   </way>
-  <way id="171784230" visible="true" version="21">
+  <way id="171784230" visible="true" version="22">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Tooley Street"/>
@@ -17410,6 +17436,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway:both" v="no"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:right:separation" v="light"/>
@@ -17569,7 +17596,7 @@
     <nd ref="18066101"/>
     <nd ref="6946652580"/>
   </way>
-  <way id="902848238" visible="true" version="1">
+  <way id="902848238" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Duke Street Hill"/>
@@ -17579,6 +17606,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:right:separation" v="light"/>
     <tag k="cycleway:right:surface:colour" v="red"/>
@@ -17587,7 +17615,7 @@
     <nd ref="108846"/>
     <nd ref="292176009"/>
   </way>
-  <way id="902848239" visible="true" version="2">
+  <way id="902848239" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Duke Street Hill"/>
@@ -17597,6 +17625,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:right:separation" v="light"/>
@@ -17606,7 +17635,7 @@
     <nd ref="4779511331"/>
     <nd ref="3240062614"/>
   </way>
-  <way id="317711958" visible="true" version="17">
+  <way id="317711958" visible="true" version="18">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Duke Street Hill"/>
@@ -17617,6 +17646,7 @@
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
     <tag k="maxheight" v="default"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway:both" v="no"/>
     <tag k="cycleway:right" v="track"/>
     <tag k="cycleway:right:separation" v="light"/>
@@ -17626,7 +17656,7 @@
     <nd ref="8593935201"/>
     <nd ref="8385470979"/>
   </way>
-  <way id="317711946" visible="true" version="12">
+  <way id="317711946" visible="true" version="13">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Duke Street Hill"/>
@@ -17636,6 +17666,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="sidewalk:both:surface" v="paving_stones"/>
     <tag k="cycleway:right" v="track"/>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10731626488" lat="51.5117956" lon="-0.4569617" version="1" visible="true"/>
   <node id="10724196028" lat="51.5490471" lon="-0.3301027" version="1" visible="true">
     <tag k="kerb" v="lowered"/>
     <tag k="barrier" v="kerb"/>
@@ -304,9 +305,9 @@
   <node id="8590087346" lat="51.5421301" lon="-0.3252723" version="2" visible="true"/>
   <node id="8515017538" lat="51.51417" lon="-0.2427106" version="1" visible="true"/>
   <node id="8450409255" lat="51.5117755" lon="-0.4580345" version="1" visible="true"/>
-  <node id="8445179411" lat="51.5117959" lon="-0.4573688" version="1" visible="true"/>
-  <node id="8445179410" lat="51.511801" lon="-0.4570741" version="1" visible="true"/>
-  <node id="8445179409" lat="51.511801" lon="-0.4572034" version="1" visible="true"/>
+  <node id="8445179411" lat="51.5117941" lon="-0.4573451" version="2" visible="true"/>
+  <node id="8445179410" lat="51.5117508" lon="-0.4566331" version="2" visible="true"/>
+  <node id="8445179409" lat="51.5117975" lon="-0.4571768" version="2" visible="true"/>
   <node id="8445179407" lat="51.5117592" lon="-0.4581511" version="1" visible="true"/>
   <node id="8445179406" lat="51.5117112" lon="-0.458263" version="1" visible="true"/>
   <node id="8445179405" lat="51.5113799" lon="-0.4587381" version="1" visible="true"/>
@@ -2161,8 +2162,9 @@
     <nd ref="6123441634"/>
     <nd ref="6123441635"/>
   </way>
-  <way id="909564345" visible="true" version="3">
-    <tag k="name" v="London Loop"/>
+  <way id="909564345" visible="true" version="4">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Horton Road"/>
     <tag k="footway" v="sidewalk"/>
     <tag k="highway" v="footway"/>
     <tag k="surface" v="asphalt"/>
@@ -2178,6 +2180,7 @@
     <nd ref="8450409255"/>
     <nd ref="8445179411"/>
     <nd ref="8445179409"/>
+    <nd ref="10731626488"/>
     <nd ref="8445179410"/>
   </way>
   <way id="22936240" visible="true" version="13">

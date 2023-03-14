@@ -3963,7 +3963,6 @@
   <node id="13823627" lat="51.4947428" lon="-0.0862209" version="5" visible="true"/>
   <node id="333769537" lat="51.5540893" lon="-0.1140198" version="6" visible="true"/>
   <node id="60677390" lat="51.4740068" lon="-0.0476068" version="11" visible="true"/>
-  <node id="820319" lat="51.5226168" lon="-0.1376073" version="10" visible="true"/>
   <node id="6169134718" lat="51.5296716" lon="0.1537499" version="1" visible="true"/>
   <node id="318696642" lat="51.5516512" lon="0.0058166" version="4" visible="true"/>
   <node id="2056814714" lat="51.5475483" lon="-0.0865323" version="3" visible="true"/>
@@ -10744,10 +10743,12 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="backward"/>
   </node>
-  <node id="9287381288" lat="51.525154" lon="-0.126792" version="1" visible="true">
+  <node id="9287381288" lat="51.525154" lon="-0.126792" version="2" visible="true">
+    <tag k="kerb" v="lowered"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
+    <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="no"/>
   </node>
   <node id="5610032730" lat="51.5247879" lon="-0.1276237" version="7" visible="true">
@@ -10948,11 +10949,16 @@
     <tag k="traffic_signals:sound" v="no"/>
     <tag k="traffic_signals:vibration" v="yes"/>
   </node>
-  <node id="3079462309" lat="51.522151" lon="-0.1386564" version="3" visible="true">
+  <node id="820319" lat="51.5226168" lon="-0.1376073" version="11" visible="true">
+    <tag k="traffic_calming" v="table"/>
+  </node>
+  <node id="3079462309" lat="51.522151" lon="-0.1386564" version="4" visible="true">
+    <tag k="kerb" v="flush"/>
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
     <tag k="tactile_paving" v="yes"/>
+    <tag k="traffic_calming" v="table"/>
   </node>
   <node id="4368839120" lat="51.5213812" lon="-0.1378758" version="3" visible="true">
     <tag k="was:highway" v="crossing"/>
@@ -24815,25 +24821,6 @@
     <nd ref="4732884275"/>
     <nd ref="10711322667"/>
   </way>
-  <way id="841518206" visible="true" version="2">
-    <tag k="lit" v="yes"/>
-    <tag k="name" v="Choats Road"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
-    <tag k="oneway:bus" v="no"/>
-    <tag k="busway:right" v="lane"/>
-    <tag k="busway:right:oneway" v="-1"/>
-    <tag k="cycleway:right" v="share_busway"/>
-    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
-    <nd ref="4369866896"/>
-    <nd ref="8865878649"/>
-    <nd ref="7851494300"/>
-    <nd ref="7851494293"/>
-    <nd ref="4369865484"/>
-  </way>
   <way id="502884278" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Choats Road"/>
@@ -24852,6 +24839,25 @@
     <nd ref="4369866906"/>
     <nd ref="8865878648"/>
     <nd ref="4369866896"/>
+  </way>
+  <way id="841518206" visible="true" version="2">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Choats Road"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="30 mph"/>
+    <tag k="oneway:bus" v="no"/>
+    <tag k="busway:right" v="lane"/>
+    <tag k="busway:right:oneway" v="-1"/>
+    <tag k="cycleway:right" v="share_busway"/>
+    <tag k="tiger:upload_uuid" v="RWG184945,RWG184944"/>
+    <nd ref="4369866896"/>
+    <nd ref="8865878649"/>
+    <nd ref="7851494300"/>
+    <nd ref="7851494293"/>
+    <nd ref="4369865484"/>
   </way>
   <way id="236185317" visible="true" version="17">
     <tag k="lit" v="yes"/>
@@ -45522,7 +45528,7 @@
     <nd ref="2143540772"/>
     <nd ref="87460181"/>
   </way>
-  <way id="3709270" visible="true" version="41">
+  <way id="3709270" visible="true" version="42">
     <tag k="bus" v="yes"/>
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
@@ -45541,6 +45547,7 @@
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="motorcycle" v="yes"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway:left" v="track"/>
     <tag k="cycleway:right" v="no"/>
     <tag k="cycleway:buffer" v="yes"/>
@@ -51752,7 +51759,7 @@
     <nd ref="6880053761"/>
     <nd ref="6880053744"/>
   </way>
-  <way id="902848240" visible="true" version="4">
+  <way id="902848240" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A200"/>
     <tag k="name" v="Tooley Street"/>
@@ -51762,6 +51769,7 @@
     <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:left:lane" v="exclusive"/>
@@ -53734,7 +53742,7 @@
     <nd ref="8222339306"/>
     <nd ref="227791"/>
   </way>
-  <way id="747181871" visible="true" version="2">
+  <way id="747181871" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A2"/>
     <tag k="name" v="Bricklayers Arms Roundabout"/>
@@ -53747,6 +53755,7 @@
     <tag k="sidewalk" v="separate"/>
     <tag k="wikipedia" v="en:Bricklayers Arms"/>
     <tag k="turn:lanes" v="left|left|right|right|right"/>
+    <tag k="parking:both" v="no"/>
     <tag k="bicycle:lanes" v="yes|yes|designated|yes|yes"/>
     <tag k="cycleway:lanes" v="none|none|lane|none|none"/>
     <tag k="motor_vehicle:lanes" v="yes|yes|no|yes|yes"/>
@@ -54445,7 +54454,7 @@
     <nd ref="1274273782"/>
     <nd ref="8047640321"/>
   </way>
-  <way id="747181872" visible="true" version="4">
+  <way id="747181872" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A2"/>
     <tag k="name" v="Bricklayers Arms Roundabout"/>
@@ -54458,6 +54467,7 @@
     <tag k="sidewalk" v="both"/>
     <tag k="wikipedia" v="en:Bricklayers Arms"/>
     <tag k="turn:lanes" v="left|left|left|right|right|right|right"/>
+    <tag k="parking:both" v="no"/>
     <tag k="bicycle:lanes" v="designated|yes|yes|designated|yes|yes|yes"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:lanes" v="lane|none|none|lane|none|none|none"/>
@@ -55839,15 +55849,17 @@
     <nd ref="96102689"/>
     <nd ref="486477666"/>
   </way>
-  <way id="734642869" visible="true" version="1">
+  <way id="734642869" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3202"/>
     <tag k="name" v="Borough Road"/>
+    <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="primary"/>
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="sidewalk" v="both"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway" v=""/>
     <tag k="cycleway:lane" v="exclusive"/>
@@ -56683,7 +56695,7 @@
     <nd ref="2264574104"/>
     <nd ref="2264552526"/>
   </way>
-  <way id="749104030" visible="true" version="1">
+  <way id="749104030" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
     <tag k="name" v="Elephant and Castle"/>
@@ -56694,6 +56706,7 @@
     <tag k="maxspeed" v="30 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="separate"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway" v="share_busway"/>
     <tag k="tiger:upload_uuid" v="RWG108043"/>
     <nd ref="2180693485"/>
@@ -60324,7 +60337,7 @@
     <nd ref="5658722597"/>
     <nd ref="9785248851"/>
   </way>
-  <way id="849624793" visible="true" version="4">
+  <way id="849624793" visible="true" version="5">
     <tag k="bus" v="yes"/>
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A3"/>
@@ -60344,6 +60357,7 @@
     <tag k="shoulder" v="no"/>
     <tag k="sidewalk" v="separate"/>
     <tag k="motorcycle" v="yes"/>
+    <tag k="parking:both" v="no"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="cycleway:buffer" v="yes"/>
     <tag k="motor_vehicle:conditional" v="no @ (Mo-Fr 07:00-19:00)"/>
