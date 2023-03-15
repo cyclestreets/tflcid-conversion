@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10735835609" lat="51.531044" lon="-0.1193279" version="1" visible="true"/>
+  <node id="10735835608" lat="51.5310992" lon="-0.1193411" version="1" visible="true"/>
   <node id="10731907094" lat="51.5269056" lon="-0.1265314" version="1" visible="true">
     <tag k="traffic_calming" v="table"/>
   </node>
@@ -2176,8 +2178,9 @@
     <tag k="crossing:island" v="yes"/>
   </node>
   <node id="6090298494" lat="51.4129161" lon="-0.2961151" version="3" visible="true"/>
-  <node id="6088723524" lat="51.5310625" lon="-0.1193344" version="4" visible="true">
+  <node id="6088723524" lat="51.5310625" lon="-0.1193344" version="5" visible="true">
     <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="unmarked"/>
     <tag k="tactile_paving" v="yes"/>
     <tag k="crossing:island" v="no"/>
   </node>
@@ -4569,7 +4572,7 @@
   <node id="24665431" lat="51.4823489" lon="0.0015217" version="10" visible="true"/>
   <node id="24660863" lat="51.5120157" lon="-0.0871311" version="3" visible="true"/>
   <node id="24659947" lat="51.5128571" lon="-0.0900394" version="4" visible="true"/>
-  <node id="23051786" lat="51.5309921" lon="-0.1193215" version="13" visible="true"/>
+  <node id="23051786" lat="51.5309937" lon="-0.119296" version="14" visible="true"/>
   <node id="23050095" lat="51.5325172" lon="-0.1195987" version="1" visible="true"/>
   <node id="23050059" lat="51.5320925" lon="-0.1195221" version="3" visible="true"/>
   <node id="21992546" lat="51.5100403" lon="-0.3354601" version="2" visible="true"/>
@@ -14286,6 +14289,41 @@
     <nd ref="5492447663"/>
     <nd ref="5492447668"/>
   </way>
+  <way id="1154366909" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Northdown Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="proposed:highway" v="cycleway"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG003521"/>
+    <nd ref="6088723524"/>
+    <nd ref="10735835609"/>
+    <nd ref="23051786"/>
+  </way>
+  <way id="1154366923" visible="true" version="1">
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Northdown Street"/>
+    <tag k="lanes" v="2"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="maxspeed" v="20 mph"/>
+    <tag k="sidewalk" v="both"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="proposed:highway" v="cycleway"/>
+    <tag k="sidewalk:both:surface" v="paving_stones"/>
+    <tag k="cycleway:left" v="lane"/>
+    <tag k="tiger:upload_uuid" v="RWG003521"/>
+    <nd ref="10735835608"/>
+    <nd ref="6088723524"/>
+  </way>
   <way id="584351058" visible="true" version="10">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Northdown Street"/>
@@ -14314,7 +14352,7 @@
     <nd ref="23050095"/>
     <nd ref="427575188"/>
   </way>
-  <way id="36776003" visible="true" version="13">
+  <way id="36776003" visible="true" version="14">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Northdown Street"/>
     <tag k="lanes" v="2"/>
@@ -14329,8 +14367,7 @@
     <nd ref="23050059"/>
     <nd ref="10275895950"/>
     <nd ref="10275895949"/>
-    <nd ref="6088723524"/>
-    <nd ref="23051786"/>
+    <nd ref="10735835608"/>
   </way>
   <way id="54582253" visible="true" version="3">
     <tag k="lit" v="yes"/>
@@ -15415,12 +15452,13 @@
     <nd ref="1844769502"/>
     <nd ref="25501944"/>
   </way>
-  <way id="24399891" visible="true" version="7">
+  <way id="24399891" visible="true" version="8">
     <tag k="name" v="Morley Street"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway:both" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
@@ -15430,12 +15468,13 @@
     <nd ref="6414252444"/>
     <nd ref="6414252446"/>
   </way>
-  <way id="24399891" visible="true" version="7">
+  <way id="24399891" visible="true" version="8">
     <tag k="name" v="Morley Street"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="cycleway:both" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG082682"/>
@@ -15444,13 +15483,14 @@
     <nd ref="6414252444"/>
     <nd ref="6414252446"/>
   </way>
-  <way id="684591556" visible="true" version="3">
+  <way id="684591556" visible="true" version="4">
     <tag k="name" v="Morley Street"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:both" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:surface:colour" v="green"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
@@ -15459,13 +15499,14 @@
     <nd ref="6414252449"/>
     <nd ref="254339538"/>
   </way>
-  <way id="684591556" visible="true" version="3">
+  <way id="684591556" visible="true" version="4">
     <tag k="name" v="Morley Street"/>
     <tag k="lanes" v="1"/>
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
     <tag k="sidewalk" v="left"/>
+    <tag k="cycleway:both" v="no"/>
     <tag k="cycleway:right" v="lane"/>
     <tag k="cycleway:right:lane" v="exclusive"/>
     <tag k="tiger:upload_uuid" v="RWG082682"/>
