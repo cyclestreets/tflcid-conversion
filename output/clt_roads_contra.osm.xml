@@ -4239,9 +4239,9 @@
     <tag k="traffic_calming" v="table"/>
   </node>
   <node id="71005309" lat="51.5160435" lon="-0.265247" version="4" visible="true"/>
-  <node id="69000346" lat="51.50386" lon="-0.2690043" version="5" visible="true"/>
-  <node id="68999870" lat="51.5035742" lon="-0.2689796" version="4" visible="true"/>
-  <node id="68999638" lat="51.502788" lon="-0.2689839" version="4" visible="true"/>
+  <node id="69000346" lat="51.5038621" lon="-0.2690063" version="6" visible="true"/>
+  <node id="68999870" lat="51.5036268" lon="-0.2689809" version="5" visible="true"/>
+  <node id="68999638" lat="51.5028423" lon="-0.2689423" version="5" visible="true"/>
   <node id="68998629" lat="51.5061265" lon="-0.2743904" version="4" visible="true"/>
   <node id="68998628" lat="51.5063863" lon="-0.2744186" version="5" visible="true"/>
   <node id="68998625" lat="51.506712" lon="-0.2743263" version="5" visible="true">
@@ -10314,7 +10314,7 @@
     <nd ref="6967793132"/>
     <nd ref="21651076"/>
   </way>
-  <way id="941661957" visible="true" version="1">
+  <way id="941661957" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Holmesdale Road"/>
     <tag k="oneway" v="no"/>
@@ -10322,6 +10322,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="ref:GB:usrn" v="21100451"/>
+    <tag k="sidewalk:left" v="separate"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG279033"/>
     <nd ref="6332613826"/>
@@ -10331,7 +10332,7 @@
     <nd ref="5229553602"/>
     <nd ref="82701629"/>
   </way>
-  <way id="941661957" visible="true" version="1">
+  <way id="941661957" visible="true" version="2">
     <tag k="lit" v="yes"/>
     <tag k="name" v="Holmesdale Road"/>
     <tag k="oneway" v="no"/>
@@ -10339,6 +10340,7 @@
     <tag k="surface" v="asphalt"/>
     <tag k="maxspeed" v="20 mph"/>
     <tag k="ref:GB:usrn" v="21100451"/>
+    <tag k="sidewalk:left" v="separate"/>
     <tag k="cycleway:left" v="lane"/>
     <tag k="tiger:upload_uuid" v="RWG279033"/>
     <nd ref="6332613826"/>

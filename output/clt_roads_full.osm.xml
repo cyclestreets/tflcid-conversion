@@ -864,7 +864,7 @@
   <node id="1946796262" lat="51.5918849" lon="-0.3291847" version="5" visible="true"/>
   <node id="3265436680" lat="51.5111311" lon="-0.1056337" version="2" visible="true"/>
   <node id="10043965219" lat="51.5392952" lon="-0.1345823" version="1" visible="true"/>
-  <node id="5226059225" lat="51.5832641" lon="-0.1594268" version="3" visible="true"/>
+  <node id="5226059225" lat="51.5832604" lon="-0.1594355" version="4" visible="true"/>
   <node id="7237219485" lat="51.5208636" lon="-0.2120272" version="1" visible="true"/>
   <node id="9841333768" lat="51.5627328" lon="0.0910219" version="1" visible="true"/>
   <node id="9706866728" lat="51.4709463" lon="-0.107195" version="2" visible="true"/>
@@ -4085,7 +4085,7 @@
   <node id="7091783378" lat="51.4390028" lon="-0.3608079" version="1" visible="true"/>
   <node id="26919572" lat="51.4350651" lon="0.0393714" version="4" visible="true"/>
   <node id="4062569212" lat="51.5714241" lon="-0.1392628" version="1" visible="true"/>
-  <node id="5226059226" lat="51.5831814" lon="-0.1592651" version="3" visible="true"/>
+  <node id="5226059226" lat="51.583166" lon="-0.1592638" version="4" visible="true"/>
   <node id="6993899399" lat="51.3879937" lon="-0.2589446" version="2" visible="true"/>
   <node id="32654173" lat="51.5317992" lon="-0.010201" version="8" visible="true"/>
   <node id="3267209951" lat="51.5077449" lon="-0.4725183" version="2" visible="true"/>
@@ -4624,7 +4624,7 @@
   <node id="3383990534" lat="51.5276983" lon="0.1167934" version="2" visible="true"/>
   <node id="1692431882" lat="51.5203062" lon="-0.0733149" version="5" visible="true"/>
   <node id="4088037427" lat="51.4917912" lon="-0.2192626" version="3" visible="true"/>
-  <node id="9802138642" lat="51.5833858" lon="-0.1596512" version="1" visible="true"/>
+  <node id="9802138642" lat="51.5833758" lon="-0.1596613" version="2" visible="true"/>
   <node id="1365141255" lat="51.5322354" lon="-0.1277104" version="3" visible="true"/>
   <node id="250832020" lat="51.5531732" lon="-0.1514825" version="5" visible="true"/>
   <node id="227847" lat="51.5529436" lon="-0.1515673" version="5" visible="true"/>
@@ -11078,9 +11078,9 @@
     <tag k="crossing_ref" v="pelican"/>
     <tag k="tactile_paving" v="yes"/>
   </node>
-  <node id="3012507361" lat="51.5550741" lon="-0.192471" version="3" visible="true">
+  <node id="3012507361" lat="51.5550741" lon="-0.192471" version="4" visible="true">
     <tag k="highway" v="speed_camera"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
   </node>
   <node id="3664574142" lat="51.5593176" lon="-0.2184683" version="3" visible="true">
     <tag k="bus" v="yes"/>
@@ -11130,9 +11130,9 @@
     <tag k="highway" v="traffic_signals"/>
     <tag k="traffic_signals:direction" v="forward"/>
   </node>
-  <node id="3008411848" lat="51.5476563" lon="-0.1801731" version="4" visible="true">
+  <node id="3008411848" lat="51.5476563" lon="-0.1801731" version="5" visible="true">
     <tag k="highway" v="speed_camera"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
   </node>
   <node id="3007020988" lat="51.5447258" lon="-0.1758747" version="7" visible="true">
     <tag k="highway" v="crossing"/>
@@ -40877,7 +40877,7 @@
     <nd ref="9362890942"/>
     <nd ref="2592872580"/>
   </way>
-  <way id="50840355" visible="true" version="16">
+  <way id="50840355" visible="true" version="17">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A41"/>
     <tag k="foot" v="yes"/>
@@ -40886,7 +40886,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
     <tag k="lanes:psv" v="1"/>
@@ -41002,7 +41002,7 @@
     <nd ref="8948860052"/>
     <nd ref="10065596307"/>
   </way>
-  <way id="297002953" visible="true" version="4">
+  <way id="297002953" visible="true" version="5">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A41"/>
     <tag k="name" v="Finchley Road"/>
@@ -41010,7 +41010,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="shoulder" v="no"/>
     <tag k="sidewalk" v="left"/>
@@ -41030,7 +41030,7 @@
     <nd ref="9406618037"/>
     <nd ref="3007020988"/>
   </way>
-  <way id="296895523" visible="true" version="3">
+  <way id="296895523" visible="true" version="4">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A41"/>
     <tag k="name" v="Finchley Road"/>
@@ -41038,7 +41038,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
     <tag k="lanes:psv" v="1"/>
@@ -42348,7 +42348,7 @@
     <nd ref="8920089563"/>
     <nd ref="9836255027"/>
   </way>
-  <way id="549592474" visible="true" version="2">
+  <way id="549592474" visible="true" version="3">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A41"/>
     <tag k="name" v="Finchley Road"/>
@@ -42356,7 +42356,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="sidewalk" v="left"/>
     <tag k="lanes:psv" v="1"/>
@@ -42579,7 +42579,7 @@
     <nd ref="3093897991"/>
     <nd ref="1722268388"/>
   </way>
-  <way id="296895522" visible="true" version="5">
+  <way id="296895522" visible="true" version="6">
     <tag k="lit" v="yes"/>
     <tag k="ref" v="A41"/>
     <tag k="name" v="Finchley Road"/>
@@ -42587,7 +42587,7 @@
     <tag k="oneway" v="yes"/>
     <tag k="highway" v="trunk"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="maxspeed" v="30 mph"/>
+    <tag k="maxspeed" v="20 mph"/>
     <tag k="operator" v="Transport for London"/>
     <tag k="shoulder" v="no"/>
     <tag k="sidewalk" v="left"/>
