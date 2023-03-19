@@ -139,6 +139,7 @@
   <node id="9216617607" lat="51.5608688" lon="0.1477888" version="3" visible="true"/>
   <node id="9216617606" lat="51.5608973" lon="0.1477715" version="2" visible="true"/>
   <node id="9216617605" lat="51.5609249" lon="0.1477398" version="2" visible="true"/>
+  <node id="9057634243" lat="51.4271786" lon="-0.082196" version="1" visible="true"/>
   <node id="9048055336" lat="51.3742116" lon="0.1024543" version="1" visible="true"/>
   <node id="9033382388" lat="51.4897963" lon="-0.2874008" version="1" visible="true"/>
   <node id="9033382387" lat="51.489655" lon="-0.2871271" version="1" visible="true"/>
@@ -229,6 +230,7 @@
   <node id="6404578644" lat="51.5581319" lon="-0.0394765" version="1" visible="true"/>
   <node id="6404578641" lat="51.5581551" lon="-0.0385983" version="3" visible="true"/>
   <node id="6404578634" lat="51.5581193" lon="-0.0394729" version="2" visible="true"/>
+  <node id="6302460467" lat="51.4259716" lon="-0.0801601" version="1" visible="true"/>
   <node id="6102933334" lat="51.5007447" lon="-0.4238236" version="1" visible="true"/>
   <node id="6091355402" lat="51.4039321" lon="-0.2570071" version="3" visible="true"/>
   <node id="6031770095" lat="51.575951" lon="0.0866536" version="1" visible="true"/>
@@ -283,6 +285,15 @@
   <node id="3126695138" lat="51.491021" lon="0.209645" version="1" visible="true"/>
   <node id="3126695137" lat="51.4909988" lon="0.2095524" version="1" visible="true"/>
   <node id="3126695131" lat="51.4909152" lon="0.2095197" version="1" visible="true"/>
+  <node id="2965707268" lat="51.4267842" lon="-0.0814637" version="2" visible="true"/>
+  <node id="2965707266" lat="51.4266484" lon="-0.08124" version="2" visible="true"/>
+  <node id="2965707265" lat="51.4266248" lon="-0.0812158" version="2" visible="true"/>
+  <node id="2965707261" lat="51.4265123" lon="-0.0810177" version="2" visible="true"/>
+  <node id="2965707258" lat="51.4264187" lon="-0.0808298" version="2" visible="true"/>
+  <node id="2965707251" lat="51.4262722" lon="-0.0804636" version="2" visible="true"/>
+  <node id="2965703831" lat="51.4262058" lon="-0.0802439" version="2" visible="true"/>
+  <node id="2965703827" lat="51.4261742" lon="-0.0802083" version="3" visible="true"/>
+  <node id="2965703823" lat="51.4259645" lon="-0.0801489" version="2" visible="true"/>
   <node id="2926585989" lat="51.5581655" lon="-0.0393448" version="2" visible="true"/>
   <node id="2926585986" lat="51.5581472" lon="-0.0393403" version="2" visible="true"/>
   <node id="2926585985" lat="51.5581224" lon="-0.0393553" version="3" visible="true"/>
@@ -314,6 +325,8 @@
   </node>
   <node id="2534784496" lat="51.5092784" lon="-0.0733721" version="2" visible="true"/>
   <node id="2534784485" lat="51.5092749" lon="-0.0732422" version="2" visible="true"/>
+  <node id="2444395303" lat="51.4261342" lon="-0.0801688" version="4" visible="true"/>
+  <node id="2444395301" lat="51.4261952" lon="-0.0802257" version="4" visible="true"/>
   <node id="2386338813" lat="51.53418" lon="-0.3336242" version="1" visible="true"/>
   <node id="2382770382" lat="51.3814423" lon="-0.0918524" version="1" visible="true"/>
   <node id="2382770377" lat="51.3814022" lon="-0.0919224" version="1" visible="true"/>
@@ -429,6 +442,7 @@
   <node id="61273464" lat="51.5818358" lon="-0.3652228" version="8" visible="true"/>
   <node id="34190669" lat="51.4716163" lon="-0.3218157" version="4" visible="true"/>
   <node id="34190668" lat="51.4718268" lon="-0.3217753" version="3" visible="true"/>
+  <node id="19091863" lat="51.4259633" lon="-0.0800857" version="5" visible="true"/>
   <node id="16473927" lat="51.4459432" lon="-0.419826" version="3" visible="true"/>
   <node id="16473926" lat="51.4457753" lon="-0.4206676" version="1" visible="true"/>
   <node id="16473922" lat="51.4456833" lon="-0.421252" version="2" visible="true"/>
@@ -1555,9 +1569,10 @@
     <nd ref="547323374"/>
     <nd ref="61273464"/>
   </way>
-  <way id="1107089402" visible="true" version="1">
+  <way id="1107089402" visible="true" version="2">
     <tag k="name" v="King's Boulevard"/>
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
@@ -1581,9 +1596,10 @@
     <nd ref="10130227004"/>
     <nd ref="4680881013"/>
   </way>
-  <way id="1107089402" visible="true" version="1">
+  <way id="1107089402" visible="true" version="2">
     <tag k="name" v="King's Boulevard"/>
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
@@ -1607,9 +1623,10 @@
     <nd ref="10130227004"/>
     <nd ref="4680881013"/>
   </way>
-  <way id="1107089402" visible="true" version="1">
+  <way id="1107089402" visible="true" version="2">
     <tag k="name" v="King's Boulevard"/>
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
@@ -1633,9 +1650,10 @@
     <nd ref="10130227004"/>
     <nd ref="4680881013"/>
   </way>
-  <way id="1107089402" visible="true" version="1">
+  <way id="1107089402" visible="true" version="2">
     <tag k="name" v="King's Boulevard"/>
     <tag k="highway" v="footway"/>
+    <tag k="surface" v="paving_stones"/>
     <tag k="bicycle" v="yes"/>
     <tag k="oneway" v="no"/>
     <tag k="segregated" v="no"/>
@@ -1889,6 +1907,31 @@
     <nd ref="10563836821"/>
     <nd ref="9647007941"/>
     <nd ref="105561787"/>
+  </way>
+  <way id="236407047" visible="true" version="9">
+    <tag k="lit" v="yes"/>
+    <tag k="footway" v="sidewalk"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="foot" v="yes"/>
+    <tag k="tiger:upload_uuid" v="RWG207157"/>
+    <nd ref="19091863"/>
+    <nd ref="2965703823"/>
+    <nd ref="6302460467"/>
+    <nd ref="2444395303"/>
+    <nd ref="2965703827"/>
+    <nd ref="2444395301"/>
+    <nd ref="2965703831"/>
+    <nd ref="2965707251"/>
+    <nd ref="2965707258"/>
+    <nd ref="2965707261"/>
+    <nd ref="2965707265"/>
+    <nd ref="2965707266"/>
+    <nd ref="2965707268"/>
+    <nd ref="9057634243"/>
   </way>
   <way id="42637756" visible="true" version="7">
     <tag k="layer" v="1"/>
