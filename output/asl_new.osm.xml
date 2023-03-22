@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="TfL CID Conversion">
+  <node id="10750719117" lat="51.5654669" lon="-0.2774978" version="1" visible="true">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing:markings" v="yes"/>
+  </node>
   <node id="10749232852" lat="51.5514283" lon="0.1138331" version="1" visible="true"/>
   <node id="10724520178" lat="51.4994165" lon="-0.3061815" version="1" visible="true"/>
   <node id="10715995502" lat="51.5284371" lon="-0.2679294" version="1" visible="true"/>
@@ -4801,7 +4806,7 @@
     <tag k="cycleway" v="asl"/>
     <tag k="tiger:upload_uuid" v="RWG293330"/>
   </node>
-  <node id="-162" lat="51.5654725081207" lon="-0.277558263763328" visible="true">
+  <node id="-162" lat="51.5654725203582" lon="-0.277558256873699" visible="true">
     <tag k="cycleway" v="asl"/>
     <tag k="tiger:upload_uuid" v="RWG273693"/>
   </node>
@@ -9068,7 +9073,7 @@
     <nd ref="1372137673"/>
     <nd ref="525051"/>
   </way>
-  <way id="1062409677" visible="true" version="1">
+  <way id="1062409677" visible="true" version="2">
     <tag k="highway" v="primary"/>
     <tag k="lit" v="yes"/>
     <tag k="maxspeed" v="30 mph"/>
@@ -9076,6 +9081,7 @@
     <tag k="ref" v="A4088"/>
     <tag k="source" v="bing;OS_OpenData_StreetView"/>
     <nd ref="526031"/>
+    <nd ref="10750719117"/>
     <nd ref="-162"/>
     <nd ref="9760222010"/>
   </way>
