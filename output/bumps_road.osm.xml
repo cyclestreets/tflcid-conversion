@@ -5658,7 +5658,7 @@
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG242196"/>
   </node>
-  <node id="2435294627" lat="51.5013562" lon="-0.3651803" visible="true" version="4">
+  <node id="2435294627" lat="51.5013195" lon="-0.3652004" visible="true" version="5">
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG242195"/>
   </node>
@@ -8677,7 +8677,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG270197"/>
   </node>
-  <node id="1655084636" lat="51.5757466947747" lon="-0.126385599982407" visible="true" version="7">
+  <node id="1655084636" lat="51.5757466947747" lon="-0.126385599982407" visible="true" version="8">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
@@ -20186,7 +20186,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG171194"/>
   </node>
-  <node id="10282104348" lat="51.5577777947751" lon="0.0738384999897216" visible="true" version="1">
+  <node id="10282104348" lat="51.5577984947751" lon="0.073806699989726" visible="true" version="2">
     <tag k="ref:GB:tflcid" v="RWG170926"/>
     <tag k="traffic_calming" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG170926"/>
@@ -20208,7 +20208,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG169955"/>
   </node>
-  <node id="1576921563" lat="51.5582077947751" lon="0.0747310999895974" visible="true" version="4">
+  <node id="1576921563" lat="51.5582194947751" lon="0.074726699989598" visible="true" version="5">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="uncontrolled"/>
     <tag k="crossing_ref" v="zebra"/>
@@ -21179,7 +21179,7 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG203789"/>
   </node>
-  <node id="1773818662" lat="51.5586736" lon="0.0759256" visible="true" version="3">
+  <node id="1773818662" lat="51.5586729" lon="0.0759533" visible="true" version="4">
     <tag k="traffic_calming" v="yes"/>
     <tag k="tiger:upload_uuid" v="RWG170924"/>
   </node>
@@ -45462,9 +45462,11 @@
     <tag k="traffic_calming" v="hump"/>
     <tag k="tiger:upload_uuid" v="RWG012949"/>
   </node>
-  <node id="6634649498" lat="51.565245794775" lon="-0.0687673999904275" visible="true" version="2">
+  <node id="6634649498" lat="51.565245794775" lon="-0.0687673999904275" visible="true" version="4">
     <tag k="highway" v="crossing"/>
     <tag k="crossing" v="unmarked"/>
+    <tag k="tactile_paving" v="yes"/>
+    <tag k="crossing:island" v="no"/>
     <tag k="traffic_calming" v="cushion"/>
     <tag k="tiger:upload_uuid" v="RWG042029"/>
   </node>

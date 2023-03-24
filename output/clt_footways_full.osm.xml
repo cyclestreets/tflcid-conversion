@@ -879,10 +879,6 @@
   <node id="566309891" lat="51.4813282" lon="-0.3120396" version="3" visible="true"/>
   <node id="566309875" lat="51.4809974" lon="-0.3110724" version="3" visible="true"/>
   <node id="566309867" lat="51.4809308" lon="-0.3105267" version="3" visible="true"/>
-  <node id="563217600" lat="51.5004992" lon="-0.3672815" version="3" visible="true"/>
-  <node id="563216940" lat="51.5005259" lon="-0.3671944" version="3" visible="true">
-    <tag k="barrier" v="gate"/>
-  </node>
   <node id="532726850" lat="51.5174851" lon="-0.3832999" version="3" visible="true"/>
   <node id="532726848" lat="51.5174685" lon="-0.3832731" version="3" visible="true"/>
   <node id="532726847" lat="51.5175171" lon="-0.3832945" version="3" visible="true"/>
@@ -2607,16 +2603,6 @@
     <nd ref="2604200642"/>
     <nd ref="566309875"/>
     <nd ref="566309867"/>
-  </way>
-  <way id="235476324" visible="true" version="1">
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="steps"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="oneway" v="no"/>
-    <tag k="segregated" v="no"/>
-    <tag k="tiger:upload_uuid" v="RWG236700"/>
-    <nd ref="563216940"/>
-    <nd ref="563217600"/>
   </way>
   <way id="10506227" visible="true" version="1">
     <tag k="highway" v="footway"/>
